@@ -1,0 +1,42 @@
+.menu button{
+    font: 230% "BK0010";
+    font-weight: 600;
+    background-color:#FFFF99;
+    border: none;
+}
+.menu a{
+    color:black;
+}
+.container {
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 55%;
+}
+.bok text{
+    color: black;
+    font: 400% "BK0010";
+    font-weight: 900;
+    margin-left: 2%;
+}
+.bok{
+    width: 50%;
+    margin-top: 10%;
+}
+.kartinki img{
+    width: 90%;
+}
+.kartinki button{
+    background-color: #FFFF99;
+    border: none;
+    width: 15%;
+}
+.body{
+    background-color:#FFFF99;
+    background-image: url("../img/matyushkin.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: "BK0010"; 
+    src: url("../ttf/18812.ttf") format("truetype");
+}
