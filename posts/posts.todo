@@ -1,0 +1,7 @@
+  ☐ Make JSON for all publications (csv to JSON?):
+ date, rating, language, tags, type (translation, original)
+  ☐ Parse JSON with JavaScript code
+  ☐ Main tags for meta information
+  ☐ Lemmas for best SEO
+  ☐ Parsing in py-file to make 
+  ☐ Switching between short and long representation (optional), and all and best (optional)
