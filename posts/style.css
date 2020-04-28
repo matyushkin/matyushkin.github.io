@@ -2,7 +2,9 @@
 
 @font-face {
     font-family: 'Computer Modern Sans';
-    src: url('../fonts/cmunss.woff') format('woff');
+    src:
+        local('Computer Modern'),
+        url('../fonts/cmunss.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,8 +15,21 @@ body {
     line-height: normal;
     max-width: 800px;
     margin: 1em;
+}
+
+.light-theme {
     background-color: #ffffdd;
 }
+
+.dark-theme {
+    background-color: #000000;
+    color: #ffffdd;
+}
+
+.dark-theme a:link {
+    color: #ffffdd;
+}
+
 
 h1 {
     font-family: 'Computer Modern Sans', sans-serif;
