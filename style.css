@@ -4,7 +4,7 @@
     font-family: 'Computer Modern Sans';
     src:
         local('Computer Modern'),
-        url('/fonts/cmunss.woff') format('woff');
+        url('fonts/cmunss.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,6 +36,14 @@ h1 {
     font-weight: normal;
     margin-bottom: 5px;
     padding-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Computer Modern Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
 }
 
 ul {
