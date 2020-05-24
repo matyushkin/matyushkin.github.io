@@ -1,0 +1,26 @@
+{
+  "name": "matyushkin.github.io",
+  "version": "0.0.1",
+  "description": "Personal web site by Leo Matyushkin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyushkin/matyushkin.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "page"
+  ],
+  "author": "Leo Matyushkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matyushkin/matyushkin.github.io/issues"
+  },
+  "homepage": "https://github.com/matyushkin/matyushkin.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
