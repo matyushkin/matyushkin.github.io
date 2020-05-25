@@ -1,0 +1,49 @@
+---
+title: Санкт-Петербург
+---
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	{% include head_meta.njk %}
+	{% include head_links.njk %}
+	{% include metrika.njk %}
+	<title>{{ title }}</title>
+</head>
+<body>
+	<header>
+		{% include header.njk %}
+	</header>
+	<main>
+		<section>
+			<p>Это веб-приложение, которое облегчает поиск событий в Санкт-Петербурге, в том числе бесплатных. Сейчас оно находится на черновой стадии.<p>
+			<p>Для того, чтобы воспользоваться приложением, выберите в выбранной ниже форме категорию, число человек и нажмите «Отправить». </p>
+		</section>
+		<section>
+			<form method="post">
+				<div class="persons cards">
+					<div class="person card">
+					<p>Выберите категорию: <select name="person[]">
+						<option>Дошкольник</option>
+						<option>Школьник</option>
+						<option>Кадет</option>
+						<option>Студент</option>
+						<option>Пенсионер</option>
+						<option>Член многодетной семьи</option>
+						<option selected>Взрослый гражданин РФ</option>
+						<option>Иностранец</option>
+					</select></p>
+					<p>Укажите возраст: <input type="number" step="1"></p>
+					<p>Укажите число человек в категории: <input type="number" value="1" min="1" step="1"></p>
+					</div>
+				</div>
+				<p><input type="button" class="add-person-btn" value="➕">
+				<p><input type="submit" value="Отправить"></p>
+			</form>
+		</section>
+	</main>
+	<footer>
+		{% include footer.njk %}
+	</footer>
+	<script src="source/sights.js" async defer></script>
+</body>
+</html>
