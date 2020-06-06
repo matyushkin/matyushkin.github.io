@@ -1,0 +1,186 @@
+{
+    "Яндекс":
+    {
+        "name": "Мероприятия Яндекса",
+        "url": "https://events.yandex.ru/",
+        "func": "yandex",
+        "event_url":
+        {
+            "page": "start",
+            "selectors":
+            {
+
+            }
+        },
+        "reg_url":
+        {
+            "page": "start",
+            "selectors":
+            {
+            	"events-info__registration-button": ["a", "class"]
+            }
+        },
+        "title":
+        {
+            "page": "start",
+            "selectors":
+            {
+
+            }
+        },
+        "date":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "time":
+        {
+            "page": "event",
+            "selectors":
+            {
+            	"events-program-item__time" : ["div", "class"],
+            	"events-info__registration-date" : ["div", "class"],
+            	"EventHeader__address" : ["div", "class"]
+            }
+        },
+        "location":
+        {
+            "page": "event",
+            "selectors":
+            {
+            	"events-info__location" : ["div", "class"]
+            }
+        },
+        "price":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "language":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "themes":
+        {
+        	"page": "event",
+        	"selectors":
+        	{
+        		"events-program-item__talk" : ["div", "class"]
+        	}
+        },
+        "speakers":
+        {
+            "page": "event",
+            "selectors":
+            {
+            	"speaker__name" : ["div", "class"]
+            }
+        },
+        "speakers_companies":
+        {
+            "page": "event",
+            "selectors":
+            {
+            	"speaker__company" : ["div", "class"]
+            }
+        },
+        "online_status": {
+        	"page": "event",
+        	"selectors":
+        	{
+        		"EventHeader__place": ["span", "class"],
+        		"events-info__with-translation" : ["div", "class"],
+        		"events-info__online" : ["div", "class"]
+        	}
+        },
+        "organizer":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "prize":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "tags":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        },
+        "type":
+        {
+            "page": "event",
+            "selectors":
+            {
+
+            }
+        }
+    },
+    "Russian Hackers":
+    {
+        "name": "Russian Hackers",
+        "url": "https://russianhackers.org/"
+    },
+    "Авито":
+    {
+        "name": "События Avito",
+        "url": "https://tech.avito.ru/events/"
+    },
+    "Тинькофф":
+    {
+        "name": "Митапы Тинькофф",
+        "url": "https://meetup.tinkoff.ru/upcoming/"
+    },
+    "IT-Events":
+    {
+        "name": "IT-Events",
+        "url": "https://it-events.com/"
+    },
+    "dev.by":
+    {
+        "name": "ИТ в Беларуси",
+        "url": "https://events.dev.by/"
+    },
+    "DOU":
+    {
+        "name": "Сообщество программистов Украины",
+        "url": "https://dou.ua/calendar/"
+    },
+    "ITVDN":
+    {
+        "name": "ITVDN",
+        "url": "https://itvdn.com/ru/webinars"
+    },
+    "IAMPM":
+    {
+        "name": "IAMPM",
+        "url": "https://events.iampm.club/",
+        "func": "iampm"
+    },
+    "ЦФТ":
+    {
+        "name": "Центр Финансовых Технологий",
+        "url": "https://team.cft.ru/events/",
+        "func": "cft"
+    }
+}

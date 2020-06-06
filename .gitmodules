@@ -1,0 +1,3 @@
+[submodule "11ty/events"]
+	path = 11ty/events
+	url = git@github.com:matyushkin/events.git

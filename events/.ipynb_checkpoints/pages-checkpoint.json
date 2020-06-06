@@ -1,0 +1,17 @@
+{
+	"Яндекс": {
+		"name": "Мероприятия Яндекса",
+		"url": "https://events.yandex.ru/",
+		"func": "yandex"
+	},
+	"IAMPM": {
+		"name": "IAMPM",
+		"url": "https://events.iampm.club/",
+		"func": "iampm"
+	},
+	"ЦФТ": {
+		"name": "Центр Финансовых Технологий",
+		"url":"https://team.cft.ru/events/",
+		"func": "cft"
+	}
+}
