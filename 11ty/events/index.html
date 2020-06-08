@@ -11,16 +11,18 @@ title: Бесплатные IT-мероприятия
 	<title>{{ title }}</title>
 </head>
 <body>
-<header>
+	<header>
 		{% include header.njk %}
 	</header>
-<main>
-<p>На этой странице приведен список мероприятий, собранных <a href="https://github.com/matyushkin/events">специально разработанным парсером</a>. Страница обновляется ежедневно.</p>
-<article class="events"></article>
-</main>
-<footer>
+	<main>
+		<p>На этой странице приведен список IT-мероприятий, собранных <a href="https://github.com/matyushkin/events">специально разработанным парсером</a>. Страница обновляется ежедневно.</p>
+		<article class="events">
+			{% include events.njk %}
+		</article>
+	</main>
+	<footer>
 		{% include footer.njk %}
-</footer>
+	</footer>
 </body>
 </html>
 ​
