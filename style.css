@@ -17,17 +17,31 @@ body {
     margin: 1em;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo {
+    order:-1;
+}
+
 .light-theme {
-    background-color: #ffffdd;
+    background-color: #ffffff;
 }
 
 .dark-theme {
-    background-color: #000000;
+    background-color: #1f1f1f;
     color: #ffffdd;
 }
 
 .dark-theme a:link {
     color: #ffffdd;
+}
+
+.dark-theme a:visited {
+    color: #ffffff;
 }
 
 h1 {
