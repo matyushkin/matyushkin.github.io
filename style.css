@@ -20,17 +20,19 @@ body {
 nav {
     display: flex;
     flex-wrap: none;
-    justify-content: space-between;
+    flex-st
+    justify-content: flex-start;
     align-items: center;
     background-color: #eeeeee;
 }
 
 nav section {
-    margin: 10px;
+    margin-right: auto;
 }
 
 .logo {
     order:-1;
+    padding:10px;
 }
 
 .logo img {
@@ -55,7 +57,7 @@ nav section {
 }
 
 .dark-theme nav {
-    background-color: #111111;
+    background-color: #222222;
 }
 
 h1 {
