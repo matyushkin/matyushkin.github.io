@@ -19,12 +19,19 @@ body {
 
 nav {
     display: flex;
+    flex-wrap: none;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+
 }
+
 
 .logo {
     order:-1;
+}
+
+.logo img {
+    width: 100px;
 }
 
 .light-theme {
