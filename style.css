@@ -22,9 +22,12 @@ nav {
     flex-wrap: none;
     justify-content: space-between;
     align-items: center;
-
+    background-color: #eeeeee;
 }
 
+nav section {
+    margin: 10px;
+}
 
 .logo {
     order:-1;
@@ -39,7 +42,7 @@ nav {
 }
 
 .dark-theme {
-    background-color: #1f1f1f;
+    background-color: #111111;
     color: #ffffdd;
 }
 
@@ -49,6 +52,10 @@ nav {
 
 .dark-theme a:visited {
     color: #ffffff;
+}
+
+.dark-theme nav {
+    background-color: #111111;
 }
 
 h1 {
