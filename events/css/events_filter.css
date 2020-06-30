@@ -1,0 +1,104 @@
+.filters {
+    text-align: left
+}
+
+.filters__list {
+    margin: 10px;
+    background: #eeeeee;
+    border-radius: 10px
+}
+
+
+.filters__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+@media (max-width:911px) {
+    .filters__container {
+        justify-content: center
+    }
+}
+
+.filters__list-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.filters-item {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 10px
+}
+
+.filters-item_yellow {
+    background: #ffdb4d
+}
+
+.filters-item_yellow:hover {
+    background: #ffd633
+}
+
+.filters-item_yellow:not(.filters-item_selected) {
+    border: 1px solid #ffdb4d
+}
+
+.filters-item_theme_simple {
+    margin-bottom: 9px;
+    border: 1px solid #ccc
+}
+
+.filters-item_theme_simple.filters-item_selected {
+    background: #d2cecc
+}
+
+.filters-item_theme_main {
+    margin-top: 15px;
+    padding-right: 15px;
+    background: #eaeaea
+}
+
+.filters-item_theme_main:not(.filters-item_yellow):after {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 18px;
+    content: "";
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 129 129'%3E%3Cpath d='M121.3 34.6c-1.6-1.6-4.2-1.6-5.8 0l-51 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8 0-1.6 1.6-1.6 4.2 0 5.8l53.9 53.9c.8.8 1.8 1.2 2.9 1.2 1 0 2.1-.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2.1-5.8z'/%3E%3C/svg%3E") no-repeat;
+    background-position: 0 3px
+}
+
+.filters-item_selected:after {
+    background-position: 0 -1px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+
+.filter-hidden {
+    display: none;
+}
+
+.filter-selected {
+    background: #ffd633
+}
+
+.event {
+    background-color: #efefef;
+    border-radius: 10px;
+    margin:10px;
+    padding:20px;
+}
