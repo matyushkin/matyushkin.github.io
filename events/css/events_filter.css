@@ -96,6 +96,10 @@
     background: #ffd633
 }
 
+.filter-pseudoselected {
+    background: #ffd633
+}
+
 .event {
     background-color: #efefef;
     border-radius: 10px;
