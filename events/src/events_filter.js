@@ -17,11 +17,10 @@ map.set(month_button, month_container);
 map.set(location_button, location_container);
 
 function containers_switcher(button) {
+    /* Показывает текущий контейнер тегов, скрывая остальные */
     let other_buttons = selected_buttons.filter(function(e) {return e !== button});
-    // Если кнопка была выбрана ранее
     if (button.classList.contains("filters-item_selected")) {
         map.get(button).classList.add("filter-hidden");
-        // Снимаем класс
         button.classList.remove("filters-item_selected");
     } else {
         for (other_button of other_buttons) {
@@ -41,6 +40,7 @@ for (let button of selected_buttons) {
 }
 
 function select_cards (tags) {
+    /* Находит карточки, соответствующие тегам */
     for (let elem of document.querySelectorAll('.event')) {
         let data_tag_string = elem.getAttribute('data-tags');
         let cnt = 0;
@@ -64,12 +64,18 @@ function corresponding_events_cards(button) {
         btn.onclick = function() {
             btn.classList.toggle('filter-selected');
             let btns_selected = document.querySelectorAll('.filter-selected');
-            let tags_selected = [];
-            for (let btn_selected of btns_selected) {
-                let tag = btn_selected.textContent;
-                tags_selected.push(tag);
+            if (btns_selected.length > 0) {
+                let tags_selected = [];
+                for (let btn_selected of btns_selected) {
+                    let tag = btn_selected.textContent;
+                    tags_selected.push(tag);
+                }
+                select_cards(tags_selected);
+            } else {
+                for (let elem of document.querySelectorAll('.event')) {
+                    elem.classList.remove('filter-hidden');
+                }
             }
-            select_cards(tags_selected);
         }
     }
 }
