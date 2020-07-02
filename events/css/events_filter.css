@@ -71,7 +71,7 @@
     background: #eaeaea
 }
 
-.filters-item_theme_main:not(.filters-item_yellow):after {
+.filters-item_theme_main:not(.filter-price):after {
     display: inline-block;
     width: 14px;
     height: 14px;
