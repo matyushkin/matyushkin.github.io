@@ -1,3 +1,14 @@
+/*
+TODO: 
+- Отталкиваемся от карточек: функция соответствия всем условиям текущих выбранных кнопок:
+- Если хотя бы один из тегов есть, хотя бы одна из локаций, соответствует месяц, цена и тип - удаляем filter-hidden
+- Ближайшие это все
+- Вместо filter-hidden более правильно: просто hidden
+
+*/
+
+
+
 console.log("Hi! I'm here!");
 
 let tags_button = document.querySelector('.filters-item_theme_main.filter-tag');
@@ -49,6 +60,8 @@ function select_cards (tags) {
                 cnt += 1;
             }
         }
+        // !!! Сюда можно добавить проверки на соответствие остальным условиям
+        // В вызывающей функции можно сделать разделение по блокам
         if (cnt == 0) {
             elem.classList.add('filter-hidden');
         } else {
