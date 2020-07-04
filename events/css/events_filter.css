@@ -1,15 +1,10 @@
-.filters {
+/* Родительский контейнер фильтра */
+.filter {
     text-align: left
 }
 
-.filters__list {
-    margin: 10px;
-    background: #eeeeee;
-    border-radius: 10px
-}
-
-
-.filters__container {
+/* Контейнер блока с вкладками или кнопками*/
+.filter__container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -20,12 +15,22 @@
 
 
 @media (max-width:911px) {
-    .filters__container {
+    .filter__container {
         justify-content: center
     }
 }
 
-.filters__list-items {
+
+/* Список контейнеров для различных вкладок */
+.filter__list {
+    margin: 10px;
+    background: #eeeeee;
+    border-radius: 10px
+}
+
+
+/* Контейнер для фильтров */
+.filter__list__items {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -33,7 +38,9 @@
     padding: 20px;
 }
 
-.filters-item {
+
+/* Элемента фильтра: вкладка или кнопка фильтра */
+.filter__item {
     margin-right: 10px;
     padding: 10px 20px;
     cursor: pointer;
@@ -44,34 +51,19 @@
     border-radius: 10px
 }
 
-.filters-item_yellow {
-    background: #ffdb4d
-}
 
-.filters-item_yellow:hover {
-    background: #ffd633
-}
 
-.filters-item_yellow:not(.filters-item_selected) {
-    border: 1px solid #ffdb4d
-}
 
-.filters-item_theme_simple {
-    margin-bottom: 9px;
-    border: 1px solid #ccc
-}
-
-.filters-item_theme_simple.filters-item_selected {
-    background: #d2cecc
-}
-
-.filters-item_theme_main {
+/* Фильтр-вкладка */
+.filter__tab {
     margin-top: 15px;
     padding-right: 15px;
     background: #eaeaea
 }
 
-.filters-item_theme_main:not(.filter-price):after {
+
+/* Для вкладок добавляем svg-стрелки */
+.filter__tab:not(.filter__tab--price):after {
     display: inline-block;
     width: 14px;
     height: 14px;
@@ -81,22 +73,24 @@
     background-position: 0 3px
 }
 
-.filters-item_selected:after {
+/* Переворачиваем у вкладок изображение*/
+.filter__tab--selected:after {
     background-position: 0 -1px;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
 
-.filter-hidden {
-    display: none;
+/* Фильтр-кнопка */
+.filter__button {
+    margin-bottom: 9px;
+    border: 1px solid #ccc
 }
 
-.filter-selected {
-    background: #ffd633
-}
 
-.filter-pseudoselected {
+/* Выбранная кнопка */
+.filter__button--selected,
+.filter__button--online {
     background: #ffd633
 }
 
@@ -105,4 +99,8 @@
     border-radius: 10px;
     margin:10px;
     padding:20px;
+}
+
+[hidden] {
+    display: none
 }
