@@ -30,6 +30,15 @@ let tc_map = new Map([
     [type_tab,  type_cont]
 ]);
 
+// Сопоставим контейнеры и дата-атрибуты событий
+let cd_map = new Map([
+    [tag_cont, 'data-tags'],
+    [month_cont, 'data-month'],
+    [loc_cont, 'data-online'],
+    [type_cont, 'data-types'],
+    [price_btn, 'data-price']
+]);
+
 
 function switch_containers(active_tab) {
     /* Показывает контейнер активной вкладки, скрывая остальные контейнеры */
@@ -70,7 +79,8 @@ function check_btns(event, cont) {
         filter_tags.push(tag.textContent);
     }
     
-    event_tags = event.dataset.tags.split(', ');
+
+    event_tags = event.getAttribute(cd_map.get(cont)).split(', ');
     let intersection = intersect(filter_tags, event_tags);
     return intersection.length;
 }
@@ -97,7 +107,8 @@ function update_events() {
     for (let event of events) {
         let tags_int = check_btns(event, tag_cont);
         let month_int = check_btns(event, month_cont);
-        let filter_result = tags_int & month_int;
+        let type_int = check_btns(event, type_cont)
+        let filter_result = tags_int & month_int & type_int;
         
         if (filter_result > 0) {
                 event.hidden = false;
