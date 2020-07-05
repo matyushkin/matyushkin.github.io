@@ -4,12 +4,7 @@
 
 
 TODO: 
-- Вкладки фильтров не складываются обратно
-- Отталкиваемся от карточек: функция соответствия всем условиям текущих выбранных кнопок:
-- Если хотя бы один из тегов есть, хотя бы одна из локаций, соответствует месяц, цена и тип - удаляем filter-hidden
-- Ближайшие это все
-- Вместо filter-hidden более правильно: просто hidden
-
+- Сделать обработку для месяцев, включая позже и бесконечность
 */
 
 // Перечислим вкладки фильтров
@@ -23,7 +18,6 @@ let [tag_cont, month_cont, loc_cont, type_cont] = containers;
 
 // Найдем карточки событий
 let events = document.querySelectorAll('.event');
-
 
 // Сопоставим между собой вкладки и контейнеры
 let tc_map = new Map([
@@ -53,39 +47,63 @@ function switch_containers(active_tab) {
 }
 
 function intersect(a, b) {
-    // Вспомогатеьная функция поиска пересечения массивов
+    // Вспомогательная функция поиска пересечения массивов
     return a.filter(Set.prototype.has, new Set(b));
 }
 
-function check_tags(event) {
+
+function check_btns(event, cont) {
+    /* Находит число пересечений кнопок контейнера и информаций о событии*/
     let filter_tags = [];
     let event_tags = [];
     
     // Проверяем выбранные теги
-    let filter_tags_selected = tag_cont.querySelectorAll('.filter__button--selected:not(.filter__button--all)');
-    if (filter_tags_selected.length == 0) {
-        // Если не выбрано ни одного тега, значит выбраны все
-       filter_tags_selected = tag_cont.querySelectorAll('.filter__button:not(.filter__button--all)');
-    }
+    let filter_tags_selected = cont.querySelectorAll('.filter__button--selected:not(.filter__button--all)');
+    // Если не выбрано ни одного тега, значит выбраны все
+    if (filter_tags_selected.length == 0) {return 1;}
 
+    // В обратном случае проверяем пересечение
     for (let tag of filter_tags_selected) {
         filter_tags.push(tag.textContent);
     }
     
     event_tags = event.dataset.tags.split(', ');
-    intersection = intersect(filter_tags, event_tags);
-    if (intersection.length == 0) {
-        event.hidden = true;
-    } else {
-        event.hidden = false;
+    let intersection = intersect(filter_tags, event_tags);
+    return intersection.length;
+}
+
+
+function write_msg_if_events_block_is_empty() {
+    /* Проверяет,  отображаются ли сейчас хоть какие-то мероприятия */
+    let cnt = 0;
+    for (let event of events) {
+        if (event.hidden == false) {
+            cnt += 1;
+        }
     }
+    if (cnt == 0) {
+        let x = document.createElement('div');
+        x.setAttribute('class', 'message');
+        x.innerHTML = '<p>К сожалению, для выбранных фильтров пока нет ни одного подходящего мероприятия.</p>';
+        document.querySelector('article').appendChild(x);
+    } else {
+        document.querySelector('.message').remove();
+    };
 }
 
 
 function update_events() {
     /* Проверяет карточку события на соответствие выбранным фильтрам */
     for (let event of events) {
-        check_tags(event);
+        let tags_int = check_btns(event, tag_cont);
+        let month_int = check_btns(event, month_cont);
+        let filter_result = tags_int & month_int;
+        
+        if (filter_result > 0) {
+                event.hidden = false;
+            } else {
+                event.hidden = true;
+        }
     }
 }
 
@@ -123,6 +141,7 @@ function update_btns(cont) {
             }
             // Фильтры обновлены -- нужно обновить и страницу
             update_events();
+            write_msg_if_events_block_is_empty();
         }
     }
 }
@@ -143,40 +162,3 @@ function main() {
 
 
 main();
-
-// function select_cards (tags) {
-//         let data_tag_string = elem.getAttribute('data-tags');
-//         let cnt = 0;
-//         for (let tag of tags) {
-//             if (data_tag_string.indexOf(tag) >=0) {
-//                 cnt += 1;
-//             }
-//         }
-//         // !!! Сюда можно добавить проверки на соответствие остальным условиям
-//         // В вызывающей функции можно сделать разделение по блокам
-//         if (cnt == 0) {
-//             elem.hidden = true;
-//         } else {
-//             elem.hidden = false;
-//         }
-//     }
-// }
-
-// function corresponding_events_cards(button) {
-//             
-//             let btns_selected = document.querySelectorAll('.filter-selected');
-//             if (btns_selected.length > 0) {
-//                 let tags_selected = [];
-//                 for (let btn_selected of btns_selected) {
-//                     let tag = btn_selected.textContent;
-//                     tags_selected.push(tag);
-//                 }
-//                 select_cards(tags_selected);
-//             } else {
-//                 for (let elem of document.querySelectorAll('.event')) {
-//                     elem.classList.hidden = false;
-//                 }
-//             }
-//         }
-//     }
-// }
