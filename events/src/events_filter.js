@@ -19,6 +19,9 @@ let [tag_cont, month_cont, loc_cont, type_cont] = containers;
 // Найдем карточки событий
 let events = document.querySelectorAll('.event');
 
+// Сообщение в случае, если нет ни одного подходящего мероприятия
+let filter_msg = document.querySelector('.filter__msg');
+
 // Сопоставим между собой вкладки и контейнеры
 let tc_map = new Map([
     [tag_tab,   tag_cont],
@@ -82,13 +85,10 @@ function write_msg_if_events_block_is_empty() {
         }
     }
     if (cnt == 0) {
-        let x = document.createElement('div');
-        x.setAttribute('class', 'message');
-        x.innerHTML = '<p>К сожалению, для выбранных фильтров пока нет ни одного подходящего мероприятия.</p>';
-        document.querySelector('article').appendChild(x);
+        filter_msg.hidden = false;
     } else {
-        document.querySelector('.message').remove();
-    };
+        filter_msg.hidden = true;
+    }
 }
 
 
