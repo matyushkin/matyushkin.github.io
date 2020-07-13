@@ -1,91 +1,175 @@
 /*
-TODO: 
-- Отталкиваемся от карточек: функция соответствия всем условиям текущих выбранных кнопок:
-- Если хотя бы один из тегов есть, хотя бы одна из локаций, соответствует месяц, цена и тип - удаляем filter-hidden
-- Ближайшие это все
-- Вместо filter-hidden более правильно: просто hidden
+Обрабатывает выбранные фильтры для того, чтобы отобразить 
+соответствующие карточки мероприятий.
 
+
+TODO: 
+- Сделать обработку для месяцев, включая позже и бесконечность
 */
 
+// Перечислим вкладки фильтров
+let tabs = document.querySelectorAll('.filter__tab');
+let [tag_tab, month_tab, loc_tab, type_tab, price_btn] = tabs;
+tabs = [tag_tab, month_tab, loc_tab, type_tab];
 
-let tags_button = document.querySelector('.filters-item_theme_main.filter-tag');
-let month_button = document.querySelector('.filters-item_theme_main.filter-month');
-let location_button = document.querySelector('.filters-item_theme_main.filter-location');
+// Перечислим контейнеры, соответствующие вкладкам фильтров
+let containers = document.querySelector('.filter__list').childNodes;
+let [tag_cont, month_cont, loc_cont, type_cont] = containers;
 
-let filters__list = document.querySelector('.filters__list');
-let tags_container = filters__list.querySelector('.filter-tag');
-let month_container = filters__list.querySelector('.filter-month');
-let location_container = filters__list.querySelector('.filter-location');
+// Найдем карточки событий
+let events = document.querySelectorAll('.event');
 
-let selected_buttons = [tags_button, month_button, location_button];
+// Сообщение в случае, если нет ни одного подходящего мероприятия
+let filter_msg = document.querySelector('.filter__msg');
 
-map = new Map();
-map.set(tags_button, tags_container);
-map.set(month_button, month_container);
-map.set(location_button, location_container);
+// Сопоставим между собой вкладки и контейнеры
+let tc_map = new Map([
+    [tag_tab,   tag_cont],
+    [month_tab, month_cont],
+    [loc_tab,   loc_cont],
+    [type_tab,  type_cont]
+]);
 
-function containers_switcher(button) {
-    /* Показывает текущий контейнер тегов, скрывая остальные */
-    let other_buttons = selected_buttons.filter(function(e) {return e !== button});
-    if (button.classList.contains("filters-item_selected")) {
-        map.get(button).hidden = true;
-        button.classList.remove("filters-item_selected");
+// Сопоставим контейнеры и дата-атрибуты событий
+let cd_map = new Map([
+    [tag_cont, 'data-tags'],
+    [month_cont, 'data-month'],
+    [loc_cont, 'data-online'],
+    [type_cont, 'data-types'],
+    [price_btn, 'data-price']
+]);
+
+
+function switch_containers(active_tab) {
+    /* Показывает контейнер активной вкладки, скрывая остальные контейнеры */
+    let not_active_tabs = tabs.filter(function(e) {return e !== active_tab});
+    // Если вкладка уже была выбрана раньше, скрываем контейнер и сворачиваем вкладку
+    if (active_tab.classList.contains("filter__tab--selected")) {
+        tc_map.get(active_tab).hidden = true;
+        active_tab.classList.remove("filter__tab--selected");
     } else {
-        for (other_button of other_buttons) {
-            map.get(other_button).hidden = true;
-            other_button.classList.remove("filters-item_selected");
+    // Если вкладка раньше не выбиралась, сворачиваем остальные контейнеры и раскрываем нужный
+        for (let not_active_tab of not_active_tabs) {
+            tc_map.get(not_active_tab).hidden = true;
+            not_active_tab.classList.remove("filter__tab--selected");
         }
-        map.get(button).hidden = false;
-        button.classList.add("filters-item_selected");
-        corresponding_events_cards(button);        
+        tc_map.get(active_tab).hidden = false;
+        active_tab.classList.add("filter__tab--selected");
     }
 }
 
-for (let button of selected_buttons) {
-    button.onclick = function() {
-        containers_switcher(button);
-    };
+function intersect(a, b) {
+    // Вспомогательная функция поиска пересечения массивов
+    return a.filter(Set.prototype.has, new Set(b));
 }
 
-function select_cards (tags) {
-    /* Находит карточки, соответствующие тегам */
-    for (let elem of document.querySelectorAll('.event')) {
-        let data_tag_string = elem.getAttribute('data-tags');
-        let cnt = 0;
-        for (let tag of tags) {
-            if (data_tag_string.indexOf(tag) >=0) {
-                cnt += 1;
-            }
+
+function check_btns(event, cont) {
+    /* Находит число пересечений кнопок контейнера и информаций о событии*/
+    let filter_tags = [];
+    let event_tags = [];
+    
+    // Проверяем выбранные теги
+    let filter_tags_selected = cont.querySelectorAll('.filter__button--selected:not(.filter__button--all)');
+    // Если не выбрано ни одного тега, значит выбраны все
+    if (filter_tags_selected.length == 0) {return 1;}
+
+    // В обратном случае проверяем пересечение
+    for (let tag of filter_tags_selected) {
+        filter_tags.push(tag.textContent);
+    }
+    
+
+    event_tags = event.getAttribute(cd_map.get(cont)).split(', ');
+    let intersection = intersect(filter_tags, event_tags);
+    return intersection.length;
+}
+
+
+function write_msg_if_events_block_is_empty() {
+    /* Проверяет,  отображаются ли сейчас хоть какие-то мероприятия */
+    let cnt = 0;
+    for (let event of events) {
+        if (event.hidden == false) {
+            cnt += 1;
         }
-        // !!! Сюда можно добавить проверки на соответствие остальным условиям
-        // В вызывающей функции можно сделать разделение по блокам
-        if (cnt == 0) {
-            elem.hidden = true;
-        } else {
-            elem.hidden = false;
-        }
+    }
+    if (cnt == 0) {
+        filter_msg.hidden = false;
+    } else {
+        filter_msg.hidden = true;
     }
 }
 
-function corresponding_events_cards(button) {
-    container = map.get(button);
-    btns = container.querySelectorAll('.filters-item_theme_simple');
-    for (let btn of btns) {
-        btn.onclick = function() {
-            btn.classList.toggle('filter-selected');
-            let btns_selected = document.querySelectorAll('.filter-selected');
-            if (btns_selected.length > 0) {
-                let tags_selected = [];
-                for (let btn_selected of btns_selected) {
-                    let tag = btn_selected.textContent;
-                    tags_selected.push(tag);
-                }
-                select_cards(tags_selected);
+
+function update_events() {
+    /* Проверяет карточку события на соответствие выбранным фильтрам */
+    for (let event of events) {
+        let tags_int = check_btns(event, tag_cont);
+        let month_int = check_btns(event, month_cont);
+        let type_int = check_btns(event, type_cont)
+        let filter_result = tags_int & month_int & type_int;
+        
+        if (filter_result > 0) {
+                event.hidden = false;
             } else {
-                for (let elem of document.querySelectorAll('.event')) {
-                    elem.classList.hidden = false;
-                }
-            }
+                event.hidden = true;
         }
     }
 }
+
+
+
+function update_btns(cont) {
+    /* Обработка нажатий на кнопки фильтров */
+    let btns = cont.querySelectorAll(".filter__button");
+    let all_btn = cont.querySelector('.filter__button--all');
+
+    for (let btn of btns) {
+        btn.onclick = function() {  
+            let common_btns = cont.querySelectorAll('.filter__button:not(.filter__button--all)');
+            if (btn == all_btn) {
+                // Нажатие кнопки с модификатором all отжимает остальные кнопки
+                for (let common_btn of common_btns) {
+                    common_btn.classList.remove('filter__button--selected');
+                }
+                all_btn.classList.add('filter__button--selected');
+            }
+            else {
+                if (btn.classList.contains('filter__button--selected')) {
+                    // Кнопка была нажата -- отжимаем
+                    btn.classList.remove('filter__button--selected');
+                } else {
+                    // Кнопка не была нажата -- нажимаем, отжимаем кнопку all
+                    btn.classList.add('filter__button--selected')                    
+                    all_btn.classList.remove('filter__button--selected');
+                }
+                // Если все кнопки отжаты, кнопка all должна зажаться
+                let common_btns_selected = cont.querySelectorAll('.filter__button--selected:not(.filter__button--all)');
+                if (common_btns_selected.length == 0) {
+                    all_btn.classList.add('filter__button--selected');
+                }
+            }
+            // Фильтры обновлены -- нужно обновить и страницу
+            update_events();
+            write_msg_if_events_block_is_empty();
+        }
+    }
+}
+
+
+function main() {
+    for (let tab of tabs) {
+        tab.onclick = function() {
+            switch_containers(tab);
+        };
+    }
+
+    for (let cont of containers) {
+        update_btns(cont);
+    }
+    
+}
+
+
+main();

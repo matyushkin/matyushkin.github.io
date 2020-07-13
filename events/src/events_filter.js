@@ -34,7 +34,7 @@ let tc_map = new Map([
 let cd_map = new Map([
     [tag_cont, 'data-tags'],
     [month_cont, 'data-month'],
-    [loc_cont, 'data-online'],
+    [loc_cont, 'data-loc'],
     [type_cont, 'data-types'],
     [price_btn, 'data-price']
 ]);
@@ -107,8 +107,10 @@ function update_events() {
     for (let event of events) {
         let tags_int = check_btns(event, tag_cont);
         let month_int = check_btns(event, month_cont);
-        let type_int = check_btns(event, type_cont)
-        let filter_result = tags_int & month_int & type_int;
+        let type_int = check_btns(event, type_cont);
+        let loc_int = check_btns(event, loc_cont);
+
+        let filter_result = tags_int & month_int & type_int & loc_int;
         
         if (filter_result > 0) {
                 event.hidden = false;
