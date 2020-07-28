@@ -86,6 +86,19 @@ function check_btns(event, cont) {
 }
 
 
+function check_price_btn(event) {
+    let price_btn = document.querySelector('.filter__tab--price');
+    console.log(price_btn);
+    if ((event.dataset.price == 0) && (price_btn.textContent == 'Бесплатно')) {
+        return 1;
+    } else if ((event.dataset.price != 0) && (price_btn.textContent != 'Бесплатно')) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+
 function write_msg_if_events_block_is_empty() {
     /* Проверяет,  отображаются ли сейчас хоть какие-то мероприятия */
     let cnt = 0;
@@ -109,8 +122,9 @@ function update_events() {
         let month_int = check_btns(event, month_cont);
         let type_int = check_btns(event, type_cont);
         let loc_int = check_btns(event, loc_cont);
+        let price_int = check_price_btn(event);
 
-        let filter_result = tags_int & month_int & type_int & loc_int;
+        let filter_result = tags_int & month_int & type_int & loc_int & price_int;
         
         if (filter_result > 0) {
                 event.hidden = false;
@@ -170,7 +184,15 @@ function main() {
     for (let cont of containers) {
         update_btns(cont);
     }
-    
+
+    price_btn.onclick = function() {
+        if (price_btn.innerHTML === "Бесплатно") {
+            price_btn.innerHTML = "За деньги";
+        } else {
+            price_btn.innerHTML = "Бесплатно";
+        }
+        update_events();
+    };
 }
 
 
