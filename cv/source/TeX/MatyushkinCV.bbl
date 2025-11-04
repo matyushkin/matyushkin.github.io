@@ -1,0 +1,1278 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{ynt/global}
+    \entry{Bogachev2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=abf07288d0eeb64cbf72deb8551387e5}{%
+           family={Bogachev},
+           family_i={B\bibinitperiod},
+           given={Yu.\bibnamedelimi V.},
+           given_i={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=0ae8100df7f09a7b765eafbb977bc259}{%
+           family={Gareev},
+           family_i={G\bibinitperiod},
+           given={K.\bibnamedelimi G.},
+           given_i={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=9ec49b0f0cadfef15dc77119b7445b46}{%
+           family={Naumova},
+           family_i={N\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           given_i={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0ab339513b51d0503e9e62980a00bfa3}
+      \strng{fullhash}{0ab339513b51d0503e9e62980a00bfa3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of the Solid State}
+      \field{langid}{english}
+      \field{number}{12}
+      \field{title}{Study of magnetite nanoparticle suspensions by photometry and NMR relaxometry}
+      \field{volume}{55}
+      \field{year}{2013}
+      \field{pages}{2431\bibrangedash 2435}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1134/S106378341312007X
+      \endverb
+    \endentry
+    \entry{Bogachev2014}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=abf07288d0eeb64cbf72deb8551387e5}{%
+           family={Bogachev},
+           family_i={B\bibinitperiod},
+           given={Yu.\bibnamedelimi V.},
+           given_i={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=2773bc56946865b7c8ca6ead31543c66}{%
+           family={Chernenco},
+           family_i={C\bibinitperiod},
+           given={Ju.\bibnamedelimi S.},
+           given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=0ae8100df7f09a7b765eafbb977bc259}{%
+           family={Gareev},
+           family_i={G\bibinitperiod},
+           given={K.\bibnamedelimi G.},
+           given_i={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=8c61fbd9392399385f6fd7526420b27c}{%
+           family={Kononova},
+           family_i={K\bibinitperiod},
+           given={I.\bibnamedelimi E.},
+           given_i={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=eee4a71e68dbd58403ecf5a0b51787be}{%
+           family={Nalimova},
+           family_i={N\bibinitperiod},
+           given={S.\bibnamedelimi S.},
+           given_i={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3a3ea4d949197617acc669aca1f9688}
+      \strng{fullhash}{e3a3ea4d949197617acc669aca1f9688}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Magnetic Resonance}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{title}{The Study of Aggregation Processes in Colloidal Solutions of Magnetite--Silica Nanoparticles by NMR Relaxometry, AFM, and UV--Vis-Spectroscopy}
+      \field{volume}{45}
+      \field{year}{2014}
+      \field{pages}{329\bibrangedash 337}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s00723-014-0525-7
+      \endverb
+    \endentry
+    \entry{Tarasov2014}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=34da6705ccc68c2a089abd85f9ccdf67}{%
+           family={Tarasov},
+           family_i={T\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           given_i={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=d0abd2bda08664098ba29ebab4b3b32b}{%
+           family={Maksimov},
+           family_i={M\bibinitperiod},
+           given={A.\bibnamedelimi I.},
+           given_i={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=1,hash=5d6f1fec657a75c91e66b85d397444d1}{%
+           family={Maraeva},
+           family_i={M\bibinitperiod},
+           given={E.\bibnamedelimi V.},
+           given_i={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b5a6d3cda57e0af710b1c0e526352d01}{%
+           family={Men’kovich},
+           family_i={M\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           given_i={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=af7ed6fa48178a281a338ffc98578c8a}{%
+           family={Musikhin},
+           family_i={M\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{08c82057d425237df2cadc3c92591b3f}
+      \strng{fullhash}{08c82057d425237df2cadc3c92591b3f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semiconductors}
+      \field{langid}{english}
+      \field{number}{13}
+      \field{title}{Study of the self-organization processes in lead sulfide quantum dots}
+      \field{volume}{48}
+      \field{year}{2014}
+      \field{pages}{1729\bibrangedash 1731}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1134/S1063782614130132
+      \endverb
+    \endentry
+    \entry{Matyushkin2016}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=59520fdf905e3fdc4833f8a12d1b829b}{%
+           family={Ryzhov},
+           family_i={R\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cc8af21f144eb6bb2339fea1d2fcc087}
+      \strng{fullhash}{cc8af21f144eb6bb2339fea1d2fcc087}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semiconductors}
+      \field{langid}{english}
+      \field{number}{6}
+      \field{title}{Synthesis of metal and semiconductor nanoparticles in a flow of immiscible liquids}
+      \field{volume}{50}
+      \field{year}{2016}
+      \field{pages}{844\bibrangedash 847}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1134/S1063782616060166
+      \endverb
+    \endentry
+    \entry{Aleshin2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,hash=f4a06c46e48bd8bc9ab17901949b211d}{%
+           family={Aleshin},
+           family_i={A\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           given_i={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=d8cc39324362ab2191725a89b4acf264}{%
+           family={Shcherbakov},
+           family_i={S\bibinitperiod},
+           given={I.\bibnamedelimi P.},
+           given_i={I\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=fe81dc95695faf71807ea63080659469}{%
+           family={Gushchina},
+           family_i={G\bibinitperiod},
+           given={E.\bibnamedelimi V.},
+           given_i={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5185cc88e32c54bda7e53d0a27c55bac}
+      \strng{fullhash}{5185cc88e32c54bda7e53d0a27c55bac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organic Electronics}
+      \field{langid}{english}
+      \field{title}{Solution-processed field-effect transistors based on polyfluorene--cesium lead halide nanocrystals composite films with small hysteresis of output and transfer characteristics}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{213\bibrangedash 219}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.orgel.2017.08.004
+      \endverb
+    \endentry
+    \entry{Andronov2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,hash=91f9c0199503f884153004a7b12f52ef}{%
+           family={Andronov},
+           family_i={A\bibinitperiod},
+           given={A.\bibnamedelimi O.},
+           given_i={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=f1ff014d235964ae9cd7999d6539f2b3}{%
+           family={Khondryukov},
+           family_i={K\bibinitperiod},
+           given={D.\bibnamedelimi V.},
+           given_i={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=e3fc07a628b8208795570dce81d8eb6f}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={A.\bibnamedelimi O.},
+           given_i={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3eb3807d6cc5592013d9522d6ee05807}
+      \strng{fullhash}{3eb3807d6cc5592013d9522d6ee05807}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instruments and Experimental Techniques}
+      \field{langid}{english}
+      \field{number}{6}
+      \field{title}{An automatic apparatus for the preparation of thin films by successive ionic layer deposition}
+      \field{volume}{60}
+      \field{year}{2017}
+      \field{pages}{888\bibrangedash 891}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1134/S0020441217050141
+      \endverb
+      \verb{file}
+      \verb :home/leo/Yandex.Disk/Publications/Papers/2017 - Andronov, Matyushkin - SILD.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Matyushkin2017a}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cbfd9ab95f3de50ad04f611c5501bf5d}
+      \strng{fullhash}{cbfd9ab95f3de50ad04f611c5501bf5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glass Physics and Chemistry}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{A device for measuring the scattering indicatrix of the nanomaterial synthesis process}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{263\bibrangedash 266}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1134/S1087659617030063
+      \endverb
+    \endentry
+    \entry{Matyushkin2017b}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=791b14afdc3827c191af0004fd8f8427}{%
+           family={Ken},
+           family_i={K\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           given_i={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=f4cdf1a8cf7acc31ac13286ed13c4bde}{%
+           family={Spivak},
+           family_i={S\bibinitperiod},
+           given={Yu.\bibnamedelimi M.},
+           given_i={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=fe5276a4b08ab27da6c3ed57c1c0d681}{%
+           family={Sreseli},
+           family_i={S\bibinitperiod},
+           given={O.\bibnamedelimi M.},
+           given_i={O\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=bce4c913c51bc53e0131035078327b1e}{%
+           family={Terukov},
+           family_i={T\bibinitperiod},
+           given={E.\bibnamedelimi I.},
+           given_i={E\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=81419a557e1b743f5980e5a703851e6e}{%
+           family={Yassievich},
+           family_i={Y\bibinitperiod},
+           given={I.\bibnamedelimi N.},
+           given_i={I\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {EMRS}%
+      }
+      \strng{namehash}{afbf29bc7122de7b2940be49900f565e}
+      \strng{fullhash}{afbf29bc7122de7b2940be49900f565e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Symposium G. Perovskite Solar Cells}
+      \field{langid}{english}
+      \field{title}{EMRS Fall Meeting}
+      \field{year}{2017}
+      \field{pages}{G.8.3}
+      \range{pages}{-1}
+    \endentry
+    \entry{Matyushkin2017c}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1d4dd634f1ec37821f376b4d1fecda2d}
+      \strng{fullhash}{1d4dd634f1ec37821f376b4d1fecda2d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semiconductors}
+      \field{langid}{english}
+      \field{number}{10}
+      \field{title}{Photoluminescence of perovskite CsPbX$_3$ (X = Cl, Br, I) nanocrystals and solid solutions on their basis}
+      \field{volume}{51}
+      \field{year}{2017}
+      \field{pages}{1337\bibrangedash 1342}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1134/S106378261710013X
+      \endverb
+      \verb{file}
+      \verb :home/leo/Yandex.Disk/Publications/Papers/2017 - Matyushkin, Moshnikov - Photoluminescence of Perovskite CsPbX3.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Matyushkin2017d}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=43dc8922d9ef70542abb9c4a977e9370}{%
+           family={Muratova},
+           family_i={M\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=58bac5869b29d8ce591decd176cbbbad}{%
+           family={Panov},
+           family_i={P\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           given_i={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{2eefd2c71c7812f469fba30aa68aca5d}
+      \strng{fullhash}{2eefd2c71c7812f469fba30aa68aca5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Micro \& Nano Letters}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Determination of the alumina membrane geometrical parameters using its optical spectra}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{100\bibrangedash 103}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1049/mnl.2016.0353
+      \endverb
+    \endentry
+    \entry{Matyushkin2017e}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=fae41790122a4468707a1699b36621b6}{%
+           family={Reshetnikova},
+           family_i={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=91f9c0199503f884153004a7b12f52ef}{%
+           family={Andronov},
+           family_i={A\bibinitperiod},
+           given={A.\bibnamedelimi O.},
+           given_i={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=0,hash=210c60d5c874343e379c401648c42ea4}{%
+           family={Afonicheva},
+           family_i={A\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           given_i={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=a992bf7a4a948877e17c8509db2a2479}{%
+           family={Myakin},
+           family_i={M\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           given_i={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=f219e7a1440278bdca72f119bb1d377f}{%
+           family={Permiakov},
+           family_i={P\bibinitperiod},
+           given={N.\bibnamedelimi V.},
+           given_i={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f421b86aa53e48fc07079dcc5a7f320b}
+      \strng{fullhash}{f421b86aa53e48fc07079dcc5a7f320b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Semiconductors}
+      \field{langid}{english}
+      \field{number}{5}
+      \field{title}{Morphology, optical, and adsorption properties of copper-oxide layers deposited from complex compound solutions}
+      \field{volume}{51}
+      \field{year}{2017}
+      \field{pages}{586\bibrangedash 590}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1134/S1063782617050165
+      \endverb
+    \endentry
+    \entry{Matyushkin2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=35d9c700c1ef908ac64c09943d722d18}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=0f12f6034bb0a837c9556c4c1926b31e}{%
+           family={Percova},
+           family_i={P\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{cc492985abdfc9245ca0a27ab18424cb}
+      \strng{fullhash}{cc492985abdfc9245ca0a27ab18424cb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{title}{Plasmonic enhancement of photoluminescence from cadmium sulfide and lead sulfide quantum dots}
+      \field{volume}{929}
+      \field{year}{2017}
+      \field{pages}{012091}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/929/1/012091
+      \endverb
+    \endentry
+    \entry{Mazing2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=4e2f6bf9ed64afe7a49c21377e334b9d}{%
+           family={Mazing},
+           family_i={M\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           given_i={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=863d4297cc74358c9fb0a9c527bb8b3c}{%
+           family={Shul’ga},
+           family_i={S\bibinitperiod},
+           given={A.\bibnamedelimi I.},
+           given_i={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9dd772503724dc19701657a3189e6620}
+      \strng{fullhash}{9dd772503724dc19701657a3189e6620}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics and Spectroscopy}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Synthesis and characterization of colloidal nanocrystals of ternary chalcogenide compounds}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{110\bibrangedash 113}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1134/S0030400X17010179
+      \endverb
+    \endentry
+    \entry{Mbwahnche2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=d805249a126873861ac0f8cec4fe9e82}{%
+           family={Mbwahnche},
+           family_i={M\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=59520fdf905e3fdc4833f8a12d1b829b}{%
+           family={Ryzhov},
+           family_i={R\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{07f65603317210f7b474a9251c200a69}
+      \strng{fullhash}{07f65603317210f7b474a9251c200a69}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics and Spectroscopy}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Synthesis of Quantum Dot Nanocrystals and Plasmonic Nanoparticles Using a Segmented Flow Reactor}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{48\bibrangedash 51}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1134/S0030400X17010180
+      \endverb
+    \endentry
+    \entry{Muratova2017}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=1,hash=43dc8922d9ef70542abb9c4a977e9370}{%
+           family={Muratova},
+           family_i={M\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=fbf1adecb3b0389b19b95fecbee4d8cc}{%
+           family={Luchinin},
+           family_i={L\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           given_i={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=5b0ee5b44d250ecce2c4acc965b62566}{%
+           family={Lifshits},
+           family_i={L\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=58bac5869b29d8ce591decd176cbbbad}{%
+           family={Panov},
+           family_i={P\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           given_i={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=2ba1ebc80fb5f73892475e7c7eddfb56}{%
+           family={Potrakhov},
+           family_i={P\bibinitperiod},
+           given={N.\bibnamedelimi N.},
+           given_i={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=35c7bd9cc4180386ddf109807f67edcd}{%
+           family={Galunin},
+           family_i={G\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           given_i={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=691d45bd3a52fec93bf8e0501875a990}{%
+           family={Ishin},
+           family_i={I\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           given_i={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=371d828cea95d242351db520a5124889}{%
+           family={Shemukhin},
+           family_i={S\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9f870d0aff627cf2b812541e514ec909}
+      \strng{fullhash}{9f870d0aff627cf2b812541e514ec909}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glass Physics and Chemistry}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Features of the formation of nanoporous membranes based on alumina from foil and new fields of applications}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{163\bibrangedash 169}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1134/S1087659617020122
+      \endverb
+    \endentry
+    \entry{Percova2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0f12f6034bb0a837c9556c4c1926b31e}{%
+           family={Percova},
+           family_i={P\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8142ea0e39c68fa97166c4f6efcfee0a}
+      \strng{fullhash}{8142ea0e39c68fa97166c4f6efcfee0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{number}{6}
+      \field{title}{Synthesis and postsynthetic anion exchange of CsPbX$_3$ (X = Cl, Br, I) quantum dots}
+      \field{volume}{917}
+      \field{year}{2017}
+      \field{pages}{062041}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/917/6/062041
+      \endverb
+    \endentry
+    \entry{Reshetnikova2017}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=fae41790122a4468707a1699b36621b6}{%
+           family={Reshetnikova},
+           family_i={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=1,hash=23a2a59b29d050a82e4f604f457ec088}{%
+           family={Andronov},
+           family_i={A\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=100320f98b04f70adbf4e86501521ba7}{%
+           family={Sokolov},
+           family_i={S\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           given_i={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=1,hash=4a2e041f33aadce339888ecdf5854843}{%
+           family={Aleksandrova},
+           family_i={A\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{137798c517b8030f04eae188caddcdb8}
+      \strng{fullhash}{137798c517b8030f04eae188caddcdb8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2017}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{langid}{english}
+      \field{number}{5}
+      \field{title}{Layer-by-layer deposition of nanostructured CsPbBr$_3$ perovskite thin films}
+      \field{volume}{917}
+      \field{year}{2017}
+      \field{pages}{052023}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/917/5/052023
+      \endverb
+    \endentry
+    \entry{Andrianov2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=4e8fac7bc26f6f21020f9bc41fc7db0f}{%
+           family={Andrianov},
+           family_i={A\bibinitperiod},
+           given={AV},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=1,hash=024c64a178fcc31015c69a914c29e0e4}{%
+           family={Aleshin},
+           family_i={A\bibinitperiod},
+           given={AN},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5d1f0e68e85280e12209be1b7e3ee2c4}{%
+           family={Zakhar'in},
+           family_i={Z\bibinitperiod},
+           given={AO},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=1,hash=ddaf6402cd74be972efd92779d198bff}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={LB},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{76470ab5ac628258838ed165f7a54c33}
+      \strng{fullhash}{76470ab5ac628258838ed165f7a54c33}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 43rd International Conference on Infrared, Millimeter, and Terahertz Waves (IRMMW-THz)}
+      \field{title}{Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 2}
+      \range{pages}{2}
+    \endentry
+    \entry{Chikalova-Luzina2018}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=af2779523e06bc3c064729d0348e4d72}{%
+           family={Chikalova-Luzina},
+           family_i={C\bibinithyphendelim L\bibinitperiod},
+           given={Olga\bibnamedelima P},
+           given_i={O\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=1,hash=547b2e62fe48e3f849fcc9c8c6ff86b6}{%
+           family={Aleshin},
+           family_i={A\bibinitperiod},
+           given={Andrey\bibnamedelima N},
+           given_i={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=31754f8e38f7cf3b01c389cab9f9cf30}{%
+           family={Shcherbakov},
+           family_i={S\bibinitperiod},
+           given={Igor\bibnamedelima P},
+           given_i={I\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=67f3d7ee3b71031f504594b10130f315}{%
+           family={Vyatkin},
+           family_i={V\bibinitperiod},
+           given={Vadim\bibnamedelima M},
+           given_i={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=1,hash=e5520be8c768e227f5dd13f9f4033cc5}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={Leo\bibnamedelima B},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{aff82eff5340116bcf98a243874e269b}
+      \strng{fullhash}{aff82eff5340116bcf98a243874e269b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synthetic Metals}
+      \field{title}{Energy transfer in hybrid optoelectronic structures between perovskite nanocrystals and an organic matrix}
+      \field{volume}{246}
+      \field{year}{2018}
+      \field{pages}{230\bibrangedash 235}
+      \range{pages}{6}
+    \endentry
+    \entry{Matyushkin2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=91e400a440dba4c32787935f43e166ea}{%
+           family={Pertsova},
+           family_i={P\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=1,hash=d1164b1ba1b509ac55becd6840ace00c}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           given_i={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{87b7ee87b0c047d7d0276ae770a2b346}
+      \strng{fullhash}{87b7ee87b0c047d7d0276ae770a2b346}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technical Physics Letters}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{title}{Enhanced Luminescence of Quantumd Dots near a Layer of Ag/SiO$_2$ Nanoparticles}
+      \field{volume}{44}
+      \field{year}{2018}
+      \field{pages}{331\bibrangedash 333}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1134/S1063785018040211
+      \endverb
+      \verb{file}
+      \verb :home/leo/Yandex.Disk/Publications/Papers/2018 - Matyushkin, Percova, Moshnikov.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Matyushkin2018a}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=0704e97d5b1473a8b4c9f7bcf7b8de55}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={L.\bibnamedelimi B.},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=85f005a6fc66f80c5d8ea0d1236c1f10}{%
+           family={Romanov},
+           family_i={R\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           given_i={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7737ba1dcadbca59de50037a9105ac6c}
+      \strng{fullhash}{7737ba1dcadbca59de50037a9105ac6c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Optical Technology}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Effect of gamma irradiation on the photoluminescence of CsPbBr$_3$ and CdSe/ZnS nanocrystals}
+      \field{volume}{85}
+      \field{year}{2018}
+      \field{pages}{119\bibrangedash 121}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1364/JOT.85.000119
+      \endverb
+      \verb{file}
+      \verb :home/leo/Yandex.Disk/Publications/Papers/2018 - Matyushkin, Romanov - Gamma Perovskite.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Muratova2018}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,hash=0f273db2ce2e67c9b9b88e5ad4bcb764}{%
+           family={Muratova},
+           family_i={M\bibinitperiod},
+           given={EN},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=1,hash=ddaf6402cd74be972efd92779d198bff}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={LB},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=1,hash=680dd0a5e3a87674fc61bfe855ec435f}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={VA},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=4630eefb7a0a5bfe1bc7b46473eaad30}{%
+           family={Chernyakova},
+           family_i={C\bibinitperiod},
+           given={KV},
+           given_i={K\bibinitperiod}}}%
+        {{uniquename=0,hash=1ebcf8b451cddd221319aacbd543a4e0}{%
+           family={Vrublevsky},
+           family_i={V\bibinitperiod},
+           given={IA},
+           given_i={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{435704a44e4509a6ce06117234d47bac}
+      \strng{fullhash}{435704a44e4509a6ce06117234d47bac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic Materials}
+      \field{number}{6}
+      \field{title}{IR Scattering by Optically Inhomogeneous Nanoporous Anodic Alumina Films}
+      \field{volume}{54}
+      \field{year}{2018}
+      \field{pages}{564\bibrangedash 567}
+      \range{pages}{4}
+    \endentry
+    \entry{Nestoklon2018}{article}{}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=565f0bbf798fb184eab5618d5441c5d3}{%
+           family={Nestoklon},
+           family_i={N\bibinitperiod},
+           given={MO},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=71dc496bebaeb076c83714a0807901c6}{%
+           family={Goupalov},
+           family_i={G\bibinitperiod},
+           given={SV},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=8143ac1807b9d0dd4c6d3bec63269af6}{%
+           family={Dzhioev},
+           family_i={D\bibinitperiod},
+           given={RI},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=1,hash=0f825791b8ec83fd3c789dc39a5c91c6}{%
+           family={Ken},
+           family_i={K\bibinitperiod},
+           given={OS},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=e73bc36e122394a77447f887de8d73d0}{%
+           family={Korenev},
+           family_i={K\bibinitperiod},
+           given={VL},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=1d250846decb94d4c4c653816dbe6502}{%
+           family={Kusrayev},
+           family_i={K\bibinitperiod},
+           given={Yu\bibnamedelima G},
+           given_i={Y\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=6242d4e3f46f073c66d857636db998dd}{%
+           family={Sapega},
+           family_i={S\bibinitperiod},
+           given={VF},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=45338050766ac77648cbd1718a709f8c}{%
+           prefix={de},
+           prefix_i={d\bibinitperiod},
+           family={Weerd},
+           family_i={W\bibinitperiod},
+           given={Chris},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=499653099e9bfb1a42803258a8086d5c}{%
+           family={Gomez},
+           family_i={G\bibinitperiod},
+           given={Leyre},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=b59ee88b9d9c44bcb35322a4ba758428}{%
+           family={Gregorkiewicz},
+           family_i={G\bibinitperiod},
+           given={Tom},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{99762050212008f068ccdb539cd8bd8f}
+      \strng{fullhash}{08b2666a02e97fc244140bb093c9dc92}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We demonstrate the optical orientation and alignment of excitons in a two-dimensional layer of CsPbI3 perovskite nanocrystals prepared by colloidal synthesis and measure the anisotropic exchange splitting of exciton levels in the nanocrystals. From the experimental data at low temperature (2 K), we obtain the average value of anisotropic splitting of bright exciton states of the order of 120 $\mu$eV. Our calculations demonstrate that there is a significant contribution to the splitting due to the nanocrystal shape anisotropy for all inorganic perovskite nanocrystrals.}
+      \field{journaltitle}{Physical Review B}
+      \field{langid}{english}
+      \field{number}{23}
+      \field{title}{Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals}
+      \field{volume}{97}
+      \field{year}{2018}
+      \field{pages}{235304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.97.235304
+      \endverb
+      \verb{file}
+      \verb :home/leo/Yandex.Disk/Publications/Papers/2018 - Nestoklon, Goupalov - PhysRevB.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Romanova2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=348b7eabd7aff8d1c89e12fa234a0cc6}{%
+           family={Romanova},
+           family_i={R\bibinitperiod},
+           given={VA},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=1,hash=ddaf6402cd74be972efd92779d198bff}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={LB},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=1,hash=680dd0a5e3a87674fc61bfe855ec435f}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={VA},
+           given_i={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{75e59c97110649ad27c28d6cf8ad3ec7}
+      \strng{fullhash}{75e59c97110649ad27c28d6cf8ad3ec7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glass Physics and Chemistry}
+      \field{number}{1}
+      \field{title}{One-Dimensional Photonic SiO 2--TiO 2 Crystals: Simulation and Synthesis by Sol--Gel Technology Methods}
+      \field{volume}{44}
+      \field{year}{2018}
+      \field{pages}{7\bibrangedash 14}
+      \range{pages}{8}
+    \endentry
+    \entry{Yurk2018}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=db47c138ba211cd9e181484a2c163646}{%
+           family={Yurk},
+           family_i={Y\bibinitperiod},
+           given={VM},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=0,hash=d532fcaf45e3d977b8f6d0a3a755381c}{%
+           family={Maskaeva},
+           family_i={M\bibinitperiod},
+           given={LN},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=fe43bf85a39796261b7c88fad41edbb2}{%
+           family={Markov},
+           family_i={M\bibinitperiod},
+           given={VF},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=1,hash=a26fe2c3a0a4aeda07f74ed777083e7a}{%
+           family={Maraeva},
+           family_i={M\bibinitperiod},
+           given={EV},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=1,hash=680dd0a5e3a87674fc61bfe855ec435f}{%
+           family={Moshnikov},
+           family_i={M\bibinitperiod},
+           given={VA},
+           given_i={V\bibinitperiod}}}%
+        {{uniquename=1,hash=ddaf6402cd74be972efd92779d198bff}{%
+           family={Matyushkin},
+           family_i={M\bibinitperiod},
+           given={LB},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5f14744595cd7791fb073d57c39c5d2e}
+      \strng{fullhash}{5f14744595cd7791fb073d57c39c5d2e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic Materials}
+      \field{number}{3}
+      \field{title}{Effect of Ascorbic Acid Additions on the Mechanism Underlying the Growth of Nanostructured PbSe Films via Hydrochemical Deposition}
+      \field{volume}{54}
+      \field{year}{2018}
+      \field{pages}{221\bibrangedash 228}
+      \range{pages}{8}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
