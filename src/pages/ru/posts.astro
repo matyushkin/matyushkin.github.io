@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout sideBarActiveItemID="posts" lang="ru">
+  <div class="pb-12 mt-5">
+    <h1 class="text-5xl font-bold">Публикации</h1>
+    <div class="text-lg py-4">
+      <p class="mb-4">
+        Большинство публикаций подготовлены для <a href="https://proglib.io/" class="underline" target="_blank">Библиотеки программиста</a>
+        (в этом случае названия нередко скорректированы редактором), более ранние — для <a href="https://habr.com/ru/users/LeoMat/" class="underline" target="_blank">Хабра</a>.
+        Публикации представляют собой как оригинальные статьи и пособия, так и переводы англоязычных статей.
+      </p>
+      <p class="mb-4">
+        Также я занимаюсь научными исследованиями (<a href="https://www.researchgate.net/profile/Lev_Matyushkin" class="underline" target="_blank">профиль на ResearchGate</a>)
+        и учебной деятельностью (<a href="https://stepik.org/course/52514/syllabus" class="underline" target="_blank">курс Наноматериалы на stepik.org</a>).
+        Основной научный проект сейчас — <a href="https://github.com/matyushkin/reminiscence" class="underline" target="_blank">исследование первых воспоминаний</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="mb-10">
+    <h2 class="text-3xl font-bold mb-4">Категории</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Python</h3>
+          <p>33 статьи о программировании на Python, от основ до продвинутых тем</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Data Science</h3>
+          <p>29 статей об анализе данных, машинном обучении и визуализации</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Глубокое обучение</h3>
+          <p>14 статей о нейронных сетях и фреймворках глубокого обучения</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Головоломки</h3>
+          <p>16 алгоритмических головоломок и задач</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Математика</h3>
+          <p>5 статей о математике для программистов</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Другие темы</h3>
+          <p>36+ статей на различные темы программирования</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-info">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <span>Полный список статей находится в процессе миграции. Пока можете посмотреть <a href="https://matyushkin.github.io/posts/" class="underline font-bold" target="_blank">старую версию</a>.</span>
+  </div>
+</BaseLayout>

@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout sideBarActiveItemID="posts">
+  <div class="pb-12 mt-5">
+    <h1 class="text-5xl font-bold">Posts</h1>
+    <div class="text-lg py-4">
+      <p class="mb-4">
+        Most of my publications are prepared for <a href="https://proglib.io/" class="underline" target="_blank">Library of the Programmer</a> (in Russian),
+        earlier ones - for <a href="https://habr.com/ru/users/LeoMat/" class="underline" target="_blank">Habr</a>.
+        Publications include both original articles and tutorials, as well as translations of English articles.
+      </p>
+      <p class="mb-4">
+        I also do scientific research (<a href="https://www.researchgate.net/profile/Lev_Matyushkin" class="underline" target="_blank">ResearchGate profile</a>)
+        and teaching (<a href="https://stepik.org/course/52514/syllabus" class="underline" target="_blank">Nanomaterials course on stepik.org</a>).
+        Main research project: <a href="https://github.com/matyushkin/reminiscence" class="underline" target="_blank">first memories research</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="mb-10">
+    <h2 class="text-3xl font-bold mb-4">Categories</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Python</h3>
+          <p>33 articles about Python programming, from basics to advanced topics</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Data Science</h3>
+          <p>29 articles about data analysis, machine learning, and data visualization</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Deep Learning</h3>
+          <p>14 articles about neural networks and deep learning frameworks</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Puzzles</h3>
+          <p>16 algorithmic puzzles and brain teasers</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Mathematics</h3>
+          <p>5 articles about math for programmers</p>
+        </div>
+      </div>
+      <div class="card bg-base-200">
+        <div class="card-body">
+          <h3 class="card-title">Other Topics</h3>
+          <p>36+ articles about various programming topics</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-info">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <span>Full list of articles is being migrated. For now, visit the <a href="https://matyushkin.github.io/posts/" class="underline font-bold" target="_blank">old version</a>.</span>
+  </div>
+</BaseLayout>
