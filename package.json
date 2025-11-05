@@ -1,10 +1,15 @@
 {
   "name": "matyushkin.github.io",
-  "version": "0.0.1",
-  "description": "Personal web site by Leo Matyushkin",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Personal web site by Leo Matyushkin - Built with Astro",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "repository": {
     "type": "git",
@@ -12,7 +17,9 @@
   },
   "keywords": [
     "web",
-    "page"
+    "page",
+    "astro",
+    "portfolio"
   ],
   "author": "Leo Matyushkin",
   "license": "ISC",
@@ -20,8 +27,18 @@
     "url": "https://github.com/matyushkin/matyushkin.github.io/issues"
   },
   "homepage": "https://github.com/matyushkin/matyushkin.github.io#readme",
+  "dependencies": {
+    "@astrojs/mdx": "^2.0.3",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "astro": "^4.0.2",
+    "daisyui": "^4.4.10",
+    "dayjs": "^1.11.9",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.5"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "html-minifier": "^4.0.0"
+    "@tailwindcss/typography": "^0.5.10"
   }
 }

@@ -1,0 +1,26 @@
+/* Computer Modern Sans font */
+@font-face {
+    font-family: 'Computer Modern Sans';
+    src:
+        local('Computer Modern'),
+        url('/fonts/cmunss.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base typography */
+body {
+    font-family: 'Computer Modern Sans', sans-serif;
+    font-size: 21px;
+    line-height: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Computer Modern Sans', sans-serif;
+    font-weight: normal;
+}
+
+/* Timeline styles */
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
