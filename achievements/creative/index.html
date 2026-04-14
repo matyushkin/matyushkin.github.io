@@ -82,7 +82,15 @@
   };
 
   function getLang() {
-    return localStorage.getItem('lang') || 'ru';
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang) {
+      localStorage.setItem('lang', urlLang);
+      return urlLang;
+    }
+    const stored = localStorage.getItem('lang');
+    if (stored) return stored;
+    const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
+    return browserLang === 'ru' ? 'ru' : 'en';
   }
 
   function render(achievements, lang) {
@@ -132,6 +140,9 @@
       select.addEventListener('change', () => {
         const lang = select.value;
         localStorage.setItem('lang', lang);
+        const url = new URL(window.location);
+        url.searchParams.set('lang', lang);
+        history.replaceState(null, '', url);
         render(achievements, lang);
       });
     });
