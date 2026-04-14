@@ -1,0 +1,61 @@
+{
+  "achievements": [
+    {
+      "id": "vozduh-46-2026",
+      "type": "publication",
+      "year": 2026,
+      "i18n": {
+        "ru": {
+          "title": "«Иная глина»",
+          "venue": "Журнал поэзии «Воздух», №46",
+          "description": "Цикл стихотворений, с. 256–266. Написан в 2020–2025 гг., Танджавур."
+        },
+        "en": {
+          "title": "\"Other Clay\"",
+          "venue": "Vozdukh Poetry Journal, no. 46",
+          "description": "A poetry cycle, pp. 256–266. Written 2020–2025, Thanjavur."
+        }
+      },
+      "lang_of_work": "ru",
+      "url": null
+    },
+    {
+      "id": "flagi-5-2020",
+      "type": "publication",
+      "year": 2020,
+      "i18n": {
+        "ru": {
+          "title": "«Сорока щенка маленького унесла»",
+          "venue": "Культурный проект «Флаги», №5, 30.08.2020",
+          "description": "Цикл стихотворений. Журнал закрыт, архив доступен."
+        },
+        "en": {
+          "title": "\"The Magpie Carried the Little Puppy Away\"",
+          "venue": "Flagi literary project, no. 5, 30.08.2020",
+          "description": "A poetry cycle. Journal archived."
+        }
+      },
+      "lang_of_work": "ru",
+      "url": "https://web.archive.org/web/20250315043837/https://flagi.media/piece/79"
+    },
+    {
+      "id": "na-kolenke-2024",
+      "type": "publication",
+      "year": 2024,
+      "i18n": {
+        "ru": {
+          "title": "«Воскресные вкладыши»",
+          "venue": "Журнал на коленке, 28.05.2024",
+          "description": "14 стихотворений."
+        },
+        "en": {
+          "title": "\"Sunday Inserts\"",
+          "venue": "Na Kolenke literary journal, 28.05.2024",
+          "description": "14 poems."
+        }
+      },
+      "lang_of_work": "ru",
+      "url": "https://na-kolenke-zin.ru/?p=913"
+    }
+  ]
+}
