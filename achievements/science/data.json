@@ -1,0 +1,2917 @@
+{
+  "achievements": [
+    {
+      "id": "apoptosis-chapter-2020",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2020,
+      "citations": 2,
+      "i18n": {
+        "ru": {
+          "title": "Detection of Apoptosis in Cancer Cells Using Heat Shock Protein 70 and p53 Antibody Conjugated Quantum Dot Nanoparticles",
+          "venue": "Глава в книге, октябрь 2020",
+          "description": "Л.Б. Матюшкин, О.А. Александрова, А.О. Дробинцева и др."
+        },
+        "en": {
+          "title": "Detection of Apoptosis in Cancer Cells Using Heat Shock Protein 70 and p53 Antibody Conjugated Quantum Dot Nanoparticles",
+          "venue": "Book chapter, October 2020",
+          "description": "LB Matyushkin, OA Aleksandrova, AO Drobintseva et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:ZHo1McVdvXMC",
+        "researchgate": "https://www.researchgate.net/publication/344773858",
+        "elibrary": null
+      }
+    },
+    {
+      "id": "synthetic-metals-2020",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2020,
+      "citations": 28,
+      "i18n": {
+        "ru": {
+          "title": "Photo- and electroluminescence features of films and field effect transistors based on inorganic perovskite nanocrystals embedded in a polymer matrix",
+          "venue": "Synthetic Metals, 260, 116291",
+          "description": "А.Н. Алёшин, И.П. Щербаков, О.П. Чикалова-Лузина, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Photo- and electroluminescence features of films and field effect transistors based on inorganic perovskite nanocrystals embedded in a polymer matrix",
+          "venue": "Synthetic Metals, 260, 116291",
+          "description": "AN Aleshin, IP Shcherbakov, OP Chikalova-Luzina, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:pqnbT2bcN3wC",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=43230932"
+      }
+    },
+    {
+      "id": "nanostructured-oxides-book-2019",
+      "type": "publication",
+      "subtype": "book",
+      "year": 2019,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Наноструктурные оксидные материалы в современной микро-, нано- и оптоэлектронике",
+          "venue": "Монография, СПбГЭТУ «ЛЭТИ», 2019",
+          "description": "О.А. Александрова, А. Бобков, А.И. Максимов, Л.Б. Матюшкин, В.А. Мошников и др."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/330498142",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=41486053"
+      }
+    },
+    {
+      "id": "kondensed-matter-2019",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2019,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Внедрение серебра в матрицу пористого кремния методом электро-термодиффузии",
+          "venue": "Конденсированные среды и межфазные границы, сентябрь 2019",
+          "description": "Л.Б. Матюшкин, И. Плешанов, П.В. Середин, В. Кошевой и др."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/336135501",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=40629964"
+      }
+    },
+    {
+      "id": "glass-phys-zno-2019",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2019,
+      "citations": 37,
+      "i18n": {
+        "ru": {
+          "title": "Current state of studies on synthesis and application of zinc stannate",
+          "venue": "Glass Physics and Chemistry, 45 (4), 251–260",
+          "description": "С.С. Налимова, А.И. Максимов, Л.Б. Матюшкин, В.А. Мошников"
+        },
+        "en": {
+          "title": "Current state of studies on synthesis and application of zinc stannate",
+          "venue": "Glass Physics and Chemistry, 45 (4), 251–260",
+          "description": "SS Nalimova, AI Maksimov, LB Matyushkin, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:g5m5HwL7SMYC",
+        "researchgate": "https://www.researchgate.net/publication/335434432",
+        "researchgate_ru": "https://www.researchgate.net/publication/333934407",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=41625651",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=38255097"
+      }
+    },
+    {
+      "id": "phys-solid-state-2019",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2019,
+      "citations": 22,
+      "i18n": {
+        "ru": {
+          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr3 Nanocrystals",
+          "venue": "Physics of the Solid State, 61 (2), 256–262",
+          "description": "А.Н. Алёшин, И.П. Щербаков, Д.А. Кириленко, Л.Б. Матюшкин, В.А. Мошников"
+        },
+        "en": {
+          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr3 Nanocrystals",
+          "venue": "Physics of the Solid State, 61 (2), 256–262",
+          "description": "AN Aleshin, IP Shcherbakov, DA Kirilenko, LB Matyushkin, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:ldfaerwXgEUC",
+        "researchgate": "https://www.researchgate.net/publication/332587076",
+        "researchgate_ru": "https://www.researchgate.net/publication/330507255",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=38692067",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=37478290"
+      }
+    },
+    {
+      "id": "jetp-letters-2019",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2019,
+      "citations": 20,
+      "i18n": {
+        "ru": {
+          "title": "Terahertz Vibrational Modes in CH₃NH₃PbI₃ and CsPbI₃ Perovskite Films",
+          "venue": "JETP Letters, 109 (1), 28–32",
+          "description": "А.В. Андрианов, А.Н. Алёшин, Л.Б. Матюшкин"
+        },
+        "en": {
+          "title": "Terahertz Vibrational Modes in CH₃NH₃PbI₃ and CsPbI₃ Perovskite Films",
+          "venue": "JETP Letters, 109 (1), 28–32",
+          "description": "AV Andrianov, AN Aleshin, LB Matyushkin"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:M05iB0D1s5AC",
+        "researchgate": "https://www.researchgate.net/publication/333086387",
+        "researchgate_ru": "https://www.researchgate.net/publication/330093056",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=38768945",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=36855210"
+      }
+    },
+    {
+      "id": "phys-rev-b-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 98,
+      "i18n": {
+        "ru": {
+          "title": "Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals",
+          "venue": "Physical Review B, 97 (23), 235304",
+          "description": "М.О. Нестоклон, С.В. Гупалов, Р.И. Джиоев, О.С. Кен, В.Л. Коренев, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals",
+          "venue": "Physical Review B, 97 (23), 235304",
+          "description": "MO Nestoklon, SV Goupalov, RI Dzhioev, OS Ken, VL Korenev, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:BqipwSGYUEgC",
+        "researchgate": "https://www.researchgate.net/publication/386911306",
+        "researchgate2": "https://www.researchgate.net/publication/322929389",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35765245"
+      }
+    },
+    {
+      "id": "synthetic-metals-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "Energy transfer in hybrid optoelectronic structures between perovskite nanocrystals and an organic matrix",
+          "venue": "Synthetic Metals, 246, 230–235",
+          "description": "О.П. Чикалова-Лузина, А.Н. Алёшин, И.П. Щербаков, В.М. Вяткин, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Energy transfer in hybrid optoelectronic structures between perovskite nanocrystals and an organic matrix",
+          "venue": "Synthetic Metals, 246, 230–235",
+          "description": "OP Chikalova-Luzina, AN Aleshin, IP Shcherbakov, VM Vyatkin, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:35N4QoGY0k4C",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36459642"
+      }
+    },
+    {
+      "id": "tech-phys-letters-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 19,
+      "i18n": {
+        "ru": {
+          "title": "Усиленная люминесценция квантовых точек вблизи слоя наночастиц Ag/SiO₂",
+          "venue": "Письма в ЖТФ, 44 (4), 331–333",
+          "description": "Л.Б. Матюшкин, А. Перцова, В.А. Мошников"
+        },
+        "en": {
+          "title": "Enhanced Luminescence of Quantum Dots near a Layer of Ag/SiO₂ Nanoparticles",
+          "venue": "Technical Physics Letters, 44 (4), 331–333",
+          "description": "LB Matyushkin, A Pertsova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:NaGl4SEjCO4C",
+        "researchgate": "https://www.researchgate.net/publication/324825431",
+        "researchgate_ru": "https://www.researchgate.net/publication/323875387",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35497126",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32740260"
+      }
+    },
+    {
+      "id": "glass-phys-photonic-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "Одномерные фотонные кристаллы SiO₂–TiO₂: моделирование и синтез золь-гель методом",
+          "venue": "Glass Physics and Chemistry, 44 (1), 7–14",
+          "description": "В.А. Романова, Л.Б. Матюшкин, В.А. Мошников"
+        },
+        "en": {
+          "title": "One-Dimensional Photonic SiO₂–TiO₂ Crystals: Simulation and Synthesis by Sol–Gel Technology Methods",
+          "venue": "Glass Physics and Chemistry, 44 (1), 7–14",
+          "description": "VA Romanova, LB Matyushkin, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:GnPB-g6toBAC",
+        "researchgate": "https://www.researchgate.net/publication/323679775",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35521670",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32620819"
+      }
+    },
+    {
+      "id": "inorg-mater-alumina-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 8,
+      "i18n": {
+        "ru": {
+          "title": "ИК-рассеяние оптически неоднородными нанопористыми плёнками анодного оксида алюминия",
+          "venue": "Неорганические материалы, 54 (6), 564–567",
+          "description": "Е.Н. Муратова, Л.Б. Матюшкин, В.А. Мошников, К.В. Чернякова, И.А. Врублевский"
+        },
+        "en": {
+          "title": "IR Scattering by Optically Inhomogeneous Nanoporous Anodic Alumina Films",
+          "venue": "Inorganic Materials, 54 (6), 564–567",
+          "description": "EN Muratova, LB Matyushkin, VA Moshnikov, KV Chernyakova, IA Vrublevsky"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:J_g5lzvAfSwC",
+        "researchgate": "https://www.researchgate.net/publication/325250890",
+        "researchgate_ru": "https://www.researchgate.net/publication/324949956",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35752383",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=35190810",
+        "scholar2": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:rO6llkc54NcC"
+      }
+    },
+    {
+      "id": "jot-gamma-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 8,
+      "i18n": {
+        "ru": {
+          "title": "Влияние гамма-облучения на фотолюминесценцию нанокристаллов CsPbBr₃ и CdSe/ZnS",
+          "venue": "Журнал оптики, 85 (2), 119–121",
+          "description": "Л.Б. Матюшкин, Н.М. Романов"
+        },
+        "en": {
+          "title": "Effect of gamma irradiation on the photoluminescence of CsPbBr₃ and CdSe/ZnS nanocrystals",
+          "venue": "Journal of Optical Technology, 85 (2), 119–121",
+          "description": "LB Matyushkin, NM Romanov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:RGFaLdJalmkC",
+        "researchgate": "https://www.researchgate.net/publication/324049340",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35504273",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=35383316"
+      }
+    },
+    {
+      "id": "inorg-mater-pbse-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 4,
+      "i18n": {
+        "ru": {
+          "title": "Влияние добавок аскорбиновой кислоты на механизм роста нанокристаллических плёнок PbSe при гидрохимическом осаждении",
+          "venue": "Неорганические материалы, 54 (3), 221–228",
+          "description": "В.М. Юрк, Л.Н. Маскаева, В.Ф. Марков, Е.В. Мараева, В.А. Мошников, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Effect of ascorbic acid additions on the mechanism underlying the growth of nanostructured PbSe films via hydrochemical deposition",
+          "venue": "Inorganic Materials, 54 (3), 221–228",
+          "description": "VM Yurk, LN Maskaeva, VF Markov, EV Maraeva, VA Moshnikov, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:O3NaXMp0MMsC",
+        "researchgate": "https://www.researchgate.net/publication/323750108",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35498519",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32667471"
+      }
+    },
+    {
+      "id": "org-electronics-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 58,
+      "i18n": {
+        "ru": {
+          "title": "Полевые транзисторы на основе плёнок полифторена с нанокристаллами CsPbI₃ с малым гистерезисом характеристик",
+          "venue": "Organic Electronics, 50, 213–219",
+          "description": "А.Н. Алёшин, И.П. Щербаков, Е.В. Гущина, Л.Б. Матюшкин, В.А. Мошников"
+        },
+        "en": {
+          "title": "Solution-Processed Field-Effect Transistors Based on Polyfluorene–Cesium Lead Halide Nanocrystals Composite Films with Small Hysteresis of Output and Transfer Characteristics",
+          "venue": "Organic Electronics, 50, 213–219",
+          "description": "AN Aleshin, IP Shcherbakov, EV Gushchina, LB Matyushkin, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:70eg2SAEIzsC",
+        "researchgate": "https://www.researchgate.net/publication/318894659",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31083589"
+      }
+    },
+    {
+      "id": "micro-nano-letters-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 32,
+      "i18n": {
+        "ru": {
+          "title": "Определение геометрических параметров мембраны из оксида алюминия по её оптическим спектрам",
+          "venue": "Micro &amp; Nano Letters, 12 (2), 100–103",
+          "description": "Л.Б. Матюшкин, Е.Н. Муратова, М.Ф. Панов"
+        },
+        "en": {
+          "title": "Determination of the alumina membrane geometrical parameters using its optical spectra",
+          "venue": "Micro &amp; Nano Letters, 12 (2), 100–103",
+          "description": "LB Matyushkin, EN Muratova, MF Panov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:qUcmZB5y_30C",
+        "researchgate": "https://www.researchgate.net/publication/316503872",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29478151"
+      }
+    },
+    {
+      "id": "glass-phys-alumina-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 19,
+      "i18n": {
+        "ru": {
+          "title": "Особенности формирования нанопористых мембран из оксида алюминия из фольги и новые области применения",
+          "venue": "Glass Physics and Chemistry, 43 (2), 163–169",
+          "description": "Е.Н. Муратова, В.В. Лучинин, В.А. Мошников, В.А. Лифшиц, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Features of the formation of nanoporous membranes based on alumina from foil and new fields of applications",
+          "venue": "Glass Physics and Chemistry, 43 (2), 163–169",
+          "description": "EN Muratova, VV Luchinin, VA Moshnikov, VA Lifshits, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:TQgYirikUcIC",
+        "researchgate": "https://www.researchgate.net/publication/315706468",
+        "researchgate_ru": "https://www.researchgate.net/publication/315706489",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29504111",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29077123"
+      }
+    },
+    {
+      "id": "semiconductors-perovskite-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 17,
+      "i18n": {
+        "ru": {
+          "title": "Фотолюминесценция нанокристаллов перовскита CsPbX₃ (X = Cl, Br, I) и твёрдых растворов на их основе",
+          "venue": "Физика и техника полупроводников, 51 (10), 1337–1342",
+          "description": "Л.Б. Матюшкин, В.А. Мошников"
+        },
+        "en": {
+          "title": "Photoluminescence of perovskite CsPbX₃ (X = Cl, Br, I) nanocrystals and solid solutions on their basis",
+          "venue": "Semiconductors, 51 (10), 1337–1342",
+          "description": "LB Matyushkin, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:M3NEmzRMIkIC",
+        "researchgate": "https://www.researchgate.net/publication/319931283",
+        "researchgate_ru": "https://www.researchgate.net/publication/319936152",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31064691",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=30291329"
+      }
+    },
+    {
+      "id": "opt-spectroscopy-ternary-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 7,
+      "i18n": {
+        "ru": {
+          "title": "Синтез и характеризация коллоидных нанокристаллов тройных халькогенидных соединений",
+          "venue": "Оптика и спектроскопия, 122 (1), 110–113",
+          "description": "Д.С. Мазинг, А.И. Шульга, Л.Б. Матюшкин, О.А. Александрова, В.А. Мошников"
+        },
+        "en": {
+          "title": "Synthesis and characterization of colloidal nanocrystals of ternary chalcogenide compounds",
+          "venue": "Optics and Spectroscopy, 122 (1), 110–113",
+          "description": "DS Mazing, AI Shul'ga, LB Matyushkin, OA Aleksandrova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:hFOr9nPyWt4C",
+        "researchgate": "https://www.researchgate.net/publication/313552901",
+        "researchgate_ru": "https://www.researchgate.net/publication/313124141",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29491544",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=28107086"
+      }
+    },
+    {
+      "id": "opt-spectroscopy-flow-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 4,
+      "i18n": {
+        "ru": {
+          "title": "Синтез нанокристаллов квантовых точек и плазмонных наночастиц в реакторе сегментированного потока",
+          "venue": "Оптика и спектроскопия, 122 (1), 48–51",
+          "description": "Р.К. Мбванче, Л.Б. Матюшкин, О.А. Рыжов, О.А. Александрова и др."
+        },
+        "en": {
+          "title": "Synthesis of quantum dot nanocrystals and plasmonic nanoparticles using a segmented flow reactor",
+          "venue": "Optics and Spectroscopy, 122 (1), 48–51",
+          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:mB3voiENLucC",
+        "researchgate": "https://www.researchgate.net/publication/311644754",
+        "researchgate_ru": "https://www.researchgate.net/publication/313112872",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29484834",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=28107073"
+      }
+    },
+    {
+      "id": "semiconductors-flow-2016",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2016,
+      "citations": 6,
+      "i18n": {
+        "ru": {
+          "title": "Синтез металлических и полупроводниковых наночастиц в потоке несмешивающихся жидкостей",
+          "venue": "Физика и техника полупроводников, 50 (6), 844–847",
+          "description": "Л.Б. Матюшкин, О.А. Рыжов, О.А. Александрова, В.А. Мошников"
+        },
+        "en": {
+          "title": "Synthesis of metal and semiconductor nanoparticles in a flow of immiscible liquids",
+          "venue": "Semiconductors, 50 (6), 844–847",
+          "description": "LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:7PzlFSSx8tAC",
+        "researchgate": "https://www.researchgate.net/publication/303290214",
+        "researchgate_ru": "https://www.researchgate.net/publication/295548179",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27140295",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=27368926"
+      }
+    },
+    {
+      "id": "glass-phys-cuinse2-2016",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2016,
+      "citations": 10,
+      "i18n": {
+        "ru": {
+          "title": "Синтез и характеризация коллоидных квантовых точек ядро–оболочка CuInSe₂",
+          "venue": "Glass Physics and Chemistry, 42 (5), 497–504",
+          "description": "Д.С. Мазинг, А.А. Карманов, Л.Б. Матюшкин, О.А. Александрова, И.А. Пронин и др."
+        },
+        "en": {
+          "title": "Synthesis and characterization of CuInSe₂ core–shell quantum dots",
+          "venue": "Glass Physics and Chemistry, 42 (5), 497–504",
+          "description": "DS Mazing, AA Karmanov, LB Matyushkin, OA Aleksandrova, IA Pronin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:IWHjjKOFINEC",
+        "researchgate": "https://www.researchgate.net/publication/308954584",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27570781"
+      }
+    },
+    {
+      "id": "sppu-journal-2015",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2015,
+      "citations": 21,
+      "i18n": {
+        "ru": {
+          "title": "Коллоидные квантовые точки CdSe и ZnSe/Mn: цитотоксичность и влияние на морфологию клеток",
+          "venue": "Научно-технические ведомости СПбПУ: Физико-математические науки, 1",
+          "description": "А.О. Дробинцева, Л.Б. Матюшкин, О.А. Александрова, П.Д. Дробинцев и др."
+        },
+        "en": {
+          "title": "Colloidal CdSe and ZnSe/Mn quantum dots: Their cytotoxicity and effects on cell morphology",
+          "venue": "St. Petersburg Polytechnical University Journal: Physics and Mathematics, 1",
+          "description": "AO Drobintseva, LB Matyushkin, OA Aleksandrova, PD Drobintsev et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:qxL8FJ1GzNcC",
+        "researchgate": "https://www.researchgate.net/publication/285657757",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27553991"
+      }
+    },
+    {
+      "id": "appl-magn-resonance-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "citations": 52,
+      "i18n": {
+        "ru": {
+          "title": "Исследование процессов агрегации в коллоидных растворах наночастиц магнетит–диоксид кремния методами ЯМР-релаксометрии, АСМ и УФ-Вид-спектроскопии",
+          "venue": "Applied Magnetic Resonance, 45 (4), 329–337",
+          "description": "Ю.В. Богачев, Ж.С. Черненко, К.Г. Гареев, И.Е. Кононова, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "The Study of Aggregation Processes in Colloidal Solutions of Magnetite–Silica Nanoparticles by NMR Relaxometry, AFM, and UV–Vis-Spectroscopy",
+          "venue": "Applied Magnetic Resonance, 45 (4), 329–337",
+          "description": "YV Bogachev, JS Chernenco, KG Gareev, IE Kononova, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:0EnyYjriUFMC",
+        "researchgate": "https://www.researchgate.net/publication/260807578",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=21871661"
+      }
+    },
+    {
+      "id": "smart-nanocomposites-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "citations": 22,
+      "i18n": {
+        "ru": {
+          "title": "Особенности синтеза коллоидных квантовых точек в неполярных и водных средах",
+          "venue": "Smart Nanocomposites, 5 (2), 61",
+          "description": "О.А. Александрова, Д.С. Мазинг, Л.Б. Матюшкин, В.А. Мошников и др."
+        },
+        "en": {
+          "title": "Features of colloidal quantum dots synthesis in nonpolar and aqueous media",
+          "venue": "Smart Nanocomposites, 5 (2), 61",
+          "description": "OA Aleksandrova, DS Mazing, LB Matyushkin, VA Moshnikov et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:ULOm3_A8WrAC",
+        "researchgate": "https://www.researchgate.net/publication/318850739",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23628597"
+      }
+    },
+    {
+      "id": "semiconductors-pbs-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "citations": 21,
+      "i18n": {
+        "ru": {
+          "title": "Исследование процессов самоорганизации в квантовых точках сульфида свинца",
+          "venue": "Физика и техника полупроводников, 48 (13), 1729–1731",
+          "description": "С.А. Тарасов, О.А. Александрова, А.И. Максимов, Е.В. Мараева, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Study of the self-organization processes in lead sulfide quantum dots",
+          "venue": "Semiconductors, 48 (13), 1729–1731",
+          "description": "SA Tarasov, OA Aleksandrova, AI Maksimov, EV Maraeva, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:Se3iqnhoufwC",
+        "researchgate": "https://www.researchgate.net/publication/273888304",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24020023"
+      }
+    },
+    {
+      "id": "phys-solid-state-magnetite-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "Исследование суспензий наночастиц магнетита методами фотометрии и ЯМР-релаксометрии",
+          "venue": "Физика твёрдого тела, 55 (12), 2431–2435",
+          "description": "Ю.В. Богачев, К.Г. Гареев, Л.Б. Матюшкин, В.А. Мошников, А.Н. Наумова"
+        },
+        "en": {
+          "title": "Study of magnetite nanoparticle suspensions by photometry and NMR relaxometry",
+          "venue": "Physics of the Solid State, 55 (12), 2431–2435",
+          "description": "YV Bogachev, KG Gareev, LB Matyushkin, VA Moshnikov, AN Naumova"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:hqOjcs7Dif8C",
+        "researchgate": "https://www.researchgate.net/publication/259469746",
+        "researchgate_ru": "https://www.researchgate.net/publication/295919864",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=21899007"
+      }
+    },
+    {
+      "id": "nanomaterials-textbook-2010",
+      "type": "publication",
+      "subtype": "book",
+      "year": 2010,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Наноматериалы: лабораторный практикум",
+          "venue": "Учебное пособие. СПб.: Изд-во СПбГЭТУ «ЛЭТИ», 2010. 93 с.",
+          "description": "И.Е. Грачева, А.В. Гузь, А.А. Кальнин, С.С. Карпова, М.Г. Кунгуров, Л.Б. Матюшкин, В.А. Мошников и др. Под ред. В.А. Мошникова."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/316967980",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23537264"
+      }
+    },
+    {
+      "id": "smart-nanocomposites-alumina-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "citations": 11,
+      "i18n": {
+        "ru": {
+          "title": "Исследование оптических свойств нанопористых мембран на основе оксида алюминия",
+          "venue": "Smart Nanocomposites, 4 (2), 25",
+          "description": "Е.Н. Муратова, Л.Б. Матюшкин"
+        },
+        "en": {
+          "title": "Investigation of the optical properties of nanoporous membranes based on alumina",
+          "venue": "Smart Nanocomposites, 4 (2), 25",
+          "description": "EN Muratova, LB Matyushkin"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:KlAtU1dfN6UC",
+        "researchgate": "https://www.researchgate.net/publication/263088205",
+        "researchgate2": "https://www.researchgate.net/publication/262691829",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=22033468"
+      }
+    },
+    {
+      "id": "opt-spectroscopy-cspbbr3-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Study of CsPbBr3 Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
+          "venue": "Optics and Spectroscopy, 125(6), 858–863",
+          "description": "П.А. Дементьев, М.С. Дунаевский, Л.Б. Матюшкин и др."
+        },
+        "en": {
+          "title": "Study of CsPbBr3 Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
+          "venue": "Optics and Spectroscopy, 125(6), 858–863",
+          "description": "PA Dement'ev, MS Dunaevskii, LB Matyushkin et al."
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:2P1L_qKh6hAC",
+        "researchgate": "https://www.researchgate.net/publication/331379725",
+        "researchgate_ru": "https://www.researchgate.net/publication/329064263",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36997963",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=37044526"
+      }
+    },
+    {
+      "id": "eiconrus-porous-si-silver-2018",
+      "type": "conference",
+      "year": 2018,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "Investigation of a program-controlled process of impregnation of porous semiconductors with silver nanoparticles",
+          "venue": "IEEE EIConRus 2018, pp. 539–543"
+        },
+        "en": {
+          "title": "Investigation of a program-controlled process of impregnation of porous semiconductors with silver nanoparticles",
+          "venue": "IEEE EIConRus 2018, pp. 539–543"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:ns9cj8rnVeAC",
+        "researchgate": "https://www.researchgate.net/publication/323860379",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35755590"
+      }
+    },
+    {
+      "id": "irmmw-thz-perovskite-2018",
+      "type": "conference",
+      "year": 2018,
+      "citations": 1,
+      "i18n": {
+        "ru": {
+          "title": "Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals",
+          "venue": "IEEE IRMMW-THz 2018, pp. 1–2"
+        },
+        "en": {
+          "title": "Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals",
+          "venue": "IEEE IRMMW-THz 2018, pp. 1–2"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:vV6vV6tmYwMC",
+        "researchgate": "https://www.researchgate.net/publication/328986838",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=38633368"
+      }
+    },
+    {
+      "id": "jpcs-ag-photoinduced-2018",
+      "type": "conference",
+      "year": 2018,
+      "citations": 1,
+      "i18n": {
+        "ru": {
+          "title": "Investigation of photoinduced nucleation and growth of silver nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 1038(1), 012057"
+        },
+        "en": {
+          "title": "Investigation of photoinduced nucleation and growth of silver nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 1038(1), 012057"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:RYcK_YlVTxYC",
+        "researchgate": "https://www.researchgate.net/publication/325776759",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35733417"
+      }
+    },
+    {
+      "id": "glass-phys-scattering-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 2,
+      "i18n": {
+        "ru": {
+          "title": "A device for measuring the scattering indicatrix of the nanomaterial synthesis process",
+          "venue": "Glass Physics and Chemistry, 43(3), 263–266",
+          "description": "Л.Б. Матюшкин, О.А. Александрова, В.А. Мошников"
+        },
+        "en": {
+          "title": "A device for measuring the scattering indicatrix of the nanomaterial synthesis process",
+          "venue": "Glass Physics and Chemistry, 43(3), 263–266",
+          "description": "LB Matyushkin, OA Aleksandrova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:isC4tDSrTZIC",
+        "researchgate": "https://www.researchgate.net/publication/317400416",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31045753",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29404965"
+      }
+    },
+    {
+      "id": "instr-exp-tech-silar-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 2,
+      "i18n": {
+        "ru": {
+          "title": "An automatic apparatus for the preparation of thin films by successive ionic layer deposition",
+          "venue": "Instruments and Experimental Techniques, 60(6), 888–891",
+          "description": "А.О. Андронов, Л.Б. Матюшкин, Д.В. Хондрюков, А.О. Александрова, В.А. Мошников"
+        },
+        "en": {
+          "title": "An automatic apparatus for the preparation of thin films by successive ionic layer deposition",
+          "venue": "Instruments and Experimental Techniques, 60(6), 888–891",
+          "description": "AO Andronov, LB Matyushkin, DV Khondryukov, AO Aleksandrova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:JV2RwH3_ST0C",
+        "researchgate": "https://www.researchgate.net/publication/320207098",
+        "researchgate2": "https://www.researchgate.net/publication/320805711",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31044645",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=30725454"
+      }
+    },
+    {
+      "id": "jpcs-alumina-thermal-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 14,
+      "i18n": {
+        "ru": {
+          "title": "Thermal radiation shielding by nanoporous membranes based on anodic alumina",
+          "venue": "Journal of Physics: Conference Series, 872(1), 012020"
+        },
+        "en": {
+          "title": "Thermal radiation shielding by nanoporous membranes based on anodic alumina",
+          "venue": "Journal of Physics: Conference Series, 872(1), 012020"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:maZDTaKrznsC",
+        "researchgate": "https://www.researchgate.net/publication/318330164",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31053407"
+      }
+    },
+    {
+      "id": "eiconrus-sol-gel-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 15,
+      "i18n": {
+        "ru": {
+          "title": "Sol-gel fabrication of one-dimensional photonic crystals",
+          "venue": "IEEE EIConRus 2017, pp. 1423–1427"
+        },
+        "en": {
+          "title": "Sol-gel fabrication of one-dimensional photonic crystals",
+          "venue": "IEEE EIConRus 2017, pp. 1423–1427"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:e5wmG9Sq2KIC",
+        "researchgate": "https://www.researchgate.net/publication/316908347",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31021956"
+      }
+    },
+    {
+      "id": "jpcs-cspbx3-anion-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 10,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis and postsynthetic anion exchange of CsPbX3 (X = Cl, Br, I) quantum dots",
+          "venue": "Journal of Physics: Conference Series, 917(6), 062041"
+        },
+        "en": {
+          "title": "Synthesis and postsynthetic anion exchange of CsPbX3 (X = Cl, Br, I) quantum dots",
+          "venue": "Journal of Physics: Conference Series, 917(6), 062041"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:blknAaTinKkC",
+        "researchgate": "https://www.researchgate.net/publication/321261260",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=30644889"
+      }
+    },
+    {
+      "id": "jpcs-plasmonic-pl-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 7,
+      "i18n": {
+        "ru": {
+          "title": "Plasmonic enhancement of photoluminescence from cadmium sulfide and lead sulfide quantum dots",
+          "venue": "Journal of Physics: Conference Series, 929(1), 012091"
+        },
+        "en": {
+          "title": "Plasmonic enhancement of photoluminescence from cadmium sulfide and lead sulfide quantum dots",
+          "venue": "Journal of Physics: Conference Series, 929(1), 012091"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:YFjsv_pBGBYC",
+        "researchgate": "https://www.researchgate.net/publication/321328818",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=30618175"
+      }
+    },
+    {
+      "id": "jpcs-photonic-defect-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 7,
+      "i18n": {
+        "ru": {
+          "title": "Experimental sol-gel fabrication and theoretical simulation of one-dimensional photonic crystals with defect",
+          "venue": "Journal of Physics: Conference Series, 917(6), 062049"
+        },
+        "en": {
+          "title": "Experimental sol-gel fabrication and theoretical simulation of one-dimensional photonic crystals with defect",
+          "venue": "Journal of Physics: Conference Series, 917(6), 062049"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:NMxIlDl6LWMC",
+        "researchgate": "https://www.researchgate.net/publication/321257046",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=30644899"
+      }
+    },
+    {
+      "id": "jpcs-cspbbr3-layerbylayer-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Layer-by-layer deposition of nanostructured CsPbBr3 perovskite thin films",
+          "venue": "Journal of Physics: Conference Series, 917(5), 052023"
+        },
+        "en": {
+          "title": "Layer-by-layer deposition of nanostructured CsPbBr3 perovskite thin films",
+          "venue": "Journal of Physics: Conference Series, 917(5), 052023"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:hMod-77fHWUC",
+        "researchgate": "https://www.researchgate.net/publication/321257609",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=30607178"
+      }
+    },
+    {
+      "id": "eiconrus-zno-spray-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 7,
+      "i18n": {
+        "ru": {
+          "title": "ZnO and aluminium doped ZnO thin films synthesis by ultrasonic spray pyrolysis technique",
+          "venue": "IEEE EIConRus 2017, pp. 1391–1393"
+        },
+        "en": {
+          "title": "ZnO and aluminium doped ZnO thin films synthesis by ultrasonic spray pyrolysis technique",
+          "venue": "IEEE EIConRus 2017, pp. 1391–1393"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:_Qo2XoVZTnwC",
+        "researchgate": "https://www.researchgate.net/publication/316905178",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31023515"
+      }
+    },
+    {
+      "id": "eiconrus-metal-oxide-2017",
+      "type": "conference",
+      "year": 2017,
+      "citations": 1,
+      "i18n": {
+        "ru": {
+          "title": "Metal oxide film formation from coordination complex solutions by surface layer-by-layer chemical deposition",
+          "venue": "IEEE EIConRus 2017, pp. 1416–1418"
+        },
+        "en": {
+          "title": "Metal oxide film formation from coordination complex solutions by surface layer-by-layer chemical deposition",
+          "venue": "IEEE EIConRus 2017, pp. 1416–1418"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:R3hNpaxXUhUC",
+        "researchgate": "https://www.researchgate.net/publication/316905088",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31022091"
+      }
+    },
+    {
+      "id": "conf-flow-synthesis-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Разработка системы поточного синтеза металлических и полупроводниковых наночастиц",
+          "venue": "71-я Всероссийская научно-техническая конференция, СПбГЭТУ «ЛЭТИ», 2016, с. 334–335"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:TFP_iSt0sucC",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722698"
+      }
+    },
+    {
+      "id": "eiconrusnw-photonic-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 12,
+      "i18n": {
+        "ru": {
+          "title": "Fabrication of one-dimensional photonic crystals by sol-gel method",
+          "venue": "IEEE EIConRusNW 2016, pp. 47–50"
+        },
+        "en": {
+          "title": "Fabrication of one-dimensional photonic crystals by sol-gel method",
+          "venue": "IEEE EIConRusNW 2016, pp. 47–50"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:mVmsd5A6BfQC",
+        "researchgate": "https://www.researchgate.net/publication/292972509",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27159278"
+      }
+    },
+    {
+      "id": "jpcs-photonic-predicted-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 22,
+      "i18n": {
+        "ru": {
+          "title": "Sol-gel fabrication of one-dimensional photonic crystals with predicted transmission spectra",
+          "venue": "Journal of Physics: Conference Series, 741(1), 012008"
+        },
+        "en": {
+          "title": "Sol-gel fabrication of one-dimensional photonic crystals with predicted transmission spectra",
+          "venue": "Journal of Physics: Conference Series, 741(1), 012008"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:L8Ckcad2t8MC",
+        "researchgate": "https://www.researchgate.net/publication/308182881",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26652566"
+      }
+    },
+    {
+      "id": "jpcs-segmented-flow-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 12,
+      "i18n": {
+        "ru": {
+          "title": "Segmented flow reactor for synthesis of quantum dot nanocrystals and plasmonic nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 741(1), 012026"
+        },
+        "en": {
+          "title": "Segmented flow reactor for synthesis of quantum dot nanocrystals and plasmonic nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 741(1), 012026"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:ZeXyd9-uunAC",
+        "researchgate": "https://www.researchgate.net/publication/308183037",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26652569"
+      }
+    },
+    {
+      "id": "jpcs-capillary-flow-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 1,
+      "i18n": {
+        "ru": {
+          "title": "Controlling of immiscible liquids fluid in a capillary reactor — from continuous to segmented flow",
+          "venue": "Journal of Physics: Conference Series, 769(1), 012035"
+        },
+        "en": {
+          "title": "Controlling of immiscible liquids fluid in a capillary reactor — from continuous to segmented flow",
+          "venue": "Journal of Physics: Conference Series, 769(1), 012035"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:hC7cP41nSMkC",
+        "researchgate": "https://www.researchgate.net/publication/310788894",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29470091"
+      }
+    },
+    {
+      "id": "butlerov-zno-2015",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2015,
+      "citations": 10,
+      "i18n": {
+        "ru": {
+          "title": "Локальные электрофизические свойства проводящих пленок ZnO",
+          "venue": "Бутлеровские сообщения, 42(6), 48–53",
+          "description": "Н.А. Лашкова, А.И. Максимов, Л.Б. Матюшкин, В.А. Мошников и др."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:k_IJM867U9cC",
+        "researchgate": "https://www.researchgate.net/publication/314735096",
+        "researchgate2": "https://www.researchgate.net/publication/308310206",
+        "researchgate_ru": "https://www.researchgate.net/publication/316911022",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23675846"
+      }
+    },
+    {
+      "id": "jpcs-cdse-octadecene-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 18,
+      "i18n": {
+        "ru": {
+          "title": "Preparation of cadmium selenide colloidal quantum dots in non-coordinating solvent octadecene",
+          "venue": "Journal of Physics: Conference Series, 661(1), 012033"
+        },
+        "en": {
+          "title": "Preparation of cadmium selenide colloidal quantum dots in non-coordinating solvent octadecene",
+          "venue": "Journal of Physics: Conference Series, 661(1), 012033"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:M3ejUd6NZC8C",
+        "researchgate": "https://www.researchgate.net/publication/285584203",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26652586"
+      }
+    },
+    {
+      "id": "eiconrusnw-flow-reactor-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "A flow reactor for synthesis of nanoparticles with a system of optical diagnostics",
+          "venue": "IEEE EIConRusNW 2015, pp. 12–12"
+        },
+        "en": {
+          "title": "A flow reactor for synthesis of nanoparticles with a system of optical diagnostics",
+          "venue": "IEEE EIConRusNW 2015, pp. 12–12"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:Zph67rFs4hoC",
+        "researchgate": "https://www.researchgate.net/publication/283829683",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23973209"
+      }
+    },
+    {
+      "id": "jpcs-flow-reactor-inline-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 9,
+      "i18n": {
+        "ru": {
+          "title": "The flow reactor system for in-line synthesis of semiconductor nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 643(1), 012016"
+        },
+        "en": {
+          "title": "The flow reactor system for in-line synthesis of semiconductor nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 643(1), 012016"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:_kc_bZDykSQC",
+        "researchgate": "https://www.researchgate.net/publication/274891890",
+        "researchgate2": "https://www.researchgate.net/publication/283483325",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26652576"
+      }
+    },
+    {
+      "id": "univ-sci-journal-flow-reactor-2015",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2015,
+      "citations": 9,
+      "i18n": {
+        "ru": {
+          "title": "Разработка системы поточного синтеза полупроводниковых и металлических наночастиц",
+          "venue": "Университетский научный журнал, с. 13–21",
+          "description": "О.А. Александрова, В.А. Мошников, Л.Б. Матюшкин, Р. Мбванче и др."
+        },
+        "en": {
+          "title": "Development of flow reactor for the synthesis of semiconductor and metal nanoparticles",
+          "venue": "University Scientific Journal, pp. 13–21",
+          "description": "OA Aleksandrova, VA Moshnikov, LB Matyushkin, R Mbwahnche et al."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:HDshCWvjkbEC",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=25064302"
+      }
+    },
+    {
+      "id": "photonics-north-znse-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 11,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis of transition metal doped zinc selenide nanoparticles for bioimaging",
+          "venue": "IEEE Photonics North 2015"
+        },
+        "en": {
+          "title": "Synthesis of transition metal doped zinc selenide nanoparticles for bioimaging",
+          "venue": "IEEE Photonics North 2015"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:kNdYIx-mwKoC",
+        "researchgate": "https://www.researchgate.net/publication/277979166",
+        "researchgate2": "https://www.researchgate.net/publication/316882909",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=42765181"
+      }
+    },
+    {
+      "id": "ieee-qdots-medical-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 2,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis of colloidal quantum dots for medical and biological scientific research",
+          "venue": "IEEE Forum 2015, pp. 107–108"
+        },
+        "en": {
+          "title": "Synthesis of colloidal quantum dots for medical and biological scientific research",
+          "venue": "IEEE Forum 2015, pp. 107–108"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:Wp0gIr-vW9MC",
+        "researchgate": "https://www.researchgate.net/publication/304413199",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27009397"
+      }
+    },
+    {
+      "id": "functional-materials-qdots-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "citations": 17,
+      "i18n": {
+        "ru": {
+          "title": "The investigation of the luminescence properties of colloidal quantum dots based on cadmium chalcogenides",
+          "venue": "Functional Materials, 21(2), 142–145",
+          "description": "И.И. Михайлов, С.А. Тарасов, А.В. Соломонов, Л.Б. Матюшкин, Д.С. Мазинг"
+        },
+        "en": {
+          "title": "The investigation of the luminescence properties of colloidal quantum dots based on cadmium chalcogenides",
+          "venue": "Functional Materials, 21(2), 142–145",
+          "description": "II Mikhailov, SA Tarasov, AV Solomonov, LB Matyushkin, DS Mazing"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:-f6ydRqryjwC",
+        "researchgate": "https://www.researchgate.net/publication/263965630",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24062157"
+      }
+    },
+    {
+      "id": "biotehnosfera-microscopy-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "citations": 42,
+      "i18n": {
+        "ru": {
+          "title": "От лазерной оптической микроскопии до флуоресцентной микроскопии высокого разрешения. Коллоидные квантовые точки",
+          "venue": "Биотехносфера, №6(36), с. 16–30",
+          "description": "В.А. Мошников, О.А. Александрова, А.О. Дробинцева, И.М. Кветной, Д.С. Мазинг, Л.Б. Матюшкин и др."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:4TOpqqG69KYC",
+        "researchgate": "https://www.researchgate.net/publication/280299036",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23675348"
+      }
+    },
+    {
+      "id": "jpcs-ag-spaser-2014",
+      "type": "conference",
+      "year": 2014,
+      "citations": 13,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis of core-shell Ag/SiO2 nanoparticles for SPASER structures",
+          "venue": "Journal of Physics: Conference Series, 541(1), 012015"
+        },
+        "en": {
+          "title": "Synthesis of core-shell Ag/SiO2 nanoparticles for SPASER structures",
+          "venue": "Journal of Physics: Conference Series, 541(1), 012015"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:5nxA0vEk-isC",
+        "researchgate": "https://www.researchgate.net/publication/267396689",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=23997544"
+      }
+    },
+    {
+      "id": "jpcs-alumina-optical-2014",
+      "type": "conference",
+      "year": 2014,
+      "citations": 21,
+      "i18n": {
+        "ru": {
+          "title": "Optical transmission spectra of porous alumina membranes with different pore size",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012031"
+        },
+        "en": {
+          "title": "Optical transmission spectra of porous alumina membranes with different pore size",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012031"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:MXK_kJrjxJIC",
+        "researchgate": "https://www.researchgate.net/publication/269467603",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24020501"
+      }
+    },
+    {
+      "id": "jpcs-cdse-media-2014",
+      "type": "conference",
+      "year": 2014,
+      "citations": 22,
+      "i18n": {
+        "ru": {
+          "title": "The study of CdSe colloidal quantum dots synthesized in aqueous and organic media",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012029"
+        },
+        "en": {
+          "title": "The study of CdSe colloidal quantum dots synthesized in aqueous and organic media",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012029"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:UebtZRa9Y70C",
+        "researchgate": "https://www.researchgate.net/publication/269467640",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24020554"
+      }
+    },
+    {
+      "id": "jpcs-cdse-aquatic-2014",
+      "type": "conference",
+      "year": 2014,
+      "citations": 34,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis of cadmium selenide colloidal quantum dots in aquatic medium",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012028"
+        },
+        "en": {
+          "title": "Synthesis of cadmium selenide colloidal quantum dots in aquatic medium",
+          "venue": "Journal of Physics: Conference Series, 572(1), 012028"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:roLk4NBRz8UC",
+        "researchgate": "https://www.researchgate.net/publication/269467602",
+        "researchgate_ru": "https://www.researchgate.net/publication/280490387",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24020559"
+      }
+    },
+    {
+      "id": "biotehnosfera-sensors-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "citations": 8,
+      "i18n": {
+        "ru": {
+          "title": "Сенсоры на основе металлических и полупроводниковых коллоидных наночастиц для биомедицинских и экологических применений",
+          "venue": "Биотехносфера, №2, с. 2–17",
+          "description": "С.Ф. Музихин, О.А. Александрова, В.В. Лучинин, А.И. Максимов, Л.Б. Матюшкин, В.А. Мошников"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:aqlVkmm33-oC",
+        "researchgate": "https://www.researchgate.net/publication/280041717",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=20422741"
+      }
+    },
+    {
+      "id": "biotehnosfera-synthesis-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "citations": 10,
+      "i18n": {
+        "ru": {
+          "title": "Особенности синтеза люминесцирующих полупроводниковых наночастиц в полярных и неполярных средах",
+          "venue": "Биотехносфера, №2, с. 27–32"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:SeFeTyx0c_EC",
+        "researchgate": "https://www.researchgate.net/publication/280041436",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=20422743"
+      }
+    },
+    {
+      "id": "nanostructures-cdse-2013",
+      "type": "conference",
+      "year": 2013,
+      "citations": 5,
+      "i18n": {
+        "ru": {
+          "title": "Phosphine-free synthesis of CdSe colloidal quantum dots with inverse order of fluorescence color",
+          "venue": "Nanostructures Symposium, 2013, pp. 298–299"
+        },
+        "en": {
+          "title": "Phosphine-free synthesis of CdSe colloidal quantum dots with inverse order of fluorescence color",
+          "venue": "Nanostructures Symposium, 2013, pp. 298–299"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:3fE2CSJIrl8C",
+        "researchgate": "https://www.researchgate.net/publication/259591839",
+        "elibrary": null
+      }
+    },
+    {
+      "id": "semiconductors-cuoxide-2017",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2017,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Морфология, оптические и адсорбционные свойства слоёв оксидов меди, осаждённых из растворов координационных соединений",
+          "venue": "Физика и техника полупроводников, 51(5), 586–590",
+          "description": "Л.Б. Матюшкин, А. Решетникова, А.О. Андронов и др., В.А. Мошников"
+        },
+        "en": {
+          "title": "Morphology, Optical, and Adsorption Properties of Copper-Oxide Layers Deposited from Complex Compound Solutions",
+          "venue": "Semiconductors, 51(5), 586–590",
+          "description": "LB Matyushkin, A Reshetnikova, AO Andronov et al., VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:RHpTSmoSYBkC",
+        "researchgate": "https://www.researchgate.net/publication/316419643",
+        "researchgate_ru": "https://www.researchgate.net/publication/316349525",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31043094",
+        "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29404912"
+      }
+    },
+    {
+      "id": "nanomaterials-synthesis-book-2015",
+      "type": "publication",
+      "subtype": "book",
+      "year": 2015,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Новые наноматериалы. Синтез. Диагностика. Моделирование",
+          "venue": "Монография. СПбГЭТУ «ЛЭТИ», 2015. ISBN 978-5-7269-1659-2",
+          "description": "Л.Б. Матюшкин, О.А. Александрова, А.Н. Алёшин и др. Под ред. В.А. Мошникова, О.А. Александровой."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/303688648",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=25666175"
+      }
+    },
+    {
+      "id": "nanoparticles-book-pt1-2015",
+      "type": "publication",
+      "subtype": "book",
+      "year": 2015,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Наночастицы, наносистемы и их применение. Часть I. Коллоидные квантовые точки",
+          "venue": "Монография. Уфа: Аэтерна, 2015. ISBN 978-5-906808-95-0",
+          "description": "О.А. Александрова, Л.Б. Матюшкин, В.А. Мошников и др. Ред.: О.А. Александрова, В.А. Мошников."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/283485202",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24265884"
+      }
+    },
+    {
+      "id": "nanoparticles-book-pt2-2016",
+      "type": "publication",
+      "subtype": "book",
+      "year": 2016,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "Наночастицы, наносистемы и их применение. Часть II. Углеродные и родственные слоистые материалы для современной наноэлектроники",
+          "venue": "Монография. Уфа: Аэтерна, 2016. ISBN 978-5-906887-01-6",
+          "description": "Л.Б. Матюшкин, О.А. Александрова, В.А. Мошников и др. Ред.: В.А. Мошников, О.А. Александрова."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/306057854",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26475720"
+      }
+    },
+    {
+      "id": "dissertation-2018",
+      "type": "dissertation",
+      "year": 2018,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX3 (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO2 и гибридных структур на их основе",
+          "venue": "Диссертация на соискание учёной степени к.т.н., СПбГЭТУ «ЛЭТИ», Санкт-Петербург"
+        },
+        "en": {
+          "title": "Technology and Equipment for Synthesis of CsPbX3 (X = Cl, Br, I) and CdSe/ZnS Quantum Dots, Ag/SiO2 Plasmonic Nanoparticles and Hybrid Structures",
+          "venue": "PhD dissertation, Saint Petersburg Electrotechnical University «LETI»"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/326207994",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35115356"
+      }
+    },
+    {
+      "id": "patent-ru166323-2016",
+      "type": "patent",
+      "year": 2016,
+      "citations": 11,
+      "i18n": {
+        "ru": {
+          "title": "Реактор для синтеза наноструктур",
+          "venue": "Патент на полезную модель RU 166323 U1, 20.11.2016",
+          "description": "Рыжов О.А., Матюшкин Л.Б., Мошников В.А., Александрова О.А. Заявка № 2015155748/02 от 24.12.2015."
+        },
+        "en": {
+          "title": "Reactor for Nanostructure Synthesis",
+          "venue": "Utility model patent RU 166323 U1, 20.11.2016",
+          "description": "Ryzhov O.A., Matyushkin L.B., Moshnikov V.A., Aleksandrova O.A."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=37570443"
+      }
+    },
+    {
+      "id": "patent-ru167044-2016",
+      "type": "patent",
+      "year": 2016,
+      "citations": 5,
+      "i18n": {
+        "ru": {
+          "title": "Устройство для исследования материалов методом индикатрис светорассеяния",
+          "venue": "Патент на полезную модель RU 167044 U1, 20.12.2016",
+          "description": "Мошников В.А., Максимов А.И., Александрова О.А., Матюшкин Л.Б., Рябко А.А. Заявка № 2016123580/28 от 14.06.2016."
+        },
+        "en": {
+          "title": "Device for Material Analysis by Light Scattering Indicatrix",
+          "venue": "Utility model patent RU 167044 U1, 20.12.2016",
+          "description": "Moshnikov V.A., Maksimov A.I., Aleksandrova O.A., Matyushkin L.B., Ryabko A.A."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=37571151"
+      }
+    },
+    {
+      "id": "patent-ru156478-2015",
+      "type": "patent",
+      "year": 2015,
+      "citations": 9,
+      "i18n": {
+        "ru": {
+          "title": "Автоматизированная установка для формирования тонкопленочных покрытий наноразмерной толщины методом молекулярного наслаивания",
+          "venue": "Патент на полезную модель RU 156478 U1, 10.11.2015",
+          "description": "Матюшкин Л.Б., Хондрюков Д.В., Александрова О.А. Заявка № 2015114951/28 от 21.04.2015."
+        },
+        "en": {
+          "title": "Automated Apparatus for Nanoscale Thin Film Deposition by Molecular Layer-by-Layer Method",
+          "venue": "Utility model patent RU 156478 U1, 10.11.2015",
+          "description": "Matyushkin L.B., Khondryukov D.V., Aleksandrova O.A."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=38374901"
+      }
+    },
+    {
+      "id": "book-nanochastitsy-ch1-microscopy-2015",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Современные методы флуоресцентной микроскопии высокого разрешения в медицине и биологии",
+          "venue": "Глава в монографии «Наночастицы, наносистемы и их применение», СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "Modern High-Resolution Fluorescence Microscopy Methods in Medicine and Biology",
+          "venue": "Book chapter in \"Nanoparticles, Nanosystems and Their Applications\", SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24265934"
+      }
+    },
+    {
+      "id": "book-nanochastitsy-ch3-qdsynth-2015",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Современное состояние вопроса синтеза коллоидных квантовых точек",
+          "venue": "Глава в монографии «Наночастицы, наносистемы и их применение», СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "State of the Art in Colloidal Quantum Dot Synthesis",
+          "venue": "Book chapter in \"Nanoparticles, Nanosystems and Their Applications\", SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24265936"
+      }
+    },
+    {
+      "id": "book-nanochastitsy-ch4-flowsynth-2015",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Поточный синтез коллоидных квантовых точек",
+          "venue": "Глава в монографии «Наночастицы, наносистемы и их применение», СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "Flow Synthesis of Colloidal Quantum Dots",
+          "venue": "Book chapter in \"Nanoparticles, Nanosystems and Their Applications\", SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24265938"
+      }
+    },
+    {
+      "id": "book-nanochastitsy-ch6-bioconj-2015",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Биоконъюгирование коллоидных квантовых точек",
+          "venue": "Глава в монографии «Наночастицы, наносистемы и их применение», СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "Bioconjugation of Colloidal Quantum Dots",
+          "venue": "Book chapter in \"Nanoparticles, Nanosystems and Their Applications\", SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24265939"
+      }
+    },
+    {
+      "id": "book-nanochastitsy-ch-intercal-2015",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Интеркалированный и терморасширенный графит. Максены: получение и применение",
+          "venue": "Глава в монографии «Наночастицы, наносистемы и их применение», СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "Intercalated and Thermally Expanded Graphite. MXenes: Synthesis and Applications",
+          "venue": "Book chapter in \"Nanoparticles, Nanosystems and Their Applications\", SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26476004"
+      }
+    },
+    {
+      "id": "book-nanooxides-vanadium-2017",
+      "type": "publication",
+      "subtype": "chapter",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Оксиды ванадия: свойства, получение и применение",
+          "venue": "Глава в монографии «Наноструктурные оксидные материалы в современной микро-, нано- и оптоэлектронике», СПбГЭТУ «ЛЭТИ», 2017",
+          "description": "Стр. 153–201."
+        },
+        "en": {
+          "title": "Vanadium Oxides: Properties, Synthesis and Applications",
+          "venue": "Book chapter in \"Nanostructured Oxide Materials in Modern Micro-, Nano-, and Optoelectronics\", SPbGETU \"LETI\", 2017",
+          "description": "Pp. 153–201."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=41674372"
+      }
+    },
+    {
+      "id": "textbook-confocal-microscopy-2015",
+      "type": "publication",
+      "subtype": "textbook",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Конфокальная микроскопия. Роль и значение в исследовании репродуктивной системы",
+          "venue": "Учебное пособие, СПбГЭТУ «ЛЭТИ», 2015"
+        },
+        "en": {
+          "title": "Confocal Microscopy. Role and Significance in the Study of the Reproductive System",
+          "venue": "Textbook, SPbGETU \"LETI\", 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24544052"
+      }
+    },
+    {
+      "id": "altenergo-pbsox-2015",
+      "type": "publication",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Анализ особенностей окисления слоев на основе сульфидов свинца и кадмия",
+          "venue": "Международный научный журнал «Альтернативная энергетика и экология»"
+        },
+        "en": {
+          "title": "Analysis of Oxidation Features of Lead and Cadmium Sulfide Layers",
+          "venue": "International Scientific Journal \"Alternative Energy and Ecology\""
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/285153005",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24499548"
+      }
+    },
+    {
+      "id": "biotekh-qd-biomedicine-2015",
+      "type": "publication",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Полупроводниковые нанокристаллы в биомедицинских исследованиях",
+          "venue": "Биотехносфера"
+        },
+        "en": {
+          "title": "Semiconductor Nanocrystals in Biomedical Research",
+          "venue": "Biotechnosphere"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=25478654"
+      }
+    },
+    {
+      "id": "fkhst-cuinse2-core-shell-2016",
+      "type": "publication",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Получение и исследование квантовых точек «ядро-оболочка» на основе CuInSe₂",
+          "venue": "Физика и химия стекла"
+        },
+        "en": {
+          "title": "Synthesis and Study of CuInSe₂-Based Core-Shell Quantum Dots",
+          "venue": "Glass Physics and Chemistry"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=28795463"
+      }
+    },
+    {
+      "id": "biotekh-p53-cd34-2017",
+      "type": "publication",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Флуоресцентные метки к маркерам p53 и CD34 на основе коллоидных квантовых точек",
+          "venue": "Биотехносфера"
+        },
+        "en": {
+          "title": "Fluorescent Labels for p53 and CD34 Markers Based on Colloidal Quantum Dots",
+          "venue": "Biotechnosphere"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=30029014"
+      }
+    },
+    {
+      "id": "forcipe-neurotic-2020",
+      "type": "publication",
+      "year": 2020,
+      "i18n": {
+        "ru": {
+          "title": "Невротические состояния студентов-медиков",
+          "venue": "Forcipe"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=43461170"
+      }
+    },
+    {
+      "id": "conf-novmat-qdots-bioimaging-2015",
+      "type": "conference",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Коллоидные квантовые точки CdSe и ZnSe в качестве контрастных веществ для биоизображений",
+          "venue": "Конф. «Новые материалы. Дни науки. Санкт-Петербург 2015»"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=24998027"
+      }
+    },
+    {
+      "id": "conf-zno-cuo-solar-2015",
+      "type": "conference",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Синтез гетероструктур ZnO-CuO методом спрей-пиролиза для создания фотовольтаических элементов",
+          "venue": "III Всерос. конф. «Наноструктурированные материалы и преобразовательные устройства для солнечной энергетики»"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26263199"
+      }
+    },
+    {
+      "id": "conf-alumina-opt-a-2015",
+      "type": "conference",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Исследование оптических свойств нанопористых мембран на основе оксида алюминия",
+          "venue": "Конференция, 2015"
+        },
+        "en": {
+          "title": "Investigation of the Optical Properties of Nanoporous Membranes Based on Alumina",
+          "venue": "Conference proceedings, 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26892430"
+      }
+    },
+    {
+      "id": "conf-alumina-opt-b-2015",
+      "type": "conference",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Исследование оптических свойств нанопористых мембран на основе оксида алюминия",
+          "venue": "Конференция, 2015"
+        },
+        "en": {
+          "title": "Investigation of the Optical Properties of Nanoporous Membranes Based on Alumina",
+          "venue": "Conference proceedings, 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26893389"
+      }
+    },
+    {
+      "id": "conf-nanoindustria-biomarkers-2015",
+      "type": "conference",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Биомаркеры на основе коллоидных квантовых точек для поисковых научных исследований",
+          "venue": "Конф. «Наноиндустрия и технологии будущего», СПбГЭТУ «ЛЭТИ», 2015"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27314002"
+      }
+    },
+    {
+      "id": "conf-nauka-leti-qdots-review-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Коллоидные квантовые точки: синтез, исследование, применение",
+          "venue": "Конф. «Наука и образование: технология успеха», СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27299267"
+      }
+    },
+    {
+      "id": "leti71-ultrasonic-spray-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Разработка установки для получения тонких пленок методом ультразвукового спрей-пиролиза",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722542"
+      }
+    },
+    {
+      "id": "leti71-conducting-inks-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Синтез проводящих чернил под воздействием микроволнового излучения для применения в гибкой электронике",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722577"
+      }
+    },
+    {
+      "id": "leti71-transfer-matrix-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Расчёт многослойных оптических структур методом матриц переноса",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722584"
+      }
+    },
+    {
+      "id": "leti71-plasmonic-ag-sio2-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Особенности синтеза плазмонных наночастиц Ag/SiO₂",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722613"
+      }
+    },
+    {
+      "id": "leti71-metaloxide-lbl-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Синтез металлоксидных плёнок послойным осаждением из растворов",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722628"
+      }
+    },
+    {
+      "id": "leti71-vanadium-oxide-a-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Разработка методики получения тонких плёнок оксида ванадия и исследование фазового перехода полупроводник–металл",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722654"
+      }
+    },
+    {
+      "id": "leti71-vanadium-oxide-b-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Разработка методики получения тонких плёнок оксида ванадия и исследование фазового перехода полупроводник–металл",
+          "venue": "71-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2016"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=26722655"
+      }
+    },
+    {
+      "id": "elconrusnw-cds-silar-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Тонкие плёнки CdS, полученные методом последовательной ионной адсорбции и реакции (SILAR)",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        },
+        "en": {
+          "title": "Cadmium Sulfide Thin Films Produced by Successive Ionic Layer Adsorption and Reaction Method",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/292972643",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27150452"
+      }
+    },
+    {
+      "id": "elconrusnw-photonic-crystals-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Изготовление одномерных фотонных кристаллов золь-гель методом",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        },
+        "en": {
+          "title": "Fabrication of One-Dimensional Photonic Crystals by Sol-Gel Method",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "researchgate_data": "https://www.researchgate.net/publication/292973479",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27150495"
+      }
+    },
+    {
+      "id": "elconrusnw-pbs-cbd-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Кинетика роста наноструктурированных плёнок PbS, полученных химическим осаждением из раствора",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        },
+        "en": {
+          "title": "Growth Characteristics of Nanostructured Lead Sulfide Films Prepared by Chemical Bath Deposition",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/292972627",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27159050"
+      }
+    },
+    {
+      "id": "elconrusnw-cds-silar-b-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Тонкие плёнки сульфида кадмия, полученные методом SILAR",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        },
+        "en": {
+          "title": "Cadmium Sulfide Thin Films Produced by Successive Ionic Layer Adsorption and Reaction Method",
+          "venue": "2016 IEEE North West Russia Young Researchers in Electrical and Electronic Engineering Conference (ElConRusNW)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=27159435"
+      }
+    },
+    {
+      "id": "conf-novascience-qdots-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Особенности синтеза коллоидных квантовых точек в неполярных и водных средах",
+          "venue": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016"
+        },
+        "en": {
+          "title": "Features of Colloidal Quantum Dots Synthesis in Nonpolar and Aqueous Media",
+          "venue": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=31099959"
+      }
+    },
+    {
+      "id": "eiconrus-zno-azo-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Синтез тонких плёнок ZnO и ZnO:Al методом ультразвукового спрей-пиролиза",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        },
+        "en": {
+          "title": "ZnO and Aluminium Doped ZnO Thin Films Synthesis by Ultrasonic Spray Pyrolysis Technique",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29213483"
+      }
+    },
+    {
+      "id": "eiconrus-metaloxide-lbl-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Формирование плёнок оксидов металлов из растворов комплексных соединений методом послойного химического осаждения",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        },
+        "en": {
+          "title": "Metal Oxide Film Formation from Coordination Complex Solutions by Surface Layer-by-Layer Chemical Deposition Technique",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29223877"
+      }
+    },
+    {
+      "id": "eiconrus-photonic-crystals-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Изготовление одномерных фотонных кристаллов золь-гель методом",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        },
+        "en": {
+          "title": "Sol-Gel Fabrication of One-Dimensional Photonic Crystals",
+          "venue": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29223892"
+      }
+    },
+    {
+      "id": "conf-dielektrik-3dprint-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Особенности экструзионной трёхмерной печати органическими диэлектриками и композитными материалами",
+          "venue": "XIV Межд. конф. «Физика диэлектриков (Диэлектрики-2017)», СПб., 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29401645"
+      }
+    },
+    {
+      "id": "conf-nanomat-afm-qdots-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Наноразмерные исследования коллоидных растворов квантовых точек ZnSe:Mn и PbS",
+          "venue": "3-я Межд. конф. «Физика и технология наноматериалов и структур», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29429658"
+      }
+    },
+    {
+      "id": "conf-nauka-scattering-diagnostic-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Разработка установки для диагностики наноструктурированных материалов методом объёмных индикатрис светорассеяния",
+          "venue": "Конф. «Наука настоящего и будущего», СПбГУ, 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29870258"
+      }
+    },
+    {
+      "id": "conf-nauka-inkjet-nanoparticles-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Создание элементов электроники методами струйной печати наночастицами",
+          "venue": "Конф. «Наука настоящего и будущего», СПбГУ, 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=29870260"
+      }
+    },
+    {
+      "id": "leti72-vanadium-opt-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Получение и исследование оптических свойств тонких плёнок оксида ванадия",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36564476"
+      }
+    },
+    {
+      "id": "leti72-lbl-automat-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Разработка автоматизированной установки для послойного осаждения тонких плёнок",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36676745"
+      }
+    },
+    {
+      "id": "leti72-additive-nanoparticles-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Создание электронных структур на основе наночастиц методами аддитивных технологий",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36676751"
+      }
+    },
+    {
+      "id": "leti72-perovskite-diode-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Диодные структуры на основе нанокристаллических перовскитов CsPbX₃ (Х = Cl, Br, I)",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36676755"
+      }
+    },
+    {
+      "id": "leti72-zno-pbs-heterojunction-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Особенности формирования слоёв из одномерных нанокристаллов оксида цинка для создания гетероперехода наностержни ZnO/квантовые точки PbS",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36676763"
+      }
+    },
+    {
+      "id": "leti72-qd-photonic-luminescent-2017",
+      "type": "conference",
+      "year": 2017,
+      "i18n": {
+        "ru": {
+          "title": "Получение и исследование люминесцирующих структур на основе квантовых точек и фотонных кристаллов",
+          "venue": "72-я Всерос. НТК, посвящённая Дню радио. СПбГЭТУ «ЛЭТИ», 2017"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36692442"
+      }
+    },
+    {
+      "id": "conf-solgel-qd-technology-2018",
+      "type": "conference",
+      "year": 2018,
+      "i18n": {
+        "ru": {
+          "title": "Технология получения коллоидных квантовых точек, плазмонных наночастиц и гибридных структур на их основе",
+          "venue": "V Межд. конф. СНГ «Золь-гель синтез и исследование неорганических соединений, гибридных функциональных материалов и дисперсных систем» (Золь-гель 2018), СПб."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36625754"
+      }
+    },
+    {
+      "id": "conf-fizikaspb-alumina-ir-2018",
+      "type": "conference",
+      "year": 2018,
+      "i18n": {
+        "ru": {
+          "title": "Исследование оптических свойств мембран поликристаллического анодного оксида алюминия в инфракрасной области спектра",
+          "venue": "Межд. конф. «Физика.СПб», 2018"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=36692439"
+      }
+    },
+    {
+      "id": "conf-amorphous-qd-tech-2018",
+      "type": "conference",
+      "year": 2018,
+      "i18n": {
+        "ru": {
+          "title": "Технология и оборудование для получения коллоидных квантовых точек, плазмонных наночастиц и гибридных структур на их основе",
+          "venue": "Межд. конф. «Аморфные и микрокристаллические полупроводники», ФТИ им. Иоффе, СПб., 2018"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=42346425"
+      }
+    },
+    {
+      "id": "avtoref-dissertation-2018",
+      "type": "dissertation",
+      "year": 2018,
+      "i18n": {
+        "ru": {
+          "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе",
+          "venue": "Автореферат диссертации, СПбГЭТУ «ЛЭТИ», 2018"
+        },
+        "en": {
+          "title": "Technology and Equipment for the Synthesis of CsPbX₃ (X = Cl, Br, I), CdSe/ZnS Quantum Dots, Ag/SiO₂ Plasmonic Nanoparticles and Hybrid Structures",
+          "venue": "PhD dissertation abstract, SPbGETU \"LETI\", 2018"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=35305925"
+      }
+    },
+    {
+      "id": "software-spektr-reg-2015",
+      "type": "patent",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Программа для регистрации оптических спектров",
+          "venue": "Свидетельство о государственной регистрации программы для ЭВМ № RU 2015619147",
+          "description": "Зарегистрировано 12.05.2015, опубликовано 25.08.2015."
+        },
+        "en": {
+          "title": "Software for Optical Spectra Recording",
+          "venue": "Certificate of Software Registration № RU 2015619147",
+          "description": "Registered 12.05.2015, published 25.08.2015."
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=39336008"
+      }
+    },
+    {
+      "id": "biotekh-qd-synthesis-polar-2013",
+      "type": "publication",
+      "year": 2013,
+      "citations": 10,
+      "i18n": {
+        "ru": {
+          "title": "Особенности синтеза люминесцирующих полупроводниковых наночастиц в полярных и неполярных средах",
+          "venue": "Биотехносфера, № 2, с. 27–32"
+        },
+        "en": {
+          "title": "Features of the Synthesis of Luminescent Semiconductor Nanoparticles in Polar and Nonpolar Media",
+          "venue": "Biotechnosphere, no. 2, pp. 27–32"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:SeFeTyx0c_EC",
+        "scholar_ru": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:HoB7MX3m0LUC",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=17049272"
+      }
+    },
+    {
+      "id": "biotekh-sensors-nanoparticles-2013",
+      "type": "publication",
+      "year": 2013,
+      "citations": 8,
+      "i18n": {
+        "ru": {
+          "title": "Сенсоры на основе металлических и полупроводниковых коллоидных наночастиц для биомедицинских и экологических применений",
+          "venue": "Биотехносфера, т. 2, с. 2–17"
+        },
+        "en": {
+          "title": "Sensors Based on Metal and Semiconductor Colloidal Nanoparticles for Biomedical and Environmental Applications",
+          "venue": "Biotechnosphere, vol. 2, pp. 2–17"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:aqlVkmm33-oC",
+        "researchgate": null,
+        "elibrary": "https://www.elibrary.ru/item.asp?id=20422741"
+      }
+    },
+    {
+      "id": "biophotonics-kisspeptin-qd-2015",
+      "type": "conference",
+      "year": 2015,
+      "citations": 5,
+      "i18n": {
+        "ru": {
+          "title": "Характеризация квантовых точек ZnSe/ZnS, конъюгированных с антителами к кисспептину",
+          "venue": "3rd Int. Conf. of BioPhotonics, Florence, 2015, с. 20–22"
+        },
+        "en": {
+          "title": "Characterization of ZnSe/ZnS QD Conjugated with Antibody Labeling Kisspeptins",
+          "venue": "3rd Int. Conf. of BioPhotonics, Florence, 2015, pp. 20–22"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:bEWYMUwI8FkC",
+        "researchgate": null,
+        "elibrary": null
+      }
+    },
+    {
+      "id": "nanostructures-sym-magnetite-2013",
+      "type": "conference",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Investigation of magnetite suspensions stabilized by porous silica",
+          "venue": "21-й Международный симпозиум «Наноструктуры: физика и технологии», Санкт-Петербург, 2013"
+        },
+        "en": {
+          "title": "Investigation of magnetite suspensions stabilized by porous silica",
+          "venue": "21st International Symposium 'Nanostructures: Physics and Technology', St. Petersburg, 2013"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/259591918"
+      }
+    },
+    {
+      "id": "nmr-magnetite-conf-2013",
+      "type": "conference",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Исследование ЯМР-релаксации в суспензиях нанокомпозита магнетит–диоксид кремния",
+          "venue": "Международный симпозиум «ЯМР в конденсированных средах», Санкт-Петербург, 2013"
+        },
+        "en": {
+          "title": "Study of NMR relaxation in suspensions of magnetite-silica nanocomposite",
+          "venue": "International Symposium 'NMR in Condensed Matter', St. Petersburg, 2013"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/259870560"
+      }
+    },
+    {
+      "id": "pbs-qd-selforg-conf-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Синтез и самоорганизация квантовых точек сульфида свинца для люминесцентных структур, полученных методом испарения коллоидного раствора",
+          "venue": "Нано- и микросистемная техника, №2, с. 19–23",
+          "description": "О.А. Александрова, А.И. Максимов, Е.В. Мараева, Л.Б. Матюшкин, В.А. Мошников, С.Ф. Мусихин, С.А. Тарасов"
+        },
+        "en": {
+          "title": "Synthesis and self-organization of lead sulfide quantum dots for luminescent structures obtained by colloidal solution evaporation",
+          "venue": "Nano- and Microsystems Technology, no. 2, pp. 19–23",
+          "description": "OA Aleksandrova, AI Maksimov, EV Maraeva, LB Matyushkin, VA Moshnikov, SF Musikhin, SA Tarasov"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/280021716"
+      }
+    },
+    {
+      "id": "chalcogenide-nanoparticles-conf-2013",
+      "type": "conference",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Коллоидные наночастицы халькогенидов металлов. Получение. Диагностика. Применение",
+          "venue": "VI Всероссийская школа-семинар «Диагностика наноматериалов и наноструктур», Рязань, 2013"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/317558981"
+      }
+    },
+    {
+      "id": "3d-printing-nanoedu-2013",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Применение технологии 3D-печати в обеспечении профессионально ориентированной подготовки кадров в интересах наноиндустрии",
+          "venue": "Биотехносфера. 2013. №3 (27). С. 38–47",
+          "description": "Л.Б. Матюшкин, Н.В. Пермяков"
+        },
+        "en": {
+          "title": "Application of 3D-printing technology for professionally oriented training of personnel for the nanoindustry",
+          "venue": "Biotechnosphere. 2013. No. 3 (27). Pp. 38–47",
+          "description": "LB Matyushkin, NV Permiakov"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/316627418",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=17049286"
+      }
+    },
+    {
+      "id": "biotekh-microscopy-qd-2014",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2014,
+      "i18n": {
+        "ru": {
+          "title": "От лазерной оптической микроскопии до флуоресцентной микроскопии высокого разрешения. Коллоидные квантовые точки — биомаркеры в поисковых научных исследованиях",
+          "venue": "Биотехносфера. 2014. №6 (36). С. 16–30",
+          "description": "В.А. Мошников, О.А. Александрова, А.О. Дробинцева, И.М. Кветной, Ю.С. Крылова, Д.С. Мазинг, Л.Б. Матюшкин, С.Ф. Мусихин, В.О. Полякова, О.А. Рыжов"
+        },
+        "en": {
+          "title": "From laser optical microscopy to high-resolution fluorescence microscopy. Colloidal quantum dots — biomarkers in research studies",
+          "venue": "Biotechnosphere. 2014. No. 6 (36). Pp. 16–30",
+          "description": "VA Moshnikov, OA Aleksandrova, AO Drobintseva, IM Kvetnoi, YuS Krylova, DS Mazing, LB Matyushkin, SF Musikhin, VO Polyakova, OA Ryzhov"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/280020845",
+        "elibrary": "https://www.elibrary.ru/item.asp?id=17049247"
+      }
+    },
+    {
+      "id": "pl-apparatus-conf-2015",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Модуль механического позиционирования твёрдых и жидких образцов для измерения спектров фотолюминесценции",
+          "venue": "Новости материаловедения. Наука и техника. 2015. №2. С. 40–42",
+          "description": "Л.Б. Матюшкин, Н.В. Пермяков"
+        },
+        "en": {
+          "title": "Mechanical unit for positioning solid and liquid samples for measurement of photoluminescence spectra",
+          "venue": "Materials Science News. Science and Technology. 2015. No. 2. Pp. 40–42",
+          "description": "LB Matyushkin, NV Permiakov"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/316627366"
+      }
+    },
+    {
+      "id": "jpcs-spbopen-flow-reactor-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 6,
+      "i18n": {
+        "ru": {
+          "title": "Segmented flow reactor for synthesis of quantum dot nanocrystals and plasmonic nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 741, 012026"
+        },
+        "en": {
+          "title": "Segmented flow reactor for synthesis of quantum dot nanocrystals and plasmonic nanoparticles",
+          "venue": "Journal of Physics: Conference Series, 741, 012026",
+          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/305815120",
+        "elibrary": "https://www.elibrary.ru/item.asp?doi=10.1088/1742-6596/741/1/012026"
+      }
+    },
+    {
+      "id": "photonics-north-cuinse2-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "Synthesis and characterization of CuInSe2 nanocrystals",
+          "venue": "Photonics North 2016, Квебек"
+        },
+        "en": {
+          "title": "Synthesis and characterization of CuInSe2 nanocrystals",
+          "venue": "Photonics North 2016, Quebec City"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/316883217"
+      }
+    },
+    {
+      "id": "photonics-north-hsp70-2016",
+      "type": "conference",
+      "year": 2016,
+      "i18n": {
+        "en": {
+          "title": "Magnetic and fluorescent nanoparticle conjugates for targeting of Hsp70-positive malignant brain tumors",
+          "venue": "Photonics North 2016, Vancouver"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/316883130"
+      }
+    },
+    {
+      "id": "scattering-indicatrix-thesis-2018",
+      "type": "conference",
+      "year": 2018,
+      "i18n": {
+        "ru": {
+          "title": "Разработка установки для диагностики наноструктурированных материалов методом объёмных индикатрис светорассеяния",
+          "venue": "VI НПК «Наука настоящего и будущего», СПбГЭТУ «ЛЭТИ», 24 марта 2018 г., с. 442–443",
+          "description": "Е.М. Тихомиров, Л.Б. Матюшкин"
+        }
+      },
+      "lang_of_work": "ru",
+      "urls": {
+        "scholar": null,
+        "researchgate": "https://www.researchgate.net/publication/324215748"
+      }
+    }
+  ]
+}
