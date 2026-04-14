@@ -151,7 +151,13 @@
         `<option value="${l}"${l === currentLang ? ' selected' : ''}>${l.toUpperCase()}</option>`
       ).join('');
 
+      function updateNavLang(lang) {
+        const navAch = document.getElementById('nav-achievements');
+        if (navAch) navAch.href = '../index.html?lang=' + lang;
+      }
+
       render(achievements, currentLang);
+      updateNavLang(currentLang);
 
       select.addEventListener('change', () => {
         const lang = select.value;
@@ -160,6 +166,7 @@
         url.searchParams.set('lang', lang);
         history.replaceState(null, '', url);
         render(achievements, lang);
+        updateNavLang(lang);
       });
     });
   </script>
