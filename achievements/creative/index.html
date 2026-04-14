@@ -103,7 +103,6 @@
     document.getElementById('nav-achievements').textContent = ui.navAchievements;
 
     const sorted = [...achievements]
-      .filter(a => lang === 'ru' || a.lang_of_work !== 'ru')
       .sort((a, b) => b.year - a.year);
     document.getElementById('achievements-list').innerHTML = sorted.map(a => {
       const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
