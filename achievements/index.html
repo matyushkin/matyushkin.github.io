@@ -9,6 +9,17 @@
   <link href="../style.css" rel="stylesheet">
   <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
   <title>Достижения — Лёва Матюшкин</title>
+  <style>
+    select.lang-select {
+      font-family: inherit;
+      font-size: 0.85em;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      padding: 4px;
+    }
+    .dark-theme select.lang-select { color: #ffffdd; }
+  </style>
 </head>
 <body>
   <header>
@@ -17,23 +28,80 @@
         <a href="../index.html"><img src="../img/logo.png" alt="Главная страница"></a>
       </section>
       <section><a href="../posts/index.html">Coding</a></section>
-      <section><a href="../texts/index.html">Тексты</a></section>
-      <section><a href="../achievements/index.html">Достижения</a></section>
+      <section><a href="../texts/index.html" id="nav-texts">Тексты</a></section>
+      <section><a href="index.html" id="nav-achievements">Достижения</a></section>
       <section><a href="../links/index.html">Ссылки</a></section>
+      <select id="lang-select" class="lang-select">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
     </nav>
   </header>
   <main>
-    <h1>Достижения</h1>
-    <p lang="ru"><a href="creative/index.html">Творческие достижения</a> — поэзия, проза, выставки</p>
-    <p lang="en"><a href="creative/index.html">Creative achievements</a> — poetry, prose, exhibitions</p>
-    <p lang="ru"><a href="science/index.html">Научные достижения</a> — публикации, гранты, конференции</p>
-    <p lang="en"><a href="science/index.html">Scientific achievements</a> — publications, grants, conferences</p>
+    <h1 id="page-title">Достижения</h1>
+    <p id="link-creative"></p>
+    <p id="link-science"></p>
   </main>
   <footer>
-    <p lang="ru">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
-    <p lang="en">Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
+    <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
   </footer>
-  <input type="button" class="button-lang" value="English">
-  <script src="../source/switch_lang.js"></script>
+
+  <script>
+  const UI = {
+    ru: {
+      pageTitle: 'Достижения',
+      creative: '<a href="creative/index.html?lang=ru">Творческие достижения</a> — поэзия, проза, выставки',
+      science:  '<a href="science/index.html?lang=ru">Научные достижения</a> — публикации, гранты, конференции',
+      navTexts: 'Тексты',
+      navAchievements: 'Достижения',
+      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    },
+    en: {
+      pageTitle: 'Achievements',
+      creative: '<a href="creative/index.html?lang=en">Creative achievements</a> — poetry, prose, exhibitions',
+      science:  '<a href="science/index.html?lang=en">Scientific achievements</a> — publications, grants, conferences',
+      navTexts: 'Texts',
+      navAchievements: 'Achievements',
+      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    }
+  };
+
+  function getLang() {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang) {
+      localStorage.setItem('lang', urlLang);
+      return urlLang;
+    }
+    const stored = localStorage.getItem('lang');
+    if (stored) return stored;
+    const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
+    return browserLang === 'ru' ? 'ru' : 'en';
+  }
+
+  function render(lang) {
+    const ui = UI[lang] || UI.en;
+    document.getElementById('page-title').textContent = ui.pageTitle;
+    document.title = ui.pageTitle + ' — Лёва Матюшкин';
+    document.getElementById('link-creative').innerHTML = ui.creative;
+    document.getElementById('link-science').innerHTML = ui.science;
+    document.getElementById('nav-texts').textContent = ui.navTexts;
+    document.getElementById('nav-achievements').textContent = ui.navAchievements;
+    document.getElementById('footer-text').innerHTML = ui.footer;
+  }
+
+  const currentLang = getLang();
+  const select = document.getElementById('lang-select');
+  select.value = currentLang;
+  render(currentLang);
+
+  select.addEventListener('change', () => {
+    const lang = select.value;
+    localStorage.setItem('lang', lang);
+    const url = new URL(window.location);
+    url.searchParams.set('lang', lang);
+    history.replaceState(null, '', url);
+    render(lang);
+  });
+  </script>
 </body>
 </html>
