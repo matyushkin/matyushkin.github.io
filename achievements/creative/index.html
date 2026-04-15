@@ -27,7 +27,7 @@
       <section><a href="../../posts/index.html">Coding</a></section>
       <section><a href="../../texts/index.html" id="nav-texts">Тексты</a></section>
       <section><a href="../index.html" id="nav-achievements">Достижения</a></section>
-      <section><a href="../../links/index.html">Ссылки</a></section>
+      <section><a href="../../links/index.html" id="nav-links">Ссылки</a></section>
       <select id="lang-select" class="lang-select">
         <option value="ru">RU</option>
         <option value="en">EN</option>
@@ -55,6 +55,7 @@
       },
       navTexts: 'Тексты',
       navAchievements: 'Достижения',
+      navLinks: 'Ссылки',
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
@@ -68,6 +69,7 @@
       },
       navTexts: 'Texts',
       navAchievements: 'Achievements',
+      navLinks: 'Links',
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
   };
@@ -92,6 +94,7 @@
     document.getElementById('footer-text').innerHTML = ui.footer;
     document.getElementById('nav-texts').textContent = ui.navTexts;
     document.getElementById('nav-achievements').textContent = ui.navAchievements;
+    document.getElementById('nav-links').textContent = ui.navLinks;
 
     const sorted = [...achievements]
       .sort((a, b) => b.year - a.year);
