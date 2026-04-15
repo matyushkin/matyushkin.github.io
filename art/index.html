@@ -26,9 +26,9 @@
       <section class="logo">
         <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../art/index.html">Art</a></section>
-      <section><a href="../science/index.html">Science</a></section>
-      <section><a href="../technology/index.html">Technology</a></section>
+      <section><a href="../art/index.html" id="nav-art">Art</a></section>
+      <section><a href="../science/index.html" id="nav-science">Science</a></section>
+      <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
       <select id="lang-select" class="lang-select">
         <option value="ru">RU</option>
         <option value="en">EN</option>
@@ -65,10 +65,11 @@
   <script>
   const UI = {
     ru: {
-      pageTitle: 'Art',
+      pageTitle: 'Искусство',
       linksTitle: 'Профили',
       booksTitle: 'Книги',
       publicationsTitle: 'Публикации',
+      nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
       bookAya: 'Книга стихов «а/я», 2018',
       bookSpace: 'Книга стихов «О пространстве и времени», 2015',
       types: {
@@ -85,6 +86,7 @@
       linksTitle: 'Profiles',
       booksTitle: 'Books',
       publicationsTitle: 'Publications',
+      nav: { art: 'Art', science: 'Science', technology: 'Technology' },
       bookAya: 'Poetry collection «а/я», 2018',
       bookSpace: 'Poetry collection «О пространстве и времени» [On Space and Time], 2015',
       types: {
@@ -118,6 +120,12 @@
     document.title = ui.pageTitle + ' — Leo Matyushkin';
     document.getElementById('links-title').textContent = ui.linksTitle;
     document.getElementById('books-title').textContent = ui.booksTitle;
+    const navArt  = document.getElementById('nav-art');
+    const navSci  = document.getElementById('nav-science');
+    const navTech = document.getElementById('nav-technology');
+    if (navArt)  navArt.textContent  = ui.nav.art;
+    if (navSci)  navSci.textContent  = ui.nav.science;
+    if (navTech) navTech.textContent = ui.nav.technology;
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     document.getElementById('book-aya').textContent = ui.bookAya;
     document.getElementById('book-space').textContent = ui.bookSpace;
