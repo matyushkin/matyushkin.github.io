@@ -67,14 +67,13 @@
         { url: 'https://www.elibrary.ru/author_profile.asp?authorid=650886', label: 'eLIBRARY' },
         { url: 'https://stepik.org/course/52514', label: 'Стэпик' }
       ],
-      types: {
-        publication: 'публикация',
-        conference: 'конференция',
-        award: 'награда',
-        grant: 'грант',
-        patent: 'патент',
-        dissertation: 'диссертация'
-      },
+      sections: [
+        { type: 'dissertation', label: 'Диссертация' },
+        { type: 'book',         label: 'Книги' },
+        { type: 'publication',  label: 'Статьи в журналах' },
+        { type: 'conference',   label: 'Тезисы конференций' },
+        { type: 'patent',       label: 'Патенты' }
+      ],
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
@@ -88,14 +87,13 @@
         { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
         { url: 'https://stepik.org/course/52514', label: 'Stepik' }
       ],
-      types: {
-        publication: 'publication',
-        conference: 'conference',
-        award: 'award',
-        grant: 'grant',
-        patent: 'patent',
-        dissertation: 'dissertation'
-      },
+      sections: [
+        { type: 'dissertation', label: 'Dissertation' },
+        { type: 'book',         label: 'Books' },
+        { type: 'publication',  label: 'Journal Articles' },
+        { type: 'conference',   label: 'Conference Abstracts' },
+        { type: 'patent',       label: 'Patents' }
+      ],
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
   };
@@ -132,13 +130,11 @@
     document.getElementById('footer-text').innerHTML = ui.footer;
     applyBilingualParagraphs(lang);
 
-    const sorted = [...achievements]
-      .filter(a => lang === 'ru' || a.lang_of_work !== 'ru')
-      .sort((a, b) => b.year - a.year);
+    const filtered = [...achievements]
+      .filter(a => lang === 'ru' || a.lang_of_work !== 'ru');
 
-    document.getElementById('achievements-list').innerHTML = sorted.map(a => {
+    function renderItem(a) {
       const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
-      const typeLabel = ui.types[a.type] || a.type;
       const citationsHtml = a.citations
         ? ` · <span title="citations">${a.citations} ✦</span>`
         : '';
@@ -153,12 +149,20 @@
         ? `<div class="achievement-links">${linkParts.join(' · ')}</div>`
         : '';
       return `<div class="achievement">
-        <div class="achievement-meta">${typeLabel} · ${a.year}${citationsHtml}</div>
+        <div class="achievement-meta">${a.year}${citationsHtml}</div>
         <div class="achievement-title">${i.title}</div>
         <div class="achievement-venue">${i.venue}</div>
         ${i.description ? `<div class="achievement-desc">${i.description}</div>` : ''}
         ${linksHtml}
       </div>`;
+    }
+
+    document.getElementById('achievements-list').innerHTML = ui.sections.map(section => {
+      const items = filtered
+        .filter(a => a.type === section.type)
+        .sort((a, b) => (b.citations || 0) - (a.citations || 0));
+      if (!items.length) return '';
+      return `<h3>${section.label}</h3>` + items.map(renderItem).join('');
     }).join('');
   }
 
