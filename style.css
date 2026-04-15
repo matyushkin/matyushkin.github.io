@@ -61,7 +61,10 @@ select.lang-select {
     color: inherit;
 }
 
-.dark-theme select.lang-select, .dark-theme .theme-button { color: #ffffdd; }
+.dark-theme select.lang-select, .dark-theme .theme-button { color: #e8e4d8; }
+
+.dark-theme .achievement-meta { color: #999; }
+.dark-theme .achievement-desc { color: #bbb; }
 
 .logo img {
     width: 100px;
@@ -72,21 +75,21 @@ select.lang-select {
 }
 
 .dark-theme {
-    background-color: #111111;
-    color: #ffffdd;
+    background-color: #1a1a1a;
+    color: #e8e4d8;
 }
 
 .dark-theme a:link {
-    color: #ffffdd;
+    color: #8ecae6;
 }
 
 .dark-theme a:visited {
-    color: #ffffff;
+    color: #b0a4c8;
 }
 
 .dark-theme nav {
-    background: #111111;
-    border-bottom-color: #333;
+    background: #1a1a1a;
+    border-bottom-color: #3a3a3a;
 }
 
 h1 {
@@ -129,5 +132,5 @@ p:lang(en) {
 }
 
 .dark-theme .achievement {
-    border-left-color: #444;
+    border-left-color: #555;
 }
