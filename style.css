@@ -158,6 +158,25 @@ p:lang(en) {
     display: none;
 }
 
+/* ── Index section links ─────────────────────────────────────────────────── */
+
+.index-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    margin-top: 1.2em;
+}
+.index-sections a {
+    text-decoration: none;
+    display: block;
+}
+.index-sections a:hover strong {
+    text-decoration: underline;
+}
+.index-sections p {
+    margin: 0;
+}
+
 /* ── Achievement cards (science, art) ───────────────────────────────────── */
 
 .achievement {
