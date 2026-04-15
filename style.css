@@ -40,16 +40,17 @@ nav section {
     padding:10px;
 }
 
-select.lang-select {
+select.lang-select, .theme-button {
     font-family: inherit;
-    font-size: 0.85em;
+    font-size: 0.95em;
     cursor: pointer;
     border: none;
     background: transparent;
     padding: 4px;
+    color: inherit;
 }
 
-.dark-theme select.lang-select { color: #ffffdd; }
+.dark-theme select.lang-select, .dark-theme .theme-button { color: #ffffdd; }
 
 .logo img {
     width: 100px;
