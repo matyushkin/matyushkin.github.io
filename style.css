@@ -12,22 +12,27 @@
 body {
     font-family: 'Computer Modern Sans', sans-serif;
     font-size: 21px;
-    line-height: normal;
+    line-height: 1.5;
     max-width: 800px;
-    margin: 1em;
+    margin: 1em auto;
+    padding: 0 1.2em;
 }
 
 nav {
     display: flex;
-    flex-wrap: none;
-    flex-st
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: #eeeeee;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    margin: 0 -1.2em;
+    padding: 0 1.2em;
 }
 
 nav section {
-    margin-right: auto;
+    margin-right: 1em;
 }
 
 .logo {
@@ -68,7 +73,8 @@ select.lang-select {
 }
 
 .dark-theme nav {
-    background-color: #222222;
+    background: #111111;
+    border-bottom-color: #333;
 }
 
 h1 {
@@ -103,4 +109,13 @@ a:hover {
 
 p:lang(en) {
     display: none;
+}
+
+.achievement {
+    border-left: 2px solid #e0e0e0;
+    padding-left: 0.8em;
+}
+
+.dark-theme .achievement {
+    border-left-color: #444;
 }
