@@ -125,12 +125,12 @@
       "citations": 22,
       "i18n": {
         "ru": {
-          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr3 Nanocrystals",
+          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr₃ Nanocrystals",
           "venue": "Physics of the Solid State, 61 (2), 256–262",
           "description": "А.Н. Алёшин, И.П. Щербаков, Д.А. Кириленко, Л.Б. Матюшкин, В.А. Мошников"
         },
         "en": {
-          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr3 Nanocrystals",
+          "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr₃ Nanocrystals",
           "venue": "Physics of the Solid State, 61 (2), 256–262",
           "description": "AN Aleshin, IP Shcherbakov, DA Kirilenko, LB Matyushkin, VA Moshnikov"
         }
@@ -746,12 +746,12 @@
       "citations": 3,
       "i18n": {
         "ru": {
-          "title": "Study of CsPbBr3 Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
+          "title": "Study of CsPbBr₃ Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
           "venue": "Optics and Spectroscopy, 125(6), 858–863",
           "description": "П.А. Дементьев, М.С. Дунаевский, Л.Б. Матюшкин и др."
         },
         "en": {
-          "title": "Study of CsPbBr3 Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
+          "title": "Study of CsPbBr₃ Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
           "venue": "Optics and Spectroscopy, 125(6), 858–863",
           "description": "PA Dement'ev, MS Dunaevskii, LB Matyushkin et al."
         }
@@ -935,11 +935,11 @@
       "citations": 10,
       "i18n": {
         "ru": {
-          "title": "Synthesis and postsynthetic anion exchange of CsPbX3 (X = Cl, Br, I) quantum dots",
+          "title": "Synthesis and postsynthetic anion exchange of CsPbX₃ (X = Cl, Br, I) quantum dots",
           "venue": "Journal of Physics: Conference Series, 917(6), 062041"
         },
         "en": {
-          "title": "Synthesis and postsynthetic anion exchange of CsPbX3 (X = Cl, Br, I) quantum dots",
+          "title": "Synthesis and postsynthetic anion exchange of CsPbX₃ (X = Cl, Br, I) quantum dots",
           "venue": "Journal of Physics: Conference Series, 917(6), 062041"
         }
       },
@@ -1001,11 +1001,11 @@
       "citations": 3,
       "i18n": {
         "ru": {
-          "title": "Layer-by-layer deposition of nanostructured CsPbBr3 perovskite thin films",
+          "title": "Layer-by-layer deposition of nanostructured CsPbBr₃ perovskite thin films",
           "venue": "Journal of Physics: Conference Series, 917(5), 052023"
         },
         "en": {
-          "title": "Layer-by-layer deposition of nanostructured CsPbBr3 perovskite thin films",
+          "title": "Layer-by-layer deposition of nanostructured CsPbBr₃ perovskite thin films",
           "venue": "Journal of Physics: Conference Series, 917(5), 052023"
         }
       },
@@ -1377,11 +1377,11 @@
       "citations": 13,
       "i18n": {
         "ru": {
-          "title": "Synthesis of core-shell Ag/SiO2 nanoparticles for SPASER structures",
+          "title": "Synthesis of core-shell Ag/SiO₂ nanoparticles for SPASER structures",
           "venue": "Journal of Physics: Conference Series, 541(1), 012015"
         },
         "en": {
-          "title": "Synthesis of core-shell Ag/SiO2 nanoparticles for SPASER structures",
+          "title": "Synthesis of core-shell Ag/SiO₂ nanoparticles for SPASER structures",
           "venue": "Journal of Physics: Conference Series, 541(1), 012015"
         }
       },
@@ -1614,11 +1614,11 @@
       "citations": 3,
       "i18n": {
         "ru": {
-          "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX3 (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO2 и гибридных структур на их основе",
+          "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе",
           "venue": "Диссертация на соискание учёной степени к.т.н., СПбГЭТУ «ЛЭТИ», Санкт-Петербург"
         },
         "en": {
-          "title": "Technology and Equipment for Synthesis of CsPbX3 (X = Cl, Br, I) and CdSe/ZnS Quantum Dots, Ag/SiO2 Plasmonic Nanoparticles and Hybrid Structures",
+          "title": "Technology and Equipment for Synthesis of CsPbX₃ (X = Cl, Br, I) and CdSe/ZnS Quantum Dots, Ag/SiO₂ Plasmonic Nanoparticles and Hybrid Structures",
           "venue": "PhD dissertation, Saint Petersburg Electrotechnical University «LETI»"
         }
       },
@@ -2867,11 +2867,11 @@
       "year": 2016,
       "i18n": {
         "ru": {
-          "title": "Synthesis and characterization of CuInSe2 nanocrystals",
+          "title": "Synthesis and characterization of CuInSe₂ nanocrystals",
           "venue": "Photonics North 2016, Квебек"
         },
         "en": {
-          "title": "Synthesis and characterization of CuInSe2 nanocrystals",
+          "title": "Synthesis and characterization of CuInSe₂ nanocrystals",
           "venue": "Photonics North 2016, Quebec City"
         }
       },
