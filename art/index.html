@@ -153,6 +153,7 @@
   }
 
   function render(achievements, lang) {
+    document.documentElement.lang = lang;
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';
