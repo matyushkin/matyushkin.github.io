@@ -33,7 +33,18 @@
     if (sel) sel.value = lang;
   }
 
+  function markCurrentPage() {
+    var path = window.location.pathname;
+    var map = { 'nav-art': '/art/', 'nav-science': '/science/', 'nav-technology': '/technology/' };
+    Object.keys(map).forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.removeAttribute('aria-current');
+      if (el && path.indexOf(map[id]) !== -1) el.setAttribute('aria-current', 'page');
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
+    markCurrentPage();
     // Theme
     var body = document.body;
     var saved = localStorage.getItem('theme');
