@@ -126,6 +126,20 @@ nav a[aria-current="page"] {
     text-decoration: underline;
 }
 
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    padding: 0.5em 1em;
+    background: #000;
+    color: #fff;
+    z-index: 9999;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
