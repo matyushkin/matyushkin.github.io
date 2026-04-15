@@ -108,6 +108,7 @@ test.describe('art/index.html', () => {
     const profiles = page.locator('#profiles-list');
     await expect(profiles).toContainText('SoundCloud');
     await expect(profiles).toContainText('Telegram (LMPIX)');
+    // journal name check is in art bio, not profiles
     await expect(profiles).toContainText('Behance');
   });
 
@@ -120,6 +121,11 @@ test.describe('art/index.html', () => {
   test('EN titles include translation in brackets', async ({ page }) => {
     await page.goto('/art/index.html?lang=en');
     await expect(page.locator('#achievements-list')).toContainText('[Other Clay]');
+  });
+
+  test('RU bio mentions Журнал на коленке', async ({ page }) => {
+    await page.goto('/art/index.html?lang=ru');
+    await expect(page.locator('p[lang="ru"]').first()).toContainText('Журнале на коленке');
   });
 
   test('publications render (non-empty list)', async ({ page }) => {
