@@ -1,0 +1,870 @@
+{
+  "categories": [
+    {
+      "id": "python",
+      "title": "Python",
+      "lang": "ru",
+      "subcategories": [],
+      "articles": [
+        {
+          "title": "Как написать игру на Python: 5 игровых движков",
+          "url": "https://proglib.io/p/kak-napisat-igru-na-python-5-igrovyh-dvizhkov-2022-11-07"
+        },
+        {
+          "title": "Полный фуллстек: пишем сайт на Django, Vue и GraphQL",
+          "url": "https://proglib.io/p/polnyy-fullstek-pishem-sayt-na-django-vue-i-graphql-2021-07-22"
+        },
+        {
+          "title": "Помнить всё. Как работает память в Python",
+          "url": "https://proglib.io/p/pomnit-vse-kak-rabotaet-pamyat-v-python-2021-03-14"
+        },
+        {
+          "title": "Python и API: комбо для автоматизации работы с публичными данными",
+          "url": "https://proglib.io/p/python-i-api-prevoshodnoe-kombo-dlya-avtomatizacii-raboty-s-publichnymi-dannymi-2021-02-26"
+        },
+        {
+          "title": "Микросервисная архитектура на примере Python и gRPC",
+          "url": "https://proglib.io/p/mikroservisnaya-arhitektura-na-primere-python-i-grpc-2021-02-12"
+        },
+        {
+          "title": "Как в Python применяются вложенные функции",
+          "url": "https://proglib.io/p/kak-v-python-primenyayutsya-vlozhennye-funkcii-2021-02-09"
+        },
+        {
+          "title": "Python и MySQL: практическое введение",
+          "url": "https://proglib.io/p/python-i-mysql-prakticheskoe-vvedenie-2021-01-06"
+        },
+        {
+          "title": "Как правильно ничего не делать в Python: инструкция pass",
+          "url": "https://proglib.io/p/kak-pravilno-nichego-ne-delat-v-python-instrukciya-pass-2020-12-19"
+        },
+        {
+          "title": "Кэширование в Python: алгоритм LRU",
+          "url": "https://proglib.io/p/keshirovanie-v-python-algoritm-lru-2020-11-17"
+        },
+        {
+          "title": "Управление данными с помощью Python, SQLite и SQLAlchemy",
+          "url": "https://proglib.io/p/upravlenie-dannymi-s-pomoshchyu-python-sqlite-i-sqlalchemy-2020-10-21"
+        },
+        {
+          "title": "Введение в объектно-ориентированное программирование (ООП) на Python",
+          "url": "https://proglib.io/p/vvedenie-v-obektno-orientirovannoe-programmirovanie-oop-na-python-2020-07-23"
+        },
+        {
+          "title": "Тест на знание языка Python (15 вопросов)",
+          "url": "https://proglib.io/tests/test-na-znanie-yazyka-python"
+        },
+        {
+          "title": "Робот в лабиринте: обрабатываем в Python очереди с приоритетом",
+          "url": "https://proglib.io/p/robot-v-labirinte-obrabatyvaem-ocheredi-s-prioritetom-v-python-2020-07-07"
+        },
+        {
+          "title": "Новые возможности Python 3.9: мнения экспертов",
+          "url": "https://proglib.io/p/novye-vozmozhnosti-python-3-9-mneniya-ekspertov-2020-06-12"
+        },
+        {
+          "title": "Динамическое выполнение выражений в Python: eval()",
+          "url": "https://proglib.io/p/dinamicheskoe-vypolnenie-vyrazheniy-v-python-funkciya-eval-2020-05-14"
+        },
+        {
+          "title": "Всё, что нужно знать о декораторах Python",
+          "url": "https://proglib.io/p/vse-chto-nuzhno-znat-o-dekoratorah-python-2020-05-09"
+        },
+        {
+          "title": "Как хранить объекты Python со сложной структурой",
+          "url": "https://proglib.io/p/kak-hranit-obekty-python-so-slozhnoy-strukturoy-moduli-pickle-i-dill-2020-04-30"
+        },
+        {
+          "title": "ТОП-15 книг Python: от новичка до профессионала",
+          "url": "https://proglib.io/p/top-15-knig-po-python-ot-novichka-do-professionala-2020-04-07"
+        },
+        {
+          "title": "Как подружить Python и базы данных SQL. Подробное руководство",
+          "url": "https://proglib.io/p/kak-podruzhit-python-i-bazy-dannyh-sql-podrobnoe-rukovodstvo-2020-02-27"
+        },
+        {
+          "title": "Python и динамическое программирование на примере задачи о рюкзаке",
+          "url": "https://proglib.io/p/python-i-dinamicheskoe-programmirovanie-na-primere-zadachi-o-ryukzake-2020-02-04"
+        },
+        {
+          "title": "Как опубликовать свою Python библиотеку на PyPI",
+          "url": "https://proglib.io/p/kak-opublikovat-svoyu-python-biblioteku-na-pypi-2020-01-28"
+        },
+        {
+          "title": "Веб-скрапинг по расписанию с Django и Heroku",
+          "url": "https://proglib.io/p/veb-skraping-po-raspisaniyu-s-heroku-i-django-2020-01-17"
+        },
+        {
+          "title": "Иллюстрированное руководство по изменению формы массивов NumPy",
+          "url": "https://proglib.io/p/illyustrirovannoe-rukovodstvo-po-izmeneniyu-formy-mnogomernyh-massivov-numpy-2020-01-12"
+        },
+        {
+          "title": "Итерируем правильно: 20 приемов использования в Python модуля itertools",
+          "url": "https://proglib.io/p/iteriruemsya-pravilno-20-priemov-ispolzovaniya-v-python-modulya-itertools-2020-01-03"
+        },
+        {
+          "title": "Не изобретать велосипед, или Обзор модуля collections в Python",
+          "url": "https://proglib.io/p/ne-izobretat-velosiped-ili-obzor-modulya-collections-v-python-2019-12-15"
+        },
+        {
+          "title": "Назад в будущее: практическое руководство по путешествию во времени с Python",
+          "url": "https://proglib.io/p/nazad-v-budushchee-prakticheskoe-rukovodstvo-po-puteshestviyu-vo-vremeni-s-python-2019-12-01"
+        },
+        {
+          "title": "Тест на знания о необычном поведении Python",
+          "url": "https://proglib.io/tests/test-na-obshchie-znaniya-dlya-middle-python-razrabotchika"
+        },
+        {
+          "title": "10 советов о том, как научить ребенка программировать на Python",
+          "url": "https://proglib.io/p/10-sovetov-o-tom-kak-nauchit-rebenka-programmirovat-na-python-2019-10-12"
+        },
+        {
+          "title": "Пишем программу для автоматического распознавания объектов с веб-камер",
+          "url": "https://proglib.io/p/pishem-programmu-dlya-avtomaticheskogo-raspoznavaniya-obektov-s-veb-kamer-2019-10-05"
+        },
+        {
+          "title": "Спасательный круг для собеседования на Python-разработчика",
+          "url": "https://proglib.io/p/py-interview"
+        },
+        {
+          "title": "Требования к Python-разработчику на мировом рынке 2019 года",
+          "url": "https://proglib.io/p/python-dev-2019"
+        },
+        {
+          "title": "Быстрый путеводитель по Python: cписки за 7 минут",
+          "url": "https://proglib.io/p/python-lists"
+        },
+        {
+          "title": "Pythran: как заставить работать код Python со скоростью С++",
+          "url": "https://proglib.io/p/pythran"
+        },
+        {
+          "title": "Видео 10 лучших докладов о Python на конференции PyCon",
+          "url": "https://proglib.io/p/top10-pycon"
+        },
+        {
+          "title": "TOP-10 open source проектов на Python в сентябре 2018",
+          "url": "https://proglib.io/p/python-opensources"
+        },
+        {
+          "title": "ТОП-15 трюков в Python 3, делающих код понятнее и быстрее",
+          "url": "https://proglib.io/p/python-tricks"
+        },
+        {
+          "title": "ТОП-10 англоязычных публикаций по Python за апрель 2018",
+          "url": "https://proglib.io/p/python-april-2018"
+        },
+        {
+          "title": "Парсинг сайтов на Python: подробный видеокурс и программный код",
+          "url": "https://proglib.io/p/parsing-course"
+        },
+        {
+          "title": "Регулярные выражения, пособие для новичков. Часть 1",
+          "url": "https://habr.com/ru/post/115825/"
+        },
+        {
+          "title": "Как сделать из 123456789 число 100 или 0",
+          "url": "https://habr.com/ru/post/115066/"
+        },
+        {
+          "title": "Python(x, y)",
+          "url": "https://habr.com/ru/post/113065/"
+        },
+        {
+          "title": "Программирование и научные вычисления на языке Python (курс на Викиверситете)",
+          "url": "https://ru.wikiversity.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BD%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B5_Python"
+        }
+      ]
+    },
+    {
+      "id": "нейронные-сети-и-компьютерное-зрение",
+      "title": "Нейронные сети и компьютерное зрение",
+      "lang": "ru",
+      "subcategories": [],
+      "articles": [
+        {
+          "title": "Генеративно-состязательная нейросеть: ваша первая GAN-модель на PyTorch",
+          "url": "https://proglib.io/p/generativno-sostyazatelnaya-neyroset-vasha-pervaya-gan-model-na-pytorch-2020-08-11"
+        },
+        {
+          "title": "Тест. Правда или ложь: что умеют нейросети?",
+          "url": "https://proglib.io/tests/pravda-ili-lozh-chto-umeyut-neyroseti"
+        },
+        {
+          "title": "Нейросети в помощь геймдев-художнику: машинное обучение для создания игрового пиксель-арта",
+          "url": "https://proglib.io/p/neyroseti-v-pomoshch-geymdev-hudozhniku-mashinnoe-obuchenie-dlya-sozdaniya-igrovogo-piksel-arta-2020-04-13"
+        },
+        {
+          "title": "Просто добавь нейросеть: 7 исторических фильмов в 4K и 60 FPS",
+          "url": "https://proglib.io/p/prosto-dobav-neyroset-7-istoricheskih-filmov-v-4k-i-60-fps-2020-03-15"
+        },
+        {
+          "title": "Учим искусственный интеллект раскрашивать контурные изображения персонажей аниме",
+          "url": "https://proglib.io/p/sketch2color-uchim-iskusstvennyy-intellekt-raskrashivat-konturnye-izobrazheniya-personazhey-anime-2019-12-30"
+        },
+        {
+          "title": "Голосовой DeepFake, или Как работает технология клонирования голоса",
+          "url": "https://proglib.io/p/golosovoy-deepfake-ili-kak-rabotaet-tehnologiya-klonirovaniya-golosa-2019-12-11"
+        },
+        {
+          "title": "DeepFake-туториал: создаем собственный дипфейк в DeepFaceLab",
+          "url": "https://proglib.io/p/deepfake-tutorial-sozdaem-sobstvennyy-dipfeyk-v-deepfacelab-2019-11-16"
+        },
+        {
+          "title": "Автоматическое распознавание автомобильных номеров на Raspberry Pi",
+          "url": "https://proglib.io/p/avtomaticheskoe-raspoznavanie-avtomobilnyh-nomerov-na-raspberry-pi-2019-11-01"
+        },
+        {
+          "title": "Учебный план по основам компьютерного зрения",
+          "url": "https://proglib.io/p/cv-plan"
+        },
+        {
+          "title": "Чек-лист для отладки нейронной сети: 5 шагов на пути к успеху",
+          "url": "https://proglib.io/p/networks-debugging"
+        },
+        {
+          "title": "TensorFlow умер. Да здравствует TensorFlow 2.0!",
+          "url": "https://proglib.io/p/tensorflow2"
+        },
+        {
+          "title": "Фреймворк глубокого обучения в 2019: выбираем из 10 лучших",
+          "url": "https://proglib.io/p/dl-frameworks"
+        },
+        {
+          "title": "7 трюков для глубокого обучения",
+          "url": "https://proglib.io/p/deep-learning-tricks"
+        },
+        {
+          "title": "Наглядно объясняем операцию свертки в моделях глубокого обучения",
+          "url": "https://proglib.io/p/convolution"
+        },
+        {
+          "title": "Учебный план изучения основ глубокого обучения и нейросетей",
+          "url": "https://proglib.io/p/deep-learning-in-6-weeks"
+        },
+        {
+          "title": "TensorFlow.js: машинное обучение на JavaScript с доставкой в браузер",
+          "url": "https://proglib.io/p/tensorflow-js"
+        },
+        {
+          "title": "Популяционное обучение нейросетей",
+          "url": "https://proglib.io/p/population-deep-learning"
+        },
+        {
+          "title": "Наглядное введение в нейросети на примере распознавания цифр",
+          "url": "https://proglib.io/p/neural-network-course"
+        }
+      ]
+    },
+    {
+      "id": "ml-и-общие-вопросы-data-science",
+      "title": "ML и общие вопросы Data Science",
+      "lang": "ru",
+      "subcategories": [],
+      "articles": [
+        {
+          "title": "Структурированная подборка-таблица бесплатных ресурсов по тематикам Data Science и Machine Learning",
+          "url": "https://github.com/matyushkin/ds"
+        },
+        {
+          "title": "Git для Data Science: контроль версий моделей и датасетов с помощью DVC",
+          "url": "https://proglib.io/p/git-dlya-data-science-kontrol-versiy-modeley-i-datasetov-s-pomoshchyu-dvc-2020-12-02"
+        },
+        {
+          "title": "Линейное программирование. Практика решения задач оптимизации на Python",
+          "url": "https://proglib.io/p/lineynoe-programmirovanie-praktika-resheniya-zadach-optimizacii-na-python-2020-11-26"
+        },
+        {
+          "title": "Автодополнение длиной в тысячу слов. Что известно о нейросетевой модели GPT-3",
+          "url": "https://proglib.io/p/avtodopolnenie-dlinoy-v-tysyachu-slov-chto-izvestno-o-neyrosetevoy-modeli-gpt-3-2020-11-21"
+        },
+        {
+          "title": "«Люблю» и «ненавижу»: анализ эмоциональной окраски текста с помощью Python",
+          "url": "https://proglib.io/p/lyublyu-i-nenavizhu-analiz-emocionalnoy-okraski-teksta-s-pomoshchyu-python-2020-11-13"
+        },
+        {
+          "title": "Как компании превращают данные в деньги: обзор российских практик Data Science",
+          "url": "https://proglib.io/p/kak-kompanii-prevrashchayut-dannye-v-dengi-obzor-rossiyskih-praktik-data-science-2020-07-18"
+        },
+        {
+          "title": "Как научиться Data Science онлайн",
+          "url": "https://proglib.io/p/kak-nauchitsya-data-science-onlayn-12-shagov-ot-novichka-do-profi-2020-06-30"
+        },
+        {
+          "title": "30 YouTube-каналов и плейлистов о Data Science",
+          "url": "https://proglib.io/p/30-youtube-kanalov-i-pleylistov-o-data-science-2020-06-17"
+        },
+        {
+          "title": "Что нового в Pandas 1.0?",
+          "url": "https://proglib.io/p/chto-novogo-v-pandas-1-0-2020-01-23"
+        },
+        {
+          "title": "Обучение модели обнаружения объектов YOLO на пользовательском наборе данных",
+          "url": "https://proglib.io/p/obuchenie-modeli-obnaruzheniya-obektov-yolo-na-polzovatelskom-nabore-dannyh-2020-01-21"
+        },
+        {
+          "title": "7 лучших видео TED по тематике Data Science",
+          "url": "https://proglib.io/p/7-luchshih-video-ted-po-tematike-data-science-2020-01-20"
+        },
+        {
+          "title": "Почему мы пишем инфраструктуру машинного обучения на Go, а не на Python",
+          "url": "https://proglib.io/p/opyt-razrabotki-pochemu-my-pishem-infrastrukturu-mashinnogo-obucheniya-na-go-a-ne-na-python-2020-01-15"
+        },
+        {
+          "title": "Анализ данных с помощью одной строки на Python",
+          "url": "https://proglib.io/p/analiziruy-dannye-s-pomoshchyu-odnoy-stroki-koda-na-python-2019-10-02"
+        },
+        {
+          "title": "6 крупных open source проектов в сфере Data Science",
+          "url": "https://proglib.io/p/6-krupnyh-open-source-proektov-v-sfere-data-science-2019-11-20"
+        },
+        {
+          "title": "Big Data: размер имеет значение",
+          "url": "https://proglib.io/p/big-data-razmer-imeet-znachenie-2019-10-19"
+        },
+        {
+          "title": "7 фреймворков автоматического машинного обучения",
+          "url": "https://proglib.io/p/auto-ml"
+        },
+        {
+          "title": "Встречайте: версия 4.0 графической библиотеки plotly для Python",
+          "url": "https://proglib.io/p/plotly-4"
+        },
+        {
+          "title": "Забудьте о matplotlib: визуализация данных в Python вместе с plotly",
+          "url": "https://proglib.io/p/plotly"
+        },
+        {
+          "title": "Теорема Байеса: Святой Грааль Data Science",
+          "url": "https://proglib.io/p/bayes-theorem"
+        },
+        {
+          "title": "Jupyter Notebook: галерея блокнотов по ML и Data Science",
+          "url": "https://proglib.io/p/jupyter-notebook-best"
+        },
+        {
+          "title": "Искусственный интеллект и рост вычислительных мощностей",
+          "url": "https://proglib.io/p/ai-and-compute"
+        },
+        {
+          "title": "Мнения людей из индустрии Data Science о развитии отрасли",
+          "url": "https://proglib.io/p/data-science-dialogues"
+        },
+        {
+          "title": "ТОП-10 мировых публикаций по машинному обучению за апрель 2018",
+          "url": "https://proglib.io/p/ml-april-2018"
+        },
+        {
+          "title": "10 рецептов машинного обучения от разработчиков Google",
+          "url": "https://proglib.io/p/google-ml-recipes"
+        },
+        {
+          "title": "10 строк для диагностики болезни Паркинсона с помощью XGBoost",
+          "url": "https://proglib.io/p/xgboost"
+        },
+        {
+          "title": "JupyterLab и Jupyter Notebook — мощные инструменты Data Science",
+          "url": "https://proglib.io/p/jupyter"
+        },
+        {
+          "title": "От новичка до профи в машинном обучении",
+          "url": "https://proglib.io/p/ml-3months"
+        },
+        {
+          "title": "Стартап в сфере искусственного интеллекта в 2018",
+          "url": "https://proglib.io/p/ai-startup"
+        },
+        {
+          "title": "Трейдинг и машинное обучение с подкреплением",
+          "url": "https://proglib.io/p/trade-learning"
+        },
+        {
+          "title": "Python и R: что выбрать для Data Science в 2018?",
+          "url": "https://proglib.io/p/python-vs-r"
+        },
+        {
+          "title": "Создаем бота в Facebook на Python менее чем за 60 минут",
+          "url": "https://proglib.io/p/facebook-bot-with-python"
+        }
+      ]
+    },
+    {
+      "id": "алгоритмические-головоломки",
+      "title": "Алгоритмические головоломки",
+      "lang": "ru",
+      "subcategories": [],
+      "articles": [
+        {
+          "title": "Двойные фамилии",
+          "url": "https://proglib.io/p/zadacha-o-dvoynyh-familiyah-2020-01-11"
+        },
+        {
+          "title": "Спрятанное решение",
+          "url": "https://proglib.io/p/zadacha-o-spryatannom-reshenii-2020-01-11"
+        },
+        {
+          "title": "Остров хамелеонов",
+          "url": "https://proglib.io/p/zadacha-ob-ostrove-hameleonov-2020-01-13"
+        },
+        {
+          "title": "Номер Тьюринга",
+          "url": "https://proglib.io/p/zadacha-o-familii-tyuringa-2020-01-14"
+        },
+        {
+          "title": "Время великих учёных",
+          "url": "https://proglib.io/p/zadacha-s-sobesedovaniya-idei-proekta-vremya-velikih-uchenyh-2020-01-15"
+        },
+        {
+          "title": "Прогуливающиеся джентльмены",
+          "url": "https://proglib.io/p/zadacha-o-progulivayushchihsya-dzhentlmenah-2020-01-18"
+        },
+        {
+          "title": "Часы с одинаковыми стрелками",
+          "url": "https://proglib.io/p/zadacha-o-chasah-s-odinakovymi-strelkami-2020-01-22"
+        },
+        {
+          "title": "Вирус в колонии бактерий",
+          "url": "https://proglib.io/p/zadacha-o-viruse-v-kolonii-bakteriy-2020-01-25"
+        },
+        {
+          "title": "Шесть шахматных коней",
+          "url": "https://proglib.io/p/zadacha-o-shesti-shahmatnyh-konyah-2020-01-29"
+        },
+        {
+          "title": "Задача о беглеце",
+          "url": "https://proglib.io/p/zadacha-o-beglece-2020-02-01"
+        },
+        {
+          "title": "Чеширский кот и число палиндромов",
+          "url": "https://proglib.io/p/zagadka-cheshirskogo-kota-o-chisle-palindromov-2020-02-05"
+        },
+        {
+          "title": "Карточная головоломка Конвея",
+          "url": "https://proglib.io/p/risuem-programmiruya-mashinnaya-generaciya-hudozhestvennyh-uzorov-v-vektornyh-polyah-2020-02-06"
+        },
+        {
+          "title": "Задача о необычном замке",
+          "url": "https://proglib.io/p/zadacha-o-vzlome-bankovskogo-zamka-s-semyu-rychazhkami-2020-02-12"
+        },
+        {
+          "title": "Алгоритмическая головоломка о лягушках",
+          "url": "https://proglib.io/p/pryg-pryg-algoritmicheskaya-golovolomka-o-lyagushkah-2020-02-15"
+        },
+        {
+          "title": "Задача Сфинкса о разрезании лестниц",
+          "url": "https://proglib.io/p/obygray-sfinksa-logicheskaya-golovolomka-o-razrezanii-lestnic-2020-02-19"
+        },
+        {
+          "title": "Собеседование и семь гномов: задачи с интервью в IT-компаниях",
+          "url": "https://proglib.io/p/sobesedovanie-i-sem-gnomov-zadachi-s-intervyu-v-it-kompaniyah-2020-02-22"
+        },
+        {
+          "title": "Нарисовать змейку, выстроить зиккурат",
+          "url": "https://proglib.io/p/para-algoritmicheskih-zadach-dlya-uspeshnogo-programmista-narisovat-zmeyku-vystroit-zikkurat-2020-04-19"
+        }
+      ]
+    },
+    {
+      "id": "apifornia-blog-for-english-speakers",
+      "title": "Apifornia Blog (for English speakers)",
+      "lang": "en",
+      "subcategories": [
+        {
+          "id": "nocode-paradigm",
+          "title": "NoCode Paradigm",
+          "articles": [
+            {
+              "title": "To code or not to code",
+              "url": "https://blog.apifornia.com/to-code-or-not-to-code/"
+            },
+            {
+              "title": "Flow-Based Programming: the Mastermind behind NoCode",
+              "url": "https://blog.apifornia.com/the-concept-of-flow-based-programming-and-its-implementation/"
+            },
+            {
+              "title": "Mapping the NoCode Landscape",
+              "url": "https://blog.apifornia.com/mapping-the-nocode-landscape-2/"
+            },
+            {
+              "title": "Visual programming. How to create a digital product without touching the keyboard",
+              "url": "https://blog.apifornia.com/visual-programming-how-to-create-a-digital-product-without-touching-the-keyboard/"
+            },
+            {
+              "title": "NoCode Community",
+              "url": "https://blog.apifornia.com/nocode-community/"
+            },
+            {
+              "title": "A Brief History of NoCode Tools",
+              "url": "https://blog.apifornia.com/brief-history-of-nocode/"
+            },
+            {
+              "title": "Part 1. The Pre-Computer Era",
+              "url": "https://blog.apifornia.com/history-of-human-machine-interfaces-in-the-pre-computer-era/"
+            },
+            {
+              "title": "Part 2. The 60s-70s: Beyond Computing",
+              "url": "https://blog.apifornia.com/hci-60-70/"
+            },
+            {
+              "title": "NoCode: Critics",
+              "url": "https://blog.apifornia.com/nocode-critics/"
+            },
+            {
+              "title": "The Concept",
+              "url": "https://blog.apifornia.com/nocode-mvp-concept/"
+            },
+            {
+              "title": "The Services",
+              "url": "https://blog.apifornia.com/nocode-mvp-the-services/"
+            },
+            {
+              "title": "After the Launch",
+              "url": "https://blog.apifornia.com/nocode-mvp-after-launch/"
+            }
+          ]
+        },
+        {
+          "id": "nocode-tool-groups",
+          "title": "NoCode Tool Groups",
+          "articles": [
+            {
+              "title": "How to choose the NoCode workflow platform",
+              "url": "https://blog.apifornia.com/how-to-choose-the-nocode-workflow-platform/"
+            },
+            {
+              "title": "How to choose a full-stack website builder",
+              "url": "https://blog.apifornia.com/how-to-choose-a-full-stack-website-builder/"
+            },
+            {
+              "title": "Open Source NoCode Tools",
+              "url": "https://blog.apifornia.com/open-source/"
+            },
+            {
+              "title": "NoCode Spreadsheets",
+              "url": "https://blog.apifornia.com/nocode-spreadsheets/"
+            },
+            {
+              "title": "NoCode mobile app builders",
+              "url": "https://blog.apifornia.com/5-nocode-mobile-app-builders/"
+            },
+            {
+              "title": "NoCode and LowCode Frontend constructors",
+              "url": "https://blog.apifornia.com/nocode-and-lowcode-constructors-for-frontend/"
+            },
+            {
+              "title": "API Hubs and Marketplaces",
+              "url": "https://blog.apifornia.com/api-hubs-and-marketplaces/"
+            },
+            {
+              "title": "The Evolution of Game Development: Embracing NoCode Technologies",
+              "url": "https://blog.apifornia.com/gamedev-nocode/"
+            },
+            {
+              "title": "NoCode and IoT: platforms and projects",
+              "url": "https://blog.apifornia.com/nocode-iot/"
+            }
+          ]
+        },
+        {
+          "id": "nocode-tools",
+          "title": "NoCode Tools",
+          "articles": [
+            {
+              "title": "Node-RED for App Development: Looking at the Pros and Cons",
+              "url": "https://blog.apifornia.com/node-red/"
+            },
+            {
+              "title": "Retool: The Efficient Path to Custom Business App Development",
+              "url": "https://blog.apifornia.com/retool/"
+            },
+            {
+              "title": "Bubble: NoCode Web App Builder",
+              "url": "https://blog.apifornia.com/bubble/"
+            },
+            {
+              "title": "10 Years of Webflow: A Fresh Look at the Leading Web Design Platform",
+              "url": "https://blog.apifornia.com/10-years-of-webflow-a-fresh-look-at-the-leading-web-design-platform/"
+            },
+            {
+              "title": "Meet Airtable – cloud database in a spreadsheet format",
+              "url": "https://blog.apifornia.com/meet-airtable-cloud-database-in-a-spreadsheet-format/"
+            },
+            {
+              "title": "Airtable as a CRM: Is it Good Enough?",
+              "url": "https://blog.apifornia.com/airtable-as-a-crm-is-it-good-enough/"
+            }
+          ]
+        },
+        {
+          "id": "history-of-human-machine-interfaces",
+          "title": "History of Human-Machine Interfaces",
+          "articles": [
+            {
+              "title": "The Pre-Computer Era",
+              "url": "https://blog.apifornia.com/history-of-human-machine-interfaces-in-the-pre-computer-era/"
+            },
+            {
+              "title": "1960-70s. Beyond Computing",
+              "url": "https://blog.apifornia.com/hci-60-70/"
+            },
+            {
+              "title": "1980-90s. Personal Computers",
+              "url": "https://blog.apifornia.com/history-of-human-machine-interfaces-part-3-the-80-90s-personal-computers/"
+            },
+            {
+              "title": "2000-10s. Meta-interfaces",
+              "url": "https://blog.apifornia.com/history-of-human-machine-interfaces-part-4-the-2000-10s-meta-interfaces/"
+            },
+            {
+              "title": "The Future of Human-Machine Interfaces",
+              "url": "https://blog.apifornia.com/hci-future/"
+            },
+            {
+              "title": "The Evolution of Collaborative Systems",
+              "url": "https://blog.apifornia.com/collaboration-history/"
+            },
+            {
+              "title": "Augmented Collaboration. Emerging Intellectual Synergy",
+              "url": "https://blog.apifornia.com/augmented-collaboration-emerging-intellectual-synergy/"
+            }
+          ]
+        },
+        {
+          "id": "ai-and-llm",
+          "title": "AI and LLM",
+          "articles": [
+            {
+              "title": "Professional LLM Tools",
+              "url": "https://blog.apifornia.com/tools-for-professional-work-with-llms/"
+            },
+            {
+              "title": "AI-Driven Helper Dev Tools Beyond the IDE",
+              "url": "https://blog.apifornia.com/ai-driven-helper-dev-tools-beyond-the-ide/"
+            },
+            {
+              "title": "Not just ChatGPT. AI-driven tools for creating programs",
+              "url": "https://blog.apifornia.com/ai-driven-coding-tools/"
+            },
+            {
+              "title": "Model Context Protocol: Universal Interface for LLM Interaction",
+              "url": "https://blog.apifornia.com/mcp-intro/"
+            },
+            {
+              "title": "OpenAI AgentKit Review",
+              "url": "https://blog.apifornia.com/openai-agentkit-review/"
+            },
+            {
+              "title": "Reflection as a Mechanism of Unintentional Intelligence",
+              "url": "https://blog.apifornia.com/reflection-as-a-mechanism-of-unintentional-intelligence/"
+            },
+            {
+              "title": "Inscribing Ethics: Codex and Modus Operandi of Digital Golems",
+              "url": "https://blog.apifornia.com/modus-operandi-of-digital-golems/"
+            }
+          ]
+        }
+      ],
+      "articles": []
+    },
+    {
+      "id": "другие",
+      "title": "Другие",
+      "lang": "ru",
+      "subcategories": [],
+      "articles": [
+        {
+          "title": "Stepik-курс «Статьи для IT: как объяснять и распространять значимые идеи»",
+          "url": "https://stepik.org/course/101672/"
+        },
+        {
+          "title": "Stepik-курс «Наноматериалы»",
+          "url": "https://stepik.org/course/52514"
+        },
+        {
+          "title": "70 YouTube-каналов и плейлистов о мобильной разработке",
+          "url": "https://proglib.io/p/70-youtube-kanalov-i-pleylistov-o-mobilnoy-razrabotke-2020-07-02"
+        },
+        {
+          "title": "JavaScript для Python-программистов: познание через сравнение",
+          "url": "https://proglib.io/p/javascript-dlya-python-programmistov-poznanie-cherez-sravnenie-2020-05-29"
+        },
+        {
+          "title": "10 книг по PHP: от новичка до профессионала",
+          "url": "https://proglib.io/p/top-10-knig-po-php-ot-novichka-do-professionala-2020-05-24"
+        },
+        {
+          "title": "50 YouTube-каналов для разработчиков игр",
+          "url": "https://proglib.io/p/50-youtube-kanalov-dlya-razrabotchikov-igr-2020-05-13"
+        },
+        {
+          "title": "О правильном дизайне полей с выпадающими списками",
+          "url": "https://proglib.io/p/o-pravilnom-dizayne-poley-s-vypadayushchimi-spiskami-2020-05-07"
+        },
+        {
+          "title": "25 лучших книг для программистов",
+          "url": "https://proglib.io/p/25-luchshih-knig-dlya-programmistov-2020-05-05"
+        },
+        {
+          "title": "70 YouTube-каналов для фронтенд-разработчика",
+          "url": "https://proglib.io/p/70-youtube-kanalov-dlya-frontend-razrabotchika-2020-05-03"
+        },
+        {
+          "title": "50 русскоязычных YouTube-каналов о языках программирования",
+          "url": "https://proglib.io/p/50-russkoyazychnyh-youtube-kanalov-o-yazykah-programmirovaniya-2020-04-22"
+        },
+        {
+          "title": "ТОП-10 книг по C++: от новичка до профессионала",
+          "url": "https://proglib.io/p/top-10-knig-po-c-ot-novichka-do-professionala-2020-03-29"
+        },
+        {
+          "title": "Бесплатные русскоязычные онлайн-курсы по IT-специальностям",
+          "url": "https://proglib.io/p/superpodborka-bolee-70-besplatnyh-russkoyazychnyh-onlayn-kursov-po-it-specialnostyam-2020-03-25"
+        },
+        {
+          "title": "ТОП-10 книг по C#: от новичка до профессионала",
+          "url": "https://proglib.io/p/top-10-knig-po-c-ot-novichka-do-professionala-2020-03-18"
+        },
+        {
+          "title": "Как написать код, который полюбят все",
+          "url": "https://proglib.io/p/kak-napisat-kod-kotoryy-polyubyat-vse-2020-03-17"
+        },
+        {
+          "title": "Как не «сгореть на работе», если ты программист",
+          "url": "https://proglib.io/p/kak-ne-sgoret-na-rabote-esli-ty-programmist-2020-03-12"
+        },
+        {
+          "title": "PICO-8 и TIC-80. Экскурсия в мир виртуальных консолей для создания ретро-игр",
+          "url": "https://proglib.io/p/pico-8-i-tic-80-ekskursiya-v-mir-virtualnyh-konsoley-dlya-sozdaniya-retro-igr-2020-02-29"
+        },
+        {
+          "title": "Как шифровать информацию с помощью роста кристаллов",
+          "url": "https://proglib.io/p/kak-shifrovat-informaciyu-s-pomoshchyu-rosta-kristallov-2020-02-24"
+        },
+        {
+          "title": "100+ лекций экспертов Постнауки об анализе данных, ИИ, роботах, математике и сетях",
+          "url": "https://proglib.io/p/100-videolekciy-ekspertov-postnauki-2020-02-16"
+        },
+        {
+          "title": "Перезаряжаем терминал: GitHub CLI в действии",
+          "url": "https://proglib.io/p/perezaryazhaem-terminal-github-cli-v-deystvii-2020-02-14"
+        },
+        {
+          "title": "Автостопом по TED: 42 ярких выступления на темы вблизи IT",
+          "url": "https://proglib.io/p/avtostopom-po-ted-42-yarkih-vystupleniya-na-temy-vblizi-it-2020-02-11"
+        },
+        {
+          "title": "Рисуем, программируя. Машинная генерация художественных узоров в векторных полях",
+          "url": "https://proglib.io/p/risuem-programmiruya-mashinnaya-generaciya-hudozhestvennyh-uzorov-v-vektornyh-polyah-2020-02-06"
+        },
+        {
+          "title": "«Я тебя по IP вычислю»: как рассекречивают звенья цепи Tor",
+          "url": "https://proglib.io/p/deanonimizaciya-cepochek-uzlov-tor-2020-02-04"
+        },
+        {
+          "title": "Rough.js: как заставить компьютер рисовать «от руки»",
+          "url": "https://proglib.io/p/rough-js-kak-zastavit-kompyuter-risovat-ot-ruki-2020-01-29"
+        },
+        {
+          "title": "Как на C++ быстро заполнить нулями большой массив?",
+          "url": "https://proglib.io/p/kak-na-c-bystro-zapolnit-nulyami-bolshoy-massiv-2020-01-22"
+        },
+        {
+          "title": "Графический приём, благодаря которому пользователи будут регистрироваться чаще",
+          "url": "https://proglib.io/p/graficheskiy-priem-blagodarya-kotoromu-polzovateli-budut-registrirovatsya-chashche-2020-01-20"
+        },
+        {
+          "title": "Хакинг мозга. Обработка сигналов мыслительной активности с интерфейсом OpenBCI",
+          "url": "https://proglib.io/p/haking-mozga-obrabotka-signalov-myslitelnoy-aktivnosti-s-interfeysom-openbci-2020-01-20"
+        },
+        {
+          "title": "Функциональный JavaScript: 6 образцов кода без цикла for",
+          "url": "https://proglib.io/p/funkcionalnyy-javascript-6-obrazcov-koda-bez-cikla-for-2020-01-13"
+        },
+        {
+          "title": "6 идей проектов выходного дня",
+          "url": "https://proglib.io/p/6-idey-proektov-vyhodnogo-dnya-2020-01-11"
+        },
+        {
+          "title": "GitLab или GitHub? Как выбрать ресурс под определённый тип репозитория",
+          "url": "https://proglib.io/p/gitlab-ili-github-kak-vybrat-resurs-pod-opredelennyy-tip-repozitoriya-2020-01-06"
+        },
+        {
+          "title": "20 тенденций в разработке программного обеспечения (2020)",
+          "url": "https://proglib.io/p/20-tendenciy-v-razrabotke-programmnogo-obespecheniya-na-2020-god-2019-12-20"
+        },
+        {
+          "title": "Безопасность прежде всего: как защитить Linux на сервере VPS",
+          "url": "https://proglib.io/p/bezopasnost-prezhde-vsego-kak-zashchitit-linux-na-servere-vps-2019-12-04"
+        },
+        {
+          "title": "Вебхуки: как получать данные без промедления и опросов API",
+          "url": "https://proglib.io/p/vebhuki-kak-poluchat-dannye-bez-promedleniya-i-oprosov-api-2019-11-09"
+        },
+        {
+          "title": "Пишем простой граббер для Telegram чатов на Python",
+          "url": "https://proglib.io/p/pishem-prostoy-grabber-dlya-telegram-chatov-na-python-2019-11-06"
+        },
+        {
+          "title": "Читаемый код: 10 практик успешного написания",
+          "url": "https://proglib.io/p/clean-code"
+        },
+        {
+          "title": "Дайджест: 300 ссылок на обучающие ресурсы по программированию",
+          "url": "https://proglib.io/p/300-programming-urls"
+        },
+        {
+          "title": "Карьерный рост: в чем разница между Junior, Middle и Senior?",
+          "url": "https://proglib.io/p/junior-middle-senior"
+        },
+        {
+          "title": "12 простых советов тем, кто самостоятельно учит математику",
+          "url": "https://proglib.io/p/learn-math"
+        },
+        {
+          "title": "9 гифок, наглядно иллюстрирующих дифференцируемость функции",
+          "url": "https://proglib.io/p/diff"
+        },
+        {
+          "title": "Детальный план самообразования основам Computer Science за полтора года",
+          "url": "https://proglib.io/p/cs-learning"
+        },
+        {
+          "title": "От новичка до профи в блокчейн-технологиях за 2 месяца",
+          "url": "https://proglib.io/p/blockchain-plan"
+        },
+        {
+          "title": "Более 200 избранных ссылок на материалы о языке Go",
+          "url": "https://proglib.io/p/golinks"
+        },
+        {
+          "title": "Как получить опыт и зарабатывать на Open Source проектах",
+          "url": "https://proglib.io/p/open-source"
+        },
+        {
+          "title": "Иллюстративный видеокурс математического анализа: 10 уроков",
+          "url": "https://proglib.io/p/calculus"
+        },
+        {
+          "title": "Иллюстративный видеокурс по линейной алгебре: 11 уроков",
+          "url": "https://proglib.io/p/algebra"
+        },
+        {
+          "title": "Как правильно искать и читать научные статьи?",
+          "url": "https://proglib.io/p/research-papers"
+        },
+        {
+          "title": "Создаем первый смарт-контракт на Ethereum менее чем за 60 минут",
+          "url": "https://proglib.io/p/smart-contract"
+        },
+        {
+          "title": "Импульсные нейронные сети: мозг в компьютере",
+          "url": "https://proglib.io/p/spiking-neural-networks"
+        },
+        {
+          "title": "Как помочь ребенку выучить таблицу умножения",
+          "url": "https://habr.com/ru/post/126043/"
+        }
+      ]
+    }
+  ]
+}
