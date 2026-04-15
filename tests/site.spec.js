@@ -97,7 +97,7 @@ test.describe('art/index.html', () => {
     await page.goto('/art/index.html?lang=ru');
     const profiles = page.locator('#profiles-list');
     await expect(profiles).toContainText('Саундклауд');
-    await expect(profiles).toContainText('Телеграм (LMPIX)');
+    await expect(profiles).toContainText('Канал с картинками');
     await expect(profiles).toContainText('Бихенс');
     await expect(profiles).toContainText('Дриббл');
     await expect(profiles).toContainText('Девиантарт');
@@ -107,8 +107,7 @@ test.describe('art/index.html', () => {
     await page.goto('/art/index.html?lang=en');
     const profiles = page.locator('#profiles-list');
     await expect(profiles).toContainText('SoundCloud');
-    await expect(profiles).toContainText('Telegram (LMPIX)');
-    // journal name check is in art bio, not profiles
+    await expect(profiles).toContainText('Drawing channel');
     await expect(profiles).toContainText('Behance');
   });
 
@@ -142,10 +141,17 @@ test.describe('technology/index.html', () => {
     await expect(page.locator('#page-title')).toHaveText('Технологии');
   });
 
-  test('posts list is present', async ({ page }) => {
+  test('RU: posts list has 100+ items', async ({ page }) => {
+    await page.goto('/technology/index.html?lang=ru');
+    const items = page.locator('article li');
+    await expect(await items.count()).toBeGreaterThan(100);
+  });
+
+  test('EN: shows only English articles', async ({ page }) => {
     await page.goto('/technology/index.html?lang=en');
     const items = page.locator('article li');
-    await expect(await items.count()).toBeGreaterThan(50);
+    await expect(await items.count()).toBeGreaterThan(30);
+    await expect(page.locator('article')).not.toContainText('Python');
   });
 
   test('RU: bio paragraph visible', async ({ page }) => {
