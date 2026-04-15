@@ -4,9 +4,11 @@
     font-family: 'Computer Modern Sans';
     src:
         local('Computer Modern'),
+        url('fonts/cmunss.woff2') format('woff2'),
         url('fonts/cmunss.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 body {
