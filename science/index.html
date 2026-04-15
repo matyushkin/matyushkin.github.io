@@ -59,11 +59,12 @@
       pageTitle: 'Science',
       linksTitle: 'Профили',
       publicationsTitle: 'Публикации',
+      scholarLabel: 'Гугл Академия',
       profiles: [
         { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Гугл Академия' },
         { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
         { url: 'https://www.elibrary.ru/author_profile.asp?authorid=650886', label: 'eLIBRARY' },
-        { url: 'https://stepik.org/course/52514', label: 'Stepik' }
+        { url: 'https://stepik.org/course/52514', label: 'Стэпик' }
       ],
       types: {
         publication: 'публикация',
@@ -79,6 +80,7 @@
       pageTitle: 'Science',
       linksTitle: 'Profiles',
       publicationsTitle: 'Publications',
+      scholarLabel: 'Google Scholar',
       profiles: [
         { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Google Scholar' },
         { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
@@ -133,7 +135,7 @@
         ? ` · <span title="citations">${a.citations} ✦</span>`
         : '';
       const linkParts = [];
-      if (a.urls?.scholar) linkParts.push(`<a href="${a.urls.scholar}" target="_blank" rel="noopener">Scholar</a>`);
+      if (a.urls?.scholar) linkParts.push(`<a href="${a.urls.scholar}" target="_blank" rel="noopener">${ui.scholarLabel}</a>`);
       if (a.urls?.researchgate) linkParts.push(`<a href="${a.urls.researchgate}" target="_blank" rel="noopener">ResearchGate</a>`);
       if (a.urls?.researchgate2) linkParts.push(`<a href="${a.urls.researchgate2}" target="_blank" rel="noopener">ResearchGate (2)</a>`);
       if (a.urls?.researchgate_ru) linkParts.push(`<a href="${a.urls.researchgate_ru}" target="_blank" rel="noopener">ResearchGate (рус.)</a>`);
