@@ -43,13 +43,7 @@
     <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Vozdukh</em>, <em>Flagi</em>, <em>Na Kolenke</em>. I also draw (Procreate) and compose music — keeping a musical diary on SoundCloud, tied to dates.</p>
 
     <h2 id="links-title">Профили</h2>
-    <p class="section-links">
-      <a href="https://soundcloud.com/leo-matyushkin" target="_blank" rel="noopener">SoundCloud</a>
-      <a href="https://t.me/lmpix" target="_blank" rel="noopener">LMPIX</a>
-      <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>
-      <a href="https://dribbble.com/matyushkin" target="_blank" rel="noopener">Dribbble</a>
-      <a href="https://www.deviantart.com/matyushkin" target="_blank" rel="noopener">DeviantArt</a>
-    </p>
+    <p class="section-links" id="profiles-list"></p>
 
     <h2 id="books-title">Книги</h2>
     <p><a href="https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing" target="_blank" rel="noopener" id="book-aya">Книга стихов «а/я», 2018</a></p>
@@ -70,6 +64,13 @@
       booksTitle: 'Книги',
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
+      profiles: [
+        { url: 'https://soundcloud.com/leo-matyushkin', label: 'Саундклауд' },
+        { url: 'https://t.me/lmpix', label: 'Телеграм (LMPIX)' },
+        { url: 'https://www.behance.net/leo-matyushkin', label: 'Бихенс' },
+        { url: 'https://dribbble.com/matyushkin', label: 'Дрибббл' },
+        { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' }
+      ],
       bookAya: 'Книга стихов «а/я», 2018',
       bookSpace: 'Книга стихов «О пространстве и времени», 2015',
       types: {
@@ -87,6 +88,13 @@
       booksTitle: 'Books',
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
+      profiles: [
+        { url: 'https://soundcloud.com/leo-matyushkin', label: 'SoundCloud' },
+        { url: 'https://t.me/lmpix', label: 'Telegram (LMPIX)' },
+        { url: 'https://www.behance.net/leo-matyushkin', label: 'Behance' },
+        { url: 'https://dribbble.com/matyushkin', label: 'Dribbble' },
+        { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' }
+      ],
       bookAya: 'Poetry collection «а/я», 2018',
       bookSpace: 'Poetry collection «О пространстве и времени» [On Space and Time], 2015',
       types: {
@@ -126,6 +134,9 @@
     if (navArt)  navArt.textContent  = ui.nav.art;
     if (navSci)  navSci.textContent  = ui.nav.science;
     if (navTech) navTech.textContent = ui.nav.technology;
+    document.getElementById('profiles-list').innerHTML = ui.profiles
+      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
+      .join('');
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     document.getElementById('book-aya').textContent = ui.bookAya;
     document.getElementById('book-space').textContent = ui.bookSpace;
