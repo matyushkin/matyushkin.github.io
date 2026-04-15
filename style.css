@@ -35,6 +35,17 @@ nav section {
     padding:10px;
 }
 
+select.lang-select {
+    font-family: inherit;
+    font-size: 0.85em;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 4px;
+}
+
+.dark-theme select.lang-select { color: #ffffdd; }
+
 .logo img {
     width: 100px;
 }
