@@ -158,6 +158,8 @@ p:lang(en) {
     display: none;
 }
 
+/* ── Achievement cards (science, art) ───────────────────────────────────── */
+
 .achievement {
     border-left: 2px solid #e0e0e0;
     padding-left: 0.8em;
@@ -166,3 +168,20 @@ p:lang(en) {
 .dark-theme .achievement {
     border-left-color: #555;
 }
+
+.achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 0.2em; }
+.achievement-title { margin-bottom: 0.15em; }
+.achievement-venue { font-size: 0.9em; }
+.achievement-desc { font-size: 0.85em; margin-top: 0.2em; color: #555; }
+.achievement-links { font-size: 0.8em; margin-top: 0.3em; }
+
+.section-links { display: flex; flex-wrap: wrap; gap: 0 1.2em; line-height: 2; }
+.section-links a { white-space: nowrap; }
+
+/* ── Technology article list ─────────────────────────────────────────────── */
+
+article h2 { font-size: 1.15em; margin-top: 1.6em; margin-bottom: 0.3em; }
+article h3 { font-size: 1em; margin-top: 1.4em; margin-bottom: 0.3em; color: #555; }
+.dark-theme article h3 { color: #aaa; }
+article ul { margin-top: 0.3em; }
+article li { margin-bottom: 0.25em; font-size: 0.95em; }
