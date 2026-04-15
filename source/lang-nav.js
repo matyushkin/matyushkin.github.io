@@ -13,6 +13,11 @@
     en: { art: 'Art',       science: 'Science', technology: 'Technology' }
   };
 
+  function setThemeColor(dark) {
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = dark ? '#1a1a1a' : '#ffffff';
+  }
+
   function applyLang(lang) {
     document.documentElement.lang = lang;
     var labels = NAV_I18N[lang] || NAV_I18N.en;
@@ -22,13 +27,7 @@
     if (navArt)  navArt.textContent  = labels.art;
     if (navSci)  navSci.textContent  = labels.science;
     if (navTech) navTech.textContent = labels.technology;
-
-    // Show/hide bilingual paragraphs
-    // Note: style.css has p:lang(en){display:none} so we must set 'block' explicitly
-    document.querySelectorAll('p[lang]').forEach(function(el) {
-      el.style.display = el.lang === lang ? 'block' : 'none';
-    });
-
+    // Visibility is handled by CSS (html[lang] selectors) — no inline styles needed
     var sel = document.getElementById('lang-select');
     if (sel) sel.value = lang;
   }
@@ -49,12 +48,14 @@
     var body = document.body;
     var saved = localStorage.getItem('theme');
     if (saved) body.className = saved;
+    setThemeColor(body.classList.contains('dark-theme'));
     var btn = document.querySelector('.theme-button');
     if (btn) btn.onclick = function() {
       var dark = body.classList.contains('dark-theme');
       body.classList.toggle('light-theme', dark);
       body.classList.toggle('dark-theme', !dark);
       localStorage.setItem('theme', body.className);
+      setThemeColor(!dark);
     };
 
     var lang = getLang();

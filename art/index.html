@@ -10,7 +10,9 @@
   <meta property="og:title" content="Art — Leo Matyushkin">
   <meta property="og:description" content="Leo Matyushkin — poet, artist, composer. Poetry, exhibitions, music.">
   <meta property="og:url" content="https://matyushkin.github.io/art/index.html">
-  <meta property="og:image" content="https://matyushkin.github.io/img/logo.png">
+  <meta property="og:image" content="https://matyushkin.github.io/img/og-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <link rel="canonical" href="https://matyushkin.github.io/art/index.html">
   <link href="../style.css" rel="stylesheet">
   <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
@@ -51,9 +53,9 @@
       <section class="logo">
         <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../art/index.html" id="nav-art">Art</a></section>
       <section><a href="../science/index.html" id="nav-science">Science</a></section>
       <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
+      <section><a href="../art/index.html" id="nav-art">Art</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
         <option value="ru">RU</option>
         <option value="en">EN</option>
@@ -173,7 +175,6 @@
     document.getElementById('book-aya').textContent = ui.bookAya;
     document.getElementById('book-space').textContent = ui.bookSpace;
     document.getElementById('footer-text').innerHTML = ui.footer;
-    applyBilingualParagraphs(lang);
 
     const sorted = [...achievements].sort((a, b) => b.year - a.year);
     document.getElementById('achievements-list').innerHTML = sorted.map(a => {
@@ -215,12 +216,14 @@
     const body = document.body;
     const saved = localStorage.getItem('theme');
     if (saved) { body.className = saved; }
+    (function(){ var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = body.classList.contains('dark-theme') ? '#1a1a1a' : '#ffffff'; })();
     const btn = document.querySelector('.theme-button');
     if (btn) btn.onclick = function() {
       const dark = body.classList.contains('dark-theme');
       body.classList.toggle('light-theme', dark);
       body.classList.toggle('dark-theme', !dark);
       localStorage.setItem('theme', body.className);
+      var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = !dark ? '#1a1a1a' : '#ffffff';
     };
   })();
   </script>
