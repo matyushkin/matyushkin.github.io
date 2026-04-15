@@ -40,13 +40,24 @@ nav section {
     padding:10px;
 }
 
-select.lang-select, .theme-button {
+select.lang-select {
+    margin-left: auto;
     font-family: inherit;
     font-size: 0.95em;
     cursor: pointer;
     border: none;
     background: transparent;
-    padding: 4px;
+    padding: 4px 2px;
+    color: inherit;
+}
+
+.theme-button {
+    font-family: inherit;
+    font-size: 0.95em;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 4px 4px 4px 8px;
     color: inherit;
 }
 
