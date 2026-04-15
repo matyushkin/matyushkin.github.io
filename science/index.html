@@ -44,11 +44,7 @@
     <p lang="en">My field is materials science of micro- and nanoelectronics — semiconductor synthesis, quantum dots, colloidal nanoparticles. 71 publications, h-index 18. I also made a nanomaterials course on Stepik with 1,300+ students. Currently returning to research through computational modeling.</p>
 
     <h2 id="links-title">Профили</h2>
-    <p class="section-links">
-      <a href="https://scholar.google.ru/citations?user=x0O884MAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-      <a href="https://www.researchgate.net/profile/Lev_Matyushkin" target="_blank" rel="noopener">ResearchGate</a>
-      <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">Stepik</a>
-    </p>
+    <p class="section-links" id="profiles-list"></p>
 
     <h2 id="publications-title">Публикации</h2>
     <div id="achievements-list"></div>
@@ -63,6 +59,12 @@
       pageTitle: 'Science',
       linksTitle: 'Профили',
       publicationsTitle: 'Публикации',
+      profiles: [
+        { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Гугл Академия' },
+        { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
+        { url: 'https://www.elibrary.ru/author_profile.asp?authorid=650886', label: 'eLIBRARY' },
+        { url: 'https://stepik.org/course/52514', label: 'Stepik' }
+      ],
       types: {
         publication: 'публикация',
         conference: 'конференция',
@@ -77,6 +79,11 @@
       pageTitle: 'Science',
       linksTitle: 'Profiles',
       publicationsTitle: 'Publications',
+      profiles: [
+        { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Google Scholar' },
+        { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
+        { url: 'https://stepik.org/course/52514', label: 'Stepik' }
+      ],
       types: {
         publication: 'publication',
         conference: 'conference',
@@ -109,6 +116,9 @@
     document.title = ui.pageTitle + ' — Leo Matyushkin';
     document.getElementById('links-title').textContent = ui.linksTitle;
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
+    document.getElementById('profiles-list').innerHTML = ui.profiles
+      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
+      .join('');
     document.getElementById('footer-text').innerHTML = ui.footer;
     applyBilingualParagraphs(lang);
 
