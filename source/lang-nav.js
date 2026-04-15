@@ -1,10 +1,5 @@
-// Shared language nav handler for all pages
+// Shared language + theme handler for index.html and simple pages
 (function () {
-  var NAV_I18N = {
-    ru: { texts: 'Тексты', achievements: 'Достижения', links: 'Ссылки' },
-    en: { texts: 'Texts',  achievements: 'Achievements', links: 'Links'  }
-  };
-
   function getLang() {
     var urlLang = new URLSearchParams(window.location.search).get('lang');
     if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
@@ -14,19 +9,8 @@
   }
 
   function applyLang(lang) {
-    var ui = NAV_I18N[lang] || NAV_I18N.en;
-    var navTexts = document.getElementById('nav-texts');
-    var navAch   = document.getElementById('nav-achievements');
-    var navLinks = document.getElementById('nav-links');
-    if (navTexts) navTexts.textContent = ui.texts;
-    if (navAch)   {
-      navAch.textContent = ui.achievements;
-      if (navAch.dataset.base) navAch.href = navAch.dataset.base + '?lang=' + lang;
-    }
-    if (navLinks) navLinks.textContent = ui.links;
-
-    // Show/hide bilingual paragraphs (index.html pattern)
-    // Note: style.css has p:lang(en){display:none} so we must set 'block' explicitly, not ''
+    // Show/hide bilingual paragraphs
+    // Note: style.css has p:lang(en){display:none} so we must set 'block' explicitly
     document.querySelectorAll('p[lang]').forEach(function(el) {
       el.style.display = el.lang === lang ? 'block' : 'none';
     });
@@ -36,9 +20,17 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    // Store original href before any modification
-    var navAch = document.getElementById('nav-achievements');
-    if (navAch && !navAch.dataset.base) navAch.dataset.base = navAch.getAttribute('href');
+    // Theme
+    var body = document.body;
+    var saved = localStorage.getItem('theme');
+    if (saved) body.className = saved;
+    var btn = document.querySelector('.theme-button');
+    if (btn) btn.onclick = function() {
+      var dark = body.classList.contains('dark-theme');
+      body.classList.toggle('light-theme', dark);
+      body.classList.toggle('dark-theme', !dark);
+      localStorage.setItem('theme', body.className);
+    };
 
     var lang = getLang();
     applyLang(lang);
@@ -46,12 +38,12 @@
     var sel = document.getElementById('lang-select');
     if (sel) {
       sel.addEventListener('change', function () {
-        var lang = this.value;
-        localStorage.setItem('lang', lang);
+        var l = this.value;
+        localStorage.setItem('lang', l);
         var url = new URL(window.location);
-        url.searchParams.set('lang', lang);
+        url.searchParams.set('lang', l);
         history.replaceState(null, '', url);
-        applyLang(lang);
+        applyLang(l);
       });
     }
   });

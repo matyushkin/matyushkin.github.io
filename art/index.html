@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Leo Matyushkin">
+  <link href="../style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <title>Art — Leo Matyushkin</title>
+  <style>
+    .achievement { margin-bottom: 1.8em; }
+    .achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 0.2em; }
+    .achievement-title { margin-bottom: 0.15em; }
+    .achievement-venue { font-size: 0.9em; }
+    .achievement-desc { font-size: 0.85em; margin-top: 0.2em; color: #555; }
+    .dark-theme .achievement-desc { color: #aaa; }
+    .section-links { line-height: 2; }
+    .section-links a { margin-right: 1.2em; }
+  </style>
+</head>
+<body class="light-theme">
+  <header>
+    <nav>
+      <section class="logo">
+        <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
+      </section>
+      <section><a href="../art/index.html">Art</a></section>
+      <section><a href="../science/index.html">Science</a></section>
+      <section><a href="../technology/index.html">Technology</a></section>
+      <select id="lang-select" class="lang-select">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
+      <button type="button" class="theme-button" title="Toggle theme">◑</button>
+    </nav>
+  </header>
+  <main>
+    <h1 id="page-title">Art</h1>
+
+    <p lang="ru">Пишу стихи, малую прозу и эссе. Публикации — в «Воздухе», «Флагах», «На коленке». Рисую (Procreate) и сочиняю музыку — веду музыкальный дневник на SoundCloud с привязкой к датам.</p>
+    <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Vozdukh</em>, <em>Flagi</em>, <em>Na Kolenke</em>. I also draw (Procreate) and compose music — keeping a musical diary on SoundCloud, tied to dates.</p>
+
+    <h2 id="links-title">Профили</h2>
+    <p class="section-links">
+      <a href="https://soundcloud.com/leo-matyushkin" target="_blank" rel="noopener">SoundCloud</a>
+      <a href="https://t.me/lmpix" target="_blank" rel="noopener">LMPIX</a>
+      <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>
+      <a href="https://dribbble.com/matyushkin" target="_blank" rel="noopener">Dribbble</a>
+      <a href="https://www.deviantart.com/matyushkin" target="_blank" rel="noopener">DeviantArt</a>
+    </p>
+
+    <h2 id="books-title">Книги</h2>
+    <p><a href="https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing" target="_blank" rel="noopener" id="book-aya">Книга стихов «а/я», 2018</a></p>
+    <p><a href="https://drive.google.com/file/d/1M132L1XgY41nZLg96LrhxT3sPNifs9t5/view?usp=sharing" target="_blank" rel="noopener" id="book-space">Книга стихов «О пространстве и времени», 2015</a></p>
+
+    <h2 id="publications-title">Публикации</h2>
+    <div id="achievements-list"></div>
+  </main>
+  <footer>
+    <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
+  </footer>
+
+  <script>
+  const UI = {
+    ru: {
+      pageTitle: 'Art',
+      linksTitle: 'Профили',
+      booksTitle: 'Книги',
+      publicationsTitle: 'Публикации',
+      bookAya: 'Книга стихов «а/я», 2018',
+      bookSpace: 'Книга стихов «О пространстве и времени», 2015',
+      types: {
+        publication: 'публикация',
+        exhibition: 'выставка',
+        festival: 'фестиваль',
+        award: 'награда',
+        grant: 'грант'
+      },
+      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    },
+    en: {
+      pageTitle: 'Art',
+      linksTitle: 'Profiles',
+      booksTitle: 'Books',
+      publicationsTitle: 'Publications',
+      bookAya: 'Poetry collection «а/я», 2018',
+      bookSpace: 'Poetry collection «О пространстве и времени» [On Space and Time], 2015',
+      types: {
+        publication: 'publication',
+        exhibition: 'exhibition',
+        festival: 'festival',
+        award: 'award',
+        grant: 'grant'
+      },
+      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    }
+  };
+
+  function getLang() {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
+    const stored = localStorage.getItem('lang');
+    if (stored) return stored;
+    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+  }
+
+  function applyBilingualParagraphs(lang) {
+    document.querySelectorAll('p[lang]').forEach(el => {
+      el.style.display = el.lang === lang ? 'block' : 'none';
+    });
+  }
+
+  function render(achievements, lang) {
+    const ui = UI[lang] || UI.en;
+    document.getElementById('page-title').textContent = ui.pageTitle;
+    document.title = ui.pageTitle + ' — Leo Matyushkin';
+    document.getElementById('links-title').textContent = ui.linksTitle;
+    document.getElementById('books-title').textContent = ui.booksTitle;
+    document.getElementById('publications-title').textContent = ui.publicationsTitle;
+    document.getElementById('book-aya').textContent = ui.bookAya;
+    document.getElementById('book-space').textContent = ui.bookSpace;
+    document.getElementById('footer-text').innerHTML = ui.footer;
+    applyBilingualParagraphs(lang);
+
+    const sorted = [...achievements].sort((a, b) => b.year - a.year);
+    document.getElementById('achievements-list').innerHTML = sorted.map(a => {
+      const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
+      const typeLabel = ui.types[a.type] || a.type;
+      const titleHtml = a.url
+        ? `<a href="${a.url}" target="_blank" rel="noopener">${i.title}</a>`
+        : i.title;
+      return `<div class="achievement">
+        <div class="achievement-meta">${typeLabel} · ${a.year}</div>
+        <div class="achievement-title">${titleHtml}</div>
+        <div class="achievement-venue">${i.venue}</div>
+        ${i.description ? `<div class="achievement-desc">${i.description}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      const achievements = data.achievements;
+      const lang = getLang();
+      const select = document.getElementById('lang-select');
+      select.value = lang;
+      render(achievements, lang);
+
+      select.addEventListener('change', () => {
+        const l = select.value;
+        localStorage.setItem('lang', l);
+        const url = new URL(window.location);
+        url.searchParams.set('lang', l);
+        history.replaceState(null, '', url);
+        render(achievements, l);
+      });
+    });
+
+  // Theme
+  (function() {
+    const body = document.body;
+    const saved = localStorage.getItem('theme');
+    if (saved) { body.className = saved; }
+    const btn = document.querySelector('.theme-button');
+    if (btn) btn.onclick = function() {
+      const dark = body.classList.contains('dark-theme');
+      body.classList.toggle('light-theme', dark);
+      body.classList.toggle('dark-theme', !dark);
+      localStorage.setItem('theme', body.className);
+    };
+  })();
+  </script>
+</body>
+</html>
