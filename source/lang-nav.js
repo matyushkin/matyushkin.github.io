@@ -14,6 +14,7 @@
   };
 
   function applyLang(lang) {
+    document.documentElement.lang = lang;
     var labels = NAV_I18N[lang] || NAV_I18N.en;
     var navArt  = document.getElementById('nav-art');
     var navSci  = document.getElementById('nav-science');
