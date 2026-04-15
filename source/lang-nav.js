@@ -8,7 +8,20 @@
     return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
   }
 
+  var NAV_I18N = {
+    ru: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
+    en: { art: 'Art',       science: 'Science', technology: 'Technology' }
+  };
+
   function applyLang(lang) {
+    var labels = NAV_I18N[lang] || NAV_I18N.en;
+    var navArt  = document.getElementById('nav-art');
+    var navSci  = document.getElementById('nav-science');
+    var navTech = document.getElementById('nav-technology');
+    if (navArt)  navArt.textContent  = labels.art;
+    if (navSci)  navSci.textContent  = labels.science;
+    if (navTech) navTech.textContent = labels.technology;
+
     // Show/hide bilingual paragraphs
     // Note: style.css has p:lang(en){display:none} so we must set 'block' explicitly
     document.querySelectorAll('p[lang]').forEach(function(el) {

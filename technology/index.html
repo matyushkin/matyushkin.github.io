@@ -25,9 +25,9 @@
       <section class="logo">
         <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../art/index.html">Art</a></section>
-      <section><a href="../science/index.html">Science</a></section>
-      <section><a href="../technology/index.html">Technology</a></section>
+      <section><a href="../art/index.html" id="nav-art">Art</a></section>
+      <section><a href="../science/index.html" id="nav-science">Science</a></section>
+      <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
       <select id="lang-select" class="lang-select">
         <option value="ru">RU</option>
         <option value="en">EN</option>
@@ -58,15 +58,17 @@
   <script>
 const UI = {
     ru: {
-      pageTitle: 'Technology',
+      pageTitle: 'Технологии',
       linksTitle: 'Профили',
       publicationsTitle: 'Публикации',
+      nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
       pageTitle: 'Technology',
       linksTitle: 'Profiles',
       publicationsTitle: 'Publications',
+      nav: { art: 'Art', science: 'Science', technology: 'Technology' },
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
   };
@@ -90,6 +92,12 @@ const UI = {
       el.style.display = el.lang === lang ? 'block' : 'none';
     });
     document.getElementById('lang-select').value = lang;
+    const navArt  = document.getElementById('nav-art');
+    const navSci  = document.getElementById('nav-science');
+    const navTech = document.getElementById('nav-technology');
+    if (navArt)  navArt.textContent  = ui.nav.art;
+    if (navSci)  navSci.textContent  = ui.nav.science;
+    if (navTech) navTech.textContent = ui.nav.technology;
   }
 
   const lang = getLang();
