@@ -1,0 +1,20 @@
+# Leo Matyushkin
+
+> Researcher, engineer, poet. Materials science of nanoelectronics, Rust/Python engineering, poetry and visual art. Based online — currently traveling the world.
+
+## Science
+- [Publications](https://matyushkin.github.io/science/index.html): 71 publications, h-index 18. Research areas: quantum dots, plasmonic nanoparticles, colloidal synthesis of nanocrystals, layer-by-layer deposition from solutions, semiconductor synthesis for nanoelectronics.
+- [Google Scholar](https://scholar.google.ru/citations?user=x0O884MAAAAJ)
+- [ResearchGate](https://www.researchgate.net/profile/Lev_Matyushkin)
+
+## Technology
+- [Articles](https://matyushkin.github.io/technology/index.html): Engineering articles on Rust, Python, ML/DS, NoCode paradigm and tools, AI/LLM, history of human-machine interfaces.
+- Apifornia Blog: multi-agent AI assistant (LangGraph), NoCode workflow platforms.
+
+## Art
+- [Art & Music](https://matyushkin.github.io/art/index.html): Poetry in Russian, published in Vozdukh, Flagi, Zhurnal Na Kolenke. Acrylic, watercolor, colored pencils. Electronic, keyboard and guitar music on SoundCloud.
+- [SoundCloud](https://soundcloud.com/leo-matyushkin)
+- [Behance](https://www.behance.net/leo-matyushkin)
+
+## Contact
+- Email: leva.matyushkin@gmail.com
