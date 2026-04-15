@@ -196,3 +196,49 @@ test.describe('language persistence', () => {
     await expect(page.locator('h1')).toHaveText('Science');
   });
 });
+
+// ─── html[lang] attribute ────────────────────────────────────────────────────
+
+test.describe('html[lang] attribute', () => {
+  test('lang=en sets html[lang] to en', async ({ page }) => {
+    await page.goto('/science/index.html?lang=en');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  });
+
+  test('lang=ru sets html[lang] to ru', async ({ page }) => {
+    await page.goto('/science/index.html?lang=ru');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ru');
+  });
+
+  test('switching language updates html[lang]', async ({ page }) => {
+    await page.goto('/science/index.html?lang=ru');
+    await page.selectOption('#lang-select', 'en');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  });
+});
+
+// ─── Mobile layout ────────────────────────────────────────────────────────────
+
+test.describe('mobile layout (375px)', () => {
+  test.use({ viewport: { width: 375, height: 812 } });
+
+  test('nav is visible on mobile', async ({ page }) => {
+    await page.goto('/?lang=en');
+    await expect(page.locator('nav')).toBeVisible();
+    await expect(page.locator('#nav-art')).toBeVisible();
+    await expect(page.locator('#nav-science')).toBeVisible();
+    await expect(page.locator('#nav-technology')).toBeVisible();
+  });
+
+  test('science page renders on mobile', async ({ page }) => {
+    await page.goto('/science/index.html?lang=en');
+    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('.achievement').first()).toBeVisible();
+  });
+
+  test('technology page renders on mobile', async ({ page }) => {
+    await page.goto('/technology/index.html?lang=en');
+    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('article li').first()).toBeVisible();
+  });
+});
