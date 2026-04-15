@@ -4,7 +4,8 @@
   "description": "Personal web site by Leo Matyushkin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/matyushkin/matyushkin.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@playwright/test": "^1.59.1",
     "html-minifier": "^4.0.0"
   }
 }
