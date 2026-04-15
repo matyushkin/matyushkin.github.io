@@ -36,6 +36,13 @@
     }
   }
   </script>
+  <script>
+  (function(){
+    var p=new URLSearchParams(location.search).get('lang');
+    var l=p||localStorage.getItem('lang')||((navigator.language||'').slice(0,2).toLowerCase()==='ru'?'ru':'en');
+    document.documentElement.lang=l;
+  })();
+  </script>
 </head>
 <body class="light-theme">
   <a href="#main-content" class="skip-link">Skip to content</a>
