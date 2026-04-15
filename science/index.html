@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="../../style.css" rel="stylesheet">
-  <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
-  <title>Научные достижения — Лёва Матюшкин</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Leo Matyushkin">
+  <link href="../style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <title>Science — Leo Matyushkin</title>
   <style>
     .achievement { margin-bottom: 1.8em; }
     .achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 0.2em; }
@@ -15,26 +17,40 @@
     .achievement-desc { font-size: 0.85em; margin-top: 0.2em; color: #555; }
     .dark-theme .achievement-desc { color: #aaa; }
     .achievement-links { font-size: 0.8em; margin-top: 0.3em; }
+    .section-links { line-height: 2; }
+    .section-links a { margin-right: 1.2em; }
   </style>
 </head>
-<body>
+<body class="light-theme">
   <header>
     <nav>
       <section class="logo">
-        <a href="../../index.html"><img src="../../img/logo.png" alt="Главная страница"></a>
+        <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../../posts/index.html">Coding</a></section>
-      <section><a href="../../texts/index.html" id="nav-texts">Тексты</a></section>
-      <section><a href="../index.html" id="nav-achievements">Достижения</a></section>
-      <section><a href="../../links/index.html" id="nav-links">Ссылки</a></section>
+      <section><a href="../art/index.html">Art</a></section>
+      <section><a href="../science/index.html">Science</a></section>
+      <section><a href="../technology/index.html">Technology</a></section>
       <select id="lang-select" class="lang-select">
         <option value="ru">RU</option>
         <option value="en">EN</option>
       </select>
+      <button type="button" class="theme-button" title="Toggle theme">◑</button>
     </nav>
   </header>
   <main>
-    <h1 id="page-title">Научные достижения</h1>
+    <h1 id="page-title">Science</h1>
+
+    <p lang="ru">Моя область — материаловедение микро- и наноэлектроники: синтез полупроводников, квантовые точки, коллоидные наночастицы. 71 публикация, h-index 18. Создал курс по наноматериалам на Stepik — сейчас более 1300 студентов. Возвращаюсь к исследованиям через вычислительное моделирование.</p>
+    <p lang="en">My field is materials science of micro- and nanoelectronics — semiconductor synthesis, quantum dots, colloidal nanoparticles. 71 publications, h-index 18. I also made a nanomaterials course on Stepik with 1,300+ students. Currently returning to research through computational modeling.</p>
+
+    <h2 id="links-title">Профили</h2>
+    <p class="section-links">
+      <a href="https://scholar.google.ru/citations?user=x0O884MAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Lev_Matyushkin" target="_blank" rel="noopener">ResearchGate</a>
+      <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">Stepik</a>
+    </p>
+
+    <h2 id="publications-title">Публикации</h2>
     <div id="achievements-list"></div>
   </main>
   <footer>
@@ -44,7 +60,9 @@
   <script>
   const UI = {
     ru: {
-      pageTitle: 'Научные достижения',
+      pageTitle: 'Science',
+      linksTitle: 'Профили',
+      publicationsTitle: 'Публикации',
       types: {
         publication: 'публикация',
         conference: 'конференция',
@@ -53,13 +71,12 @@
         patent: 'патент',
         dissertation: 'диссертация'
       },
-      navTexts: 'Тексты',
-      navAchievements: 'Достижения',
-      navLinks: 'Ссылки',
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
-      pageTitle: 'Scientific Achievements',
+      pageTitle: 'Science',
+      linksTitle: 'Profiles',
+      publicationsTitle: 'Publications',
       types: {
         publication: 'publication',
         conference: 'conference',
@@ -68,48 +85,42 @@
         patent: 'patent',
         dissertation: 'dissertation'
       },
-      navTexts: 'Texts',
-      navAchievements: 'Achievements',
-      navLinks: 'Links',
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
   };
 
   function getLang() {
     const urlLang = new URLSearchParams(window.location.search).get('lang');
-    if (urlLang) {
-      localStorage.setItem('lang', urlLang);
-      return urlLang;
-    }
+    if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
     const stored = localStorage.getItem('lang');
     if (stored) return stored;
-    const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
-    return browserLang === 'ru' ? 'ru' : 'en';
+    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+  }
+
+  function applyBilingualParagraphs(lang) {
+    document.querySelectorAll('p[lang]').forEach(el => {
+      el.style.display = el.lang === lang ? 'block' : 'none';
+    });
   }
 
   function render(achievements, lang) {
-    const ui = UI[lang] || UI.ru;
-
+    const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
-    document.title = ui.pageTitle + ' — Лёва Матюшкин';
+    document.title = ui.pageTitle + ' — Leo Matyushkin';
+    document.getElementById('links-title').textContent = ui.linksTitle;
+    document.getElementById('publications-title').textContent = ui.publicationsTitle;
     document.getElementById('footer-text').innerHTML = ui.footer;
-    document.getElementById('nav-texts').textContent = ui.navTexts;
-    document.getElementById('nav-achievements').textContent = ui.navAchievements;
-    document.getElementById('nav-links').textContent = ui.navLinks;
-
-    if (achievements.length === 0) {
-      document.getElementById('achievements-list').innerHTML = '';
-      return;
-    }
+    applyBilingualParagraphs(lang);
 
     const sorted = [...achievements]
       .filter(a => lang === 'ru' || a.lang_of_work !== 'ru')
       .sort((a, b) => b.year - a.year);
+
     document.getElementById('achievements-list').innerHTML = sorted.map(a => {
       const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
       const typeLabel = ui.types[a.type] || a.type;
       const citationsHtml = a.citations
-        ? ` · <span title="citations / цитирований">${a.citations} ✦</span>`
+        ? ` · <span title="citations">${a.citations} ✦</span>`
         : '';
       const linkParts = [];
       if (a.urls?.scholar) linkParts.push(`<a href="${a.urls.scholar}" target="_blank" rel="noopener">Scholar</a>`);
@@ -135,34 +146,34 @@
     .then(r => r.json())
     .then(data => {
       const achievements = data.achievements;
-
-      const knownLangs = new Set(Object.keys(UI));
-      achievements.forEach(a => Object.keys(a.i18n).forEach(l => knownLangs.add(l)));
-
+      const lang = getLang();
       const select = document.getElementById('lang-select');
-      const currentLang = getLang();
-      select.innerHTML = [...knownLangs].map(l =>
-        `<option value="${l}"${l === currentLang ? ' selected' : ''}>${l.toUpperCase()}</option>`
-      ).join('');
-
-      function updateNavLang(lang) {
-        const navAch = document.getElementById('nav-achievements');
-        if (navAch) navAch.href = '../index.html?lang=' + lang;
-      }
-
-      render(achievements, currentLang);
-      updateNavLang(currentLang);
+      select.value = lang;
+      render(achievements, lang);
 
       select.addEventListener('change', () => {
-        const lang = select.value;
-        localStorage.setItem('lang', lang);
+        const l = select.value;
+        localStorage.setItem('lang', l);
         const url = new URL(window.location);
-        url.searchParams.set('lang', lang);
+        url.searchParams.set('lang', l);
         history.replaceState(null, '', url);
-        render(achievements, lang);
-        updateNavLang(lang);
+        render(achievements, l);
       });
     });
+
+  // Theme
+  (function() {
+    const body = document.body;
+    const saved = localStorage.getItem('theme');
+    if (saved) { body.className = saved; }
+    const btn = document.querySelector('.theme-button');
+    if (btn) btn.onclick = function() {
+      const dark = body.classList.contains('dark-theme');
+      body.classList.toggle('light-theme', dark);
+      body.classList.toggle('dark-theme', !dark);
+      localStorage.setItem('theme', body.className);
+    };
+  })();
   </script>
 </body>
 </html>
