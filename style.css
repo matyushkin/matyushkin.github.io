@@ -188,7 +188,7 @@ html[lang="ru"] p[lang="en"] { display: none; }
     border-left-color: #555;
 }
 
-.achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 0.2em; }
+.achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #767676; margin-bottom: 0.2em; }
 .achievement-title { margin-bottom: 0.15em; }
 .achievement-venue { font-size: 0.9em; }
 .achievement-desc { font-size: 0.85em; margin-top: 0.2em; color: #555; }

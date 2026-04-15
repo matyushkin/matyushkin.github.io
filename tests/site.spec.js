@@ -246,7 +246,7 @@ test.describe('mobile layout (375px)', () => {
 
   test('nav is visible on mobile', async ({ page }) => {
     await page.goto('/?lang=en');
-    await expect(page.locator('nav')).toBeVisible();
+    await expect(page.locator('header nav')).toBeVisible();
     await expect(page.locator('#nav-art')).toBeVisible();
     await expect(page.locator('#nav-science')).toBeVisible();
     await expect(page.locator('#nav-technology')).toBeVisible();
