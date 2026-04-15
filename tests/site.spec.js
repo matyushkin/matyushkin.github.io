@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -195,6 +196,27 @@ test.describe('language persistence', () => {
     await page.goto('/science/index.html?lang=en');
     await expect(page.locator('h1')).toHaveText('Science');
   });
+});
+
+// ─── Accessibility (axe-core) ────────────────────────────────────────────────
+
+test.describe('accessibility (WCAG 2.1 AA)', () => {
+  const pages = [
+    '/?lang=en',
+    '/art/index.html?lang=en',
+    '/science/index.html?lang=en',
+    '/technology/index.html?lang=en',
+  ];
+
+  for (const url of pages) {
+    test(`no critical a11y violations: ${url}`, async ({ page }) => {
+      await page.goto(url);
+      const results = await new AxeBuilder({ page })
+        .withTags(['wcag2a', 'wcag2aa'])
+        .analyze();
+      expect(results.violations).toEqual([]);
+    });
+  }
 });
 
 // ─── html[lang] attribute ────────────────────────────────────────────────────
