@@ -136,7 +136,9 @@
     function renderItem(a) {
       const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
       const citationsHtml = a.citations
-        ? ` · <span title="citations">${a.citations} ✦</span>`
+        ? ` · ${a.urls?.cited_by
+            ? `<a href="${a.urls.cited_by}" target="_blank" rel="noopener" title="citations">${a.citations} ✦</a>`
+            : `<span title="citations">${a.citations} ✦</span>`}`
         : '';
       const linkParts = [];
       if (a.urls?.scholar) linkParts.push(`<a href="${a.urls.scholar}" target="_blank" rel="noopener">${ui.scholarLabel}</a>`);
