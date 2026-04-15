@@ -143,9 +143,9 @@
     const navArt  = document.getElementById('nav-art');
     const navSci  = document.getElementById('nav-science');
     const navTech = document.getElementById('nav-technology');
-    if (navArt)  navArt.textContent  = ui.nav.art;
-    if (navSci)  navSci.textContent  = ui.nav.science;
-    if (navTech) navTech.textContent = ui.nav.technology;
+    if (navArt)  { navArt.textContent  = ui.nav.art;        navArt.removeAttribute('aria-current'); }
+    if (navSci)  { navSci.textContent  = ui.nav.science;    navSci.setAttribute('aria-current', 'page'); }
+    if (navTech) { navTech.textContent = ui.nav.technology; navTech.removeAttribute('aria-current'); }
     document.getElementById('profiles-list').innerHTML = ui.profiles
       .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
       .join('');
