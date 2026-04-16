@@ -175,6 +175,7 @@
       {
         year: 2018,
         url: 'https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing',
+        patreon: 'https://www.patreon.com/posts/kniga-stikhov-go-18748964',
         i18n: {
           ru: { title: '«а/я»', venue: 'Самиздат' },
           en: { title: '«а/я»', venue: 'Self-published' }
@@ -192,10 +193,13 @@
     const bookTypeLabel = ui.types.book;
     document.getElementById('books-list').innerHTML = books.map(b => {
       const i = b.i18n[lang] || b.i18n.ru;
+      const links = [`<a href="${b.url}" target="_blank" rel="noopener">PDF</a>`];
+      if (b.patreon) links.push(`<a href="${b.patreon}" target="_blank" rel="noopener">Patreon</a>`);
       return `<div class="achievement">
         <div class="achievement-meta">${bookTypeLabel} · ${b.year}</div>
-        <div class="achievement-title"><a href="${b.url}" target="_blank" rel="noopener">${i.title}</a></div>
+        <div class="achievement-title">${i.title}</div>
         <div class="achievement-venue">${i.venue}</div>
+        <div class="achievement-links">${links.join(' · ')}</div>
       </div>`;
     }).join('');
 
