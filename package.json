@@ -22,9 +22,7 @@
   },
   "homepage": "https://github.com/matyushkin/matyushkin.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
     "@axe-core/playwright": "^4.11.1",
-    "@playwright/test": "^1.59.1",
-    "html-minifier": "^4.0.0"
+    "@playwright/test": "^1.59.1"
   }
 }
