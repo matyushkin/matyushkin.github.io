@@ -71,6 +71,9 @@
     <p lang="ru">Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).</p>
     <p lang="en">Engineer and data analyst. Primary languages: Rust and Python. At Apifornia I'm building an AI assistant that creates and edits flows from natural language requests (multi-agent architecture on LangGraph).</p>
 
+    <h2 id="profiles-title">Профили</h2>
+    <p class="section-links" id="profiles-list"></p>
+
     <h2 id="publications-title">Публикации</h2>
     <article id="articles-list"></article>
   </main>
@@ -82,14 +85,26 @@
   const UI = {
     ru: {
       pageTitle: 'Технологии',
+      profilesTitle: 'Профили',
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
+      profiles: [
+        { url: 'https://github.com/matyushkin', label: 'GitHub' },
+        { url: 'https://habr.com/ru/users/leomat/', label: 'Хабр' },
+        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
+      ],
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
       pageTitle: 'Technology',
+      profilesTitle: 'Profiles',
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
+      profiles: [
+        { url: 'https://github.com/matyushkin', label: 'GitHub' },
+        { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
+        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
+      ],
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
   };
@@ -113,6 +128,9 @@
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';
+    document.getElementById('profiles-title').textContent = ui.profilesTitle;
+    document.getElementById('profiles-list').innerHTML = ui.profiles
+      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`).join('');
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     const navArt  = document.getElementById('nav-art');
     const navSci  = document.getElementById('nav-science');
