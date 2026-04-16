@@ -1,5 +1,13 @@
 node_modules/
 test-results/
+_site/
 .DS_Store
 .Rhistory
 .ipynb_checkpoints/
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.run.xml
+*.synctex.gz

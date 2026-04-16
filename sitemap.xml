@@ -1,23 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://matyushkin.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/?lang=en"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://matyushkin.github.io/science/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/science/index.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/science/index.html?lang=en"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://matyushkin.github.io/technology/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/technology/index.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/technology/index.html?lang=en"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://matyushkin.github.io/art/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/art/index.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/art/index.html?lang=en"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://matyushkin.github.io/cv/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/cv/index.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/cv/index.html?lang=en"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://matyushkin.github.io/donate/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/donate/index.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/donate/index.html?lang=en"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
