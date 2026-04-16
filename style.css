@@ -46,6 +46,8 @@ select.lang-select {
     margin-left: auto;
     font-family: inherit;
     font-size: 0.95em;
+    line-height: 1;
+    align-self: center;
     cursor: pointer;
     border: none;
     background: transparent;
@@ -56,6 +58,8 @@ select.lang-select {
 .theme-button {
     font-family: inherit;
     font-size: 0.95em;
+    line-height: 1;
+    align-self: center;
     cursor: pointer;
     border: none;
     background: transparent;
