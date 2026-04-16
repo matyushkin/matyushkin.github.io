@@ -73,8 +73,7 @@
     <p class="section-links" id="profiles-list"></p>
 
     <h2 id="books-title">Книги</h2>
-    <p><a href="https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing" target="_blank" rel="noopener" id="book-aya">Книга стихов «а/я», 2018</a></p>
-    <p><a href="https://drive.google.com/file/d/1M132L1XgY41nZLg96LrhxT3sPNifs9t5/view?usp=sharing" target="_blank" rel="noopener" id="book-space">Книга стихов «О пространстве и времени», 2015</a></p>
+    <div id="books-list"></div>
 
     <h2 id="publications-title">Публикации</h2>
     <div id="achievements-list"></div>
@@ -101,9 +100,8 @@
         { url: 'https://dribbble.com/matyushkin', label: 'Дриббл' },
         { url: 'https://www.deviantart.com/matyushkin', label: 'Девиантарт' }
       ],
-      bookAya: 'Книга стихов «а/я», 2018 (самиздат)',
-      bookSpace: 'Книга стихов «О пространстве и времени», 2015 (самиздат)',
       types: {
+        book: 'книга',
         publication: 'публикация',
         exhibition: 'выставка',
         festival: 'фестиваль',
@@ -128,9 +126,8 @@
         { url: 'https://dribbble.com/matyushkin', label: 'Dribbble' },
         { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' }
       ],
-      bookAya: 'Poetry collection «а/я», 2018 (self-published)',
-      bookSpace: 'Poetry collection «О пространстве и времени» [On Space and Time], 2015 (self-published)',
       types: {
+        book: 'book',
         publication: 'publication',
         exhibition: 'exhibition',
         festival: 'festival',
@@ -172,9 +169,35 @@
       .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
       .join('');
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
-    document.getElementById('book-aya').textContent = ui.bookAya;
-    document.getElementById('book-space').textContent = ui.bookSpace;
     document.getElementById('footer-text').innerHTML = ui.footer;
+
+    const books = [
+      {
+        year: 2018,
+        url: 'https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing',
+        i18n: {
+          ru: { title: '«а/я»', venue: 'Самиздат' },
+          en: { title: '«а/я»', venue: 'Self-published' }
+        }
+      },
+      {
+        year: 2015,
+        url: 'https://drive.google.com/file/d/1M132L1XgY41nZLg96LrhxT3sPNifs9t5/view?usp=sharing',
+        i18n: {
+          ru: { title: '«О пространстве и времени»', venue: 'Самиздат' },
+          en: { title: '«О пространстве и времени» [On Space and Time]', venue: 'Self-published' }
+        }
+      }
+    ];
+    const bookTypeLabel = ui.types.book;
+    document.getElementById('books-list').innerHTML = books.map(b => {
+      const i = b.i18n[lang] || b.i18n.ru;
+      return `<div class="achievement">
+        <div class="achievement-meta">${bookTypeLabel} · ${b.year}</div>
+        <div class="achievement-title"><a href="${b.url}" target="_blank" rel="noopener">${i.title}</a></div>
+        <div class="achievement-venue">${i.venue}</div>
+      </div>`;
+    }).join('');
 
     const sorted = [...achievements].sort((a, b) => b.year - a.year);
     document.getElementById('achievements-list').innerHTML = sorted.map(a => {
