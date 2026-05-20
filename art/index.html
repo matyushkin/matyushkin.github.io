@@ -186,19 +186,21 @@
 
     const books = [
       {
+        id: 'book-aya',
         year: 2018,
         url: 'https://drive.google.com/file/d/1ntZAl3w9EueSqsiEoM8UDAu9DHovrcsA/view?usp=sharing',
         patreon: 'https://www.patreon.com/posts/kniga-stikhov-go-18748964',
         i18n: {
-          ru: { title: '«а/я»', venue: 'Самиздат' },
+          ru: { title: '«а/я»', venue: 'самиздат' },
           en: { title: '«а/я»', venue: 'Self-published' }
         }
       },
       {
+        id: 'book-space',
         year: 2015,
         url: 'https://drive.google.com/file/d/1M132L1XgY41nZLg96LrhxT3sPNifs9t5/view?usp=sharing',
         i18n: {
-          ru: { title: '«О пространстве и времени»', venue: 'Самиздат' },
+          ru: { title: '«О пространстве и времени»', venue: 'самиздат' },
           en: { title: '«О пространстве и времени» [On Space and Time]', venue: 'Self-published' }
         }
       }
@@ -208,7 +210,7 @@
       const i = b.i18n[lang] || b.i18n.ru;
       const links = [`<a href="${b.url}" target="_blank" rel="noopener">PDF</a>`];
       if (b.patreon) links.push(`<a href="${b.patreon}" target="_blank" rel="noopener">Patreon</a>`);
-      return `<div class="achievement">
+      return `<div class="achievement" id="${b.id}">
         <div class="achievement-meta">${bookTypeLabel} · ${b.year}</div>
         <div class="achievement-title">${i.title}</div>
         <div class="achievement-venue">${i.venue}</div>

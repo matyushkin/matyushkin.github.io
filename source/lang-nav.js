@@ -34,11 +34,12 @@
 
   function markCurrentPage() {
     var path = window.location.pathname;
-    var map = { 'nav-art': '/art/', 'nav-science': '/science/', 'nav-technology': '/technology/' };
+    var map = { 'nav-art': '/art/', 'nav-science': '/science/', 'nav-technology': ['/technology/', '/ai_cookbook/'] };
     Object.keys(map).forEach(function(id) {
       var el = document.getElementById(id);
+      var paths = Array.isArray(map[id]) ? map[id] : [map[id]];
       if (el) el.removeAttribute('aria-current');
-      if (el && path.indexOf(map[id]) !== -1) el.setAttribute('aria-current', 'page');
+      if (el && paths.some(function(item) { return path.indexOf(item) !== -1; })) el.setAttribute('aria-current', 'page');
     });
   }
 

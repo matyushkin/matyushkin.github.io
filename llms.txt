@@ -9,6 +9,13 @@
 
 ## Technology
 - [Articles](https://matyushkin.github.io/technology/index.html): Engineering articles on Rust, Python, ML/DS, NoCode paradigm and tools, AI/LLM, history of human-machine interfaces.
+- [AI Cookbook](https://matyushkin.github.io/ai_cookbook/index.html): Living encyclopedia of LLMs, local runtimes, agent frameworks, coding agents, harnesses, evals, protocols, and tools.
+  - [LangGraph](https://matyushkin.github.io/ai_cookbook/tools/langgraph/)
+  - [LlamaIndex](https://matyushkin.github.io/ai_cookbook/tools/llamaindex/)
+  - [OpenHands](https://matyushkin.github.io/ai_cookbook/tools/openhands/)
+  - [Model Context Protocol](https://matyushkin.github.io/ai_cookbook/tools/mcp/)
+  - [Ollama](https://matyushkin.github.io/ai_cookbook/tools/ollama/)
+  - [OpenAI Codex CLI](https://matyushkin.github.io/ai_cookbook/tools/codex-cli/)
 - Apifornia Blog: multi-agent AI assistant (LangGraph), NoCode workflow platforms.
 
 ## Art

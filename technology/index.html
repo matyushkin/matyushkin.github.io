@@ -76,6 +76,9 @@
     <h2 id="profiles-title">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
+    <h2 id="projects-title">Проекты</h2>
+    <article class="technology-projects" id="projects-list"></article>
+
     <h2 id="publications-title">Публикации</h2>
     <article id="articles-list"></article>
   </main>
@@ -88,6 +91,7 @@
     ru: {
       pageTitle: 'Технологии',
       profilesTitle: 'Профили',
+      projectsTitle: 'Проекты',
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
       profiles: [
@@ -95,17 +99,32 @@
         { url: 'https://habr.com/ru/users/leomat/', label: 'Хабр' },
         { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
       ],
+      projects: [
+        {
+          url: '../ai_cookbook/index.html',
+          title: 'AI Cookbook',
+          description: 'Справочник по LLM, агентам, local runtimes, IDE/CLI-инструментам, harnesses, evals и протоколам вроде MCP.'
+        }
+      ],
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     },
     en: {
       pageTitle: 'Technology',
       profilesTitle: 'Profiles',
+      projectsTitle: 'Projects',
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
       profiles: [
         { url: 'https://github.com/matyushkin', label: 'GitHub' },
         { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
         { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
+      ],
+      projects: [
+        {
+          url: '../ai_cookbook/index.html',
+          title: 'AI Cookbook',
+          description: 'An encyclopedia of LLMs, agents, local runtimes, IDE/CLI tools, harnesses, evals, and protocols such as MCP.'
+        }
       ],
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
     }
@@ -133,6 +152,10 @@
     document.getElementById('profiles-title').textContent = ui.profilesTitle;
     document.getElementById('profiles-list').innerHTML = ui.profiles
       .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`).join('');
+    document.getElementById('projects-title').textContent = ui.projectsTitle;
+    document.getElementById('projects-list').innerHTML = ui.projects.map(project =>
+      '<h3><a href="' + project.url + '">' + project.title + '</a></h3><p>' + project.description + '</p>'
+    ).join('');
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     const navArt  = document.getElementById('nav-art');
     const navSci  = document.getElementById('nav-science');
