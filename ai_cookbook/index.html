@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI Cookbook by Leo Matyushkin: an encyclopedia of LLMs, local runtimes, agent frameworks, coding agents, harnesses, evals, protocols, and tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Leo Matyushkin">
+  <meta property="og:title" content="AI Cookbook — Leo Matyushkin">
+  <meta property="og:description" content="A living encyclopedia of LLMs, local runtimes, agent frameworks, coding agents, harnesses, evals, protocols, and tools.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@matyushkin">
+  <meta property="og:url" content="https://matyushkin.github.io/ai_cookbook/index.html">
+  <meta property="og:image" content="https://matyushkin.github.io/img/og-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="canonical" href="https://matyushkin.github.io/ai_cookbook/index.html">
+  <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/ai_cookbook/index.html?lang=ru">
+  <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/ai_cookbook/index.html?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/ai_cookbook/index.html">
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="preload" href="../fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="../style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../img/logo.png">
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <title>AI Cookbook — Leo Matyushkin</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "AI Cookbook",
+    "url": "https://matyushkin.github.io/ai_cookbook/index.html",
+    "description": "A living encyclopedia of LLMs, local runtimes, agent frameworks, coding agents, harnesses, evals, protocols, and tools.",
+    "about": ["Large Language Models", "AI agents", "LLM evaluation", "Local AI", "Agent frameworks"],
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Leo Matyushkin",
+      "url": "https://matyushkin.github.io/"
+    }
+  }
+  </script>
+  <script>
+  (function(){
+    var p=new URLSearchParams(location.search).get('lang');
+    var l=p||localStorage.getItem('lang')||((navigator.language||'').slice(0,2).toLowerCase()==='ru'?'ru':'en');
+    document.documentElement.lang=l;
+  })();
+  </script>
+</head>
+<body class="light-theme">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <header>
+    <nav>
+      <section class="logo">
+        <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
+      </section>
+      <section><a href="../science/index.html" id="nav-science">Science</a></section>
+      <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
+      <section><a href="../art/index.html" id="nav-art">Art</a></section>
+      <select id="lang-select" class="lang-select" aria-label="Language">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
+      <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="cookbook-hero" aria-labelledby="page-title">
+      <p class="cookbook-kicker" id="page-kicker">AI Cookbook</p>
+      <h1 id="page-title">AI Cookbook</h1>
+      <p id="page-lead"></p>
+    </section>
+
+    <section class="cookbook-toolbar" aria-labelledby="filters-title">
+      <h2 id="filters-title"></h2>
+      <label class="cookbook-search-label" for="catalog-search" id="search-label"></label>
+      <input id="catalog-search" class="cookbook-search" type="search" autocomplete="off">
+
+      <div class="cookbook-select-row">
+        <label for="mode-filter" id="mode-label"></label>
+        <select id="mode-filter">
+          <option value="all" id="mode-all"></option>
+          <option value="local" id="mode-local"></option>
+          <option value="remote" id="mode-remote"></option>
+          <option value="hybrid" id="mode-hybrid"></option>
+        </select>
+      </div>
+
+      <div class="cookbook-category-tabs" id="category-tabs" aria-label="Categories"></div>
+      <p class="cookbook-count" id="result-count"></p>
+    </section>
+
+    <section aria-labelledby="map-title">
+      <h2 id="map-title"></h2>
+      <div class="cookbook-map" id="category-map"></div>
+    </section>
+
+    <section aria-labelledby="recipes-title">
+      <h2 id="recipes-title"></h2>
+      <p id="recipes-lead" class="cookbook-section-lead"></p>
+      <div class="cookbook-recipes" id="recipes-list"></div>
+    </section>
+
+    <section aria-labelledby="matrix-title">
+      <h2 id="matrix-title"></h2>
+      <p id="matrix-lead" class="cookbook-section-lead"></p>
+      <div class="cookbook-table-wrap">
+        <table class="cookbook-matrix" id="comparison-matrix"></table>
+      </div>
+    </section>
+
+    <section aria-labelledby="freshness-title">
+      <h2 id="freshness-title"></h2>
+      <p id="freshness-lead" class="cookbook-section-lead"></p>
+      <div class="cookbook-freshness" id="freshness-policy"></div>
+    </section>
+
+    <section aria-labelledby="rankings-title">
+      <h2 id="rankings-title"></h2>
+      <p id="rankings-lead" class="cookbook-section-lead"></p>
+      <div class="cookbook-rankings" id="rankings-list"></div>
+    </section>
+
+    <section aria-labelledby="methodology-title">
+      <h2 id="methodology-title"></h2>
+      <p id="methodology-lead" class="cookbook-section-lead"></p>
+      <div class="cookbook-methodology" id="methodology-list"></div>
+    </section>
+
+    <section aria-labelledby="catalog-title">
+      <h2 id="catalog-title"></h2>
+      <div class="cookbook-catalog" id="catalog-list"></div>
+    </section>
+
+    <section aria-labelledby="roadmap-title">
+      <h2 id="roadmap-title"></h2>
+      <ol class="cookbook-roadmap" id="roadmap-list"></ol>
+    </section>
+
+    <noscript>
+      <p>AI Cookbook uses JavaScript to render the searchable catalog from JSON.</p>
+    </noscript>
+  </main>
+  <footer>
+    <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
+  </footer>
+
+  <script>
+  const UI = {
+    ru: {
+      pageTitle: 'AI Cookbook',
+      kicker: 'Справочник по LLM и агентам',
+      lead: 'Живой атлас локальных и удаленных LLM, agent frameworks, harnesses, evals, IDE/CLI-агентов и протоколов. Идея страницы: не рейтинг ради рейтинга, а карта решений, рисков и областей применения.',
+      filtersTitle: 'Фильтры',
+      searchLabel: 'Поиск',
+      searchPlaceholder: 'LangGraph, OpenClaw, локально, eval...',
+      modeLabel: 'Где работает',
+      modes: {
+        all: 'Все режимы',
+        local: 'Локально',
+        remote: 'Удаленно',
+        hybrid: 'Гибридно'
+      },
+      allCategories: 'Все',
+      mapTitle: 'Карта области',
+      recipesTitle: 'Рецепты',
+      recipesLead: 'Сценарии, с которых удобно начинать: каждый рецепт связывает инструменты, порядок внедрения и проверку результата.',
+      matrixTitle: 'Матрица сравнения',
+      matrixLead: 'Короткая operational matrix: не заменяет глубокий обзор, но помогает быстро увидеть поверхность, автономность и границы риска.',
+      freshnessTitle: 'Freshness policy',
+      freshnessLead: 'Правила актуальности: справочник должен показывать, когда карточка проверялась и насколько быстро может устареть.',
+      rankingsTitle: 'Evidence-backed рейтинги',
+      rankingsLead: 'Оценки сделаны по конкретным сценариям и критериям. Это не общий рейтинг популярности.',
+      methodologyTitle: 'Методология оценок',
+      methodologyLead: 'Чтобы рейтинг можно было оспорить и улучшить, каждая оценка привязана к сценарию, evidence и cadence перепроверки.',
+      catalogTitle: 'Каталог',
+      roadmapTitle: 'Что развивать дальше',
+      result: one => one === 1 ? '1 запись' : `${one} записей`,
+      noResults: 'Ничего не найдено. Попробуйте другой запрос или фильтр.',
+      labels: {
+        bestFor: 'Когда брать',
+        watch: 'Риски и оговорки',
+        aliases: 'Также',
+        sources: 'Источники',
+        sourceStatus: 'Источник',
+        freshness: 'Проверено',
+        movingFast: 'быстро меняется',
+        stable: 'стабильно',
+        deprecated: 'устарело',
+        profile: 'Профиль внедрения',
+        details: 'Подробнее',
+        firstStep: 'Первый практический шаг',
+        questions: 'Вопросы перед выбором',
+        tool: 'Инструмент',
+        tools: 'Инструменты',
+        scenario: 'Сценарий',
+        criteria: 'Критерии',
+        evidence: 'Почему',
+        score: 'Оценка',
+        rubric: 'Рубрика',
+        cadence: 'Cadence проверки',
+        policyRules: 'Правила',
+        steps: 'Порядок',
+        checks: 'Проверки',
+        official: 'официальный',
+        watchlist: 'watchlist'
+      },
+      nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
+      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    },
+    en: {
+      pageTitle: 'AI Cookbook',
+      kicker: 'LLM and agents encyclopedia',
+      lead: 'A living atlas of local and remote LLMs, agent frameworks, harnesses, evals, IDE/CLI agents, and protocols. The page is not a ranking for its own sake: it maps decisions, risks, and use cases.',
+      filtersTitle: 'Filters',
+      searchLabel: 'Search',
+      searchPlaceholder: 'LangGraph, OpenClaw, local, eval...',
+      modeLabel: 'Runs',
+      modes: {
+        all: 'All modes',
+        local: 'Local',
+        remote: 'Remote',
+        hybrid: 'Hybrid'
+      },
+      allCategories: 'All',
+      mapTitle: 'Domain Map',
+      recipesTitle: 'Recipes',
+      recipesLead: 'Starting scenarios: each recipe connects tools, rollout order, and result checks.',
+      matrixTitle: 'Comparison Matrix',
+      matrixLead: 'A compact operational matrix: not a substitute for a deep review, but useful for seeing surface, autonomy, and risk boundaries quickly.',
+      freshnessTitle: 'Freshness Policy',
+      freshnessLead: 'Freshness rules: the cookbook should show when a card was checked and how quickly it can go stale.',
+      rankingsTitle: 'Evidence-Backed Rankings',
+      rankingsLead: 'Scores are scenario-based and criterion-based. This is not a generic popularity ranking.',
+      methodologyTitle: 'Scoring Methodology',
+      methodologyLead: 'Every score should be easy to challenge and improve: it is tied to a scenario, evidence, and review cadence.',
+      catalogTitle: 'Catalog',
+      roadmapTitle: 'Next development',
+      result: one => one === 1 ? '1 entry' : `${one} entries`,
+      noResults: 'No entries found. Try another query or filter.',
+      labels: {
+        bestFor: 'Best for',
+        watch: 'Risks and caveats',
+        aliases: 'Also',
+        sources: 'Sources',
+        sourceStatus: 'Source',
+        freshness: 'Verified',
+        movingFast: 'moving fast',
+        stable: 'stable',
+        deprecated: 'deprecated',
+        profile: 'Adoption profile',
+        details: 'Details',
+        firstStep: 'First practical step',
+        questions: 'Questions before choosing',
+        tool: 'Tool',
+        tools: 'Tools',
+        scenario: 'Scenario',
+        criteria: 'Criteria',
+        evidence: 'Why',
+        score: 'Score',
+        rubric: 'Rubric',
+        cadence: 'Review cadence',
+        policyRules: 'Rules',
+        steps: 'Order',
+        checks: 'Checks',
+        official: 'official',
+        watchlist: 'watchlist'
+      },
+      nav: { art: 'Art', science: 'Science', technology: 'Technology' },
+      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+    }
+  };
+
+  const state = {
+    category: 'all',
+    mode: 'all',
+    query: ''
+  };
+
+  function getLang() {
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
+    const stored = localStorage.getItem('lang');
+    if (stored) return stored;
+    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+  }
+
+  function text(value, lang) {
+    if (!value) return '';
+    if (typeof value === 'string') return value;
+    return value[lang] || value.en || value.ru || '';
+  }
+
+  function el(tag, className, content) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (content !== undefined) node.textContent = content;
+    return node;
+  }
+
+  function setNav(ui) {
+    const navArt = document.getElementById('nav-art');
+    const navSci = document.getElementById('nav-science');
+    const navTech = document.getElementById('nav-technology');
+    if (navArt) { navArt.textContent = ui.nav.art; navArt.removeAttribute('aria-current'); }
+    if (navSci) { navSci.textContent = ui.nav.science; navSci.removeAttribute('aria-current'); }
+    if (navTech) { navTech.textContent = ui.nav.technology; navTech.setAttribute('aria-current', 'page'); }
+  }
+
+  function applyStaticText(lang) {
+    const ui = UI[lang] || UI.en;
+    document.documentElement.lang = lang;
+    document.title = ui.pageTitle + ' — Leo Matyushkin';
+    document.getElementById('page-kicker').textContent = ui.kicker;
+    document.getElementById('page-title').textContent = ui.pageTitle;
+    document.getElementById('page-lead').textContent = ui.lead;
+    document.getElementById('filters-title').textContent = ui.filtersTitle;
+    document.getElementById('search-label').textContent = ui.searchLabel;
+    document.getElementById('catalog-search').placeholder = ui.searchPlaceholder;
+    document.getElementById('mode-label').textContent = ui.modeLabel;
+    document.getElementById('mode-all').textContent = ui.modes.all;
+    document.getElementById('mode-local').textContent = ui.modes.local;
+    document.getElementById('mode-remote').textContent = ui.modes.remote;
+    document.getElementById('mode-hybrid').textContent = ui.modes.hybrid;
+    document.getElementById('map-title').textContent = ui.mapTitle;
+    document.getElementById('recipes-title').textContent = ui.recipesTitle;
+    document.getElementById('recipes-lead').textContent = ui.recipesLead;
+    document.getElementById('matrix-title').textContent = ui.matrixTitle;
+    document.getElementById('matrix-lead').textContent = ui.matrixLead;
+    document.getElementById('freshness-title').textContent = ui.freshnessTitle;
+    document.getElementById('freshness-lead').textContent = ui.freshnessLead;
+    document.getElementById('rankings-title').textContent = ui.rankingsTitle;
+    document.getElementById('rankings-lead').textContent = ui.rankingsLead;
+    document.getElementById('methodology-title').textContent = ui.methodologyTitle;
+    document.getElementById('methodology-lead').textContent = ui.methodologyLead;
+    document.getElementById('catalog-title').textContent = ui.catalogTitle;
+    document.getElementById('roadmap-title').textContent = ui.roadmapTitle;
+    document.getElementById('footer-text').innerHTML = ui.footer;
+    setNav(ui);
+  }
+
+  function entryMatches(entry, lang) {
+    if (state.category !== 'all' && entry.category !== state.category) return false;
+    if (state.mode !== 'all' && !entry.modes.includes(state.mode)) return false;
+    const haystack = [
+      entry.title,
+      ...(entry.aliases || []),
+      entry.freshness?.status || '',
+      text(entry.summary, lang),
+      ...(entry.bestFor?.[lang] || []),
+      ...(entry.watch?.[lang] || [])
+    ].join(' ').toLowerCase();
+    return haystack.includes(state.query.trim().toLowerCase());
+  }
+
+  function renderCategoryTabs(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const tabs = document.getElementById('category-tabs');
+    tabs.replaceChildren();
+    const all = [{ id: 'all', title: { ru: ui.allCategories, en: ui.allCategories } }, ...data.categories];
+    all.forEach(category => {
+      const button = el('button', 'cookbook-tab', text(category.title, lang));
+      button.type = 'button';
+      button.dataset.category = category.id;
+      if (state.category === category.id) button.setAttribute('aria-pressed', 'true');
+      button.addEventListener('click', () => {
+        state.category = category.id;
+        render(data, lang);
+      });
+      tabs.appendChild(button);
+    });
+  }
+
+  function renderMap(data, lang) {
+    const map = document.getElementById('category-map');
+    map.replaceChildren();
+    data.categories.forEach(category => {
+      const entries = data.entries.filter(entry => entry.category === category.id);
+      const card = el('article', 'cookbook-map-item');
+      const heading = el('h3', '', text(category.title, lang));
+      const description = el('p', '', text(category.description, lang));
+      const count = el('p', 'cookbook-map-count', entries.length.toString());
+      card.append(heading, description, count);
+      map.appendChild(card);
+    });
+  }
+
+  function renderEntry(entry, data, lang) {
+    const ui = UI[lang] || UI.en;
+    const category = data.categories.find(item => item.id === entry.category);
+    const playbook = data.categoryPlaybooks?.[entry.category];
+    const article = el('article', 'cookbook-entry');
+    article.id = entry.id;
+    const heading = el('h3', 'cookbook-entry-title', entry.title);
+    const meta = el('p', 'cookbook-entry-meta');
+    const freshness = entry.freshness
+      ? `${ui.labels.freshness}: ${entry.freshness.verifiedAt} · ${ui.labels[entry.freshness.status?.replace(/-([a-z])/g, (_, char) => char.toUpperCase())] || entry.freshness.status}`
+      : '';
+    meta.append(
+      el('span', '', text(category?.title, lang)),
+      el('span', '', entry.modes.map(mode => ui.modes[mode] || mode).join(' · ')),
+      el('span', '', `${ui.labels.sourceStatus}: ${ui.labels[entry.sourceStatus] || entry.sourceStatus}`)
+    );
+    if (freshness) meta.appendChild(el('span', '', freshness));
+    const summary = el('p', 'cookbook-entry-summary', text(entry.summary, lang));
+
+    const alias = el('p', 'cookbook-entry-aliases');
+    alias.append(el('strong', '', `${ui.labels.aliases}: `), document.createTextNode((entry.aliases || []).join(', ')));
+
+    function listBlock(label, values) {
+      const wrapper = el('div', 'cookbook-entry-block');
+      wrapper.appendChild(el('strong', '', label));
+      const list = el('ul', '');
+      values.forEach(value => list.appendChild(el('li', '', value)));
+      wrapper.appendChild(list);
+      return wrapper;
+    }
+
+    const profile = el('details', 'cookbook-entry-profile');
+    profile.appendChild(el('summary', '', ui.labels.profile));
+    if (playbook) {
+      const firstStep = el('p', 'cookbook-profile-step');
+      firstStep.append(el('strong', '', `${ui.labels.firstStep}: `), document.createTextNode(text(playbook.firstStep, lang)));
+      profile.appendChild(firstStep);
+      profile.appendChild(listBlock(ui.labels.questions, playbook.questions?.[lang] || []));
+    }
+
+    const links = el('p', 'achievement-links');
+    links.appendChild(el('strong', '', `${ui.labels.sources}: `));
+    entry.links.forEach((link, index) => {
+      if (index > 0) links.appendChild(document.createTextNode(' · '));
+      const anchor = document.createElement('a');
+      anchor.href = link.url;
+      anchor.textContent = link.label;
+      links.appendChild(anchor);
+    });
+
+    if (entry.detailPath) {
+      links.appendChild(document.createTextNode(' · '));
+      const detailsLink = document.createElement('a');
+      detailsLink.href = entry.detailPath;
+      detailsLink.textContent = ui.labels.details;
+      links.appendChild(detailsLink);
+    }
+
+    article.append(
+      heading,
+      meta,
+      summary,
+      alias,
+      listBlock(ui.labels.bestFor, entry.bestFor?.[lang] || []),
+      listBlock(ui.labels.watch, entry.watch?.[lang] || []),
+      profile,
+      links
+    );
+    return article;
+  }
+
+  function titleForEntry(data, entryId) {
+    return data.entries.find(entry => entry.id === entryId)?.title || entryId;
+  }
+
+  function renderRecipes(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const list = document.getElementById('recipes-list');
+    list.replaceChildren();
+    data.recipes.forEach(recipe => {
+      const article = el('article', 'cookbook-recipe');
+      article.id = recipe.id;
+      article.appendChild(el('h3', '', text(recipe.title, lang)));
+      article.appendChild(el('p', '', text(recipe.goal, lang)));
+
+      const tools = el('p', 'cookbook-recipe-tools');
+      tools.appendChild(el('strong', '', `${ui.labels.tools}: `));
+      recipe.tools.forEach((toolId, index) => {
+        if (index > 0) tools.appendChild(document.createTextNode(' · '));
+        const link = document.createElement('a');
+        link.href = `#${toolId}`;
+        link.textContent = titleForEntry(data, toolId);
+        tools.appendChild(link);
+      });
+
+      article.append(
+        tools,
+        listBlockForRecipe(ui.labels.steps, recipe.steps?.[lang] || []),
+        listBlockForRecipe(ui.labels.checks, recipe.checks?.[lang] || [])
+      );
+      list.appendChild(article);
+    });
+  }
+
+  function listBlockForRecipe(label, values) {
+    const wrapper = el('div', 'cookbook-entry-block');
+    wrapper.appendChild(el('strong', '', label));
+    const list = el('ul', '');
+    values.forEach(value => list.appendChild(el('li', '', value)));
+    wrapper.appendChild(list);
+    return wrapper;
+  }
+
+  function renderMatrix(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const table = document.getElementById('comparison-matrix');
+    table.replaceChildren();
+
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    headerRow.appendChild(el('th', '', ui.labels.tool));
+    data.matrix.columns.forEach(column => headerRow.appendChild(el('th', '', text(column.title, lang))));
+    thead.appendChild(headerRow);
+
+    const tbody = document.createElement('tbody');
+    data.matrix.rows.forEach(row => {
+      const entry = data.entries.find(item => item.id === row.entry);
+      const tr = document.createElement('tr');
+      const name = document.createElement('th');
+      const link = document.createElement('a');
+      link.href = `#${row.entry}`;
+      link.textContent = entry?.title || row.entry;
+      name.appendChild(link);
+      tr.appendChild(name);
+      data.matrix.columns.forEach(column => {
+        tr.appendChild(el('td', '', text(row.values[column.id], lang)));
+      });
+      tbody.appendChild(tr);
+    });
+
+    table.append(thead, tbody);
+  }
+
+  function renderFreshnessPolicy(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const policy = document.getElementById('freshness-policy');
+    policy.replaceChildren();
+    const statusGrid = el('div', 'cookbook-freshness-statuses');
+    data.freshnessPolicy.statuses.forEach(status => {
+      const item = el('article', 'cookbook-freshness-item');
+      item.appendChild(el('h3', '', text(status.title, lang)));
+      item.appendChild(el('p', '', text(status.description, lang)));
+      statusGrid.appendChild(item);
+    });
+    policy.appendChild(statusGrid);
+    policy.appendChild(listBlockForRecipe(ui.labels.policyRules, data.freshnessPolicy.rules?.[lang] || []));
+  }
+
+  function renderRankings(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const rankings = document.getElementById('rankings-list');
+    rankings.replaceChildren();
+    data.rankings.forEach(ranking => {
+      const article = el('article', 'cookbook-ranking');
+      article.id = `ranking-${ranking.id}`;
+      article.appendChild(el('h3', '', text(ranking.title, lang)));
+      const scenario = el('p', '');
+      scenario.append(el('strong', '', `${ui.labels.scenario}: `), document.createTextNode(text(ranking.scenario, lang)));
+      article.appendChild(scenario);
+      const criteria = el('p', 'cookbook-ranking-criteria');
+      criteria.append(el('strong', '', `${ui.labels.criteria}: `), document.createTextNode((ranking.criteria?.[lang] || []).join(' · ')));
+      article.appendChild(criteria);
+
+      const tableWrap = el('div', 'cookbook-table-wrap');
+      const table = el('table', 'cookbook-ranking-table');
+      const thead = document.createElement('thead');
+      const headRow = document.createElement('tr');
+      [ui.labels.tool, ui.labels.score, ui.labels.evidence].forEach(label => headRow.appendChild(el('th', '', label)));
+      thead.appendChild(headRow);
+      const tbody = document.createElement('tbody');
+      ranking.items.forEach(item => {
+        const entry = data.entries.find(candidate => candidate.id === item.entry);
+        const row = document.createElement('tr');
+        const tool = document.createElement('th');
+        const link = document.createElement('a');
+        link.href = entry?.detailPath || `#${item.entry}`;
+        link.textContent = entry?.title || item.entry;
+        tool.appendChild(link);
+        row.appendChild(tool);
+        row.appendChild(el('td', '', `${item.score}/5`));
+        row.appendChild(el('td', '', text(item.evidence, lang)));
+        tbody.appendChild(row);
+      });
+      table.append(thead, tbody);
+      tableWrap.appendChild(table);
+      article.appendChild(tableWrap);
+
+      const sources = el('p', 'achievement-links');
+      sources.appendChild(el('strong', '', `${ui.labels.sources}: `));
+      ranking.sources.forEach((source, index) => {
+        if (index > 0) sources.appendChild(document.createTextNode(' · '));
+        const anchor = document.createElement('a');
+        anchor.href = source.url;
+        anchor.textContent = source.label;
+        sources.appendChild(anchor);
+      });
+      article.appendChild(sources);
+      rankings.appendChild(article);
+    });
+  }
+
+  function renderMethodology(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const methodology = document.getElementById('methodology-list');
+    methodology.replaceChildren();
+
+    const rubric = el('article', 'cookbook-methodology-block');
+    rubric.appendChild(el('h3', '', ui.labels.rubric));
+    const rubricList = el('dl', 'cookbook-methodology-rubric');
+    data.methodology.rubric.forEach(item => {
+      rubricList.appendChild(el('dt', '', text(item.title, lang)));
+      rubricList.appendChild(el('dd', '', text(item.description, lang)));
+    });
+    rubric.appendChild(rubricList);
+
+    const rules = el('article', 'cookbook-methodology-block');
+    rules.appendChild(listBlockForRecipe(ui.labels.evidence, data.methodology.evidenceRules?.[lang] || []));
+
+    const cadence = el('article', 'cookbook-methodology-block');
+    cadence.appendChild(el('h3', '', ui.labels.cadence));
+    const cadenceList = el('ul', '');
+    data.methodology.reviewCadence.forEach(item => {
+      const li = el('li', '');
+      li.append(el('strong', '', text(item.scope, lang)), document.createTextNode(' — ' + text(item.rule, lang)));
+      cadenceList.appendChild(li);
+    });
+    cadence.appendChild(cadenceList);
+
+    methodology.append(rubric, rules, cadence);
+  }
+
+  function renderCatalog(data, lang) {
+    const ui = UI[lang] || UI.en;
+    const filtered = data.entries.filter(entry => entryMatches(entry, lang));
+    const list = document.getElementById('catalog-list');
+    list.replaceChildren();
+    document.getElementById('result-count').textContent = ui.result(filtered.length);
+    if (!filtered.length) {
+      list.appendChild(el('p', 'cookbook-empty', ui.noResults));
+      return;
+    }
+    filtered
+      .sort((a, b) => a.title.localeCompare(b.title))
+      .forEach(entry => list.appendChild(renderEntry(entry, data, lang)));
+  }
+
+  function renderRoadmap(data, lang) {
+    const list = document.getElementById('roadmap-list');
+    list.replaceChildren();
+    data.roadmap.forEach(item => {
+      const li = el('li', '');
+      li.append(el('strong', '', text(item.title, lang)), document.createTextNode(' — ' + text(item.description, lang)));
+      list.appendChild(li);
+    });
+  }
+
+  function render(data, lang) {
+    applyStaticText(lang);
+    renderCategoryTabs(data, lang);
+    renderMap(data, lang);
+    renderRecipes(data, lang);
+    renderMatrix(data, lang);
+    renderFreshnessPolicy(data, lang);
+    renderRankings(data, lang);
+    renderMethodology(data, lang);
+    renderCatalog(data, lang);
+    renderRoadmap(data, lang);
+  }
+
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      let lang = getLang();
+      const select = document.getElementById('lang-select');
+      const mode = document.getElementById('mode-filter');
+      const search = document.getElementById('catalog-search');
+      select.value = lang;
+      mode.value = state.mode;
+      render(data, lang);
+
+      select.addEventListener('change', () => {
+        lang = select.value;
+        localStorage.setItem('lang', lang);
+        const url = new URL(window.location);
+        url.searchParams.set('lang', lang);
+        history.replaceState(null, '', url);
+        render(data, lang);
+      });
+
+      mode.addEventListener('change', () => {
+        state.mode = mode.value;
+        render(data, lang);
+      });
+
+      search.addEventListener('input', () => {
+        state.query = search.value;
+        renderCatalog(data, lang);
+      });
+    });
+
+  (function() {
+    const body = document.body;
+    const saved = localStorage.getItem('theme');
+    if (saved) { body.className = saved; }
+    (function(){ var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = body.classList.contains('dark-theme') ? '#1a1a1a' : '#ffffff'; })();
+    const btn = document.querySelector('.theme-button');
+    if (btn) btn.onclick = function() {
+      const dark = body.classList.contains('dark-theme');
+      body.classList.toggle('light-theme', dark);
+      body.classList.toggle('dark-theme', !dark);
+      localStorage.setItem('theme', body.className);
+      var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = !dark ? '#1a1a1a' : '#ffffff';
+    };
+  })();
+  </script>
+</body>
+</html>

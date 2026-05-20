@@ -1,0 +1,1825 @@
+{
+  "updated": "2026-05-20",
+  "categories": [
+    {
+      "id": "models",
+      "title": {
+        "ru": "Модели и API",
+        "en": "Models and APIs"
+      },
+      "description": {
+        "ru": "Провайдеры, маршрутизаторы и семейства моделей: где запускать интеллект и как сравнивать доступ.",
+        "en": "Providers, routers, and model families: where intelligence runs and how access differs."
+      }
+    },
+    {
+      "id": "local-runtimes",
+      "title": {
+        "ru": "Локальный запуск",
+        "en": "Local runtimes"
+      },
+      "description": {
+        "ru": "Инструменты для запуска open-weight моделей на ноутбуке, рабочей станции или сервере.",
+        "en": "Tools for running open-weight models on laptops, workstations, and servers."
+      }
+    },
+    {
+      "id": "frameworks",
+      "title": {
+        "ru": "Фреймворки и оркестрация",
+        "en": "Frameworks and orchestration"
+      },
+      "description": {
+        "ru": "Кодовые фреймворки для RAG, workflow, tool use, multi-agent систем и production-контроля.",
+        "en": "Code frameworks for RAG, workflows, tool use, multi-agent systems, and production control."
+      }
+    },
+    {
+      "id": "personal-agents",
+      "title": {
+        "ru": "Персональные агенты",
+        "en": "Personal agents"
+      },
+      "description": {
+        "ru": "Ассистенты, которые живут рядом с пользователем: чат, память, каналы связи и автоматизация.",
+        "en": "Assistants that live close to the user: chat, memory, channels, and automation."
+      }
+    },
+    {
+      "id": "coding-agents",
+      "title": {
+        "ru": "IDE и CLI для кода",
+        "en": "IDE and CLI coding agents"
+      },
+      "description": {
+        "ru": "Инструменты, которые читают репозиторий, меняют файлы, запускают команды и помогают с PR.",
+        "en": "Tools that read repositories, edit files, run commands, and help with pull requests."
+      }
+    },
+    {
+      "id": "evals",
+      "title": {
+        "ru": "Harnesses и evals",
+        "en": "Harnesses and evals"
+      },
+      "description": {
+        "ru": "Бенчмарки, тестовые harnesses и практики измерения качества моделей, агентов и tool use.",
+        "en": "Benchmarks, test harnesses, and practices for measuring models, agents, and tool use."
+      }
+    },
+    {
+      "id": "protocols",
+      "title": {
+        "ru": "Протоколы и наблюдаемость",
+        "en": "Protocols and observability"
+      },
+      "description": {
+        "ru": "Стандарты подключения инструментов, трассировки, контекстные протоколы и runtime-контроль.",
+        "en": "Tool-connection standards, tracing, context protocols, and runtime control."
+      }
+    }
+  ],
+  "categoryPlaybooks": {
+    "models": {
+      "firstStep": {
+        "ru": "Выберите один реальный сценарий, соберите 30-50 примеров запросов и сравните 2-3 модели на одинаковом prompt/eval наборе.",
+        "en": "Pick one real scenario, collect 30-50 prompts, and compare 2-3 models on the same prompt and eval set."
+      },
+      "questions": {
+        "ru": ["Какие данные можно отправлять провайдеру?", "Нужны ли tool calls, vision, audio или длинный контекст?", "Какой budget limit остановит ошибочный агентский цикл?"],
+        "en": ["What data may be sent to the provider?", "Do you need tool calls, vision, audio, or long context?", "What budget limit stops a bad agent loop?"]
+      }
+    },
+    "local-runtimes": {
+      "firstStep": {
+        "ru": "Запустите одну small/medium instruct модель локально и зафиксируйте tokens/sec, memory use, качество на 10 ваших задачах и формат prompt template.",
+        "en": "Run one small or medium instruct model locally and record tokens/sec, memory use, quality on 10 own tasks, and prompt-template format."
+      },
+      "questions": {
+        "ru": ["Локальность нужна ради privacy, latency или стоимости?", "Какие веса и лицензии подходят продукту?", "Как будет обновляться и проверяться модель?"],
+        "en": ["Is locality for privacy, latency, or cost?", "Which weights and licenses fit the product?", "How will the model be updated and checked?"]
+      }
+    },
+    "frameworks": {
+      "firstStep": {
+        "ru": "Нарисуйте state machine задачи до кода: входы, tools, checkpoints, human approval, retries и критерий остановки.",
+        "en": "Draw the task state machine before coding: inputs, tools, checkpoints, human approval, retries, and stop condition."
+      },
+      "questions": {
+        "ru": ["Что должно быть детерминированным кодом, а что LLM-решением?", "Где хранится state и кто может его менять?", "Как воспроизводить неудачный run?"],
+        "en": ["What must be deterministic code versus LLM choice?", "Where is state stored and who can mutate it?", "How do you reproduce a failed run?"]
+      }
+    },
+    "personal-agents": {
+      "firstStep": {
+        "ru": "Ограничьте агента одной безопасной рутиной: один канал, один tool set, один approval boundary и понятный журнал действий.",
+        "en": "Constrain the agent to one safe routine: one channel, one tool set, one approval boundary, and a clear action log."
+      },
+      "questions": {
+        "ru": ["Какие действия требуют подтверждения человеком?", "Как агент забывает или исправляет память?", "Что происходит при prompt injection из внешнего канала?"],
+        "en": ["Which actions require human confirmation?", "How does the agent forget or correct memory?", "What happens under prompt injection from an external channel?"]
+      }
+    },
+    "coding-agents": {
+      "firstStep": {
+        "ru": "Дайте агенту маленькую issue с тестом, разрешите только repo-local команды и проверьте diff как обычный PR.",
+        "en": "Give the agent a small issue with a test, allow only repo-local commands, and review the diff like a normal PR."
+      },
+      "questions": {
+        "ru": ["Может ли агент запускать shell, браузер и сеть?", "Кто владеет branch/commit/PR?", "Какие тесты являются обязательным gate?"],
+        "en": ["May the agent run shell, browser, and network?", "Who owns branch, commit, and PR?", "Which tests are the required gate?"]
+      }
+    },
+    "evals": {
+      "firstStep": {
+        "ru": "Соберите минимальный regression set из успешных и провальных примеров, затем прогоняйте его при каждой смене модели, prompt или tool schema.",
+        "en": "Build a minimal regression set from successful and failed examples, then run it on every model, prompt, or tool-schema change."
+      },
+      "questions": {
+        "ru": ["Что считается правильным ответом и кто это подтверждает?", "Где нужна human grading, а где можно assertion?", "Как отделить model failure от harness failure?"],
+        "en": ["What counts as the right answer and who validates it?", "Where is human grading needed versus assertions?", "How do you separate model failure from harness failure?"]
+      }
+    },
+    "protocols": {
+      "firstStep": {
+        "ru": "Опишите trust boundary: какие tools доступны, какие данные читаются, что логируется и какие secrets никогда не попадают в prompt.",
+        "en": "Describe the trust boundary: available tools, readable data, logged data, and secrets that must never enter prompts."
+      },
+      "questions": {
+        "ru": ["Как выдаются и отзываются permissions?", "Где маскируются PII и secrets?", "Можно ли replay/debug run без раскрытия приватных данных?"],
+        "en": ["How are permissions granted and revoked?", "Where are PII and secrets masked?", "Can a run be replayed or debugged without exposing private data?"]
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": "openai-api",
+      "category": "models",
+      "title": "OpenAI API",
+      "aliases": ["Responses API", "ChatGPT", "Codex"],
+      "modes": ["remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Платформа моделей и инструментов OpenAI для чата, reasoning, multimodal, tool use, evals и агентских приложений.",
+        "en": "OpenAI's platform for chat, reasoning, multimodal work, tool use, evals, and agentic applications."
+      },
+      "bestFor": {
+        "ru": ["production API", "агенты с tool use", "кодинг и reasoning", "готовые evals"],
+        "en": ["production APIs", "tool-using agents", "coding and reasoning", "managed evals"]
+      },
+      "watch": {
+        "ru": ["быстро меняющиеся модели и цены", "разные поверхности: API, ChatGPT, Codex, SDK"],
+        "en": ["fast-changing models and pricing", "separate surfaces: API, ChatGPT, Codex, SDKs"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://platform.openai.com/docs" },
+        { "label": "Agents SDK", "url": "https://platform.openai.com/docs/guides/agents-sdk/" },
+        { "label": "Evals", "url": "https://github.com/openai/evals" }
+      ]
+    },
+    {
+      "id": "anthropic-claude",
+      "category": "models",
+      "title": "Anthropic Claude",
+      "aliases": ["Claude API", "Claude Code"],
+      "modes": ["remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Семейство Claude и developer-инструменты Anthropic, особенно заметные в длинном контексте, письме, coding-agent workflows и MCP.",
+        "en": "Anthropic's Claude models and developer tools, prominent for long context, writing, coding-agent workflows, and MCP."
+      },
+      "bestFor": {
+        "ru": ["длинные документы", "кодинг", "чат-ассистенты", "MCP-экосистема"],
+        "en": ["long documents", "coding", "chat assistants", "MCP ecosystem"]
+      },
+      "watch": {
+        "ru": ["лимиты продукта и API различаются", "Claude Code меняется отдельно от моделей"],
+        "en": ["product and API limits differ", "Claude Code evolves separately from the models"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.anthropic.com/" },
+        { "label": "Claude Code", "url": "https://docs.anthropic.com/en/docs/claude-code/overview" },
+        { "label": "MCP", "url": "https://modelcontextprotocol.io/" }
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "category": "models",
+      "title": "Google Gemini",
+      "aliases": ["Vertex AI", "AI Studio"],
+      "modes": ["remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Модели Google для Gemini API, AI Studio и Vertex AI, тесно связанные с ADK, Google Cloud и мультимодальными сценариями.",
+        "en": "Google models served through Gemini API, AI Studio, and Vertex AI, closely tied to ADK, Google Cloud, and multimodal use cases."
+      },
+      "bestFor": {
+        "ru": ["Google Cloud stack", "мультимодальность", "длинный контекст", "ADK agents"],
+        "en": ["Google Cloud stack", "multimodality", "long context", "ADK agents"]
+      },
+      "watch": {
+        "ru": ["разные квоты в AI Studio и Vertex AI", "часть agent tooling живет в Google Cloud"],
+        "en": ["AI Studio and Vertex AI quotas differ", "some agent tooling is Google Cloud-native"]
+      },
+      "links": [
+        { "label": "Gemini API", "url": "https://ai.google.dev/gemini-api/docs" },
+        { "label": "Vertex AI", "url": "https://cloud.google.com/vertex-ai/generative-ai/docs" },
+        { "label": "ADK", "url": "https://adk.dev/" }
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "category": "models",
+      "title": "Mistral AI",
+      "aliases": ["La Plateforme", "Mixtral"],
+      "modes": ["remote", "local"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Провайдер API и open-weight моделей с сильной европейской экосистемой, function calling и self-hosting вариантами.",
+        "en": "A provider of API and open-weight models with a strong European ecosystem, function calling, and self-hosting options."
+      },
+      "bestFor": {
+        "ru": ["европейский провайдер", "open-weight deployment", "мультиязычные задачи"],
+        "en": ["European provider choice", "open-weight deployment", "multilingual work"]
+      },
+      "watch": {
+        "ru": ["лицензии open-weight моделей отличаются", "не путать API-модели и веса для локального запуска"],
+        "en": ["open-weight licenses vary", "do not conflate API models with local weights"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.mistral.ai/" },
+        { "label": "La Plateforme", "url": "https://console.mistral.ai/" }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "category": "models",
+      "title": "OpenRouter",
+      "aliases": ["model router"],
+      "modes": ["remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Маршрутизатор к множеству моделей через OpenAI-compatible API: удобен для сравнения провайдеров и fallback-стратегий.",
+        "en": "A router to many models through an OpenAI-compatible API, useful for provider comparisons and fallback strategies."
+      },
+      "bestFor": {
+        "ru": ["быстрое сравнение моделей", "fallback между провайдерами", "прототипы"],
+        "en": ["fast model comparison", "provider fallback", "prototypes"]
+      },
+      "watch": {
+        "ru": ["маршрутизация добавляет слой доверия и биллинга", "поведение зависит от конкретного upstream-провайдера"],
+        "en": ["routing adds a trust and billing layer", "behavior depends on the upstream provider"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://openrouter.ai/docs" },
+        { "label": "Models", "url": "https://openrouter.ai/models" }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "category": "models",
+      "title": "Hugging Face",
+      "aliases": ["Hub", "Inference Providers"],
+      "modes": ["remote", "local"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Главный публичный каталог моделей, датасетов и demos; одновременно источник весов для локального запуска и hosted inference.",
+        "en": "The primary public catalog for models, datasets, and demos; both a source of local weights and hosted inference."
+      },
+      "bestFor": {
+        "ru": ["поиск open-weight моделей", "datasets", "Spaces demos", "inference endpoints"],
+        "en": ["finding open-weight models", "datasets", "Spaces demos", "inference endpoints"]
+      },
+      "watch": {
+        "ru": ["качество карточек моделей неравномерно", "лицензии и prompt templates нужно проверять отдельно"],
+        "en": ["model-card quality varies", "licenses and prompt templates need separate checks"]
+      },
+      "links": [
+        { "label": "Hub", "url": "https://huggingface.co/models" },
+        { "label": "Docs", "url": "https://huggingface.co/docs" },
+        { "label": "Inference Providers", "url": "https://huggingface.co/docs/inference-providers" }
+      ]
+    },
+    {
+      "id": "ollama",
+      "category": "local-runtimes",
+      "title": "Ollama",
+      "aliases": ["local model runner"],
+      "modes": ["local"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/ollama/",
+      "details": {
+        "history": {
+          "ru": ["Ollama стал массовым entrypoint для локального запуска open-weight моделей через простой CLI и локальный API.", "К 2026 году документация уже разделяет локальный runner и cloud models на ollama.com, поэтому в справочнике важно не смешивать privacy/locality claims."],
+          "en": ["Ollama became a mainstream entrypoint for local open-weight model use through a simple CLI and local API.", "By 2026 the docs distinguish the local runner from cloud models on ollama.com, so the cookbook should not conflate privacy/locality claims."]
+        },
+        "architecture": {
+          "ru": ["Локальный daemon и CLI вокруг model library.", "Удобный API-слой для интеграции с IDE, RAG tools и прототипами.", "Главная граница риска — локальный процесс и модели, скачанные в окружение пользователя."],
+          "en": ["Local daemon and CLI around a model library.", "Convenient API layer for IDE, RAG-tool, and prototype integrations.", "The main risk boundary is the local process and downloaded models in the user's environment."]
+        },
+        "quickstart": {
+          "ru": ["Установить Ollama и скачать одну instruct-модель.", "Проверить latency и качество на 10 собственных задачах.", "Подключить локальный endpoint к одному клиенту, не ко всему tool stack сразу."],
+          "en": ["Install Ollama and download one instruct model.", "Check latency and quality on 10 own tasks.", "Connect the local endpoint to one client, not the whole tool stack at once."]
+        },
+        "failureModes": {
+          "ru": ["Неверный prompt template для конкретной модели.", "Модель слишком мала для задачи, но выглядит убедительно.", "Отсутствие product evals при смене quantization или модели."],
+          "en": ["Wrong prompt template for the specific model.", "The model is too small for the task but sounds convincing.", "No product evals when changing quantization or model."]
+        }
+      },
+      "summary": {
+        "ru": "Простой локальный runner и model library для запуска Llama, Qwen, Gemma, Mistral и других моделей через CLI и локальный API.",
+        "en": "A simple local runner and model library for Llama, Qwen, Gemma, Mistral, and other models through a CLI and local API."
+      },
+      "bestFor": {
+        "ru": ["быстрый старт локально", "прототипы с OpenAI-like API", "интеграции с IDE и RAG tools"],
+        "en": ["fast local setup", "OpenAI-like API prototypes", "IDE and RAG tool integrations"]
+      },
+      "watch": {
+        "ru": ["не production serving по умолчанию", "производительность зависит от backend и железа"],
+        "en": ["not production serving by default", "performance depends on backend and hardware"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.ollama.com/" },
+        { "label": "Models", "url": "https://ollama.com/library" },
+        { "label": "GitHub", "url": "https://github.com/ollama/ollama" }
+      ]
+    },
+    {
+      "id": "lm-studio",
+      "category": "local-runtimes",
+      "title": "LM Studio",
+      "aliases": ["local desktop LLM"],
+      "modes": ["local"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Десктопное приложение для поиска, скачивания, чата и локального serving open-weight моделей через OpenAI-compatible endpoints.",
+        "en": "A desktop app for discovering, downloading, chatting with, and locally serving open-weight models through OpenAI-compatible endpoints."
+      },
+      "bestFor": {
+        "ru": ["визуальный локальный workflow", "подбор GGUF/MLX моделей", "локальный OpenAI-like сервер"],
+        "en": ["visual local workflow", "choosing GGUF/MLX models", "local OpenAI-like server"]
+      },
+      "watch": {
+        "ru": ["GUI скрывает часть runtime-деталей", "автоматический выбор модели не заменяет eval"],
+        "en": ["the GUI hides some runtime details", "automatic model choice does not replace evals"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://lmstudio.ai/docs" },
+        { "label": "Offline operation", "url": "https://lmstudio.ai/docs/app/offline" }
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "category": "local-runtimes",
+      "title": "llama.cpp",
+      "aliases": ["GGUF", "llama-server"],
+      "modes": ["local"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Низкоуровневый C/C++ runtime для локального inference, GGUF-квантизаций и OpenAI-compatible `llama-server`.",
+        "en": "A low-level C/C++ runtime for local inference, GGUF quantization, and the OpenAI-compatible `llama-server`."
+      },
+      "bestFor": {
+        "ru": ["контроль inference", "CPU/Apple Silicon", "embedded/local-first продукты"],
+        "en": ["inference control", "CPU/Apple Silicon", "embedded and local-first products"]
+      },
+      "watch": {
+        "ru": ["нужна настройка под железо", "качество зависит от квантизации и prompt template"],
+        "en": ["hardware-specific tuning matters", "quality depends on quantization and prompt template"]
+      },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/ggml-org/llama.cpp" },
+        { "label": "Server docs", "url": "https://github.com/ggml-org/llama.cpp/blob/master/examples/server/README.md" }
+      ]
+    },
+    {
+      "id": "vllm",
+      "category": "local-runtimes",
+      "title": "vLLM",
+      "aliases": ["LLM serving"],
+      "modes": ["local", "remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Высокопроизводительный serving engine для LLM с batching, KV-cache оптимизациями и OpenAI-compatible API.",
+        "en": "A high-performance LLM serving engine with batching, KV-cache optimizations, and an OpenAI-compatible API."
+      },
+      "bestFor": {
+        "ru": ["GPU serving", "batch workloads", "self-hosted API", "benchmark throughput"],
+        "en": ["GPU serving", "batch workloads", "self-hosted APIs", "throughput benchmarks"]
+      },
+      "watch": {
+        "ru": ["сложнее локального desktop workflow", "совместимость моделей и quantization нужно проверять"],
+        "en": ["more complex than desktop local workflows", "model and quantization compatibility needs checks"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.vllm.ai/" },
+        { "label": "Website", "url": "https://www.vllm.ai/" },
+        { "label": "GitHub", "url": "https://github.com/vllm-project/vllm" }
+      ]
+    },
+    {
+      "id": "mlx",
+      "category": "local-runtimes",
+      "title": "MLX",
+      "aliases": ["MLX LM", "Apple Silicon"],
+      "modes": ["local"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Apple ML framework и tooling для эффективного запуска и fine-tuning моделей на Apple Silicon.",
+        "en": "Apple's ML framework and tooling for efficient model inference and fine-tuning on Apple Silicon."
+      },
+      "bestFor": {
+        "ru": ["Mac локально", "эксперименты с MLX-community моделями", "Apple Silicon fine-tuning"],
+        "en": ["local Mac work", "MLX-community model experiments", "Apple Silicon fine-tuning"]
+      },
+      "watch": {
+        "ru": ["экосистема уже, чем CUDA stack", "важны форматы и конвертация весов"],
+        "en": ["narrower ecosystem than CUDA", "formats and weight conversion matter"]
+      },
+      "links": [
+        { "label": "MLX docs", "url": "https://ml-explore.github.io/mlx/build/html/index.html" },
+        { "label": "MLX LM", "url": "https://github.com/ml-explore/mlx-lm" }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "category": "frameworks",
+      "title": "LangGraph",
+      "aliases": ["LangChain agents", "graph agents"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/langgraph/",
+      "details": {
+        "history": {
+          "ru": ["LangGraph вырос из LangChain ecosystem как низкоуровневый runtime для stateful agents.", "Его ценность сместилась от prompt chains к durable execution, checkpointing и управляемым human-in-the-loop workflows."],
+          "en": ["LangGraph grew out of the LangChain ecosystem as a low-level runtime for stateful agents.", "Its value shifted from prompt chains toward durable execution, checkpointing, and managed human-in-the-loop workflows."]
+        },
+        "architecture": {
+          "ru": ["Граф состояния, где узлы выполняют LLM calls, deterministic code и tools.", "Checkpointing и durable execution позволяют продолжать долгие runs и разбирать failures.", "Human-in-the-loop лучше проектировать как явные переходы, а не как ad hoc prompt."],
+          "en": ["A state graph where nodes run LLM calls, deterministic code, and tools.", "Checkpointing and durable execution support long-running jobs and failure analysis.", "Human-in-the-loop is best designed as explicit transitions, not ad hoc prompting."]
+        },
+        "quickstart": {
+          "ru": ["Нарисовать state machine до кода.", "Выделить nodes, tools, checkpoint store и stop condition.", "Собрать маленький regression set и смотреть trace на каждом изменении."],
+          "en": ["Draw the state machine before coding.", "Identify nodes, tools, checkpoint store, and stop condition.", "Build a small regression set and inspect traces on every change."]
+        },
+        "failureModes": {
+          "ru": ["Граф превращается в скрытый цикл без budget/stop limits.", "Too much logic отдано LLM вместо deterministic code.", "State schema меняется без migration/replay."],
+          "en": ["The graph becomes a hidden loop without budget or stop limits.", "Too much logic is delegated to the LLM instead of deterministic code.", "State schema changes without migration or replay."]
+        }
+      },
+      "summary": {
+        "ru": "Низкоуровневый runtime для stateful, long-running агентов: графы, checkpointing, human-in-the-loop, memory и durable execution.",
+        "en": "A low-level runtime for stateful, long-running agents: graphs, checkpointing, human-in-the-loop, memory, and durable execution."
+      },
+      "bestFor": {
+        "ru": ["сложные agent workflows", "контроль состояния", "multi-agent orchestration", "production retries"],
+        "en": ["complex agent workflows", "state control", "multi-agent orchestration", "production retries"]
+      },
+      "watch": {
+        "ru": ["требует проектирования графа", "для простого chatbot может быть лишним"],
+        "en": ["requires graph design", "can be heavy for simple chatbots"]
+      },
+      "links": [
+        { "label": "LangGraph", "url": "https://www.langchain.com/langgraph" },
+        { "label": "Docs", "url": "https://langchain-ai.github.io/langgraph/" }
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "category": "frameworks",
+      "title": "LlamaIndex",
+      "aliases": ["RAG framework", "workflows"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/llamaindex/",
+      "details": {
+        "history": {
+          "ru": ["LlamaIndex начинался как data framework для подключения LLM к приватным данным.", "Современная поверхность включает RAG, agents и Workflows, поэтому его лучше рассматривать как data/knowledge layer, а не только vector-search helper."],
+          "en": ["LlamaIndex began as a data framework for connecting LLMs to private data.", "Its current surface includes RAG, agents, and Workflows, so it is better treated as a data/knowledge layer than only a vector-search helper."]
+        },
+        "architecture": {
+          "ru": ["Data framework вокруг ingestion, parsing, indexing, retrieval и agentic workflows.", "Сильная сторона — connecting private data to LLM applications.", "Качество системы часто определяется chunking, retrieval и citation discipline, а не только моделью."],
+          "en": ["A data framework around ingestion, parsing, indexing, retrieval, and agentic workflows.", "Its strength is connecting private data to LLM applications.", "System quality is often determined by chunking, retrieval, and citation discipline, not only the model."]
+        },
+        "quickstart": {
+          "ru": ["Начать с одной папки документов и фиксированного вопросника.", "Проверить citations и поведение при отсутствии ответа.", "Только после стабильного retrieval добавлять agent tools."],
+          "en": ["Start with one document folder and a fixed question set.", "Check citations and behavior when the answer is missing.", "Add agent tools only after retrieval is stable."]
+        },
+        "failureModes": {
+          "ru": ["Красивый ответ без проверяемого источника.", "Переиндексация меняет поведение без явного diff.", "Retriever возвращает похожие, но неправильные фрагменты."],
+          "en": ["A polished answer without a verifiable source.", "Reindexing changes behavior without an explicit diff.", "The retriever returns similar but wrong chunks."]
+        }
+      },
+      "summary": {
+        "ru": "Data framework для RAG и агентов над приватными данными: ingestion, indexing, retrieval, workflows и agent abstractions.",
+        "en": "A data framework for RAG and agents over private data: ingestion, indexing, retrieval, workflows, and agent abstractions."
+      },
+      "bestFor": {
+        "ru": ["RAG над документами", "data connectors", "agentic search", "knowledge workflows"],
+        "en": ["document RAG", "data connectors", "agentic search", "knowledge workflows"]
+      },
+      "watch": {
+        "ru": ["retrieval quality нужно измерять отдельно", "много интеграций с разным уровнем зрелости"],
+        "en": ["retrieval quality must be measured separately", "many integrations have uneven maturity"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.llamaindex.ai/" },
+        { "label": "Agents", "url": "https://docs.llamaindex.ai/en/stable/use_cases/agents/" }
+      ]
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "category": "frameworks",
+      "title": "Microsoft Agent Framework",
+      "aliases": ["MAF", "AutoGen successor", "Semantic Kernel successor"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Open-source SDK Microsoft для AI agents и multi-agent workflows в Python и .NET, объединяющий направление Semantic Kernel и AutoGen.",
+        "en": "Microsoft's open-source SDK for AI agents and multi-agent workflows in Python and .NET, unifying the Semantic Kernel and AutoGen direction."
+      },
+      "bestFor": {
+        "ru": ["enterprise .NET/Python", "Azure/OpenAI stack", "typed workflows", "checkpointing"],
+        "en": ["enterprise .NET/Python", "Azure/OpenAI stack", "typed workflows", "checkpointing"]
+      },
+      "watch": {
+        "ru": ["важно отличать новый Agent Framework от старых материалов AutoGen/SK", "часть API может быть preview"],
+        "en": ["distinguish new Agent Framework from older AutoGen/SK material", "some APIs may be preview"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://learn.microsoft.com/agent-framework/" },
+        { "label": "Overview", "url": "https://learn.microsoft.com/en-gb/agent-framework/overview/agent-framework-overview" },
+        { "label": "GitHub", "url": "https://github.com/microsoft/agent-framework" }
+      ]
+    },
+    {
+      "id": "semantic-kernel",
+      "category": "frameworks",
+      "title": "Semantic Kernel",
+      "aliases": ["SK", "Microsoft SK"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Model-agnostic SDK Microsoft для AI orchestration, plugins, memory и agent patterns; важный исторический и enterprise-слой рядом с Agent Framework.",
+        "en": "Microsoft's model-agnostic SDK for AI orchestration, plugins, memory, and agent patterns; an important historical and enterprise layer alongside Agent Framework."
+      },
+      "bestFor": {
+        "ru": ["Microsoft stack", "plugins/functions", "enterprise integration", ".NET/Python/Java"],
+        "en": ["Microsoft stack", "plugins/functions", "enterprise integration", ".NET/Python/Java"]
+      },
+      "watch": {
+        "ru": ["новые agent материалы могут переезжать в Agent Framework", "документация зависит от языка"],
+        "en": ["new agent material may move into Agent Framework", "documentation differs by language"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://learn.microsoft.com/en-us/semantic-kernel/" },
+        { "label": "Agent Framework docs", "url": "https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/" },
+        { "label": "GitHub", "url": "https://github.com/microsoft/semantic-kernel" }
+      ]
+    },
+    {
+      "id": "crewai",
+      "category": "frameworks",
+      "title": "CrewAI",
+      "aliases": ["Crews", "Flows"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Python framework для команд агентов и workflow: CrewAI Crews описывают роли и задачи, Flows дают structured/event-driven контроль.",
+        "en": "A Python framework for agent teams and workflows: Crews define roles and tasks, while Flows provide structured event-driven control."
+      },
+      "bestFor": {
+        "ru": ["быстрый multi-agent prototype", "role-based agents", "workflow automation"],
+        "en": ["fast multi-agent prototypes", "role-based agents", "workflow automation"]
+      },
+      "watch": {
+        "ru": ["role-play agents легко переоценить", "production требует evals, tracing и ограничений"],
+        "en": ["role-play agents are easy to overestimate", "production needs evals, tracing, and constraints"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.crewai.com/en/introduction" },
+        { "label": "Website", "url": "https://www.crewai.dev/" },
+        { "label": "GitHub", "url": "https://github.com/crewAIInc/crewAI" }
+      ]
+    },
+    {
+      "id": "autogen",
+      "category": "frameworks",
+      "title": "AutoGen",
+      "aliases": ["Microsoft AutoGen"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Исследовательский и developer framework Microsoft для multi-agent conversation patterns; новым пользователям стоит сравнивать с Microsoft Agent Framework.",
+        "en": "Microsoft's research and developer framework for multi-agent conversation patterns; new users should compare it with Microsoft Agent Framework."
+      },
+      "bestFor": {
+        "ru": ["исследование multi-agent dialogue", "старые AutoGen примеры", "AutoGen Studio"],
+        "en": ["multi-agent dialogue research", "older AutoGen examples", "AutoGen Studio"]
+      },
+      "watch": {
+        "ru": ["часть актуального направления Microsoft смещена в Agent Framework", "много материалов относится к старым версиям"],
+        "en": ["some current Microsoft direction moved to Agent Framework", "many guides target older versions"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://microsoft.github.io/autogen/" },
+        { "label": "GitHub", "url": "https://github.com/microsoft/autogen" },
+        { "label": "Agent Framework", "url": "https://learn.microsoft.com/agent-framework/" }
+      ]
+    },
+    {
+      "id": "openai-agents-sdk",
+      "category": "frameworks",
+      "title": "OpenAI Agents SDK",
+      "aliases": ["Agents SDK", "Runner", "handoffs"],
+      "modes": ["remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "SDK OpenAI для agents, tools, guardrails, handoffs, sessions и tracing поверх OpenAI model stack.",
+        "en": "OpenAI's SDK for agents, tools, guardrails, handoffs, sessions, and tracing on top of the OpenAI model stack."
+      },
+      "bestFor": {
+        "ru": ["OpenAI-native agents", "handoffs", "guardrails", "tracing"],
+        "en": ["OpenAI-native agents", "handoffs", "guardrails", "tracing"]
+      },
+      "watch": {
+        "ru": ["сильно завязан на OpenAI-поверхности", "Python и JS SDK имеют отдельные docs"],
+        "en": ["closely tied to OpenAI surfaces", "Python and JS SDKs have separate docs"]
+      },
+      "links": [
+        { "label": "Guide", "url": "https://platform.openai.com/docs/guides/agents-sdk/" },
+        { "label": "Python docs", "url": "https://openai.github.io/openai-agents-python/" },
+        { "label": "JS docs", "url": "https://openai.github.io/openai-agents-js/" }
+      ]
+    },
+    {
+      "id": "google-adk",
+      "category": "frameworks",
+      "title": "Google Agent Development Kit",
+      "aliases": ["ADK", "google-adk"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Google framework для разработки и deployment агентов, оптимизированный под Gemini и Google ecosystem, но заявленный как model-agnostic.",
+        "en": "Google's framework for developing and deploying agents, optimized for Gemini and the Google ecosystem while presented as model-agnostic."
+      },
+      "bestFor": {
+        "ru": ["Gemini agents", "Google Cloud deployment", "agent lifecycle", "local dev server"],
+        "en": ["Gemini agents", "Google Cloud deployment", "agent lifecycle", "local dev server"]
+      },
+      "watch": {
+        "ru": ["часть преимуществ раскрывается в Google Cloud", "быстро меняющаяся документация"],
+        "en": ["some benefits show up in Google Cloud", "documentation changes quickly"]
+      },
+      "links": [
+        { "label": "ADK", "url": "https://adk.dev/" },
+        { "label": "Docs", "url": "https://google.github.io/adk-docs/" }
+      ]
+    },
+    {
+      "id": "dspy",
+      "category": "frameworks",
+      "title": "DSPy",
+      "aliases": ["prompt optimization", "declarative LM programs"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Declarative framework для LM programs: вместо ручного prompt tweaking описывает модули, signatures и оптимизирует prompts/weights по метрике.",
+        "en": "A declarative framework for LM programs: instead of manual prompt tweaking, it defines modules and signatures, then optimizes prompts or weights against a metric."
+      },
+      "bestFor": {
+        "ru": ["systematic prompt optimization", "RAG pipelines", "metric-driven development"],
+        "en": ["systematic prompt optimization", "RAG pipelines", "metric-driven development"]
+      },
+      "watch": {
+        "ru": ["нужна хорошая метрика и dev set", "не заменяет product evals"],
+        "en": ["needs a good metric and dev set", "does not replace product evals"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://dspy.ai/" },
+        { "label": "GitHub", "url": "https://github.com/stanfordnlp/dspy" }
+      ]
+    },
+    {
+      "id": "hermes-agent",
+      "category": "personal-agents",
+      "title": "Hermes Agent",
+      "aliases": ["NousResearch/hermes-agent", "Hermes"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Self-hosted агент Nous Research с CLI, gateway, memory, skills, MCP, cron scheduling и каналами вроде Telegram/Discord/Slack.",
+        "en": "Nous Research's self-hosted agent with CLI, gateway, memory, skills, MCP, cron scheduling, and channels such as Telegram, Discord, and Slack."
+      },
+      "bestFor": {
+        "ru": ["персональная автоматизация", "долгоживущая память", "skills", "multi-channel assistant"],
+        "en": ["personal automation", "long-lived memory", "skills", "multi-channel assistant"]
+      },
+      "watch": {
+        "ru": ["широкий доступ к локальной системе требует sandbox/approval", "быстро меняющийся проект"],
+        "en": ["broad local-system access needs sandboxing and approvals", "fast-moving project"]
+      },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/NousResearch/hermes-agent" },
+        { "label": "Docs", "url": "https://hermes-agent.nousresearch.com/docs" },
+        { "label": "Nous Research", "url": "https://nousresearch.com/" }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "category": "personal-agents",
+      "title": "OpenClaw",
+      "aliases": ["personal agent OS", "Clawdbot", "Moltbot"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "watchlist",
+      "summary": {
+        "ru": "Local-first personal-agent направление вокруг самостоятельного выполнения задач через каналы, skills и интеграции; держать в справочнике как быстро меняющийся объект.",
+        "en": "A local-first personal-agent direction around task execution through channels, skills, and integrations; track it as a fast-moving object."
+      },
+      "bestFor": {
+        "ru": ["карта personal-agent OS", "сравнение с Hermes/CrewAI/OpenHands", "обсуждение security model"],
+        "en": ["personal-agent OS mapping", "comparison with Hermes/CrewAI/OpenHands", "security-model discussion"]
+      },
+      "watch": {
+        "ru": ["источники и форки нужно верифицировать вручную", "локальный доступ агента к аккаунтам и файлам повышает риск"],
+        "en": ["sources and forks need manual verification", "local agent access to accounts and files raises risk"]
+      },
+      "links": [
+        { "label": "Website", "url": "https://openclaw.ai/" },
+        { "label": "Docs", "url": "https://openclawdoc.com/" }
+      ]
+    },
+    {
+      "id": "pi",
+      "category": "personal-agents",
+      "title": "Pi",
+      "aliases": ["Inflection Pi", "Personal Intelligence"],
+      "modes": ["remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Разговорный personal AI от Inflection AI с акцентом на голос, спокойный диалог, объяснения и поддержку решений, а не автономное выполнение действий.",
+        "en": "Inflection AI's conversational personal AI focused on voice, calm dialogue, explanations, and decision support rather than autonomous action."
+      },
+      "bestFor": {
+        "ru": ["сравнение companion UX", "voice-first assistant", "эмпатичный диалог"],
+        "en": ["companion UX comparison", "voice-first assistant", "empathetic dialogue"]
+      },
+      "watch": {
+        "ru": ["это скорее conversational assistant, чем agent harness", "статус продукта и лимиты нужно проверять"],
+        "en": ["more conversational assistant than agent harness", "product status and limits need checking"]
+      },
+      "links": [
+        { "label": "Pi", "url": "https://hey.pi.ai/" },
+        { "label": "Inflection launch", "url": "https://www.businesswire.com/news/home/20230502006113/en/Inflection-AI-Introduces-Pi-Your-Personal-AI" }
+      ]
+    },
+    {
+      "id": "openhands",
+      "category": "coding-agents",
+      "title": "OpenHands",
+      "aliases": ["OpenDevin", "software agent platform"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/openhands/",
+      "details": {
+        "history": {
+          "ru": ["OpenHands вырос из проекта OpenDevin и стал open platform для AI software developers as generalist agents.", "К 2026 году важная часть story — runtimes: Docker sandbox, process или remote execution, а не только чат с кодом."],
+          "en": ["OpenHands grew from the OpenDevin project into an open platform for AI software developers as generalist agents.", "By 2026 a core part of the story is runtimes: Docker sandbox, process, or remote execution, not only chat over code."]
+        },
+        "architecture": {
+          "ru": ["Software-agent platform с sandbox, web UI и модельно-независимым agent loop.", "Полезен для исследования автономных coding workflows и SWE-bench style задач.", "Security boundary должен быть sandbox, а не доверие к модели."],
+          "en": ["A software-agent platform with sandbox, web UI, and model-agnostic agent loop.", "Useful for autonomous coding workflow research and SWE-bench style tasks.", "The security boundary should be the sandbox, not trust in the model."]
+        },
+        "quickstart": {
+          "ru": ["Запустить на небольшом repo с уже существующими тестами.", "Ограничить filesystem/network capabilities.", "Сравнить результат с ручным PR review, а не только с финальным сообщением агента."],
+          "en": ["Run it on a small repo with existing tests.", "Constrain filesystem and network capabilities.", "Compare the result through manual PR review, not only the agent's final message."]
+        },
+        "failureModes": {
+          "ru": ["Агент чинит симптом и ломает соседнее поведение.", "Sandbox слишком широк и превращается в локальный security risk.", "Run считается успешным без независимого теста."],
+          "en": ["The agent fixes a symptom and breaks adjacent behavior.", "The sandbox is too broad and becomes a local security risk.", "A run is treated as successful without an independent test."]
+        }
+      },
+      "summary": {
+        "ru": "Open-source платформа для autonomous software agents: sandbox, web UI, CLI/SDK и модельно-независимый подход к software engineering задачам.",
+        "en": "An open-source platform for autonomous software agents: sandbox, web UI, CLI/SDK, and a model-agnostic approach to software engineering tasks."
+      },
+      "bestFor": {
+        "ru": ["самостоятельные coding tasks", "sandboxed automation", "исследование SWE agents"],
+        "en": ["autonomous coding tasks", "sandboxed automation", "SWE-agent research"]
+      },
+      "watch": {
+        "ru": ["sandbox setup и безопасность критичны", "качество зависит от модели и репозитория"],
+        "en": ["sandbox setup and security are critical", "quality depends on model and repository"]
+      },
+      "links": [
+        { "label": "Website", "url": "https://www.all-hands.dev/" },
+        { "label": "GitHub", "url": "https://github.com/All-Hands-AI/OpenHands" },
+        { "label": "Docs", "url": "https://docs.all-hands.dev/" }
+      ]
+    },
+    {
+      "id": "codex-cli",
+      "category": "coding-agents",
+      "title": "OpenAI Codex CLI",
+      "aliases": ["Codex", "Codex agent"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/codex-cli/",
+      "details": {
+        "history": {
+          "ru": ["Codex CLI появился как open-source terminal agent, который переносит reasoning models в локальный developer workflow.", "В 2026 году Codex surface шире одного CLI: ChatGPT/Codex cloud workflows, desktop/app variants и GitHub-adjacent агентские сценарии требуют отдельного учета."],
+          "en": ["Codex CLI appeared as an open-source terminal agent that brings reasoning models into local developer workflows.", "In 2026 the Codex surface is broader than one CLI: ChatGPT/Codex cloud workflows, desktop/app variants, and GitHub-adjacent agent scenarios need separate tracking."]
+        },
+        "architecture": {
+          "ru": ["Terminal-first coding agent, работающий с локальным workspace, shell, tests и patch workflow.", "Качество сильно зависит от repo instructions, sandbox profile и проверки результата.", "Хорошо ложится на обычный branch/PR lifecycle."],
+          "en": ["A terminal-first coding agent working with a local workspace, shell, tests, and patch workflow.", "Quality depends heavily on repo instructions, sandbox profile, and result verification.", "Fits a normal branch and PR lifecycle."]
+        },
+        "quickstart": {
+          "ru": ["Дать маленькую задачу с понятной проверкой.", "Оставить sandbox/approval профиль явным.", "После diff обязательно прогнать тесты и review, как для человека."],
+          "en": ["Give it a small task with a clear check.", "Keep sandbox and approval profile explicit.", "After the diff, run tests and review it as you would human work."]
+        },
+        "failureModes": {
+          "ru": ["Слишком широкая задача приводит к лишнему refactor churn.", "Команды проходят локально, но не покрывают реальный product behavior.", "Пользователь принимает summary вместо просмотра diff."],
+          "en": ["A too-broad task causes unrelated refactor churn.", "Commands pass locally but do not cover real product behavior.", "The user accepts the summary instead of reviewing the diff."]
+        }
+      },
+      "summary": {
+        "ru": "Open-source command-line coding agent от OpenAI для работы с локальными репозиториями, reasoning models и ChatGPT/Codex workflows.",
+        "en": "OpenAI's open-source command-line coding agent for local repositories, reasoning models, and ChatGPT/Codex workflows."
+      },
+      "bestFor": {
+        "ru": ["terminal-first coding", "локальные патчи", "repo analysis", "PR workflow"],
+        "en": ["terminal-first coding", "local patches", "repo analysis", "PR workflow"]
+      },
+      "watch": {
+        "ru": ["поведение зависит от sandbox/approval profile", "версии CLI быстро меняются"],
+        "en": ["behavior depends on sandbox and approval profile", "CLI versions move quickly"]
+      },
+      "links": [
+        { "label": "Help Center", "url": "https://help.openai.com/en/articles/11096431" },
+        { "label": "GitHub", "url": "https://github.com/openai/codex" }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "category": "coding-agents",
+      "title": "Claude Code",
+      "aliases": ["Anthropic coding agent"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Agentic coding tool Anthropic, который живет в терминале, читает codebase, редактирует файлы и запускает команды.",
+        "en": "Anthropic's agentic coding tool that lives in the terminal, reads codebases, edits files, and runs commands."
+      },
+      "bestFor": {
+        "ru": ["терминальный coding flow", "debug/fix", "codebase Q&A", "MCP tools"],
+        "en": ["terminal coding flow", "debugging and fixes", "codebase Q&A", "MCP tools"]
+      },
+      "watch": {
+        "ru": ["стоимость и лимиты зависят от аккаунта", "нужны правила работы с shell и secrets"],
+        "en": ["cost and limits depend on account", "needs rules for shell and secrets"]
+      },
+      "links": [
+        { "label": "Overview", "url": "https://docs.anthropic.com/en/docs/claude-code/overview" },
+        { "label": "CLI reference", "url": "https://docs.anthropic.com/en/docs/claude-code/cli-usage" }
+      ]
+    },
+    {
+      "id": "cursor",
+      "category": "coding-agents",
+      "title": "Cursor",
+      "aliases": ["AI code editor"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "AI-powered code editor на базе VS Code UX: codebase chat, autocomplete, multi-file edits и agentic режимы внутри IDE.",
+        "en": "An AI-powered code editor with VS Code-like UX: codebase chat, autocomplete, multi-file edits, and agentic modes inside the IDE."
+      },
+      "bestFor": {
+        "ru": ["ежедневная IDE", "autocomplete", "multi-file edits", "codebase chat"],
+        "en": ["daily IDE use", "autocomplete", "multi-file edits", "codebase chat"]
+      },
+      "watch": {
+        "ru": ["закрытая IDE-поверхность", "vendor lock-in правил, индекса и billing"],
+        "en": ["closed IDE surface", "vendor lock-in around rules, indexing, and billing"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.cursor.com/" },
+        { "label": "Website", "url": "https://cursor.com/" }
+      ]
+    },
+    {
+      "id": "cline",
+      "category": "coding-agents",
+      "title": "Cline",
+      "aliases": ["VS Code agent", "Cline CLI"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Open-source coding agent для редактора и терминала: file edits, shell, browser, MCP и подключение разных моделей.",
+        "en": "An open-source coding agent for editor and terminal workflows: file edits, shell, browser, MCP, and multiple model providers."
+      },
+      "bestFor": {
+        "ru": ["VS Code/Cursor/JetBrains agent", "MCP integrations", "bring-your-own-model"],
+        "en": ["VS Code/Cursor/JetBrains agent", "MCP integrations", "bring-your-own-model"]
+      },
+      "watch": {
+        "ru": ["нужны лимиты на spending и tool approvals", "расширения редактора имеют доступ к рабочей копии"],
+        "en": ["needs spending limits and tool approvals", "editor extensions access the working copy"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.cline.bot/" },
+        { "label": "Website", "url": "https://cline.bot/" },
+        { "label": "GitHub", "url": "https://github.com/cline/cline" }
+      ]
+    },
+    {
+      "id": "continue",
+      "category": "coding-agents",
+      "title": "Continue",
+      "aliases": ["open-source AI code assistant"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Open-source AI code assistant для VS Code и JetBrains с акцентом на подключение собственных моделей и team configuration.",
+        "en": "An open-source AI code assistant for VS Code and JetBrains focused on connecting your own models and team configuration."
+      },
+      "bestFor": {
+        "ru": ["open-source IDE assistant", "локальные модели", "team policies", "autocomplete/chat/edit"],
+        "en": ["open-source IDE assistant", "local models", "team policies", "autocomplete/chat/edit"]
+      },
+      "watch": {
+        "ru": ["agentic автономность ниже, чем у shell-first agents", "нужна настройка контекста и models"],
+        "en": ["less autonomous than shell-first agents", "context and models need configuration"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.continue.dev/" },
+        { "label": "GitHub", "url": "https://github.com/continuedev/continue" }
+      ]
+    },
+    {
+      "id": "aider",
+      "category": "coding-agents",
+      "title": "aider",
+      "aliases": ["AI pair programming terminal"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Terminal pair-programming tool, который строит repo map, редактирует файлы и интегрируется с git commits.",
+        "en": "A terminal pair-programming tool that builds a repo map, edits files, and integrates with git commits."
+      },
+      "bestFor": {
+        "ru": ["малый/средний repo workflow", "git-native edits", "модели через API или локально"],
+        "en": ["small and mid-size repo workflows", "git-native edits", "API or local models"]
+      },
+      "watch": {
+        "ru": ["более pair-programmer, чем автономный агент", "контекст выбирается через added files/repo map"],
+        "en": ["more pair programmer than autonomous agent", "context is shaped through added files and repo map"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://aider.chat/docs/" },
+        { "label": "Website", "url": "https://aider.chat/" },
+        { "label": "GitHub", "url": "https://github.com/aider-ai/aider" }
+      ]
+    },
+    {
+      "id": "lm-eval-harness",
+      "category": "evals",
+      "title": "lm-evaluation-harness",
+      "aliases": ["EleutherAI lm-eval", "LM Harness"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Классический open-source harness EleutherAI для few-shot/zero-shot evaluation языковых моделей на множестве NLP задач.",
+        "en": "EleutherAI's classic open-source harness for few-shot and zero-shot evaluation of language models across many NLP tasks."
+      },
+      "bestFor": {
+        "ru": ["сравнение base/chat моделей", "регрессии open-weight моделей", "воспроизводимые runs"],
+        "en": ["base/chat model comparison", "open-weight model regressions", "reproducible runs"]
+      },
+      "watch": {
+        "ru": ["не измеряет весь продуктовый agent behavior", "важны model adapters и prompt format"],
+        "en": ["does not measure full product agent behavior", "model adapters and prompt format matter"]
+      },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/EleutherAI/lm-evaluation-harness" },
+        { "label": "Interface docs", "url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/interface.md" }
+      ]
+    },
+    {
+      "id": "openai-evals",
+      "category": "evals",
+      "title": "OpenAI Evals",
+      "aliases": ["eval registry"],
+      "modes": ["remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Framework и registry для оценки LLMs и LLM systems, включая custom evals и private eval patterns.",
+        "en": "A framework and registry for evaluating LLMs and LLM systems, including custom evals and private eval patterns."
+      },
+      "bestFor": {
+        "ru": ["custom product evals", "model-graded evals", "регрессии OpenAI-backed systems"],
+        "en": ["custom product evals", "model-graded evals", "regressions in OpenAI-backed systems"]
+      },
+      "watch": {
+        "ru": ["нужны права на данные", "model-graded evals требуют calibration"],
+        "en": ["requires data rights", "model-graded evals need calibration"]
+      },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/openai/evals" },
+        { "label": "Cookbook", "url": "https://cookbook.openai.com/examples/evaluation/getting_started_with_openai_evals" }
+      ]
+    },
+    {
+      "id": "helm",
+      "category": "evals",
+      "title": "HELM",
+      "aliases": ["Stanford CRFM HELM"],
+      "modes": ["local", "remote"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Holistic Evaluation of Language Models от Stanford CRFM: framework и leaderboards для прозрачной, воспроизводимой оценки foundation models.",
+        "en": "Stanford CRFM's Holistic Evaluation of Language Models: a framework and leaderboards for transparent, reproducible evaluation of foundation models."
+      },
+      "bestFor": {
+        "ru": ["академическая картина capability", "leaderboards", "многомерная оценка"],
+        "en": ["academic capability picture", "leaderboards", "multidimensional evaluation"]
+      },
+      "watch": {
+        "ru": ["benchmark coverage не равен product fit", "leaderboards обновляются отдельными сериями"],
+        "en": ["benchmark coverage is not product fit", "leaderboards update in separate series"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://crfm-helm.readthedocs.io/" },
+        { "label": "CRFM HELM", "url": "https://crfm.stanford.edu/helm/" }
+      ]
+    },
+    {
+      "id": "swe-bench",
+      "category": "evals",
+      "title": "SWE-bench",
+      "aliases": ["software engineering benchmark"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Benchmark для оценки AI systems на реальных GitHub issues, ставший ключевой точкой сравнения software engineering agents.",
+        "en": "A benchmark for evaluating AI systems on real GitHub issues, now a key comparison point for software engineering agents."
+      },
+      "bestFor": {
+        "ru": ["SWE agents", "repository-level fixes", "agent scaffolds comparison"],
+        "en": ["SWE agents", "repository-level fixes", "agent scaffold comparison"]
+      },
+      "watch": {
+        "ru": ["scores зависят от scaffold, tools и sampling", "не переносить score напрямую на свой repo"],
+        "en": ["scores depend on scaffold, tools, and sampling", "do not directly transfer scores to your repo"]
+      },
+      "links": [
+        { "label": "Website", "url": "https://www.swebench.com/" },
+        { "label": "GitHub", "url": "https://github.com/swe-bench" }
+      ]
+    },
+    {
+      "id": "bfcl",
+      "category": "evals",
+      "title": "Berkeley Function Calling Leaderboard",
+      "aliases": ["BFCL", "tool calling benchmark"],
+      "modes": ["remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Бенчмарк UC Berkeley для оценки способности моделей вызывать функции/tools, включая multi-turn и agentic сценарии.",
+        "en": "UC Berkeley's benchmark for evaluating model function/tool calling, including multi-turn and agentic scenarios."
+      },
+      "bestFor": {
+        "ru": ["tool calling selection", "native vs prompted function calling", "agentic evals"],
+        "en": ["tool-calling selection", "native vs prompted function calling", "agentic evals"]
+      },
+      "watch": {
+        "ru": ["tool calling accuracy не гарантирует end-to-end agent reliability", "нужно смотреть дату leaderboard"],
+        "en": ["tool-calling accuracy does not guarantee end-to-end agent reliability", "check leaderboard date"]
+      },
+      "links": [
+        { "label": "Leaderboard", "url": "https://gorilla.cs.berkeley.edu/leaderboard" },
+        { "label": "Blog", "url": "https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html" }
+      ]
+    },
+    {
+      "id": "ragas",
+      "category": "evals",
+      "title": "Ragas",
+      "aliases": ["RAG evaluation"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Evaluation framework для RAG и LLM applications: faithfulness, answer relevancy, context precision/recall и custom metrics.",
+        "en": "An evaluation framework for RAG and LLM applications: faithfulness, answer relevancy, context precision/recall, and custom metrics."
+      },
+      "bestFor": {
+        "ru": ["RAG quality", "retrieval regressions", "dataset-based eval loops"],
+        "en": ["RAG quality", "retrieval regressions", "dataset-based eval loops"]
+      },
+      "watch": {
+        "ru": ["метрики часто model-graded", "нужна ground truth стратегия"],
+        "en": ["metrics are often model-graded", "needs a ground-truth strategy"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.ragas.io/" },
+        { "label": "GitHub", "url": "https://github.com/explodinggradients/ragas" }
+      ]
+    },
+    {
+      "id": "promptfoo",
+      "category": "evals",
+      "title": "promptfoo",
+      "aliases": ["LLM eval CLI", "red teaming"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "CLI и framework для тестирования prompts, providers, assertions и red-team сценариев в LLM apps.",
+        "en": "A CLI and framework for testing prompts, providers, assertions, and red-team scenarios in LLM apps."
+      },
+      "bestFor": {
+        "ru": ["prompt regression tests", "provider comparison", "CI evals", "red teaming"],
+        "en": ["prompt regression tests", "provider comparison", "CI evals", "red teaming"]
+      },
+      "watch": {
+        "ru": ["assertions нужно привязывать к реальному риску", "не все проверки детерминированы"],
+        "en": ["assertions need to map to real risk", "not all checks are deterministic"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://www.promptfoo.dev/docs/intro/" },
+        { "label": "GitHub", "url": "https://github.com/promptfoo/promptfoo" }
+      ]
+    },
+    {
+      "id": "mcp",
+      "category": "protocols",
+      "title": "Model Context Protocol",
+      "aliases": ["MCP"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "freshness": {
+        "status": "moving-fast",
+        "verifiedAt": "2026-05-18"
+      },
+      "detailPath": "tools/mcp/",
+      "details": {
+        "history": {
+          "ru": ["MCP был представлен Anthropic в конце 2024 года как открытый способ подключать tools, data и context к LLM clients.", "К 2026 году MCP уже развивается как экосистемный стандарт с roadmap по transport scalability, governance и enterprise readiness."],
+          "en": ["MCP was introduced by Anthropic in late 2024 as an open way to connect tools, data, and context to LLM clients.", "By 2026 MCP is evolving as an ecosystem standard with a roadmap around transport scalability, governance, and enterprise readiness."]
+        },
+        "architecture": {
+          "ru": ["Protocol boundary между LLM client и tool/data servers.", "Server описывает tools/resources, client решает когда и как их использовать.", "Главная ценность — reusable connectors; главный риск — слишком широкие permissions."],
+          "en": ["A protocol boundary between an LLM client and tool/data servers.", "The server exposes tools/resources; the client decides when and how to use them.", "The main value is reusable connectors; the main risk is overly broad permissions."]
+        },
+        "quickstart": {
+          "ru": ["Начать с read-only server.", "Добавить logging arguments/results с masking.", "Write/action tools вводить только с approval и threat model."],
+          "en": ["Start with a read-only server.", "Add argument/result logging with masking.", "Introduce write/action tools only with approval and threat model."]
+        },
+        "failureModes": {
+          "ru": ["Prompt injection из прочитанных данных становится фактической командой tool.", "Secrets попадают в prompt или traces.", "Server boundaries не совпадают с реальными account permissions."],
+          "en": ["Prompt injection from read data becomes an effective tool command.", "Secrets enter prompts or traces.", "Server boundaries do not match real account permissions."]
+        }
+      },
+      "summary": {
+        "ru": "Открытый протокол для подключения приложений, данных и инструментов к LLM clients через единый interface.",
+        "en": "An open protocol for connecting applications, data, and tools to LLM clients through a common interface."
+      },
+      "bestFor": {
+        "ru": ["tool servers", "IDE/agent integrations", "enterprise data access", "reusable connectors"],
+        "en": ["tool servers", "IDE/agent integrations", "enterprise data access", "reusable connectors"]
+      },
+      "watch": {
+        "ru": ["tool permissions и prompt injection нужно проектировать отдельно", "server trust boundary часто недооценен"],
+        "en": ["tool permissions and prompt injection need separate design", "server trust boundaries are often underestimated"]
+      },
+      "links": [
+        { "label": "Spec", "url": "https://modelcontextprotocol.io/" },
+        { "label": "GitHub", "url": "https://github.com/modelcontextprotocol" }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "category": "protocols",
+      "title": "LangSmith",
+      "aliases": ["tracing", "LangChain observability"],
+      "modes": ["remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Observability и evaluation platform от LangChain для traces, datasets, prompt/version tracking и debugging LLM apps.",
+        "en": "LangChain's observability and evaluation platform for traces, datasets, prompt/version tracking, and debugging LLM apps."
+      },
+      "bestFor": {
+        "ru": ["LangGraph/LangChain tracing", "dataset curation", "online debugging"],
+        "en": ["LangGraph/LangChain tracing", "dataset curation", "online debugging"]
+      },
+      "watch": {
+        "ru": ["данные traces могут быть чувствительными", "нужна политика retention/export"],
+        "en": ["trace data can be sensitive", "needs retention and export policy"]
+      },
+      "links": [
+        { "label": "Docs", "url": "https://docs.smith.langchain.com/" },
+        { "label": "Website", "url": "https://www.langchain.com/langsmith" }
+      ]
+    },
+    {
+      "id": "opentelemetry",
+      "category": "protocols",
+      "title": "OpenTelemetry for LLM apps",
+      "aliases": ["OTel", "traces"],
+      "modes": ["local", "remote", "hybrid"],
+      "sourceStatus": "official",
+      "summary": {
+        "ru": "Общий стандарт telemetry для traces/metrics/logs; полезен как vendor-neutral слой наблюдаемости вокруг LLM и agent runtimes.",
+        "en": "A general telemetry standard for traces, metrics, and logs; useful as a vendor-neutral observability layer around LLM and agent runtimes."
+      },
+      "bestFor": {
+        "ru": ["production observability", "vendor-neutral traces", "agent runtime debugging"],
+        "en": ["production observability", "vendor-neutral traces", "agent runtime debugging"]
+      },
+      "watch": {
+        "ru": ["LLM semantic conventions развиваются", "нужно маскировать prompts, PII и secrets"],
+        "en": ["LLM semantic conventions evolve", "prompts, PII, and secrets need masking"]
+      },
+      "links": [
+        { "label": "OpenTelemetry", "url": "https://opentelemetry.io/" },
+        { "label": "Semantic conventions", "url": "https://opentelemetry.io/docs/specs/semconv/" }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "local-mac-assistant",
+      "title": {
+        "ru": "Локальный ассистент на Mac",
+        "en": "Local Mac assistant"
+      },
+      "goal": {
+        "ru": "Запустить приватный рабочий чат и coding helper без отправки всех черновиков внешнему провайдеру.",
+        "en": "Run a private work chat and coding helper without sending every draft to an external provider."
+      },
+      "tools": ["lm-studio", "ollama", "mlx", "continue", "mcp"],
+      "steps": {
+        "ru": ["Выберите один runtime: LM Studio для GUI или Ollama для CLI/API.", "Скачайте две модели разного размера и измерьте latency на ваших задачах.", "Подключите IDE assistant только к нужным папкам, не ко всему home directory.", "Добавьте MCP/tools после того, как обычный чат стабилен."],
+        "en": ["Pick one runtime: LM Studio for GUI or Ollama for CLI/API.", "Download two model sizes and measure latency on your tasks.", "Connect the IDE assistant only to needed folders, not the whole home directory.", "Add MCP/tools after plain chat is stable."]
+      },
+      "checks": {
+        "ru": ["Модель работает offline.", "Понятен prompt template.", "IDE не читает secrets без явного разрешения."],
+        "en": ["The model works offline.", "The prompt template is known.", "The IDE does not read secrets without explicit permission."]
+      }
+    },
+    {
+      "id": "personal-archive-rag",
+      "title": {
+        "ru": "RAG для личного архива",
+        "en": "RAG for a personal archive"
+      },
+      "goal": {
+        "ru": "Сделать поиск и ответы по заметкам, PDF и проектным документам с проверяемыми ссылками на источники.",
+        "en": "Build search and answers over notes, PDFs, and project docs with verifiable source links."
+      },
+      "tools": ["llamaindex", "langgraph", "ragas", "langsmith", "opentelemetry"],
+      "steps": {
+        "ru": ["Начните с ingestion и chunking на маленькой папке.", "Зафиксируйте формат citation: файл, заголовок, фрагмент.", "Добавьте eval set из вопросов, на которые архив обязан отвечать.", "Только после этого подключайте агентские действия."],
+        "en": ["Start ingestion and chunking on a small folder.", "Fix the citation format: file, heading, excerpt.", "Add an eval set of questions the archive must answer.", "Only then connect agentic actions."]
+      },
+      "checks": {
+        "ru": ["Ответ можно проверить по ссылке.", "Система признает отсутствие ответа.", "Обновление индекса воспроизводимо."],
+        "en": ["The answer can be checked by a link.", "The system admits when it lacks an answer.", "Index updates are reproducible."]
+      }
+    },
+    {
+      "id": "coding-agent-workflow",
+      "title": {
+        "ru": "Coding-agent workflow",
+        "en": "Coding-agent workflow"
+      },
+      "goal": {
+        "ru": "Передать агенту узкую инженерную задачу так, чтобы результат можно было ревьюить и мерджить как обычный PR.",
+        "en": "Hand a narrow engineering task to an agent so the result can be reviewed and merged like a normal PR."
+      },
+      "tools": ["codex-cli", "claude-code", "aider", "openhands", "swe-bench"],
+      "steps": {
+        "ru": ["Опишите issue как observable behavior, а не как просьбу переписать код.", "Ограничьте worktree, shell permissions и network access.", "Потребуйте тест или явную причину, почему тест невозможен.", "Ревьюйте diff, а не итоговое сообщение агента."],
+        "en": ["Describe the issue as observable behavior, not a request to rewrite code.", "Constrain worktree, shell permissions, and network access.", "Require a test or an explicit reason why no test is possible.", "Review the diff, not the agent's final message."]
+      },
+      "checks": {
+        "ru": ["Есть воспроизводимый test/command.", "Нет лишнего форматирования и churn.", "CI и reviewer verdict проверены отдельно."],
+        "en": ["There is a reproducible test/command.", "No unrelated formatting or churn.", "CI and reviewer verdict are checked separately."]
+      }
+    },
+    {
+      "id": "tool-calling-eval",
+      "title": {
+        "ru": "Tool-calling eval",
+        "en": "Tool-calling eval"
+      },
+      "goal": {
+        "ru": "Понять, какая модель и schema надежнее вызывают функции в вашем продукте, а не только на leaderboard.",
+        "en": "Find which model and schema call tools reliably in your product, not only on a leaderboard."
+      },
+      "tools": ["bfcl", "openai-evals", "promptfoo", "dspy", "openai-agents-sdk"],
+      "steps": {
+        "ru": ["Соберите реальные tool calls и ошибки из логов.", "Разделите eval на selection, arguments и final answer.", "Проверьте native function calling и prompted JSON отдельно.", "Добавьте негативные случаи: недостающие данные, опасное действие, конфликтующие инструкции."],
+        "en": ["Collect real tool calls and errors from logs.", "Split the eval into selection, arguments, and final answer.", "Check native function calling and prompted JSON separately.", "Add negative cases: missing data, dangerous action, conflicting instructions."]
+      },
+      "checks": {
+        "ru": ["Ошибки классифицированы по типу.", "Есть threshold для release gate.", "Harness не скрывает частичные failures."],
+        "en": ["Errors are classified by type.", "There is a release-gate threshold.", "The harness does not hide partial failures."]
+      }
+    },
+    {
+      "id": "safe-mcp-server",
+      "title": {
+        "ru": "Безопасный MCP/tool server",
+        "en": "Safe MCP/tool server"
+      },
+      "goal": {
+        "ru": "Дать агентам доступ к данным и действиям без неограниченного доступа к аккаунтам, secrets и локальной машине.",
+        "en": "Give agents access to data and actions without unlimited access to accounts, secrets, and the local machine."
+      },
+      "tools": ["mcp", "opentelemetry", "langsmith", "hermes-agent", "cline"],
+      "steps": {
+        "ru": ["Опишите tool permissions как контракт, а не как список удобных команд.", "Разделите read tools и write/action tools.", "Логируйте arguments и decisions, маскируя PII/secrets.", "Сделайте dangerous actions двухшаговыми: plan, затем approval."],
+        "en": ["Describe tool permissions as a contract, not a list of handy commands.", "Separate read tools from write/action tools.", "Log arguments and decisions while masking PII/secrets.", "Make dangerous actions two-step: plan, then approval."]
+      },
+      "checks": {
+        "ru": ["У каждого tool есть owner и threat model.", "Prompt injection из данных не становится permission.", "Logs пригодны для replay."],
+        "en": ["Every tool has an owner and threat model.", "Prompt injection from data does not become permission.", "Logs are usable for replay."]
+      }
+    }
+  ],
+  "matrix": {
+    "columns": [
+      { "id": "surface", "title": { "ru": "Поверхность", "en": "Surface" } },
+      { "id": "locality", "title": { "ru": "Локальность", "en": "Locality" } },
+      { "id": "autonomy", "title": { "ru": "Автономность", "en": "Autonomy" } },
+      { "id": "evals", "title": { "ru": "Eval fit", "en": "Eval fit" } },
+      { "id": "observability", "title": { "ru": "Наблюдаемость", "en": "Observability" } },
+      { "id": "security", "title": { "ru": "Security boundary", "en": "Security boundary" } }
+    ],
+    "rows": [
+      {
+        "entry": "ollama",
+        "values": {
+          "surface": { "ru": "CLI/API", "en": "CLI/API" },
+          "locality": { "ru": "локально", "en": "local" },
+          "autonomy": { "ru": "низкая", "en": "low" },
+          "evals": { "ru": "через внешние harnesses", "en": "via external harnesses" },
+          "observability": { "ru": "логировать вокруг API", "en": "wrap API logging" },
+          "security": { "ru": "локальный процесс", "en": "local process" }
+        }
+      },
+      {
+        "entry": "langgraph",
+        "values": {
+          "surface": { "ru": "Python/JS runtime", "en": "Python/JS runtime" },
+          "locality": { "ru": "гибридно", "en": "hybrid" },
+          "autonomy": { "ru": "высокая под контролем графа", "en": "high with graph control" },
+          "evals": { "ru": "dataset + trace replay", "en": "dataset + trace replay" },
+          "observability": { "ru": "LangSmith/OTel", "en": "LangSmith/OTel" },
+          "security": { "ru": "узлы и tools как boundary", "en": "nodes and tools as boundary" }
+        }
+      },
+      {
+        "entry": "llamaindex",
+        "values": {
+          "surface": { "ru": "data/RAG framework", "en": "data/RAG framework" },
+          "locality": { "ru": "гибридно", "en": "hybrid" },
+          "autonomy": { "ru": "средняя", "en": "medium" },
+          "evals": { "ru": "RAG metrics", "en": "RAG metrics" },
+          "observability": { "ru": "callback/tracing stack", "en": "callback/tracing stack" },
+          "security": { "ru": "индекс и connectors", "en": "index and connectors" }
+        }
+      },
+      {
+        "entry": "openhands",
+        "values": {
+          "surface": { "ru": "sandbox + web UI", "en": "sandbox + web UI" },
+          "locality": { "ru": "гибридно", "en": "hybrid" },
+          "autonomy": { "ru": "высокая", "en": "high" },
+          "evals": { "ru": "SWE-bench style", "en": "SWE-bench style" },
+          "observability": { "ru": "run logs", "en": "run logs" },
+          "security": { "ru": "sandbox обязателен", "en": "sandbox required" }
+        }
+      },
+      {
+        "entry": "codex-cli",
+        "values": {
+          "surface": { "ru": "terminal/worktree", "en": "terminal/worktree" },
+          "locality": { "ru": "гибридно", "en": "hybrid" },
+          "autonomy": { "ru": "средняя-высокая", "en": "medium-high" },
+          "evals": { "ru": "repo tests + review", "en": "repo tests + review" },
+          "observability": { "ru": "shell/test transcript", "en": "shell/test transcript" },
+          "security": { "ru": "sandbox/approval profile", "en": "sandbox/approval profile" }
+        }
+      },
+      {
+        "entry": "mcp",
+        "values": {
+          "surface": { "ru": "tool protocol", "en": "tool protocol" },
+          "locality": { "ru": "локально или удаленно", "en": "local or remote" },
+          "autonomy": { "ru": "зависит от client", "en": "client-dependent" },
+          "evals": { "ru": "tool contract tests", "en": "tool contract tests" },
+          "observability": { "ru": "server/client logs", "en": "server/client logs" },
+          "security": { "ru": "permission boundary", "en": "permission boundary" }
+        }
+      },
+      {
+        "entry": "lm-eval-harness",
+        "values": {
+          "surface": { "ru": "benchmark CLI", "en": "benchmark CLI" },
+          "locality": { "ru": "локально/remote adapters", "en": "local/remote adapters" },
+          "autonomy": { "ru": "нет", "en": "none" },
+          "evals": { "ru": "core purpose", "en": "core purpose" },
+          "observability": { "ru": "run artifacts", "en": "run artifacts" },
+          "security": { "ru": "dataset/model access", "en": "dataset/model access" }
+        }
+      }
+    ]
+  },
+  "methodology": {
+    "rubric": [
+      {
+        "id": "scenario-fit",
+        "title": {
+          "ru": "Scenario fit",
+          "en": "Scenario fit"
+        },
+        "description": {
+          "ru": "Оценка отвечает на один практический сценарий, а не на вопрос «какой инструмент вообще лучше».",
+          "en": "The score answers one practical scenario, not the generic question of which tool is best."
+        }
+      },
+      {
+        "id": "verifiability",
+        "title": {
+          "ru": "Verifiability",
+          "en": "Verifiability"
+        },
+        "description": {
+          "ru": "У пункта должен быть официальный источник, benchmark, документация или воспроизводимый workflow.",
+          "en": "Each point needs an official source, benchmark, documentation, or reproducible workflow."
+        }
+      },
+      {
+        "id": "operational-risk",
+        "title": {
+          "ru": "Operational risk",
+          "en": "Operational risk"
+        },
+        "description": {
+          "ru": "Высокая capability не компенсирует неясные permissions, слабый sandbox, плохой rollback или отсутствие audit trail.",
+          "en": "High capability does not compensate for unclear permissions, weak sandboxing, poor rollback, or missing audit trail."
+        }
+      },
+      {
+        "id": "transferability",
+        "title": {
+          "ru": "Transferability",
+          "en": "Transferability"
+        },
+        "description": {
+          "ru": "Score должен переноситься на похожий рабочий сценарий: repo fix, RAG archive, local runtime или eval gate.",
+          "en": "The score should transfer to a similar working scenario: repo fix, RAG archive, local runtime, or eval gate."
+        }
+      }
+    ],
+    "evidenceRules": {
+      "ru": ["Не смешивать leaderboard score, product UX и личный опыт в одну цифру без пояснения.", "Если источник быстро меняется, помечать moving fast и ставить короткий cadence перепроверки.", "Сценарии с write access, shell, MCP tools или внешними аккаунтами получают отдельную security оговорку.", "Каждый рейтинг должен иметь минимум два независимых типа evidence: официальные docs плюс benchmark, workflow или проверяемый пример."],
+      "en": ["Do not mix leaderboard score, product UX, and personal experience into one number without explanation.", "If the source changes quickly, mark it moving fast and use a short review cadence.", "Scenarios with write access, shell, MCP tools, or external accounts need a separate security caveat.", "Every ranking should have at least two independent evidence types: official docs plus a benchmark, workflow, or verifiable example."]
+    },
+    "reviewCadence": [
+      {
+        "scope": {
+          "ru": "Coding agents и MCP",
+          "en": "Coding agents and MCP"
+        },
+        "rule": {
+          "ru": "перепроверять ежемесячно или перед рекомендацией, потому что permissions, runtimes и model behavior быстро меняются.",
+          "en": "review monthly or before recommending because permissions, runtimes, and model behavior change quickly."
+        }
+      },
+      {
+        "scope": {
+          "ru": "RAG frameworks и eval harnesses",
+          "en": "RAG frameworks and eval harnesses"
+        },
+        "rule": {
+          "ru": "перепроверять раз в квартал, а также при смене major API или benchmark methodology.",
+          "en": "review quarterly and whenever a major API or benchmark methodology changes."
+        }
+      },
+      {
+        "scope": {
+          "ru": "Локальные runtimes",
+          "en": "Local runtimes"
+        },
+        "rule": {
+          "ru": "перепроверять при выходе важных моделей, новых quantization formats или изменений serving API.",
+          "en": "review when important models, quantization formats, or serving API changes land."
+        }
+      }
+    ]
+  },
+  "freshnessPolicy": {
+    "statuses": [
+      {
+        "id": "stable",
+        "title": { "ru": "stable", "en": "stable" },
+        "description": {
+          "ru": "Основная концепция и ссылки меняются редко; достаточно перепроверять раз в квартал.",
+          "en": "The core concept and links rarely change; quarterly review is usually enough."
+        }
+      },
+      {
+        "id": "moving-fast",
+        "title": { "ru": "moving fast", "en": "moving fast" },
+        "description": {
+          "ru": "API, pricing, docs, capabilities или security model быстро меняются; проверять перед практическим выбором.",
+          "en": "API, pricing, docs, capabilities, or security model changes quickly; verify before practical adoption."
+        }
+      },
+      {
+        "id": "deprecated",
+        "title": { "ru": "deprecated", "en": "deprecated" },
+        "description": {
+          "ru": "Инструмент или API замещается новым направлением; использовать только для legacy контекста.",
+          "en": "The tool or API is being replaced by a newer direction; use mainly for legacy context."
+        }
+      },
+      {
+        "id": "watchlist",
+        "title": { "ru": "watchlist", "en": "watchlist" },
+        "description": {
+          "ru": "Источник, зрелость или ownership требуют ручной перепроверки перед рекомендацией.",
+          "en": "Source, maturity, or ownership needs manual verification before recommendation."
+        }
+      }
+    ],
+    "rules": {
+      "ru": ["Каждая рекомендация должна ссылаться на официальный источник или явно помечаться как watchlist.", "Дата проверки хранится рядом с карточкой, а не только в git history.", "Security-sensitive tools получают статус moving fast, даже если API выглядит стабильным.", "Рейтинги пересчитываются по сценариям, а не по общей популярности."],
+      "en": ["Every recommendation should cite an official source or be explicitly marked watchlist.", "Verification date lives next to the card, not only in git history.", "Security-sensitive tools get moving-fast status even when the API looks stable.", "Rankings are recalculated by scenario, not generic popularity."]
+    }
+  },
+  "rankings": [
+    {
+      "id": "coding-agents",
+      "title": {
+        "ru": "Coding agents: repo-level fix",
+        "en": "Coding agents: repo-level fix"
+      },
+      "scenario": {
+        "ru": "Агент получает issue, меняет рабочую копию, запускает проверки и оставляет diff для review.",
+        "en": "An agent receives an issue, edits a working copy, runs checks, and leaves a diff for review."
+      },
+      "criteria": {
+        "ru": ["repo context", "shell/filesystem control", "sandbox/approval", "test workflow", "PR/review fit"],
+        "en": ["repo context", "shell/filesystem control", "sandbox/approval", "test workflow", "PR/review fit"]
+      },
+      "items": [
+        {
+          "entry": "codex-cli",
+          "score": 4,
+          "evidence": {
+            "ru": "Сильный terminal/worktree fit и естественная проверка через repo tests; требует явного sandbox profile.",
+            "en": "Strong terminal/worktree fit and natural verification through repo tests; needs explicit sandbox profile."
+          }
+        },
+        {
+          "entry": "openhands",
+          "score": 4,
+          "evidence": {
+            "ru": "Сильная автономность и sandbox/runtime story; выше operational complexity.",
+            "en": "Strong autonomy and sandbox/runtime story; higher operational complexity."
+          }
+        },
+        {
+          "entry": "aider",
+          "score": 3,
+          "evidence": {
+            "ru": "Хороший pair-programming workflow, но меньше platform-level sandbox и lifecycle control.",
+            "en": "Good pair-programming workflow, but less platform-level sandbox and lifecycle control."
+          }
+        },
+        {
+          "entry": "continue",
+          "score": 2,
+          "evidence": {
+            "ru": "Хороший IDE assistant и model flexibility, но ниже автономность end-to-end fix loop.",
+            "en": "Good IDE assistant and model flexibility, but lower autonomy for end-to-end fix loops."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "SWE-bench", "url": "https://www.swebench.com/" },
+        { "label": "OpenHands Docs", "url": "https://docs.openhands.dev/" },
+        { "label": "Codex CLI", "url": "https://github.com/openai/codex" }
+      ]
+    },
+    {
+      "id": "rag-frameworks",
+      "title": {
+        "ru": "RAG frameworks: личный архив",
+        "en": "RAG frameworks: personal archive"
+      },
+      "scenario": {
+        "ru": "Индекс документов должен отвечать с проверяемыми citations, признавать отсутствие ответа и проходить regression set.",
+        "en": "A document index must answer with verifiable citations, admit missing answers, and pass a regression set."
+      },
+      "criteria": {
+        "ru": ["ingestion", "retrieval control", "citation discipline", "workflow/agent support", "eval integration"],
+        "en": ["ingestion", "retrieval control", "citation discipline", "workflow/agent support", "eval integration"]
+      },
+      "items": [
+        {
+          "entry": "llamaindex",
+          "score": 4,
+          "evidence": {
+            "ru": "Сильный data/RAG слой, connectors и Workflows; качество зависит от chunking/eval discipline.",
+            "en": "Strong data/RAG layer, connectors, and Workflows; quality depends on chunking/eval discipline."
+          }
+        },
+        {
+          "entry": "langgraph",
+          "score": 3,
+          "evidence": {
+            "ru": "Хорош для controlled agentic retrieval, но базовый ingestion/indexing нужно проектировать отдельно.",
+            "en": "Good for controlled agentic retrieval, but base ingestion/indexing must be designed separately."
+          }
+        },
+        {
+          "entry": "ragas",
+          "score": 3,
+          "evidence": {
+            "ru": "Не RAG framework, но полезен как eval layer для качества retrieval/answering.",
+            "en": "Not a RAG framework, but useful as an eval layer for retrieval/answering quality."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "LlamaIndex Docs", "url": "https://docs.llamaindex.ai/" },
+        { "label": "Ragas Docs", "url": "https://docs.ragas.io/" }
+      ]
+    },
+    {
+      "id": "local-runtimes",
+      "title": {
+        "ru": "Local runtimes: notebook/dev workstation",
+        "en": "Local runtimes: notebook/dev workstation"
+      },
+      "scenario": {
+        "ru": "Запустить локальную instruct-модель, подключить ее к клиенту и измерить latency/quality без production serving complexity.",
+        "en": "Run a local instruct model, connect it to a client, and measure latency/quality without production-serving complexity."
+      },
+      "criteria": {
+        "ru": ["install simplicity", "model discovery", "API compatibility", "hardware fit", "production readiness"],
+        "en": ["install simplicity", "model discovery", "API compatibility", "hardware fit", "production readiness"]
+      },
+      "items": [
+        {
+          "entry": "ollama",
+          "score": 4,
+          "evidence": {
+            "ru": "Лучший CLI/API старт для локального прототипа; production serving и evals нужно добавлять отдельно.",
+            "en": "Best CLI/API start for a local prototype; production serving and evals need separate layers."
+          }
+        },
+        {
+          "entry": "lm-studio",
+          "score": 4,
+          "evidence": {
+            "ru": "Сильный GUI workflow и local server; меньше прозрачен как infrastructure primitive.",
+            "en": "Strong GUI workflow and local server; less transparent as an infrastructure primitive."
+          }
+        },
+        {
+          "entry": "llama-cpp",
+          "score": 3,
+          "evidence": {
+            "ru": "Больше контроля и portability, но выше порог настройки.",
+            "en": "More control and portability, but higher setup burden."
+          }
+        },
+        {
+          "entry": "vllm",
+          "score": 3,
+          "evidence": {
+            "ru": "Сильнее для GPU serving, чем для простого локального ноутбучного старта.",
+            "en": "Stronger for GPU serving than simple local laptop starts."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "Ollama Docs", "url": "https://docs.ollama.com/" },
+        { "label": "LM Studio Docs", "url": "https://lmstudio.ai/docs" },
+        { "label": "vLLM Docs", "url": "https://docs.vllm.ai/" }
+      ]
+    },
+    {
+      "id": "eval-harnesses",
+      "title": {
+        "ru": "Eval harnesses: tool use и regression",
+        "en": "Eval harnesses: tool use and regression"
+      },
+      "scenario": {
+        "ru": "Нужно сравнить модель, prompt или tool schema на повторяемом наборе задач перед release.",
+        "en": "Compare a model, prompt, or tool schema on a repeatable task set before release."
+      },
+      "criteria": {
+        "ru": ["repeatability", "tool/function coverage", "custom assertions", "CI fit", "leaderboard relevance"],
+        "en": ["repeatability", "tool/function coverage", "custom assertions", "CI fit", "leaderboard relevance"]
+      },
+      "items": [
+        {
+          "entry": "promptfoo",
+          "score": 4,
+          "evidence": {
+            "ru": "Практичен для CI assertions и provider comparison в product loop.",
+            "en": "Practical for CI assertions and provider comparison in a product loop."
+          }
+        },
+        {
+          "entry": "bfcl",
+          "score": 4,
+          "evidence": {
+            "ru": "Силен именно для function/tool calling comparison, но не заменяет end-to-end product eval.",
+            "en": "Strong specifically for function/tool calling comparison, but not a replacement for end-to-end product evals."
+          }
+        },
+        {
+          "entry": "lm-eval-harness",
+          "score": 3,
+          "evidence": {
+            "ru": "Классический model benchmark harness, меньше покрывает agent/product behavior.",
+            "en": "Classic model benchmark harness, less coverage for agent/product behavior."
+          }
+        },
+        {
+          "entry": "openai-evals",
+          "score": 3,
+          "evidence": {
+            "ru": "Полезен для custom evals, особенно OpenAI-backed systems; требует calibration для model-graded checks.",
+            "en": "Useful for custom evals, especially OpenAI-backed systems; needs calibration for model-graded checks."
+          }
+        }
+      ],
+      "sources": [
+        { "label": "BFCL", "url": "https://gorilla.cs.berkeley.edu/leaderboard" },
+        { "label": "lm-evaluation-harness", "url": "https://github.com/EleutherAI/lm-evaluation-harness" },
+        { "label": "promptfoo", "url": "https://www.promptfoo.dev/docs/intro/" }
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "title": {
+        "ru": "Разнести ключевые инструменты на отдельные страницы",
+        "en": "Move key tools to dedicated pages"
+      },
+      "description": {
+        "ru": "Для LangGraph, LlamaIndex, OpenHands, MCP, Ollama и coding agents сделать длинные страницы с history, architecture, quickstart и примерами failure modes.",
+        "en": "Create long pages for LangGraph, LlamaIndex, OpenHands, MCP, Ollama, and coding agents with history, architecture, quickstart, and failure modes."
+      }
+    },
+    {
+      "title": {
+        "ru": "Добавить freshness policy",
+        "en": "Add a freshness policy"
+      },
+      "description": {
+        "ru": "Хранить дату проверки, официальный источник и статус: stable, moving fast, deprecated, watchlist.",
+        "en": "Track verification date, official source, and status: stable, moving fast, deprecated, watchlist."
+      }
+    },
+    {
+      "title": {
+        "ru": "Собрать evidence-backed рейтинги",
+        "en": "Build evidence-backed rankings"
+      },
+      "description": {
+        "ru": "Отдельно оценивать coding agents, RAG frameworks, local runtimes и eval harnesses по проверяемым сценариям, а не общей популярности.",
+        "en": "Score coding agents, RAG frameworks, local runtimes, and eval harnesses by verifiable scenarios rather than generic popularity."
+      }
+    }
+  ]
+}
