@@ -668,13 +668,12 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .release-clip {
     position: relative;
     display: block;
+    width: 160px;
     height: 160px;
-    aspect-ratio: 16 / 9;
     border-radius: 4px;
     overflow: hidden;
     background: #000;
 }
-.release-clip-vertical { aspect-ratio: 9 / 16; }
 
 .release-clip img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; }
 .release-clip span {
@@ -688,8 +687,7 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .release-clip:hover img { opacity: 1; }
 
 @media (max-width: 560px) {
-    .release-cover, .release-clip { height: 120px; }
-    .release-cover { width: 120px; }
+    .release-cover, .release-clip { width: 120px; height: 120px; }
 }
 
 main h3 {
