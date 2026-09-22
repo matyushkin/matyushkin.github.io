@@ -114,5 +114,46 @@
         }
       ]
     }
+  ],
+  "books": [
+    {
+      "id": "aya-2018",
+      "year": 2018,
+      "pdf": "books/aya-2018.pdf",
+      "cover": "books/covers/aya-2018.jpg",
+      "patreon": "https://www.patreon.com/posts/kniga-stikhov-go-18748964",
+      "pages": 147,
+      "i18n": {
+        "ru": {
+          "title": "«а/я»",
+          "venue": "самиздат",
+          "description": "Книга стихов."
+        },
+        "en": {
+          "title": "«а/я»",
+          "venue": "Self-published",
+          "description": "A book of poems."
+        }
+      }
+    },
+    {
+      "id": "o-prostranstve-i-vremeni-2015",
+      "year": 2015,
+      "pdf": "books/o-prostranstve-i-vremeni-2015.pdf",
+      "cover": "books/covers/o-prostranstve-i-vremeni-2015.jpg",
+      "pages": 105,
+      "i18n": {
+        "ru": {
+          "title": "«О пространстве и времени»",
+          "venue": "самиздат",
+          "description": "Книга стихов."
+        },
+        "en": {
+          "title": "«О пространстве и времени» [On Space and Time]",
+          "venue": "Self-published",
+          "description": "A book of poems."
+        }
+      }
+    }
   ]
 }
