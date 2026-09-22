@@ -216,7 +216,7 @@
         return `<article class="release" id="release-${r.id}">
           <a class="release-cover-link" href="${r.links.bandlink}" target="_blank" rel="noopener" aria-label="${ui.release.all}: ${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
           <div class="release-body">
-            <div class="achievement-meta">${r.date.slice(0, 4)} · ${r.duration}</div>
+            <div class="achievement-meta">${new Date(r.date).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { month: 'long', year: 'numeric' })} · ${r.duration}</div>
             <div class="achievement-title">${r.title}</div>
             <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
             ${clips ? `<div class="release-clips">${clips}</div>` : ''}
