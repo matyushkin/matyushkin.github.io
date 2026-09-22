@@ -888,3 +888,56 @@ main h3 {
         gap: 0.4em;
     }
 }
+
+/* ── One work, one page (release, book) ──────────────────────────────────── */
+
+.item-page h1 {
+    margin-bottom: 0.1em;
+}
+
+/* The base rule only hides paragraphs of the other language. */
+html[lang="en"] .item-page h1[lang="ru"],
+html[lang="ru"] .item-page h1[lang="en"],
+html[lang="en"] .item-back a[lang="ru"],
+html[lang="ru"] .item-back a[lang="en"] {
+    display: none;
+}
+
+.item-cover {
+    width: 360px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 1.2em;
+}
+
+.item-links {
+    margin-top: 0.4em;
+}
+
+.item-links span {
+    color: #767676;
+}
+
+.dark-theme .item-links span {
+    color: #999;
+}
+
+.item-clip img {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 4px;
+    display: block;
+}
+
+.item-back {
+    margin-top: 2.2em;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    .item-cover {
+        width: 100%;
+    }
+}

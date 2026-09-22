@@ -302,7 +302,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       }).join('')}</div>`).join('');
   }
 
-  function render(achievements, lang, releases) {
+  function render(achievements, lang, releases, books) {
     document.documentElement.lang = lang;
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
@@ -337,46 +337,25 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
             <img src="clips/${v.youtube}.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
         return `<article class="release" id="release-${r.id}">
           <div class="release-media">
-            <a class="release-cover-link" href="${r.links.bandlink}" target="_blank" rel="noopener" aria-label="${ui.release.all}: ${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
+            <a class="release-cover-link" href="releases/${r.id}/" aria-label="${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
             ${clips}
           </div>
           <div class="release-body">
             <div class="achievement-meta">${new Date(r.date).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { month: 'long', year: 'numeric' })} · ${r.duration}</div>
-            <div class="achievement-title">${r.title}</div>
+            <div class="achievement-title"><a href="releases/${r.id}/">${r.title}</a></div>
             <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
           </div>
         </article>`;
       }).join('');
 
-    const books = [
-      {
-        id: 'book-aya',
-        year: 2018,
-        url: 'books/aya-2018.pdf',
-        patreon: 'https://www.patreon.com/posts/kniga-stikhov-go-18748964',
-        i18n: {
-          ru: { title: '«а/я»', venue: 'самиздат' },
-          en: { title: '«а/я»', venue: 'Self-published' }
-        }
-      },
-      {
-        id: 'book-space',
-        year: 2015,
-        url: 'books/o-prostranstve-i-vremeni-2015.pdf',
-        i18n: {
-          ru: { title: '«О пространстве и времени»', venue: 'самиздат' },
-          en: { title: '«О пространстве и времени» [On Space and Time]', venue: 'Self-published' }
-        }
-      }
-    ];
     const bookTypeLabel = ui.types.book;
-    document.getElementById('books-list').innerHTML = books.map(b => {
+    document.getElementById('books-list').innerHTML = (books || []).map(b => {
       const i = b.i18n[lang] || b.i18n.ru;
-      const links = [`<a href="${b.url}" target="_blank" rel="noopener">PDF</a>`];
+      const links = [`<a href="${b.pdf}" target="_blank" rel="noopener">PDF</a>`];
       if (b.patreon) links.push(`<a href="${b.patreon}" target="_blank" rel="noopener">Patreon</a>`);
       return `<div class="achievement" id="${b.id}">
         <div class="achievement-meta">${bookTypeLabel} · ${b.year}</div>
-        <div class="achievement-title">${i.title}</div>
+        <div class="achievement-title"><a href="books/${b.id}/">${i.title}</a></div>
         <div class="achievement-venue">${i.venue}</div>
         <div class="achievement-links">${links.join(' · ')}</div>
       </div>`;
@@ -405,10 +384,11 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     .then(([data, feeds]) => {
       const achievements = data.achievements;
       const releases = data.releases;
+      const books = data.books;
       const lang = getLang();
       const select = document.getElementById('lang-select');
       select.value = lang;
-      render(achievements, lang, releases);
+      render(achievements, lang, releases, books);
       renderFeeds(feeds, lang);
 
       select.addEventListener('change', () => {
@@ -417,7 +397,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
         const url = new URL(window.location);
         url.searchParams.set('lang', l);
         history.replaceState(null, '', url);
-        render(achievements, l, releases);
+        render(achievements, l, releases, books);
         renderFeeds(feeds, l);
       });
     });
