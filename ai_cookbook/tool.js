@@ -18,7 +18,7 @@
       stable: 'стабильно',
       deprecated: 'устарело',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
-      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a>'
     },
     en: {
       back: 'Back to AI Cookbook',
@@ -38,7 +38,7 @@
       stable: 'stable',
       deprecated: 'deprecated',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
-      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a>'
+      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
     }
   };
 
