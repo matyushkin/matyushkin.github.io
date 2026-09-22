@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru">
+  <title>Leo Matyushkin</title>
+  <subtitle>Музыка, литература, наука, рисунки — Music, literature, science, drawings</subtitle>
+  <link rel="alternate" type="text/html" href="https://matyushkin.github.io/"/>
+  <link rel="self" type="application/atom+xml" href="https://matyushkin.github.io/feed.xml"/>
+  <id>https://matyushkin.github.io/</id>
+  <updated>2026-09-22T00:00:00Z</updated>
+  <author><name>Leo Matyushkin</name><email>leva.matyushkin@gmail.com</email></author>
+  <entry>
+    <title xml:lang="en">A Poem About the Grey Heron</title>
+    <link rel="alternate" type="text/html" href="https://band.link/23ItB"/>
+    <id>https://matyushkin.github.io/art/index.html#release-a-poem-about-the-grey-heron</id>
+    <published>2026-08-28T00:00:00Z</published>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <category term="Music" label="Музыка"/>
+    <summary type="text">1:25</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">The Jungle Route</title>
+    <link rel="alternate" type="text/html" href="https://band.link/8JDln"/>
+    <id>https://matyushkin.github.io/art/index.html#release-the-jungle-route</id>
+    <published>2026-07-31T00:00:00Z</published>
+    <updated>2026-07-31T00:00:00Z</updated>
+    <category term="Music" label="Музыка"/>
+    <summary type="text">4:08</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Beneath the Light</title>
+    <link rel="alternate" type="text/html" href="https://band.link/UktFa"/>
+    <id>https://matyushkin.github.io/art/index.html#release-beneath-the-light</id>
+    <published>2026-06-25T00:00:00Z</published>
+    <updated>2026-06-25T00:00:00Z</updated>
+    <category term="Music" label="Музыка"/>
+    <summary type="text">2:19</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">«Иная глина»</title>
+    <link rel="alternate" type="text/html" href="https://www.patreon.com/matyushkin/posts/inaia-glina-160609257"/>
+    <id>https://matyushkin.github.io/art/index.html#vozduh-46-2026</id>
+    <published>2026-01-01T00:00:00Z</published>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <category term="Literature" label="Литература"/>
+    <summary type="text">Журнал поэзии «Воздух», №46. Цикл стихотворений, с. 256–266. Стихи написаны в 2020–2025 гг. Текст опубликован на Патреоне.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">«Воскресные вкладыши»</title>
+    <link rel="alternate" type="text/html" href="https://na-kolenke-zin.ru/?p=913"/>
+    <id>https://matyushkin.github.io/art/index.html#na-kolenke-2024</id>
+    <published>2024-01-01T00:00:00Z</published>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <category term="Literature" label="Литература"/>
+    <summary type="text">Журнал (бывший «Журнал на коленке»), 28.05.2024. Цикл стихотворений.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Saint Peter and the Rooster</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/126903249/Saint-Peter-and-the-Rooster"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-126903249</id>
+    <published>2021-09-07T00:00:00Z</published>
+    <updated>2021-09-07T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Comets</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/97753027/Comets"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-97753027</id>
+    <published>2020-05-26T00:00:00Z</published>
+    <updated>2020-05-26T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Poetry book</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/97702389/Poetry-book"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-97702389</id>
+    <published>2020-05-25T00:00:00Z</published>
+    <updated>2020-05-25T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Programming books</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/97658727/Programming-books"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-97658727</id>
+    <published>2020-05-24T00:00:00Z</published>
+    <updated>2020-05-24T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Other Dogs</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/97561007/Other-Dogs"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-97561007</id>
+    <published>2020-05-22T00:00:00Z</published>
+    <updated>2020-05-22T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Antique dogs</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/97492079/Antique-dogs"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-97492079</id>
+    <published>2020-05-21T00:00:00Z</published>
+    <updated>2020-05-21T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="en">Illustrations for proglib.io</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/91853101/Illustrations-for-proglibio"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-91853101</id>
+    <published>2020-02-06T00:00:00Z</published>
+    <updated>2020-02-06T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Невротические состояния студентов-медиков</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/science/index.html"/>
+    <id>https://matyushkin.github.io/science/index.html#forcipe-neurotic-2020</id>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Forcipe</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">«Сорока щенка маленького унесла»</title>
+    <link rel="alternate" type="text/html" href="https://web.archive.org/web/20250315043837/https://flagi.media/piece/79"/>
+    <id>https://matyushkin.github.io/art/index.html#flagi-5-2020</id>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <category term="Literature" label="Литература"/>
+    <summary type="text">Культурный проект «Флаги», №5, 30.08.2020. Цикл стихотворений. Журнал закрыт, доступен в web archive.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Photo- and electroluminescence features of films and field effect transistors based on inorganic perovskite nanocrystals embedded in a polymer matrix</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:pqnbT2bcN3wC"/>
+    <id>https://matyushkin.github.io/science/index.html#synthetic-metals-2020</id>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Synthetic Metals, 260, 116291. AN Aleshin, IP Shcherbakov, OP Chikalova-Luzina, LB Matyushkin et al.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Detection of Apoptosis in Cancer Cells Using Heat Shock Protein 70 and p53 Antibody Conjugated Quantum Dot Nanoparticles</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:ZHo1McVdvXMC"/>
+    <id>https://matyushkin.github.io/science/index.html#apoptosis-chapter-2020</id>
+    <published>2020-01-01T00:00:00Z</published>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Book chapter, October 2020. LB Matyushkin, OA Aleksandrova, AO Drobintseva et al.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Наноструктурные оксидные материалы в современной микро-, нано- и оптоэлектронике</title>
+    <link rel="alternate" type="text/html" href="https://www.researchgate.net/publication/330498142"/>
+    <id>https://matyushkin.github.io/science/index.html#nanostructured-oxides-book-2019</id>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Монография, СПбГЭТУ «ЛЭТИ», 2019. О.А. Александрова, А. Бобков, А.И. Максимов, Л.Б. Матюшкин, В.А. Мошников и др.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Внедрение серебра в матрицу пористого кремния методом электро-термодиффузии</title>
+    <link rel="alternate" type="text/html" href="https://www.researchgate.net/publication/336135501"/>
+    <id>https://matyushkin.github.io/science/index.html#kondensed-matter-2019</id>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Конденсированные среды и межфазные границы, сентябрь 2019. Л.Б. Матюшкин, И. Плешанов, П.В. Середин, В. Кошевой и др.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Terahertz Vibrational Modes in CH₃NH₃PbI₃ and CsPbI₃ Perovskite Films</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:M05iB0D1s5AC"/>
+    <id>https://matyushkin.github.io/science/index.html#jetp-letters-2019</id>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">JETP Letters, 109 (1), 28–32. AV Andrianov, AN Aleshin, LB Matyushkin</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr₃ Nanocrystals</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:ldfaerwXgEUC"/>
+    <id>https://matyushkin.github.io/science/index.html#phys-solid-state-2019</id>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Physics of the Solid State, 61 (2), 256–262. AN Aleshin, IP Shcherbakov, DA Kirilenko, LB Matyushkin, VA Moshnikov</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Current state of studies on synthesis and application of zinc stannate</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:g5m5HwL7SMYC"/>
+    <id>https://matyushkin.github.io/science/index.html#glass-phys-zno-2019</id>
+    <published>2019-01-01T00:00:00Z</published>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Glass Physics and Chemistry, 45 (4), 251–260. SS Nalimova, AI Maksimov, LB Matyushkin, VA Moshnikov</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Технология получения коллоидных квантовых точек, плазмонных наночастиц и гибридных структур на их основе</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/science/index.html"/>
+    <id>https://matyushkin.github.io/science/index.html#conf-solgel-qd-technology-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">V Межд. конф. СНГ «Золь-гель синтез и исследование неорганических соединений, гибридных функциональных материалов и дисперсных систем» (Золь-гель 2018), СПб.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Технология и оборудование для получения коллоидных квантовых точек, плазмонных наночастиц и гибридных структур на их основе</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/science/index.html"/>
+    <id>https://matyushkin.github.io/science/index.html#conf-amorphous-qd-tech-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Межд. конф. «Аморфные и микрокристаллические полупроводники», ФТИ им. Иоффе, СПб., 2018</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе</title>
+    <link rel="alternate" type="text/html" href="https://www.researchgate.net/publication/326207994"/>
+    <id>https://matyushkin.github.io/science/index.html#dissertation-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Диссертация на соискание учёной степени к.т.н., СПбГЭТУ «ЛЭТИ», Санкт-Петербург</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/science/index.html"/>
+    <id>https://matyushkin.github.io/science/index.html#avtoref-dissertation-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Автореферат диссертации, СПбГЭТУ «ЛЭТИ», 2018</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Разработка установки для диагностики наноструктурированных материалов методом объёмных индикатрис светорассеяния</title>
+    <link rel="alternate" type="text/html" href="https://www.researchgate.net/publication/324215748"/>
+    <id>https://matyushkin.github.io/science/index.html#scattering-indicatrix-thesis-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">VI НПК «Наука настоящего и будущего», СПбГЭТУ «ЛЭТИ», 24 марта 2018 г., с. 442–443. Е.М. Тихомиров, Л.Б. Матюшкин</summary>
+  </entry>
+  <entry>
+    <title xml:lang="ru">Исследование оптических свойств мембран поликристаллического анодного оксида алюминия в инфракрасной области спектра</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/science/index.html"/>
+    <id>https://matyushkin.github.io/science/index.html#conf-fizikaspb-alumina-ir-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Межд. конф. «Физика.СПб», 2018</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:vV6vV6tmYwMC"/>
+    <id>https://matyushkin.github.io/science/index.html#irmmw-thz-perovskite-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">IEEE IRMMW-THz 2018, pp. 1–2</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Study of CsPbBr₃ Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:2P1L_qKh6hAC"/>
+    <id>https://matyushkin.github.io/science/index.html#opt-spectroscopy-cspbbr3-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Optics and Spectroscopy, 125(6), 858–863. PA Dement'ev, MS Dunaevskii, LB Matyushkin et al.</summary>
+  </entry>
+  <entry>
+    <title xml:lang="en">Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals</title>
+    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:BqipwSGYUEgC"/>
+    <id>https://matyushkin.github.io/science/index.html#phys-rev-b-2018</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Science" label="Наука"/>
+    <summary type="text">Physical Review B, 97 (23), 235304. MO Nestoklon, SV Goupalov, RI Dzhioev, OS Ken, VL Korenev, LB Matyushkin et al.</summary>
+  </entry>
+</feed>
