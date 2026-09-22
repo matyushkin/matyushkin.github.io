@@ -105,7 +105,7 @@
       musicTitle: 'Музыка',
       literatureTitle: 'Литература',
       visualTitle: 'Изобразительное',
-      behanceTitle: 'Проекты на Behance',
+      behanceTitle: 'Проекты на <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
       instagramTitle: 'Последнее в Инстаграме',
       booksTitle: 'Книги',
       release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки' },
@@ -151,7 +151,7 @@
       musicTitle: 'Music',
       literatureTitle: 'Literature',
       visualTitle: 'Visual art',
-      behanceTitle: 'Projects on Behance',
+      behanceTitle: 'Projects on <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
       instagramTitle: 'Latest on Instagram',
       booksTitle: 'Books',
       release: { clip: 'Video', listen: 'Listen', all: 'All platforms' },
@@ -210,7 +210,7 @@
 
   function renderFeeds(feeds, lang) {
     const ui = UI[lang] || UI.en;
-    document.getElementById('behance-title').textContent = ui.behanceTitle;
+    document.getElementById('behance-title').innerHTML = ui.behanceTitle;
     document.getElementById('instagram-title').textContent = ui.instagramTitle;
     const behance = (feeds && feeds.behance) || [];
     document.getElementById('behance-list').innerHTML = behance.map(p => `
