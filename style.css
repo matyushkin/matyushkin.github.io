@@ -731,6 +731,26 @@ main h3 {
 
 .tiles-account { font-size: 0.9em; margin: 0.8em 0 0; }
 
+/* ── Touch devices: tap targets ──────────────────────────────────────────── */
+/* Keyed on the input method, not the width, so a tablet at desktop width gets
+   finger-sized targets too. Apple asks for 44px, Material for 48dp. */
+
+@media (hover: none) and (pointer: coarse) {
+    nav section a,
+    .section-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    select.lang-select,
+    .theme-button {
+        min-height: 44px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
 /* ── Phone layout ────────────────────────────────────────────────────────── */
 /* Desktop rules above stay untouched; these apply only on small screens:
    body text at the size phones read comfortably, a 16px gutter, tap targets
