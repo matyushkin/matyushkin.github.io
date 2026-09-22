@@ -207,6 +207,63 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     });
   }
 
+  // Tell search engines what the releases are, so a track can surface as music
+  // rather than as a line of text. Built from the same data the page renders.
+  function describeReleases(releases, ui) {
+    const site = 'https://matyushkin.github.io';
+    const artist = {
+      '@type': 'MusicGroup',
+      name: 'Leo Matyushkin',
+      url: site + '/art/index.html',
+      sameAs: ui.profiles.music.map(p => p.url)
+    };
+    const iso = (d) => {
+      const [m, sec] = (d || '').split(':').map(Number);
+      return Number.isFinite(m) && Number.isFinite(sec) ? `PT${m}M${sec}S` : undefined;
+    };
+    const data = releases.map(r => {
+      const links = Object.values(r.links).filter(Boolean);
+      const album = {
+        '@context': 'https://schema.org',
+        '@type': 'MusicAlbum',
+        name: r.title,
+        albumReleaseType: 'https://schema.org/SingleRelease',
+        albumProductionType: 'https://schema.org/StudioAlbum',
+        byArtist: artist,
+        datePublished: r.date,
+        image: site + '/art/' + r.cover,
+        url: r.links.bandlink || site + '/art/index.html',
+        sameAs: links,
+        track: {
+          '@type': 'MusicRecording',
+          name: r.title,
+          byArtist: artist,
+          duration: iso(r.duration),
+          inAlbum: { '@type': 'MusicAlbum', name: r.title },
+          url: r.links.spotify || r.links.bandlink
+        }
+      };
+      (r.videos || []).forEach(v => {
+        album.track.video = {
+          '@type': 'VideoObject',
+          name: `${r.title} — ${ui.release.clip}`,
+          thumbnailUrl: `${site}/art/clips/${v.youtube}.jpg`,
+          uploadDate: r.date,
+          contentUrl: `https://www.youtube.com/watch?v=${v.youtube}`
+        };
+      });
+      return album;
+    });
+    let tag = document.getElementById('releases-schema');
+    if (!tag) {
+      tag = document.createElement('script');
+      tag.type = 'application/ld+json';
+      tag.id = 'releases-schema';
+      document.head.appendChild(tag);
+    }
+    tag.textContent = JSON.stringify(data, null, 2);
+  }
+
   function dateLabel(iso, lang) {
     return new Date(iso).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
   }
@@ -262,6 +319,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     document.getElementById('footer-text').innerHTML = ui.footer;
 
     const platform = { spotify: 'Spotify', apple: 'Apple Music', youtubeMusic: 'YouTube Music' };
+    describeReleases(releases || [], ui);
     document.getElementById('releases-list').innerHTML = (releases || [])
       .slice().sort((a, b) => b.date.localeCompare(a.date))
       .map(r => {
