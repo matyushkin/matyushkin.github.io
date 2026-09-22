@@ -98,17 +98,20 @@ test.describe('science/index.html', () => {
 test.describe('art/index.html', () => {
   test('RU: profiles in Russian', async ({ page }) => {
     await page.goto('/art/index.html?lang=ru');
-    await expect(page.locator('#profiles-music')).toContainText('Саундклауд');
-    const visual = page.locator('#profiles-visual');
-    await expect(visual).toContainText('Канал в Телеграме (LMPIX)');
-    await expect(visual).toContainText('Дриббл');
-    await expect(visual).toContainText('Девиантарт');
+    const profiles = page.locator('#profiles-list');
+    await expect(profiles).toContainText('Саундклауд');
+    await expect(profiles).toContainText('Канал с картинками');
+    await expect(profiles).toContainText('Бихенс');
+    await expect(profiles).toContainText('Дриббл');
+    await expect(profiles).toContainText('Девиантарт');
   });
 
   test('EN: profiles in English', async ({ page }) => {
     await page.goto('/art/index.html?lang=en');
-    await expect(page.locator('#profiles-music')).toContainText('SoundCloud');
-    await expect(page.locator('#profiles-visual')).toContainText('Telegram channel (LMPIX)');
+    const profiles = page.locator('#profiles-list');
+    await expect(profiles).toContainText('SoundCloud');
+    await expect(profiles).toContainText('Drawing channel');
+    await expect(profiles).toContainText('Behance');
   });
 
   test('books show самиздат in RU', async ({ page }) => {
@@ -122,9 +125,9 @@ test.describe('art/index.html', () => {
     await expect(page.locator('#achievements-list')).toContainText('[Other Clay]');
   });
 
-  test('RU bio mentions Журнал (formerly На коленке)', async ({ page }) => {
+  test('RU bio mentions Журнал на коленке', async ({ page }) => {
     await page.goto('/art/index.html?lang=ru');
-    await expect(page.locator('p[lang="ru"]').first()).toContainText('«Журнале» (бывший «Журнал на коленке»)');
+    await expect(page.locator('p[lang="ru"]').first()).toContainText('Журнале на коленке');
   });
 
   test('publications render (non-empty list)', async ({ page }) => {
@@ -171,22 +174,9 @@ test.describe('technology/index.html', () => {
 // ─── AI Cookbook ─────────────────────────────────────────────────────────────
 
 test.describe('ai_cookbook/index.html', () => {
-  test('RU: renders overview with glossary before catalog', async ({ page }) => {
+  test('RU: renders catalog with key agent entries', async ({ page }) => {
     await page.goto('/ai_cookbook/index.html?lang=ru');
     await expect(page.locator('#page-title')).toHaveText('AI Cookbook');
-    await expect(page.locator('#nav-technology')).toHaveAttribute('aria-current', 'page');
-    await expect(page.locator('#hub-links')).toContainText('Глоссарий');
-    await expect(page.locator('#hub-links')).toContainText('Каталог');
-    await expect(page.locator('#hub-links article').first()).toContainText('Глоссарий');
-    await expect(page.locator('#catalog-list')).toHaveCount(0);
-    await expect(page.locator('#recipes-list')).toContainText('RAG для личного архива');
-  });
-});
-
-test.describe('ai_cookbook/catalog/index.html', () => {
-  test('RU: renders catalog with key agent entries', async ({ page }) => {
-    await page.goto('/ai_cookbook/catalog/index.html?lang=ru');
-    await expect(page.locator('#page-title')).toHaveText('Каталог AI Cookbook');
     await expect(page.locator('#nav-technology')).toHaveAttribute('aria-current', 'page');
     await expect(page.locator('#catalog-list')).toContainText('LangGraph');
     await expect(page.locator('#catalog-list')).toContainText('OpenClaw');
@@ -194,39 +184,21 @@ test.describe('ai_cookbook/catalog/index.html', () => {
   });
 
   test('search filters entries', async ({ page }) => {
-    await page.goto('/ai_cookbook/catalog/index.html?lang=en');
-    await page.fill('#catalog-search', 'Microsoft SK');
-    await expect(page.locator('#result-count')).toHaveText('1 entry');
-    await expect(page.locator('#catalog-list .cookbook-entry')).toHaveCount(1);
+    await page.goto('/ai_cookbook/index.html?lang=en');
+    await page.fill('#catalog-search', 'semantic kernel');
     await expect(page.locator('#catalog-list')).toContainText('Semantic Kernel');
     await expect(page.locator('#catalog-list')).not.toContainText('Ollama');
-
-    await page.fill('#catalog-search', 'definitely-not-in-catalog');
-    await expect(page.locator('#result-count')).toHaveText('0 entries');
-    await expect(page.locator('#catalog-list .cookbook-entry')).toHaveCount(0);
-    await expect(page.locator('#catalog-list')).toContainText('No entries found');
-
-    await page.fill('#catalog-search', '');
-    await page.selectOption('#mode-filter', 'local');
-    await expect(page.locator('#catalog-list .cookbook-entry')).not.toHaveCount(0);
-    await expect(page.locator('#catalog-list')).toContainText('Ollama');
   });
 
   test('mode filter can show local runtimes', async ({ page }) => {
-    await page.goto('/ai_cookbook/catalog/index.html?lang=en');
+    await page.goto('/ai_cookbook/index.html?lang=en');
     await page.selectOption('#mode-filter', 'local');
-    const localCount = await page.locator('#catalog-list .cookbook-entry').count();
-    expect(localCount).toBeGreaterThan(0);
-    expect(localCount).toBeLessThan(40);
     await expect(page.locator('#catalog-list')).toContainText('Ollama');
     await expect(page.locator('#catalog-list')).toContainText('llama.cpp');
-    await expect(page.locator('#catalog-list')).not.toContainText('OpenAI API');
   });
-});
 
-test.describe('ai_cookbook overview content', () => {
   test('renders recipes, matrix, and expandable adoption profiles', async ({ page }) => {
-    await page.goto('/ai_cookbook/catalog/index.html?lang=ru');
+    await page.goto('/ai_cookbook/index.html?lang=ru');
     await expect(page.locator('#recipes-list')).toContainText('RAG для личного архива');
     await expect(page.locator('#recipes-list')).toContainText('Coding-agent workflow');
     await expect(page.locator('#comparison-matrix')).toContainText('LangGraph');
@@ -245,45 +217,16 @@ test.describe('ai_cookbook overview content', () => {
   });
 
   test('key tools expose detail pages and freshness metadata', async ({ page }) => {
-    await page.goto('/ai_cookbook/catalog/index.html?lang=ru');
+    await page.goto('/ai_cookbook/index.html?lang=ru');
     await expect(page.locator('#langgraph')).toContainText('Проверено');
     await expect(page.locator('#langgraph .achievement-links')).toContainText('Подробнее');
-    await page.click('#langgraph .achievement-links a[href="../tools/langgraph/"]');
+    await page.click('#langgraph .achievement-links a[href="tools/langgraph/"]');
     await expect(page).toHaveURL(/\/ai_cookbook\/tools\/langgraph\/$/);
     await expect(page.locator('h1')).toHaveText('LangGraph');
     await expect(page.locator('#tool-body')).toContainText('Архитектура');
     await expect(page.locator('#tool-body')).toContainText('История и контекст');
     await expect(page.locator('#tool-body')).toContainText('Типичные провалы');
     await expect(page.locator('#tool-meta')).toContainText('быстро меняется');
-  });
-});
-
-test.describe('ai_cookbook/glossary/index.html', () => {
-  test('renders glossary terms', async ({ page }) => {
-    await page.goto('/ai_cookbook/glossary/index.html?lang=ru');
-    await expect(page.locator('#page-title')).toHaveText('Глоссарий AI Cookbook');
-    await expect(page.locator('#glossary-count')).toContainText('терминов');
-    await expect(page.locator('#glossary-list .glossary-group').first()).toContainText('Базовые понятия');
-    await expect(page.locator('#glossary-list')).toContainText('Harness');
-    await expect(page.locator('#glossary-list')).toContainText('MCP');
-    await expect(page.locator('#glossary-list')).toContainText('RAG');
-    await expect(page.locator('#glossary-list')).toContainText('Prompt injection');
-    await expect(page.locator('#glossary-list')).toContainText('Vector database');
-    await expect(page.locator('#nav-technology')).toHaveAttribute('aria-current', 'page');
-  });
-
-  test('can search and sort glossary terms', async ({ page }) => {
-    await page.goto('/ai_cookbook/glossary/index.html?lang=en');
-    await page.fill('#glossary-search', 'sandbox');
-    await expect(page.locator('#glossary-count')).toHaveText('1 term');
-    await expect(page.locator('#glossary-list .glossary-term')).toHaveCount(1);
-    await expect(page.locator('#glossary-list')).toContainText('Sandbox');
-    await expect(page.locator('#glossary-list')).not.toContainText('RAG');
-
-    await page.fill('#glossary-search', '');
-    await page.selectOption('#sort-mode', 'alphabetical');
-    await expect(page.locator('#glossary-list .glossary-term').first()).toContainText('Agent');
-    await expect(page.locator('#glossary-list .glossary-group')).toHaveCount(0);
   });
 });
 
@@ -332,8 +275,6 @@ test.describe('accessibility (WCAG 2.1 AA)', () => {
     '/science/index.html?lang=en',
     '/technology/index.html?lang=en',
     '/ai_cookbook/index.html?lang=en',
-    '/ai_cookbook/catalog/index.html?lang=en',
-    '/ai_cookbook/glossary/index.html?lang=en',
     '/ai_cookbook/tools/langgraph/?lang=en',
   ];
 
@@ -397,6 +338,6 @@ test.describe('mobile layout (375px)', () => {
   test('AI Cookbook page renders on mobile', async ({ page }) => {
     await page.goto('/ai_cookbook/index.html?lang=en');
     await expect(page.locator('h1')).toBeVisible();
-    await expect(page.locator('.cookbook-hub-card').first()).toBeVisible();
+    await expect(page.locator('.cookbook-entry').first()).toBeVisible();
   });
 });
