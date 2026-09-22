@@ -2980,6 +2980,71 @@
         "scholar": null,
         "researchgate": "https://www.researchgate.net/publication/324215748"
       }
+    },
+    {
+      "id": "inorganic-materials-ir-alumina-2018",
+      "type": "publication",
+      "subtype": "journal",
+      "year": 2018,
+      "citations": 0,
+      "i18n": {
+        "ru": {
+          "title": "IR Scattering by Optically Inhomogeneous Nanoporous Anodic Alumina Films",
+          "venue": "Inorganic Materials, 54 (6)",
+          "description": "LB Matyushkin, VA Moshnikov, KV Chernyakova, IA Vrublevsky"
+        },
+        "en": {
+          "title": "IR Scattering by Optically Inhomogeneous Nanoporous Anodic Alumina Films",
+          "venue": "Inorganic Materials, 54 (6)",
+          "description": "LB Matyushkin, VA Moshnikov, KV Chernyakova, IA Vrublevsky"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:rO6llkc54NcC"
+      }
+    },
+    {
+      "id": "eiconrusnw-pbs-cbd-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Growth characteristics of nanostructured lead sulfide films prepared by chemical bath deposition",
+          "venue": "IEEE EIConRusNW 2016, pp. 9–11"
+        },
+        "en": {
+          "title": "Growth characteristics of nanostructured lead sulfide films prepared by chemical bath deposition",
+          "venue": "IEEE EIConRusNW 2016, pp. 9–11"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:QIV2ME_5wuYC",
+        "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4033529815149585525&as_sdt=5"
+      }
+    },
+    {
+      "id": "eiconrusnw-cds-silar-2016",
+      "type": "conference",
+      "year": 2016,
+      "citations": 3,
+      "i18n": {
+        "ru": {
+          "title": "Cadmium sulfide thin films produced by successive ionic layer adsorption and reaction method",
+          "venue": "IEEE EIConRusNW 2016, pp. 19–22"
+        },
+        "en": {
+          "title": "Cadmium sulfide thin films produced by successive ionic layer adsorption and reaction method",
+          "venue": "IEEE EIConRusNW 2016, pp. 19–22"
+        }
+      },
+      "lang_of_work": "en",
+      "urls": {
+        "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=x0O884MAAAAJ&citation_for_view=x0O884MAAAAJ:9ZlFYXVOiuMC",
+        "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17107808569023997308&as_sdt=5"
+      }
     }
   ]
 }
