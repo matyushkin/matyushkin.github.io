@@ -649,6 +649,7 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
     margin-bottom: 2em;
 }
 
+.release-cover-link { flex: 0 0 160px; line-height: 0; }
 .release-cover {
     width: 160px;
     height: 160px;
@@ -687,5 +688,6 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 
 @media (max-width: 480px) {
     .release { flex-direction: column; }
-    .release-cover { width: 100%; height: auto; flex-basis: auto; aspect-ratio: 1; }
+    .release-cover-link { flex-basis: auto; width: 100%; }
+    .release-cover { width: 100%; height: auto; aspect-ratio: 1; }
 }

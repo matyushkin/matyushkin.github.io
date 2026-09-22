@@ -74,12 +74,12 @@
     <h1 id="page-title">Art</h1>
 
     <p lang="ru">Пишу стихи, малую прозу, эссе. Публиковался на «Полутонах», в «Воздухе», «Флагах», «Журнале» (бывший «Журнал на коленке»). Рисую акрилом, акварелью и цветными карандашами. Сочиняю песни, электронную, клавишную и гитарную музыку, веду музыкальный дневник на Саундклауд.</p>
-    <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>Zhurnal</em> (formerly <em>Na Kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music, keeping a musical diary on SoundCloud.</p>
+    <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em> (formerly <em>Zhurnal na kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music, keeping a musical diary on SoundCloud.</p>
 
     <h2 id="links-title">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
-    <h2 id="releases-title">Релизы</h2>
+    <h2 id="releases-title">Музыка</h2>
     <div id="releases-list" class="releases"></div>
 
     <h2 id="books-title">Книги</h2>
@@ -97,7 +97,7 @@
     ru: {
       pageTitle: 'Искусство',
       linksTitle: 'Профили',
-      releasesTitle: 'Релизы',
+      releasesTitle: 'Музыка',
       booksTitle: 'Книги',
       release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки' },
       publicationsTitle: 'Публикации',
@@ -134,7 +134,7 @@
     en: {
       pageTitle: 'Art',
       linksTitle: 'Profiles',
-      releasesTitle: 'Releases',
+      releasesTitle: 'Music',
       booksTitle: 'Books',
       release: { clip: 'Video', listen: 'Listen', all: 'All platforms' },
       publicationsTitle: 'Publications',
@@ -208,7 +208,6 @@
     document.getElementById('releases-list').innerHTML = (releases || [])
       .slice().sort((a, b) => b.date.localeCompare(a.date))
       .map(r => {
-        const i = r.i18n[lang] || r.i18n.en;
         const listen = Object.entries(r.links)
           .filter(([k]) => platform[k])
           .map(([k, url]) => `<a href="${url}" target="_blank" rel="noopener">${platform[k]}</a>`);
@@ -216,9 +215,9 @@
         const clips = (r.videos || []).map((v, n) => `<a class="release-clip" href="https://www.youtube.com/watch?v=${v.youtube}" target="_blank" rel="noopener" aria-label="${ui.release.clip}: ${r.title}">
             <img src="https://i.ytimg.com/vi/${v.youtube}/mqdefault.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
         return `<article class="release" id="release-${r.id}">
-          <img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160">
+          <a class="release-cover-link" href="${r.links.bandlink}" target="_blank" rel="noopener" aria-label="${ui.release.all}: ${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
           <div class="release-body">
-            <div class="achievement-meta">${r.date.slice(0, 4)} · ${i.genre} · ${r.duration}</div>
+            <div class="achievement-meta">${r.date.slice(0, 4)} · ${r.duration}</div>
             <div class="achievement-title">${r.title}</div>
             <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
             ${clips ? `<div class="release-clips">${clips}</div>` : ''}
