@@ -97,7 +97,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2019,
-      "citations": 37,
+      "citations": 36,
       "i18n": {
         "ru": {
           "title": "Current state of studies on synthesis and application of zinc stannate",
@@ -234,7 +234,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2018,
-      "citations": 19,
+      "citations": 21,
       "i18n": {
         "ru": {
           "title": "Усиленная люминесценция квантовых точек вблизи слоя наночастиц Ag/SiO₂",
@@ -262,7 +262,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2018,
-      "citations": 13,
+      "citations": 14,
       "i18n": {
         "ru": {
           "title": "Одномерные фотонные кристаллы SiO₂–TiO₂: моделирование и синтез золь-гель методом",
@@ -318,7 +318,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2018,
-      "citations": 8,
+      "citations": 9,
       "i18n": {
         "ru": {
           "title": "Влияние гамма-облучения на фотолюминесценцию нанокристаллов CsPbBr₃ и CdSe/ZnS",
@@ -372,7 +372,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2017,
-      "citations": 58,
+      "citations": 59,
       "i18n": {
         "ru": {
           "title": "Полевые транзисторы на основе плёнок полифторена с нанокристаллами CsPbI₃ с малым гистерезисом характеристик",
@@ -508,7 +508,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2017,
-      "citations": 4,
+      "citations": 6,
       "i18n": {
         "ru": {
           "title": "Синтез нанокристаллов квантовых точек и плазмонных наночастиц в реакторе сегментированного потока",
@@ -590,7 +590,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2015,
-      "citations": 21,
+      "citations": 22,
       "i18n": {
         "ru": {
           "title": "Коллоидные квантовые точки CdSe и ZnSe/Mn: цитотоксичность и влияние на морфологию клеток",
@@ -642,7 +642,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2014,
-      "citations": 22,
+      "citations": 23,
       "i18n": {
         "ru": {
           "title": "Особенности синтеза коллоидных квантовых точек в неполярных и водных средах",
@@ -942,7 +942,7 @@
       "id": "eiconrus-sol-gel-2017",
       "type": "conference",
       "year": 2017,
-      "citations": 15,
+      "citations": 16,
       "i18n": {
         "ru": {
           "title": "Sol-gel fabrication of one-dimensional photonic crystals",
@@ -965,7 +965,7 @@
       "id": "jpcs-cspbx3-anion-2017",
       "type": "conference",
       "year": 2017,
-      "citations": 10,
+      "citations": 11,
       "i18n": {
         "ru": {
           "title": "Synthesis and postsynthetic anion exchange of CsPbX₃ (X = Cl, Br, I) quantum dots",
@@ -988,7 +988,7 @@
       "id": "jpcs-plasmonic-pl-2017",
       "type": "conference",
       "year": 2017,
-      "citations": 7,
+      "citations": 8,
       "i18n": {
         "ru": {
           "title": "Plasmonic enhancement of photoluminescence from cadmium sulfide and lead sulfide quantum dots",
@@ -1121,7 +1121,7 @@
       "id": "eiconrusnw-photonic-2016",
       "type": "conference",
       "year": 2016,
-      "citations": 12,
+      "citations": 13,
       "i18n": {
         "ru": {
           "title": "Fabrication of one-dimensional photonic crystals by sol-gel method",
@@ -1144,7 +1144,7 @@
       "id": "jpcs-photonic-predicted-2016",
       "type": "conference",
       "year": 2016,
-      "citations": 22,
+      "citations": 23,
       "i18n": {
         "ru": {
           "title": "Sol-gel fabrication of one-dimensional photonic crystals with predicted transmission spectra",
@@ -1236,7 +1236,7 @@
       "id": "jpcs-cdse-octadecene-2015",
       "type": "conference",
       "year": 2015,
-      "citations": 18,
+      "citations": 19,
       "i18n": {
         "ru": {
           "title": "Preparation of cadmium selenide colloidal quantum dots in non-coordinating solvent octadecene",
@@ -1282,7 +1282,7 @@
       "id": "jpcs-flow-reactor-inline-2015",
       "type": "conference",
       "year": 2015,
-      "citations": 9,
+      "citations": 8,
       "i18n": {
         "ru": {
           "title": "The flow reactor system for in-line synthesis of semiconductor nanoparticles",
@@ -1307,7 +1307,7 @@
       "type": "publication",
       "subtype": "journal",
       "year": 2015,
-      "citations": 9,
+      "citations": 10,
       "i18n": {
         "ru": {
           "title": "Разработка системы поточного синтеза полупроводниковых и металлических наночастиц",
