@@ -5,12 +5,12 @@
   <link rel="alternate" type="text/html" href="https://matyushkin.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://matyushkin.github.io/feed.xml"/>
   <id>https://matyushkin.github.io/</id>
-  <updated>2026-09-22T00:00:00Z</updated>
+  <updated>2026-09-23T00:00:00Z</updated>
   <author><name>Leo Matyushkin</name><email>leva.matyushkin@gmail.com</email></author>
   <entry>
     <title xml:lang="en">A Poem About the Grey Heron</title>
-    <link rel="alternate" type="text/html" href="https://band.link/23ItB"/>
-    <id>https://matyushkin.github.io/art/index.html#release-a-poem-about-the-grey-heron</id>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/art/releases/a-poem-about-the-grey-heron/"/>
+    <id>https://matyushkin.github.io/art/releases/a-poem-about-the-grey-heron/</id>
     <published>2026-08-28T00:00:00Z</published>
     <updated>2026-08-28T00:00:00Z</updated>
     <category term="Music" label="Музыка"/>
@@ -18,8 +18,8 @@
   </entry>
   <entry>
     <title xml:lang="en">The Jungle Route</title>
-    <link rel="alternate" type="text/html" href="https://band.link/8JDln"/>
-    <id>https://matyushkin.github.io/art/index.html#release-the-jungle-route</id>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/art/releases/the-jungle-route/"/>
+    <id>https://matyushkin.github.io/art/releases/the-jungle-route/</id>
     <published>2026-07-31T00:00:00Z</published>
     <updated>2026-07-31T00:00:00Z</updated>
     <category term="Music" label="Музыка"/>
@@ -27,8 +27,8 @@
   </entry>
   <entry>
     <title xml:lang="en">Beneath the Light</title>
-    <link rel="alternate" type="text/html" href="https://band.link/UktFa"/>
-    <id>https://matyushkin.github.io/art/index.html#release-beneath-the-light</id>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/art/releases/beneath-the-light/"/>
+    <id>https://matyushkin.github.io/art/releases/beneath-the-light/</id>
     <published>2026-06-25T00:00:00Z</published>
     <updated>2026-06-25T00:00:00Z</updated>
     <category term="Music" label="Музыка"/>
@@ -244,6 +244,15 @@
     <summary type="text">Межд. конф. «Физика.СПб», 2018</summary>
   </entry>
   <entry>
+    <title xml:lang="ru">«а/я»</title>
+    <link rel="alternate" type="text/html" href="https://matyushkin.github.io/art/books/aya-2018/"/>
+    <id>https://matyushkin.github.io/art/books/aya-2018/</id>
+    <published>2018-01-01T00:00:00Z</published>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <category term="Literature" label="Литература"/>
+    <summary type="text">самиздат</summary>
+  </entry>
+  <entry>
     <title xml:lang="en">Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals</title>
     <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:vV6vV6tmYwMC"/>
     <id>https://matyushkin.github.io/science/index.html#irmmw-thz-perovskite-2018</id>
@@ -260,14 +269,5 @@
     <updated>2018-01-01T00:00:00Z</updated>
     <category term="Science" label="Наука"/>
     <summary type="text">Optics and Spectroscopy, 125(6), 858–863. PA Dement'ev, MS Dunaevskii, LB Matyushkin et al.</summary>
-  </entry>
-  <entry>
-    <title xml:lang="en">Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals</title>
-    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:BqipwSGYUEgC"/>
-    <id>https://matyushkin.github.io/science/index.html#phys-rev-b-2018</id>
-    <published>2018-01-01T00:00:00Z</published>
-    <updated>2018-01-01T00:00:00Z</updated>
-    <category term="Science" label="Наука"/>
-    <summary type="text">Physical Review B, 97 (23), 235304. MO Nestoklon, SV Goupalov, RI Dzhioev, OS Ken, VL Korenev, LB Matyushkin et al.</summary>
   </entry>
 </feed>
