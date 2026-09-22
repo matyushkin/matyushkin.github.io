@@ -639,3 +639,53 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .cookbook-roadmap li {
     margin-bottom: 0.45em;
 }
+
+/* ── Music releases (art) ───────────────────────────────────────────────── */
+
+.release {
+    display: flex;
+    gap: 1.2em;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.release-cover {
+    width: 160px;
+    height: 160px;
+    flex: 0 0 160px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.release-body { min-width: 0; }
+.release-links { font-size: 0.9em; margin-top: 0.3em; }
+.release-links span { color: #767676; }
+.dark-theme .release-links span { color: #999; }
+
+.release-clips { display: flex; flex-wrap: wrap; gap: 0.8em; margin-top: 0.7em; }
+
+.release-clip {
+    position: relative;
+    display: block;
+    width: 160px;
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #000;
+}
+
+.release-clip img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; }
+.release-clip span {
+    position: absolute;
+    left: 0.5em;
+    bottom: 0.4em;
+    color: #fff;
+    font-size: 0.8em;
+    text-shadow: 0 0 4px #000;
+}
+.release-clip:hover img { opacity: 1; }
+
+@media (max-width: 480px) {
+    .release { flex-direction: column; }
+    .release-cover { width: 100%; height: auto; flex-basis: auto; aspect-ratio: 1; }
+}

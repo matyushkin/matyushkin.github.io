@@ -57,5 +57,83 @@
       "lang_of_work": "ru",
       "url": "https://na-kolenke-zin.ru/?p=913"
     }
+  ],
+  "releases": [
+    {
+      "id": "the-jungle-route",
+      "title": "The Jungle Route",
+      "date": "2026-09-06",
+      "duration": "4:08",
+      "cover": "covers/the-jungle-route.jpg",
+      "i18n": {
+        "ru": {
+          "genre": "электроника"
+        },
+        "en": {
+          "genre": "electronic"
+        }
+      },
+      "links": {
+        "spotify": "https://open.spotify.com/album/3qqsFhLYfJSdylPlTZdR3G",
+        "apple": "https://music.apple.com/ru/album/the-jungle-route-single/6786318789",
+        "bandlink": "https://band.link/8JDln"
+      },
+      "videos": [
+        {
+          "youtube": "s_Q5B0eOptM"
+        }
+      ]
+    },
+    {
+      "id": "a-poem-about-the-grey-heron",
+      "title": "A Poem About the Grey Heron",
+      "date": "2026-08-28",
+      "duration": "1:25",
+      "cover": "covers/a-poem-about-the-grey-heron.jpg",
+      "i18n": {
+        "ru": {
+          "genre": "эмбиент"
+        },
+        "en": {
+          "genre": "ambient"
+        }
+      },
+      "links": {
+        "spotify": "https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11",
+        "apple": "https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364",
+        "bandlink": "https://band.link/23ItB"
+      },
+      "videos": [
+        {
+          "youtube": "NkmOJDBSKtA"
+        }
+      ]
+    },
+    {
+      "id": "beneath-the-light",
+      "title": "Beneath the Light",
+      "date": "2026-06-25",
+      "duration": "2:19",
+      "cover": "covers/beneath-the-light.jpg",
+      "i18n": {
+        "ru": {
+          "genre": "неоклассика, эмбиент"
+        },
+        "en": {
+          "genre": "neoclassical, ambient"
+        }
+      },
+      "links": {
+        "spotify": "https://open.spotify.com/album/6UcIXITpmncakdc8tQKPwj",
+        "apple": "https://music.apple.com/il/album/beneath-the-light/6778009757",
+        "youtubeMusic": "https://music.youtube.com/watch?v=IBqFeOPA428",
+        "bandlink": "https://band.link/UktFa"
+      },
+      "videos": [
+        {
+          "youtube": "_zGUEe13TPw"
+        }
+      ]
+    }
   ]
 }

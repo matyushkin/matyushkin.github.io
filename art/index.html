@@ -79,6 +79,9 @@
     <h2 id="links-title">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
+    <h2 id="releases-title">Релизы</h2>
+    <div id="releases-list" class="releases"></div>
+
     <h2 id="books-title">Книги</h2>
     <div id="books-list"></div>
 
@@ -94,7 +97,9 @@
     ru: {
       pageTitle: 'Искусство',
       linksTitle: 'Профили',
+      releasesTitle: 'Релизы',
       booksTitle: 'Книги',
+      release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки' },
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
       profiles: [
@@ -129,7 +134,9 @@
     en: {
       pageTitle: 'Art',
       linksTitle: 'Profiles',
+      releasesTitle: 'Releases',
       booksTitle: 'Books',
+      release: { clip: 'Video', listen: 'Listen', all: 'All platforms' },
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
       profiles: [
@@ -177,12 +184,13 @@
     });
   }
 
-  function render(achievements, lang) {
+  function render(achievements, lang, releases) {
     document.documentElement.lang = lang;
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';
     document.getElementById('links-title').textContent = ui.linksTitle;
+    document.getElementById('releases-title').textContent = ui.releasesTitle;
     document.getElementById('books-title').textContent = ui.booksTitle;
     const navArt  = document.getElementById('nav-art');
     const navSci  = document.getElementById('nav-science');
@@ -195,6 +203,28 @@
       .join('');
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     document.getElementById('footer-text').innerHTML = ui.footer;
+
+    const platform = { spotify: 'Spotify', apple: 'Apple Music', youtubeMusic: 'YouTube Music' };
+    document.getElementById('releases-list').innerHTML = (releases || [])
+      .slice().sort((a, b) => b.date.localeCompare(a.date))
+      .map(r => {
+        const i = r.i18n[lang] || r.i18n.en;
+        const listen = Object.entries(r.links)
+          .filter(([k]) => platform[k])
+          .map(([k, url]) => `<a href="${url}" target="_blank" rel="noopener">${platform[k]}</a>`);
+        if (r.links.bandlink) listen.push(`<a href="${r.links.bandlink}" target="_blank" rel="noopener">${ui.release.all}</a>`);
+        const clips = (r.videos || []).map((v, n) => `<a class="release-clip" href="https://www.youtube.com/watch?v=${v.youtube}" target="_blank" rel="noopener" aria-label="${ui.release.clip}: ${r.title}">
+            <img src="https://i.ytimg.com/vi/${v.youtube}/mqdefault.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
+        return `<article class="release" id="release-${r.id}">
+          <img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160">
+          <div class="release-body">
+            <div class="achievement-meta">${r.date.slice(0, 4)} · ${i.genre} · ${r.duration}</div>
+            <div class="achievement-title">${r.title}</div>
+            <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
+            ${clips ? `<div class="release-clips">${clips}</div>` : ''}
+          </div>
+        </article>`;
+      }).join('');
 
     const books = [
       {
@@ -250,10 +280,11 @@
     .then(r => r.json())
     .then(data => {
       const achievements = data.achievements;
+      const releases = data.releases;
       const lang = getLang();
       const select = document.getElementById('lang-select');
       select.value = lang;
-      render(achievements, lang);
+      render(achievements, lang, releases);
 
       select.addEventListener('change', () => {
         const l = select.value;
@@ -261,7 +292,7 @@
         const url = new URL(window.location);
         url.searchParams.set('lang', l);
         history.replaceState(null, '', url);
-        render(achievements, l);
+        render(achievements, l, releases);
       });
     });
 
