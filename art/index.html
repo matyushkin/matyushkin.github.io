@@ -212,8 +212,8 @@
           .filter(([k]) => platform[k])
           .map(([k, url]) => `<a href="${url}" target="_blank" rel="noopener">${platform[k]}</a>`);
         if (r.links.bandlink) listen.push(`<a href="${r.links.bandlink}" target="_blank" rel="noopener">${ui.release.all}</a>`);
-        const clips = (r.videos || []).map((v, n) => `<a class="release-clip" href="https://www.youtube.com/watch?v=${v.youtube}" target="_blank" rel="noopener" aria-label="${ui.release.clip}: ${r.title}">
-            <img src="https://i.ytimg.com/vi/${v.youtube}/mqdefault.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
+        const clips = (r.videos || []).map((v, n) => `<a class="release-clip${v.vertical ? ' release-clip-vertical' : ''}" href="https://www.youtube.com/${v.vertical ? 'shorts/' : 'watch?v='}${v.youtube}" target="_blank" rel="noopener" aria-label="${ui.release.clip}: ${r.title}">
+            <img src="https://i.ytimg.com/vi/${v.youtube}/${v.vertical ? 'oardefault' : 'mqdefault'}.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
         return `<article class="release" id="release-${r.id}">
           <a class="release-cover-link" href="${r.links.bandlink}" target="_blank" rel="noopener" aria-label="${ui.release.all}: ${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
           <div class="release-body">

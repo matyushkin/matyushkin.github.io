@@ -89,7 +89,12 @@
         "youtubeMusic": "https://music.youtube.com/watch?v=NkmOJDBSKtA",
         "bandlink": "https://band.link/23ItB"
       },
-      "videos": []
+      "videos": [
+        {
+          "youtube": "QA9sg-Tgs8c",
+          "vertical": true
+        }
+      ]
     },
     {
       "id": "beneath-the-light",
