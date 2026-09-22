@@ -42,6 +42,11 @@
   </script>
 </head>
 <body class="light-theme">
+<script>/* Pick the theme before anything paints: the visitor's own choice wins, otherwise the device setting. */
+(function(){var t=null;try{t=localStorage.getItem('theme')}catch(e){}
+if(t!=='dark-theme'&&t!=='light-theme'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark-theme':'light-theme'}
+document.body.className=document.body.className.replace(/\b(light|dark)-theme\b/,t)||t;
+var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark-theme'?'#1a1a1a':'#ffffff';})();</script>
   <a href="#main-content" class="skip-link">Skip to content</a>
   <header>
     <nav>

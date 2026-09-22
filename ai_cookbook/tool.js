@@ -147,6 +147,18 @@
       localStorage.setItem('theme', body.className);
       if (meta) meta.content = !dark ? '#1a1a1a' : '#ffffff';
     };
+    // With no explicit choice the site follows the device setting as it changes.
+    if (window.matchMedia) {
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        let chosen = null;
+        try { chosen = localStorage.getItem('theme'); } catch (err) {}
+        if (chosen === 'dark-theme' || chosen === 'light-theme') return;
+        body.className = e.matches ? 'dark-theme' : 'light-theme';
+        const m = document.querySelector('meta[name="theme-color"]');
+        if (m) m.content = e.matches ? '#1a1a1a' : '#ffffff';
+      });
+    }
+
   }
 
   fetch('../../data.json')

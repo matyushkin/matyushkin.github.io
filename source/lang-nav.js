@@ -59,6 +59,17 @@
       setThemeColor(!dark);
     };
 
+    // With no explicit choice the site follows the device setting as it changes.
+    if (window.matchMedia) {
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+        var chosen = null;
+        try { chosen = localStorage.getItem('theme'); } catch (err) {}
+        if (chosen === 'dark-theme' || chosen === 'light-theme') return;
+        body.className = e.matches ? 'dark-theme' : 'light-theme';
+        setThemeColor(e.matches);
+      });
+    }
+
     var lang = getLang();
     applyLang(lang);
 
