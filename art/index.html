@@ -337,12 +337,12 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
             <img src="clips/${v.youtube}.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
         return `<article class="release" id="release-${r.id}">
           <div class="release-media">
-            <a class="release-cover-link" href="releases/${r.id}/" aria-label="${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
+            <a class="release-cover-link" href="music/${r.id}/" aria-label="${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
             ${clips}
           </div>
           <div class="release-body">
             <div class="achievement-meta">${new Date(r.date).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { month: 'long', year: 'numeric' })} · ${r.duration}</div>
-            <div class="achievement-title"><a href="releases/${r.id}/">${r.title}</a></div>
+            <div class="achievement-title"><a href="music/${r.id}/">${r.title}</a></div>
             <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
           </div>
         </article>`;
