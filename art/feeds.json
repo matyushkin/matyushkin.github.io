@@ -58,5 +58,106 @@
       "thumb": "behance/97561007.jpg"
     }
   ],
-  "instagram": {}
+  "instagram": {
+    "matyushkin": [
+      {
+        "id": "17990084286022272",
+        "url": "https://www.instagram.com/p/DddhpdrMnwy/",
+        "caption": "",
+        "published": "2026-09-19",
+        "type": "IMAGE",
+        "thumb": "instagram/matyushkin/17990084286022272.jpg"
+      },
+      {
+        "id": "17964999081190411",
+        "url": "https://www.instagram.com/p/DdVoBHEsPh2/",
+        "caption": "",
+        "published": "2026-09-16",
+        "type": "IMAGE",
+        "thumb": "instagram/matyushkin/17964999081190411.jpg"
+      },
+      {
+        "id": "18101878661348986",
+        "url": "https://www.instagram.com/reel/Dc1ag9sMl8w/",
+        "caption": "Очередной пес-фараон",
+        "published": "2026-09-03",
+        "type": "VIDEO",
+        "thumb": "instagram/matyushkin/18101878661348986.jpg"
+      },
+      {
+        "id": "18110079317032889",
+        "url": "https://www.instagram.com/reel/Dcv3bZ1MEnB/",
+        "caption": "",
+        "published": "2026-09-01",
+        "type": "VIDEO",
+        "thumb": "instagram/matyushkin/18110079317032889.jpg"
+      },
+      {
+        "id": "18147469003535254",
+        "url": "https://www.instagram.com/reel/Dckkee8M4pk/",
+        "caption": "Leo Matyushkin — A Poem About the Grey Heron\n\nNew release, streaming everywhere \n\nAn experiment in combining the voice of the chinese lute (pipa) with the clarinet. The track was recorded in July 2019",
+        "published": "2026-08-28",
+        "type": "VIDEO",
+        "thumb": "instagram/matyushkin/18147469003535254.jpg"
+      },
+      {
+        "id": "18109627811040121",
+        "url": "https://www.instagram.com/reel/DcWM24My3dH/",
+        "caption": "the third release",
+        "published": "2026-08-22",
+        "type": "VIDEO",
+        "thumb": "instagram/matyushkin/18109627811040121.jpg"
+      }
+    ],
+    "matyushkin_art": [
+      {
+        "id": "18099183070695487",
+        "url": "https://www.instagram.com/p/DSDRUkqDKYo/",
+        "caption": "A dog I saw today sitting near a BigMart shop in Kathmandu\n#drawings #pencils #pens",
+        "published": "2025-12-09",
+        "type": "CAROUSEL_ALBUM",
+        "thumb": "instagram/matyushkin_art/18099183070695487.jpg"
+      },
+      {
+        "id": "17959192313861878",
+        "url": "https://www.instagram.com/p/DQPW1Y1jLjf/",
+        "caption": "#drawings #pastel",
+        "published": "2025-10-25",
+        "type": "IMAGE",
+        "thumb": "instagram/matyushkin_art/17959192313861878.jpg"
+      },
+      {
+        "id": "17842280919601781",
+        "url": "https://www.instagram.com/p/DQMQJXeDPei/",
+        "caption": "#drawings #pencils",
+        "published": "2025-10-24",
+        "type": "CAROUSEL_ALBUM",
+        "thumb": "instagram/matyushkin_art/17842280919601781.jpg"
+      },
+      {
+        "id": "18073990226151675",
+        "url": "https://www.instagram.com/p/DOzSSaUjLOF/",
+        "caption": "",
+        "published": "2025-09-19",
+        "type": "IMAGE",
+        "thumb": "instagram/matyushkin_art/18073990226151675.jpg"
+      },
+      {
+        "id": "18086295442870698",
+        "url": "https://www.instagram.com/p/DOLEwxeDEDR/",
+        "caption": "Subject: “Caravan 4”. Packaging cardboard, felt-tip pens, charcoal, liner, pastel #drawing #caravan",
+        "published": "2025-09-04",
+        "type": "CAROUSEL_ALBUM",
+        "thumb": "instagram/matyushkin_art/18086295442870698.jpg"
+      },
+      {
+        "id": "18061076117582502",
+        "url": "https://www.instagram.com/p/DODr-MoDFUV/",
+        "caption": "Desert Travelers. 30x40 cm, cardboard, charcoal, color pastel",
+        "published": "2025-09-01",
+        "type": "IMAGE",
+        "thumb": "instagram/matyushkin_art/18061076117582502.jpg"
+      }
+    ]
+  }
 }
