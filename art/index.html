@@ -76,17 +76,19 @@
     <p lang="ru">Пишу стихи, малую прозу, эссе. Публиковался на «Полутонах», в «Воздухе», «Флагах», «Журнале» (бывший «Журнал на коленке»). Рисую акрилом, акварелью и цветными карандашами. Сочиняю песни, электронную, клавишную и гитарную музыку, веду музыкальный дневник на Саундклауд.</p>
     <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em> (formerly <em>Zhurnal na kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music, keeping a musical diary on SoundCloud.</p>
 
-    <h2 id="links-title">Профили</h2>
-    <p class="section-links" id="profiles-list"></p>
-
-    <h2 id="releases-title">Музыка</h2>
+    <h2 id="music-title">Музыка</h2>
+    <p class="section-links" id="profiles-music"></p>
     <div id="releases-list" class="releases"></div>
 
-    <h2 id="books-title">Книги</h2>
+    <h2 id="literature-title">Литература</h2>
+    <p class="section-links" id="profiles-literature"></p>
+    <h3 id="books-title">Книги</h3>
     <div id="books-list"></div>
-
-    <h2 id="publications-title">Публикации</h2>
+    <h3 id="publications-title">Публикации</h3>
     <div id="achievements-list"></div>
+
+    <h2 id="visual-title">Изобразительное</h2>
+    <p class="section-links" id="profiles-visual"></p>
   </main>
   <footer>
     <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a></p>
@@ -96,31 +98,38 @@
   const UI = {
     ru: {
       pageTitle: 'Искусство',
-      linksTitle: 'Профили',
-      releasesTitle: 'Музыка',
+      musicTitle: 'Музыка',
+      literatureTitle: 'Литература',
+      visualTitle: 'Изобразительное',
       booksTitle: 'Книги',
       release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки' },
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
-      profiles: [
-        { url: 'https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm', label: 'Spotify' },
-        { url: 'https://music.apple.com/us/artist/leo-matyushkin/6777345689', label: 'Apple Music' },
-        { url: 'https://www.youtube.com/@matyushkin', label: 'YouTube' },
-        { url: 'https://soundcloud.com/leo-matyushkin', label: 'Саундклауд' },
-        { url: 'https://t.me/lmwav', label: 'Канал с музыкой' },
-        { url: 'https://t.me/lmtxt', label: 'Канал с текстами' },
-        { url: 'https://t.me/lmpix', label: 'Канал с картинками' },
-        { url: 'https://www.instagram.com/matyushkin', label: 'Инстаграм' },
-        { url: 'https://www.instagram.com/matyushkin_art', label: 'Инстаграм с картинками' },
-        { url: 'https://www.tiktok.com/@leo_matyushkin', label: 'TikTok' },
-        { url: 'https://vk.com/levamatyushkin', label: 'ВКонтакте' },
-        { url: 'https://www.behance.net/leo-matyushkin', label: 'Бихенс' },
-        { url: 'https://dribbble.com/matyushkin', label: 'Дриббл' },
-        { url: 'https://www.deviantart.com/matyushkin', label: 'Девиантарт' },
-        { url: 'https://coub.com/leva.matyushkin', label: 'Coub' },
-        { url: 'https://indiepie.livejournal.com/', label: 'LiveJournal' },
-        { url: 'https://www.patreon.com/matyushkin', label: 'Патреон' }
-      ],
+      profiles: {
+        music: [
+          { url: 'https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm', label: 'Spotify' },
+          { url: 'https://music.apple.com/us/artist/leo-matyushkin/6777345689', label: 'Apple Music' },
+          { url: 'https://www.youtube.com/@matyushkin', label: 'YouTube' },
+          { url: 'https://soundcloud.com/leo-matyushkin', label: 'Саундклауд' },
+          { url: 'https://t.me/lmwav', label: 'Канал с музыкой' },
+          { url: 'https://www.tiktok.com/@leo_matyushkin', label: 'TikTok' }
+        ],
+        literature: [
+          { url: 'https://t.me/lmtxt', label: 'Канал с текстами' },
+          { url: 'https://www.instagram.com/matyushkin', label: 'Инстаграм' },
+          { url: 'https://vk.com/levamatyushkin', label: 'ВКонтакте' },
+          { url: 'https://indiepie.livejournal.com/', label: 'LiveJournal' },
+          { url: 'https://www.patreon.com/matyushkin', label: 'Патреон' }
+        ],
+        visual: [
+          { url: 'https://www.instagram.com/matyushkin_art', label: 'Инстаграм с картинками' },
+          { url: 'https://t.me/lmpix', label: 'Канал с картинками' },
+          { url: 'https://www.behance.net/leo-matyushkin', label: 'Бихенс' },
+          { url: 'https://dribbble.com/matyushkin', label: 'Дриббл' },
+          { url: 'https://www.deviantart.com/matyushkin', label: 'Девиантарт' },
+          { url: 'https://coub.com/leva.matyushkin', label: 'Coub' }
+        ]
+      },
       types: {
         book: 'книга',
         publication: 'публикация',
@@ -133,31 +142,38 @@
     },
     en: {
       pageTitle: 'Art',
-      linksTitle: 'Profiles',
-      releasesTitle: 'Music',
+      musicTitle: 'Music',
+      literatureTitle: 'Literature',
+      visualTitle: 'Visual art',
       booksTitle: 'Books',
       release: { clip: 'Video', listen: 'Listen', all: 'All platforms' },
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
-      profiles: [
-        { url: 'https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm', label: 'Spotify' },
-        { url: 'https://music.apple.com/us/artist/leo-matyushkin/6777345689', label: 'Apple Music' },
-        { url: 'https://www.youtube.com/@matyushkin', label: 'YouTube' },
-        { url: 'https://soundcloud.com/leo-matyushkin', label: 'SoundCloud' },
-        { url: 'https://t.me/lmwav', label: 'Music channel' },
-        { url: 'https://t.me/lmtxt', label: 'Text channel' },
-        { url: 'https://t.me/lmpix', label: 'Drawing channel' },
-        { url: 'https://www.instagram.com/matyushkin', label: 'Instagram' },
-        { url: 'https://www.instagram.com/matyushkin_art', label: 'Art Instagram' },
-        { url: 'https://www.tiktok.com/@leo_matyushkin', label: 'TikTok' },
-        { url: 'https://vk.com/levamatyushkin', label: 'VK' },
-        { url: 'https://www.behance.net/leo-matyushkin', label: 'Behance' },
-        { url: 'https://dribbble.com/matyushkin', label: 'Dribbble' },
-        { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' },
-        { url: 'https://coub.com/leva.matyushkin', label: 'Coub' },
-        { url: 'https://indiepie.livejournal.com/', label: 'LiveJournal' },
-        { url: 'https://www.patreon.com/matyushkin', label: 'Patreon' }
-      ],
+      profiles: {
+        music: [
+          { url: 'https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm', label: 'Spotify' },
+          { url: 'https://music.apple.com/us/artist/leo-matyushkin/6777345689', label: 'Apple Music' },
+          { url: 'https://www.youtube.com/@matyushkin', label: 'YouTube' },
+          { url: 'https://soundcloud.com/leo-matyushkin', label: 'SoundCloud' },
+          { url: 'https://t.me/lmwav', label: 'Music channel' },
+          { url: 'https://www.tiktok.com/@leo_matyushkin', label: 'TikTok' }
+        ],
+        literature: [
+          { url: 'https://t.me/lmtxt', label: 'Text channel' },
+          { url: 'https://www.instagram.com/matyushkin', label: 'Instagram' },
+          { url: 'https://vk.com/levamatyushkin', label: 'VK' },
+          { url: 'https://indiepie.livejournal.com/', label: 'LiveJournal' },
+          { url: 'https://www.patreon.com/matyushkin', label: 'Patreon' }
+        ],
+        visual: [
+          { url: 'https://www.instagram.com/matyushkin_art', label: 'Art Instagram' },
+          { url: 'https://t.me/lmpix', label: 'Drawing channel' },
+          { url: 'https://www.behance.net/leo-matyushkin', label: 'Behance' },
+          { url: 'https://dribbble.com/matyushkin', label: 'Dribbble' },
+          { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' },
+          { url: 'https://coub.com/leva.matyushkin', label: 'Coub' }
+        ]
+      },
       types: {
         book: 'book',
         publication: 'publication',
@@ -189,8 +205,9 @@
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';
-    document.getElementById('links-title').textContent = ui.linksTitle;
-    document.getElementById('releases-title').textContent = ui.releasesTitle;
+    document.getElementById('music-title').textContent = ui.musicTitle;
+    document.getElementById('literature-title').textContent = ui.literatureTitle;
+    document.getElementById('visual-title').textContent = ui.visualTitle;
     document.getElementById('books-title').textContent = ui.booksTitle;
     const navArt  = document.getElementById('nav-art');
     const navSci  = document.getElementById('nav-science');
@@ -198,9 +215,11 @@
     if (navArt)  { navArt.textContent  = ui.nav.art;        navArt.setAttribute('aria-current', 'page'); }
     if (navSci)  { navSci.textContent  = ui.nav.science;    navSci.removeAttribute('aria-current'); }
     if (navTech) { navTech.textContent = ui.nav.technology; navTech.removeAttribute('aria-current'); }
-    document.getElementById('profiles-list').innerHTML = ui.profiles
-      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
-      .join('');
+    for (const [group, items] of Object.entries(ui.profiles)) {
+      document.getElementById('profiles-' + group).innerHTML = items
+        .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
+        .join('');
+    }
     document.getElementById('publications-title').textContent = ui.publicationsTitle;
     document.getElementById('footer-text').innerHTML = ui.footer;
 
