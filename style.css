@@ -686,10 +686,6 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 }
 .release-clip:hover img { opacity: 1; }
 
-@media (max-width: 560px) {
-    .release-cover, .release-clip { width: 120px; height: 120px; }
-}
-
 main h3 {
     font-family: 'Computer Modern Sans', sans-serif;
     font-size: 1.05em;
@@ -734,3 +730,86 @@ main h3 {
 }
 
 .tiles-account { font-size: 0.9em; margin: 0.8em 0 0; }
+
+/* ── Phone layout ────────────────────────────────────────────────────────── */
+/* Desktop rules above stay untouched; these apply only on small screens:
+   body text at the size phones read comfortably, a 16px gutter, tap targets
+   of at least 44px, and media laid out as full-width squares. */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 17px;
+        padding: 0 16px;
+    }
+
+    nav {
+        margin: 0 -16px;
+        padding: 0 16px;
+    }
+
+    nav section {
+        margin-right: 0.9em;
+    }
+
+    nav section a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    .logo {
+        padding: 4px 0;
+    }
+
+    .logo img {
+        width: 52px;
+    }
+
+    select.lang-select,
+    .theme-button {
+        min-height: 44px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    /* Long labels must wrap — a non-breaking one pushes the page sideways. */
+    .section-links {
+        line-height: 2.6;
+    }
+
+    .section-links a {
+        white-space: normal;
+    }
+
+    /* Cover and clip share the row as two squares; the text sits underneath. */
+    .release-media {
+        width: 100%;
+        gap: 0.5em;
+    }
+
+    .release-cover-link,
+    .release-clip {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .release-cover,
+    .release-clip {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .release-clip-vertical {
+        aspect-ratio: 1;
+    }
+
+    .release-body {
+        flex-basis: 100%;
+    }
+
+    .tiles {
+        grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+        gap: 0.4em;
+    }
+}
