@@ -108,7 +108,7 @@
       behanceTitle: 'Проекты на <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
       instagramTitle: 'Последнее в Инстаграме',
       booksTitle: 'Книги',
-      release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки' },
+      release: { clip: 'Клип', listen: 'Слушать', all: 'Все площадки', post: 'Публикация' },
       publicationsTitle: 'Публикации',
       nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
       profiles: {
@@ -151,7 +151,7 @@
       behanceTitle: 'Projects on <a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
       instagramTitle: 'Latest on Instagram',
       booksTitle: 'Books',
-      release: { clip: 'Video', listen: 'Listen', all: 'All platforms' },
+      release: { clip: 'Video', listen: 'Listen', all: 'All platforms', post: 'Post by' },
       publicationsTitle: 'Publications',
       nav: { art: 'Art', science: 'Science', technology: 'Technology' },
       profiles: {
@@ -202,6 +202,10 @@
     });
   }
 
+  function dateLabel(iso, lang) {
+    return new Date(iso).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
   function renderFeeds(feeds, lang) {
     const ui = UI[lang] || UI.en;
     document.getElementById('behance-title').innerHTML = ui.behanceTitle;
@@ -217,10 +221,16 @@
     document.getElementById('instagram-title').hidden = accounts.length === 0;
     igSection.innerHTML = accounts.map(([account, posts]) => `
       <p class="tiles-account"><a href="https://www.instagram.com/${account}" target="_blank" rel="noopener">@${account}</a></p>
-      <div class="tiles">${posts.map(m => `
-        <a class="tile" href="${m.url}" target="_blank" rel="noopener" title="${(m.caption || '').replace(/"/g, '&quot;')}">
-          <img src="${m.thumb}" alt="" loading="lazy">${m.type === 'VIDEO' ? '<span class="tile-badge">▶</span>' : ''}
-        </a>`).join('')}</div>`).join('');
+      <div class="tiles">${posts.map(m => {
+        const caption = (m.caption || '').replace(/\s+/g, ' ').trim();
+        // Without a caption the link would have no text at all for a screen reader.
+        const name = caption ? caption.slice(0, 80) : `${ui.release.post} @${account}, ${dateLabel(m.published, lang)}`;
+        const esc = name.replace(/"/g, '&quot;');
+        return `
+        <a class="tile" href="${m.url}" target="_blank" rel="noopener" aria-label="${esc}"${caption ? ` title="${esc}"` : ''}>
+          <img src="${m.thumb}" alt="" loading="lazy">${m.type === 'VIDEO' ? '<span class="tile-badge" aria-hidden="true">▶</span>' : ''}
+        </a>`;
+      }).join('')}</div>`).join('');
   }
 
   function render(achievements, lang, releases) {
@@ -254,7 +264,7 @@
           .filter(([k]) => platform[k])
           .map(([k, url]) => `<a href="${url}" target="_blank" rel="noopener">${platform[k]}</a>`);
         const clips = (r.videos || []).map((v, n) => `<a class="release-clip${v.vertical ? ' release-clip-vertical' : ''}" href="https://www.youtube.com/${v.vertical ? 'shorts/' : 'watch?v='}${v.youtube}" target="_blank" rel="noopener" aria-label="${ui.release.clip}: ${r.title}">
-            <img src="https://i.ytimg.com/vi/${v.youtube}/${v.vertical ? 'oar2' : 'mqdefault'}.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
+            <img src="clips/${v.youtube}.jpg" alt="" loading="lazy"><span>▶ ${ui.release.clip}${r.videos.length > 1 ? ' ' + (n + 1) : ''}</span></a>`).join('');
         return `<article class="release" id="release-${r.id}">
           <div class="release-media">
             <a class="release-cover-link" href="${r.links.bandlink}" target="_blank" rel="noopener" aria-label="${ui.release.all}: ${r.title}"><img class="release-cover" src="${r.cover}" alt="${r.title}" loading="lazy" width="160" height="160"></a>
