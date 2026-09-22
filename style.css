@@ -692,3 +692,11 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
     .release-cover-link { flex-basis: auto; width: 100%; }
     .release-cover { width: 100%; height: auto; aspect-ratio: 1; }
 }
+
+main h3 {
+    font-family: 'Computer Modern Sans', sans-serif;
+    font-size: 1.05em;
+    font-weight: normal;
+    margin-top: 1.4em;
+    margin-bottom: 2px;
+}
