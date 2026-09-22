@@ -403,6 +403,33 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
     color: #bbb;
 }
 
+.cookbook-hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.85em;
+}
+
+.cookbook-hub-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.85em;
+}
+
+.dark-theme .cookbook-hub-card {
+    border-color: #3a3a3a;
+}
+
+.cookbook-hub-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: inherit;
+}
+
+.cookbook-hub-card p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
 .cookbook-recipes {
     display: grid;
     gap: 0.8em;
@@ -576,6 +603,33 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
     color: inherit;
 }
 
+.glossary-toolbar {
+    margin-bottom: 1em;
+}
+
+.glossary-toolbar h3 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.glossary-group {
+    display: grid;
+    gap: 0.75em;
+}
+
+.glossary-group h3 {
+    margin: 0.9em 0 0;
+    color: inherit;
+}
+
+.glossary-group:first-child h3 {
+    margin-top: 0;
+}
+
+.glossary-term .cookbook-entry-meta {
+    margin-bottom: 0.35em;
+}
+
 .cookbook-entry-meta {
     display: flex;
     flex-wrap: wrap;
@@ -639,7 +693,6 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .cookbook-roadmap li {
     margin-bottom: 0.45em;
 }
-
 /* ── Music releases (art) ───────────────────────────────────────────────── */
 
 .release {
@@ -696,9 +749,11 @@ main h3 {
 
 /* ── Visual feeds: Behance projects, Instagram posts (art) ──────────────── */
 
+/* Exactly five to a row: nine posts then read as five and four, and the gap
+   at the end keeps the block from looking like a stamped sheet. */
 .tiles {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 0.6em;
     margin-top: 0.5em;
 }
@@ -829,7 +884,7 @@ main h3 {
     }
 
     .tiles {
-        grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+        grid-template-columns: repeat(3, 1fr);
         gap: 0.4em;
     }
 }
