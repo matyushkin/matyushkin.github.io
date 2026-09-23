@@ -91,7 +91,7 @@
     var sel = document.getElementById('lang-select');
     if (!sel) return;
     sel.innerHTML = data.languages.map(function (l) {
-      return '<option value="' + l.code + '" lang="' + l.code + '">' + l.label + '</option>';
+      return '<option value="' + l.code + '" lang="' + (l.tag || l.code) + '">' + l.name + '</option>';
     }).join('');
     sel.value = Site.lang;
     sel.addEventListener('change', function () { setLang(sel.value); });

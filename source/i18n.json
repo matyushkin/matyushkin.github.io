@@ -1,50 +1,44 @@
 {
-  "_about": "Every word of the site interface, in every language. To add a language: add it to \"languages\" and add a block under \"strings\" — nothing else. A missing key falls back to English.",
+  "_about": "Every word of the site interface, in every language. To add a language: add it to \"languages\" (ordered by the Latin transliteration of its own name, as Wikipedia does) and add a block under \"strings\" — nothing else. A missing key falls back to English.",
   "default": "ru",
   "fallback": "en",
   "languages": [
     {
-      "code": "ru",
-      "label": "RU",
-      "name": "Русский",
-      "locale": "ru-RU",
-      "dir": "ltr"
-    },
-    {
       "code": "en",
-      "label": "EN",
       "name": "English",
       "locale": "en-US",
       "dir": "ltr"
     },
     {
-      "code": "he",
-      "label": "HE",
-      "name": "עברית",
-      "locale": "he-IL",
-      "dir": "rtl"
-    },
-    {
       "code": "fr",
-      "label": "FR",
       "name": "Français",
       "locale": "fr-FR",
       "dir": "ltr"
     },
     {
-      "code": "zh",
-      "tag": "zh-Hans",
-      "label": "ZH",
-      "name": "简体中文",
-      "locale": "zh-CN",
-      "dir": "ltr"
+      "code": "he",
+      "name": "עברית",
+      "locale": "he-IL",
+      "dir": "rtl"
     },
     {
       "code": "ja",
       "tag": "ja",
-      "label": "JA",
       "name": "日本語",
       "locale": "ja-JP",
+      "dir": "ltr"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "locale": "ru-RU",
+      "dir": "ltr"
+    },
+    {
+      "code": "zh",
+      "tag": "zh-Hans",
+      "name": "简体中文",
+      "locale": "zh-CN",
       "dir": "ltr"
     }
   ],
