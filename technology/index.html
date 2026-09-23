@@ -99,6 +99,9 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     <h2 id="profiles-title" data-i18n="technology.profilesTitle">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
+    <h2 id="projects-title" data-i18n="technology.projectsTitle">Проекты</h2>
+    <article id="projects-list"></article>
+
     <h2 id="publications-title" data-i18n="technology.publicationsTitle">Публикации</h2>
     <article id="articles-list"></article>
   </main>
@@ -117,6 +120,30 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       .filter(p => !p.only || p.only.includes(lang))
       .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${Site.profileLabel('technology', p.id)}</a>`)
       .join('');
+
+    // A project is shown in the reader's language when it has one, and in the
+    // site default otherwise. The download count is the reason a project is on
+    // the page at all — a repository link says code was written, a count says
+    // somebody else runs it — so it is stated with the date it was read.
+    const projects = data.projects || [];
+    document.getElementById('projects-title').hidden = !projects.length;
+    document.getElementById('projects-list').innerHTML = projects.map(pr => {
+      const i18n = pr.i18n || {};
+      const text = i18n[lang] || i18n.en || Object.values(i18n)[0] || {};
+      const links = Object.entries(pr.links || {})
+        .map(([id, url]) => `<a href="${url}" target="_blank" rel="noopener">${id}</a>`)
+        .join(' · ');
+      const facts = [pr.language, pr.license, pr.version && 'v' + pr.version]
+        .filter(Boolean).join(' · ');
+      const runs = pr.downloads
+        ? `<p class="project-downloads">${pr.downloads.toLocaleString(Site.locale || undefined)} ${Site.t('technology.downloads')}` +
+          (pr.downloads_updated ? ` <span class="muted">(${pr.downloads_updated})</span>` : '') + '</p>'
+        : '';
+      return `<section class="project"><h3>${pr.name}</h3>` +
+             `<p>${text.description || ''}</p>` +
+             `<p class="project-facts">${facts}</p>` + runs +
+             `<p class="section-links">${links}</p></section>`;
+    }).join('');
 
     // Articles exist in Russian and English only; any other reader gets the English ones.
     const shown = categories.some(c => c.lang === lang) ? lang : 'en';
