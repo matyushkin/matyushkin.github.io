@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { createHash } from 'node:crypto';
 import AxeBuilder from '@axe-core/playwright';
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
@@ -278,6 +279,28 @@ test.describe('translations', () => {
       await page.goto(url);
       await expect(page.locator('link[rel="alternate"][hreflang]:not([hreflang="x-default"])')).toHaveCount(i18n.languages.length);
     }
+  });
+});
+
+// ─── Cache: a page never pairs an old script with new translations ──────────
+
+test.describe('asset fingerprints', () => {
+  test('every page loads site.js and style.css by the hash of their content', async ({ page, request }) => {
+    const hash = async path => createHash('sha1').update(await (await request.get(path)).body()).digest('hex').slice(0, 10);
+    const js = await hash('/source/site.js');
+    const css = await hash('/style.css');
+    for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html', '/cv/index.html', '/art/music/the-jungle-route/']) {
+      await page.goto(url);
+      await expect(page.locator(`script[src$="source/site.js?v=${js}"]`)).toHaveCount(1);
+      await expect(page.locator(`link[href$="style.css?v=${css}"]`)).toHaveCount(1);
+    }
+  });
+
+  test('the selector never shows "undefined"', async ({ page }) => {
+    await page.goto('/art/index.html');
+    const names = await page.$$eval('#lang-select option', os => os.map(o => o.textContent));
+    expect(names.join(' ')).not.toContain('undefined');
+    expect(names.length).toBeGreaterThan(1);
   });
 });
 

@@ -91,7 +91,10 @@
     var sel = document.getElementById('lang-select');
     if (!sel) return;
     sel.innerHTML = data.languages.map(function (l) {
-      return '<option value="' + l.code + '" lang="' + (l.tag || l.code) + '">' + l.name + '</option>';
+      // Tolerate a translations file of another shape (a cached page, a field
+      // renamed): a missing name must never read "undefined".
+      var name = l.name || l.label || l.code;
+      return '<option value="' + l.code + '" lang="' + (l.tag || l.code) + '">' + name + '</option>';
     }).join('');
     sel.value = Site.lang;
     sel.addEventListener('change', function () { setLang(sel.value); });
