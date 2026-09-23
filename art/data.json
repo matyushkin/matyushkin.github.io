@@ -14,6 +14,11 @@
           "title": "«Иная глина» [Other Clay]",
           "venue": "Vozdukh Poetry Journal, no. 46",
           "description": "A poetry cycle, pp. 256–266. The poems were written in 2020–2025. The text is published on Patreon."
+        },
+        "he": {
+          "title": "«Иная глина» [חימר אחר]",
+          "venue": "כתב העת לשירה Vozdukh, גיליון 46",
+          "description": "מחזור שירים, עמ׳ 256–266. השירים נכתבו בשנים 2020–2025. הטקסט מתפרסם ב־Patreon."
         }
       },
       "lang_of_work": "ru",
@@ -33,6 +38,11 @@
           "title": "«Сорока щенка маленького унесла» [The Magpie Carried the Little Puppy Away]",
           "venue": "Flagi literary project, no. 5, 30.08.2020",
           "description": "A poetry cycle. Journal closed, available on Web Archive."
+        },
+        "he": {
+          "title": "«Сорока щенка маленького унесла» [העקעק נשא את הגור הקטן]",
+          "venue": "הפרויקט הספרותי Flagi, גיליון 5, 30.08.2020",
+          "description": "מחזור שירים. כתב העת נסגר; הוא זמין ב־Web Archive."
         }
       },
       "lang_of_work": "ru",
@@ -52,6 +62,11 @@
           "title": "«Воскресные вкладыши» [Sunday Inserts]",
           "venue": "zhurnal (formerly Zhurnal na kolenke) literary journal, 28.05.2024",
           "description": "A poetry cycle."
+        },
+        "he": {
+          "title": "«Воскресные вкладыши» [תוספות של יום ראשון]",
+          "venue": "כתב העת הספרותי zhurnal (לשעבר Zhurnal na kolenke), 28.05.2024",
+          "description": "מחזור שירים."
         }
       },
       "lang_of_work": "ru",
@@ -133,6 +148,11 @@
           "title": "«а/я»",
           "venue": "Self-published",
           "description": "A book of poems."
+        },
+        "he": {
+          "title": "«а/я»",
+          "venue": "הוצאה עצמית",
+          "description": "ספר שירה."
         }
       }
     },
@@ -152,6 +172,11 @@
           "title": "«О пространстве и времени» [On Space and Time]",
           "venue": "Self-published",
           "description": "A book of poems."
+        },
+        "he": {
+          "title": "«О пространстве и времени» [על המרחב והזמן]",
+          "venue": "הוצאה עצמית",
+          "description": "ספר שירה."
         }
       }
     }
