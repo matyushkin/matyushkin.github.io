@@ -10,6 +10,8 @@
 ## Technology
 - [Articles](https://matyushkin.github.io/technology/index.html): Engineering articles on Rust, Python, ML/DS, NoCode paradigm and tools, AI/LLM, history of human-machine interfaces.
 - [AI Cookbook](https://matyushkin.github.io/ai_cookbook/index.html): Living encyclopedia of LLMs, local runtimes, agent frameworks, coding agents, harnesses, evals, protocols, and tools.
+  - [Glossary](https://matyushkin.github.io/ai_cookbook/glossary/index.html): Working definitions for LLM and agent-system terminology.
+  - [Catalog](https://matyushkin.github.io/ai_cookbook/catalog/index.html): Searchable catalog with mode and category filters.
   - [LangGraph](https://matyushkin.github.io/ai_cookbook/tools/langgraph/)
   - [LlamaIndex](https://matyushkin.github.io/ai_cookbook/tools/llamaindex/)
   - [OpenHands](https://matyushkin.github.io/ai_cookbook/tools/openhands/)

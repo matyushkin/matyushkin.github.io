@@ -75,6 +75,12 @@
     <loc>https://matyushkin.github.io/art/books/o-prostranstve-i-vremeni-2015/</loc>
   </url>
   <url>
+    <loc>https://matyushkin.github.io/ai_cookbook/glossary/index.html</loc>
+  </url>
+  <url>
+    <loc>https://matyushkin.github.io/ai_cookbook/catalog/index.html</loc>
+  </url>
+  <url>
     <loc>https://matyushkin.github.io/art/index.html</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/art/index.html?lang=ru"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://matyushkin.github.io/art/index.html?lang=en"/>
