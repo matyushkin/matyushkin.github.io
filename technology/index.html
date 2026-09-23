@@ -111,13 +111,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
         { url: 'https://habr.com/ru/users/leomat/', label: 'Хабр' },
         { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
       ],
-      projects: [
-        {
-          url: '../ai_cookbook/index.html',
-          title: 'AI Cookbook',
-          description: 'Справочник по LLM, агентам, local runtimes, IDE/CLI-инструментам, harnesses, evals и протоколам вроде MCP.'
-        }
-      ],
+      projects: [],
       footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a>'
     },
     en: {
@@ -131,13 +125,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
         { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
         { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
       ],
-      projects: [
-        {
-          url: '../ai_cookbook/index.html',
-          title: 'AI Cookbook',
-          description: 'An encyclopedia of LLMs, agents, local runtimes, IDE/CLI tools, harnesses, evals, and protocols such as MCP.'
-        }
-      ],
+      projects: [],
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
     }
   };
@@ -164,6 +152,10 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     document.getElementById('profiles-title').textContent = ui.profilesTitle;
     document.getElementById('profiles-list').innerHTML = ui.profiles
       .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`).join('');
+    // With no projects listed, the heading would stand over an empty box.
+    const hasProjects = (ui.projects || []).length > 0;
+    document.getElementById('projects-title').hidden = !hasProjects;
+    document.getElementById('projects-list').hidden = !hasProjects;
     document.getElementById('projects-title').textContent = ui.projectsTitle;
     document.getElementById('projects-list').innerHTML = ui.projects.map(project =>
       '<h3><a href="' + project.url + '">' + project.title + '</a></h3><p>' + project.description + '</p>'

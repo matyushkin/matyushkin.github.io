@@ -34,7 +34,7 @@
 
   function markCurrentPage() {
     var path = window.location.pathname;
-    var map = { 'nav-art': '/art/', 'nav-science': '/science/', 'nav-technology': ['/technology/', '/ai_cookbook/'] };
+    var map = { 'nav-art': '/art/', 'nav-science': '/science/', 'nav-technology': ['/technology/'] };
     Object.keys(map).forEach(function(id) {
       var el = document.getElementById(id);
       var paths = Array.isArray(map[id]) ? map[id] : [map[id]];
