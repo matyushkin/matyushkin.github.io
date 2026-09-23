@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
-(function(){var C=["ru", "en", "he"],R=["he"],F="en",D="ru",l=null;
+(function(){var C=["ru", "en", "he", "fr"],R=["he"],F="en",D="ru",l=null;
 try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
 if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
 if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
@@ -55,6 +55,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
         <option value="ru" lang="ru">RU</option>
         <option value="en" lang="en">EN</option>
         <option value="he" lang="he">HE</option>
+        <option value="fr" lang="fr">FR</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
     </nav>

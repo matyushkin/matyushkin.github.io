@@ -23,6 +23,13 @@
       "name": "עברית",
       "locale": "he-IL",
       "dir": "rtl"
+    },
+    {
+      "code": "fr",
+      "label": "FR",
+      "name": "Français",
+      "locale": "fr-FR",
+      "dir": "ltr"
     }
   ],
   "names": {
@@ -387,6 +394,119 @@
           "באוקטובר",
           "בנובמבר",
           "בדצמבר"
+        ]
+      }
+    },
+    "fr": {
+      "common": {
+        "nav": {
+          "art": "Art",
+          "science": "Science",
+          "technology": "Technologie"
+        },
+        "home": "Accueil",
+        "skip": "Aller au contenu",
+        "language": "Langue",
+        "theme": "Changer de thème",
+        "email": "E-mail",
+        "feed": "Flux des nouveautés"
+      },
+      "home": {
+        "bio": "Bonjour ! Je m’appelle Leo Matyushkin. Je suis chercheur, ingénieur et poète.",
+        "social": "Réseaux sociaux",
+        "projects": "Projets",
+        "memories": "Premiers souvenirs"
+      },
+      "cv": {
+        "text": "Mon <a href=\"Matyushkin.pdf\">CV académique (PDF)</a>."
+      },
+      "donate": {
+        "title": "Me soutenir",
+        "intro": "Si vous aimez ce que je fais, vous pouvez me soutenir via :",
+        "outro": "Ou écrivez-moi simplement à <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "Page introuvable. Essayez de repartir de la <a href=\"index.html\">page d’accueil</a>."
+      },
+      "art": {
+        "pageTitle": "Art",
+        "bio": "J’écris de la poésie, de la prose courte et des essais en russe. J’ai publié dans <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em> et <em>zhurnal</em> (anciennement <em>Zhurnal na kolenke</em>). Je peins à l’acrylique et à l’aquarelle, et je dessine aux crayons de couleur. Je compose des chansons, de la musique électronique, pour clavier et pour guitare.",
+        "musicTitle": "Musique",
+        "literatureTitle": "Littérature",
+        "visualTitle": "Arts visuels",
+        "behanceTitle": "Projets sur <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "Récemment sur Instagram",
+        "booksTitle": "Livres",
+        "publicationsTitle": "Publications",
+        "release": {
+          "clip": "Clip",
+          "listen": "Écouter",
+          "all": "Toutes les plateformes",
+          "post": "Publication de"
+        },
+        "types": {
+          "book": "livre",
+          "publication": "publication",
+          "exhibition": "exposition",
+          "festival": "festival",
+          "award": "prix",
+          "grant": "bourse"
+        },
+        "profiles": {
+          "telegram-lmwav": "Chaîne Telegram (LMWAV)",
+          "telegram-lmtxt": "Chaîne Telegram (LMTXT)",
+          "telegram-lmpix": "Chaîne Telegram (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "Science",
+        "bio": "Mon principal domaine de recherche est la science des matériaux pour la nanoélectronique : synthèse de semi-conducteurs, boîtes quantiques, nanoparticules plasmoniques, synthèse colloïdale de nanocristaux et dépôt couche par couche en solution. 70 publications, indice h 19. J’ai créé <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">un cours sur les nanomatériaux sur Stepik</a>, suivi par plus de 1400 étudiants. Je reviens aujourd’hui à la recherche par la modélisation numérique.",
+        "linksTitle": "Profils",
+        "publicationsTitle": "Publications",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "Thèse",
+          "book": "Livres",
+          "publication": "Articles de revues",
+          "conference": "Résumés de conférences",
+          "patent": "Brevets"
+        },
+        "profiles": {
+          "stepik": "Stepik : cours en ligne « Nanomatériaux »"
+        }
+      },
+      "technology": {
+        "pageTitle": "Technologie",
+        "bio": "Ingénieur et analyste de données. Langages principaux : Rust et Python. Chez Apifornia, je développe un assistant d’IA qui crée et modifie des flux de travail à partir de requêtes en langage naturel (architecture multi-agents sur LangGraph).",
+        "profilesTitle": "Profils",
+        "projectsTitle": "Projets",
+        "downloads": "téléchargements",
+        "publicationsTitle": "Publications",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "Écouter",
+        "clip": "Clip",
+        "read": "Lire",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "Toutes les œuvres",
+        "release": "Single",
+        "book": "Livre",
+        "pages": "p.",
+        "months": [
+          "janvier",
+          "février",
+          "mars",
+          "avril",
+          "mai",
+          "juin",
+          "juillet",
+          "août",
+          "septembre",
+          "octobre",
+          "novembre",
+          "décembre"
         ]
       }
     }

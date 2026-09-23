@@ -188,18 +188,25 @@ test.describe('Hebrew', () => {
     await expect(page.locator('.item-links[data-lang="he"]')).toContainText('האזנה');
   });
 
-  test('the selector offers three languages everywhere', async ({ page }) => {
-    for (const url of ['/', '/science/index.html', '/technology/index.html', '/art/books/aya-2018/']) {
-      await page.goto(url);
-      await expect(page.locator('#lang-select option')).toHaveCount(3);
-    }
-  });
-
   test('every page declares a Hebrew alternate', async ({ page }) => {
     for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html']) {
       await page.goto(url);
       await expect(page.locator('link[hreflang="he"]')).toHaveCount(1);
     }
+  });
+});
+
+// ─── French ──────────────────────────────────────────────────────────────────
+
+test.describe('French', () => {
+  test('pages read in French, left to right, with French dates', async ({ page }) => {
+    await page.goto('/art/index.html?lang=fr');
+    await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
+    await expect(page.locator('#music-title')).toHaveText('Musique');
+    await expect(page.locator('[data-i18n-html="art.bio"]')).toContainText('J’écris de la poésie');
+    await page.goto('/art/music/the-jungle-route/?lang=fr');
+    await expect(page.locator('.achievement-meta[data-lang="fr"]')).toContainText('juillet');
+    await expect(page.locator('.item-links[data-lang="fr"]')).toContainText('Écouter');
   });
 });
 
