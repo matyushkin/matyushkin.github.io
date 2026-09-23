@@ -13,7 +13,7 @@
 //   Site.onChange(lang => …)                 on every switch
 //   Site.section('art')                      a page's strings, English under them
 //   Site.profileLabel('art', 'soundcloud')   a profile name in the current language
-//   Site.lang, Site.locale, Site.dir
+//   Site.lang (the code in ?lang=), Site.tag (<html lang>), Site.locale, Site.dir
 (function () {
   'use strict';
 
@@ -100,7 +100,7 @@
   function fill() {
     var lang = Site.lang;
     var html = document.documentElement;
-    html.lang = lang;
+    html.lang = Site.tag;
     html.dir = Site.dir;
 
     var nav = t('common.nav');
@@ -153,6 +153,7 @@
   function apply(lang) {
     var l = info(lang);
     Site.lang = lang;
+    Site.tag = l.tag || l.code;
     Site.locale = l.locale;
     Site.dir = l.dir;
     fill();

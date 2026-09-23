@@ -30,6 +30,22 @@
       "name": "Français",
       "locale": "fr-FR",
       "dir": "ltr"
+    },
+    {
+      "code": "zh",
+      "tag": "zh-Hans",
+      "label": "ZH",
+      "name": "简体中文",
+      "locale": "zh-CN",
+      "dir": "ltr"
+    },
+    {
+      "code": "ja",
+      "tag": "ja",
+      "label": "JA",
+      "name": "日本語",
+      "locale": "ja-JP",
+      "dir": "ltr"
     }
   ],
   "names": {
@@ -68,7 +84,8 @@
         "language": "Язык",
         "theme": "Сменить тему",
         "email": "Почта",
-        "feed": "Лента обновлений"
+        "feed": "Лента обновлений",
+        "colon": ":"
       },
       "home": {
         "bio": "Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.",
@@ -189,7 +206,8 @@
         "language": "Language",
         "theme": "Toggle theme",
         "email": "Email",
-        "feed": "Updates feed"
+        "feed": "Updates feed",
+        "colon": ":"
       },
       "home": {
         "bio": "Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.",
@@ -296,7 +314,8 @@
         "language": "שפה",
         "theme": "החלפת ערכת נושא",
         "email": "דוא״ל",
-        "feed": "עדכונים"
+        "feed": "עדכונים",
+        "colon": ":"
       },
       "home": {
         "bio": "שלום! קוראים לי ליאו מטיושקין. אני חוקר, מהנדס ומשורר.",
@@ -409,7 +428,8 @@
         "language": "Langue",
         "theme": "Changer de thème",
         "email": "E-mail",
-        "feed": "Flux des nouveautés"
+        "feed": "Flux des nouveautés",
+        "colon": " :"
       },
       "home": {
         "bio": "Bonjour ! Je m’appelle Leo Matyushkin. Je suis chercheur, ingénieur et poète.",
@@ -508,6 +528,236 @@
           "novembre",
           "décembre"
         ]
+      }
+    },
+    "zh": {
+      "common": {
+        "nav": {
+          "art": "艺术",
+          "science": "科学",
+          "technology": "技术"
+        },
+        "home": "首页",
+        "skip": "跳到正文",
+        "language": "语言",
+        "theme": "切换主题",
+        "email": "邮箱",
+        "feed": "订阅更新",
+        "colon": "："
+      },
+      "home": {
+        "bio": "你好！我是 Leo Matyushkin，研究者、工程师和诗人。",
+        "social": "社交网络",
+        "projects": "项目",
+        "memories": "最初的记忆"
+      },
+      "cv": {
+        "text": "我的<a href=\"Matyushkin.pdf\">学术简历（PDF）</a>。"
+      },
+      "donate": {
+        "title": "支持我",
+        "intro": "如果你喜欢我的工作，可以通过以下方式支持我：",
+        "outro": "也可以直接写信到 <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>。"
+      },
+      "notfound": {
+        "text": "找不到该页面。请从<a href=\"index.html\">首页</a>重新开始。"
+      },
+      "art": {
+        "pageTitle": "艺术",
+        "bio": "我用俄语写诗、短篇散文和随笔，作品发表于 <em>Polutona</em>、<em>Vozdukh</em>、<em>Flagi</em> 和 <em>zhurnal</em>（原名 <em>Zhurnal na kolenke</em>）。我用丙烯和水彩作画，也用彩色铅笔画素描。我创作歌曲、电子音乐，以及键盘和吉他音乐。",
+        "musicTitle": "音乐",
+        "literatureTitle": "文学",
+        "visualTitle": "视觉艺术",
+        "behanceTitle": "<a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a> 上的项目",
+        "instagramTitle": "Instagram 近况",
+        "booksTitle": "书籍",
+        "publicationsTitle": "发表作品",
+        "release": {
+          "clip": "MV",
+          "listen": "收听",
+          "all": "所有平台",
+          "post": "帖子"
+        },
+        "types": {
+          "book": "书籍",
+          "publication": "发表",
+          "exhibition": "展览",
+          "festival": "艺术节",
+          "award": "奖项",
+          "grant": "资助"
+        },
+        "profiles": {
+          "telegram-lmwav": "Telegram 频道（LMWAV）",
+          "telegram-lmtxt": "Telegram 频道（LMTXT）",
+          "telegram-lmpix": "Telegram 频道（LMPIX）"
+        }
+      },
+      "science": {
+        "pageTitle": "科学",
+        "bio": "我的主要研究方向是纳米电子学的材料科学：半导体合成、量子点、等离激元纳米颗粒、纳米晶体的胶体合成，以及溶液中的逐层沉积。发表论文 70 篇，h 指数 19。我在 Stepik 上开设了<a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">纳米材料课程</a>，已有 1400 多名学生学习。目前我正通过计算建模重返科研。",
+        "linksTitle": "学术主页",
+        "publicationsTitle": "学术成果",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "学位论文",
+          "book": "著作",
+          "publication": "期刊论文",
+          "conference": "会议摘要",
+          "patent": "专利"
+        },
+        "profiles": {
+          "stepik": "Stepik：在线课程《纳米材料》"
+        }
+      },
+      "technology": {
+        "pageTitle": "技术",
+        "bio": "工程师、数据分析师。主要编程语言：Rust 和 Python。在 Apifornia，我正在开发一款 AI 助手，它能根据自然语言请求创建和编辑工作流（基于 LangGraph 的多智能体架构）。",
+        "profilesTitle": "个人主页",
+        "projectsTitle": "项目",
+        "downloads": "次下载",
+        "publicationsTitle": "文章",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "收听",
+        "clip": "MV",
+        "read": "阅读",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "全部作品",
+        "release": "单曲",
+        "book": "书籍",
+        "pages": "页",
+        "months": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月",
+          "7月",
+          "8月",
+          "9月",
+          "10月",
+          "11月",
+          "12月"
+        ],
+        "dateFormat": "{y}年{n}月{d}日"
+      }
+    },
+    "ja": {
+      "common": {
+        "nav": {
+          "art": "アート",
+          "science": "科学",
+          "technology": "テクノロジー"
+        },
+        "home": "ホーム",
+        "skip": "本文へスキップ",
+        "language": "言語",
+        "theme": "テーマを切り替え",
+        "email": "メール",
+        "feed": "更新フィード",
+        "colon": "："
+      },
+      "home": {
+        "bio": "こんにちは。Leo Matyushkin です。研究者、エンジニア、そして詩人です。",
+        "social": "SNS",
+        "projects": "プロジェクト",
+        "memories": "はじめての記憶"
+      },
+      "cv": {
+        "text": "<a href=\"Matyushkin.pdf\">学術履歴書（PDF）</a>。"
+      },
+      "donate": {
+        "title": "応援する",
+        "intro": "活動を気に入っていただけたら、こちらから応援できます：",
+        "outro": "<a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a> へのメールも歓迎です。"
+      },
+      "notfound": {
+        "text": "ページが見つかりません。<a href=\"index.html\">ホーム</a>からお探しください。"
+      },
+      "art": {
+        "pageTitle": "アート",
+        "bio": "ロシア語で詩、短い散文、エッセイを書いています。<em>Polutona</em>、<em>Vozdukh</em>、<em>Flagi</em>、<em>zhurnal</em>（旧 <em>Zhurnal na kolenke</em>）に作品を発表しました。アクリルと水彩で絵を描き、色鉛筆でドローイングもします。歌、エレクトロニック、キーボードやギターの曲を作っています。",
+        "musicTitle": "音楽",
+        "literatureTitle": "文学",
+        "visualTitle": "ビジュアルアート",
+        "behanceTitle": "<a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a> のプロジェクト",
+        "instagramTitle": "Instagram の最新投稿",
+        "booksTitle": "書籍",
+        "publicationsTitle": "掲載作品",
+        "release": {
+          "clip": "MV",
+          "listen": "聴く",
+          "all": "すべての配信先",
+          "post": "投稿"
+        },
+        "types": {
+          "book": "書籍",
+          "publication": "掲載",
+          "exhibition": "展覧会",
+          "festival": "フェスティバル",
+          "award": "受賞",
+          "grant": "助成"
+        },
+        "profiles": {
+          "telegram-lmwav": "Telegram チャンネル（LMWAV）",
+          "telegram-lmtxt": "Telegram チャンネル（LMTXT）",
+          "telegram-lmpix": "Telegram チャンネル（LMPIX）"
+        }
+      },
+      "science": {
+        "pageTitle": "科学",
+        "bio": "主な研究分野は、ナノエレクトロニクスのための材料科学です。半導体の合成、量子ドット、プラズモニックナノ粒子、ナノ結晶のコロイド合成、溶液からの交互積層を研究してきました。論文70本、h指数19。Stepik で<a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">ナノ材料の講座</a>を開き、1400人以上が受講しています。現在は計算モデリングを通じて研究に戻りつつあります。",
+        "linksTitle": "プロフィール",
+        "publicationsTitle": "業績",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "学位論文",
+          "book": "著書",
+          "publication": "学術論文",
+          "conference": "学会発表要旨",
+          "patent": "特許"
+        },
+        "profiles": {
+          "stepik": "Stepik：オンライン講座「ナノ材料」"
+        }
+      },
+      "technology": {
+        "pageTitle": "テクノロジー",
+        "bio": "エンジニア、データアナリスト。主なプログラミング言語は Rust と Python です。Apifornia では、自然言語の依頼からワークフローを作成・編集する AI アシスタントを開発しています（LangGraph によるマルチエージェント構成）。",
+        "profilesTitle": "プロフィール",
+        "projectsTitle": "プロジェクト",
+        "downloads": "ダウンロード",
+        "publicationsTitle": "記事",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "聴く",
+        "clip": "MV",
+        "read": "読む",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "すべての作品",
+        "release": "シングル",
+        "book": "書籍",
+        "pages": "ページ",
+        "months": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月",
+          "7月",
+          "8月",
+          "9月",
+          "10月",
+          "11月",
+          "12月"
+        ],
+        "dateFormat": "{y}年{n}月{d}日"
       }
     }
   }

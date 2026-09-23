@@ -210,6 +210,27 @@ test.describe('French', () => {
   });
 });
 
+// ─── Chinese and Japanese ────────────────────────────────────────────────────
+
+test.describe('Chinese and Japanese', () => {
+  test('Chinese pages carry the zh-Hans tag, wide colons and Chinese dates', async ({ page }) => {
+    await page.goto('/art/index.html?lang=zh');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'zh-Hans');
+    await expect(page.locator('#music-title')).toHaveText('音乐');
+    await expect(page.locator('.release-links').first()).toContainText('收听：');
+    await page.goto('/art/music/the-jungle-route/?lang=zh');
+    await expect(page.locator('.achievement-meta[data-lang="zh"]')).toContainText('2026年7月31日');
+  });
+
+  test('Japanese pages carry the ja tag and Japanese dates', async ({ page }) => {
+    await page.goto('/science/index.html?lang=ja');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ja');
+    await expect(page.locator('[data-i18n-html="science.bio"]')).toContainText(/論文\d+本/);
+    await page.goto('/art/books/aya-2018/?lang=ja');
+    await expect(page.locator('.item-links[data-lang="ja"]')).toContainText('読む：');
+  });
+});
+
 // ─── Translations: one file ──────────────────────────────────────────────────
 
 test.describe('translations', () => {
@@ -223,14 +244,14 @@ test.describe('translations', () => {
 
   test('every language fills every translated element', async ({ page, request }) => {
     const i18n = await (await request.get('/source/i18n.json')).json();
-    for (const { code } of i18n.languages) {
+    for (const { code, tag } of i18n.languages) {
       for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html', '/donate/index.html']) {
         await page.goto(url + '?lang=' + code);
         await page.waitForLoadState('networkidle');
         const empty = await page.$$eval('[data-i18n],[data-i18n-html]', els =>
           els.filter(e => !e.textContent.trim()).map(e => e.getAttribute('data-i18n') || e.getAttribute('data-i18n-html')));
         expect(empty, `${url} in ${code}`).toEqual([]);
-        await expect(page.locator('html')).toHaveAttribute('lang', code);
+        await expect(page.locator('html')).toHaveAttribute('lang', tag || code);
       }
     }
   });
