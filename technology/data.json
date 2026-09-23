@@ -36,6 +36,9 @@
         },
         "he": {
           "description": "קריאה, עיבוד ויצירה של קובצי DjVu ב-Rust טהור. המרה ל-PDF, EPUB, TIFF, PNG וטקסט. כולל שורת פקודה, גרסת WebAssembly וקישורים ל-Python."
+        },
+        "fr": {
+          "description": "Lecture, rendu et création de fichiers DjVu en Rust pur. Conversion vers PDF, EPUB, TIFF, PNG et texte. Ligne de commande, build WebAssembly et liaisons Python."
         }
       },
       "version": "0.35.0"
