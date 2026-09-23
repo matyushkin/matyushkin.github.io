@@ -86,7 +86,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     <p lang="ru">Основной интерес моих научных исследований — материаловедение наноэлектроники: синтез полупроводников, квантовые точки, плазмонные наночастицы, коллоидный синтез нанокристаллов, послойное осаждение из растворов. 70 публикаций, h-index 19. Создал <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">курс по наноматериалам на Стэпике</a> — сейчас более 1400 студентов. Возвращаюсь к исследованиям через вычислительное моделирование.</p>
     <p lang="en">My primary research interest is materials science of nanoelectronics: semiconductor synthesis, quantum dots, plasmonic nanoparticles, colloidal synthesis of nanocrystals, layer-by-layer deposition from solutions. 70 publications, h-index 19. I also made a <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">nanomaterials course on Stepik</a> with 1,400+ students. Currently returning to research through computational modeling.</p>
-    <p lang="he">תחום המחקר המרכזי שלי הוא מדע החומרים של הננו־אלקטרוניקה: סינתזת מוליכים למחצה, נקודות קוונטיות, חלקיקי ננו פלזמוניים, סינתזה קולואידית של ננו־גבישים ושיקוע שכבה־אחר־שכבה מתמיסות. 70 פרסומים, מדד h‏ 19. יצרתי <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">קורס ננו־חומרים ב־Stepik</a> עם יותר מ־1400 סטודנטים. אני חוזר למחקר דרך מידול חישובי.</p>
+    <p lang="he">תחום המחקר המרכזי שלי הוא מדע החומרים של הננו־אלקטרוניקה: סינתזה של מוליכים למחצה, נקודות קוונטיות, ננו־חלקיקים פלזמוניים, סינתזה קולואידית של ננו־גבישים ושיקוע שכבה אחר שכבה מתמיסות. 70 פרסומים, מדד h‏ 19. יצרתי <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">קורס ננו־חומרים ב־Stepik</a>, שבו למדו יותר מ־1400 סטודנטים. כיום אני חוזר למחקר באמצעות מידול חישובי.</p>
 
     <h2 id="links-title">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
@@ -150,7 +150,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       profiles: [
         { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Google Scholar' },
         { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
-        { url: 'https://stepik.org/course/52514', label: 'Stepik: קורס מקוון «ננו־חומרים»' }
+        { url: 'https://stepik.org/course/52514', label: 'קורס מקוון "ננו־חומרים" ב־Stepik' }
       ],
       sections: [
         { type: 'dissertation', label: 'עבודת דוקטורט' },
@@ -201,7 +201,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       .filter(a => lang === 'ru' || a.lang_of_work !== 'ru');
 
     function renderItem(a) {
-      const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
+      const i = a.i18n[lang] || (lang === 'he' && a.i18n.en) || a.i18n['ru'] || Object.values(a.i18n)[0];
       const citationsHtml = a.citations
         ? ` · ${a.urls?.cited_by
             ? `<a href="${a.urls.cited_by}" target="_blank" rel="noopener" title="citations">${a.citations} ✦</a>`

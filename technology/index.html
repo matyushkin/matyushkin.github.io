@@ -188,7 +188,8 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     if (navTech) { navTech.textContent = ui.nav.technology; navTech.setAttribute('aria-current', 'page'); }
     document.getElementById('footer-text').innerHTML = ui.footer;
 
-    const toShow = categories.filter(c => c.lang === lang);
+    // There are no Hebrew articles; a Hebrew reader gets the English ones.
+    const toShow = categories.filter(c => c.lang === (lang === 'he' ? 'en' : lang));
 
     document.getElementById('articles-list').innerHTML = toShow.map(cat => {
       if (cat.subcategories && cat.subcategories.length) {

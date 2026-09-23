@@ -89,7 +89,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     <p lang="ru">Пишу стихи, малую прозу, эссе. Публиковался на «Полутонах», в «Воздухе», «Флагах», «Журнале» (бывший «Журнал на коленке»). Рисую акрилом, акварелью и цветными карандашами. Сочиняю песни, электронную, клавишную и гитарную музыку.</p>
     <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em> (formerly <em>Zhurnal na kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music.</p>
-    <p lang="he">אני כותב שירה, פרוזה קצרה ומסות ברוסית. פרסמתי ב־Polutona, ב־Vozdukh, ב־Flagi וב־zhurnal. אני מצייר באקריליק, בצבעי מים ובעפרונות צבעוניים. אני מלחין שירים, מוזיקה אלקטרונית, מוזיקת מקלדת וגיטרה.</p>
+    <p lang="he">אני כותב שירה, פרוזה קצרה ומסות ברוסית. פרסמתי בכתבי עת ספרותיים — Polutona, Vozdukh, Flagi ו־zhurnal. אני מצייר באקריליק, בצבעי מים ובעפרונות צבעוניים. אני מלחין שירים, מוזיקה אלקטרונית ומוזיקה לקלידים ולגיטרה.</p>
 
     <h2 id="music-title">Музыка</h2>
     <p class="section-links" id="profiles-music"></p>
@@ -207,9 +207,9 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       literatureTitle: 'ספרות',
       visualTitle: 'אמנות חזותית',
       behanceTitle: 'פרויקטים ב־<a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
-      instagramTitle: 'אחרונים באינסטגרם',
+      instagramTitle: 'לאחרונה באינסטגרם',
       booksTitle: 'ספרים',
-      release: { clip: 'קליפ', listen: 'להאזין', all: 'כל הפלטפורמות', post: 'פוסט של' },
+      release: { clip: 'קליפ', listen: 'האזנה', all: 'כל הפלטפורמות', post: 'פוסט של' },
       publicationsTitle: 'פרסומים',
       nav: { art: 'אמנות', science: 'מדע', technology: 'טכנולוגיה' },
       profiles: {
@@ -398,7 +398,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     const bookTypeLabel = ui.types.book;
     document.getElementById('books-list').innerHTML = (books || []).map(b => {
-      const i = b.i18n[lang] || b.i18n.ru;
+      const i = b.i18n[lang] || (lang === 'he' && b.i18n.en) || b.i18n.ru;
       const links = [`<a href="${b.pdf}" target="_blank" rel="noopener">PDF</a>`];
       if (b.patreon) links.push(`<a href="${b.patreon}" target="_blank" rel="noopener">Patreon</a>`);
       return `<div class="achievement" id="${b.id}">
@@ -411,7 +411,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     const sorted = [...achievements].sort((a, b) => b.year - a.year);
     document.getElementById('achievements-list').innerHTML = sorted.map(a => {
-      const i = a.i18n[lang] || a.i18n['ru'] || Object.values(a.i18n)[0];
+      const i = a.i18n[lang] || (lang === 'he' && a.i18n.en) || a.i18n['ru'] || Object.values(a.i18n)[0];
       const typeLabel = ui.types[a.type] || a.type;
       const titleHtml = a.url
         ? `<a href="${a.url}" target="_blank" rel="noopener">${i.title}</a>`

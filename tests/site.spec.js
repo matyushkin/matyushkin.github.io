@@ -181,7 +181,7 @@ test.describe('Hebrew', () => {
     await page.goto('/art/music/the-jungle-route/?lang=he');
     await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
     await expect(page.locator('.achievement-meta[lang="he"]')).toContainText('ביולי');
-    await expect(page.locator('.item-links[lang="he"]')).toContainText('להאזין');
+    await expect(page.locator('.item-links[lang="he"]')).toContainText('האזנה');
   });
 
   test('the selector offers three languages everywhere', async ({ page }) => {
