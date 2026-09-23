@@ -1,4 +1,76 @@
 {
+  "profiles": [
+    {
+      "id": "spotify",
+      "url": "https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm",
+      "group": "music"
+    },
+    {
+      "id": "apple-music",
+      "url": "https://music.apple.com/us/artist/leo-matyushkin/6777345689",
+      "group": "music"
+    },
+    {
+      "id": "youtube",
+      "url": "https://www.youtube.com/@matyushkin",
+      "group": "music"
+    },
+    {
+      "id": "soundcloud",
+      "url": "https://soundcloud.com/leo-matyushkin",
+      "group": "music"
+    },
+    {
+      "id": "telegram-lmwav",
+      "url": "https://t.me/lmwav",
+      "group": "music"
+    },
+    {
+      "id": "tiktok",
+      "url": "https://www.tiktok.com/@leo_matyushkin",
+      "group": "music"
+    },
+    {
+      "id": "patreon",
+      "url": "https://www.patreon.com/matyushkin",
+      "group": "literature"
+    },
+    {
+      "id": "telegram-lmtxt",
+      "url": "https://t.me/lmtxt",
+      "group": "literature"
+    },
+    {
+      "id": "vk",
+      "url": "https://vk.com/levamatyushkin",
+      "group": "literature"
+    },
+    {
+      "id": "livejournal",
+      "url": "https://indiepie.livejournal.com/",
+      "group": "literature"
+    },
+    {
+      "id": "telegram-lmpix",
+      "url": "https://t.me/lmpix",
+      "group": "visual"
+    },
+    {
+      "id": "dribbble",
+      "url": "https://dribbble.com/matyushkin",
+      "group": "visual"
+    },
+    {
+      "id": "deviantart",
+      "url": "https://www.deviantart.com/matyushkin",
+      "group": "visual"
+    },
+    {
+      "id": "coub",
+      "url": "https://coub.com/leva.matyushkin",
+      "group": "visual"
+    }
+  ],
   "achievements": [
     {
       "id": "vozduh-46-2026",

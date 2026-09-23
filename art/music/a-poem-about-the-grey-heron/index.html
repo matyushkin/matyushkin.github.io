@@ -2,6 +2,15 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
+(function(){var C=["ru", "en", "he"],R=["he"],F="en",D="ru",l=null;
+try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
+if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
+var h=document.documentElement;h.lang=l;h.dir=R.indexOf(l)>=0?'rtl':'ltr';
+var s=document.createElement('style');s.id='lang-style';
+s.textContent='[data-lang]:not([data-lang="'+l+'"]){display:none!important}'+(l!==D?'[data-i18n],[data-i18n-html]{visibility:hidden}':'');
+document.head.appendChild(s);})();</script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>A Poem About the Grey Heron — Leo Matyushkin</title>
   <meta name="description" content="A Poem About the Grey Heron. 28 August 2026 · 1:25. Leo Matyushkin">
@@ -57,38 +66,38 @@
 if(t!=='dark-theme'&&t!=='light-theme'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark-theme':'light-theme'}
 document.body.className=document.body.className.replace(/\b(light|dark)-theme\b/,t)||t;
 var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark-theme'?'#1a1a1a':'#ffffff';})();</script>
-  <a class="skip-link" href="#main-content">К содержимому</a>
+  <a class="skip-link" href="#main-content" data-i18n="common.skip">К содержимому</a>
   <header>
     <nav>
       <section class="logo"><a href="../../../index.html"><img src="../../../img/logo.png" alt="Home"></a></section>
-      <section><a href="../../../science/index.html" id="nav-science">Наука</a></section>
-      <section><a href="../../../technology/index.html" id="nav-technology">Технологии</a></section>
-      <section><a href="../../index.html" id="nav-art">Искусство</a></section>
+      <section><a href="../../../science/index.html" id="nav-science" data-i18n="common.nav.science">Наука</a></section>
+      <section><a href="../../../technology/index.html" id="nav-technology" data-i18n="common.nav.technology">Технологии</a></section>
+      <section><a href="../../index.html" id="nav-art" data-i18n="common.nav.art">Искусство</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
-        <option value="ru">RU</option>
-        <option value="en">EN</option>
-        <option value="he">HE</option>
+        <option value="ru" lang="ru">RU</option>
+        <option value="en" lang="en">EN</option>
+        <option value="he" lang="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
     </nav>
   </header>
   <main id="main-content" class="item-page">
     <img class="item-cover" src="../../covers/a-poem-about-the-grey-heron.jpg" alt="A Poem About the Grey Heron" width="360" height="360">
-    <h1 lang="ru">A Poem About the Grey Heron</h1>
-    <h1 lang="en">A Poem About the Grey Heron</h1>
-    <h1 lang="he">A Poem About the Grey Heron</h1>
-    <p class="achievement-meta" lang="ru">28 августа 2026 · 1:25</p>
-    <p class="achievement-meta" lang="en">28 August 2026 · 1:25</p>
-    <p class="achievement-meta" lang="he">28 באוגוסט 2026 · 1:25</p>
-    <p class="item-links" lang="ru"><span>Слушать:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
-    <p class="item-links" lang="en"><span>Listen:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
-    <p class="item-links" lang="he"><span>האזנה:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
+    <h1 lang="ru" data-lang="ru">A Poem About the Grey Heron</h1>
+    <p class="achievement-meta" lang="ru" data-lang="ru">28 августа 2026 · 1:25</p>
+    <p class="item-links" lang="ru" data-lang="ru"><span>Слушать:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
+    <h1 lang="en" data-lang="en">A Poem About the Grey Heron</h1>
+    <p class="achievement-meta" lang="en" data-lang="en">28 August 2026 · 1:25</p>
+    <p class="item-links" lang="en" data-lang="en"><span>Listen:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
+    <h1 lang="he" data-lang="he">A Poem About the Grey Heron</h1>
+    <p class="achievement-meta" lang="he" data-lang="he">28 באוגוסט 2026 · 1:25</p>
+    <p class="item-links" lang="he" data-lang="he"><span>האזנה:</span> <a href="https://open.spotify.com/album/6bzYBqhnkuUCLqI9WJNa11" target=_blank rel=noopener>Spotify</a> · <a href="https://music.apple.com/ru/album/a-poem-about-the-grey-heron-single/6802593364" target=_blank rel=noopener>Apple Music</a> · <a href="https://music.youtube.com/watch?v=NkmOJDBSKtA" target=_blank rel=noopener>YouTube Music</a></p>
     <p class="item-clip"><a href="https://www.youtube.com/shorts/QA9sg-Tgs8c" target="_blank" rel="noopener" aria-label="Клип: A Poem About the Grey Heron"><img src="../../clips/QA9sg-Tgs8c.jpg" alt=""></a></p>
-    <p class="item-back"><a href="../../index.html" lang="ru">Все работы</a><a href="../../index.html" lang="en">All works</a><a href="../../index.html" lang="he">כל העבודות</a></p>
+    <p class="item-back"><a href="../../index.html" lang="ru" data-lang="ru">Все работы</a><a href="../../index.html" lang="en" data-lang="en">All works</a><a href="../../index.html" lang="he" data-lang="he">כל העבודות</a></p>
   </main>
   <footer>
     <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a></p>
   </footer>
-  <script src="../../../source/lang-nav.js"></script>
+  <script src="../../../source/site.js"></script>
 </body>
 </html>
