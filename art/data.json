@@ -106,6 +106,16 @@
           "title": "«Иная глина» [もうひとつの粘土]",
           "venue": "詩誌 Vozdukh 第46号",
           "description": "連作詩、256–266ページ。2020–2025年に書かれた作品です。本文は Patreon で公開しています。"
+        },
+        "es": {
+          "title": "«Иная глина» [Otra arcilla]",
+          "venue": "Revista de poesía Vozdukh, n.º 46",
+          "description": "Ciclo de poemas, págs. 256–266, escritos entre 2020 y 2025. El texto está publicado en Patreon."
+        },
+        "pt": {
+          "title": "«Иная глина» [Outra argila]",
+          "venue": "Revista de poesia Vozdukh, nº 46",
+          "description": "Ciclo de poemas, p. 256–266, escritos entre 2020 e 2025. O texto está publicado no Patreon."
         }
       },
       "lang_of_work": "ru",
@@ -145,6 +155,16 @@
           "title": "«Сорока щенка маленького унесла» [カササギが子犬をさらっていった]",
           "venue": "文学プロジェクト Flagi 第5号（2020年8月30日）",
           "description": "連作詩。媒体は休刊しましたが、Web Archive で閲覧できます。"
+        },
+        "es": {
+          "title": "«Сорока щенка маленького унесла» [La urraca se llevó al cachorrito]",
+          "venue": "Proyecto literario Flagi, n.º 5, 30.08.2020",
+          "description": "Ciclo de poemas. La revista cerró; puede consultarse en Web Archive."
+        },
+        "pt": {
+          "title": "«Сорока щенка маленького унесла» [A pega levou o filhotinho]",
+          "venue": "Projeto literário Flagi, nº 5, 30.08.2020",
+          "description": "Ciclo de poemas. A revista foi encerrada; está disponível no Web Archive."
         }
       },
       "lang_of_work": "ru",
@@ -184,6 +204,16 @@
           "title": "«Воскресные вкладыши» [日曜日のおまけ]",
           "venue": "文芸誌 zhurnal（旧 Zhurnal na kolenke）2024年5月28日",
           "description": "連作詩。"
+        },
+        "es": {
+          "title": "«Воскресные вкладыши» [Cromos del domingo]",
+          "venue": "Revista literaria zhurnal (antes Zhurnal na kolenke), 28.05.2024",
+          "description": "Ciclo de poemas."
+        },
+        "pt": {
+          "title": "«Воскресные вкладыши» [Figurinhas de domingo]",
+          "venue": "Revista literária zhurnal (antes Zhurnal na kolenke), 28.05.2024",
+          "description": "Ciclo de poemas."
         }
       },
       "lang_of_work": "ru",
@@ -285,6 +315,16 @@
           "title": "«а/я»",
           "venue": "自費出版",
           "description": "詩集。"
+        },
+        "es": {
+          "title": "«а/я»",
+          "venue": "Autoedición",
+          "description": "Libro de poemas."
+        },
+        "pt": {
+          "title": "«а/я»",
+          "venue": "Edição do autor",
+          "description": "Livro de poemas."
         }
       }
     },
@@ -324,6 +364,16 @@
           "title": "«О пространстве и времени» [空間と時間について]",
           "venue": "自費出版",
           "description": "詩集。"
+        },
+        "es": {
+          "title": "«О пространстве и времени» [Sobre el espacio y el tiempo]",
+          "venue": "Autoedición",
+          "description": "Libro de poemas."
+        },
+        "pt": {
+          "title": "«О пространстве и времени» [Sobre o espaço e o tempo]",
+          "venue": "Edição do autor",
+          "description": "Livro de poemas."
         }
       }
     }
