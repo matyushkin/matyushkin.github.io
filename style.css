@@ -178,10 +178,6 @@ nav a[aria-current="page"] {
     border: 0;
 }
 
-/* Show only the text written in the language the page is set to. */
-html[lang="ru"] :is(p, h1, h2)[lang]:not([lang="ru"]),
-html[lang="en"] :is(p, h1, h2)[lang]:not([lang="en"]),
-html[lang="he"] :is(p, h1, h2)[lang]:not([lang="he"]) { display: none; }
 
 /* ── Index section links ─────────────────────────────────────────────────── */
 
@@ -453,15 +449,6 @@ main h3 {
     margin-bottom: 0.1em;
 }
 
-/* The base rule only hides paragraphs of the other language. */
-html[lang="ru"] .item-page h1:not([lang="ru"]),
-html[lang="en"] .item-page h1:not([lang="en"]),
-html[lang="he"] .item-page h1:not([lang="he"]),
-html[lang="ru"] .item-back a:not([lang="ru"]),
-html[lang="en"] .item-back a:not([lang="en"]),
-html[lang="he"] .item-back a:not([lang="he"]) {
-    display: none;
-}
 
 .item-cover {
     width: 360px;
@@ -502,10 +489,10 @@ html[lang="he"] .item-back a:not([lang="he"]) {
     }
 }
 
-/* ── Hebrew: right to left ───────────────────────────────────────────────── */
+/* ── Right-to-left scripts ───────────────────────────────────────────────── */
 
-html[lang="he"] body {
-    /* Heebo sits a touch smaller than Computer Modern at the same size. */
+html[dir="rtl"] body {
+    /* Hebrew in Heebo sits a touch smaller than Computer Modern at the same size. */
     font-size: 22px;
 }
 
@@ -514,6 +501,6 @@ html[lang="he"] body {
     content: "← ";
 }
 
-html[lang="he"] .item-back a::before {
+html[dir="rtl"] .item-back a::before {
     content: "→ ";
 }

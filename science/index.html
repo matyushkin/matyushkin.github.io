@@ -2,6 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
+(function(){var C=["ru", "en", "he"],R=["he"],F="en",D="ru",l=null;
+try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
+if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
+var h=document.documentElement;h.lang=l;h.dir=R.indexOf(l)>=0?'rtl':'ltr';
+var s=document.createElement('style');s.id='lang-style';
+s.textContent='[data-lang]:not([data-lang="'+l+'"]){display:none!important}'+(l!==D?'[data-i18n],[data-i18n-html]{visibility:hidden}':'');
+document.head.appendChild(s);})();</script>
+  <noscript><style id="lang-nojs">[data-lang]:not([data-lang="ru"]){display:none!important}</style></noscript>
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta property="og:type" content="website">
@@ -16,11 +26,11 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <link rel="canonical" href="https://matyushkin.github.io/science/index.html">
-  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/science/index.html?lang=ru">
   <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/science/index.html?lang=en">
   <link rel="alternate" hreflang="he" href="https://matyushkin.github.io/science/index.html?lang=he">
   <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/science/index.html">
+  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="preload" href="../fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://mc.yandex.ru">
   <script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -34,7 +44,7 @@
   <link rel="apple-touch-icon" href="../img/logo.png">
   <link rel="manifest" href="../manifest.json">
   <meta name="theme-color" content="#ffffff">
-  <title>Science — Leo Matyushkin</title>
+  <title data-i18n-title="science.pageTitle">Наука — Leo Matyushkin</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,144 +74,56 @@
 if(t!=='dark-theme'&&t!=='light-theme'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark-theme':'light-theme'}
 document.body.className=document.body.className.replace(/\b(light|dark)-theme\b/,t)||t;
 var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark-theme'?'#1a1a1a':'#ffffff';})();</script>
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <a href="#main-content" class="skip-link" data-i18n="common.skip">К содержимому</a>
   <header>
     <nav>
       <section class="logo">
         <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../science/index.html" id="nav-science">Science</a></section>
-      <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
-      <section><a href="../art/index.html" id="nav-art">Art</a></section>
+      <section><a href="../science/index.html" id="nav-science" data-i18n="common.nav.science">Наука</a></section>
+      <section><a href="../technology/index.html" id="nav-technology" data-i18n="common.nav.technology">Технологии</a></section>
+      <section><a href="../art/index.html" id="nav-art" data-i18n="common.nav.art">Искусство</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
-        <option value="ru">RU</option>
-        <option value="en">EN</option>
-        <option value="he">HE</option>
+        <option value="ru" lang="ru">RU</option>
+        <option value="en" lang="en">EN</option>
+        <option value="he" lang="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
     </nav>
   </header>
   <main id="main-content">
-    <h1 id="page-title">Science</h1>
+    <h1 id="page-title" data-i18n="science.pageTitle">Наука</h1>
 
-    <p lang="ru">Основной интерес моих научных исследований — материаловедение наноэлектроники: синтез полупроводников, квантовые точки, плазмонные наночастицы, коллоидный синтез нанокристаллов, послойное осаждение из растворов. 70 публикаций, h-index 19. Создал <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">курс по наноматериалам на Стэпике</a> — сейчас более 1400 студентов. Возвращаюсь к исследованиям через вычислительное моделирование.</p>
-    <p lang="en">My primary research interest is materials science of nanoelectronics: semiconductor synthesis, quantum dots, plasmonic nanoparticles, colloidal synthesis of nanocrystals, layer-by-layer deposition from solutions. 70 publications, h-index 19. I also made a <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">nanomaterials course on Stepik</a> with 1,400+ students. Currently returning to research through computational modeling.</p>
-    <p lang="he">תחום המחקר המרכזי שלי הוא מדע החומרים של הננו־אלקטרוניקה: סינתזה של מוליכים למחצה, נקודות קוונטיות, ננו־חלקיקים פלזמוניים, סינתזה קולואידית של ננו־גבישים ושיקוע שכבה אחר שכבה מתמיסות. 70 פרסומים, מדד h‏ 19. יצרתי <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">קורס ננו־חומרים ב־Stepik</a>, שבו למדו יותר מ־1400 סטודנטים. כיום אני חוזר למחקר באמצעות מידול חישובי.</p>
+    <p data-i18n-html="science.bio">Основной интерес моих научных исследований — материаловедение наноэлектроники: синтез полупроводников, квантовые точки, плазмонные наночастицы, коллоидный синтез нанокристаллов, послойное осаждение из растворов. 70 публикаций, h-index 19. Создал <a href="https://stepik.org/course/52514" target="_blank" rel="noopener">курс по наноматериалам на Стэпике</a> — сейчас более 1400 студентов. Возвращаюсь к исследованиям через вычислительное моделирование.</p>
 
-    <h2 id="links-title">Профили</h2>
+    <h2 id="links-title" data-i18n="science.linksTitle">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
-    <h2 id="publications-title">Публикации</h2>
+    <h2 id="publications-title" data-i18n="science.publicationsTitle">Публикации</h2>
     <div id="achievements-list"></div>
   </main>
   <footer>
     <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a></p>
   </footer>
 
+  <script src="../source/site.js"></script>
   <script>
-  const UI = {
-    ru: {
-      pageTitle: 'Наука',
-      linksTitle: 'Профили',
-      publicationsTitle: 'Публикации',
-      scholarLabel: 'Гугл Академия',
-      nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
-      profiles: [
-        { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Гугл Академия' },
-        { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
-        { url: 'https://www.elibrary.ru/author_profile.asp?authorid=650886', label: 'eLIBRARY' },
-        { url: 'https://stepik.org/course/52514', label: 'Стэпик: онлайн-курс «Наноматериалы»' }
-      ],
-      sections: [
-        { type: 'dissertation', label: 'Диссертация' },
-        { type: 'book',         label: 'Книги' },
-        { type: 'publication',  label: 'Статьи в журналах' },
-        { type: 'conference',   label: 'Тезисы конференций' },
-        { type: 'patent',       label: 'Патенты' }
-      ],
-      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a>'
-    },
-    en: {
-      pageTitle: 'Science',
-      linksTitle: 'Profiles',
-      publicationsTitle: 'Publications',
-      scholarLabel: 'Google Scholar',
-      nav: { art: 'Art', science: 'Science', technology: 'Technology' },
-      profiles: [
-        { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Google Scholar' },
-        { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
-        { url: 'https://stepik.org/course/52514', label: 'Stepik: Online course "Nanomaterials"' }
-      ],
-      sections: [
-        { type: 'dissertation', label: 'Dissertation' },
-        { type: 'book',         label: 'Books' },
-        { type: 'publication',  label: 'Journal Articles' },
-        { type: 'conference',   label: 'Conference Abstracts' },
-        { type: 'patent',       label: 'Patents' }
-      ],
-      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
-    },
-    he: {
-      pageTitle: 'מדע',
-      linksTitle: 'פרופילים',
-      publicationsTitle: 'פרסומים',
-      scholarLabel: 'Google Scholar',
-      nav: { art: 'אמנות', science: 'מדע', technology: 'טכנולוגיה' },
-      profiles: [
-        { url: 'https://scholar.google.ru/citations?user=x0O884MAAAAJ', label: 'Google Scholar' },
-        { url: 'https://www.researchgate.net/profile/Lev_Matyushkin', label: 'ResearchGate' },
-        { url: 'https://stepik.org/course/52514', label: 'קורס מקוון "ננו־חומרים" ב־Stepik' }
-      ],
-      sections: [
-        { type: 'dissertation', label: 'עבודת דוקטורט' },
-        { type: 'book',         label: 'ספרים' },
-        { type: 'publication',  label: 'מאמרים בכתבי עת' },
-        { type: 'conference',   label: 'תקצירי כנסים' },
-        { type: 'patent',       label: 'פטנטים' }
-      ],
-      footer: 'דוא״ל — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">עדכונים</a>'
-    }
-  };
 
-  function getLang() {
-    const urlLang = new URLSearchParams(window.location.search).get('lang');
-    if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
-    const stored = localStorage.getItem('lang');
-    if (stored) return stored;
-    const browser = (navigator.language || '').slice(0, 2).toLowerCase();
-    return browser === 'ru' || browser === 'he' ? browser : 'en';
-  }
 
-  function applyBilingualParagraphs(lang) {
-    document.querySelectorAll('p[lang]').forEach(el => {
-      el.style.display = el.lang === lang ? 'block' : 'none';
-    });
-  }
 
-  function render(achievements, lang) {
-    document.documentElement.lang = lang;
-    document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
-    const ui = UI[lang] || UI.en;
-    document.getElementById('page-title').textContent = ui.pageTitle;
-    document.title = ui.pageTitle + ' — Leo Matyushkin';
-    document.getElementById('links-title').textContent = ui.linksTitle;
-    document.getElementById('publications-title').textContent = ui.publicationsTitle;
-    const navArt  = document.getElementById('nav-art');
-    const navSci  = document.getElementById('nav-science');
-    const navTech = document.getElementById('nav-technology');
-    if (navArt)  { navArt.textContent  = ui.nav.art;        navArt.removeAttribute('aria-current'); }
-    if (navSci)  { navSci.textContent  = ui.nav.science;    navSci.setAttribute('aria-current', 'page'); }
-    if (navTech) { navTech.textContent = ui.nav.technology; navTech.removeAttribute('aria-current'); }
-    document.getElementById('profiles-list').innerHTML = ui.profiles
-      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`)
+  function render(data, lang) {
+    const ui = Site.section('science');
+    const { achievements, profiles } = data;
+    document.getElementById('profiles-list').innerHTML = profiles
+      .filter(p => !p.only || p.only.includes(lang))
+      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${Site.profileLabel('science', p.id)}</a>`)
       .join('');
-    document.getElementById('footer-text').innerHTML = ui.footer;
 
     const filtered = [...achievements]
       .filter(a => lang === 'ru' || a.lang_of_work !== 'ru');
 
     function renderItem(a) {
-      const i = a.i18n[lang] || (lang === 'he' && a.i18n.en) || a.i18n['ru'] || Object.values(a.i18n)[0];
+      const i = a.i18n[lang] || a.i18n.en || a.i18n.ru || Object.values(a.i18n)[0];
       const citationsHtml = a.citations
         ? ` · ${a.urls?.cited_by
             ? `<a href="${a.urls.cited_by}" target="_blank" rel="noopener" title="citations">${a.citations} ✦</a>`
@@ -226,60 +148,20 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       </div>`;
     }
 
-    document.getElementById('achievements-list').innerHTML = ui.sections.map(section => {
+    document.getElementById('achievements-list').innerHTML = Object.entries(ui.sections).map(([type, label]) => {
       const items = filtered
-        .filter(a => a.type === section.type)
+        .filter(a => a.type === type)
         .sort((a, b) => (b.citations || 0) - (a.citations || 0));
       if (!items.length) return '';
-      return `<h3>${section.label}</h3>` + items.map(renderItem).join('');
+      return `<h3>${label}</h3>` + items.map(renderItem).join('');
     }).join('');
   }
 
-  fetch('data.json')
-    .then(r => r.json())
-    .then(data => {
-      const achievements = data.achievements;
-      const lang = getLang();
-      const select = document.getElementById('lang-select');
-      select.value = lang;
-      render(achievements, lang);
+  Promise.all([fetch('data.json', { cache: 'no-cache' }).then(r => r.json()), Site.ready]).then(([data]) => {
+    render(data, Site.lang);
+    Site.onChange(lang => render(data, lang));
+  });
 
-      select.addEventListener('change', () => {
-        const l = select.value;
-        localStorage.setItem('lang', l);
-        const url = new URL(window.location);
-        url.searchParams.set('lang', l);
-        history.replaceState(null, '', url);
-        render(achievements, l);
-      });
-    });
-
-  // Theme
-  (function() {
-    const body = document.body;
-    const saved = localStorage.getItem('theme');
-    if (saved) { body.className = saved; }
-    (function(){ var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = body.classList.contains('dark-theme') ? '#1a1a1a' : '#ffffff'; })();
-    const btn = document.querySelector('.theme-button');
-    if (btn) btn.onclick = function() {
-      const dark = body.classList.contains('dark-theme');
-      body.classList.toggle('light-theme', dark);
-      body.classList.toggle('dark-theme', !dark);
-      localStorage.setItem('theme', body.className);
-      var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = !dark ? '#1a1a1a' : '#ffffff';
-    };
-
-    // With no explicit choice the site follows the device setting as it changes.
-    if (window.matchMedia) {
-      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
-        var chosen = null;
-        try { chosen = localStorage.getItem('theme'); } catch (err) {}
-        if (chosen === 'dark-theme' || chosen === 'light-theme') return;
-        body.className = e.matches ? 'dark-theme' : 'light-theme';
-        (function(){var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=e.matches?'#1a1a1a':'#ffffff';})();
-      });
-    }
-  })();
   </script>
 </body>
 </html>

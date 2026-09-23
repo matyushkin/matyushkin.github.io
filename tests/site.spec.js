@@ -16,20 +16,18 @@ async function clearStorage(page) {
 test.describe('index.html', () => {
   test('RU: shows Russian bio', async ({ page }) => {
     await page.goto('/?lang=ru');
-    const ruP = page.locator('main article p[lang="ru"]');
-    const enP = page.locator('main article p[lang="en"]');
-    await expect(ruP).toBeVisible();
-    await expect(enP).toBeHidden();
-    await expect(ruP).toContainText('Лёва Матюшкин');
+    const bio = page.locator('[data-i18n-html="home.bio"]');
+    await expect(bio).toBeVisible();
+    await expect(bio).toContainText('Лёва Матюшкин');
+    await expect(bio).not.toContainText('Hi!');
   });
 
   test('EN: shows English bio', async ({ page }) => {
     await page.goto('/?lang=en');
-    const ruP = page.locator('main article p[lang="ru"]');
-    const enP = page.locator('main article p[lang="en"]');
-    await expect(enP).toBeVisible();
-    await expect(ruP).toBeHidden();
-    await expect(enP).toContainText('Leo Matyushkin');
+    const bio = page.locator('[data-i18n-html="home.bio"]');
+    await expect(bio).toBeVisible();
+    await expect(bio).toContainText('Leo Matyushkin');
+    await expect(bio).not.toContainText('Привет');
   });
 
   test('RU: nav labels in Russian', async ({ page }) => {
@@ -122,7 +120,7 @@ test.describe('art/index.html', () => {
 
   test('RU bio mentions Журнал (formerly На коленке)', async ({ page }) => {
     await page.goto('/art/index.html?lang=ru');
-    await expect(page.locator('p[lang="ru"]').first()).toContainText('«Журнале» (бывший «Журнал на коленке»)');
+    await expect(page.locator('[data-i18n-html="art.bio"]')).toContainText('«Журнале» (бывший «Журнал на коленке»)');
   });
 
   test('publications render (non-empty list)', async ({ page }) => {
@@ -154,8 +152,10 @@ test.describe('technology/index.html', () => {
 
   test('RU: bio paragraph visible', async ({ page }) => {
     await page.goto('/technology/index.html?lang=ru');
-    await expect(page.locator('p[lang="ru"]')).toBeVisible();
-    await expect(page.locator('p[lang="en"]')).toBeHidden();
+    const bio = page.locator('[data-i18n-html="technology.bio"]');
+    await expect(bio).toBeVisible();
+    await expect(bio).toContainText('Инженер');
+    await expect(bio).not.toContainText('Engineer');
   });
 });
 
@@ -172,16 +172,20 @@ test.describe('Hebrew', () => {
 
   test('other languages stay hidden', async ({ page }) => {
     await page.goto('/art/index.html?lang=he');
-    await expect(page.locator('main p[lang="he"]').first()).toBeVisible();
-    await expect(page.locator('main p[lang="ru"]').first()).toBeHidden();
-    await expect(page.locator('main p[lang="en"]').first()).toBeHidden();
+    const bio = page.locator('[data-i18n-html="art.bio"]');
+    await expect(bio).toContainText('אני כותב שירה');
+    await expect(bio).not.toContainText('Пишу стихи');
+    await page.goto('/art/music/the-jungle-route/?lang=he');
+    await expect(page.locator('h1:visible')).toHaveCount(1);
+    await expect(page.locator('[data-lang="ru"]').first()).toBeHidden();
+    await expect(page.locator('[data-lang="en"]').first()).toBeHidden();
   });
 
   test('a work page reads right to left with a Hebrew date', async ({ page }) => {
     await page.goto('/art/music/the-jungle-route/?lang=he');
     await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
-    await expect(page.locator('.achievement-meta[lang="he"]')).toContainText('ביולי');
-    await expect(page.locator('.item-links[lang="he"]')).toContainText('האזנה');
+    await expect(page.locator('.achievement-meta[data-lang="he"]')).toContainText('ביולי');
+    await expect(page.locator('.item-links[data-lang="he"]')).toContainText('האזנה');
   });
 
   test('the selector offers three languages everywhere', async ({ page }) => {
@@ -195,6 +199,56 @@ test.describe('Hebrew', () => {
     for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html']) {
       await page.goto(url);
       await expect(page.locator('link[hreflang="he"]')).toHaveCount(1);
+    }
+  });
+});
+
+// ─── Translations: one file ──────────────────────────────────────────────────
+
+test.describe('translations', () => {
+  test('the selector lists exactly the languages in i18n.json', async ({ page, request }) => {
+    const i18n = await (await request.get('/source/i18n.json')).json();
+    for (const url of ['/', '/art/index.html', '/science/index.html', '/art/books/aya-2018/']) {
+      await page.goto(url);
+      await expect(page.locator('#lang-select option')).toHaveCount(i18n.languages.length);
+    }
+  });
+
+  test('every language fills every translated element', async ({ page, request }) => {
+    const i18n = await (await request.get('/source/i18n.json')).json();
+    for (const { code } of i18n.languages) {
+      for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html', '/donate/index.html']) {
+        await page.goto(url + '?lang=' + code);
+        await page.waitForLoadState('networkidle');
+        const empty = await page.$$eval('[data-i18n],[data-i18n-html]', els =>
+          els.filter(e => !e.textContent.trim()).map(e => e.getAttribute('data-i18n') || e.getAttribute('data-i18n-html')));
+        expect(empty, `${url} in ${code}`).toEqual([]);
+        await expect(page.locator('html')).toHaveAttribute('lang', code);
+      }
+    }
+  });
+
+  test('switching language rewrites the page without a reload', async ({ page }) => {
+    await page.goto('/art/index.html?lang=ru');
+    await expect(page.locator('#music-title')).toHaveText('Музыка');
+    await page.selectOption('#lang-select', 'en');
+    await expect(page.locator('#music-title')).toHaveText('Music');
+    await expect(page.locator('[data-i18n-html="art.bio"]')).toContainText('I write poetry');
+    await expect(page).toHaveURL(/lang=en/);
+  });
+
+  test('a work page carries one block per language in i18n.json', async ({ page, request }) => {
+    const i18n = await (await request.get('/source/i18n.json')).json();
+    await page.goto('/art/books/aya-2018/');
+    await expect(page.locator('main h1')).toHaveCount(i18n.languages.length);
+    await expect(page.locator('main h1:visible')).toHaveCount(1);
+  });
+
+  test('every page declares one alternate per language', async ({ page, request }) => {
+    const i18n = await (await request.get('/source/i18n.json')).json();
+    for (const url of ['/', '/art/index.html', '/science/index.html', '/art/music/beneath-the-light/']) {
+      await page.goto(url);
+      await expect(page.locator('link[rel="alternate"][hreflang]:not([hreflang="x-default"])')).toHaveCount(i18n.languages.length);
     }
   });
 });

@@ -2,6 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
+(function(){var C=["ru", "en", "he"],R=["he"],F="en",D="ru",l=null;
+try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
+if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
+var h=document.documentElement;h.lang=l;h.dir=R.indexOf(l)>=0?'rtl':'ltr';
+var s=document.createElement('style');s.id='lang-style';
+s.textContent='[data-lang]:not([data-lang="'+l+'"]){display:none!important}'+(l!==D?'[data-i18n],[data-i18n-html]{visibility:hidden}':'');
+document.head.appendChild(s);})();</script>
+  <noscript><style id="lang-nojs">[data-lang]:not([data-lang="ru"]){display:none!important}</style></noscript>
   <meta name="robots" content="index, follow">
   <meta name="google-site-verification" content="zGOdL4JFYV6XyoRx0VkUaS_RoVPn_avCa87SuqoCcHU">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -20,11 +30,11 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <link rel="canonical" href="https://matyushkin.github.io/">
-  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="feed.xml">
   <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/?lang=ru">
   <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/?lang=en">
   <link rel="alternate" hreflang="he" href="https://matyushkin.github.io/?lang=he">
   <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/">
+  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="feed.xml">
   <link rel="preconnect" href="https://mc.yandex.ru">
   <link rel="preload" href="fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
   <link href="style.css" rel="stylesheet">
@@ -82,19 +92,19 @@
 if(t!=='dark-theme'&&t!=='light-theme'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark-theme':'light-theme'}
 document.body.className=document.body.className.replace(/\b(light|dark)-theme\b/,t)||t;
 var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark-theme'?'#1a1a1a':'#ffffff';})();</script>
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <a href="#main-content" class="skip-link" data-i18n="common.skip">К содержимому</a>
   <header>
     <nav>
       <section class="logo">
         <a href="index.html"><img src="img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="science/index.html" id="nav-science">Science</a></section>
-      <section><a href="technology/index.html" id="nav-technology">Technology</a></section>
-      <section><a href="art/index.html" id="nav-art">Art</a></section>
+      <section><a href="science/index.html" id="nav-science" data-i18n="common.nav.science">Наука</a></section>
+      <section><a href="technology/index.html" id="nav-technology" data-i18n="common.nav.technology">Технологии</a></section>
+      <section><a href="art/index.html" id="nav-art" data-i18n="common.nav.art">Искусство</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
-        <option value="ru">RU</option>
-        <option value="en">EN</option>
-        <option value="he">HE</option>
+        <option value="ru" lang="ru">RU</option>
+        <option value="en" lang="en">EN</option>
+        <option value="he" lang="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
     </nav>
@@ -102,35 +112,27 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
   <main id="main-content">
     <h1 class="visually-hidden">Leo Matyushkin</h1>
     <article>
-      <p lang="ru">Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.</p>
-      <p lang="en">Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.</p>
-    <p lang="he">שלום! קוראים לי ליאו מטיושקין. אני חוקר, מהנדס ומשורר.</p>
+      <p data-i18n-html="home.bio">Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.</p>
     </article>
 
-    <p lang="ru"><strong>Соцсети</strong></p>
-    <p lang="en"><strong>Social</strong></p>
-    <p lang="he"><strong>רשתות חברתיות</strong></p>
+    <p><strong data-i18n="home.social">Соцсети</strong></p>
     <p class="section-links">
       <a href="https://www.linkedin.com/in/levamatyushkin/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://www.facebook.com/leva.matyushkin" target="_blank" rel="noopener">Facebook</a>
       <a href="https://twitter.com/matyushkin" target="_blank" rel="noopener">Twitter</a>
     </p>
 
-    <p lang="ru"><strong>Проекты</strong></p>
-    <p lang="en"><strong>Projects</strong></p>
-    <p lang="he"><strong>פרויקטים</strong></p>
+    <p><strong data-i18n="home.projects">Проекты</strong></p>
     <p class="section-links">
-      <a href="https://github.com/matyushkin/reminiscence" target="_blank" rel="noopener">Первые воспоминания</a>
+      <a href="https://github.com/matyushkin/reminiscence" target="_blank" rel="noopener" data-i18n="home.memories">Первые воспоминания</a>
       <a href="https://vk.com/first_memories" target="_blank" rel="noopener">VK</a>
       <a href="https://t.me/memories_ru" target="_blank" rel="noopener">Telegram</a>
     </p>
 
   </main>
   <footer>
-    <p lang="ru">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a></p>
-    <p lang="en">Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a></p>
-    <p lang="he">דוא״ל — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">עדכונים</a></p>
+    <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a></p>
   </footer>
-  <script src="source/lang-nav.js"></script>
+  <script src="source/site.js"></script>
 </body>
 </html>

@@ -1,4 +1,25 @@
 {
+  "profiles": [
+    {
+      "id": "google-scholar",
+      "url": "https://scholar.google.ru/citations?user=x0O884MAAAAJ"
+    },
+    {
+      "id": "researchgate",
+      "url": "https://www.researchgate.net/profile/Lev_Matyushkin"
+    },
+    {
+      "id": "elibrary",
+      "url": "https://www.elibrary.ru/author_profile.asp?authorid=650886",
+      "only": [
+        "ru"
+      ]
+    },
+    {
+      "id": "stepik",
+      "url": "https://stepik.org/course/52514"
+    }
+  ],
   "achievements": [
     {
       "id": "apoptosis-chapter-2020",

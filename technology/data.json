@@ -1,4 +1,18 @@
 {
+  "profiles": [
+    {
+      "id": "github",
+      "url": "https://github.com/matyushkin"
+    },
+    {
+      "id": "habr",
+      "url": "https://habr.com/ru/users/leomat/"
+    },
+    {
+      "id": "devpost",
+      "url": "https://devpost.com/matyushkin"
+    }
+  ],
   "categories": [
     {
       "id": "python",

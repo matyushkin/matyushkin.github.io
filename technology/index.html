@@ -2,6 +2,16 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
+(function(){var C=["ru", "en", "he"],R=["he"],F="en",D="ru",l=null;
+try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
+if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
+var h=document.documentElement;h.lang=l;h.dir=R.indexOf(l)>=0?'rtl':'ltr';
+var s=document.createElement('style');s.id='lang-style';
+s.textContent='[data-lang]:not([data-lang="'+l+'"]){display:none!important}'+(l!==D?'[data-i18n],[data-i18n-html]{visibility:hidden}':'');
+document.head.appendChild(s);})();</script>
+  <noscript><style id="lang-nojs">[data-lang]:not([data-lang="ru"]){display:none!important}</style></noscript>
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta property="og:type" content="website">
@@ -16,11 +26,11 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <link rel="canonical" href="https://matyushkin.github.io/technology/index.html">
-  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/technology/index.html?lang=ru">
   <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/technology/index.html?lang=en">
   <link rel="alternate" hreflang="he" href="https://matyushkin.github.io/technology/index.html?lang=he">
   <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/technology/index.html">
+  <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="preload" href="../fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://mc.yandex.ru">
   <script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -34,7 +44,7 @@
   <link rel="apple-touch-icon" href="../img/logo.png">
   <link rel="manifest" href="../manifest.json">
   <meta name="theme-color" content="#ffffff">
-  <title>Technology — Leo Matyushkin</title>
+  <title data-i18n-title="technology.pageTitle">Технологии — Leo Matyushkin</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,132 +74,53 @@
 if(t!=='dark-theme'&&t!=='light-theme'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark-theme':'light-theme'}
 document.body.className=document.body.className.replace(/\b(light|dark)-theme\b/,t)||t;
 var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark-theme'?'#1a1a1a':'#ffffff';})();</script>
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <a href="#main-content" class="skip-link" data-i18n="common.skip">К содержимому</a>
   <header>
     <nav>
       <section class="logo">
         <a href="../index.html"><img src="../img/logo.png" alt="Home"></a>
       </section>
-      <section><a href="../science/index.html" id="nav-science">Science</a></section>
-      <section><a href="../technology/index.html" id="nav-technology">Technology</a></section>
-      <section><a href="../art/index.html" id="nav-art">Art</a></section>
+      <section><a href="../science/index.html" id="nav-science" data-i18n="common.nav.science">Наука</a></section>
+      <section><a href="../technology/index.html" id="nav-technology" data-i18n="common.nav.technology">Технологии</a></section>
+      <section><a href="../art/index.html" id="nav-art" data-i18n="common.nav.art">Искусство</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
-        <option value="ru">RU</option>
-        <option value="en">EN</option>
-        <option value="he">HE</option>
+        <option value="ru" lang="ru">RU</option>
+        <option value="en" lang="en">EN</option>
+        <option value="he" lang="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">&#9681;</button>
     </nav>
   </header>
   <main id="main-content">
-    <h1 id="page-title">Technology</h1>
+    <h1 id="page-title" data-i18n="technology.pageTitle">Технологии</h1>
 
-    <p lang="ru">Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).</p>
-    <p lang="en">Engineer and data analyst. Primary languages: Rust and Python. At Apifornia I'm building an AI assistant that creates and edits flows from natural language requests (multi-agent architecture on LangGraph).</p>
-    <p lang="he">מהנדס ואנליסט נתונים. שפות תכנות עיקריות: Rust ו־Python. ב־Apifornia אני בונה עוזר מבוסס בינה מלאכותית שיוצר ועורך תהליכי עבודה מתוך בקשות בשפה טבעית (ארכיטקטורה רב־סוכנית מבוססת LangGraph).</p>
+    <p data-i18n-html="technology.bio">Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).</p>
 
-    <h2 id="profiles-title">Профили</h2>
+    <h2 id="profiles-title" data-i18n="technology.profilesTitle">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
 
-    <h2 id="projects-title">Проекты</h2>
-    <article class="technology-projects" id="projects-list"></article>
-
-    <h2 id="publications-title">Публикации</h2>
+    <h2 id="publications-title" data-i18n="technology.publicationsTitle">Публикации</h2>
     <article id="articles-list"></article>
   </main>
   <footer>
     <p id="footer-text">Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a></p>
   </footer>
 
+  <script src="../source/site.js"></script>
   <script>
-  const UI = {
-    ru: {
-      pageTitle: 'Технологии',
-      profilesTitle: 'Профили',
-      projectsTitle: 'Проекты',
-      publicationsTitle: 'Публикации',
-      nav: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
-      profiles: [
-        { url: 'https://github.com/matyushkin', label: 'GitHub' },
-        { url: 'https://habr.com/ru/users/leomat/', label: 'Хабр' },
-        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
-      ],
-      projects: [],
-      footer: 'Почта — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Лента обновлений</a>'
-    },
-    en: {
-      pageTitle: 'Technology',
-      profilesTitle: 'Profiles',
-      projectsTitle: 'Projects',
-      publicationsTitle: 'Publications',
-      nav: { art: 'Art', science: 'Science', technology: 'Technology' },
-      profiles: [
-        { url: 'https://github.com/matyushkin', label: 'GitHub' },
-        { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
-        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
-      ],
-      projects: [],
-      footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
-    },
-    he: {
-      pageTitle: 'טכנולוגיה',
-      profilesTitle: 'פרופילים',
-      projectsTitle: 'פרויקטים',
-      publicationsTitle: 'פרסומים',
-      nav: { art: 'אמנות', science: 'מדע', technology: 'טכנולוגיה' },
-      profiles: [
-        { url: 'https://github.com/matyushkin', label: 'GitHub' },
-        { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
-        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
-      ],
-      projects: [],
-      footer: 'דוא״ל — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">עדכונים</a>'
-    }
-  };
 
-  function getLang() {
-    const urlLang = new URLSearchParams(window.location.search).get('lang');
-    if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
-    const stored = localStorage.getItem('lang');
-    if (stored) return stored;
-    const browser = (navigator.language || '').slice(0, 2).toLowerCase();
-    return browser === 'ru' || browser === 'he' ? browser : 'en';
-  }
 
-  function applyBilingualParagraphs(lang) {
-    document.querySelectorAll('p[lang]').forEach(el => {
-      el.style.display = el.lang === lang ? 'block' : 'none';
-    });
-  }
 
-  function render(categories, lang) {
-    document.documentElement.lang = lang;
-    document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
-    const ui = UI[lang] || UI.en;
-    document.getElementById('page-title').textContent = ui.pageTitle;
-    document.title = ui.pageTitle + ' — Leo Matyushkin';
-    document.getElementById('profiles-title').textContent = ui.profilesTitle;
-    document.getElementById('profiles-list').innerHTML = ui.profiles
-      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${p.label}</a>`).join('');
-    // With no projects listed, the heading would stand over an empty box.
-    const hasProjects = (ui.projects || []).length > 0;
-    document.getElementById('projects-title').hidden = !hasProjects;
-    document.getElementById('projects-list').hidden = !hasProjects;
-    document.getElementById('projects-title').textContent = ui.projectsTitle;
-    document.getElementById('projects-list').innerHTML = ui.projects.map(project =>
-      '<h3><a href="' + project.url + '">' + project.title + '</a></h3><p>' + project.description + '</p>'
-    ).join('');
-    document.getElementById('publications-title').textContent = ui.publicationsTitle;
-    const navArt  = document.getElementById('nav-art');
-    const navSci  = document.getElementById('nav-science');
-    const navTech = document.getElementById('nav-technology');
-    if (navArt)  { navArt.textContent  = ui.nav.art;        navArt.removeAttribute('aria-current'); }
-    if (navSci)  { navSci.textContent  = ui.nav.science;    navSci.removeAttribute('aria-current'); }
-    if (navTech) { navTech.textContent = ui.nav.technology; navTech.setAttribute('aria-current', 'page'); }
-    document.getElementById('footer-text').innerHTML = ui.footer;
+  function render(data, lang) {
+    const { categories, profiles } = data;
+    document.getElementById('profiles-list').innerHTML = profiles
+      .filter(p => !p.only || p.only.includes(lang))
+      .map(p => `<a href="${p.url}" target="_blank" rel="noopener">${Site.profileLabel('technology', p.id)}</a>`)
+      .join('');
 
-    // There are no Hebrew articles; a Hebrew reader gets the English ones.
-    const toShow = categories.filter(c => c.lang === (lang === 'he' ? 'en' : lang));
+    // Articles exist in Russian and English only; any other reader gets the English ones.
+    const shown = categories.some(c => c.lang === lang) ? lang : 'en';
+    const toShow = categories.filter(c => c.lang === shown);
 
     document.getElementById('articles-list').innerHTML = toShow.map(cat => {
       if (cat.subcategories && cat.subcategories.length) {
@@ -207,51 +138,11 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     }).join('');
   }
 
-  fetch('data.json')
-    .then(r => r.json())
-    .then(data => {
-      const categories = data.categories;
-      const lang = getLang();
-      const select = document.getElementById('lang-select');
-      select.value = lang;
-      render(categories, lang);
+  Promise.all([fetch('data.json', { cache: 'no-cache' }).then(r => r.json()), Site.ready]).then(([data]) => {
+    render(data, Site.lang);
+    Site.onChange(lang => render(data, lang));
+  });
 
-      select.addEventListener('change', () => {
-        const l = select.value;
-        localStorage.setItem('lang', l);
-        const url = new URL(window.location);
-        url.searchParams.set('lang', l);
-        history.replaceState(null, '', url);
-        render(categories, l);
-      });
-    });
-
-  // Theme
-  (function() {
-    const body = document.body;
-    const saved = localStorage.getItem('theme');
-    if (saved) { body.className = saved; }
-    (function(){ var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = body.classList.contains('dark-theme') ? '#1a1a1a' : '#ffffff'; })();
-    const btn = document.querySelector('.theme-button');
-    if (btn) btn.onclick = function() {
-      const dark = body.classList.contains('dark-theme');
-      body.classList.toggle('light-theme', dark);
-      body.classList.toggle('dark-theme', !dark);
-      localStorage.setItem('theme', body.className);
-      var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = !dark ? '#1a1a1a' : '#ffffff';
-    };
-
-    // With no explicit choice the site follows the device setting as it changes.
-    if (window.matchMedia) {
-      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
-        var chosen = null;
-        try { chosen = localStorage.getItem('theme'); } catch (err) {}
-        if (chosen === 'dark-theme' || chosen === 'light-theme') return;
-        body.className = e.matches ? 'dark-theme' : 'light-theme';
-        (function(){var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=e.matches?'#1a1a1a':'#ffffff';})();
-      });
-    }
-  })();
   </script>
 </body>
 </html>

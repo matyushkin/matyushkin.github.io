@@ -1,0 +1,391 @@
+{
+  "_about": "Every word of the site interface, in every language. To add a language: add it to \"languages\" and add a block under \"strings\" — nothing else. A missing key falls back to English.",
+  "default": "ru",
+  "fallback": "en",
+  "languages": [
+    {
+      "code": "ru",
+      "label": "RU",
+      "name": "Русский",
+      "locale": "ru-RU",
+      "dir": "ltr"
+    },
+    {
+      "code": "en",
+      "label": "EN",
+      "name": "English",
+      "locale": "en-US",
+      "dir": "ltr"
+    },
+    {
+      "code": "he",
+      "label": "HE",
+      "name": "עברית",
+      "locale": "he-IL",
+      "dir": "rtl"
+    }
+  ],
+  "names": {
+    "spotify": "Spotify",
+    "apple-music": "Apple Music",
+    "youtube": "YouTube",
+    "soundcloud": "SoundCloud",
+    "telegram-lmwav": "Telegram channel (LMWAV)",
+    "tiktok": "TikTok",
+    "patreon": "Patreon",
+    "telegram-lmtxt": "Telegram channel (LMTXT)",
+    "vk": "VK",
+    "livejournal": "LiveJournal",
+    "telegram-lmpix": "Telegram channel (LMPIX)",
+    "dribbble": "Dribbble",
+    "deviantart": "DeviantArt",
+    "coub": "Coub",
+    "google-scholar": "Google Scholar",
+    "researchgate": "ResearchGate",
+    "stepik": "Stepik: Online course \"Nanomaterials\"",
+    "elibrary": "eLIBRARY",
+    "github": "GitHub",
+    "habr": "Habr",
+    "devpost": "DevPost"
+  },
+  "strings": {
+    "ru": {
+      "common": {
+        "nav": {
+          "art": "Искусство",
+          "science": "Наука",
+          "technology": "Технологии"
+        },
+        "home": "Главная",
+        "skip": "К содержимому",
+        "language": "Язык",
+        "theme": "Сменить тему",
+        "email": "Почта",
+        "feed": "Лента обновлений"
+      },
+      "home": {
+        "bio": "Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.",
+        "social": "Соцсети",
+        "projects": "Проекты",
+        "memories": "Первые воспоминания"
+      },
+      "cv": {
+        "text": "Здесь находится моё <a href=\"Matyushkin.pdf\">научное резюме (PDF)</a>."
+      },
+      "donate": {
+        "title": "Как мне помочь",
+        "intro": "Если вам нравится то, что я делаю, вы можете поддержать меня через одну из платёжных систем:",
+        "outro": "Или просто напишите на <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "Страница не найдена. Попробуйте начать с <a href=\"index.html\">главной</a>."
+      },
+      "art": {
+        "pageTitle": "Искусство",
+        "bio": "Пишу стихи, малую прозу, эссе. Публиковался на «Полутонах», в «Воздухе», «Флагах», «Журнале» (бывший «Журнал на коленке»). Рисую акрилом, акварелью и цветными карандашами. Сочиняю песни, электронную, клавишную и гитарную музыку.",
+        "musicTitle": "Музыка",
+        "literatureTitle": "Литература",
+        "visualTitle": "Изобразительное",
+        "behanceTitle": "Проекты на <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "Последнее в Инстаграме",
+        "booksTitle": "Книги",
+        "publicationsTitle": "Публикации",
+        "release": {
+          "clip": "Клип",
+          "listen": "Слушать",
+          "all": "Все площадки",
+          "post": "Публикация"
+        },
+        "types": {
+          "book": "книга",
+          "publication": "публикация",
+          "exhibition": "выставка",
+          "festival": "фестиваль",
+          "award": "награда",
+          "grant": "грант"
+        },
+        "profiles": {
+          "soundcloud": "Саундклауд",
+          "telegram-lmwav": "Канал в Телеграме (LMWAV)",
+          "patreon": "Патреон",
+          "telegram-lmtxt": "Канал в Телеграме (LMTXT)",
+          "vk": "ВКонтакте",
+          "telegram-lmpix": "Канал в Телеграме (LMPIX)",
+          "dribbble": "Дриббл",
+          "deviantart": "Девиантарт"
+        }
+      },
+      "science": {
+        "pageTitle": "Наука",
+        "bio": "Основной интерес моих научных исследований — материаловедение наноэлектроники: синтез полупроводников, квантовые точки, плазмонные наночастицы, коллоидный синтез нанокристаллов, послойное осаждение из растворов. 70 публикаций, h-index 19. Создал <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">курс по наноматериалам на Стэпике</a> — сейчас более 1400 студентов. Возвращаюсь к исследованиям через вычислительное моделирование.",
+        "linksTitle": "Профили",
+        "publicationsTitle": "Публикации",
+        "scholarLabel": "Гугл Академия",
+        "sections": {
+          "dissertation": "Диссертация",
+          "book": "Книги",
+          "publication": "Статьи в журналах",
+          "conference": "Тезисы конференций",
+          "patent": "Патенты"
+        },
+        "profiles": {
+          "google-scholar": "Гугл Академия",
+          "stepik": "Стэпик: онлайн-курс «Наноматериалы»"
+        }
+      },
+      "technology": {
+        "pageTitle": "Технологии",
+        "bio": "Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).",
+        "profilesTitle": "Профили",
+        "projectsTitle": "Проекты",
+        "publicationsTitle": "Публикации",
+        "profiles": {
+          "habr": "Хабр"
+        }
+      },
+      "item": {
+        "listen": "Слушать",
+        "clip": "Клип",
+        "read": "Читать",
+        "pdf": "PDF",
+        "patreon": "Патреон",
+        "back": "Все работы",
+        "release": "Релиз",
+        "book": "Книга",
+        "pages": "с.",
+        "months": [
+          "января",
+          "февраля",
+          "марта",
+          "апреля",
+          "мая",
+          "июня",
+          "июля",
+          "августа",
+          "сентября",
+          "октября",
+          "ноября",
+          "декабря"
+        ]
+      }
+    },
+    "en": {
+      "common": {
+        "nav": {
+          "art": "Art",
+          "science": "Science",
+          "technology": "Technology"
+        },
+        "home": "Home",
+        "skip": "Skip to content",
+        "language": "Language",
+        "theme": "Toggle theme",
+        "email": "Email",
+        "feed": "Updates feed"
+      },
+      "home": {
+        "bio": "Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.",
+        "social": "Social",
+        "projects": "Projects",
+        "memories": "First memories"
+      },
+      "cv": {
+        "text": "My <a href=\"Matyushkin.pdf\">academic CV (PDF)</a>."
+      },
+      "donate": {
+        "title": "Support",
+        "intro": "If you like what I do, you can support me via:",
+        "outro": "Or just write to <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "Page not found. Try starting from the <a href=\"index.html\">home page</a>."
+      },
+      "art": {
+        "pageTitle": "Art",
+        "bio": "I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em> (formerly <em>Zhurnal na kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music.",
+        "musicTitle": "Music",
+        "literatureTitle": "Literature",
+        "visualTitle": "Visual art",
+        "behanceTitle": "Projects on <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "Latest on Instagram",
+        "booksTitle": "Books",
+        "publicationsTitle": "Publications",
+        "release": {
+          "clip": "Video",
+          "listen": "Listen",
+          "all": "All platforms",
+          "post": "Post by"
+        },
+        "types": {
+          "book": "book",
+          "publication": "publication",
+          "exhibition": "exhibition",
+          "festival": "festival",
+          "award": "award",
+          "grant": "grant"
+        },
+        "profiles": {}
+      },
+      "science": {
+        "pageTitle": "Science",
+        "bio": "My primary research interest is materials science of nanoelectronics: semiconductor synthesis, quantum dots, plasmonic nanoparticles, colloidal synthesis of nanocrystals, layer-by-layer deposition from solutions. 70 publications, h-index 19. I also made a <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">nanomaterials course on Stepik</a> with 1,400+ students. Currently returning to research through computational modeling.",
+        "linksTitle": "Profiles",
+        "publicationsTitle": "Publications",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "Dissertation",
+          "book": "Books",
+          "publication": "Journal Articles",
+          "conference": "Conference Abstracts",
+          "patent": "Patents"
+        },
+        "profiles": {}
+      },
+      "technology": {
+        "pageTitle": "Technology",
+        "bio": "Engineer and data analyst. Primary languages: Rust and Python. At Apifornia I'm building an AI assistant that creates and edits flows from natural language requests (multi-agent architecture on LangGraph).",
+        "profilesTitle": "Profiles",
+        "projectsTitle": "Projects",
+        "publicationsTitle": "Publications",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "Listen",
+        "clip": "Video",
+        "read": "Read",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "All works",
+        "release": "Release",
+        "book": "Book",
+        "pages": "pp.",
+        "months": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ]
+      }
+    },
+    "he": {
+      "common": {
+        "nav": {
+          "art": "אמנות",
+          "science": "מדע",
+          "technology": "טכנולוגיה"
+        },
+        "home": "דף הבית",
+        "skip": "דלג לתוכן",
+        "language": "שפה",
+        "theme": "החלפת ערכת נושא",
+        "email": "דוא״ל",
+        "feed": "עדכונים"
+      },
+      "home": {
+        "bio": "שלום! קוראים לי ליאו מטיושקין. אני חוקר, מהנדס ומשורר.",
+        "social": "רשתות חברתיות",
+        "projects": "פרויקטים",
+        "memories": "זיכרונות ראשונים"
+      },
+      "cv": {
+        "text": "‏<a href=\"Matyushkin.pdf\">קורות החיים האקדמיים שלי (PDF)</a>."
+      },
+      "donate": {
+        "title": "איך לתמוך",
+        "intro": "אם מה שאני עושה מוצא חן בעיניכם, אפשר לתמוך דרך:",
+        "outro": "או פשוט לכתוב אל <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "הדף לא נמצא. נסו להתחיל מ<a href=\"index.html\">דף הבית</a>."
+      },
+      "art": {
+        "pageTitle": "אמנות",
+        "bio": "אני כותב שירה, פרוזה קצרה ומסות ברוסית. פרסמתי בכתבי עת ספרותיים — Polutona, Vozdukh, Flagi ו־zhurnal. אני מצייר באקריליק, בצבעי מים ובעפרונות צבעוניים. אני מלחין שירים, מוזיקה אלקטרונית ומוזיקה לקלידים ולגיטרה.",
+        "musicTitle": "מוזיקה",
+        "literatureTitle": "ספרות",
+        "visualTitle": "אמנות חזותית",
+        "behanceTitle": "פרויקטים ב־<a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "לאחרונה באינסטגרם",
+        "booksTitle": "ספרים",
+        "publicationsTitle": "פרסומים",
+        "release": {
+          "clip": "קליפ",
+          "listen": "האזנה",
+          "all": "כל הפלטפורמות",
+          "post": "פוסט של"
+        },
+        "types": {
+          "book": "ספר",
+          "publication": "פרסום",
+          "exhibition": "תערוכה",
+          "festival": "פסטיבל",
+          "award": "פרס",
+          "grant": "מענק"
+        },
+        "profiles": {
+          "telegram-lmwav": "ערוץ טלגרם (LMWAV)",
+          "telegram-lmtxt": "ערוץ טלגרם (LMTXT)",
+          "telegram-lmpix": "ערוץ טלגרם (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "מדע",
+        "bio": "תחום המחקר המרכזי שלי הוא מדע החומרים של הננו־אלקטרוניקה: סינתזה של מוליכים למחצה, נקודות קוונטיות, ננו־חלקיקים פלזמוניים, סינתזה קולואידית של ננו־גבישים ושיקוע שכבה אחר שכבה מתמיסות. 70 פרסומים, מדד h‏ 19. יצרתי <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">קורס ננו־חומרים ב־Stepik</a>, שבו למדו יותר מ־1400 סטודנטים. כיום אני חוזר למחקר באמצעות מידול חישובי.",
+        "linksTitle": "פרופילים",
+        "publicationsTitle": "פרסומים",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "עבודת דוקטורט",
+          "book": "ספרים",
+          "publication": "מאמרים בכתבי עת",
+          "conference": "תקצירי כנסים",
+          "patent": "פטנטים"
+        },
+        "profiles": {
+          "stepik": "קורס מקוון \"ננו־חומרים\" ב־Stepik"
+        }
+      },
+      "technology": {
+        "pageTitle": "טכנולוגיה",
+        "bio": "מהנדס ואנליסט נתונים. שפות תכנות עיקריות: Rust ו־Python. ב־Apifornia אני בונה עוזר מבוסס בינה מלאכותית שיוצר ועורך תהליכי עבודה מתוך בקשות בשפה טבעית (ארכיטקטורה רב־סוכנית מבוססת LangGraph).",
+        "profilesTitle": "פרופילים",
+        "projectsTitle": "פרויקטים",
+        "publicationsTitle": "פרסומים",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "האזנה",
+        "clip": "קליפ",
+        "read": "קריאה",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "כל העבודות",
+        "release": "סינגל",
+        "book": "ספר",
+        "pages": "עמ׳",
+        "months": [
+          "בינואר",
+          "בפברואר",
+          "במרץ",
+          "באפריל",
+          "במאי",
+          "ביוני",
+          "ביולי",
+          "באוגוסט",
+          "בספטמבר",
+          "באוקטובר",
+          "בנובמבר",
+          "בדצמבר"
+        ]
+      }
+    }
+  }
+}
