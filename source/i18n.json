@@ -166,7 +166,7 @@
       },
       "technology": {
         "pageTitle": "Технологии",
-        "bio": "Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).",
+        "bio": "Инженер и аналитик данных. Основные языки — Python, Rust и TypeScript. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке; он написан на TypeScript на основе pi-harness. В институте программировал устройства на микроконтроллерах — на C-подобных языках и в LabVIEW.",
         "profilesTitle": "Профили",
         "projectsTitle": "Проекты",
         "downloads": "скачиваний",
@@ -276,7 +276,7 @@
       },
       "technology": {
         "pageTitle": "Technology",
-        "bio": "Engineer and data analyst. Primary languages: Rust and Python. At Apifornia I'm building an AI assistant that creates and edits flows from natural language requests (multi-agent architecture on LangGraph).",
+        "bio": "Engineer and data analyst. Main programming languages: Python, Rust and TypeScript. At Apifornia I'm building an AI assistant that creates and edits flows from natural-language requests; it is written in TypeScript on pi-harness. At the institute I programmed microcontroller-based devices in C-like languages and LabVIEW.",
         "profilesTitle": "Profiles",
         "projectsTitle": "Projects",
         "downloads": "downloads",
@@ -390,7 +390,7 @@
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
-        "bio": "מהנדס ואנליסט נתונים. שפות תכנות עיקריות: Rust ו־Python. ב־Apifornia אני בונה עוזר מבוסס בינה מלאכותית שיוצר ועורך תהליכי עבודה מתוך בקשות בשפה טבעית (ארכיטקטורה רב־סוכנית מבוססת LangGraph).",
+        "bio": "מהנדס ואנליסט נתונים. שפות תכנות עיקריות: Python,‏ Rust ו־TypeScript. ב־Apifornia אני בונה עוזר מבוסס בינה מלאכותית שיוצר ועורך תהליכי עבודה מתוך בקשות בשפה טבעית; הוא כתוב ב־TypeScript ומבוסס על pi-harness. במכון תכנתתי התקנים מבוססי מיקרו־בקרים בשפות דמויות C וב־LabVIEW.",
         "profilesTitle": "פרופילים",
         "projectsTitle": "פרויקטים",
         "downloads": "הורדות",
@@ -504,7 +504,7 @@
       },
       "technology": {
         "pageTitle": "Technologie",
-        "bio": "Ingénieur et analyste de données. Langages principaux : Rust et Python. Chez Apifornia, je développe un assistant d’IA qui crée et modifie des flux de travail à partir de requêtes en langage naturel (architecture multi-agents sur LangGraph).",
+        "bio": "Ingénieur et analyste de données. Langages principaux : Python, Rust et TypeScript. Chez Apifornia, je développe un assistant d’IA qui crée et modifie des flux de travail à partir de requêtes en langage naturel ; il est écrit en TypeScript et repose sur pi-harness. À l’institut, j’ai programmé des appareils à microcontrôleur en langages de type C et en LabVIEW.",
         "profilesTitle": "Profils",
         "projectsTitle": "Projets",
         "downloads": "téléchargements",
@@ -618,7 +618,7 @@
       },
       "technology": {
         "pageTitle": "技术",
-        "bio": "工程师、数据分析师。主要编程语言：Rust 和 Python。在 Apifornia，我正在开发一款 AI 助手，它能根据自然语言请求创建和编辑工作流（基于 LangGraph 的多智能体架构）。",
+        "bio": "工程师、数据分析师。主要编程语言：Python、Rust 和 TypeScript。在 Apifornia，我正在开发一款 AI 助手，它能根据自然语言请求创建和编辑工作流，使用 TypeScript 基于 pi-harness 编写。在研究所工作期间，我曾用类 C 语言和 LabVIEW 为微控制器设备编程。",
         "profilesTitle": "个人主页",
         "projectsTitle": "项目",
         "downloads": "次下载",
@@ -733,7 +733,7 @@
       },
       "technology": {
         "pageTitle": "テクノロジー",
-        "bio": "エンジニア、データアナリスト。主なプログラミング言語は Rust と Python です。Apifornia では、自然言語の依頼からワークフローを作成・編集する AI アシスタントを開発しています（LangGraph によるマルチエージェント構成）。",
+        "bio": "エンジニア、データアナリスト。主なプログラミング言語は Python、Rust、TypeScript です。Apifornia では、自然言語の依頼からワークフローを作成・編集する AI アシスタントを、TypeScript と pi-harness で開発しています。研究所時代には、C 系の言語や LabVIEW でマイコン機器のプログラミングをしていました。",
         "profilesTitle": "プロフィール",
         "projectsTitle": "プロジェクト",
         "downloads": "ダウンロード",
@@ -848,7 +848,7 @@
       },
       "technology": {
         "pageTitle": "Tecnología",
-        "bio": "Ingeniero y analista de datos. Lenguajes principales: Rust y Python. En Apifornia desarrollo un asistente de IA que crea y edita flujos de trabajo a partir de peticiones en lenguaje natural (arquitectura multiagente sobre LangGraph).",
+        "bio": "Ingeniero y analista de datos. Lenguajes principales: Python, Rust y TypeScript. En Apifornia desarrollo un asistente de IA que crea y edita flujos de trabajo a partir de peticiones en lenguaje natural; está escrito en TypeScript sobre pi-harness. En el instituto programé dispositivos con microcontroladores en lenguajes tipo C y en LabVIEW.",
         "profilesTitle": "Perfiles",
         "projectsTitle": "Proyectos",
         "downloads": "descargas",
@@ -963,7 +963,7 @@
       },
       "technology": {
         "pageTitle": "Tecnologia",
-        "bio": "Engenheiro e analista de dados. Linguagens principais: Rust e Python. Na Apifornia, desenvolvo um assistente de IA que cria e edita fluxos de trabalho a partir de pedidos em linguagem natural (arquitetura multiagente com LangGraph).",
+        "bio": "Engenheiro e analista de dados. Linguagens principais: Python, Rust e TypeScript. Na Apifornia, desenvolvo um assistente de IA que cria e edita fluxos de trabalho a partir de pedidos em linguagem natural; ele é escrito em TypeScript sobre o pi-harness. No instituto, programei dispositivos com microcontroladores em linguagens do tipo C e em LabVIEW.",
         "profilesTitle": "Perfis",
         "projectsTitle": "Projetos",
         "downloads": "downloads",

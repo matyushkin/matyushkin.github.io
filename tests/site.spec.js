@@ -262,10 +262,14 @@ test.describe('translations', () => {
 
   test('every language fills every translated element', async ({ page, request }) => {
     const i18n = await (await request.get('/source/i18n.json')).json();
+    const urls = ['/', '/art/index.html', '/science/index.html', '/technology/index.html', '/donate/index.html'];
+    // One page load per language and page: the budget grows with the language list.
+    test.setTimeout(i18n.languages.length * urls.length * 4000 + 10000);
     for (const { code, tag } of i18n.languages) {
-      for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html', '/donate/index.html']) {
+      for (const url of urls) {
         await page.goto(url + '?lang=' + code);
-        await page.waitForLoadState('networkidle');
+        // site.js sets Site.locale once it has filled the page; no need to wait for analytics.
+        await page.waitForFunction(() => window.Site && window.Site.locale);
         const empty = await page.$$eval('[data-i18n],[data-i18n-html]', els =>
           els.filter(e => !e.textContent.trim()).map(e => e.getAttribute('data-i18n') || e.getAttribute('data-i18n-html')));
         expect(empty, `${url} in ${code}`).toEqual([]);
