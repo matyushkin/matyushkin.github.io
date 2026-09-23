@@ -5,12 +5,14 @@
     if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
     var stored = localStorage.getItem('lang');
     if (stored) return stored;
-    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+    var browser = (navigator.language || '').slice(0, 2).toLowerCase();
+    return browser === 'ru' || browser === 'he' ? browser : 'en';
   }
 
   var NAV_I18N = {
     ru: { art: 'Искусство', science: 'Наука', technology: 'Технологии' },
-    en: { art: 'Art',       science: 'Science', technology: 'Technology' }
+    en: { art: 'Art',       science: 'Science', technology: 'Technology' },
+    he: { art: 'אמנות',     science: 'מדע',     technology: 'טכנולוגיה' }
   };
 
   function setThemeColor(dark) {
@@ -20,6 +22,7 @@
 
   function applyLang(lang) {
     document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
     var labels = NAV_I18N[lang] || NAV_I18N.en;
     var navArt  = document.getElementById('nav-art');
     var navSci  = document.getElementById('nav-science');

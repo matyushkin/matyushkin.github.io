@@ -11,8 +11,17 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Heebo Hebrew';
+    src: url('fonts/heebo-hebrew.woff2') format('woff2');
+    unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Computer Modern Sans', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
     font-size: 21px;
     line-height: 1.5;
     max-width: 800px;
@@ -34,7 +43,7 @@ nav {
 }
 
 nav section {
-    margin-right: 1em;
+    margin-inline-end: 1em;
 }
 
 .logo {
@@ -43,7 +52,7 @@ nav section {
 }
 
 select.lang-select {
-    margin-left: auto;
+    margin-inline-start: auto;
     font-family: inherit;
     font-size: 0.95em;
     line-height: 1;
@@ -99,7 +108,7 @@ select.lang-select {
 }
 
 h1 {
-    font-family: 'Computer Modern Sans', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
     font-size: 1.5em;
     font-weight: normal;
     margin-bottom: 5px;
@@ -107,7 +116,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Computer Modern Sans', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
     font-size: 1.25em;
     font-weight: normal;
     margin-bottom: 2px;
@@ -169,8 +178,10 @@ nav a[aria-current="page"] {
     border: 0;
 }
 
-html[lang="en"] p[lang="ru"] { display: none; }
-html[lang="ru"] p[lang="en"] { display: none; }
+/* Show only the text written in the language the page is set to. */
+html[lang="ru"] :is(p, h1, h2)[lang]:not([lang="ru"]),
+html[lang="en"] :is(p, h1, h2)[lang]:not([lang="en"]),
+html[lang="he"] :is(p, h1, h2)[lang]:not([lang="he"]) { display: none; }
 
 /* ── Index section links ─────────────────────────────────────────────────── */
 
@@ -194,13 +205,13 @@ html[lang="ru"] p[lang="en"] { display: none; }
 /* ── Achievement cards (science, art) ───────────────────────────────────── */
 
 .achievement {
-    border-left: 2px solid #e0e0e0;
-    padding-left: 0.8em;
+    border-inline-start: 2px solid #e0e0e0;
+    padding-inline-start: 0.8em;
     margin-bottom: 1.8em;
 }
 
 .dark-theme .achievement {
-    border-left-color: #555;
+    border-inline-start-color: #555;
 }
 
 .achievement-meta { font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em; color: #767676; margin-bottom: 0.2em; }
@@ -278,7 +289,7 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .release-clip img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; }
 .release-clip span {
     position: absolute;
-    left: 0.5em;
+    inset-inline-start: 0.5em;
     bottom: 0.4em;
     color: #fff;
     font-size: 0.8em;
@@ -287,7 +298,7 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .release-clip:hover img { opacity: 1; }
 
 main h3 {
-    font-family: 'Computer Modern Sans', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
     font-size: 1.05em;
     font-weight: normal;
     margin-top: 1.4em;
@@ -325,7 +336,7 @@ main h3 {
 .tile-badge {
     position: absolute;
     top: 0.4em;
-    right: 0.5em;
+    inset-inline-end: 0.5em;
     color: #fff;
     font-size: 0.8em;
     text-shadow: 0 0 4px #000;
@@ -443,10 +454,12 @@ main h3 {
 }
 
 /* The base rule only hides paragraphs of the other language. */
-html[lang="en"] .item-page h1[lang="ru"],
-html[lang="ru"] .item-page h1[lang="en"],
-html[lang="en"] .item-back a[lang="ru"],
-html[lang="ru"] .item-back a[lang="en"] {
+html[lang="ru"] .item-page h1:not([lang="ru"]),
+html[lang="en"] .item-page h1:not([lang="en"]),
+html[lang="he"] .item-page h1:not([lang="he"]),
+html[lang="ru"] .item-back a:not([lang="ru"]),
+html[lang="en"] .item-back a:not([lang="en"]),
+html[lang="he"] .item-back a:not([lang="he"]) {
     display: none;
 }
 
@@ -487,4 +500,20 @@ html[lang="ru"] .item-back a[lang="en"] {
     .item-cover {
         width: 100%;
     }
+}
+
+/* ── Hebrew: right to left ───────────────────────────────────────────────── */
+
+html[lang="he"] body {
+    /* Heebo sits a touch smaller than Computer Modern at the same size. */
+    font-size: 22px;
+}
+
+/* The arrow belongs to the direction, not to the words. */
+.item-back a::before {
+    content: "← ";
+}
+
+html[lang="he"] .item-back a::before {
+    content: "→ ";
 }

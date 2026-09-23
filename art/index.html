@@ -19,6 +19,7 @@
   <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/art/index.html?lang=ru">
   <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/art/index.html?lang=en">
+  <link rel="alternate" hreflang="he" href="https://matyushkin.github.io/art/index.html?lang=he">
   <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/art/index.html">
   <link rel="preload" href="../fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://mc.yandex.ru">
@@ -78,6 +79,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       <select id="lang-select" class="lang-select" aria-label="Language">
         <option value="ru">RU</option>
         <option value="en">EN</option>
+        <option value="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">◑</button>
     </nav>
@@ -87,6 +89,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     <p lang="ru">Пишу стихи, малую прозу, эссе. Публиковался на «Полутонах», в «Воздухе», «Флагах», «Журнале» (бывший «Журнал на коленке»). Рисую акрилом, акварелью и цветными карандашами. Сочиняю песни, электронную, клавишную и гитарную музыку.</p>
     <p lang="en">I write poetry, short prose, and essays in Russian. Published in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em> (formerly <em>Zhurnal na kolenke</em>). I draw with acrylic, watercolor, and colored pencils. I compose songs, electronic, keyboard, and guitar music.</p>
+    <p lang="he">אני כותב שירה, פרוזה קצרה ומסות ברוסית. פרסמתי ב־Polutona, ב־Vozdukh, ב־Flagi וב־zhurnal. אני מצייר באקריליק, בצבעי מים ובעפרונות צבעוניים. אני מלחין שירים, מוזיקה אלקטרונית, מוזיקת מקלדת וגיטרה.</p>
 
     <h2 id="music-title">Музыка</h2>
     <p class="section-links" id="profiles-music"></p>
@@ -197,6 +200,49 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
         grant: 'grant'
       },
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
+    },
+    he: {
+      pageTitle: 'אמנות',
+      musicTitle: 'מוזיקה',
+      literatureTitle: 'ספרות',
+      visualTitle: 'אמנות חזותית',
+      behanceTitle: 'פרויקטים ב־<a href="https://www.behance.net/leo-matyushkin" target="_blank" rel="noopener">Behance</a>',
+      instagramTitle: 'אחרונים באינסטגרם',
+      booksTitle: 'ספרים',
+      release: { clip: 'קליפ', listen: 'להאזין', all: 'כל הפלטפורמות', post: 'פוסט של' },
+      publicationsTitle: 'פרסומים',
+      nav: { art: 'אמנות', science: 'מדע', technology: 'טכנולוגיה' },
+      profiles: {
+        music: [
+          { url: 'https://open.spotify.com/artist/1jGsfWbSjEGcJqJJXkw8qm', label: 'Spotify' },
+          { url: 'https://music.apple.com/us/artist/leo-matyushkin/6777345689', label: 'Apple Music' },
+          { url: 'https://www.youtube.com/@matyushkin', label: 'YouTube' },
+          { url: 'https://soundcloud.com/leo-matyushkin', label: 'SoundCloud' },
+          { url: 'https://t.me/lmwav', label: 'ערוץ טלגרם (LMWAV)' },
+          { url: 'https://www.tiktok.com/@leo_matyushkin', label: 'TikTok' }
+        ],
+        literature: [
+          { url: 'https://www.patreon.com/matyushkin', label: 'Patreon' },
+          { url: 'https://t.me/lmtxt', label: 'ערוץ טלגרם (LMTXT)' },
+          { url: 'https://vk.com/levamatyushkin', label: 'VK' },
+          { url: 'https://indiepie.livejournal.com/', label: 'LiveJournal' }
+        ],
+        visual: [
+          { url: 'https://t.me/lmpix', label: 'ערוץ טלגרם (LMPIX)' },
+          { url: 'https://dribbble.com/matyushkin', label: 'Dribbble' },
+          { url: 'https://www.deviantart.com/matyushkin', label: 'DeviantArt' },
+          { url: 'https://coub.com/leva.matyushkin', label: 'Coub' }
+        ]
+      },
+      types: {
+        book: 'ספר',
+        publication: 'פרסום',
+        exhibition: 'תערוכה',
+        festival: 'פסטיבל',
+        award: 'פרס',
+        grant: 'מענק'
+      },
+      footer: 'דוא״ל — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">עדכונים</a>'
     }
   };
 
@@ -205,7 +251,8 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
     const stored = localStorage.getItem('lang');
     if (stored) return stored;
-    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+    const browser = (navigator.language || '').slice(0, 2).toLowerCase();
+    return browser === 'ru' || browser === 'he' ? browser : 'en';
   }
 
   function applyBilingualParagraphs(lang) {
@@ -272,7 +319,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
   }
 
   function dateLabel(iso, lang) {
-    return new Date(iso).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+    return new Date(iso).toLocaleDateString({ ru: 'ru-RU', he: 'he-IL' }[lang] || 'en-US', { day: 'numeric', month: 'long', year: 'numeric' });
   }
 
   function renderFeeds(feeds, lang) {
@@ -304,6 +351,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
   function render(achievements, lang, releases, books) {
     document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';
@@ -341,7 +389,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
             ${clips}
           </div>
           <div class="release-body">
-            <div class="achievement-meta">${new Date(r.date).toLocaleDateString(lang === 'ru' ? 'ru-RU' : 'en-US', { month: 'long', year: 'numeric' })} · ${r.duration}</div>
+            <div class="achievement-meta">${new Date(r.date).toLocaleDateString({ ru: 'ru-RU', he: 'he-IL' }[lang] || 'en-US', { month: 'long', year: 'numeric' })} · ${r.duration}</div>
             <div class="achievement-title"><a href="music/${r.id}/">${r.title}</a></div>
             <div class="release-links"><span>${ui.release.listen}:</span> ${listen.join(' · ')}</div>
           </div>

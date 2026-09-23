@@ -19,6 +19,7 @@
   <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="../feed.xml">
   <link rel="alternate" hreflang="ru" href="https://matyushkin.github.io/technology/index.html?lang=ru">
   <link rel="alternate" hreflang="en" href="https://matyushkin.github.io/technology/index.html?lang=en">
+  <link rel="alternate" hreflang="he" href="https://matyushkin.github.io/technology/index.html?lang=he">
   <link rel="alternate" hreflang="x-default" href="https://matyushkin.github.io/technology/index.html">
   <link rel="preload" href="../fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preconnect" href="https://mc.yandex.ru">
@@ -75,6 +76,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       <select id="lang-select" class="lang-select" aria-label="Language">
         <option value="ru">RU</option>
         <option value="en">EN</option>
+        <option value="he">HE</option>
       </select>
       <button type="button" class="theme-button" aria-label="Toggle theme" title="Toggle theme">&#9681;</button>
     </nav>
@@ -84,6 +86,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
     <p lang="ru">Инженер и аналитик данных. Основные языки — Rust и Python. В Apifornia разрабатываю AI-ассистент, который создаёт и редактирует флоу по запросу на естественном языке (мультиагентная архитектура на LangGraph).</p>
     <p lang="en">Engineer and data analyst. Primary languages: Rust and Python. At Apifornia I'm building an AI assistant that creates and edits flows from natural language requests (multi-agent architecture on LangGraph).</p>
+    <p lang="he">מהנדס ואנליסט נתונים. שפות עיקריות: Rust ו־Python. ב־Apifornia אני בונה עוזר מבוסס בינה מלאכותית שיוצר ועורך תהליכים מתוך בקשות בשפה טבעית (ארכיטקטורה רב־סוכנית על LangGraph).</p>
 
     <h2 id="profiles-title">Профили</h2>
     <p class="section-links" id="profiles-list"></p>
@@ -127,6 +130,20 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       ],
       projects: [],
       footer: 'Email — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">Updates feed</a>'
+    },
+    he: {
+      pageTitle: 'טכנולוגיה',
+      profilesTitle: 'פרופילים',
+      projectsTitle: 'פרויקטים',
+      publicationsTitle: 'פרסומים',
+      nav: { art: 'אמנות', science: 'מדע', technology: 'טכנולוגיה' },
+      profiles: [
+        { url: 'https://github.com/matyushkin', label: 'GitHub' },
+        { url: 'https://habr.com/ru/users/leomat/', label: 'Habr' },
+        { url: 'https://devpost.com/matyushkin', label: 'DevPost' }
+      ],
+      projects: [],
+      footer: 'דוא״ל — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">עדכונים</a>'
     }
   };
 
@@ -135,7 +152,8 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     if (urlLang) { localStorage.setItem('lang', urlLang); return urlLang; }
     const stored = localStorage.getItem('lang');
     if (stored) return stored;
-    return (navigator.language || '').slice(0, 2).toLowerCase() === 'ru' ? 'ru' : 'en';
+    const browser = (navigator.language || '').slice(0, 2).toLowerCase();
+    return browser === 'ru' || browser === 'he' ? browser : 'en';
   }
 
   function applyBilingualParagraphs(lang) {
@@ -146,6 +164,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
 
   function render(categories, lang) {
     document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
     const ui = UI[lang] || UI.en;
     document.getElementById('page-title').textContent = ui.pageTitle;
     document.title = ui.pageTitle + ' — Leo Matyushkin';

@@ -159,6 +159,46 @@ test.describe('technology/index.html', () => {
   });
 });
 
+// ─── Hebrew ──────────────────────────────────────────────────────────────────
+
+test.describe('Hebrew', () => {
+  test('sets the language and turns the page right to left', async ({ page }) => {
+    await page.goto('/art/index.html?lang=he');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'he');
+    await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+    await expect(page.locator('#page-title')).toHaveText('אמנות');
+    await expect(page.locator('#music-title')).toHaveText('מוזיקה');
+  });
+
+  test('other languages stay hidden', async ({ page }) => {
+    await page.goto('/art/index.html?lang=he');
+    await expect(page.locator('main p[lang="he"]').first()).toBeVisible();
+    await expect(page.locator('main p[lang="ru"]').first()).toBeHidden();
+    await expect(page.locator('main p[lang="en"]').first()).toBeHidden();
+  });
+
+  test('a work page reads right to left with a Hebrew date', async ({ page }) => {
+    await page.goto('/art/music/the-jungle-route/?lang=he');
+    await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+    await expect(page.locator('.achievement-meta[lang="he"]')).toContainText('ביולי');
+    await expect(page.locator('.item-links[lang="he"]')).toContainText('להאזין');
+  });
+
+  test('the selector offers three languages everywhere', async ({ page }) => {
+    for (const url of ['/', '/science/index.html', '/technology/index.html', '/art/books/aya-2018/']) {
+      await page.goto(url);
+      await expect(page.locator('#lang-select option')).toHaveCount(3);
+    }
+  });
+
+  test('every page declares a Hebrew alternate', async ({ page }) => {
+    for (const url of ['/', '/art/index.html', '/science/index.html', '/technology/index.html']) {
+      await page.goto(url);
+      await expect(page.locator('link[hreflang="he"]')).toHaveCount(1);
+    }
+  });
+});
+
 // ─── Theme toggle ─────────────────────────────────────────────────────────────
 
 test.describe('theme toggle', () => {
