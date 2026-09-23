@@ -91,6 +91,11 @@
           "title": "«Иная глина» [חימר אחר]",
           "venue": "כתב העת לשירה Vozdukh, גיליון 46",
           "description": "מחזור שירים, עמ׳ 256–266. השירים נכתבו בשנים 2020–2025. הטקסט מתפרסם ב־Patreon."
+        },
+        "fr": {
+          "title": "«Иная глина» [Une autre argile]",
+          "venue": "Revue de poésie Vozdukh, n° 46",
+          "description": "Cycle de poèmes, p. 256–266, écrits en 2020–2025. Le texte est publié sur Patreon."
         }
       },
       "lang_of_work": "ru",
@@ -115,6 +120,11 @@
           "title": "«Сорока щенка маленького унесла» [העקעק נשא את הגור הקטן]",
           "venue": "הפרויקט הספרותי Flagi, גיליון 5, 30.08.2020",
           "description": "מחזור שירים. כתב העת נסגר; הוא זמין ב־Web Archive."
+        },
+        "fr": {
+          "title": "«Сорока щенка маленького унесла» [La pie a emporté le petit chiot]",
+          "venue": "Projet littéraire Flagi, n° 5, 30.08.2020",
+          "description": "Cycle de poèmes. La revue a fermé ; elle reste consultable sur Web Archive."
         }
       },
       "lang_of_work": "ru",
@@ -139,6 +149,11 @@
           "title": "«Воскресные вкладыши» [תוספות של יום ראשון]",
           "venue": "כתב העת הספרותי zhurnal (לשעבר Zhurnal na kolenke), 28.05.2024",
           "description": "מחזור שירים."
+        },
+        "fr": {
+          "title": "«Воскресные вкладыши» [Encarts du dimanche]",
+          "venue": "Revue littéraire zhurnal (anciennement Zhurnal na kolenke), 28.05.2024",
+          "description": "Cycle de poèmes."
         }
       },
       "lang_of_work": "ru",
@@ -225,6 +240,11 @@
           "title": "«а/я»",
           "venue": "הוצאה עצמית",
           "description": "ספר שירה."
+        },
+        "fr": {
+          "title": "«а/я»",
+          "venue": "Autoédition",
+          "description": "Recueil de poèmes."
         }
       }
     },
@@ -249,6 +269,11 @@
           "title": "«О пространстве и времени» [על המרחב והזמן]",
           "venue": "הוצאה עצמית",
           "description": "ספר שירה."
+        },
+        "fr": {
+          "title": "«О пространстве и времени» [De l’espace et du temps]",
+          "venue": "Autoédition",
+          "description": "Recueil de poèmes."
         }
       }
     }
