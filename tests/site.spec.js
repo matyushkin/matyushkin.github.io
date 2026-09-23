@@ -232,6 +232,23 @@ test.describe('Chinese and Japanese', () => {
   });
 });
 
+// ─── Spanish and Portuguese ──────────────────────────────────────────────────
+
+test.describe('Spanish and Portuguese', () => {
+  test('Spanish reads in Spanish with Spanish dates', async ({ page }) => {
+    await page.goto('/art/index.html?lang=es');
+    await expect(page.locator('#music-title')).toHaveText('Música');
+    await page.goto('/art/music/the-jungle-route/?lang=es');
+    await expect(page.locator('.achievement-meta[data-lang="es"]')).toContainText('31 de julio de 2026');
+  });
+
+  test('Portuguese carries the pt-BR tag and Brazilian wording', async ({ page }) => {
+    await page.goto('/science/index.html?lang=pt');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
+    await expect(page.locator('[data-i18n-html="science.bio"]')).toContainText('pesquisa');
+  });
+});
+
 // ─── Translations: one file ──────────────────────────────────────────────────
 
 test.describe('translations', () => {
