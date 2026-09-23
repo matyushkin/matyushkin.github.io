@@ -9,8 +9,8 @@
 
 ## Technology
 - [Articles](https://matyushkin.github.io/technology/index.html): Engineering articles on Rust, Python, ML/DS, NoCode paradigm and tools, AI/LLM, history of human-machine interfaces.
-- Apifornia Blog: an AI assistant that builds workflows from natural-language requests (TypeScript, pi-harness), NoCode workflow platforms.
-- Earlier, at a research institute: microcontroller-based devices in C-like languages and LabVIEW.
+- Apifornia Blog: an AI assistant that builds workflows from natural-language requests, NoCode workflow platforms.
+- Earlier, at a research institute: microcontroller-based devices.
 
 ## Art
 - [Art & Music](https://matyushkin.github.io/art/index.html): Poetry in Russian, published in Polutona, Vozdukh, Flagi and zhurnal (formerly Zhurnal na kolenke). Acrylic, watercolor, colored pencils. Instrumental music releases (Spotify, Apple Music, YouTube Music), each with its own page.
