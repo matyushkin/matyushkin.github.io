@@ -40,6 +40,12 @@
       "dir": "ltr"
     },
     {
+      "code": "it",
+      "name": "Italiano",
+      "locale": "it-IT",
+      "dir": "ltr"
+    },
+    {
       "code": "he",
       "name": "עברית",
       "locale": "he-IL",
@@ -1356,6 +1362,121 @@
           "أكتوبر",
           "نوفمبر",
           "ديسمبر"
+        ],
+        "dateFormat": "{d} {m} {y}"
+      }
+    },
+    "it": {
+      "common": {
+        "nav": {
+          "art": "Arte",
+          "science": "Scienza",
+          "technology": "Tecnologia"
+        },
+        "home": "Home",
+        "skip": "Vai al contenuto",
+        "language": "Lingua",
+        "theme": "Cambia tema",
+        "email": "E-mail",
+        "feed": "Feed degli aggiornamenti",
+        "colon": ":"
+      },
+      "home": {
+        "bio": "Ciao! Mi chiamo Leo Matyushkin. Sono ricercatore, ingegnere e poeta.",
+        "social": "Social network",
+        "projects": "Progetti",
+        "memories": "Primi ricordi"
+      },
+      "cv": {
+        "text": "Il mio <a href=\"Matyushkin.pdf\">CV accademico (PDF)</a>."
+      },
+      "donate": {
+        "title": "Sostienimi",
+        "intro": "Se ti piace quello che faccio, puoi sostenermi tramite:",
+        "outro": "Oppure scrivimi semplicemente a <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "Pagina non trovata. Prova a ripartire dalla <a href=\"index.html\">home page</a>."
+      },
+      "art": {
+        "pageTitle": "Arte",
+        "bio": "Scrivo poesie, prosa breve e saggi in russo. Ho pubblicato su <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em> e <em>zhurnal</em> (già <em>Zhurnal na kolenke</em>). Dipingo con acrilici e acquerelli e disegno con matite colorate. Compongo canzoni, musica elettronica e brani per tastiera e chitarra.",
+        "musicTitle": "Musica",
+        "literatureTitle": "Letteratura",
+        "visualTitle": "Arti visive",
+        "behanceTitle": "Progetti su <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "Ultimi post su Instagram",
+        "booksTitle": "Libri",
+        "publicationsTitle": "Pubblicazioni",
+        "release": {
+          "clip": "Videoclip",
+          "listen": "Ascolta",
+          "all": "Tutte le piattaforme",
+          "post": "Post di"
+        },
+        "types": {
+          "book": "libro",
+          "publication": "pubblicazione",
+          "exhibition": "mostra",
+          "festival": "festival",
+          "award": "premio",
+          "grant": "borsa"
+        },
+        "profiles": {
+          "telegram-lmwav": "Canale Telegram (LMWAV)",
+          "telegram-lmtxt": "Canale Telegram (LMTXT)",
+          "telegram-lmpix": "Canale Telegram (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "Scienza",
+        "bio": "Il mio principale campo di ricerca è la scienza dei materiali per la nanoelettronica: sintesi di semiconduttori, punti quantici, nanoparticelle plasmoniche, sintesi colloidale di nanocristalli e deposizione strato per strato da soluzione. 70 pubblicazioni, indice h 19. Ho creato <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">un corso sui nanomateriali su Stepik</a>, seguito da oltre 1400 studenti. Oggi torno alla ricerca attraverso la modellazione computazionale.",
+        "linksTitle": "Profili",
+        "publicationsTitle": "Pubblicazioni",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "Tesi di dottorato",
+          "book": "Libri",
+          "publication": "Articoli su rivista",
+          "conference": "Abstract di convegni",
+          "patent": "Brevetti"
+        },
+        "profiles": {
+          "stepik": "Stepik: corso online «Nanomateriali»"
+        }
+      },
+      "technology": {
+        "pageTitle": "Tecnologia",
+        "bio": "Ingegnere e analista di dati. Linguaggi principali: Python, Rust e TypeScript. In Apifornia sviluppo un assistente IA che crea e modifica flussi di lavoro a partire da richieste in linguaggio naturale. All’istituto ho programmato dispositivi a microcontrollore.",
+        "profilesTitle": "Profili",
+        "projectsTitle": "Progetti",
+        "downloads": "download",
+        "publicationsTitle": "Articoli",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "Ascolta",
+        "clip": "Videoclip",
+        "read": "Leggi",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "Tutte le opere",
+        "release": "Singolo",
+        "book": "Libro",
+        "pages": "pp.",
+        "months": [
+          "gennaio",
+          "febbraio",
+          "marzo",
+          "aprile",
+          "maggio",
+          "giugno",
+          "luglio",
+          "agosto",
+          "settembre",
+          "ottobre",
+          "novembre",
+          "dicembre"
         ],
         "dateFormat": "{d} {m} {y}"
       }

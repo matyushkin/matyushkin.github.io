@@ -282,6 +282,18 @@ test.describe('German, Korean and Arabic', () => {
   });
 });
 
+// ─── Italian ─────────────────────────────────────────────────────────────────
+
+test.describe('Italian', () => {
+  test('Italian reads in Italian with Italian dates', async ({ page }) => {
+    await page.goto('/art/index.html?lang=it');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'it');
+    await expect(page.locator('#music-title')).toHaveText('Musica');
+    await page.goto('/art/music/the-jungle-route/?lang=it');
+    await expect(page.locator('.achievement-meta[data-lang="it"]')).toContainText('31 luglio 2026');
+  });
+});
+
 // ─── Translations: one file ──────────────────────────────────────────────────
 
 test.describe('translations', () => {
