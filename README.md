@@ -4,9 +4,8 @@
 
 ## How the site is built
 
-Every page is generated; none is edited by hand. The build lives in the life
-repository (`/Users/leo/life/.agents/scripts/build_site.py`) and reads only
-this repository:
+Every page is generated; none is edited by hand. The build (`build_site.py`) lives in
+the owner's private repository and reads only this repository:
 
 - `source/i18n.json` — every word of the interface, in every language;
 - `science/data.json`, `technology/data.json`, `art/data.json` — the works;
@@ -19,11 +18,7 @@ to all its language versions; `sitemap.xml` lists them all. `source/site.js`
 only switches the theme, remembers a language picked in the menu, and offers
 the reader's own language when they land on another one.
 
-The weekly site refresh rebuilds everything:
-
-```
-/Users/leo/life/.agents/scripts/site_refresh_launchd.sh run
-```
+A weekly job rebuilds everything.
 
 ## Adding a language
 
@@ -31,7 +26,7 @@ The weekly site refresh rebuilds everything:
    the hreflang tag differs from the code, and `dir: "rtl"` for a
    right-to-left script) and add its block under `strings`. A key left out
    falls back to English.
-2. Rebuild: `/Users/leo/life/.venv/bin/python /Users/leo/life/.agents/scripts/build_site.py`.
+2. Rebuild with `build_site.py`.
 3. Test against a local copy:
 
    ```

@@ -45,6 +45,24 @@
         },
         "ja": {
           "description": "純粋な Rust による DjVu ファイルの読み込み・描画・変換・作成。PDF、EPUB、TIFF、PNG、テキストへの変換に対応。コマンドライン、WebAssembly ビルド、Python バインディングを同梱。"
+        },
+        "de": {
+          "description": "Lesen, Rendern, Konvertieren und Erstellen von DjVu-Dateien in reinem Rust. Wandelt in PDF, EPUB, TIFF, PNG und Text um. Mit Kommandozeile, WebAssembly-Build und Python-Anbindung."
+        },
+        "es": {
+          "description": "Lectura, renderizado, conversión y creación de archivos DjVu en Rust puro. Convierte a PDF, EPUB, TIFF, PNG y texto. Incluye línea de comandos, compilación para WebAssembly y enlaces para Python."
+        },
+        "it": {
+          "description": "Lettura, rendering, conversione e creazione di file DjVu in puro Rust. Converte in PDF, EPUB, TIFF, PNG e testo. Include riga di comando, build WebAssembly e binding per Python."
+        },
+        "pt": {
+          "description": "Leitura, renderização, conversão e criação de arquivos DjVu em Rust puro. Converte para PDF, EPUB, TIFF, PNG e texto. Inclui linha de comando, build para WebAssembly e bindings para Python."
+        },
+        "ko": {
+          "description": "순수 Rust로 DjVu 파일을 읽고, 렌더링하고, 변환하고, 만듭니다. PDF, EPUB, TIFF, PNG, 텍스트로 변환할 수 있습니다. 명령줄 도구, WebAssembly 빌드, Python 바인딩을 제공합니다."
+        },
+        "ar": {
+          "description": "قراءة ملفات DjVu وعرضها وتحويلها وإنشاؤها بلغة Rust خالصة. يحوّل إلى PDF وEPUB وTIFF وPNG والنص. يتضمن أداة سطر أوامر وإصدارًا لـ WebAssembly وروابط لـ Python."
         }
       },
       "version": "0.35.0"

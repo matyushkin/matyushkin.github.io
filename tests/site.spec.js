@@ -298,6 +298,33 @@ test.describe('language choice', () => {
   });
 });
 
+// ─── QR codes for profile links ──────────────────────────────────────────────
+
+test.describe('QR codes', () => {
+  test('every profile link has a QR sign that opens its code large', async ({ page, request }) => {
+    await page.goto('/ru/art/');
+    const links = page.locator('#profiles-music .shared');
+    expect(await links.count()).toBeGreaterThan(2);
+    const sign = page.locator('#profiles-music a.qr').first();
+    const target = await sign.getAttribute('data-url');
+    expect((await request.get(await sign.getAttribute('href'))).status()).toBe(200);
+    await sign.click();
+    const dialog = page.locator('dialog.qr-dialog');
+    await expect(dialog).toBeVisible();
+    await expect(dialog.locator('p')).toHaveText(target);
+    await page.keyboard.press('Escape');
+    await expect(dialog).toBeHidden();
+  });
+
+  test('a Telegram code carries the t.me address, which phones open in the app', async ({ page, request }) => {
+    await page.goto('/');
+    const sign = page.locator('a.qr[data-url^="https://t.me/"]').first();
+    await expect(sign).toHaveCount(1);
+    const svg = await (await request.get(await sign.getAttribute('href'))).text();
+    expect(svg).toContain('<svg');
+  });
+});
+
 // ─── Cache: a page never pairs an old script or style with new markup ───────
 
 test.describe('asset fingerprints', () => {

@@ -56,6 +56,32 @@
     });
   }
 
+  // ── QR codes: the sign next to a profile opens its code large ─────────────
+  // Without this script the sign still works: it links to the code itself.
+  var dialog = null;
+  document.addEventListener('click', function (e) {
+    var sign = e.target.closest && e.target.closest('a.qr');
+    if (!sign || typeof HTMLDialogElement !== 'function') return;
+    e.preventDefault();
+    if (!dialog) {
+      dialog = document.createElement('dialog');
+      dialog.className = 'qr-dialog';
+      dialog.innerHTML = '<button type="button"></button><img alt=""><p></p>';
+      var shut = dialog.querySelector('button');
+      shut.textContent = '×';
+      shut.setAttribute('aria-label', (script && script.getAttribute('data-close')) || 'Close');
+      shut.addEventListener('click', function () { dialog.close(); });
+      // A tap outside the code closes it.
+      dialog.addEventListener('click', function (ev) { if (ev.target === dialog) dialog.close(); });
+      body.appendChild(dialog);
+    }
+    var img = dialog.querySelector('img');
+    img.src = sign.getAttribute('href');
+    img.alt = sign.getAttribute('aria-label') || '';
+    dialog.querySelector('p').textContent = sign.getAttribute('data-url');
+    dialog.showModal();
+  });
+
   // ── Offer the reader's own language ───────────────────────────────────────
   var here = document.documentElement.getAttribute('data-lang');
   var alternates;

@@ -118,7 +118,8 @@
         "feed": "Лента обновлений",
         "colon": ":",
         "offer": "Читать эту страницу по-русски",
-        "close": "Закрыть"
+        "close": "Закрыть",
+        "qr": "QR-код"
       },
       "home": {
         "bio": "Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.",
@@ -244,7 +245,8 @@
         "feed": "Updates feed",
         "colon": ":",
         "offer": "Read this page in English",
-        "close": "Close"
+        "close": "Close",
+        "qr": "QR code"
       },
       "home": {
         "bio": "Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.",
@@ -356,7 +358,8 @@
         "feed": "עדכונים",
         "colon": ":",
         "offer": "לקריאת הדף בעברית",
-        "close": "סגירה"
+        "close": "סגירה",
+        "qr": "קוד QR"
       },
       "home": {
         "bio": "שלום! קוראים לי ליאו מטיושקין. אני חוקר, מהנדס ומשורר.",
@@ -474,7 +477,8 @@
         "feed": "Flux des nouveautés",
         "colon": " :",
         "offer": "Lire cette page en français",
-        "close": "Fermer"
+        "close": "Fermer",
+        "qr": "Code QR"
       },
       "home": {
         "bio": "Bonjour ! Je m’appelle Leo Matyushkin. Je suis chercheur, ingénieur et poète.",
@@ -592,7 +596,8 @@
         "feed": "订阅更新",
         "colon": "：",
         "offer": "阅读本页的简体中文版",
-        "close": "关闭"
+        "close": "关闭",
+        "qr": "二维码"
       },
       "home": {
         "bio": "你好！我是 Leo Matyushkin，研究者、工程师和诗人。",
@@ -711,7 +716,8 @@
         "feed": "更新フィード",
         "colon": "：",
         "offer": "このページを日本語で読む",
-        "close": "閉じる"
+        "close": "閉じる",
+        "qr": "QRコード"
       },
       "home": {
         "bio": "こんにちは。Leo Matyushkin です。研究者、エンジニア、そして詩人です。",
@@ -830,7 +836,8 @@
         "feed": "Canal de novedades",
         "colon": ":",
         "offer": "Leer esta página en español",
-        "close": "Cerrar"
+        "close": "Cerrar",
+        "qr": "Código QR"
       },
       "home": {
         "bio": "¡Hola! Me llamo Leo Matyushkin. Soy investigador, ingeniero y poeta.",
@@ -949,7 +956,8 @@
         "feed": "Feed de novidades",
         "colon": ":",
         "offer": "Ler esta página em português",
-        "close": "Fechar"
+        "close": "Fechar",
+        "qr": "QR code"
       },
       "home": {
         "bio": "Olá! Meu nome é Leo Matyushkin. Sou pesquisador, engenheiro e poeta.",
@@ -1068,7 +1076,8 @@
         "feed": "Neuigkeiten-Feed",
         "colon": ":",
         "offer": "Diese Seite auf Deutsch lesen",
-        "close": "Schließen"
+        "close": "Schließen",
+        "qr": "QR-Code"
       },
       "home": {
         "bio": "Hallo! Ich heiße Leo Matyushkin. Ich bin Forscher, Ingenieur und Dichter.",
@@ -1187,7 +1196,8 @@
         "feed": "새 소식 피드",
         "colon": ":",
         "offer": "이 페이지를 한국어로 보기",
-        "close": "닫기"
+        "close": "닫기",
+        "qr": "QR 코드"
       },
       "home": {
         "bio": "안녕하세요! 저는 Leo Matyushkin입니다. 연구자이자 엔지니어, 그리고 시인입니다.",
@@ -1306,7 +1316,8 @@
         "feed": "موجز التحديثات",
         "colon": ":",
         "offer": "اقرأ هذه الصفحة بالعربية",
-        "close": "إغلاق"
+        "close": "إغلاق",
+        "qr": "رمز QR"
       },
       "home": {
         "bio": "مرحبًا! اسمي ليو ماتيوشكين. أنا باحث ومهندس وشاعر.",
@@ -1425,7 +1436,8 @@
         "feed": "Feed degli aggiornamenti",
         "colon": ":",
         "offer": "Leggi questa pagina in italiano",
-        "close": "Chiudi"
+        "close": "Chiudi",
+        "qr": "Codice QR"
       },
       "home": {
         "bio": "Ciao! Mi chiamo Leo Matyushkin. Sono ricercatore, ingegnere e poeta.",
