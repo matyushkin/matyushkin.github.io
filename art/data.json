@@ -116,6 +116,21 @@
           "title": "«Иная глина» [Outra argila]",
           "venue": "Revista de poesia Vozdukh, nº 46",
           "description": "Ciclo de poemas, p. 256–266, escritos entre 2020 e 2025. O texto está publicado no Patreon."
+        },
+        "de": {
+          "title": "«Иная глина» [Anderer Ton]",
+          "venue": "Lyrikzeitschrift Vozdukh, Nr. 46",
+          "description": "Gedichtzyklus, S. 256–266, geschrieben 2020–2025. Der Text ist auf Patreon veröffentlicht."
+        },
+        "ko": {
+          "title": "«Иная глина» [다른 진흙]",
+          "venue": "시 전문지 Vozdukh 제46호",
+          "description": "연작시, 256–266쪽. 2020–2025년에 쓴 시입니다. 전문은 Patreon에 공개되어 있습니다."
+        },
+        "ar": {
+          "title": "«Иная глина» [طين آخر]",
+          "venue": "مجلة الشعر Vozdukh، العدد 46",
+          "description": "سلسلة قصائد، الصفحات 256–266، كُتبت بين 2020 و2025. النص منشور على Patreon."
         }
       },
       "lang_of_work": "ru",
@@ -165,6 +180,21 @@
           "title": "«Сорока щенка маленького унесла» [A pega levou o filhotinho]",
           "venue": "Projeto literário Flagi, nº 5, 30.08.2020",
           "description": "Ciclo de poemas. A revista foi encerrada; está disponível no Web Archive."
+        },
+        "de": {
+          "title": "«Сорока щенка маленького унесла» [Die Elster trug den kleinen Welpen fort]",
+          "venue": "Literaturprojekt Flagi, Nr. 5, 30.08.2020",
+          "description": "Gedichtzyklus. Die Zeitschrift wurde eingestellt; sie ist im Web Archive abrufbar."
+        },
+        "ko": {
+          "title": "«Сорока щенка маленького унесла» [까치가 어린 강아지를 물어 갔다]",
+          "venue": "문학 프로젝트 Flagi 제5호, 2020.08.30",
+          "description": "연작시. 매체는 폐간되었지만 Web Archive에서 볼 수 있습니다."
+        },
+        "ar": {
+          "title": "«Сорока щенка маленького унесла» [خطف العقعق الجرو الصغير]",
+          "venue": "المشروع الأدبي Flagi، العدد 5، 30.08.2020",
+          "description": "سلسلة قصائد. توقفت المجلة عن الصدور، ويمكن الاطلاع عليها في Web Archive."
         }
       },
       "lang_of_work": "ru",
@@ -214,6 +244,21 @@
           "title": "«Воскресные вкладыши» [Figurinhas de domingo]",
           "venue": "Revista literária zhurnal (antes Zhurnal na kolenke), 28.05.2024",
           "description": "Ciclo de poemas."
+        },
+        "de": {
+          "title": "«Воскресные вкладыши» [Sonntagssammelbildchen]",
+          "venue": "Literaturzeitschrift zhurnal (früher Zhurnal na kolenke), 28.05.2024",
+          "description": "Gedichtzyklus."
+        },
+        "ko": {
+          "title": "«Воскресные вкладыши» [일요일의 수집 카드]",
+          "venue": "문예지 zhurnal(옛 이름 Zhurnal na kolenke), 2024.05.28",
+          "description": "연작시."
+        },
+        "ar": {
+          "title": "«Воскресные вкладыши» [ملصقات الأحد]",
+          "venue": "المجلة الأدبية zhurnal (سابقًا Zhurnal na kolenke)، 28.05.2024",
+          "description": "سلسلة قصائد."
         }
       },
       "lang_of_work": "ru",
@@ -325,6 +370,21 @@
           "title": "«а/я»",
           "venue": "Edição do autor",
           "description": "Livro de poemas."
+        },
+        "de": {
+          "title": "«а/я»",
+          "venue": "Selbstverlag",
+          "description": "Gedichtband."
+        },
+        "ko": {
+          "title": "«а/я»",
+          "venue": "자비 출판",
+          "description": "시집."
+        },
+        "ar": {
+          "title": "«а/я»",
+          "venue": "نشر ذاتي",
+          "description": "ديوان شعر."
         }
       }
     },
@@ -374,6 +434,21 @@
           "title": "«О пространстве и времени» [Sobre o espaço e o tempo]",
           "venue": "Edição do autor",
           "description": "Livro de poemas."
+        },
+        "de": {
+          "title": "«О пространстве и времени» [Über Raum und Zeit]",
+          "venue": "Selbstverlag",
+          "description": "Gedichtband."
+        },
+        "ko": {
+          "title": "«О пространстве и времени» [공간과 시간에 대하여]",
+          "venue": "자비 출판",
+          "description": "시집."
+        },
+        "ar": {
+          "title": "«О пространстве и времени» [عن المكان والزمان]",
+          "venue": "نشر ذاتي",
+          "description": "ديوان شعر."
         }
       }
     }
