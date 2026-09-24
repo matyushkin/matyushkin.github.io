@@ -262,9 +262,11 @@ nav a[aria-current="page"] {
 .section-links { display: flex; flex-wrap: wrap; gap: 0 1.2em; line-height: 2; }
 .section-links a { white-space: nowrap; }
 
-/* A profile link and its QR sign stay together; the sign is quiet until used. */
+/* A profile link and its QR sign stay together. The sign shows only in the
+   owner's QR mode (?qr=1), and is quiet even then. */
 .shared { display: inline-flex; align-items: center; gap: 0.25em; }
-.section-links a.qr, a.qr {
+.section-links a.qr, a.qr { display: none; }
+.qr-mode .section-links a.qr, .qr-mode a.qr {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +288,8 @@ a.qr svg { width: 0.75em; height: 0.75em; }
 }
 .qr-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
 .qr-dialog img { display: block; width: min(80vw, 360px); height: auto; margin: 0 auto; image-rendering: pixelated; }
-.qr-dialog p { margin: 0.6em 0 0; font-size: 0.8em; word-break: break-all; }
+.qr-dialog p { margin: 0.6em 0 0; }
+.qr-dialog a { font-size: 0.8em; word-break: break-all; }
 .qr-dialog button {
     position: absolute;
     top: 0.2em;

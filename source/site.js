@@ -6,6 +6,7 @@
 //     (the early script in <head> follows that choice);
 //   * offers the reader's own language when they land on another one — an
 //     offer, not a redirect, so a search engine still sees every version.
+//   * in the owner's QR mode, opens a profile's QR code large.
 (function () {
   'use strict';
 
@@ -56,8 +57,8 @@
     });
   }
 
-  // ── QR codes: the sign next to a profile opens its code large ─────────────
-  // Without this script the sign still works: it links to the code itself.
+  // ── QR codes: the sign before a profile opens its code large ──────────────
+  // Signs show only in the owner's QR mode (?qr=1, see the head script).
   var dialog = null;
   document.addEventListener('click', function (e) {
     var sign = e.target.closest && e.target.closest('a.qr');
@@ -66,7 +67,8 @@
     if (!dialog) {
       dialog = document.createElement('dialog');
       dialog.className = 'qr-dialog';
-      dialog.innerHTML = '<button type="button"></button><img alt=""><p></p>';
+      dialog.innerHTML = '<button type="button"></button><img alt=""><p><strong></strong></p>'
+        + '<p><a target="_blank" rel="noopener"></a></p>';
       var shut = dialog.querySelector('button');
       shut.textContent = '×';
       shut.setAttribute('aria-label', (script && script.getAttribute('data-close')) || 'Close');
@@ -78,7 +80,11 @@
     var img = dialog.querySelector('img');
     img.src = sign.getAttribute('href');
     img.alt = sign.getAttribute('aria-label') || '';
-    dialog.querySelector('p').textContent = sign.getAttribute('data-url');
+    // The name and a live link: a visitor who opened the code can still just go there.
+    var target = sign.nextElementSibling;
+    dialog.querySelector('strong').textContent = target ? target.textContent : '';
+    var go = dialog.querySelector('p a');
+    go.href = go.textContent = sign.getAttribute('data-url');
     dialog.showModal();
   });
 

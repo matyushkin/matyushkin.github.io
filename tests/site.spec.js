@@ -301,8 +301,19 @@ test.describe('language choice', () => {
 // ─── QR codes for profile links ──────────────────────────────────────────────
 
 test.describe('QR codes', () => {
+  test('visitors see no QR signs; ?qr=1 turns them on for good, ?qr=0 off', async ({ page }) => {
+    await page.goto('/art/');
+    await expect(page.locator('a.qr').first()).toBeHidden();
+    await page.goto('/art/?qr=1');
+    await expect(page.locator('a.qr').first()).toBeVisible();
+    await page.goto('/science/');
+    await expect(page.locator('a.qr').first()).toBeVisible();
+    await page.goto('/science/?qr=0');
+    await expect(page.locator('a.qr').first()).toBeHidden();
+  });
+
   test('every profile link has a QR sign that opens its code large', async ({ page, request }) => {
-    await page.goto('/ru/art/');
+    await page.goto('/ru/art/?qr=1');
     const links = page.locator('#profiles-music .shared');
     expect(await links.count()).toBeGreaterThan(2);
     const sign = page.locator('#profiles-music a.qr').first();
@@ -311,13 +322,16 @@ test.describe('QR codes', () => {
     await sign.click();
     const dialog = page.locator('dialog.qr-dialog');
     await expect(dialog).toBeVisible();
-    await expect(dialog.locator('p')).toHaveText(target);
+    await expect(dialog.locator('strong')).toHaveText('Spotify');
+    const go = dialog.locator('p a');
+    await expect(go).toHaveAttribute('href', target);
+    await expect(go).toBeVisible();
     await page.keyboard.press('Escape');
     await expect(dialog).toBeHidden();
   });
 
   test('a Telegram code carries the t.me address, which phones open in the app', async ({ page, request }) => {
-    await page.goto('/');
+    await page.goto('/?qr=1');
     const sign = page.locator('a.qr[data-url^="https://t.me/"]').first();
     await expect(sign).toHaveCount(1);
     const svg = await (await request.get(await sign.getAttribute('href'))).text();
