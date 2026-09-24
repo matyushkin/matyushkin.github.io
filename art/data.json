@@ -131,6 +131,11 @@
           "title": "«Иная глина» [طين آخر]",
           "venue": "مجلة الشعر Vozdukh، العدد 46",
           "description": "سلسلة قصائد، الصفحات 256–266، كُتبت بين 2020 و2025. النص منشور على Patreon."
+        },
+        "it": {
+          "title": "«Иная глина» [Un’altra argilla]",
+          "venue": "Rivista di poesia Vozdukh, n. 46",
+          "description": "Ciclo di poesie, pp. 256–266, scritte tra il 2020 e il 2025. Il testo è pubblicato su Patreon."
         }
       },
       "lang_of_work": "ru",
@@ -195,6 +200,11 @@
           "title": "«Сорока щенка маленького унесла» [خطف العقعق الجرو الصغير]",
           "venue": "المشروع الأدبي Flagi، العدد 5، 30.08.2020",
           "description": "سلسلة قصائد. توقفت المجلة عن الصدور، ويمكن الاطلاع عليها في Web Archive."
+        },
+        "it": {
+          "title": "«Сорока щенка маленького унесла» [La gazza ha portato via il cucciolo]",
+          "venue": "Progetto letterario Flagi, n. 5, 30.08.2020",
+          "description": "Ciclo di poesie. La rivista ha chiuso; è consultabile su Web Archive."
         }
       },
       "lang_of_work": "ru",
@@ -259,6 +269,11 @@
           "title": "«Воскресные вкладыши» [ملصقات الأحد]",
           "venue": "المجلة الأدبية zhurnal (سابقًا Zhurnal na kolenke)، 28.05.2024",
           "description": "سلسلة قصائد."
+        },
+        "it": {
+          "title": "«Воскресные вкладыши» [Figurine della domenica]",
+          "venue": "Rivista letteraria zhurnal (già Zhurnal na kolenke), 28.05.2024",
+          "description": "Ciclo di poesie."
         }
       },
       "lang_of_work": "ru",
@@ -385,6 +400,11 @@
           "title": "«а/я»",
           "venue": "نشر ذاتي",
           "description": "ديوان شعر."
+        },
+        "it": {
+          "title": "«а/я»",
+          "venue": "Autopubblicazione",
+          "description": "Raccolta di poesie."
         }
       }
     },
@@ -449,6 +469,11 @@
           "title": "«О пространстве и времени» [عن المكان والزمان]",
           "venue": "نشر ذاتي",
           "description": "ديوان شعر."
+        },
+        "it": {
+          "title": "«О пространстве и времени» [Sullo spazio e sul tempo]",
+          "venue": "Autopubblicazione",
+          "description": "Raccolta di poesie."
         }
       }
     }
