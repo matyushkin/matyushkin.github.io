@@ -504,3 +504,27 @@ html[dir="rtl"] body {
 html[dir="rtl"] .item-back a::before {
     content: "→ ";
 }
+
+/* On a right-to-left page, English titles and author lists keep their own
+   direction (so "et al." ends with its dot), and each link is its own island
+   (so "Spotify · Apple Music" does not merge into one left-to-right run). */
+html[dir="rtl"] a,
+html[dir="rtl"] .achievement > div {
+    unicode-bidi: plaintext;
+}
+
+html[dir="rtl"] .achievement > div {
+    text-align: right;
+}
+
+/* ── Script-specific text rules ──────────────────────────────────────────── */
+
+/* Korean separates words with spaces; break lines there, not inside a word. */
+html[lang="ko"] body {
+    word-break: keep-all;
+}
+
+/* Arabic letters join; spacing them apart breaks the words. */
+html[lang="ar"] .achievement-meta {
+    letter-spacing: 0;
+}

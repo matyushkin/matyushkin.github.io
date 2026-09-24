@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <script id="lang-boot">/* Generated from source/i18n.json by sync_site_languages.py. */
-(function(){var C=["en", "es", "fr", "he", "ja", "pt", "ru", "zh"],R=["he"],F="en",D="ru",T={"ja": "ja", "pt": "pt-BR", "zh": "zh-Hans"},l=null;
+(function(){var C=["ar", "de", "en", "es", "fr", "ko", "he", "ja", "pt", "ru", "zh"],R=["ar", "he"],F="en",D="ru",T={"ja": "ja", "pt": "pt-BR", "zh": "zh-Hans"},l=null;
 try{l=new URLSearchParams(location.search).get('lang')}catch(e){}
 if(C.indexOf(l)<0){try{l=localStorage.getItem('lang')}catch(e){}}
 if(C.indexOf(l)<0){var b=(navigator.language||'').slice(0,2).toLowerCase();l=C.indexOf(b)>=0?b:F}
@@ -21,7 +21,7 @@ document.head.appendChild(s);})();</script>
    ym(64328872, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/64328872" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-  <link href="style.css?v=ac81a66d0e" rel="stylesheet">
+  <link href="style.css?v=cad9511788" rel="stylesheet">
   <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="feed.xml">
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/logo.png">
@@ -52,9 +52,12 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       <section><a href="technology/index.html" id="nav-technology" data-i18n="common.nav.technology">Технологии</a></section>
       <section><a href="art/index.html" id="nav-art" data-i18n="common.nav.art">Искусство</a></section>
       <select id="lang-select" class="lang-select" aria-label="Language">
+        <option value="ar" lang="ar">العربية</option>
+        <option value="de" lang="de">Deutsch</option>
         <option value="en" lang="en">English</option>
         <option value="es" lang="es">Español</option>
         <option value="fr" lang="fr">Français</option>
+        <option value="ko" lang="ko">한국어</option>
         <option value="he" lang="he">עברית</option>
         <option value="ja" lang="ja">日本語</option>
         <option value="pt" lang="pt-BR">Português</option>

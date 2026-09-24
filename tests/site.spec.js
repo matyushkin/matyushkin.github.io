@@ -249,6 +249,39 @@ test.describe('Spanish and Portuguese', () => {
   });
 });
 
+// ─── German, Korean and Arabic ───────────────────────────────────────────────
+
+test.describe('German, Korean and Arabic', () => {
+  test('German dates read "31. Juli 2026"', async ({ page }) => {
+    await page.goto('/art/music/the-jungle-route/?lang=de');
+    await expect(page.locator('.achievement-meta[data-lang="de"]')).toContainText('31. Juli 2026');
+  });
+
+  test('Korean keeps words whole and dates in its own order', async ({ page }) => {
+    await page.goto('/art/music/the-jungle-route/?lang=ko');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'ko');
+    await expect(page.locator('.achievement-meta[data-lang="ko"]')).toContainText('2026년 7월 31일');
+    expect(await page.evaluate(() => getComputedStyle(document.body).wordBreak)).toBe('keep-all');
+  });
+
+  test('Arabic reads right to left with Western digits', async ({ page }) => {
+    await page.goto('/art/index.html?lang=ar');
+    await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+    await expect(page.locator('#music-title')).toHaveText('الموسيقى');
+    await page.goto('/art/music/the-jungle-route/?lang=ar');
+    await expect(page.locator('.achievement-meta[data-lang="ar"]')).toContainText('31 يوليو 2026');
+    expect(await page.evaluate(() => getComputedStyle(document.querySelector('.achievement-meta[data-lang="ar"]')).letterSpacing)).toMatch(/^(0px|normal)$/);
+  });
+
+  test('on a right-to-left page each link keeps its own direction', async ({ page }) => {
+    for (const lang of ['ar', 'he']) {
+      await page.goto('/science/index.html?lang=' + lang);
+      await page.waitForSelector('.achievement a');
+      expect(await page.evaluate(() => getComputedStyle(document.querySelector('.achievement a')).unicodeBidi)).toBe('plaintext');
+    }
+  });
+});
+
 // ─── Translations: one file ──────────────────────────────────────────────────
 
 test.describe('translations', () => {

@@ -4,6 +4,18 @@
   "fallback": "en",
   "languages": [
     {
+      "code": "ar",
+      "name": "العربية",
+      "locale": "ar-u-nu-latn",
+      "dir": "rtl"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "locale": "de-DE",
+      "dir": "ltr"
+    },
+    {
       "code": "en",
       "name": "English",
       "locale": "en-US",
@@ -19,6 +31,12 @@
       "code": "fr",
       "name": "Français",
       "locale": "fr-FR",
+      "dir": "ltr"
+    },
+    {
+      "code": "ko",
+      "name": "한국어",
+      "locale": "ko-KR",
       "dir": "ltr"
     },
     {
@@ -995,6 +1013,351 @@
           "dezembro"
         ],
         "dateFormat": "{d} de {m} de {y}"
+      }
+    },
+    "de": {
+      "common": {
+        "nav": {
+          "art": "Kunst",
+          "science": "Wissenschaft",
+          "technology": "Technologie"
+        },
+        "home": "Startseite",
+        "skip": "Zum Inhalt springen",
+        "language": "Sprache",
+        "theme": "Farbschema wechseln",
+        "email": "E-Mail",
+        "feed": "Neuigkeiten-Feed",
+        "colon": ":"
+      },
+      "home": {
+        "bio": "Hallo! Ich heiße Leo Matyushkin. Ich bin Forscher, Ingenieur und Dichter.",
+        "social": "Soziale Netzwerke",
+        "projects": "Projekte",
+        "memories": "Erste Erinnerungen"
+      },
+      "cv": {
+        "text": "Mein <a href=\"Matyushkin.pdf\">akademischer Lebenslauf (PDF)</a>."
+      },
+      "donate": {
+        "title": "Unterstützen",
+        "intro": "Wenn Ihnen gefällt, was ich mache, können Sie mich hier unterstützen:",
+        "outro": "Oder schreiben Sie mir einfach an <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "Seite nicht gefunden. Versuchen Sie es auf der <a href=\"index.html\">Startseite</a>."
+      },
+      "art": {
+        "pageTitle": "Kunst",
+        "bio": "Ich schreibe Gedichte, kurze Prosa und Essays auf Russisch. Veröffentlichungen in <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em> und <em>zhurnal</em> (früher <em>Zhurnal na kolenke</em>). Ich male mit Acryl und Aquarell und zeichne mit Buntstiften. Ich komponiere Lieder, elektronische Musik sowie Stücke für Keyboard und Gitarre.",
+        "musicTitle": "Musik",
+        "literatureTitle": "Literatur",
+        "visualTitle": "Bildende Kunst",
+        "behanceTitle": "Projekte auf <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "Neu auf Instagram",
+        "booksTitle": "Bücher",
+        "publicationsTitle": "Veröffentlichungen",
+        "release": {
+          "clip": "Musikvideo",
+          "listen": "Anhören",
+          "all": "Alle Plattformen",
+          "post": "Beitrag von"
+        },
+        "types": {
+          "book": "Buch",
+          "publication": "Veröffentlichung",
+          "exhibition": "Ausstellung",
+          "festival": "Festival",
+          "award": "Preis",
+          "grant": "Stipendium"
+        },
+        "profiles": {
+          "telegram-lmwav": "Telegram-Kanal (LMWAV)",
+          "telegram-lmtxt": "Telegram-Kanal (LMTXT)",
+          "telegram-lmpix": "Telegram-Kanal (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "Wissenschaft",
+        "bio": "Mein Hauptforschungsgebiet ist die Materialwissenschaft für die Nanoelektronik: Synthese von Halbleitern, Quantenpunkte, plasmonische Nanopartikel, kolloidale Synthese von Nanokristallen und schichtweise Abscheidung aus Lösungen. 70 Publikationen, h-Index 19. Ich habe <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">einen Kurs über Nanomaterialien auf Stepik</a> erstellt, den mehr als 1400 Studierende belegt haben. Derzeit kehre ich über die computergestützte Modellierung in die Forschung zurück.",
+        "linksTitle": "Profile",
+        "publicationsTitle": "Publikationen",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "Dissertation",
+          "book": "Bücher",
+          "publication": "Zeitschriftenartikel",
+          "conference": "Konferenz-Abstracts",
+          "patent": "Patente"
+        },
+        "profiles": {
+          "stepik": "Stepik: Onlinekurs „Nanomaterialien“"
+        }
+      },
+      "technology": {
+        "pageTitle": "Technologie",
+        "bio": "Ingenieur und Datenanalyst. Wichtigste Programmiersprachen: Python, Rust und TypeScript. Bei Apifornia entwickle ich einen KI-Assistenten, der Workflows aus Anfragen in natürlicher Sprache erstellt und bearbeitet. Am Institut habe ich Geräte mit Mikrocontrollern programmiert.",
+        "profilesTitle": "Profile",
+        "projectsTitle": "Projekte",
+        "downloads": "Downloads",
+        "publicationsTitle": "Artikel",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "Anhören",
+        "clip": "Musikvideo",
+        "read": "Lesen",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "Alle Werke",
+        "release": "Single",
+        "book": "Buch",
+        "pages": "S.",
+        "months": [
+          "Januar",
+          "Februar",
+          "März",
+          "April",
+          "Mai",
+          "Juni",
+          "Juli",
+          "August",
+          "September",
+          "Oktober",
+          "November",
+          "Dezember"
+        ],
+        "dateFormat": "{d}. {m} {y}"
+      }
+    },
+    "ko": {
+      "common": {
+        "nav": {
+          "art": "예술",
+          "science": "과학",
+          "technology": "기술"
+        },
+        "home": "홈",
+        "skip": "본문으로 건너뛰기",
+        "language": "언어",
+        "theme": "테마 전환",
+        "email": "이메일",
+        "feed": "새 소식 피드",
+        "colon": ":"
+      },
+      "home": {
+        "bio": "안녕하세요! 저는 Leo Matyushkin입니다. 연구자이자 엔지니어, 그리고 시인입니다.",
+        "social": "소셜 미디어",
+        "projects": "프로젝트",
+        "memories": "첫 기억"
+      },
+      "cv": {
+        "text": "<a href=\"Matyushkin.pdf\">학술 이력서(PDF)</a>"
+      },
+      "donate": {
+        "title": "후원하기",
+        "intro": "제 작업이 마음에 드신다면 다음을 통해 후원하실 수 있습니다:",
+        "outro": "또는 <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>로 편하게 메일을 보내 주세요."
+      },
+      "notfound": {
+        "text": "페이지를 찾을 수 없습니다. <a href=\"index.html\">홈</a>에서 다시 시작해 보세요."
+      },
+      "art": {
+        "pageTitle": "예술",
+        "bio": "러시아어로 시와 짧은 산문, 에세이를 씁니다. <em>Polutona</em>, <em>Vozdukh</em>, <em>Flagi</em>, <em>zhurnal</em>(옛 이름 <em>Zhurnal na kolenke</em>)에 작품을 발표했습니다. 아크릴과 수채화로 그림을 그리고, 색연필로 드로잉을 합니다. 노래와 전자 음악, 키보드와 기타 곡을 작곡합니다.",
+        "musicTitle": "음악",
+        "literatureTitle": "문학",
+        "visualTitle": "시각 예술",
+        "behanceTitle": "<a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a> 프로젝트",
+        "instagramTitle": "Instagram 최신 게시물",
+        "booksTitle": "책",
+        "publicationsTitle": "발표작",
+        "release": {
+          "clip": "뮤직비디오",
+          "listen": "듣기",
+          "all": "모든 플랫폼",
+          "post": "게시물"
+        },
+        "types": {
+          "book": "책",
+          "publication": "발표",
+          "exhibition": "전시",
+          "festival": "페스티벌",
+          "award": "수상",
+          "grant": "지원금"
+        },
+        "profiles": {
+          "telegram-lmwav": "Telegram 채널 (LMWAV)",
+          "telegram-lmtxt": "Telegram 채널 (LMTXT)",
+          "telegram-lmpix": "Telegram 채널 (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "과학",
+        "bio": "주요 연구 분야는 나노전자공학을 위한 재료과학입니다. 반도체 합성, 양자점, 플라즈모닉 나노입자, 나노결정의 콜로이드 합성, 용액에서의 층상 적층을 연구했습니다. 논문 70편, h-지수 19. Stepik에 <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">나노재료 강좌</a>를 개설했으며, 1400명 이상이 수강했습니다. 지금은 계산 모델링을 통해 연구로 돌아가고 있습니다.",
+        "linksTitle": "프로필",
+        "publicationsTitle": "연구 실적",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "학위 논문",
+          "book": "저서",
+          "publication": "학술지 논문",
+          "conference": "학회 초록",
+          "patent": "특허"
+        },
+        "profiles": {
+          "stepik": "Stepik: 온라인 강좌 ‘나노재료’"
+        }
+      },
+      "technology": {
+        "pageTitle": "기술",
+        "bio": "엔지니어이자 데이터 분석가입니다. 주로 Python, Rust, TypeScript를 사용합니다. Apifornia에서 자연어 요청으로 워크플로를 만들고 편집하는 AI 어시스턴트를 개발하고 있습니다. 연구소 시절에는 마이크로컨트롤러 기반 장치를 프로그래밍했습니다.",
+        "profilesTitle": "프로필",
+        "projectsTitle": "프로젝트",
+        "downloads": "다운로드",
+        "publicationsTitle": "글",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "듣기",
+        "clip": "뮤직비디오",
+        "read": "읽기",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "모든 작품",
+        "release": "싱글",
+        "book": "책",
+        "pages": "쪽",
+        "months": [
+          "1월",
+          "2월",
+          "3월",
+          "4월",
+          "5월",
+          "6월",
+          "7월",
+          "8월",
+          "9월",
+          "10월",
+          "11월",
+          "12월"
+        ],
+        "dateFormat": "{y}년 {n}월 {d}일"
+      }
+    },
+    "ar": {
+      "common": {
+        "nav": {
+          "art": "الفن",
+          "science": "العلوم",
+          "technology": "التقنية"
+        },
+        "home": "الرئيسية",
+        "skip": "انتقل إلى المحتوى",
+        "language": "اللغة",
+        "theme": "تبديل المظهر",
+        "email": "البريد الإلكتروني",
+        "feed": "موجز التحديثات",
+        "colon": ":"
+      },
+      "home": {
+        "bio": "مرحبًا! اسمي ليو ماتيوشكين. أنا باحث ومهندس وشاعر.",
+        "social": "الشبكات الاجتماعية",
+        "projects": "المشاريع",
+        "memories": "الذكريات الأولى"
+      },
+      "cv": {
+        "text": "<a href=\"Matyushkin.pdf\">سيرتي الذاتية الأكاديمية (PDF)</a>."
+      },
+      "donate": {
+        "title": "ادعمني",
+        "intro": "إذا أعجبك ما أقوم به، يمكنك دعمي عبر:",
+        "outro": "أو راسلني ببساطة على <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+      },
+      "notfound": {
+        "text": "الصفحة غير موجودة. جرّب البدء من <a href=\"index.html\">الصفحة الرئيسية</a>."
+      },
+      "art": {
+        "pageTitle": "الفن",
+        "bio": "أكتب الشعر والنثر القصير والمقالات باللغة الروسية. نُشرت أعمالي في <em>Polutona</em> و<em>Vozdukh</em> و<em>Flagi</em> و<em>zhurnal</em> (سابقًا <em>Zhurnal na kolenke</em>). أرسم بالأكريليك والألوان المائية، وبالأقلام الملونة. أؤلف الأغاني والموسيقى الإلكترونية ومقطوعات للكيبورد والغيتار.",
+        "musicTitle": "الموسيقى",
+        "literatureTitle": "الأدب",
+        "visualTitle": "الفنون البصرية",
+        "behanceTitle": "مشاريع على <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "instagramTitle": "أحدث المنشورات على Instagram",
+        "booksTitle": "الكتب",
+        "publicationsTitle": "المنشورات",
+        "release": {
+          "clip": "فيديو كليب",
+          "listen": "استمع",
+          "all": "كل المنصات",
+          "post": "منشور من"
+        },
+        "types": {
+          "book": "كتاب",
+          "publication": "منشور",
+          "exhibition": "معرض",
+          "festival": "مهرجان",
+          "award": "جائزة",
+          "grant": "منحة"
+        },
+        "profiles": {
+          "telegram-lmwav": "قناة تيليغرام (LMWAV)",
+          "telegram-lmtxt": "قناة تيليغرام (LMTXT)",
+          "telegram-lmpix": "قناة تيليغرام (LMPIX)"
+        }
+      },
+      "science": {
+        "pageTitle": "العلوم",
+        "bio": "مجال بحثي الرئيسي هو علم المواد للإلكترونيات النانوية: تخليق أشباه الموصلات، والنقاط الكمومية، والجسيمات النانوية البلازمونية، والتخليق الغرواني للبلورات النانوية، والترسيب طبقةً فوق طبقة من المحاليل. عدد المنشورات: 70، ومؤشر هيرش: 19. أنشأت <a href=\"https://stepik.org/course/52514\" target=\"_blank\" rel=\"noopener\">مقررًا عن المواد النانوية على Stepik</a>، تابعه أكثر من 1400 طالب. أعود حاليًا إلى البحث العلمي عبر النمذجة الحاسوبية.",
+        "linksTitle": "الملفات الشخصية",
+        "publicationsTitle": "المنشورات",
+        "scholarLabel": "Google Scholar",
+        "sections": {
+          "dissertation": "الأطروحة",
+          "book": "الكتب",
+          "publication": "مقالات في المجلات العلمية",
+          "conference": "ملخصات المؤتمرات",
+          "patent": "براءات الاختراع"
+        },
+        "profiles": {
+          "stepik": "مقرر «المواد النانوية» الإلكتروني على Stepik"
+        }
+      },
+      "technology": {
+        "pageTitle": "التقنية",
+        "bio": "مهندس ومحلل بيانات. لغات البرمجة الأساسية: Python وRust وTypeScript. أطوّر في Apifornia مساعدًا بالذكاء الاصطناعي ينشئ مسارات العمل ويعدّلها بناءً على طلبات باللغة الطبيعية. وفي المعهد، برمجت أجهزة تعمل بالمتحكمات الدقيقة.",
+        "profilesTitle": "الملفات الشخصية",
+        "projectsTitle": "المشاريع",
+        "downloads": "تنزيل",
+        "publicationsTitle": "مقالات",
+        "profiles": {}
+      },
+      "item": {
+        "listen": "استمع",
+        "clip": "فيديو كليب",
+        "read": "اقرأ",
+        "pdf": "PDF",
+        "patreon": "Patreon",
+        "back": "كل الأعمال",
+        "release": "أغنية منفردة",
+        "book": "كتاب",
+        "pages": "صفحة",
+        "months": [
+          "يناير",
+          "فبراير",
+          "مارس",
+          "أبريل",
+          "مايو",
+          "يونيو",
+          "يوليو",
+          "أغسطس",
+          "سبتمبر",
+          "أكتوبر",
+          "نوفمبر",
+          "ديسمبر"
+        ],
+        "dateFormat": "{d} {m} {y}"
       }
     }
   }
