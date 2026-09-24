@@ -2,7 +2,6 @@
   "name": "matyushkin.github.io",
   "version": "0.0.1",
   "description": "Personal web site by Leo Matyushkin",
-  "main": "index.js",
   "scripts": {
     "test": "playwright test",
     "test:ui": "playwright test --ui"

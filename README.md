@@ -1,28 +1,46 @@
 # matyushkin
 
-👦 My personal web page host. All projects and applications together on one map. I will be glad to see you there: [matyushkin.github.io](https://matyushkin.github.io/). For static page generation [11ty](https://github.com/11ty/eleventy) is used. Repo for site generation is [here](https://github.com/matyushkin/mgio).
+👦 My personal web page: [matyushkin.github.io](https://matyushkin.github.io/).
 
-## Languages
+## How the site is built
 
-Every word of the interface lives in one file, `source/i18n.json`; pages hold
-none of their own. `source/site.js` picks the reader's language and fills the
-page from it.
+Every page is generated; none is edited by hand. The build lives in the life
+repository (`/Users/leo/life/.agents/scripts/build_site.py`) and reads only
+this repository:
 
-To add a language:
+- `source/i18n.json` — every word of the interface, in every language;
+- `science/data.json`, `technology/data.json`, `art/data.json` — the works;
+- `art/feeds.json` — the Behance and Instagram tiles.
 
-1. Add it to `languages` in `source/i18n.json` (code, label, locale, and
-   `dir: "rtl"` for a right-to-left script) and add its block under `strings`.
-   A key left out falls back to English.
-2. Run the site refresh, which writes the static parts every page needs
-   (hreflang links, the early language snippet, the selector options) and
-   rebuilds the work pages with the new language:
+It writes one static page per language: English at the root (`/science/`),
+every other language under its code (`/ru/science/`, `/de/science/`, …). Each
+page carries its full content, a canonical link to itself and hreflang links
+to all its language versions; `sitemap.xml` lists them all. `source/site.js`
+only switches the theme, remembers a language picked in the menu, and offers
+the reader's own language when they land on another one.
+
+The weekly site refresh rebuilds everything:
+
+```
+/Users/leo/life/.agents/scripts/site_refresh_launchd.sh run
+```
+
+## Adding a language
+
+1. Add it to `languages` in `source/i18n.json` (code, name, locale, `tag` if
+   the hreflang tag differs from the code, and `dir: "rtl"` for a
+   right-to-left script) and add its block under `strings`. A key left out
+   falls back to English.
+2. Rebuild: `/Users/leo/life/.venv/bin/python /Users/leo/life/.agents/scripts/build_site.py`.
+3. Test against a local copy:
 
    ```
-   /Users/leo/life/.agents/scripts/site_refresh_launchd.sh run
+   python3 -m http.server 8123 &
+   PLAYWRIGHT_BASE_URL=http://localhost:8123 npx playwright test
    ```
 
-3. `npx playwright test` — the translation checks read the language list from
-   `i18n.json`, so they cover the new language without edits.
+   The language checks read the language list from `i18n.json`, so they cover
+   the new language without edits.
 
 A script that isn't in the font (Computer Modern carries Latin and Cyrillic)
 also needs a subset font next to `fonts/heebo-hebrew.woff2` and one line in the

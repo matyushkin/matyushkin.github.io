@@ -51,18 +51,79 @@ nav section {
     padding:10px;
 }
 
-select.lang-select {
+/* The language menu is plain links, so it works without JavaScript and every
+   language version links to every other, as search engines ask. */
+.lang-menu {
     margin-inline-start: auto;
-    font-family: inherit;
+    position: relative;
     font-size: 0.95em;
-    line-height: 1;
     align-self: center;
+}
+
+.lang-menu summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 4px 2px;
+    line-height: 1;
+}
+
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary::after { content: " ▾"; font-size: 0.7em; }
+
+.lang-menu ul {
+    position: absolute;
+    inset-inline-end: 0;
+    top: 100%;
+    z-index: 10;
+    margin: 0;
+    padding: 0.3em 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.lang-menu li a {
+    display: block;
+    padding: 0.2em 0.9em;
+    white-space: nowrap;
+    text-decoration: none;
+    color: inherit;
+}
+
+.lang-menu li a:hover { text-decoration: underline; }
+.lang-menu a[aria-current] { text-decoration: underline; }
+
+.dark-theme .lang-menu ul { background: #1a1a1a; border-color: #3a3a3a; }
+
+/* The reader's own language, offered once on a page in another. */
+.lang-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    margin: 0 -1.2em;
+    padding: 0.3em 1.2em;
+    font-size: 0.85em;
+    background: #f3f3f3;
+}
+
+.lang-offer button {
+    font: inherit;
+    font-size: 1.2em;
+    line-height: 1;
     cursor: pointer;
     border: none;
     background: transparent;
-    padding: 4px 2px;
     color: inherit;
+    padding: 0 0.3em;
 }
+
+.dark-theme .lang-offer { background: #2a2a2a; }
+
+.home-sections { list-style: none; padding-inline-start: 0; }
+.home-sections li { margin: 0.3em 0; }
 
 .theme-button {
     font-family: inherit;
@@ -76,13 +137,14 @@ select.lang-select {
     color: inherit;
 }
 
-.dark-theme select.lang-select, .dark-theme .theme-button { color: #e8e4d8; }
+.dark-theme .lang-menu summary, .dark-theme .theme-button { color: #e8e4d8; }
 
 .dark-theme .achievement-meta { color: #999; }
 .dark-theme .achievement-desc { color: #bbb; }
 
 .logo img {
     width: 100px;
+    height: auto;
 }
 
 .light-theme {
@@ -179,25 +241,6 @@ nav a[aria-current="page"] {
 }
 
 
-/* ── Index section links ─────────────────────────────────────────────────── */
-
-.index-sections {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2em;
-    margin-top: 1.2em;
-}
-.index-sections a {
-    text-decoration: none;
-    display: block;
-}
-.index-sections a:hover strong {
-    text-decoration: underline;
-}
-.index-sections p {
-    margin: 0;
-}
-
 /* ── Achievement cards (science, art) ───────────────────────────────────── */
 
 .achievement {
@@ -220,26 +263,6 @@ nav a[aria-current="page"] {
 .section-links a { white-space: nowrap; }
 
 /* ── Technology article list ─────────────────────────────────────────────── */
-
-.technology-projects {
-    border-left: 2px solid #e0e0e0;
-    padding-left: 0.8em;
-}
-
-.dark-theme .technology-projects {
-    border-left-color: #555;
-}
-
-.technology-projects h3 {
-    margin-top: 0;
-    margin-bottom: 0.25em;
-    color: inherit;
-}
-
-.technology-projects p {
-    margin-top: 0;
-    font-size: 0.9em;
-}
 
 article h2 { font-size: 1.15em; margin-top: 1.6em; margin-bottom: 0.3em; }
 article h3 { font-size: 1em; margin-top: 1.4em; margin-bottom: 0.3em; color: #555; }
@@ -352,7 +375,7 @@ main h3 {
         min-height: 44px;
     }
 
-    select.lang-select,
+    .lang-menu summary,
     .theme-button {
         min-height: 44px;
         padding-left: 8px;
@@ -371,9 +394,11 @@ main h3 {
         padding: 0 16px;
     }
 
-    nav {
+    nav,
+    .lang-offer {
         margin: 0 -16px;
-        padding: 0 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     nav section {
@@ -394,7 +419,7 @@ main h3 {
         width: 52px;
     }
 
-    select.lang-select,
+    .lang-menu summary,
     .theme-button {
         min-height: 44px;
         padding-left: 6px;

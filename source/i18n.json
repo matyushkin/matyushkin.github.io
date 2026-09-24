@@ -1,6 +1,6 @@
 {
-  "_about": "Every word of the site interface, in every language. To add a language: add it to \"languages\" (ordered by the Latin transliteration of its own name, as Wikipedia does) and add a block under \"strings\" — nothing else. A missing key falls back to English.",
-  "default": "ru",
+  "_about": "Every word of the site, in every language. build_site.py (in the life repo) writes one static page per language from it: the default language at the site root, every other under /<code>/. To add a language: add it to \"languages\" (ordered by the Latin transliteration of its own name, as Wikipedia does), add a block under \"strings\", and rebuild. A missing key falls back to English.",
+  "default": "en",
   "fallback": "en",
   "languages": [
     {
@@ -116,16 +116,21 @@
         "theme": "Сменить тему",
         "email": "Почта",
         "feed": "Лента обновлений",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Читать эту страницу по-русски",
+        "close": "Закрыть"
       },
       "home": {
         "bio": "Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.",
         "social": "Соцсети",
         "projects": "Проекты",
-        "memories": "Первые воспоминания"
+        "memories": "Первые воспоминания",
+        "science": "Материаловедение наноэлектроники: квантовые точки, плазмонные наночастицы, коллоидный синтез — публикации и цитирования.",
+        "technology": "Программы на Python, Rust и TypeScript: открытые проекты и статьи.",
+        "art": "Стихи, музыкальные релизы, живопись и графика."
       },
       "cv": {
-        "text": "Здесь находится моё <a href=\"Matyushkin.pdf\">научное резюме (PDF)</a>."
+        "text": "Здесь находится моё <a href=\"/cv/Matyushkin.pdf\">научное резюме (PDF)</a>."
       },
       "donate": {
         "title": "Как мне помочь",
@@ -133,7 +138,7 @@
         "outro": "Или просто напишите на <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Страница не найдена. Попробуйте начать с <a href=\"index.html\">главной</a>."
+        "text": "Страница не найдена. Попробуйте начать с <a href=\"/\">главной</a>."
       },
       "art": {
         "pageTitle": "Искусство",
@@ -148,7 +153,6 @@
         "release": {
           "clip": "Клип",
           "listen": "Слушать",
-          "all": "Все площадки",
           "post": "Публикация"
         },
         "types": {
@@ -238,16 +242,21 @@
         "theme": "Toggle theme",
         "email": "Email",
         "feed": "Updates feed",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Read this page in English",
+        "close": "Close"
       },
       "home": {
         "bio": "Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.",
         "social": "Social",
         "projects": "Projects",
-        "memories": "First memories"
+        "memories": "First memories",
+        "science": "Materials science of nanoelectronics: quantum dots, plasmonic nanoparticles, colloidal synthesis — publications and citations.",
+        "technology": "Software in Python, Rust and TypeScript: open-source projects and articles.",
+        "art": "Poetry in Russian, music releases, painting and drawing."
       },
       "cv": {
-        "text": "My <a href=\"Matyushkin.pdf\">academic CV (PDF)</a>."
+        "text": "My <a href=\"/cv/Matyushkin.pdf\">academic CV (PDF)</a>."
       },
       "donate": {
         "title": "Support",
@@ -255,7 +264,7 @@
         "outro": "Or just write to <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Page not found. Try starting from the <a href=\"index.html\">home page</a>."
+        "text": "Page not found. Try starting from the <a href=\"/\">home page</a>."
       },
       "art": {
         "pageTitle": "Art",
@@ -270,7 +279,6 @@
         "release": {
           "clip": "Video",
           "listen": "Listen",
-          "all": "All platforms",
           "post": "Post by"
         },
         "types": {
@@ -346,16 +354,21 @@
         "theme": "החלפת ערכת נושא",
         "email": "דוא״ל",
         "feed": "עדכונים",
-        "colon": ":"
+        "colon": ":",
+        "offer": "לקריאת הדף בעברית",
+        "close": "סגירה"
       },
       "home": {
         "bio": "שלום! קוראים לי ליאו מטיושקין. אני חוקר, מהנדס ומשורר.",
         "social": "רשתות חברתיות",
         "projects": "פרויקטים",
-        "memories": "זיכרונות ראשונים"
+        "memories": "זיכרונות ראשונים",
+        "science": "מדע החומרים של הננו־אלקטרוניקה: נקודות קוונטיות, ננו־חלקיקים פלזמוניים, סינתזה קולואידית — פרסומים וציטוטים.",
+        "technology": "תוכנה ב־Python, ‏Rust ו־TypeScript: פרויקטים בקוד פתוח ומאמרים.",
+        "art": "שירה ברוסית, הוצאות מוזיקליות, ציור ורישום."
       },
       "cv": {
-        "text": "‏<a href=\"Matyushkin.pdf\">קורות החיים האקדמיים שלי (PDF)</a>."
+        "text": "‏<a href=\"/cv/Matyushkin.pdf\">קורות החיים האקדמיים שלי (PDF)</a>."
       },
       "donate": {
         "title": "איך לתמוך",
@@ -363,7 +376,7 @@
         "outro": "או פשוט לכתוב אל <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "הדף לא נמצא. נסו להתחיל מ<a href=\"index.html\">דף הבית</a>."
+        "text": "הדף לא נמצא. נסו להתחיל מ<a href=\"/\">דף הבית</a>."
       },
       "art": {
         "pageTitle": "אמנות",
@@ -378,7 +391,6 @@
         "release": {
           "clip": "קליפ",
           "listen": "האזנה",
-          "all": "כל הפלטפורמות",
           "post": "פוסט של"
         },
         "types": {
@@ -460,16 +472,21 @@
         "theme": "Changer de thème",
         "email": "E-mail",
         "feed": "Flux des nouveautés",
-        "colon": " :"
+        "colon": " :",
+        "offer": "Lire cette page en français",
+        "close": "Fermer"
       },
       "home": {
         "bio": "Bonjour ! Je m’appelle Leo Matyushkin. Je suis chercheur, ingénieur et poète.",
         "social": "Réseaux sociaux",
         "projects": "Projets",
-        "memories": "Premiers souvenirs"
+        "memories": "Premiers souvenirs",
+        "science": "Science des matériaux pour la nanoélectronique : boîtes quantiques, nanoparticules plasmoniques, synthèse colloïdale — publications et citations.",
+        "technology": "Logiciels en Python, Rust et TypeScript : projets open source et articles.",
+        "art": "Poésie en russe, sorties musicales, peinture et dessin."
       },
       "cv": {
-        "text": "Mon <a href=\"Matyushkin.pdf\">CV académique (PDF)</a>."
+        "text": "Mon <a href=\"/cv/Matyushkin.pdf\">CV académique (PDF)</a>."
       },
       "donate": {
         "title": "Me soutenir",
@@ -477,7 +494,7 @@
         "outro": "Ou écrivez-moi simplement à <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Page introuvable. Essayez de repartir de la <a href=\"index.html\">page d’accueil</a>."
+        "text": "Page introuvable. Essayez de repartir de la <a href=\"/\">page d’accueil</a>."
       },
       "art": {
         "pageTitle": "Art",
@@ -492,7 +509,6 @@
         "release": {
           "clip": "Clip",
           "listen": "Écouter",
-          "all": "Toutes les plateformes",
           "post": "Publication de"
         },
         "types": {
@@ -574,16 +590,21 @@
         "theme": "切换主题",
         "email": "邮箱",
         "feed": "订阅更新",
-        "colon": "："
+        "colon": "：",
+        "offer": "阅读本页的简体中文版",
+        "close": "关闭"
       },
       "home": {
         "bio": "你好！我是 Leo Matyushkin，研究者、工程师和诗人。",
         "social": "社交网络",
         "projects": "项目",
-        "memories": "最初的记忆"
+        "memories": "最初的记忆",
+        "science": "纳米电子学材料科学：量子点、等离激元纳米颗粒、胶体合成——论文与引用。",
+        "technology": "Python、Rust 和 TypeScript 软件：开源项目与文章。",
+        "art": "俄语诗歌、音乐作品、绘画与素描。"
       },
       "cv": {
-        "text": "我的<a href=\"Matyushkin.pdf\">学术简历（PDF）</a>。"
+        "text": "我的<a href=\"/cv/Matyushkin.pdf\">学术简历（PDF）</a>。"
       },
       "donate": {
         "title": "支持我",
@@ -591,7 +612,7 @@
         "outro": "也可以直接写信到 <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>。"
       },
       "notfound": {
-        "text": "找不到该页面。请从<a href=\"index.html\">首页</a>重新开始。"
+        "text": "找不到该页面。请从<a href=\"/\">首页</a>重新开始。"
       },
       "art": {
         "pageTitle": "艺术",
@@ -606,7 +627,6 @@
         "release": {
           "clip": "MV",
           "listen": "收听",
-          "all": "所有平台",
           "post": "帖子"
         },
         "types": {
@@ -689,16 +709,21 @@
         "theme": "テーマを切り替え",
         "email": "メール",
         "feed": "更新フィード",
-        "colon": "："
+        "colon": "：",
+        "offer": "このページを日本語で読む",
+        "close": "閉じる"
       },
       "home": {
         "bio": "こんにちは。Leo Matyushkin です。研究者、エンジニア、そして詩人です。",
         "social": "SNS",
         "projects": "プロジェクト",
-        "memories": "はじめての記憶"
+        "memories": "はじめての記憶",
+        "science": "ナノエレクトロニクスの材料科学：量子ドット、プラズモニックナノ粒子、コロイド合成 — 論文と被引用数。",
+        "technology": "Python・Rust・TypeScriptによるソフトウェア：オープンソースプロジェクトと記事。",
+        "art": "ロシア語の詩、音楽リリース、絵画とドローイング。"
       },
       "cv": {
-        "text": "<a href=\"Matyushkin.pdf\">学術履歴書（PDF）</a>。"
+        "text": "<a href=\"/cv/Matyushkin.pdf\">学術履歴書（PDF）</a>。"
       },
       "donate": {
         "title": "応援する",
@@ -706,7 +731,7 @@
         "outro": "<a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a> へのメールも歓迎です。"
       },
       "notfound": {
-        "text": "ページが見つかりません。<a href=\"index.html\">ホーム</a>からお探しください。"
+        "text": "ページが見つかりません。<a href=\"/\">ホーム</a>からお探しください。"
       },
       "art": {
         "pageTitle": "アート",
@@ -721,7 +746,6 @@
         "release": {
           "clip": "MV",
           "listen": "聴く",
-          "all": "すべての配信先",
           "post": "投稿"
         },
         "types": {
@@ -804,16 +828,21 @@
         "theme": "Cambiar tema",
         "email": "Correo",
         "feed": "Canal de novedades",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Leer esta página en español",
+        "close": "Cerrar"
       },
       "home": {
         "bio": "¡Hola! Me llamo Leo Matyushkin. Soy investigador, ingeniero y poeta.",
         "social": "Redes sociales",
         "projects": "Proyectos",
-        "memories": "Primeros recuerdos"
+        "memories": "Primeros recuerdos",
+        "science": "Ciencia de materiales para la nanoelectrónica: puntos cuánticos, nanopartículas plasmónicas, síntesis coloidal — publicaciones y citas.",
+        "technology": "Software en Python, Rust y TypeScript: proyectos de código abierto y artículos.",
+        "art": "Poesía en ruso, lanzamientos musicales, pintura y dibujo."
       },
       "cv": {
-        "text": "Mi <a href=\"Matyushkin.pdf\">CV académico (PDF)</a>."
+        "text": "Mi <a href=\"/cv/Matyushkin.pdf\">CV académico (PDF)</a>."
       },
       "donate": {
         "title": "Apóyame",
@@ -821,7 +850,7 @@
         "outro": "O simplemente escríbeme a <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Página no encontrada. Prueba a empezar desde la <a href=\"index.html\">página de inicio</a>."
+        "text": "Página no encontrada. Prueba a empezar desde la <a href=\"/\">página de inicio</a>."
       },
       "art": {
         "pageTitle": "Arte",
@@ -836,7 +865,6 @@
         "release": {
           "clip": "Videoclip",
           "listen": "Escuchar",
-          "all": "Todas las plataformas",
           "post": "Publicación de"
         },
         "types": {
@@ -919,16 +947,21 @@
         "theme": "Mudar tema",
         "email": "E-mail",
         "feed": "Feed de novidades",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Ler esta página em português",
+        "close": "Fechar"
       },
       "home": {
         "bio": "Olá! Meu nome é Leo Matyushkin. Sou pesquisador, engenheiro e poeta.",
         "social": "Redes sociais",
         "projects": "Projetos",
-        "memories": "Primeiras lembranças"
+        "memories": "Primeiras lembranças",
+        "science": "Ciência dos materiais para nanoeletrônica: pontos quânticos, nanopartículas plasmônicas, síntese coloidal — publicações e citações.",
+        "technology": "Software em Python, Rust e TypeScript: projetos de código aberto e artigos.",
+        "art": "Poesia em russo, lançamentos musicais, pintura e desenho."
       },
       "cv": {
-        "text": "Meu <a href=\"Matyushkin.pdf\">currículo acadêmico (PDF)</a>."
+        "text": "Meu <a href=\"/cv/Matyushkin.pdf\">currículo acadêmico (PDF)</a>."
       },
       "donate": {
         "title": "Apoie",
@@ -936,7 +969,7 @@
         "outro": "Ou simplesmente me escreva em <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Página não encontrada. Tente começar pela <a href=\"index.html\">página inicial</a>."
+        "text": "Página não encontrada. Tente começar pela <a href=\"/\">página inicial</a>."
       },
       "art": {
         "pageTitle": "Arte",
@@ -951,7 +984,6 @@
         "release": {
           "clip": "Clipe",
           "listen": "Ouvir",
-          "all": "Todas as plataformas",
           "post": "Publicação de"
         },
         "types": {
@@ -1034,16 +1066,21 @@
         "theme": "Farbschema wechseln",
         "email": "E-Mail",
         "feed": "Neuigkeiten-Feed",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Diese Seite auf Deutsch lesen",
+        "close": "Schließen"
       },
       "home": {
         "bio": "Hallo! Ich heiße Leo Matyushkin. Ich bin Forscher, Ingenieur und Dichter.",
         "social": "Soziale Netzwerke",
         "projects": "Projekte",
-        "memories": "Erste Erinnerungen"
+        "memories": "Erste Erinnerungen",
+        "science": "Materialwissenschaft der Nanoelektronik: Quantenpunkte, plasmonische Nanopartikel, kolloidale Synthese – Publikationen und Zitationen.",
+        "technology": "Software in Python, Rust und TypeScript: Open-Source-Projekte und Artikel.",
+        "art": "Lyrik auf Russisch, Musikveröffentlichungen, Malerei und Zeichnung."
       },
       "cv": {
-        "text": "Mein <a href=\"Matyushkin.pdf\">akademischer Lebenslauf (PDF)</a>."
+        "text": "Mein <a href=\"/cv/Matyushkin.pdf\">akademischer Lebenslauf (PDF)</a>."
       },
       "donate": {
         "title": "Unterstützen",
@@ -1051,7 +1088,7 @@
         "outro": "Oder schreiben Sie mir einfach an <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Seite nicht gefunden. Versuchen Sie es auf der <a href=\"index.html\">Startseite</a>."
+        "text": "Seite nicht gefunden. Versuchen Sie es auf der <a href=\"/\">Startseite</a>."
       },
       "art": {
         "pageTitle": "Kunst",
@@ -1066,7 +1103,6 @@
         "release": {
           "clip": "Musikvideo",
           "listen": "Anhören",
-          "all": "Alle Plattformen",
           "post": "Beitrag von"
         },
         "types": {
@@ -1149,16 +1185,21 @@
         "theme": "테마 전환",
         "email": "이메일",
         "feed": "새 소식 피드",
-        "colon": ":"
+        "colon": ":",
+        "offer": "이 페이지를 한국어로 보기",
+        "close": "닫기"
       },
       "home": {
         "bio": "안녕하세요! 저는 Leo Matyushkin입니다. 연구자이자 엔지니어, 그리고 시인입니다.",
         "social": "소셜 미디어",
         "projects": "프로젝트",
-        "memories": "첫 기억"
+        "memories": "첫 기억",
+        "science": "나노전자공학의 재료과학: 양자점, 플라즈몬 나노입자, 콜로이드 합성 — 논문과 인용.",
+        "technology": "Python, Rust, TypeScript로 만든 소프트웨어: 오픈소스 프로젝트와 글.",
+        "art": "러시아어 시, 음악 발매작, 회화와 드로잉."
       },
       "cv": {
-        "text": "<a href=\"Matyushkin.pdf\">학술 이력서(PDF)</a>"
+        "text": "<a href=\"/cv/Matyushkin.pdf\">학술 이력서(PDF)</a>"
       },
       "donate": {
         "title": "후원하기",
@@ -1166,7 +1207,7 @@
         "outro": "또는 <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>로 편하게 메일을 보내 주세요."
       },
       "notfound": {
-        "text": "페이지를 찾을 수 없습니다. <a href=\"index.html\">홈</a>에서 다시 시작해 보세요."
+        "text": "페이지를 찾을 수 없습니다. <a href=\"/\">홈</a>에서 다시 시작해 보세요."
       },
       "art": {
         "pageTitle": "예술",
@@ -1181,7 +1222,6 @@
         "release": {
           "clip": "뮤직비디오",
           "listen": "듣기",
-          "all": "모든 플랫폼",
           "post": "게시물"
         },
         "types": {
@@ -1264,16 +1304,21 @@
         "theme": "تبديل المظهر",
         "email": "البريد الإلكتروني",
         "feed": "موجز التحديثات",
-        "colon": ":"
+        "colon": ":",
+        "offer": "اقرأ هذه الصفحة بالعربية",
+        "close": "إغلاق"
       },
       "home": {
         "bio": "مرحبًا! اسمي ليو ماتيوشكين. أنا باحث ومهندس وشاعر.",
         "social": "الشبكات الاجتماعية",
         "projects": "المشاريع",
-        "memories": "الذكريات الأولى"
+        "memories": "الذكريات الأولى",
+        "science": "علم مواد الإلكترونيات النانوية: النقاط الكمومية، والجسيمات النانوية البلازمونية، والتخليق الغروي — المنشورات والاستشهادات.",
+        "technology": "برمجيات بلغات Python وRust وTypeScript: مشاريع مفتوحة المصدر ومقالات.",
+        "art": "شعر بالروسية، وإصدارات موسيقية، ورسم وتلوين."
       },
       "cv": {
-        "text": "<a href=\"Matyushkin.pdf\">سيرتي الذاتية الأكاديمية (PDF)</a>."
+        "text": "<a href=\"/cv/Matyushkin.pdf\">سيرتي الذاتية الأكاديمية (PDF)</a>."
       },
       "donate": {
         "title": "ادعمني",
@@ -1281,7 +1326,7 @@
         "outro": "أو راسلني ببساطة على <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "الصفحة غير موجودة. جرّب البدء من <a href=\"index.html\">الصفحة الرئيسية</a>."
+        "text": "الصفحة غير موجودة. جرّب البدء من <a href=\"/\">الصفحة الرئيسية</a>."
       },
       "art": {
         "pageTitle": "الفن",
@@ -1296,7 +1341,6 @@
         "release": {
           "clip": "فيديو كليب",
           "listen": "استمع",
-          "all": "كل المنصات",
           "post": "منشور من"
         },
         "types": {
@@ -1379,16 +1423,21 @@
         "theme": "Cambia tema",
         "email": "E-mail",
         "feed": "Feed degli aggiornamenti",
-        "colon": ":"
+        "colon": ":",
+        "offer": "Leggi questa pagina in italiano",
+        "close": "Chiudi"
       },
       "home": {
         "bio": "Ciao! Mi chiamo Leo Matyushkin. Sono ricercatore, ingegnere e poeta.",
         "social": "Social network",
         "projects": "Progetti",
-        "memories": "Primi ricordi"
+        "memories": "Primi ricordi",
+        "science": "Scienza dei materiali per la nanoelettronica: punti quantici, nanoparticelle plasmoniche, sintesi colloidale — pubblicazioni e citazioni.",
+        "technology": "Software in Python, Rust e TypeScript: progetti open source e articoli.",
+        "art": "Poesia in russo, uscite musicali, pittura e disegno."
       },
       "cv": {
-        "text": "Il mio <a href=\"Matyushkin.pdf\">CV accademico (PDF)</a>."
+        "text": "Il mio <a href=\"/cv/Matyushkin.pdf\">CV accademico (PDF)</a>."
       },
       "donate": {
         "title": "Sostienimi",
@@ -1396,7 +1445,7 @@
         "outro": "Oppure scrivimi semplicemente a <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
       },
       "notfound": {
-        "text": "Pagina non trovata. Prova a ripartire dalla <a href=\"index.html\">home page</a>."
+        "text": "Pagina non trovata. Prova a ripartire dalla <a href=\"/\">home page</a>."
       },
       "art": {
         "pageTitle": "Arte",
@@ -1411,7 +1460,6 @@
         "release": {
           "clip": "Videoclip",
           "listen": "Ascolta",
-          "all": "Tutte le piattaforme",
           "post": "Post di"
         },
         "types": {
