@@ -477,5 +477,127 @@
         }
       }
     }
-  ]
+  ],
+  "behance": {
+    "126903249": {
+      "i18n": {
+        "ru": "Святой Пётр и петух",
+        "de": "Der heilige Petrus und der Hahn",
+        "es": "San Pedro y el gallo",
+        "fr": "Saint Pierre et le coq",
+        "it": "San Pietro e il gallo",
+        "pt": "São Pedro e o galo",
+        "ko": "성 베드로와 수탉",
+        "ja": "聖ペテロと雄鶏",
+        "zh": "圣彼得与公鸡",
+        "he": "פטרוס הקדוש והתרנגול",
+        "ar": "القديس بطرس والديك"
+      }
+    },
+    "97753027": {
+      "i18n": {
+        "ru": "Кометы",
+        "de": "Kometen",
+        "es": "Cometas",
+        "fr": "Comètes",
+        "it": "Comete",
+        "pt": "Cometas",
+        "ko": "혜성",
+        "ja": "彗星",
+        "zh": "彗星",
+        "he": "שביטים",
+        "ar": "مذنبات"
+      }
+    },
+    "91853101": {
+      "i18n": {
+        "ru": "Иллюстрации для proglib.io",
+        "de": "Illustrationen für proglib.io",
+        "es": "Ilustraciones para proglib.io",
+        "fr": "Illustrations pour proglib.io",
+        "it": "Illustrazioni per proglib.io",
+        "pt": "Ilustrações para o proglib.io",
+        "ko": "proglib.io 일러스트",
+        "ja": "proglib.io のイラスト",
+        "zh": "为 proglib.io 绘制的插图",
+        "he": "איורים עבור proglib.io",
+        "ar": "رسوم توضيحية لموقع proglib.io"
+      }
+    },
+    "97702389": {
+      "i18n": {
+        "ru": "Книга стихов",
+        "de": "Gedichtband",
+        "es": "Libro de poemas",
+        "fr": "Recueil de poèmes",
+        "it": "Libro di poesie",
+        "pt": "Livro de poemas",
+        "ko": "시집",
+        "ja": "詩集",
+        "zh": "诗集",
+        "he": "ספר שירה",
+        "ar": "ديوان شعر"
+      }
+    },
+    "97658727": {
+      "i18n": {
+        "ru": "Книги по программированию",
+        "de": "Programmierbücher",
+        "es": "Libros de programación",
+        "fr": "Livres de programmation",
+        "it": "Libri di programmazione",
+        "pt": "Livros de programação",
+        "ko": "프로그래밍 책",
+        "ja": "プログラミングの本",
+        "zh": "编程书籍",
+        "he": "ספרי תכנות",
+        "ar": "كتب البرمجة"
+      }
+    },
+    "97492079": {
+      "i18n": {
+        "ru": "Античные собаки",
+        "de": "Antike Hunde",
+        "es": "Perros antiguos",
+        "fr": "Chiens antiques",
+        "it": "Cani antichi",
+        "pt": "Cães antigos",
+        "ko": "고대의 개들",
+        "ja": "古代の犬たち",
+        "zh": "古代的狗",
+        "he": "כלבים עתיקים",
+        "ar": "كلاب عتيقة"
+      }
+    },
+    "55990065": {
+      "i18n": {
+        "ru": "Квантовые точки",
+        "de": "Quantenpunkte",
+        "es": "Puntos cuánticos",
+        "fr": "Boîtes quantiques",
+        "it": "Punti quantici",
+        "pt": "Pontos quânticos",
+        "ko": "양자점",
+        "ja": "量子ドット",
+        "zh": "量子点",
+        "he": "נקודות קוונטיות",
+        "ar": "النقاط الكمومية"
+      }
+    },
+    "97561007": {
+      "i18n": {
+        "ru": "Другие собаки",
+        "de": "Andere Hunde",
+        "es": "Otros perros",
+        "fr": "Autres chiens",
+        "it": "Altri cani",
+        "pt": "Outros cães",
+        "ko": "다른 개들",
+        "ja": "ほかの犬たち",
+        "zh": "其他的狗",
+        "he": "כלבים אחרים",
+        "ar": "كلاب أخرى"
+      }
+    }
+  }
 }

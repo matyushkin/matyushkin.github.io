@@ -132,6 +132,15 @@ test.describe('art', () => {
     await expect(page.locator('main > p').first()).toContainText('«Журнале» (бывший «Журнал на коленке»)');
   });
 
+  test('Behance titles read in the page language, once each', async ({ page }) => {
+    await page.goto('/ru/art/');
+    await expect(page.locator('#behance')).toContainText('Кометы');
+    await expect(page.locator('#behance')).not.toContainText('Comets');
+    await expect(page.locator('#behance img[alt]:not([alt=""])')).toHaveCount(0);
+    await page.goto('/art/');
+    await expect(page.locator('#behance')).toContainText('Comets');
+  });
+
   test('releases are described for search engines', async ({ page }) => {
     await page.goto('/art/');
     const blocks = await page.$$eval('script[type="application/ld+json"]', ss => ss.map(s => JSON.parse(s.textContent)));
