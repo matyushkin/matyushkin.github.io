@@ -37,7 +37,7 @@ test.describe('without JavaScript', () => {
   test('the art page lists releases, books and publications', async ({ page }) => {
     await page.goto('/art/');
     await expect(page.locator('#releases .release').first()).toBeVisible();
-    await expect(page.locator('#books .achievement').first()).toBeVisible();
+    await expect(page.locator('#books .book').first()).toBeVisible();
     await expect(page.locator('#publications .achievement').first()).toBeVisible();
   });
 
