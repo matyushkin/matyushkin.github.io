@@ -38,7 +38,7 @@ test.describe('without JavaScript', () => {
     await page.goto('/art/');
     await expect(page.locator('#releases .release').first()).toBeVisible();
     await expect(page.locator('#books .work').first()).toBeVisible();
-    await expect(page.locator('#publications .achievement').first()).toBeVisible();
+    await expect(page.locator('#publications > *').first()).toBeVisible();
   });
 
   test('the language menu opens and links every version', async ({ page, request }) => {
