@@ -101,7 +101,12 @@
     "elibrary": "eLIBRARY",
     "github": "GitHub",
     "habr": "Habr",
-    "devpost": "DevPost"
+    "devpost": "DevPost",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "telegram": "Telegram",
+    "paypal": "PayPal"
   },
   "strings": {
     "ru": {
@@ -129,7 +134,14 @@
         "memories": "Первые воспоминания",
         "science": "Материаловедение наноэлектроники: квантовые точки, плазмонные наночастицы, коллоидный синтез — публикации и цитирования.",
         "technology": "Программы на Python, Rust и TypeScript: открытые проекты и статьи.",
-        "art": "Стихи, музыкальные релизы, живопись и графика."
+        "art": "Стихи, музыкальные релизы, живопись и графика.",
+        "profiles": {
+          "linkedin": "Линкедин",
+          "facebook": "Фейсбук",
+          "twitter": "Твиттер",
+          "vk": "ВКонтакте",
+          "telegram": "Телеграм"
+        }
       },
       "cv": {
         "text": "Здесь находится моё <a href=\"/cv/Matyushkin.pdf\">научное резюме (PDF)</a>."
@@ -137,7 +149,11 @@
       "donate": {
         "title": "Как мне помочь",
         "intro": "Если вам нравится то, что я делаю, вы можете поддержать меня через одну из платёжных систем:",
-        "outro": "Или просто напишите на <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>."
+        "outro": "Или просто напишите на <a href=\"mailto:leva.matyushkin@gmail.com\">leva.matyushkin@gmail.com</a>.",
+        "profiles": {
+          "paypal": "Пейпал",
+          "patreon": "Патреон"
+        }
       },
       "notfound": {
         "text": "Страница не найдена. Попробуйте начать с <a href=\"/\">главной</a>."
@@ -148,7 +164,7 @@
         "musicTitle": "Музыка",
         "literatureTitle": "Литература",
         "visualTitle": "Изобразительное",
-        "behanceTitle": "Проекты на <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Behance</a>",
+        "behanceTitle": "Проекты на <a href=\"https://www.behance.net/leo-matyushkin\" target=\"_blank\" rel=\"noopener\">Беханс</a>",
         "instagramTitle": "Последнее в Инстаграме",
         "booksTitle": "Книги",
         "publicationsTitle": "Публикации",
