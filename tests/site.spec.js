@@ -331,7 +331,7 @@ test.describe('QR codes', () => {
     await sign.click();
     const dialog = page.locator('dialog.qr-dialog');
     await expect(dialog).toBeVisible();
-    await expect(dialog.locator('strong')).toHaveText('Spotify');
+    await expect(dialog.locator('strong')).toHaveText('Спотифай');
     const go = dialog.locator('p a');
     await expect(go).toHaveAttribute('href', target);
     await expect(go).toBeVisible();

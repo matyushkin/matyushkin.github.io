@@ -83,6 +83,7 @@
     "spotify": "Spotify",
     "apple-music": "Apple Music",
     "youtube": "YouTube",
+    "youtube-music": "YouTube Music",
     "soundcloud": "SoundCloud",
     "telegram-lmwav": "Telegram channel (LMWAV)",
     "tiktok": "TikTok",
@@ -172,7 +173,14 @@
           "vk": "ВКонтакте",
           "telegram-lmpix": "Канал в Телеграме (LMPIX)",
           "dribbble": "Дриббл",
-          "deviantart": "Девиантарт"
+          "deviantart": "Девиантарт",
+          "spotify": "Спотифай",
+          "apple-music": "Эппл Мьюзик",
+          "youtube": "Ютуб",
+          "youtube-music": "Ютуб Мьюзик",
+          "tiktok": "Тикток",
+          "livejournal": "Живой Журнал",
+          "coub": "Коуб"
         }
       },
       "science": {
