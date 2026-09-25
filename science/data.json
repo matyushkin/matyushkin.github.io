@@ -2681,7 +2681,9 @@
         "scholar": null,
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=35305925"
-      }
+      },
+      "pdf": "avtoref-dissertation-2018.pdf",
+      "cover": "covers/avtoref-dissertation-2018.jpg"
     },
     {
       "id": "software-spektr-reg-2015",
