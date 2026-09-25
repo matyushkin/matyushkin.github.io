@@ -508,29 +508,29 @@ main h3 {
     }
 }
 
-/* ── Books (art) ────────────────────────────────────────────────────────── */
+/* ── Printed works with a cover: books, journals (art) ──────────────────── */
 
-/* A book is shown as a release is: its first page on the left, the words on
-   the right. The page is white paper, so a hairline keeps its edge on a
-   white screen. */
-.book {
+/* A printed work is shown as a release is: its cover on the left, the words
+   on the right. A book's cover is its white first page, so a hairline keeps
+   its edge on a white screen. */
+.work {
     display: flex;
     gap: 1.2em;
     align-items: flex-start;
     margin-bottom: 1.6em;
 }
 
-.book-cover-link { display: block; line-height: 0; flex: 0 0 auto; }
-.book-cover {
+.work-cover-link { display: block; line-height: 0; flex: 0 0 auto; }
+.work-cover {
     height: 160px;
     width: auto;
     border: 1px solid #ddd;
     border-radius: 2px;
     background: #fff;
 }
-.dark-theme .book-cover { border-color: #555; }
+.dark-theme .work-cover { border-color: #555; }
 
-.book-body { flex: 1 1 auto; min-width: 0; }
+.work-body { flex: 1 1 auto; min-width: 0; }
 
 /* ── One work, one page (release, book) ──────────────────────────────────── */
 
