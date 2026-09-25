@@ -357,57 +357,57 @@
           "description": "Книга стихов."
         },
         "en": {
-          "title": "«а/я»",
+          "title": "«а/я» [P.O. Box; A to Z; but/me]",
           "venue": "Self-published",
           "description": "A book of poems."
         },
         "he": {
-          "title": "«а/я»",
+          "title": "«а/я» [תא דואר; מא׳ ועד ת׳; אבל/אני]",
           "venue": "הוצאה עצמית",
           "description": "ספר שירה."
         },
         "fr": {
-          "title": "«а/я»",
+          "title": "«а/я» [boîte postale; de A à Z; mais/moi]",
           "venue": "Autoédition",
           "description": "Recueil de poèmes."
         },
         "zh": {
-          "title": "«а/я»",
+          "title": "«а/я» [邮政信箱；从头到尾；而/我]",
           "venue": "自费出版",
           "description": "诗集。"
         },
         "ja": {
-          "title": "«а/я»",
+          "title": "«а/я» [私書箱；最初から最後まで；でも/わたし]",
           "venue": "自費出版",
           "description": "詩集。"
         },
         "es": {
-          "title": "«а/я»",
+          "title": "«а/я» [apartado postal; de la A a la Z; pero/yo]",
           "venue": "Autoedición",
           "description": "Libro de poemas."
         },
         "pt": {
-          "title": "«а/я»",
+          "title": "«а/я» [caixa postal; de A a Z; mas/eu]",
           "venue": "Edição do autor",
           "description": "Livro de poemas."
         },
         "de": {
-          "title": "«а/я»",
+          "title": "«а/я» [Postfach; von A bis Z; aber/ich]",
           "venue": "Selbstverlag",
           "description": "Gedichtband."
         },
         "ko": {
-          "title": "«а/я»",
+          "title": "«а/я» [사서함; 처음부터 끝까지; 그러나/나]",
           "venue": "자비 출판",
           "description": "시집."
         },
         "ar": {
-          "title": "«а/я»",
+          "title": "«а/я» [صندوق بريد; من الألف إلى الياء; لكن/أنا]",
           "venue": "نشر ذاتي",
           "description": "ديوان شعر."
         },
         "it": {
-          "title": "«а/я»",
+          "title": "«а/я» [casella postale; dalla A alla Z; ma/io]",
           "venue": "Autopubblicazione",
           "description": "Raccolta di poesie."
         }
