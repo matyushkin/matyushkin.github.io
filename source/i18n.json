@@ -189,6 +189,7 @@
         "linksTitle": "Профили",
         "publicationsTitle": "Публикации",
         "scholarLabel": "Гугл Академия",
+        "russianEdition": "рус.",
         "sections": {
           "dissertation": "Диссертация",
           "book": "Книги",
@@ -307,6 +308,7 @@
         "linksTitle": "Profiles",
         "publicationsTitle": "Publications",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "Russian edition",
         "sections": {
           "dissertation": "Dissertation",
           "book": "Books",
@@ -424,6 +426,7 @@
         "linksTitle": "פרופילים",
         "publicationsTitle": "פרסומים",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "מהדורה רוסית",
         "sections": {
           "dissertation": "עבודת דוקטורט",
           "book": "ספרים",
@@ -543,6 +546,7 @@
         "linksTitle": "Profils",
         "publicationsTitle": "Publications",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "édition russe",
         "sections": {
           "dissertation": "Thèse",
           "book": "Livres",
@@ -662,6 +666,7 @@
         "linksTitle": "学术主页",
         "publicationsTitle": "学术成果",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "俄文版",
         "sections": {
           "dissertation": "学位论文",
           "book": "著作",
@@ -782,6 +787,7 @@
         "linksTitle": "プロフィール",
         "publicationsTitle": "業績",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "ロシア語版",
         "sections": {
           "dissertation": "学位論文",
           "book": "著書",
@@ -902,6 +908,7 @@
         "linksTitle": "Perfiles",
         "publicationsTitle": "Publicaciones",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "edición rusa",
         "sections": {
           "dissertation": "Tesis",
           "book": "Libros",
@@ -1022,6 +1029,7 @@
         "linksTitle": "Perfis",
         "publicationsTitle": "Publicações",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "edição russa",
         "sections": {
           "dissertation": "Tese",
           "book": "Livros",
@@ -1142,6 +1150,7 @@
         "linksTitle": "Profile",
         "publicationsTitle": "Publikationen",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "russische Ausgabe",
         "sections": {
           "dissertation": "Dissertation",
           "book": "Bücher",
@@ -1262,6 +1271,7 @@
         "linksTitle": "프로필",
         "publicationsTitle": "연구 실적",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "러시아어판",
         "sections": {
           "dissertation": "학위 논문",
           "book": "저서",
@@ -1382,6 +1392,7 @@
         "linksTitle": "الملفات الشخصية",
         "publicationsTitle": "المنشورات",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "الطبعة الروسية",
         "sections": {
           "dissertation": "الأطروحة",
           "book": "الكتب",
@@ -1502,6 +1513,7 @@
         "linksTitle": "Profili",
         "publicationsTitle": "Pubblicazioni",
         "scholarLabel": "Google Scholar",
+        "russianEdition": "edizione russa",
         "sections": {
           "dissertation": "Tesi di dottorato",
           "book": "Libri",

@@ -100,8 +100,10 @@
   if (!wanted || wanted === here) return;
 
   var other = alternates[wanted];
-  var bar = document.createElement('div');
+  // A landmark of its own, so a screen reader's list of regions shows it.
+  var bar = document.createElement('aside');
   bar.className = 'lang-offer';
+  bar.setAttribute('aria-label', other.offer);
   var link = document.createElement('a');
   link.href = other.url + location.hash;
   link.lang = other.tag;
@@ -115,5 +117,7 @@
   close.addEventListener('click', function () { store('lang', here); bar.remove(); });
   bar.appendChild(link);
   bar.appendChild(close);
-  body.insertBefore(bar, body.firstChild);
+  // After the skip link: that link stays the first thing a keyboard reaches.
+  var skip = body.querySelector('.skip-link');
+  body.insertBefore(bar, skip ? skip.nextSibling : body.firstChild);
 })();

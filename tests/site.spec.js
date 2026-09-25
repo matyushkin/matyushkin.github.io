@@ -1,10 +1,17 @@
 import { test, expect } from '@playwright/test';
 import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import AxeBuilder from '@axe-core/playwright';
 
 // Every page is static and written in one language: English at the root,
 // every other language under /<code>/. Scripts are only needed for the theme
 // and the language offer, so most checks read the page as a crawler would.
+
+// The analytics counter is not part of the page under test: it slows every
+// load several times over and would count test runs as visits.
+test.beforeEach(async ({ page }) => {
+  await page.route(/mc\.yandex\.ru/, route => route.abort());
+});
 
 const SECTIONS = ['', 'science/', 'technology/', 'art/', 'cv/', 'donate/'];
 const WORKS = ['art/music/the-jungle-route/', 'art/books/aya-2018/'];
@@ -379,14 +386,46 @@ test.describe('theme toggle', () => {
 
 // ─── Accessibility (axe-core) ────────────────────────────────────────────────
 
-test.describe('accessibility (WCAG 2.1 AA)', () => {
-  for (const url of ['/', '/art/', '/science/', '/technology/', '/he/art/', '/art/music/the-jungle-route/']) {
-    test(`no a11y violations: ${url}`, async ({ page }) => {
-      await page.goto(url);
-      const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
-      expect(results.violations).toEqual([]);
-    });
+// Every page the sitemap lists, plus the 404 page, in both themes: a colour
+// that reads well on white can fail on the dark background.
+const PAGES = [
+  ...[...readFileSync('sitemap.xml', 'utf8')
+    .matchAll(/<loc>https:\/\/matyushkin\.github\.io([^<]*)<\/loc>/g)].map(m => m[1]),
+  '/404.html',
+];
+
+test.describe('accessibility (WCAG 2.2 AA)', () => {
+  for (const theme of ['light-theme', 'dark-theme']) {
+    for (const url of PAGES) {
+      test(`no a11y violations: ${url} (${theme})`, async ({ page }) => {
+        await page.addInitScript(t => localStorage.setItem('theme', t), theme);
+        await page.goto(url);
+        await expect(page.locator('body')).toHaveClass(new RegExp(theme));
+        const results = await new AxeBuilder({ page })
+          .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa', 'best-practice'])
+          .analyze();
+        expect(results.violations).toEqual([]);
+      });
+    }
   }
+
+  // axe cannot tell Russian from English: a Russian title on a page in another
+  // language must say so, or a screen reader reads it with the wrong voice.
+  test('Russian text on other-language pages is marked lang="ru"', async ({ page }) => {
+    for (const url of PAGES.filter(u => !u.startsWith('/ru/'))) {
+      await page.goto(url);
+      const unmarked = await page.evaluate(() => {
+        const out = [];
+        const walk = document.createTreeWalker(document.querySelector('main'), NodeFilter.SHOW_TEXT);
+        while (walk.nextNode()) {
+          const text = walk.currentNode.textContent;
+          if (/[А-Яа-яЁё]/.test(text) && !walk.currentNode.parentElement.closest('[lang^="ru"]')) out.push(text.trim());
+        }
+        return out;
+      });
+      expect(unmarked, url).toEqual([]);
+    }
+  });
 });
 
 // ─── Mobile layout ────────────────────────────────────────────────────────────

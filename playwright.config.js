@@ -2,6 +2,8 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
+  // Every page is checked in both themes; run the checks side by side.
+  fullyParallel: true,
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || 'https://matyushkin.github.io',
   },
