@@ -22,6 +22,8 @@
       "license": "MIT",
       "links": {
         "crates": "https://crates.io/crates/djvu-rs",
+        "pypi": "https://pypi.org/project/djvu-rs/",
+        "npm": "https://www.npmjs.com/package/djvu-rs",
         "github": "https://github.com/matyushkin/djvu-rs",
         "docs": "https://docs.rs/djvu-rs"
       },
