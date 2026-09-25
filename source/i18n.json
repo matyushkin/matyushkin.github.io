@@ -181,7 +181,8 @@
           "tiktok": "Тикток",
           "livejournal": "Живой Журнал",
           "coub": "Коуб"
-        }
+        },
+        "issue": "Номер журнала"
       },
       "science": {
         "pageTitle": "Наука",
@@ -300,7 +301,8 @@
           "award": "award",
           "grant": "grant"
         },
-        "profiles": {}
+        "profiles": {},
+        "issue": "Journal issue"
       },
       "science": {
         "pageTitle": "Science",
@@ -418,7 +420,8 @@
           "telegram-lmwav": "ערוץ טלגרם (LMWAV)",
           "telegram-lmtxt": "ערוץ טלגרם (LMTXT)",
           "telegram-lmpix": "ערוץ טלגרם (LMPIX)"
-        }
+        },
+        "issue": "גיליון כתב העת"
       },
       "science": {
         "pageTitle": "מדע",
@@ -538,7 +541,8 @@
           "telegram-lmwav": "Chaîne Telegram (LMWAV)",
           "telegram-lmtxt": "Chaîne Telegram (LMTXT)",
           "telegram-lmpix": "Chaîne Telegram (LMPIX)"
-        }
+        },
+        "issue": "Numéro de la revue"
       },
       "science": {
         "pageTitle": "Science",
@@ -658,7 +662,8 @@
           "telegram-lmwav": "Telegram 频道（LMWAV）",
           "telegram-lmtxt": "Telegram 频道（LMTXT）",
           "telegram-lmpix": "Telegram 频道（LMPIX）"
-        }
+        },
+        "issue": "刊载期号"
       },
       "science": {
         "pageTitle": "科学",
@@ -779,7 +784,8 @@
           "telegram-lmwav": "Telegram チャンネル（LMWAV）",
           "telegram-lmtxt": "Telegram チャンネル（LMTXT）",
           "telegram-lmpix": "Telegram チャンネル（LMPIX）"
-        }
+        },
+        "issue": "掲載号"
       },
       "science": {
         "pageTitle": "科学",
@@ -900,7 +906,8 @@
           "telegram-lmwav": "Canal de Telegram (LMWAV)",
           "telegram-lmtxt": "Canal de Telegram (LMTXT)",
           "telegram-lmpix": "Canal de Telegram (LMPIX)"
-        }
+        },
+        "issue": "Número de la revista"
       },
       "science": {
         "pageTitle": "Ciencia",
@@ -1021,7 +1028,8 @@
           "telegram-lmwav": "Canal no Telegram (LMWAV)",
           "telegram-lmtxt": "Canal no Telegram (LMTXT)",
           "telegram-lmpix": "Canal no Telegram (LMPIX)"
-        }
+        },
+        "issue": "Número da revista"
       },
       "science": {
         "pageTitle": "Ciência",
@@ -1142,7 +1150,8 @@
           "telegram-lmwav": "Telegram-Kanal (LMWAV)",
           "telegram-lmtxt": "Telegram-Kanal (LMTXT)",
           "telegram-lmpix": "Telegram-Kanal (LMPIX)"
-        }
+        },
+        "issue": "Heft der Zeitschrift"
       },
       "science": {
         "pageTitle": "Wissenschaft",
@@ -1263,7 +1272,8 @@
           "telegram-lmwav": "Telegram 채널 (LMWAV)",
           "telegram-lmtxt": "Telegram 채널 (LMTXT)",
           "telegram-lmpix": "Telegram 채널 (LMPIX)"
-        }
+        },
+        "issue": "게재 호"
       },
       "science": {
         "pageTitle": "과학",
@@ -1384,7 +1394,8 @@
           "telegram-lmwav": "قناة تيليغرام (LMWAV)",
           "telegram-lmtxt": "قناة تيليغرام (LMTXT)",
           "telegram-lmpix": "قناة تيليغرام (LMPIX)"
-        }
+        },
+        "issue": "عدد المجلة"
       },
       "science": {
         "pageTitle": "العلوم",
@@ -1505,7 +1516,8 @@
           "telegram-lmwav": "Canale Telegram (LMWAV)",
           "telegram-lmtxt": "Canale Telegram (LMTXT)",
           "telegram-lmpix": "Canale Telegram (LMPIX)"
-        }
+        },
+        "issue": "Numero della rivista"
       },
       "science": {
         "pageTitle": "Scienza",
