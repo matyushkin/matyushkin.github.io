@@ -522,8 +522,8 @@ main h3 {
 
 .work-cover-link { display: block; line-height: 0; flex: 0 0 auto; }
 .work-cover {
-    height: 160px;
-    width: auto;
+    width: 113px;
+    height: auto;
     border: 1px solid #ddd;
     border-radius: 2px;
     background: #fff;

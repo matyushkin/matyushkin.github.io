@@ -210,7 +210,8 @@
       },
       "lang_of_work": "ru",
       "url": "https://web.archive.org/web/20250315043837/https://flagi.media/piece/79",
-      "cover": "covers/flagi-5-2020.jpg"
+      "cover": "covers/flagi-5-2020.jpg",
+      "pdf": "publications/flagi-5-2020.pdf"
     },
     {
       "id": "na-kolenke-2024",
@@ -280,7 +281,8 @@
       },
       "lang_of_work": "ru",
       "url": "https://na-kolenke-zin.ru/?p=913",
-      "cover": "covers/na-kolenke-2024.jpg"
+      "cover": "covers/na-kolenke-2024.jpg",
+      "pdf": "publications/na-kolenke-2024.pdf"
     }
   ],
   "releases": [
