@@ -1,0 +1,32 @@
+{
+  "id": "97658727",
+  "title": "Programming books",
+  "url": "https://www.behance.net/gallery/97658727/Programming-books",
+  "published": "2020-05-24",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>Covers for collections of books about various programming languages. The task was to create a common recognizable style that fits into the overall design of the site.</p>"
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "bcd51497658727.5eca96255bb3f.jpg",
+          "width": 1264,
+          "height": 632
+        },
+        {
+          "src": "4de48897658727.5eca96255c928.jpg",
+          "width": 1264,
+          "height": 632
+        },
+        {
+          "src": "91a87397658727.5eca96255c26a.jpg",
+          "width": 1264,
+          "height": 632
+        }
+      ]
+    }
+  ]
+}

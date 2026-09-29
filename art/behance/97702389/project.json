@@ -1,0 +1,56 @@
+{
+  "id": "97702389",
+  "title": "Poetry book",
+  "url": "https://www.behance.net/gallery/97702389/Poetry-book",
+  "published": "2020-05-25",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>This is a poetry book in Russian that I wrote and designed myself. Geometric elements are not only decorations, but important components of poems. The book is made up with LaTeX in pdf and available free of charge at <a href=\"https://www.patreon.com/posts/kniga-stikhov-go-18748964\" target=\"_blank\" rel=\"noopener\">Patreon webpage</a>.</p>"
+    },
+    {
+      "type": "image",
+      "src": "1043f397702389.5ecbb82c61e12.jpg",
+      "width": 1166,
+      "height": 1654
+    },
+    {
+      "type": "image",
+      "src": "a37f0597702389.5ecbb82c62e54.jpg",
+      "width": 1166,
+      "height": 1654
+    },
+    {
+      "type": "image",
+      "src": "e6a8be97702389.5ecbb82c6325d.jpg",
+      "width": 1166,
+      "height": 1654,
+      "alt": "Image may contain: screenshot"
+    },
+    {
+      "type": "image",
+      "src": "27c87c97702389.5ecbb82c61793.jpg",
+      "width": 1166,
+      "height": 1654
+    },
+    {
+      "type": "image",
+      "src": "f22f6c97702389.5ecbb82c623c7.jpg",
+      "width": 1166,
+      "height": 1654,
+      "alt": "Image may contain: screenshot"
+    },
+    {
+      "type": "image",
+      "src": "ba8a1097702389.5ecbb82c611b2.jpg",
+      "width": 1166,
+      "height": 1654
+    },
+    {
+      "type": "image",
+      "src": "8fb89997702389.5ecbb82c62980.jpg",
+      "width": 1166,
+      "height": 1654
+    }
+  ]
+}

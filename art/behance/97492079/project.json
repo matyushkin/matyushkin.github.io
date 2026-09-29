@@ -1,0 +1,33 @@
+{
+  "id": "97492079",
+  "title": "Antique dogs",
+  "url": "https://www.behance.net/gallery/97492079/Antique-dogs",
+  "published": "2020-05-21",
+  "blocks": [
+    {
+      "type": "text",
+      "html": "<p>This project is dedicated to dogs in the images of ancient Greek writers and philosophers. The examples of Aristophanes, Diogenes and Homer are presented.</p>"
+    },
+    {
+      "type": "image",
+      "src": "8abe7297492079.5ec64682c6126.jpg",
+      "width": 1400,
+      "height": 990,
+      "alt": "Image may contain: map, drawing and sketch"
+    },
+    {
+      "type": "image",
+      "src": "06c76d97492079.5ec64682c5047.jpg",
+      "width": 1400,
+      "height": 990,
+      "alt": "Image may contain: drawing, cartoon and sketch"
+    },
+    {
+      "type": "image",
+      "src": "5333e397492079.5ec64682c5813.jpg",
+      "width": 1400,
+      "height": 990,
+      "alt": "Image may contain: drawing, sketch and cartoon"
+    }
+  ]
+}
