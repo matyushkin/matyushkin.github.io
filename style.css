@@ -421,6 +421,21 @@ main h3 {
         padding-left: 8px;
         padding-right: 8px;
     }
+
+    /* The banner's close button: a finger-sized square. */
+    .lang-offer button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    /* Link rows under a work (DOI · PDF · ResearchGate …) and the citation
+       count: inline links grow their tap area with padding, which does not
+       move the lines, so the long publication list keeps its height. */
+    .achievement-links a,
+    .item-links a,
+    .achievement-meta a {
+        padding: 13px 4px;
+    }
 }
 
 /* ── Phone layout ────────────────────────────────────────────────────────── */
