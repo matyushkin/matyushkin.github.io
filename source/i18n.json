@@ -253,7 +253,8 @@
           "октября",
           "ноября",
           "декабря"
-        ]
+        ],
+        "behance": "На Бехансе"
       }
     },
     "en": {
@@ -368,7 +369,8 @@
           "October",
           "November",
           "December"
-        ]
+        ],
+        "behance": "On Behance"
       }
     },
     "he": {
@@ -489,7 +491,8 @@
           "באוקטובר",
           "בנובמבר",
           "בדצמבר"
-        ]
+        ],
+        "behance": "ב־Behance"
       }
     },
     "fr": {
@@ -610,7 +613,8 @@
           "octobre",
           "novembre",
           "décembre"
-        ]
+        ],
+        "behance": "Sur Behance"
       }
     },
     "zh": {
@@ -732,7 +736,8 @@
           "11月",
           "12月"
         ],
-        "dateFormat": "{y}年{n}月{d}日"
+        "dateFormat": "{y}年{n}月{d}日",
+        "behance": "在 Behance 上查看"
       }
     },
     "ja": {
@@ -854,7 +859,8 @@
           "11月",
           "12月"
         ],
-        "dateFormat": "{y}年{n}月{d}日"
+        "dateFormat": "{y}年{n}月{d}日",
+        "behance": "Behance で見る"
       }
     },
     "es": {
@@ -976,7 +982,8 @@
           "noviembre",
           "diciembre"
         ],
-        "dateFormat": "{d} de {m} de {y}"
+        "dateFormat": "{d} de {m} de {y}",
+        "behance": "En Behance"
       }
     },
     "pt": {
@@ -1098,7 +1105,8 @@
           "novembro",
           "dezembro"
         ],
-        "dateFormat": "{d} de {m} de {y}"
+        "dateFormat": "{d} de {m} de {y}",
+        "behance": "No Behance"
       }
     },
     "de": {
@@ -1220,7 +1228,8 @@
           "November",
           "Dezember"
         ],
-        "dateFormat": "{d}. {m} {y}"
+        "dateFormat": "{d}. {m} {y}",
+        "behance": "Auf Behance"
       }
     },
     "ko": {
@@ -1342,7 +1351,8 @@
           "11월",
           "12월"
         ],
-        "dateFormat": "{y}년 {n}월 {d}일"
+        "dateFormat": "{y}년 {n}월 {d}일",
+        "behance": "Behance에서 보기"
       }
     },
     "ar": {
@@ -1464,7 +1474,8 @@
           "نوفمبر",
           "ديسمبر"
         ],
-        "dateFormat": "{d} {m} {y}"
+        "dateFormat": "{d} {m} {y}",
+        "behance": "على Behance"
       }
     },
     "it": {
@@ -1586,7 +1597,8 @@
           "novembre",
           "dicembre"
         ],
-        "dateFormat": "{d} {m} {y}"
+        "dateFormat": "{d} {m} {y}",
+        "behance": "Su Behance"
       }
     }
   }

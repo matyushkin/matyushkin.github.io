@@ -14,7 +14,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 const SECTIONS = ['', 'science/', 'technology/', 'art/', 'cv/', 'donate/'];
-const WORKS = ['art/music/the-jungle-route/', 'art/books/aya-2018/'];
+const WORKS = ['art/music/the-jungle-route/', 'art/books/aya-2018/', 'art/behance/126903249/'];
 
 async function i18nOf(request) {
   return (await request.get('/source/i18n.json')).json();
@@ -146,6 +146,19 @@ test.describe('art', () => {
     await expect(page.locator('#behance img[alt]:not([alt=""])')).toHaveCount(0);
     await page.goto('/art/');
     await expect(page.locator('#behance')).toContainText('Comets');
+  });
+
+  test('a Behance project opens the site’s own copy, with every picture kept here', async ({ page }) => {
+    await page.goto('/ru/art/');
+    await page.locator('#behance-126903249').click();
+    await expect(page).toHaveURL(/\/ru\/art\/behance\/126903249\/$/);
+    await expect(page.locator('h1')).toHaveText('Святой Пётр и петух');
+    await expect(page.locator('.project')).toHaveAttribute('lang', 'en');
+    await expect(page.locator('.project h2').first()).toHaveText('The Subject');
+    const sources = await page.$$eval('.project img', imgs => imgs.map(i => i.getAttribute('src')));
+    expect(sources.length).toBeGreaterThan(10);
+    expect(sources.every(s => s.startsWith('/art/behance/126903249/'))).toBe(true);
+    await expect(page.locator('main a[href="https://www.behance.net/gallery/126903249/Saint-Peter-and-the-Rooster"]')).toHaveCount(1);
   });
 
   test('releases are described for search engines', async ({ page }) => {

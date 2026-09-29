@@ -578,6 +578,50 @@ main h3 {
     }
 }
 
+/* ── A Behance project, from the site's own copy ─────────────────────────── */
+
+.project figure {
+    margin: 1.4em 0;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* Each picture's flex (set on it) is its width-to-height ratio, so a row
+   shares one height; the filler keeps a short last row from stretching. */
+.project-gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.project-gallery-row::after {
+    content: "";
+    flex-grow: 999;
+}
+
+.project-gallery-row img {
+    min-width: 0;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project figcaption,
+.project .caption {
+    font-size: 0.8em;
+    color: #767676;
+    margin-top: 0.4em;
+}
+
+.dark-theme .project figcaption,
+.dark-theme .project .caption {
+    color: #999;
+}
+
 /* ── Right-to-left scripts ───────────────────────────────────────────────── */
 
 html[dir="rtl"] body {
