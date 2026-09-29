@@ -2635,8 +2635,8 @@
           "venue": "Автореферат диссертации, СПбГЭТУ «ЛЭТИ», 2018"
         },
         "en": {
-          "title": "Technology and Equipment for the Synthesis of CsPbX₃ (X = Cl, Br, I), CdSe/ZnS Quantum Dots, Ag/SiO₂ Plasmonic Nanoparticles and Hybrid Structures",
-          "venue": "PhD dissertation abstract, SPbGETU \"LETI\", 2018"
+          "title": "Technology and Equipment for the Synthesis of Colloidal Quantum Dots CsPbX₃ (X = Cl, Br, I) and CdSe/ZnS, Ag/SiO₂ Plasmonic Nanoparticles, and Hybrid Structures Based on Them",
+          "venue": "Synopsis of the PhD dissertation, Saint Petersburg Electrotechnical University «LETI», 2018"
         }
       },
       "lang_of_work": "ru",
@@ -2646,7 +2646,12 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35305925"
       },
       "pdf": "avtoref-dissertation-2018.pdf",
-      "cover": "covers/avtoref-dissertation-2018.jpg"
+      "cover": "covers/avtoref-dissertation-2018.jpg",
+      "translation": {
+        "lang": "en",
+        "pdf": "avtoref-dissertation-2018-en.pdf",
+        "cover": "covers/avtoref-dissertation-2018-en.jpg"
+      }
     },
     {
       "id": "software-spektr-reg-2015",
