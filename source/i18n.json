@@ -217,7 +217,9 @@
         "profiles": {
           "google-scholar": "Гугл Академия",
           "stepik": "Стэпик: онлайн-курс «Наноматериалы»"
-        }
+        },
+        "agentTranslation": "Перевод на английский выполнен ИИ-агентом; основной текст — русский оригинал.",
+        "russianOriginal": "русский оригинал"
       },
       "technology": {
         "pageTitle": "Технологии",
@@ -335,7 +337,9 @@
           "conference": "Conference Abstracts",
           "patent": "Patents"
         },
-        "profiles": {}
+        "profiles": {},
+        "agentTranslation": "English translation made by an AI agent; the Russian original is authoritative.",
+        "russianOriginal": "Russian original"
       },
       "technology": {
         "pageTitle": "Technology",
@@ -457,7 +461,9 @@
         },
         "profiles": {
           "stepik": "קורס מקוון \"ננו־חומרים\" ב־Stepik"
-        }
+        },
+        "agentTranslation": "תרגום לאנגלית שבוצע על ידי סוכן בינה מלאכותית; המקור הרוסי הוא הנוסח המחייב.",
+        "russianOriginal": "המקור ברוסית"
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
@@ -579,7 +585,9 @@
         },
         "profiles": {
           "stepik": "Stepik : cours en ligne « Nanomatériaux »"
-        }
+        },
+        "agentTranslation": "Traduction anglaise réalisée par un agent d’IA ; l’original russe fait foi.",
+        "russianOriginal": "original russe"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -701,7 +709,9 @@
         },
         "profiles": {
           "stepik": "Stepik：在线课程《纳米材料》"
-        }
+        },
+        "agentTranslation": "英文译本由 AI 智能体完成；以俄文原文为准。",
+        "russianOriginal": "俄文原文"
       },
       "technology": {
         "pageTitle": "技术",
@@ -824,7 +834,9 @@
         },
         "profiles": {
           "stepik": "Stepik：オンライン講座「ナノ材料」"
-        }
+        },
+        "agentTranslation": "英訳は AI エージェントによるものです。正本はロシア語の原文です。",
+        "russianOriginal": "ロシア語原文"
       },
       "technology": {
         "pageTitle": "テクノロジー",
@@ -947,7 +959,9 @@
         },
         "profiles": {
           "stepik": "Stepik: curso en línea «Nanomateriales»"
-        }
+        },
+        "agentTranslation": "Traducción al inglés realizada por un agente de IA; el original en ruso es el texto de referencia.",
+        "russianOriginal": "original en ruso"
       },
       "technology": {
         "pageTitle": "Tecnología",
@@ -1070,7 +1084,9 @@
         },
         "profiles": {
           "stepik": "Stepik: curso on-line “Nanomateriais”"
-        }
+        },
+        "agentTranslation": "Tradução para o inglês feita por um agente de IA; o original em russo é o texto de referência.",
+        "russianOriginal": "original em russo"
       },
       "technology": {
         "pageTitle": "Tecnologia",
@@ -1193,7 +1209,9 @@
         },
         "profiles": {
           "stepik": "Stepik: Onlinekurs „Nanomaterialien“"
-        }
+        },
+        "agentTranslation": "Englische Übersetzung, erstellt von einem KI-Agenten; maßgeblich ist das russische Original.",
+        "russianOriginal": "russisches Original"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -1316,7 +1334,9 @@
         },
         "profiles": {
           "stepik": "Stepik: 온라인 강좌 ‘나노재료’"
-        }
+        },
+        "agentTranslation": "영어 번역은 AI 에이전트가 수행했습니다. 러시아어 원문이 기준입니다.",
+        "russianOriginal": "러시아어 원문"
       },
       "technology": {
         "pageTitle": "기술",
@@ -1439,7 +1459,9 @@
         },
         "profiles": {
           "stepik": "مقرر «المواد النانوية» الإلكتروني على Stepik"
-        }
+        },
+        "agentTranslation": "ترجمة إنجليزية أعدّها وكيل ذكاء اصطناعي؛ والنص الروسي الأصلي هو المعتمد.",
+        "russianOriginal": "الأصل الروسي"
       },
       "technology": {
         "pageTitle": "التقنية",
@@ -1562,7 +1584,9 @@
         },
         "profiles": {
           "stepik": "Stepik: corso online «Nanomateriali»"
-        }
+        },
+        "agentTranslation": "Traduzione inglese realizzata da un agente di IA; fa fede l’originale russo.",
+        "russianOriginal": "originale russo"
       },
       "technology": {
         "pageTitle": "Tecnologia",
