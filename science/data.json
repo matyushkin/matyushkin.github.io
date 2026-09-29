@@ -707,12 +707,14 @@
         "ru": {
           "title": "Features of colloidal quantum dots synthesis in nonpolar and aqueous media",
           "venue": "Smart Nanocomposites, 5 (2), 61",
-          "description": "О.А. Александрова, Д.С. Мазинг, Л.Б. Матюшкин, В.А. Мошников и др."
+          "description": "О.А. Александрова, Д.С. Мазинг, Л.Б. Матюшкин, В.А. Мошников и др.",
+          "reprint": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016 (<a href=\"https://www.elibrary.ru/item.asp?id=31099959\" target=\"_blank\" rel=\"noopener\">eLIBRARY</a>)"
         },
         "en": {
           "title": "Features of colloidal quantum dots synthesis in nonpolar and aqueous media",
           "venue": "Smart Nanocomposites, 5 (2), 61",
-          "description": "OA Aleksandrova, DS Mazing, LB Matyushkin, VA Moshnikov et al."
+          "description": "OA Aleksandrova, DS Mazing, LB Matyushkin, VA Moshnikov et al.",
+          "reprint": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016 (<a href=\"https://www.elibrary.ru/item.asp?id=31099959\" target=\"_blank\" rel=\"noopener\">eLIBRARY</a>)"
         }
       },
       "lang_of_work": "en",
@@ -721,7 +723,10 @@
         "researchgate": "https://www.researchgate.net/publication/318850739",
         "elibrary": "https://www.elibrary.ru/item.asp?id=23628597",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5845345721878436157&as_sdt=5"
-      }
+      },
+      "aliases": [
+        "conf-novascience-qdots-2016"
+      ]
     },
     {
       "id": "semiconductors-pbs-2014",
@@ -808,12 +813,14 @@
         "ru": {
           "title": "Investigation of the optical properties of nanoporous membranes based on alumina",
           "venue": "Smart Nanocomposites, 4 (2), 25",
-          "description": "Е.Н. Муратова, Л.Б. Матюшкин"
+          "description": "Е.Н. Муратова, Л.Б. Матюшкин",
+          "reprint": "Nanoscale-Arranged Systems for Nanotechnology. Nova Science Publishers, 2015, <a href=\"https://www.elibrary.ru/item.asp?id=26893389\" target=\"_blank\" rel=\"noopener\">с. 63–70</a> (полный текст) и <a href=\"https://www.elibrary.ru/item.asp?id=26892430\" target=\"_blank\" rel=\"noopener\">с. 136–138</a> (краткая версия)"
         },
         "en": {
           "title": "Investigation of the optical properties of nanoporous membranes based on alumina",
           "venue": "Smart Nanocomposites, 4 (2), 25",
-          "description": "EN Muratova, LB Matyushkin"
+          "description": "EN Muratova, LB Matyushkin",
+          "reprint": "Nanoscale-Arranged Systems for Nanotechnology. Nova Science Publishers, 2015, <a href=\"https://www.elibrary.ru/item.asp?id=26893389\" target=\"_blank\" rel=\"noopener\">pp. 63–70</a> (full text) and <a href=\"https://www.elibrary.ru/item.asp?id=26892430\" target=\"_blank\" rel=\"noopener\">pp. 136–138</a> (short version)"
         }
       },
       "lang_of_work": "en",
@@ -823,7 +830,11 @@
         "researchgate2": "https://www.researchgate.net/publication/262691829",
         "elibrary": "https://www.elibrary.ru/item.asp?id=22033468",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1007278971766767204&as_sdt=5"
-      }
+      },
+      "aliases": [
+        "conf-alumina-opt-a-2015",
+        "conf-alumina-opt-b-2015"
+      ]
     },
     {
       "id": "opt-spectroscopy-cspbbr3-2018",
@@ -2177,48 +2188,6 @@
       }
     },
     {
-      "id": "conf-alumina-opt-a-2015",
-      "type": "conference",
-      "year": 2015,
-      "i18n": {
-        "ru": {
-          "title": "Исследование оптических свойств нанопористых мембран на основе оксида алюминия",
-          "venue": "Конференция, 2015"
-        },
-        "en": {
-          "title": "Investigation of the Optical Properties of Nanoporous Membranes Based on Alumina",
-          "venue": "Conference proceedings, 2015"
-        }
-      },
-      "lang_of_work": "ru",
-      "urls": {
-        "scholar": null,
-        "researchgate": null,
-        "elibrary": "https://www.elibrary.ru/item.asp?id=26892430"
-      }
-    },
-    {
-      "id": "conf-alumina-opt-b-2015",
-      "type": "conference",
-      "year": 2015,
-      "i18n": {
-        "ru": {
-          "title": "Исследование оптических свойств нанопористых мембран на основе оксида алюминия",
-          "venue": "Конференция, 2015"
-        },
-        "en": {
-          "title": "Investigation of the Optical Properties of Nanoporous Membranes Based on Alumina",
-          "venue": "Conference proceedings, 2015"
-        }
-      },
-      "lang_of_work": "ru",
-      "urls": {
-        "scholar": null,
-        "researchgate": null,
-        "elibrary": "https://www.elibrary.ru/item.asp?id=26893389"
-      }
-    },
-    {
       "id": "conf-nanoindustria-biomarkers-2015",
       "type": "conference",
       "year": 2015,
@@ -2369,27 +2338,6 @@
         "scholar": null,
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=26722655"
-      }
-    },
-    {
-      "id": "conf-novascience-qdots-2016",
-      "type": "conference",
-      "year": 2016,
-      "i18n": {
-        "ru": {
-          "title": "Features of Colloidal Quantum Dots Synthesis in Nonpolar and Aqueous Media",
-          "venue": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016"
-        },
-        "en": {
-          "title": "Features of Colloidal Quantum Dots Synthesis in Nonpolar and Aqueous Media",
-          "venue": "Synthesis, Characterization and Modelling of Nano-Sized Structures. Nova Science Publishers, 2016"
-        }
-      },
-      "lang_of_work": "en",
-      "urls": {
-        "scholar": null,
-        "researchgate": null,
-        "elibrary": "https://www.elibrary.ru/item.asp?id=31099959"
       }
     },
     {

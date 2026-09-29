@@ -221,7 +221,8 @@
         "agentTranslation": "Перевод на английский выполнен ИИ-агентом; основной текст — русский оригинал.",
         "russianOriginal": "русский оригинал",
         "abstractTitle": "Аннотация",
-        "citeTitle": "Как цитировать"
+        "citeTitle": "Как цитировать",
+        "reprintedIn": "Перепечатано в"
       },
       "technology": {
         "pageTitle": "Технологии",
@@ -343,7 +344,8 @@
         "agentTranslation": "English translation made by an AI agent; the Russian original is authoritative.",
         "russianOriginal": "Russian original",
         "abstractTitle": "Abstract",
-        "citeTitle": "How to cite"
+        "citeTitle": "How to cite",
+        "reprintedIn": "Reprinted in"
       },
       "technology": {
         "pageTitle": "Technology",
@@ -469,7 +471,8 @@
         "agentTranslation": "תרגום לאנגלית שבוצע על ידי סוכן בינה מלאכותית; המקור הרוסי הוא הנוסח המחייב.",
         "russianOriginal": "המקור ברוסית",
         "abstractTitle": "תקציר",
-        "citeTitle": "כיצד לצטט"
+        "citeTitle": "כיצד לצטט",
+        "reprintedIn": "הודפס מחדש ב"
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
@@ -595,7 +598,8 @@
         "agentTranslation": "Traduction anglaise réalisée par un agent d’IA ; l’original russe fait foi.",
         "russianOriginal": "original russe",
         "abstractTitle": "Résumé",
-        "citeTitle": "Comment citer"
+        "citeTitle": "Comment citer",
+        "reprintedIn": "Réimprimé dans"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -721,7 +725,8 @@
         "agentTranslation": "英文译本由 AI 智能体完成；以俄文原文为准。",
         "russianOriginal": "俄文原文",
         "abstractTitle": "摘要",
-        "citeTitle": "引用格式"
+        "citeTitle": "引用格式",
+        "reprintedIn": "转载于"
       },
       "technology": {
         "pageTitle": "技术",
@@ -848,7 +853,8 @@
         "agentTranslation": "英訳は AI エージェントによるものです。正本はロシア語の原文です。",
         "russianOriginal": "ロシア語原文",
         "abstractTitle": "要旨",
-        "citeTitle": "引用方法"
+        "citeTitle": "引用方法",
+        "reprintedIn": "再録"
       },
       "technology": {
         "pageTitle": "テクノロジー",
@@ -975,7 +981,8 @@
         "agentTranslation": "Traducción al inglés realizada por un agente de IA; el original en ruso es el texto de referencia.",
         "russianOriginal": "original en ruso",
         "abstractTitle": "Resumen",
-        "citeTitle": "Cómo citar"
+        "citeTitle": "Cómo citar",
+        "reprintedIn": "Reimpreso en"
       },
       "technology": {
         "pageTitle": "Tecnología",
@@ -1102,7 +1109,8 @@
         "agentTranslation": "Tradução para o inglês feita por um agente de IA; o original em russo é o texto de referência.",
         "russianOriginal": "original em russo",
         "abstractTitle": "Resumo",
-        "citeTitle": "Como citar"
+        "citeTitle": "Como citar",
+        "reprintedIn": "Reimpresso em"
       },
       "technology": {
         "pageTitle": "Tecnologia",
@@ -1229,7 +1237,8 @@
         "agentTranslation": "Englische Übersetzung, erstellt von einem KI-Agenten; maßgeblich ist das russische Original.",
         "russianOriginal": "russisches Original",
         "abstractTitle": "Zusammenfassung",
-        "citeTitle": "Zitieren"
+        "citeTitle": "Zitieren",
+        "reprintedIn": "Nachgedruckt in"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -1356,7 +1365,8 @@
         "agentTranslation": "영어 번역은 AI 에이전트가 수행했습니다. 러시아어 원문이 기준입니다.",
         "russianOriginal": "러시아어 원문",
         "abstractTitle": "초록",
-        "citeTitle": "인용 방법"
+        "citeTitle": "인용 방법",
+        "reprintedIn": "재수록"
       },
       "technology": {
         "pageTitle": "기술",
@@ -1483,7 +1493,8 @@
         "agentTranslation": "ترجمة إنجليزية أعدّها وكيل ذكاء اصطناعي؛ والنص الروسي الأصلي هو المعتمد.",
         "russianOriginal": "الأصل الروسي",
         "abstractTitle": "الملخص",
-        "citeTitle": "كيفية الاستشهاد"
+        "citeTitle": "كيفية الاستشهاد",
+        "reprintedIn": "أعيد نشره في"
       },
       "technology": {
         "pageTitle": "التقنية",
@@ -1610,7 +1621,8 @@
         "agentTranslation": "Traduzione inglese realizzata da un agente di IA; fa fede l’originale russo.",
         "russianOriginal": "originale russo",
         "abstractTitle": "Sommario",
-        "citeTitle": "Come citare"
+        "citeTitle": "Come citare",
+        "reprintedIn": "Ristampato in"
       },
       "technology": {
         "pageTitle": "Tecnologia",
