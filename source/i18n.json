@@ -219,7 +219,9 @@
           "stepik": "Стэпик: онлайн-курс «Наноматериалы»"
         },
         "agentTranslation": "Перевод на английский выполнен ИИ-агентом; основной текст — русский оригинал.",
-        "russianOriginal": "русский оригинал"
+        "russianOriginal": "русский оригинал",
+        "abstractTitle": "Аннотация",
+        "citeTitle": "Как цитировать"
       },
       "technology": {
         "pageTitle": "Технологии",
@@ -339,7 +341,9 @@
         },
         "profiles": {},
         "agentTranslation": "English translation made by an AI agent; the Russian original is authoritative.",
-        "russianOriginal": "Russian original"
+        "russianOriginal": "Russian original",
+        "abstractTitle": "Abstract",
+        "citeTitle": "How to cite"
       },
       "technology": {
         "pageTitle": "Technology",
@@ -463,7 +467,9 @@
           "stepik": "קורס מקוון \"ננו־חומרים\" ב־Stepik"
         },
         "agentTranslation": "תרגום לאנגלית שבוצע על ידי סוכן בינה מלאכותית; המקור הרוסי הוא הנוסח המחייב.",
-        "russianOriginal": "המקור ברוסית"
+        "russianOriginal": "המקור ברוסית",
+        "abstractTitle": "תקציר",
+        "citeTitle": "כיצד לצטט"
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
@@ -587,7 +593,9 @@
           "stepik": "Stepik : cours en ligne « Nanomatériaux »"
         },
         "agentTranslation": "Traduction anglaise réalisée par un agent d’IA ; l’original russe fait foi.",
-        "russianOriginal": "original russe"
+        "russianOriginal": "original russe",
+        "abstractTitle": "Résumé",
+        "citeTitle": "Comment citer"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -711,7 +719,9 @@
           "stepik": "Stepik：在线课程《纳米材料》"
         },
         "agentTranslation": "英文译本由 AI 智能体完成；以俄文原文为准。",
-        "russianOriginal": "俄文原文"
+        "russianOriginal": "俄文原文",
+        "abstractTitle": "摘要",
+        "citeTitle": "引用格式"
       },
       "technology": {
         "pageTitle": "技术",
@@ -836,7 +846,9 @@
           "stepik": "Stepik：オンライン講座「ナノ材料」"
         },
         "agentTranslation": "英訳は AI エージェントによるものです。正本はロシア語の原文です。",
-        "russianOriginal": "ロシア語原文"
+        "russianOriginal": "ロシア語原文",
+        "abstractTitle": "要旨",
+        "citeTitle": "引用方法"
       },
       "technology": {
         "pageTitle": "テクノロジー",
@@ -961,7 +973,9 @@
           "stepik": "Stepik: curso en línea «Nanomateriales»"
         },
         "agentTranslation": "Traducción al inglés realizada por un agente de IA; el original en ruso es el texto de referencia.",
-        "russianOriginal": "original en ruso"
+        "russianOriginal": "original en ruso",
+        "abstractTitle": "Resumen",
+        "citeTitle": "Cómo citar"
       },
       "technology": {
         "pageTitle": "Tecnología",
@@ -1086,7 +1100,9 @@
           "stepik": "Stepik: curso on-line “Nanomateriais”"
         },
         "agentTranslation": "Tradução para o inglês feita por um agente de IA; o original em russo é o texto de referência.",
-        "russianOriginal": "original em russo"
+        "russianOriginal": "original em russo",
+        "abstractTitle": "Resumo",
+        "citeTitle": "Como citar"
       },
       "technology": {
         "pageTitle": "Tecnologia",
@@ -1211,7 +1227,9 @@
           "stepik": "Stepik: Onlinekurs „Nanomaterialien“"
         },
         "agentTranslation": "Englische Übersetzung, erstellt von einem KI-Agenten; maßgeblich ist das russische Original.",
-        "russianOriginal": "russisches Original"
+        "russianOriginal": "russisches Original",
+        "abstractTitle": "Zusammenfassung",
+        "citeTitle": "Zitieren"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -1336,7 +1354,9 @@
           "stepik": "Stepik: 온라인 강좌 ‘나노재료’"
         },
         "agentTranslation": "영어 번역은 AI 에이전트가 수행했습니다. 러시아어 원문이 기준입니다.",
-        "russianOriginal": "러시아어 원문"
+        "russianOriginal": "러시아어 원문",
+        "abstractTitle": "초록",
+        "citeTitle": "인용 방법"
       },
       "technology": {
         "pageTitle": "기술",
@@ -1461,7 +1481,9 @@
           "stepik": "مقرر «المواد النانوية» الإلكتروني على Stepik"
         },
         "agentTranslation": "ترجمة إنجليزية أعدّها وكيل ذكاء اصطناعي؛ والنص الروسي الأصلي هو المعتمد.",
-        "russianOriginal": "الأصل الروسي"
+        "russianOriginal": "الأصل الروسي",
+        "abstractTitle": "الملخص",
+        "citeTitle": "كيفية الاستشهاد"
       },
       "technology": {
         "pageTitle": "التقنية",
@@ -1586,7 +1608,9 @@
           "stepik": "Stepik: corso online «Nanomateriali»"
         },
         "agentTranslation": "Traduzione inglese realizzata da un agente di IA; fa fede l’originale russo.",
-        "russianOriginal": "originale russo"
+        "russianOriginal": "originale russo",
+        "abstractTitle": "Sommario",
+        "citeTitle": "Come citare"
       },
       "technology": {
         "pageTitle": "Tecnologia",

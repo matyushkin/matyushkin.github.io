@@ -1696,11 +1696,13 @@
       "i18n": {
         "ru": {
           "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе",
-          "venue": "Диссертация на соискание учёной степени к.т.н., СПбГЭТУ «ЛЭТИ», Санкт-Петербург"
+          "venue": "Диссертация на соискание учёной степени к.т.н., СПбГЭТУ «ЛЭТИ», Санкт-Петербург",
+          "abstract": "Диссертация развивает физико-технологические принципы коллоидного синтеза полупроводниковых и металлических наноструктур и исследует гибридные структуры на их основе. В ней описаны три созданные установки, защищённые патентами РФ на полезную модель: реактор синтеза наночастиц в потоке несмешивающихся жидкостей, установка послойного осаждения (ионное и молекулярное наслаивание) и установка измерения индикатрис светорассеяния для контроля синтеза и осаждения в реальном времени. Для перовскитных нанокристаллов галогенидов свинца-цезия CsPbX₃ (X = Cl, Br, I) физико-химическая триангуляция систем Cs–Pb–X показывает роль анионных октаэдров [PbX₆] в их росте, быстром анионном обмене и радиационной стойкости: нанокристаллы CsPbBr₃ сохраняют фотолюминесценцию при γ-облучении значительно лучше квантовых точек CdSe/ZnS, а ориентированное сращивание даёт слои нанокристаллов с текстурой (100). Монодисперсные наночастицы ядро/оболочка Ag/SiO₂ с оболочками SiO₂ толщиной 15–40 нм усиливают фотолюминесценцию квантовых точек CdSe/ZnS до 8,7 раза при толщине оболочки 25 нм."
         },
         "en": {
           "title": "Technology and Equipment for the Synthesis of Colloidal Quantum Dots CsPbX₃ (X = Cl, Br, I) and CdSe/ZnS, Ag/SiO₂ Plasmonic Nanoparticles, and Hybrid Structures Based on Them",
-          "venue": "PhD dissertation, Saint Petersburg Electrotechnical University «LETI»"
+          "venue": "PhD dissertation, Saint Petersburg Electrotechnical University «LETI»",
+          "abstract": "The thesis develops the physical and technological principles of the colloidal synthesis of semiconductor and metal nanostructures and studies hybrid structures based on them. It presents three purpose-built setups, protected by Russian utility model patents: a reactor for nanoparticle synthesis in a flow of immiscible liquids, a setup for layer-by-layer deposition (SILAR and electrochemical ALD), and a light-scattering indicatrix setup for real-time monitoring of synthesis and deposition. For cesium lead halide perovskite nanocrystals CsPbX₃ (X = Cl, Br, I), a physicochemical triangulation of the Cs–Pb–X systems shows the role of the [PbX₆] anionic octahedra in their growth, fast anion exchange and radiation hardness: CsPbBr₃ nanocrystals keep their photoluminescence under γ-irradiation far better than CdSe/ZnS quantum dots, and oriented attachment gives (100)-textured nanocrystal layers. Monodisperse Ag/SiO₂ core/shell nanoparticles with 15–40 nm silica shells enhance the photoluminescence of CdSe/ZnS quantum dots up to 8.7 times at a 25 nm shell."
         }
       },
       "lang_of_work": "ru",
@@ -1715,6 +1717,10 @@
         "lang": "en",
         "pdf": "dissertation-2018-en.pdf",
         "cover": "covers/dissertation-2018-en.jpg"
+      },
+      "bibtex_type": {
+        "en": "Candidate of Technical Sciences thesis",
+        "ru": "Дис. … канд. техн. наук"
       }
     },
     {
@@ -2632,11 +2638,13 @@
       "i18n": {
         "ru": {
           "title": "Технология и оборудование для получения коллоидных квантовых точек CsPbX₃ (X = Cl, Br, I), CdSe/ZnS, плазмонных наночастиц Ag/SiO₂ и гибридных структур на их основе",
-          "venue": "Автореферат диссертации, СПбГЭТУ «ЛЭТИ», 2018"
+          "venue": "Автореферат диссертации, СПбГЭТУ «ЛЭТИ», 2018",
+          "abstract": "Автореферат кандидатской диссертации: актуальность, цель и задачи, научные положения, выносимые на защиту, и краткое изложение результатов по главам — установки поточного синтеза и послойного осаждения с контролем по индикатрисам светорассеяния, физико-химический анализ и свойства перовскитных нанокристаллов CsPbX₃ (анионный обмен, ориентированное сращивание, радиационная стойкость) и плазмонное усиление фотолюминесценции квантовых точек наночастицами ядро/оболочка Ag/SiO₂."
         },
         "en": {
           "title": "Technology and Equipment for the Synthesis of Colloidal Quantum Dots CsPbX₃ (X = Cl, Br, I) and CdSe/ZnS, Ag/SiO₂ Plasmonic Nanoparticles, and Hybrid Structures Based on Them",
-          "venue": "Synopsis of the PhD dissertation, Saint Petersburg Electrotechnical University «LETI», 2018"
+          "venue": "Synopsis of the PhD dissertation, Saint Petersburg Electrotechnical University «LETI», 2018",
+          "abstract": "Synopsis (author's abstract) of the PhD thesis: relevance, aim and objectives, main statements for defense, and a chapter-by-chapter summary of the results — flow synthesis and layer-by-layer deposition setups with real-time light-scattering monitoring, the physicochemical analysis and properties of CsPbX₃ perovskite nanocrystals (anion exchange, oriented attachment, radiation hardness), and plasmonic enhancement of quantum dot photoluminescence by Ag/SiO₂ core/shell nanoparticles."
         }
       },
       "lang_of_work": "ru",
@@ -2651,6 +2659,10 @@
         "lang": "en",
         "pdf": "avtoref-dissertation-2018-en.pdf",
         "cover": "covers/avtoref-dissertation-2018-en.jpg"
+      },
+      "bibtex_type": {
+        "en": "Synopsis of the Candidate of Technical Sciences thesis",
+        "ru": "Автореф. дис. … канд. техн. наук"
       }
     },
     {

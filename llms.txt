@@ -4,6 +4,7 @@
 
 ## Science
 - [Publications](https://matyushkin.github.io/science/): 70 publications, h-index 19. Research areas: quantum dots, plasmonic nanoparticles, colloidal synthesis of nanocrystals, layer-by-layer deposition from solutions, semiconductor synthesis for nanoelectronics.
+- [PhD thesis (2018)](https://matyushkin.github.io/science/dissertation-2018-en.pdf): "Technology and Equipment for the Synthesis of Colloidal Quantum Dots CsPbX3 (X = Cl, Br, I) and CdSe/ZnS, Ag/SiO2 Plasmonic Nanoparticles, and Hybrid Structures Based on Them", Candidate of Technical Sciences, Saint Petersburg Electrotechnical University "LETI". English translation made by an AI agent; the [Russian original](https://matyushkin.github.io/science/dissertation-2018.pdf) is authoritative. [Synopsis (EN)](https://matyushkin.github.io/science/avtoref-dissertation-2018-en.pdf), [synopsis (RU)](https://matyushkin.github.io/science/avtoref-dissertation-2018.pdf).
 - [Google Scholar](https://scholar.google.ru/citations?user=x0O884MAAAAJ)
 - [ResearchGate](https://www.researchgate.net/profile/Lev_Matyushkin)
 
