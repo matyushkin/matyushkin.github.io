@@ -161,6 +161,21 @@ test.describe('art', () => {
     await expect(page.locator('main a[href="https://www.behance.net/gallery/126903249/Saint-Peter-and-the-Rooster"]')).toHaveCount(1);
   });
 
+  test('a video asks nothing of YouTube until the reader clicks it, then plays in place', async ({ page }) => {
+    const youtube = [];
+    page.on('request', r => { if (/^https?:\/\/[^/]*(youtube|ytimg|googlevideo)/.test(r.url())) youtube.push(r.url()); });
+    await page.route(/youtube-nocookie\.com/, route => route.abort());
+    await page.goto('/art/behance/126903249/');
+    const frame = page.locator('.project-video a.video');
+    await frame.scrollIntoViewIfNeeded();
+    await expect(frame.locator('img')).toHaveJSProperty('complete', true);
+    expect(youtube).toEqual([]);
+    await frame.click();
+    const player = page.locator('.project-video iframe.video');
+    await expect(player).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/Zry9dpM1_n4?autoplay=1');
+    await expect(player).toHaveAttribute('title', /Erbarme dich/);
+  });
+
   test('releases are described for search engines', async ({ page }) => {
     await page.goto('/art/');
     const blocks = await page.$$eval('script[type="application/ld+json"]', ss => ss.map(s => JSON.parse(s.textContent)));

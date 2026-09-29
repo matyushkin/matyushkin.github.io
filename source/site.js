@@ -6,7 +6,8 @@
 //     (the early script in <head> follows that choice);
 //   * offers the reader's own language when they land on another one — an
 //     offer, not a redirect, so a search engine still sees every version.
-//   * in the owner's QR mode, opens a profile's QR code large.
+//   * in the owner's QR mode, opens a profile's QR code large;
+//   * puts a YouTube player in place of a video's frame on the first click.
 (function () {
   'use strict';
 
@@ -86,6 +87,23 @@
     var go = dialog.querySelector('p a');
     go.href = go.textContent = sign.getAttribute('data-url');
     dialog.showModal();
+  });
+
+  // ── Video: the player loads only when the reader asks for it ─────────────
+  // Until then the page shows the frame kept on the site and asks nothing of
+  // YouTube; youtube-nocookie sets no cookie until the video plays.
+  document.addEventListener('click', function (e) {
+    var frame = e.target.closest && e.target.closest('a[data-youtube]');
+    if (!frame || e.ctrlKey || e.metaKey || e.shiftKey || e.button) return;
+    e.preventDefault();
+    var player = document.createElement('iframe');
+    player.className = frame.className;
+    player.src = 'https://www.youtube-nocookie.com/embed/' + frame.getAttribute('data-youtube') + '?autoplay=1';
+    player.title = frame.getAttribute('aria-label') || 'YouTube';
+    player.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    player.allowFullscreen = true;
+    frame.replaceWith(player);
+    player.focus();
   });
 
   // ── Offer the reader's own language ───────────────────────────────────────
