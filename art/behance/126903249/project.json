@@ -31,8 +31,8 @@
         },
         {
           "src": "5afd23126903249.6ab593ac64c91.jpg",
-          "width": 1240,
-          "height": 825
+          "width": 800,
+          "height": 532
         },
         {
           "src": "4a0ce6126903249.6ab593ac63b37.jpg",
@@ -41,18 +41,18 @@
         },
         {
           "src": "e97b5a126903249.6ab593ac643b4.jpg",
-          "width": 1400,
-          "height": 1719
+          "width": 800,
+          "height": 982
         },
         {
           "src": "1546b1126903249.6ab593ac648ad.jpg",
-          "width": 1400,
-          "height": 1761
+          "width": 800,
+          "height": 1006
         },
         {
           "src": "9a26c7126903249.6ab593ac650b7.jpg",
-          "width": 1240,
-          "height": 928
+          "width": 800,
+          "height": 598
         },
         {
           "src": "c1c7df126903249.6ab593ac62fce.jpg",
@@ -136,8 +136,8 @@
         },
         {
           "src": "f3cf5c126903249.6ab582bb997a5.jpg",
-          "width": 1400,
-          "height": 921
+          "width": 800,
+          "height": 526
         }
       ]
     },
@@ -233,53 +233,53 @@
       "images": [
         {
           "src": "4979ef126903249.6137325a583e8.jpg",
-          "width": 1010,
-          "height": 1525
+          "width": 800,
+          "height": 1208
         },
         {
           "src": "eb0ade126903249.6137325a5b38f.jpg",
-          "width": 994,
-          "height": 1517
+          "width": 800,
+          "height": 1221
         },
         {
           "src": "6752e6126903249.6137325a590a4.jpg",
-          "width": 1027,
-          "height": 1533
+          "width": 800,
+          "height": 1194
         },
         {
           "src": "2ecef3126903249.6137325a5897b.jpg",
-          "width": 996,
-          "height": 1540
+          "width": 800,
+          "height": 1237
         },
         {
           "src": "faa4fd126903249.6137325a57d90.jpg",
-          "width": 1027,
-          "height": 1533
+          "width": 800,
+          "height": 1194
         },
         {
           "src": "3fe1b4126903249.6137325a59741.jpg",
-          "width": 1200,
-          "height": 790
+          "width": 800,
+          "height": 526
         },
         {
           "src": "2bf7ac126903249.6137325a5ad89.jpg",
-          "width": 996,
-          "height": 1540
+          "width": 800,
+          "height": 1237
         },
         {
           "src": "01033c126903249.6137325a5a677.jpg",
-          "width": 1180,
-          "height": 1677
+          "width": 800,
+          "height": 1137
         },
         {
           "src": "0d03ec126903249.6137325a5a261.jpg",
-          "width": 1180,
-          "height": 1677
+          "width": 800,
+          "height": 1137
         },
         {
           "src": "6bcf75126903249.6137325a59d33.jpg",
-          "width": 1175,
-          "height": 1689
+          "width": 800,
+          "height": 1150
         }
       ]
     },
