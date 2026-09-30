@@ -225,6 +225,7 @@
         "reprintedIn": "Перепечатано в",
         "pressTitle": "В прессе",
         "archiveCopy": "архивная копия",
+        "pressOriginal": "оригинал на сайте ЛЭТИ",
         "defenseCoverage": "О защите писала"
       },
       "technology": {
@@ -351,6 +352,7 @@
         "reprintedIn": "Reprinted in",
         "pressTitle": "In the Press",
         "archiveCopy": "archived copy",
+        "pressOriginal": "original",
         "defenseCoverage": "The defense was covered by"
       },
       "technology": {
