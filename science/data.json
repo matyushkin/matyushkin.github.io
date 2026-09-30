@@ -1856,13 +1856,14 @@
           "description": "Рыжов О.А., Матюшкин Л.Б., Мошников В.А., Александрова О.А. Заявка № 2015155748/02 от 24.12.2015."
         },
         "en": {
-          "title": "Reactor for Nanostructure Synthesis",
-          "venue": "Utility model patent RU 166323 U1, 20.11.2016",
+          "title": "Reactor for the synthesis of nanostructures",
+          "venue": "Russian utility model patent RU 166323 U1, 20.11.2016",
           "description": "Ryzhov O.A., Matyushkin L.B., Moshnikov V.A., Aleksandrova O.A."
         }
       },
       "lang_of_work": "ru",
       "urls": {
+        "google_patents": "https://patents.google.com/patent/RU166323U1/en",
         "scholar": null,
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=37570443"
@@ -1880,13 +1881,14 @@
           "description": "Мошников В.А., Максимов А.И., Александрова О.А., Матюшкин Л.Б., Рябко А.А. Заявка № 2016123580/28 от 14.06.2016."
         },
         "en": {
-          "title": "Device for Material Analysis by Light Scattering Indicatrix",
-          "venue": "Utility model patent RU 167044 U1, 20.12.2016",
+          "title": "Device for studying materials by the light-scattering indicatrix method",
+          "venue": "Russian utility model patent RU 167044 U1, 20.12.2016",
           "description": "Moshnikov V.A., Maksimov A.I., Aleksandrova O.A., Matyushkin L.B., Ryabko A.A."
         }
       },
       "lang_of_work": "ru",
       "urls": {
+        "google_patents": "https://patents.google.com/patent/RU167044U1/en",
         "scholar": null,
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=37571151"
@@ -1904,13 +1906,14 @@
           "description": "Матюшкин Л.Б., Хондрюков Д.В., Александрова О.А. Заявка № 2015114951/28 от 21.04.2015."
         },
         "en": {
-          "title": "Automated Apparatus for Nanoscale Thin Film Deposition by Molecular Layer-by-Layer Method",
-          "venue": "Utility model patent RU 156478 U1, 10.11.2015",
+          "title": "Automated setup for depositing thin-film coatings of nanoscale thickness by molecular layering",
+          "venue": "Russian utility model patent RU 156478 U1, 10.11.2015",
           "description": "Matyushkin L.B., Khondryukov D.V., Aleksandrova O.A."
         }
       },
       "lang_of_work": "ru",
       "urls": {
+        "google_patents": "https://patents.google.com/patent/RU156478U1/en",
         "scholar": null,
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=38374901"
@@ -2606,8 +2609,8 @@
           "description": "Зарегистрировано 12.05.2015, опубликовано 25.08.2015."
         },
         "en": {
-          "title": "Software for Optical Spectra Recording",
-          "venue": "Certificate of Software Registration № RU 2015619147",
+          "title": "Software for recording optical spectra",
+          "venue": "Russian software registration certificate No. RU 2015619147",
           "description": "Registered 12.05.2015, published 25.08.2015."
         }
       },
