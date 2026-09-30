@@ -46,7 +46,8 @@
         "researchgate": "https://www.researchgate.net/publication/344773858",
         "elibrary": null,
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9750533777659134415&as_sdt=5"
-      }
+      },
+      "pdf": "papers/apoptosis-chapter-2020.pdf"
     },
     {
       "id": "synthetic-metals-2020",
@@ -114,7 +115,8 @@
         "scholar": null,
         "researchgate": "https://www.researchgate.net/publication/336135501",
         "elibrary": "https://www.elibrary.ru/item.asp?id=40629964"
-      }
+      },
+      "pdf": "papers/kondensed-matter-2019.pdf"
     },
     {
       "id": "glass-phys-zno-2019",
@@ -936,7 +938,8 @@
         "researchgate": "https://www.researchgate.net/publication/325776759",
         "elibrary": "https://www.elibrary.ru/item.asp?id=35733417",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11968860907588232236&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-ag-photoinduced-2018.pdf"
     },
     {
       "id": "glass-phys-scattering-2017",
@@ -1018,7 +1021,8 @@
         "researchgate": "https://www.researchgate.net/publication/318330164",
         "elibrary": "https://www.elibrary.ru/item.asp?id=31053407",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11273420049260632814&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-alumina-thermal-2017.pdf"
     },
     {
       "id": "eiconrus-sol-gel-2017",
@@ -1069,7 +1073,8 @@
         "researchgate": "https://www.researchgate.net/publication/321261260",
         "elibrary": "https://www.elibrary.ru/item.asp?id=30644889",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4356308680406155118&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-cspbx3-anion-2017.pdf"
     },
     {
       "id": "jpcs-plasmonic-pl-2017",
@@ -1093,7 +1098,8 @@
         "researchgate": "https://www.researchgate.net/publication/321328818",
         "elibrary": "https://www.elibrary.ru/item.asp?id=30618175",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8952570653810545966&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-plasmonic-pl-2017.pdf"
     },
     {
       "id": "jpcs-photonic-defect-2017",
@@ -1141,7 +1147,8 @@
         "researchgate": "https://www.researchgate.net/publication/321257609",
         "elibrary": "https://www.elibrary.ru/item.asp?id=30607178",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6852998985145593749&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-cspbbr3-layerbylayer-2017.pdf"
     },
     {
       "id": "eiconrus-zno-spray-2017",
@@ -1361,7 +1368,8 @@
         "researchgate": "https://www.researchgate.net/publication/285584203",
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652586",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17984523210686664007&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-cdse-octadecene-2015.pdf"
     },
     {
       "id": "eiconrusnw-flow-reactor-2015",
@@ -1589,7 +1597,8 @@
         "researchgate": "https://www.researchgate.net/publication/269467603",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020501",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10168283813925812199&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-alumina-optical-2014.pdf"
     },
     {
       "id": "jpcs-cdse-media-2014",
@@ -1613,7 +1622,8 @@
         "researchgate": "https://www.researchgate.net/publication/269467640",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020554",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9976243074486254143&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-cdse-media-2014.pdf"
     },
     {
       "id": "jpcs-cdse-aquatic-2014",
@@ -2098,7 +2108,8 @@
         "scholar": null,
         "researchgate": "https://www.researchgate.net/publication/285153005",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24499548"
-      }
+      },
+      "pdf": "papers/altenergo-pbsox-2015.pdf"
     },
     {
       "id": "biotekh-qd-biomedicine-2015",
