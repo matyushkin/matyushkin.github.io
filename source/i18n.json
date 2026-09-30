@@ -222,7 +222,10 @@
         "russianOriginal": "русский оригинал",
         "abstractTitle": "Аннотация",
         "citeTitle": "Как цитировать",
-        "reprintedIn": "Перепечатано в"
+        "reprintedIn": "Перепечатано в",
+        "pressTitle": "В прессе",
+        "archiveCopy": "архивная копия",
+        "defenseCoverage": "О защите писала"
       },
       "technology": {
         "pageTitle": "Технологии",
@@ -345,7 +348,10 @@
         "russianOriginal": "Russian original",
         "abstractTitle": "Abstract",
         "citeTitle": "How to cite",
-        "reprintedIn": "Reprinted in"
+        "reprintedIn": "Reprinted in",
+        "pressTitle": "In the Press",
+        "archiveCopy": "archived copy",
+        "defenseCoverage": "The defense was covered by"
       },
       "technology": {
         "pageTitle": "Technology",
@@ -472,7 +478,9 @@
         "russianOriginal": "המקור ברוסית",
         "abstractTitle": "תקציר",
         "citeTitle": "כיצד לצטט",
-        "reprintedIn": "הודפס מחדש ב"
+        "reprintedIn": "הודפס מחדש ב",
+        "pressTitle": "בעיתונות",
+        "archiveCopy": "עותק בארכיון"
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
@@ -599,7 +607,9 @@
         "russianOriginal": "original russe",
         "abstractTitle": "Résumé",
         "citeTitle": "Comment citer",
-        "reprintedIn": "Réimprimé dans"
+        "reprintedIn": "Réimprimé dans",
+        "pressTitle": "Dans la presse",
+        "archiveCopy": "copie archivée"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -726,7 +736,9 @@
         "russianOriginal": "俄文原文",
         "abstractTitle": "摘要",
         "citeTitle": "引用格式",
-        "reprintedIn": "转载于"
+        "reprintedIn": "转载于",
+        "pressTitle": "媒体报道",
+        "archiveCopy": "存档副本"
       },
       "technology": {
         "pageTitle": "技术",
@@ -854,7 +866,9 @@
         "russianOriginal": "ロシア語原文",
         "abstractTitle": "要旨",
         "citeTitle": "引用方法",
-        "reprintedIn": "再録"
+        "reprintedIn": "再録",
+        "pressTitle": "メディア掲載",
+        "archiveCopy": "アーカイブ"
       },
       "technology": {
         "pageTitle": "テクノロジー",
@@ -982,7 +996,9 @@
         "russianOriginal": "original en ruso",
         "abstractTitle": "Resumen",
         "citeTitle": "Cómo citar",
-        "reprintedIn": "Reimpreso en"
+        "reprintedIn": "Reimpreso en",
+        "pressTitle": "En la prensa",
+        "archiveCopy": "copia archivada"
       },
       "technology": {
         "pageTitle": "Tecnología",
@@ -1110,7 +1126,9 @@
         "russianOriginal": "original em russo",
         "abstractTitle": "Resumo",
         "citeTitle": "Como citar",
-        "reprintedIn": "Reimpresso em"
+        "reprintedIn": "Reimpresso em",
+        "pressTitle": "Na imprensa",
+        "archiveCopy": "cópia arquivada"
       },
       "technology": {
         "pageTitle": "Tecnologia",
@@ -1238,7 +1256,9 @@
         "russianOriginal": "russisches Original",
         "abstractTitle": "Zusammenfassung",
         "citeTitle": "Zitieren",
-        "reprintedIn": "Nachgedruckt in"
+        "reprintedIn": "Nachgedruckt in",
+        "pressTitle": "In der Presse",
+        "archiveCopy": "archivierte Kopie"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -1366,7 +1386,9 @@
         "russianOriginal": "러시아어 원문",
         "abstractTitle": "초록",
         "citeTitle": "인용 방법",
-        "reprintedIn": "재수록"
+        "reprintedIn": "재수록",
+        "pressTitle": "언론 보도",
+        "archiveCopy": "보관 사본"
       },
       "technology": {
         "pageTitle": "기술",
@@ -1494,7 +1516,9 @@
         "russianOriginal": "الأصل الروسي",
         "abstractTitle": "الملخص",
         "citeTitle": "كيفية الاستشهاد",
-        "reprintedIn": "أعيد نشره في"
+        "reprintedIn": "أعيد نشره في",
+        "pressTitle": "في الصحافة",
+        "archiveCopy": "نسخة مؤرشفة"
       },
       "technology": {
         "pageTitle": "التقنية",
@@ -1622,7 +1646,9 @@
         "russianOriginal": "originale russo",
         "abstractTitle": "Sommario",
         "citeTitle": "Come citare",
-        "reprintedIn": "Ristampato in"
+        "reprintedIn": "Ristampato in",
+        "pressTitle": "Sulla stampa",
+        "archiveCopy": "copia archiviata"
       },
       "technology": {
         "pageTitle": "Tecnologia",

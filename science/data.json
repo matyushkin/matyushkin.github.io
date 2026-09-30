@@ -1842,7 +1842,10 @@
       "bibtex_type": {
         "en": "Candidate of Technical Sciences thesis",
         "ru": "Дис. … канд. техн. наук"
-      }
+      },
+      "press": [
+        "elektrik-2018-10"
+      ]
     },
     {
       "id": "patent-ru166323-2016",
@@ -2876,6 +2879,73 @@
       "aliases": [
         "elconrusnw-cds-silar-2016"
       ]
+    }
+  ],
+  "press": [
+    {
+      "id": "conversation-2023-10",
+      "date": "2023-10-19",
+      "lang": "en",
+      "url": "https://theconversation.com/becoming-a-nobel-laureate-louis-brus-on-his-discovery-of-quantum-dots-podcast-215915",
+      "archive": "http://web.archive.org/web/20250515024305/https://theconversation.com/becoming-a-nobel-laureate-louis-brus-on-his-discovery-of-quantum-dots-podcast-215915",
+      "i18n": {
+        "en": {
+          "outlet": "The Conversation",
+          "title": "Becoming a Nobel laureate: Louis Brus on his discovery of quantum dots",
+          "description": "Illustrated with my <a href=\"https://www.shutterstock.com/image-photo/glass-tubes-quantum-dots-perovskite-nanocrystals-700118455\" target=\"_blank\" rel=\"noopener\">photograph</a> of quantum-dot solutions (via Shutterstock)."
+        },
+        "ru": {
+          "outlet": "The Conversation",
+          "title": "Becoming a Nobel laureate: Louis Brus on his discovery of quantum dots",
+          "description": "Подкаст с нобелевским лауреатом Луисом Брюсом проиллюстрирован моей <a href=\"https://www.shutterstock.com/image-photo/glass-tubes-quantum-dots-perovskite-nanocrystals-700118455\" target=\"_blank\" rel=\"noopener\">фотографией</a> растворов квантовых точек (Shutterstock)."
+        }
+      }
+    },
+    {
+      "id": "slashgear-2024-05",
+      "date": "2024-05-04",
+      "lang": "en",
+      "url": "https://www.slashgear.com/1571978/perovskite-solar-panels-cells-what-how-do-they-work/",
+      "archive": "http://web.archive.org/web/20260608183412/https://www.slashgear.com/1571978/perovskite-solar-panels-cells-what-how-do-they-work/",
+      "i18n": {
+        "en": {
+          "outlet": "SlashGear",
+          "title": "Perovskite Solar Cells: What Are They & How Do They Work?",
+          "description": "Illustrated with my <a href=\"https://www.shutterstock.com/image-photo/glass-tubes-quantum-dots-perovskite-nanocrystals-700118455\" target=\"_blank\" rel=\"noopener\">photograph</a> of perovskite nanocrystal solutions."
+        },
+        "ru": {
+          "outlet": "SlashGear",
+          "title": "Perovskite Solar Cells: What Are They & How Do They Work?",
+          "description": "Статья о перовскитных солнечных элементах проиллюстрирована моей <a href=\"https://www.shutterstock.com/image-photo/glass-tubes-quantum-dots-perovskite-nanocrystals-700118455\" target=\"_blank\" rel=\"noopener\">фотографией</a> растворов перовскитных нанокристаллов."
+        }
+      }
+    },
+    {
+      "id": "elektrik-2018-10",
+      "date": "2018-10",
+      "lang": "ru",
+      "url": "https://etu.ru/ru/gazeta-elektrik/arhiv/vypuski-gazety-elektrik-za-2018-god/vypusk-n-15-oktyabr-2018",
+      "i18n": {
+        "ru": {
+          "outlet": "Газета «Электрик» (СПбГЭТУ «ЛЭТИ»), № 15 (3222), с. 1–2",
+          "title": "Заглянуть за горизонт",
+          "description": "О защите кандидатской диссертации: установки для синтеза наночастиц, патенты, отзывы из Нидерландов и Беларуси, книга стихов «А/Я».",
+          "outlet_short": "газета ЛЭТИ «Электрик»"
+        }
+      }
+    },
+    {
+      "id": "elektrik-2014-01",
+      "date": "2014-01",
+      "lang": "ru",
+      "url": "https://etu.ru/ru/gazeta-elektrik/arhiv/vypuski-gazety-elektrik-za-2014-god/vypusk-n-1-yanvar-2014",
+      "i18n": {
+        "ru": {
+          "outlet": "Газета «Электрик» (СПбГЭТУ «ЛЭТИ»), № 1 (3135), с. 2",
+          "title": "Пятый элемент — в пятом корпусе",
+          "description": "Репортаж с молодёжной школы «Физика и технология микро- и наносистем» о синтезе коллоидных квантовых точек; фото «Аспирант Лев Матюшкин за работой»."
+        }
+      }
     }
   ]
 }
