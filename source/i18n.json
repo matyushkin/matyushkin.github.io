@@ -374,7 +374,8 @@
         "projectsTitle": "Projects",
         "downloads": "downloads",
         "publicationsTitle": "Publications",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "{n} more articles and courses in Russian"
       },
       "item": {
         "listen": "Listen",
@@ -505,7 +506,8 @@
         "projectsTitle": "פרויקטים",
         "downloads": "הורדות",
         "publicationsTitle": "פרסומים",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "עוד {n} מאמרים וקורסים ברוסית"
       },
       "item": {
         "listen": "האזנה",
@@ -636,7 +638,8 @@
         "projectsTitle": "Projets",
         "downloads": "téléchargements",
         "publicationsTitle": "Publications",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "{n} autres articles et cours en russe"
       },
       "item": {
         "listen": "Écouter",
@@ -767,7 +770,8 @@
         "projectsTitle": "项目",
         "downloads": "次下载",
         "publicationsTitle": "文章",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "另有 {n} 篇俄文文章和课程"
       },
       "item": {
         "listen": "收听",
@@ -899,7 +903,8 @@
         "projectsTitle": "プロジェクト",
         "downloads": "ダウンロード",
         "publicationsTitle": "記事",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "ロシア語の記事とコース、ほか{n}件"
       },
       "item": {
         "listen": "聴く",
@@ -1031,7 +1036,8 @@
         "projectsTitle": "Proyectos",
         "downloads": "descargas",
         "publicationsTitle": "Publicaciones",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "{n} artículos y cursos más en ruso"
       },
       "item": {
         "listen": "Escuchar",
@@ -1163,7 +1169,8 @@
         "projectsTitle": "Projetos",
         "downloads": "downloads",
         "publicationsTitle": "Publicações",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "Mais {n} artigos e cursos em russo"
       },
       "item": {
         "listen": "Ouvir",
@@ -1295,7 +1302,8 @@
         "projectsTitle": "Projekte",
         "downloads": "Downloads",
         "publicationsTitle": "Artikel",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "Weitere {n} Artikel und Kurse auf Russisch"
       },
       "item": {
         "listen": "Anhören",
@@ -1427,7 +1435,8 @@
         "projectsTitle": "프로젝트",
         "downloads": "다운로드",
         "publicationsTitle": "글",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "러시아어 기사와 강좌 {n}개 더 보기"
       },
       "item": {
         "listen": "듣기",
@@ -1559,7 +1568,8 @@
         "projectsTitle": "المشاريع",
         "downloads": "تنزيل",
         "publicationsTitle": "مقالات",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "{n} مقالة ودورة أخرى باللغة الروسية"
       },
       "item": {
         "listen": "استمع",
@@ -1691,7 +1701,8 @@
         "projectsTitle": "Progetti",
         "downloads": "download",
         "publicationsTitle": "Articoli",
-        "profiles": {}
+        "profiles": {},
+        "russianArticles": "Altri {n} articoli e corsi in russo"
       },
       "item": {
         "listen": "Ascolta",
