@@ -2944,7 +2944,8 @@
           "outlet_short": "газета ЛЭТИ «Электрик»"
         }
       },
-      "copy": "press/elektrik-2018-10.pdf"
+      "copy": "press/elektrik-2018-10.pdf",
+      "cover": "press/elektrik-2018-10.jpg"
     },
     {
       "id": "elektrik-2014-01",
@@ -2958,7 +2959,8 @@
           "description": "Репортаж с молодёжной школы «Физика и технология микро- и наносистем» о синтезе коллоидных квантовых точек; фото «Аспирант Лев Матюшкин за работой»."
         }
       },
-      "copy": "press/elektrik-2014-01.pdf"
+      "copy": "press/elektrik-2014-01.pdf",
+      "cover": "press/elektrik-2014-01.jpg"
     }
   ]
 }
