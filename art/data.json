@@ -348,6 +348,25 @@
           "youtube": "_zGUEe13TPw"
         }
       ]
+    },
+    {
+      "id": "dead-man-in-the-bookshop",
+      "title": "Dead Man in the Bookshop",
+      "date": "2026-09-27",
+      "duration": "2:17",
+      "cover": "covers/dead-man-in-the-bookshop.jpg",
+      "links": {
+        "spotify": "https://open.spotify.com/album/0FIEpx9ZS6O5S0SNzavJiV",
+        "apple": "https://music.apple.com/album/6814775777",
+        "youtubeMusic": "https://music.youtube.com/watch?v=FKACr4lCH30",
+        "bandlink": "https://band.link/6BNbu"
+      },
+      "videos": [
+        {
+          "youtube": "NWN7qQQ2v7A",
+          "vertical": true
+        }
+      ]
     }
   ],
   "books": [
