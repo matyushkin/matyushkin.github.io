@@ -107,7 +107,12 @@
     "facebook": "Facebook",
     "twitter": "Twitter",
     "telegram": "Telegram",
-    "paypal": "PayPal"
+    "paypal": "PayPal",
+    "yandex-music": "Yandex Music",
+    "vk-music": "VK Music",
+    "deezer": "Deezer",
+    "zvuk": "Zvuk",
+    "kion-music": "KION Music"
   },
   "strings": {
     "ru": {
@@ -198,7 +203,12 @@
           "tiktok": "Тикток",
           "livejournal": "Живой Журнал",
           "coub": "Коуб",
-          "flickr": "Фликр"
+          "flickr": "Фликр",
+          "yandex-music": "Яндекс Музыка",
+          "vk-music": "VK Музыка",
+          "deezer": "Дизер",
+          "zvuk": "Звук",
+          "kion-music": "KION Музыка"
         },
         "issue": "Номер журнала"
       },
