@@ -439,8 +439,8 @@ test.describe('accessibility (WCAG 2.2 AA)', () => {
 
   // axe cannot tell Russian from English: a Russian title on a page in another
   // language must say so, or a screen reader reads it with the wrong voice.
-  test('Russian text on other-language pages is marked lang="ru"', async ({ page }) => {
-    for (const url of PAGES.filter(u => !u.startsWith('/ru/'))) {
+  for (const url of PAGES.filter(u => !u.startsWith('/ru/'))) {
+    test(`Russian text is marked lang="ru": ${url}`, async ({ page }) => {
       await page.goto(url);
       const unmarked = await page.evaluate(() => {
         const out = [];
@@ -452,8 +452,8 @@ test.describe('accessibility (WCAG 2.2 AA)', () => {
         return out;
       });
       expect(unmarked, url).toEqual([]);
-    }
-  });
+    });
+  }
 });
 
 // ─── Mobile layout ────────────────────────────────────────────────────────────
