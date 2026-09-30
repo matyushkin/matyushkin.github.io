@@ -36,7 +36,8 @@
         "en": {
           "title": "Detection of Apoptosis in Cancer Cells Using Heat Shock Protein 70 and p53 Antibody Conjugated Quantum Dot Nanoparticles",
           "venue": "Book chapter, October 2020",
-          "description": "LB Matyushkin, OA Aleksandrova, AO Drobintseva et al."
+          "description": "LB Matyushkin, OA Aleksandrova, AO Drobintseva et al.",
+          "abstract": "Clinical experience indicates that enhanced level of heat shock protein 70 (Hsp70) and p53 correlates with poor prognosis due to malignant cell overexpression of these proteins in tumor progression. Cadmium selenide quantum dots (QDs) were synthesized in aqueous solution using mercaptopropionic acid and L-cysteine (L-Cys) as ligands. They were conjugated with a monoclonal antibody (Ab) to p53 and cmHp70.1 to Hsp70 for detection of cancer cell apoptosis that was demonstrated in the experiment by fluorescent confocal microscopy both for breast carcinoma cells and for thyroid tissue. It is shown that in comparison with organic dyes, quantum dots have superior photostability of tracking apoptosis in cancer cells for longer time."
         }
       },
       "lang_of_work": "en",
@@ -47,7 +48,26 @@
         "elibrary": null,
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9750533777659134415&as_sdt=5"
       },
-      "pdf": "papers/apoptosis-chapter-2020.pdf"
+      "pdf": "papers/apoptosis-chapter-2020.pdf",
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Aleksandrova, Olga A.",
+          "Drobintseva, Anna O.",
+          "Kvetnoy, Igor M.",
+          "Krylova, Yuliya S.",
+          "Marchenko, Yaroslav Y.",
+          "Mazing, Dmitriy S.",
+          "Moshnikov, Vyacheslav A.",
+          "Musikhin, Sergey F.",
+          "Nikolaev, Boris P.",
+          "Polyakova, Victoriya O.",
+          "Shevtsov, Maxim A.",
+          "Yakovleva, Ludmila Y."
+        ],
+        "container": "Fluorescence Methods for Investigation of Living Cells and Microorganisms",
+        "kind": "book-chapter"
+      }
     },
     {
       "id": "synthetic-metals-2020",
@@ -64,7 +84,8 @@
         "en": {
           "title": "Photo- and electroluminescence features of films and field effect transistors based on inorganic perovskite nanocrystals embedded in a polymer matrix",
           "venue": "Synthetic Metals, 260, 116291",
-          "description": "AN Aleshin, IP Shcherbakov, OP Chikalova-Luzina, LB Matyushkin et al."
+          "description": "AN Aleshin, IP Shcherbakov, OP Chikalova-Luzina, LB Matyushkin et al.",
+          "abstract": "The optical and electrical properties of films and field-effect transistors (FETs) based on pure MEH-PPV, neat CsPbBr3 nanocrystals (NCs), and MEH-PPV:CsPbBr3 NCs composites with different contents of CsPbBr3 NCs are investigated. The films were characterized by absorbance, atomic-force microscope and current-voltage characteristics (I-Vs) techniques. Relative PL and EL intensities and PL spectra of the pure MEH-PPV, neat CsPbBr3 NCs and MEH-PPV:CsPbBr3 NCs films were measured at 300 K at various levels of optical and electrical excitation power; these dependencies of the PL and EL intensities turned out to be sublinear and superlinear respectively. FETs based on MEH-PPV:CsPbBr3 NCs (1:1) films exhibit I-Vs at 290 – 100 K a dominant hole transport mechanism. The mobility of charge carriers was determined at 290 K for neat CsPbBr3 NCs (for electrons: 2.7 10−2 cm2/Vs) and MEH-PPV:CsPbBr3 NCs (1:1) (for holes: 9 cm2/Vs). The temperature dependence of the hole mobility μFET(T) of FETs based on MEH-PPV:CsPbBr3 NCs (1:1) films characteristic of the hopping mode. It was found that the superlinearity of the dependence of EL of MEH-PPV:CsPbBr3 NCs LE-FETs at 290 K increases with increasing concentration of CsPbBr3 NCs due to efficient energy transfer between CsPbBr3 NCs and the MEH-PPV polymer matrix, and also because of the probability of electron tunneling through the potential barrier to electrode. It is expected that the obtained MEH-PPV:CsPbBr3 NCs nanocomposite films will be useful for efficient applications in nanotechnology LEDs, FETs and LE-FETs."
         }
       },
       "lang_of_work": "en",
@@ -74,6 +95,22 @@
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=43230932",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15156598120324117397&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Aleshin, Andrey N.",
+          "Shcherbakov, Igor P.",
+          "Chikalova-Luzina, Olga P.",
+          "Matyushkin, L. B.",
+          "Ovezov, Maksat K.",
+          "Ershova, Anastasia M.",
+          "Trapeznikova, Irina N.",
+          "Petrov, Vasily N."
+        ],
+        "container": "Synthetic Metals",
+        "volume": "260",
+        "pages": "116291",
+        "kind": "journal-article"
       }
     },
     {
@@ -116,7 +153,23 @@
         "researchgate": "https://www.researchgate.net/publication/336135501",
         "elibrary": "https://www.elibrary.ru/item.asp?id=40629964"
       },
-      "pdf": "papers/kondensed-matter-2019.pdf"
+      "pdf": "papers/kondensed-matter-2019.pdf",
+      "biblio": {
+        "authors": [
+          "Koshevoi, Veniamin L.",
+          "Belorus, Anton O.",
+          "Matyushkin, L. B.",
+          "Pleshanov, Ilya M.",
+          "Seredin, Pavel V.",
+          "Ivkov, Sergey A.",
+          "Lenshin, Alexander S."
+        ],
+        "container": "Kondensirovannye sredy i mezhfaznye granitsy = Condensed Matter and Interphases",
+        "volume": "21",
+        "issue": "3",
+        "pages": "390-398",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "glass-phys-zno-2019",
@@ -133,7 +186,8 @@
         "en": {
           "title": "Current State of Studies on Synthesis and Application of Zinc Stannate (Review)",
           "venue": "Glass Physics and Chemistry, 45 (4), 251–260",
-          "description": "SS Nalimova, AI Maksimov, LB Matyushkin, VA Moshnikov"
+          "description": "SS Nalimova, AI Maksimov, LB Matyushkin, VA Moshnikov",
+          "abstract": "The published works representing the current state of research in the field of the synthesis and application of zinc stannate are reviewed. The data on crystalline modifications of ZnSnO₃ are provided and the primary areas of the application of zinc stannate are investigated. Options of various synthesis methods, such as chemical vapor deposition, reactions under high pressure, hydrothermal synthesis, ion-exchange and solid-phase reactions, the coprecipitation method, and the sol-gel method, are demonstrated."
         }
       },
       "lang_of_work": "en",
@@ -146,6 +200,19 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=41625651",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=38255097",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8989802735145952747&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Nalimova, S. S.",
+          "Maksimov, A. I.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Glass Physics and Chemistry",
+        "volume": "45",
+        "issue": "4",
+        "pages": "251-260",
+        "kind": "journal-article"
       }
     },
     {
@@ -163,7 +230,8 @@
         "en": {
           "title": "Light-Emitting Field-Effect Transistors Based on Composite Films of Polyfluorene and CsPbBr₃ Nanocrystals",
           "venue": "Physics of the Solid State, 61 (2), 256–262",
-          "description": "AN Aleshin, IP Shcherbakov, DA Kirilenko, LB Matyushkin, VA Moshnikov"
+          "description": "AN Aleshin, IP Shcherbakov, DA Kirilenko, LB Matyushkin, VA Moshnikov",
+          "abstract": "Light-emitting organic field-effect transistors (LE-FETs) on the basis of composite films that consist of perovskite nanocrystals (CsPbBr₃) embedded in a matrix of conjugated polymer—polyfluorene (PFO)—have been obtained, and their electrical and optical properties have been investigated. Output and transfer current-voltage characteristics (I-Vs) of FETs based on PFO : CsPbBr₃ films (component ratio 1 : 1) have a slight hysteresis at temperatures of 100–300 K and are characteristic of hole transport. The hole mobility is ∼3.3 and ∼1.9 cm2/(V s) at the modes of the saturation and low fields, respectively, at 250 K and reaches ∼5 cm2/(V s) at 100 K. It has been shown that the application of pulsed voltage to LE-FETs based on PFO : CsPbBr₃ can reduce the ionic conductivity and provide electroluminescence in this structure at 300 K."
         }
       },
       "lang_of_work": "en",
@@ -176,6 +244,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=38692067",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=37478290",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16843104078108855566&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Aleshin, A. N.",
+          "Shcherbakov, I. P.",
+          "Kirilenko, D. A.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Physics of the Solid State",
+        "volume": "61",
+        "issue": "2",
+        "pages": "256-262",
+        "kind": "journal-article"
       }
     },
     {
@@ -193,7 +275,8 @@
         "en": {
           "title": "Terahertz Vibrational Modes in CH₃NH₃PbI₃ and CsPbI₃ Perovskite Films",
           "venue": "JETP Letters, 109 (1), 28–32",
-          "description": "AV Andrianov, AN Aleshin, LB Matyushkin"
+          "description": "AV Andrianov, AN Aleshin, LB Matyushkin",
+          "abstract": "Films of CH₃NH₃PbI₃ organometallic perovskite, which is currently considered as a promising basic material for new-generation solar cells, as well as films containing CsPbI₃ inorganic lead–halid perovskite nanocrystals, have been studied in the spectral range of 0.2–2.9 THz at room temperature by terahertz time-domain spectroscopy. Several low-frequency vibrational modes previously attributed exclusively to vibrations of Pb–I bonds have been observed in the perovskite films under investigation in this spectral range. The comparison of terahertz characteristics of perovskites under study has shown that vibrations associated with a cation (CH₃NH₃⁺, Cs⁺) make a significant contribution to the formation of the observed low-frequency vibrational modes in perovskites under consideration."
         }
       },
       "lang_of_work": "en",
@@ -206,6 +289,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=38768945",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=36855210",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11415913382512420031&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Andrianov, A. V.",
+          "Aleshin, A. N.",
+          "Matyushkin, L. B."
+        ],
+        "container": "JETP Letters",
+        "volume": "109",
+        "issue": "1",
+        "pages": "28-32",
+        "kind": "journal-article"
       }
     },
     {
@@ -223,7 +318,8 @@
         "en": {
           "title": "Optical orientation and alignment of excitons in ensembles of inorganic perovskite nanocrystals",
           "venue": "Physical Review B, 97 (23), 235304",
-          "description": "MO Nestoklon, SV Goupalov, RI Dzhioev, OS Ken, VL Korenev, LB Matyushkin et al."
+          "description": "MO Nestoklon, SV Goupalov, RI Dzhioev, OS Ken, VL Korenev, LB Matyushkin et al.",
+          "abstract": "We demonstrate the optical orientation and alignment of excitons in a two-dimensional layer of ${\\mathrm{CsPbI}}_{3}$ perovskite nanocrystals prepared by colloidal synthesis and measure the anisotropic exchange splitting of exciton levels in the nanocrystals. From the experimental data at low temperature (2 K), we obtain the average value of anisotropic splitting of bright exciton states of the order of $120\\phantom{\\rule{4pt}{0ex}}\\ensuremath{\\mu}\\mathrm{eV}$. Our calculations demonstrate that there is a significant contribution to the splitting due to the nanocrystal shape anisotropy for all inorganic perovskite nanocrystrals."
         }
       },
       "lang_of_work": "en",
@@ -235,7 +331,31 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35765245",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17034393244708900101&as_sdt=5"
       },
-      "pdf": "papers/phys-rev-b-2018.pdf"
+      "pdf": "papers/phys-rev-b-2018.pdf",
+      "biblio": {
+        "authors": [
+          "Nestoklon, M. O.",
+          "Goupalov, S. V.",
+          "Dzhioev, R. I.",
+          "Ken, O. S.",
+          "Korenev, V. L.",
+          "Kusrayev, Yu. G.",
+          "Sapega, V. F.",
+          "de Weerd, C.",
+          "Gomez, L.",
+          "Gregorkiewicz, T.",
+          "Lin, Junhao",
+          "Suenaga, Kazutomo",
+          "Fujiwara, Yasufumi",
+          "Matyushkin, L. B.",
+          "Yassievich, I. N."
+        ],
+        "container": "Physical Review B",
+        "volume": "97",
+        "issue": "23",
+        "pages": "235304",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "synthetic-metals-2018",
@@ -252,7 +372,8 @@
         "en": {
           "title": "Energy transfer in hybrid optoelectronic structures between perovskite nanocrystals and an organic matrix",
           "venue": "Synthetic Metals, 246, 230–235",
-          "description": "OP Chikalova-Luzina, AN Aleshin, IP Shcherbakov, VM Vyatkin, LB Matyushkin et al."
+          "description": "OP Chikalova-Luzina, AN Aleshin, IP Shcherbakov, VM Vyatkin, LB Matyushkin et al.",
+          "abstract": "Solution-processed hybrid perovskite materials are attracting considerable attention as active layers of solar cells and hybrid light-emitting diodes (LEDs). Introducing perovskite CsPbBr3 nanocrystals (NCs) into light-emitting polymer (MEH-PPV) matrix can improve the processability and stability of such hybrid LEDs. In this work we investigate experimentally and consider theoretically the nonradiative excitation energy transfer from perovskite CsPbBr3 NCs to organic conjugated polymer MEH-PPV matrix along with experimental investigation of optical properties of such MEH-PPV:CsPbBr3 hybrid thin film structures. The theoretical analysis is carried out based on the Forster theory. The relative photoluminescence (PL) intensity of the MEH-PPV matrix is calculated as a function of the embed CsPbBr3 NC concentration. The decrease of the PL intensity with the increase of the CsPbBr3 NC concentration is found both theoretically and experimentally. It was found that the PL decay obtained experimentally is stronger with respect to that found theoretically. The reasons for the quantitative distinctions between the experimental data and as a result of the theoretical consideration are discussed."
         }
       },
       "lang_of_work": "en",
@@ -262,6 +383,19 @@
         "researchgate": null,
         "elibrary": "https://www.elibrary.ru/item.asp?id=36459642",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6039364299259097643&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Chikalova-Luzina, Olga P.",
+          "Aleshin, Andrey N.",
+          "Shcherbakov, Igor P.",
+          "Vyatkin, Vadim M.",
+          "Matyushkin, L. B."
+        ],
+        "container": "Synthetic Metals",
+        "volume": "246",
+        "pages": "230-235",
+        "kind": "journal-article"
       }
     },
     {
@@ -279,7 +413,8 @@
         "en": {
           "title": "Enhanced Luminescence of Quantum Dots near a Layer of Ag/SiO₂ Nanoparticles",
           "venue": "Technical Physics Letters, 44 (4), 331–333",
-          "description": "LB Matyushkin, A Pertsova, VA Moshnikov"
+          "description": "LB Matyushkin, A Pertsova, VA Moshnikov",
+          "abstract": "We have studied the influence of monodisperse Ag/SiO₂ core–shell-type nanoparticles with a core diameter of 17 nm and a dielectric-shell thickness within 0–40 nm on the photoluminescence of CdSe/ZnS quantum dots (QDs) excited by laser at a wavelength corresponding to the plasmon resonance in Ag/SiO₂ nanoparticles. It is established that the intensity of QD luminescence in the composite system exhibits up to 8.7-fold increase."
         }
       },
       "lang_of_work": "en",
@@ -292,6 +427,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35497126",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32740260",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=321873478517356671&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Pertsova, A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Technical Physics Letters",
+        "volume": "44",
+        "issue": "4",
+        "pages": "331-333",
+        "kind": "journal-article"
       }
     },
     {
@@ -309,7 +456,8 @@
         "en": {
           "title": "One-Dimensional Photonic SiO₂–TiO₂ Crystals: Simulation and Synthesis by Sol–Gel Technology Methods",
           "venue": "Glass Physics and Chemistry, 44 (1), 7–14",
-          "description": "VA Romanova, LB Matyushkin, VA Moshnikov"
+          "description": "VA Romanova, LB Matyushkin, VA Moshnikov",
+          "abstract": "The approach to synthesize one-dimensional photonic SiO₂ –TiO₂ crystals by sol–gel methods is developed. Using the method of transfer matrices, structures consisting of 13 layers of alternating materials having the properties of one-dimensional photonic crystals with the minimal transmission coefficient of 7% in the photonic band gap range and that of 97.5% in the remaining spectrum parts are calculated and experimentally created. The positions of the photonic band gaps change along with the thicknesses of the layers of the materials composing the photonic crystal. The possibility of creating an optical filter as a result of introducing a structural defect in the form of a layer of doubled thickness is demonstrated."
         }
       },
       "lang_of_work": "en",
@@ -320,6 +468,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35521670",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32620819",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15416080723715887773&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Romanova, V. A.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Glass Physics and Chemistry",
+        "volume": "44",
+        "issue": "1",
+        "pages": "7-14",
+        "kind": "journal-article"
       }
     },
     {
@@ -332,12 +492,14 @@
         "ru": {
           "title": "Рассеяние ИК-излучения оптически неоднородными пленками нанопористого анодного оксида алюминия",
           "venue": "Неорганические материалы, 54 (6), 593–596",
-          "description": "Е.Н. Муратова, Л.Б. Матюшкин, В.А. Мошников, К.В. Чернякова, И.А. Врублевский"
+          "description": "Е.Н. Муратова, Л.Б. Матюшкин, В.А. Мошников, К.В. Чернякова, И.А. Врублевский",
+          "abstract": "В работе представлены результаты ИК-термографических исследований нанопористых пленок оксида алюминия с различными геометрическими параметрами пористого слоя (толщиной, средним диаметром пор), подвергавшихся воздействию теплового излучения. Показано, что такие пленки экранируют тепловое излучение. Полученные результаты свидетельствуют о том, что мембраны из нанопористого оксида алюминия могут быть использованы в качестве теплозащитных экранов для ослабления теплового контраста в ИК-диапазоне от объекта и окружающего фона."
         },
         "en": {
           "title": "IR Scattering by Optically Inhomogeneous Nanoporous Anodic Alumina Films",
           "venue": "Inorganic Materials, 54 (6), 564–567",
-          "description": "EN Muratova, LB Matyushkin, VA Moshnikov, KV Chernyakova, IA Vrublevsky"
+          "description": "EN Muratova, LB Matyushkin, VA Moshnikov, KV Chernyakova, IA Vrublevsky",
+          "abstract": "This paper presents results of thermographic studies of nanoporous alumina films having different geometric parameters of their porous layer (thickness and average pore diameter), which were exposed to thermal radiation. The films have been shown to shield thermal radiation. The present results suggest that nanoporous alumina membranes can be used as heat shields for reducing the thermal contrast of an object and the surrounding background in the IR spectral region."
         }
       },
       "lang_of_work": "en",
@@ -354,7 +516,21 @@
       },
       "aliases": [
         "inorganic-materials-ir-alumina-2018"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Muratova, E. N.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A.",
+          "Chernyakova, K. V.",
+          "Vrublevsky, I. A."
+        ],
+        "container": "Inorganic Materials",
+        "volume": "54",
+        "issue": "6",
+        "pages": "564-567",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jot-gamma-2018",
@@ -371,7 +547,8 @@
         "en": {
           "title": "Effect of gamma irradiation on the photoluminescence of CsPbBr₃ and CdSe/ZnS nanocrystals",
           "venue": "Journal of Optical Technology, 85 (2), 119–121",
-          "description": "LB Matyushkin, NM Romanov"
+          "description": "LB Matyushkin, NM Romanov",
+          "abstract": "The influence of gamma radiation of a ¹³⁷Cs source on the photoluminescence of perovskite CsPbBr₃ nanocrystals is reported in this study. Stability of photoluminescence in perovskite CsPbBr₃ nanocrystals is compared with commercial samples of CdSe/ZnS nanocrystals. The results suggest the possibility of using CsPbBr₃ nanocrystals as biomarkers in order to improve antitumor therapy."
         }
       },
       "lang_of_work": "en",
@@ -382,6 +559,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35504273",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=35383316",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11468320811061287448&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Romanov, N. M."
+        ],
+        "container": "Journal of Optical Technology",
+        "volume": "85",
+        "issue": "2",
+        "pages": "119",
+        "kind": "journal-article"
       }
     },
     {
@@ -399,7 +587,8 @@
         "en": {
           "title": "Effect of ascorbic acid additions on the mechanism underlying the growth of nanostructured PbSe films via hydrochemical deposition",
           "venue": "Inorganic Materials, 54 (3), 221–228",
-          "description": "VM Yurk, LN Maskaeva, VF Markov, EV Maraeva, VA Moshnikov, LB Matyushkin et al."
+          "description": "VM Yurk, LN Maskaeva, VF Markov, EV Maraeva, VA Moshnikov, LB Matyushkin et al.",
+          "abstract": "The effect of ascorbic acid additions on the growth mechanism of thin PbSe films produced by hydrochemical deposition has been studied by atomic force microscopy (AFM). A fractal analysis of AFM images of the lead selenide films has shown that their formation follows the “cluster–particle” aggregation mechanism. The fractal dimension assessed by the box-counting method is 2.26 at an average grain size of ~150 nm. From the transmission spectra of the films grown at deposition times from 20 to 120 min, we have evaluated their optical band gap, which has been shown to decrease from 0.595 to 0.53 eV with increasing deposition time. These values are attributable to the manifestation of quantum size effects in the grown PbSe films."
         }
       },
       "lang_of_work": "en",
@@ -411,6 +600,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35498519",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=32667471",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11084925067225691677&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Yurk, V. M.",
+          "Maskaeva, L. N.",
+          "Markov, V. F.",
+          "Maraeva, E. V.",
+          "Moshnikov, V. A.",
+          "Matyushkin, L. B."
+        ],
+        "container": "Inorganic Materials",
+        "volume": "54",
+        "issue": "3",
+        "pages": "221-228",
+        "kind": "journal-article"
       }
     },
     {
@@ -455,7 +659,8 @@
         "en": {
           "title": "Determination of the alumina membrane geometrical parameters using its optical spectra",
           "venue": "Micro &amp; Nano Letters, 12 (2), 100–103",
-          "description": "LB Matyushkin, EN Muratova, MF Panov"
+          "description": "LB Matyushkin, EN Muratova, MF Panov",
+          "abstract": "The transmission spectra for the porous alumina membranes prepared by electrochemical etching were investigated in a broad wavelength range from 0.2 to 12 μm. It is shown that the spectrum of the membrane maybe divided into regions enabling characterisation of average pore size and size distribution, the membrane thickness, and the presence of residual etching agent anions."
         }
       },
       "lang_of_work": "en",
@@ -465,6 +670,18 @@
         "researchgate": "https://www.researchgate.net/publication/316503872",
         "elibrary": "https://www.elibrary.ru/item.asp?id=29478151",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7204315364208039454&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Muratova, Ekaterina N.",
+          "Panov, Mikhail F."
+        ],
+        "container": "Micro & Nano Letters",
+        "volume": "12",
+        "issue": "2",
+        "pages": "100-103",
+        "kind": "journal-article"
       }
     },
     {
@@ -482,7 +699,8 @@
         "en": {
           "title": "Features of the formation of nanoporous membranes based on alumina from foil and new fields of applications",
           "venue": "Glass Physics and Chemistry, 43 (2), 163–169",
-          "description": "EN Muratova, VV Luchinin, VA Moshnikov, VA Lifshits, LB Matyushkin et al."
+          "description": "EN Muratova, VV Luchinin, VA Moshnikov, VA Lifshits, LB Matyushkin et al.",
+          "abstract": "The peculiarities of the formation of porous membranes based on aluminum oxide obtained by the electrochemical anodization of aluminum foil with the preset topological parameters of pores-capillares (20–220 nm) have been studied. The methods to study the membranes based on nanoporous aluminum oxide are proposed. The developed nanoporous material possesses the properties of screening IR radiation in a spectral range of 8–14 μm (corresponds to the spectral region of thermal radiation of bioobjecs). The membranes based on anodized aluminum foil provide the fulfilling the functions of channeling a high-flow helium ions with an energy of 1.5–2 MeV with the experimentally found coefficient of transmission of more than 60%."
         }
       },
       "lang_of_work": "en",
@@ -494,6 +712,25 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=29504111",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29077123",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15046711482163343688&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Muratova, E. N.",
+          "Luchinin, V. V.",
+          "Moshnikov, V. A.",
+          "Lifshits, V. A.",
+          "Matyushkin, L. B.",
+          "Panov, M. F.",
+          "Potrakhov, N. N.",
+          "Galunin, S. A.",
+          "Ishin, V. V.",
+          "Shemukhin, A. A."
+        ],
+        "container": "Glass Physics and Chemistry",
+        "volume": "43",
+        "issue": "2",
+        "pages": "163-169",
+        "kind": "journal-article"
       }
     },
     {
@@ -506,12 +743,14 @@
         "ru": {
           "title": "Фотолюминесценция нанокристаллов перовскитов CsPbX₃ (X = Cl, Br, I) и твердых растворов на их основе",
           "venue": "Физика и техника полупроводников, 51 (10), 1387",
-          "description": "Л.Б. Матюшкин, В.А. Мошников"
+          "description": "Л.Б. Матюшкин, В.А. Мошников",
+          "abstract": "Рассмотрены синтез, структурные и фотолюминесцентные свойства нанокристаллов с естественной огранкой системы \"цезий-свинец-галоген\" кристаллической структуры типа перовскит. Показана возможность непрерывной перестройки максимума спектра фотолюминесценции нанокристаллов в диапазоне длин волн 400-700 нм. Исследованы особенности образования непрерывных рядов твердых растворов CsPb(Cl₁₋ₓBrₓ)₃ и CsPb(Br₁₋ₓIₓ)₃ за счет постростовой обработки нанокристаллов CsPbBr₃ в результате анионного замещения при комнатной температуре. Соответствующий диапазон перестройки максимума спектра фотолюминесценции составил 410-690 нм."
         },
         "en": {
           "title": "Photoluminescence of perovskite CsPbX₃ (X = Cl, Br, I) nanocrystals and solid solutions on their basis",
           "venue": "Semiconductors, 51 (10), 1337–1342",
-          "description": "LB Matyushkin, VA Moshnikov"
+          "description": "LB Matyushkin, VA Moshnikov",
+          "abstract": "Synthesis and also the structural and photoluminescence properties of nanocrystals with natural faceting of the “cesium–lead–halogen” system with crystalline structure of the perovskite type are examined. The possibility of continuously changing the position of the maximum in the photoluminescence spectrum in the wavelength range of 400–700 nm is demonstrated. Features of the formation of the continuous series of solid solutions CsPb(Cl₁₋ₓBrₓ)₃ and CsPb(Br₁₋ₓIₓ)₃ due to the aftergrowth treatment of CsPbBr₃ nanocrystals as a result of anion exchange at room temperature are studied. The corresponding range of frequency change for the maximum of the photoluminescence spectrum amounts to 410–690 nm."
         }
       },
       "lang_of_work": "en",
@@ -524,6 +763,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=31064691",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=30291329",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7736448153630085123&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Semiconductors",
+        "volume": "51",
+        "issue": "10",
+        "pages": "1337-1342",
+        "kind": "journal-article"
       }
     },
     {
@@ -541,7 +791,8 @@
         "en": {
           "title": "Synthesis and characterization of colloidal nanocrystals of ternary chalcogenide compounds",
           "venue": "Optics and Spectroscopy, 122 (1), 110–113",
-          "description": "DS Mazing, AI Shul'ga, LB Matyushkin, OA Aleksandrova, VA Moshnikov"
+          "description": "DS Mazing, AI Shul'ga, LB Matyushkin, OA Aleksandrova, VA Moshnikov",
+          "abstract": "Colloidal nanocrystals of CuInS₂ and CuInSe₂ were synthesized in an apolar noncoordinating medium using 1-dodecanethiol as a ligand. A semiconductor shell of ZnS was formed for CuInS₂ nanocrystals obtained by the injection method. The obtained samples were characterized by absorption spectroscopy and photoluminescence."
         }
       },
       "lang_of_work": "en",
@@ -554,6 +805,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=29491544",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=28107086",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13197792715317371638&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Mazing, D. S.",
+          "Shul’ga, A. I.",
+          "Matyushkin, L. B.",
+          "Aleksandrova, O. A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Optics and Spectroscopy",
+        "volume": "122",
+        "issue": "1",
+        "pages": "110-113",
+        "kind": "journal-article"
       }
     },
     {
@@ -571,7 +836,8 @@
         "en": {
           "title": "Synthesis of quantum dot nanocrystals and plasmonic nanoparticles using a segmented flow reactor",
           "venue": "Optics and Spectroscopy, 122 (1), 48–51",
-          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova et al."
+          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova et al.",
+          "abstract": "The purpose of this research is to develop an automated method of synthesizing quantum dot nanocrystals and plasmonic nanoparticles using segmented flow rector synthesis as a new alternative to the batch method of synthesizing nanoparticles. A reactor was successfully applied to the synthesis of colloidal solutions of semiconductor (CdSe) and metal (Ag) nanoparticles. This instrument is applicable in both material science laboratories and industry."
         }
       },
       "lang_of_work": "en",
@@ -584,6 +850,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=29484834",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=28107073",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14594960621710560062&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Mbwahnche, R. C.",
+          "Matyushkin, L. B.",
+          "Ryzhov, O. A.",
+          "Aleksandrova, O. A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Optics and Spectroscopy",
+        "volume": "122",
+        "issue": "1",
+        "pages": "48-51",
+        "kind": "journal-article"
       }
     },
     {
@@ -601,7 +881,8 @@
         "en": {
           "title": "Synthesis of metal and semiconductor nanoparticles in a flow of immiscible liquids",
           "venue": "Semiconductors, 50 (6), 844–847",
-          "description": "LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov"
+          "description": "LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov",
+          "abstract": "Nanoparticles of silver and cadmium selenide are obtained by the method of synthesis in a flow of immiscible liquids (water/toluene, water/dodecane); these nanoparticles manifest, respectively, the effects of plasmon resonance and the spatial confinement of charge carriers. The reactor used is a polytetrafluoroethylene capillary with temperature-controlled sections for particle nucleation and growth with the supply of precursors using micropumps. The diameters of the particles are determined from absorbance spectra and are found to be 40 nm for Ag nanoparticles and 1–2 nm for CdSe nanoparticles (depending on the growth duration)."
         }
       },
       "lang_of_work": "en",
@@ -613,6 +894,19 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=27140295",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=27368926",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1207586184492222773&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Ryzhov, O. A.",
+          "Aleksandrova, O. A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Semiconductors",
+        "volume": "50",
+        "issue": "6",
+        "pages": "844-847",
+        "kind": "journal-article"
       }
     },
     {
@@ -630,7 +924,8 @@
         "en": {
           "title": "Synthesis and characterization of CuInSe₂ core–shell quantum dots",
           "venue": "Glass Physics and Chemistry, 42 (5), 497–504",
-          "description": "DS Mazing, AA Karmanov, LB Matyushkin, OA Aleksandrova, IA Pronin et al."
+          "description": "DS Mazing, AA Karmanov, LB Matyushkin, OA Aleksandrova, IA Pronin et al.",
+          "abstract": "A synthesis of 1-dodecanetiol stabilized colloidal quantum dots of CuInSe₂ exhibiting photoluminescence in the range of 700–900 nm has been described. The effect of the shell on the energy levels of electrons in CuInSe₂ –ZnS and CuInSe₂ –ZnSe core–shell quantum dots has been investigated by quantum mechanical calculations."
         }
       },
       "lang_of_work": "en",
@@ -644,7 +939,22 @@
       },
       "aliases": [
         "fkhst-cuinse2-core-shell-2016"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Mazing, D. S.",
+          "Karmanov, A. A.",
+          "Matyushkin, L. B.",
+          "Aleksandrova, O. A.",
+          "Pronin, I. A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Glass Physics and Chemistry",
+        "volume": "42",
+        "issue": "5",
+        "pages": "497-504",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "sppu-journal-2015",
@@ -661,7 +971,8 @@
         "en": {
           "title": "Colloidal CdSe and ZnSe/Mn quantum dots: Their cytotoxicity and effects on cell morphology",
           "venue": "St. Petersburg Polytechnical University Journal: Physics and Mathematics, 1",
-          "description": "AO Drobintseva, LB Matyushkin, OA Aleksandrova, PD Drobintsev et al."
+          "description": "AO Drobintseva, LB Matyushkin, OA Aleksandrova, PD Drobintsev et al.",
+          "abstract": "The CdSe and ZnSe:Mn colloidal quantum dots (QDs) have been synthesized in order to use them as a contrast agent for bioimaging. The synthesis of QDs was made in the aqueous solution. These compounds are fluorescent semiconductor nanoparticles and are held to be promising fluorophores which can be used as an important research tool in biology and medicine. They can be exploited to allocate the problematic biological tissues and individual cells. Their applicability to human examination was studied. For this purpose we investigated the morphological changes in the cells by reacting with the CdSe/l-Cys and ZnSe:Mn/MPA quantum dots. The cytotoxicity of CdSe/l-Cys in the line of breast carcinoma was examined using confocal microscopy. The results can be seen as encouraging."
         }
       },
       "lang_of_work": "en",
@@ -672,7 +983,25 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=27553991",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6938877917946357547&as_sdt=5"
       },
-      "pdf": "papers/sppu-journal-2015.pdf"
+      "pdf": "papers/sppu-journal-2015.pdf",
+      "biblio": {
+        "authors": [
+          "Drobintseva, Anna O.",
+          "Matyushkin, L. B.",
+          "Aleksandrova, Olga A.",
+          "Drobintsev, Pavel D.",
+          "Kvetnoy, Igor M.",
+          "Mazing, Dmitrii S.",
+          "Moshnikov, Vyacheslav A.",
+          "Polyakova, Victoriya O.",
+          "Musikhin, Sergey F."
+        ],
+        "container": "St. Petersburg Polytechnical University Journal: Physics and Mathematics",
+        "volume": "1",
+        "issue": "3",
+        "pages": "272-277",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "appl-magn-resonance-2014",
@@ -747,7 +1076,8 @@
         "en": {
           "title": "Study of the self-organization processes in lead sulfide quantum dots",
           "venue": "Semiconductors, 48 (13), 1729–1731",
-          "description": "SA Tarasov, OA Aleksandrova, AI Maksimov, EV Maraeva, LB Matyushkin et al."
+          "description": "SA Tarasov, OA Aleksandrova, AI Maksimov, EV Maraeva, LB Matyushkin et al.",
+          "abstract": "A procedure is described for the synthesis of nanoparticles based on lead chalcogenides. The procedure combines the synthesis of colloidal quantum dots (QDs) in aqueous solutions with simultaneous organization of the QDs into ordered arrays. The processes of the self-organization of QDs are analyzed at the nano- and microscopic levels by the photoluminescence method, atomic-force microscopy, and optical microscopy."
         }
       },
       "lang_of_work": "en",
@@ -757,6 +1087,23 @@
         "researchgate": "https://www.researchgate.net/publication/273888304",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020023",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2300398552085518720&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Tarasov, S. A.",
+          "Aleksandrova, O. A.",
+          "Maksimov, A. I.",
+          "Maraeva, E. V.",
+          "Matyushkin, L. B.",
+          "Men’kovich, E. A.",
+          "Moshnikov, V. A.",
+          "Musikhin, S. F."
+        ],
+        "container": "Semiconductors",
+        "volume": "48",
+        "issue": "13",
+        "pages": "1729-1731",
+        "kind": "journal-article"
       }
     },
     {
@@ -774,7 +1121,8 @@
         "en": {
           "title": "Study of magnetite nanoparticle suspensions by photometry and NMR relaxometry",
           "venue": "Physics of the Solid State, 55 (12), 2431–2435",
-          "description": "YV Bogachev, KG Gareev, LB Matyushkin, VA Moshnikov, AN Naumova"
+          "description": "YV Bogachev, KG Gareev, LB Matyushkin, VA Moshnikov, AN Naumova",
+          "abstract": "A method has been described for preparation of suspensions of magnetite nanoparticles stabilized by porous silicon dioxide. The process of sedimentation of nanoparticles in suspensions of different compositions and concentrations has been analyzed by transmission coefficient measurements. Spectra of the transmission coefficient have been obtained for suspensions containing composite nanoparticles, the initial silicon dioxide, and macroscopic magnetite particles. The average effective radius of nanoparticles has been calculated from the time dependences of the transmission coefficient. It has been demonstrated that the synthesized nanoparticles possess magnetic-resonance contrast properties."
         }
       },
       "lang_of_work": "en",
@@ -785,6 +1133,20 @@
         "researchgate_ru": "https://www.researchgate.net/publication/295919864",
         "elibrary": "https://www.elibrary.ru/item.asp?id=21899007",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12885673086457282475&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Bogachev, Yu. V.",
+          "Gareev, K. G.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A.",
+          "Naumova, A. N."
+        ],
+        "container": "Physics of the Solid State",
+        "volume": "55",
+        "issue": "12",
+        "pages": "2431-2435",
+        "kind": "journal-article"
       }
     },
     {
@@ -855,7 +1217,8 @@
         "en": {
           "title": "Study of CsPbBr₃ Nanocrystals and Their Agglomerates by Combined Scanning Probe Microscopy and Optical Spectrometry",
           "venue": "Optics and Spectroscopy, 125(6), 858–863",
-          "description": "PA Dement'ev, MS Dunaevskii, LB Matyushkin et al."
+          "description": "PA Dement'ev, MS Dunaevskii, LB Matyushkin et al.",
+          "abstract": "The electric, piezoelectric, and optical properties of colloidally synthesized CsPbBr₃ nanocrystals (NCs) are studied by combined scanning probe microscopy and optical spectrometry. It is found that the CsPbBr₃ NCs have a cubic shape with an edge length of 10 nm. When deposited on a substrate, these NCs gather into faceted agglomerates up to several hundred nanometers in size. It is shown that the photoluminescence spectra contain, in addition to the main narrow edge-luminescence line (2.47 eV), two additional broad defect lines lying 40 and 200 meV lower than the main line. The NC agglomerates have a low surface potential (~20–30 mV) and contain a small amount of charges. It is shown that piezoelectric modulus d33 of CsPbBr₃ NC agglomerates does not exceed 1 pm/V."
         }
       },
       "lang_of_work": "en",
@@ -868,6 +1231,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=36997963",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=37044526",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1074212350795327152&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Dement’ev, P. A.",
+          "Dunaevskii, M. S.",
+          "Matyushkin, L. B.",
+          "Nezhdanov, A. V.",
+          "Smirnov, A. N.",
+          "Filatov, D. O."
+        ],
+        "container": "Optics and Spectroscopy",
+        "volume": "125",
+        "issue": "6",
+        "pages": "858-863",
+        "kind": "journal-article"
       }
     },
     {
@@ -882,7 +1260,8 @@
         },
         "en": {
           "title": "Investigation of a program-controlled process of impregnation of porous semiconductors with silver nanoparticles to create an electrical contact",
-          "venue": "IEEE EIConRus 2018, pp. 539–543"
+          "venue": "IEEE EIConRus 2018, pp. 539–543",
+          "abstract": "The original idea is to deposit metal layers from concentrated solutions of colloidal inks of metal nanoparticles (silver) in a programmable pattern using methods of modified 3D extrusion with syringe dispenser, followed by thermal and electrodiffusion bonding of the nanostructured metal layer in the presence of a strong electric field. Porous semiconductor structures based on monocrystalline silicon of n- and p-type electrical conductivity with different resistivity were obtained by the method of electrochemical etching of the initial plate in electrolytes based on hydrofluoric acid. For the analysis of the hydrophobicity - hydrophilicity condition and, accordingly, the wettability of porous semiconductor structure, a specially developed apparatus was used, based on measuring the contact angle of wetting by the spreading drop method. To study the morphology of the surface of the obtained samples, the methods of scanning electron (Mira TESCAN II) and scanning-probe (Integra Terma) microscopy were used."
         }
       },
       "lang_of_work": "en",
@@ -892,6 +1271,17 @@
         "researchgate": "https://www.researchgate.net/publication/323860379",
         "elibrary": "https://www.elibrary.ru/item.asp?id=35755590",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14210847954380459229&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Permiakov, Nikita V.",
+          "Matyushkin, L. B.",
+          "Belorus, Anton O.",
+          "Koshevoi, Veniamin L."
+        ],
+        "container": "2018 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)",
+        "pages": "539-543",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -906,7 +1296,8 @@
         },
         "en": {
           "title": "Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals",
-          "venue": "IEEE IRMMW-THz 2018, pp. 1–2"
+          "venue": "IEEE IRMMW-THz 2018, pp. 1–2",
+          "abstract": "Optical properties of organometallic lead-iodide (bromide) perovskites CH₃NH₃PbI₃ (CH₃NH₃PbBr₃) and cesium lead halide nanocrystals CsPbI₃ have been studied in the 0.2-2.9 THz spectral range. THz spectra of CH₃NH₃PbI₃ perovskite demonstrate several resonant features, which were previously attributed to low-frequency phonon modes associated with vibrations of Pb-I bonds. However, observed changes in THz spectra of studied perovskites under substitution of I by Br or methyl-ammonium group (CH₃NH₃) by Cs make the previous interpretation of main low-frequency phonon modes in CH₃NH₃PbI₃ perovskite questionable. It is conceivable that vibrations of cation (CH₃NH₃⁺, Cs⁺) strongly contribute to the formation of main THz phonon modes of the perovskite."
         }
       },
       "lang_of_work": "en",
@@ -916,6 +1307,17 @@
         "researchgate": "https://www.researchgate.net/publication/328986838",
         "elibrary": "https://www.elibrary.ru/item.asp?id=38633368",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5313905801234358587&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Andrianov, A.V.",
+          "Aleshin, A.N.",
+          "Zakhar'in, A.O.",
+          "Matyushkin, L. B."
+        ],
+        "container": "2018 43rd International Conference on Infrared, Millimeter, and Terahertz Waves (IRMMW-THz)",
+        "pages": "1-2",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -930,7 +1332,8 @@
         },
         "en": {
           "title": "Investigation of photoinduced nucleation and growth of silver nanoparticles",
-          "venue": "Journal of Physics: Conference Series, 1038(1), 012057"
+          "venue": "Journal of Physics: Conference Series, 1038(1), 012057",
+          "abstract": "The influence of electromagnetic radiation with maxima wavelengths of 455, 520 and 630 nm on silver nanoparticles growth was investigated. The corresponding possibility of the plasmon resonance spectrum reconstruction in the visible range is shown. Investigations of the radiation frequency influence on the shape and size of the particles both at the stages of growth and at post-synthetic processing have been carried out. The possibility of transformation of spherical particles with a diameter of 20 nm into triangular shaped objects with a triangle edge length of 60–90 nm is shown. To study the optical characteristics of silver particles transmission spectroscopy was used as the primary diagnostic technique. The results of photometric measurements are in agreement with the data of scanning electron microscopy, which shows the transformation of the particles shape as a result of electromagnetic radiation."
         }
       },
       "lang_of_work": "en",
@@ -941,7 +1344,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=35733417",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11968860907588232236&as_sdt=5"
       },
-      "pdf": "papers/jpcs-ag-photoinduced-2018.pdf"
+      "pdf": "papers/jpcs-ag-photoinduced-2018.pdf",
+      "biblio": {
+        "authors": [
+          "Churo, M",
+          "Matyushkin, L. B."
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "1038",
+        "pages": "012057",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "glass-phys-scattering-2017",
@@ -958,7 +1371,8 @@
         "en": {
           "title": "A device for measuring the scattering indicatrix of the nanomaterial synthesis process",
           "venue": "Glass Physics and Chemistry, 43(3), 263–266",
-          "description": "LB Matyushkin, OA Aleksandrova, VA Moshnikov"
+          "description": "LB Matyushkin, OA Aleksandrova, VA Moshnikov",
+          "abstract": "An installation diagram for the study of nanomaterials using scattering indicatrices has been presented. It has been shown that the suggested procedure allows the online investigation and control of the synthesis of nanomaterials, as exemplified by the preparation of SiO₂ by the Stöber method and chemical bath deposition of the lead sulfide PbS layer."
         }
       },
       "lang_of_work": "en",
@@ -969,6 +1383,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=31045753",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29404965",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8980500812331197633&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Aleksandrova, O. A.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Glass Physics and Chemistry",
+        "volume": "43",
+        "issue": "3",
+        "pages": "263-266",
+        "kind": "journal-article"
       }
     },
     {
@@ -986,7 +1412,8 @@
         "en": {
           "title": "An automatic apparatus for the preparation of thin films by successive ionic layer deposition",
           "venue": "Instruments and Experimental Techniques, 60(6), 888–891",
-          "description": "AO Andronov, LB Matyushkin, DV Khondryukov, AO Aleksandrova, VA Moshnikov"
+          "description": "AO Andronov, LB Matyushkin, DV Khondryukov, AO Aleksandrova, VA Moshnikov",
+          "abstract": "An automatic apparatus for the preparation of thin-film coatings by successive ionic layer deposition is presented. The basic design, engineering, and operating parameters of the apparatus are the specimenpositioning accuracy with respect to the phase boundaries of 10 μm, a substrate speed in the solution of 0.5–3 mm/s, and a temperature range of 25–90°C. The apparatus was tested in the course of preparation of cadmium sulfide thin films from aqueous–alcohol solutions. The resulting specimens had a dense homogeneous surface, a thickness of 1.3–25.5 nm, depending on the number of the layer-deposition cycles, and an energy gap width of 2.3–2.5 eV."
         }
       },
       "lang_of_work": "en",
@@ -999,6 +1426,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=31044645",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=30725454",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17487721962466371556&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Andronov, A. O.",
+          "Matyushkin, L. B.",
+          "Khondryukov, D. V.",
+          "Aleksandrova, A. O.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Instruments and Experimental Techniques",
+        "volume": "60",
+        "issue": "6",
+        "pages": "888-891",
+        "kind": "journal-article"
       }
     },
     {
@@ -1013,7 +1454,8 @@
         },
         "en": {
           "title": "Thermal radiation shielding by nanoporous membranes based on anodic alumina",
-          "venue": "Journal of Physics: Conference Series, 872(1), 012020"
+          "venue": "Journal of Physics: Conference Series, 872(1), 012020",
+          "abstract": "The paper is devoted to infrared thermography studies of nanoporous alumina membranes with various geometric parameters of the porous layer: its thickness and average pore diameter. Thermal radiation shielding by anodic alumina membranes is presented. The result obtained showed that nanoporous alumina membranes can be used as heat shields to smooth contrast of thermal radiation of the object and the surrounding background."
         }
       },
       "lang_of_work": "en",
@@ -1024,7 +1466,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=31053407",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11273420049260632814&as_sdt=5"
       },
-      "pdf": "papers/jpcs-alumina-thermal-2017.pdf"
+      "pdf": "papers/jpcs-alumina-thermal-2017.pdf",
+      "biblio": {
+        "authors": [
+          "Muratova, E N",
+          "Matyushkin, L. B.",
+          "Moshnikov, V A",
+          "Chernyakova, K V",
+          "Vrublevsky, I A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "872",
+        "pages": "012020",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "eiconrus-sol-gel-2017",
@@ -1038,7 +1493,8 @@
         },
         "en": {
           "title": "Sol-gel fabrication of one-dimensional photonic crystals",
-          "venue": "IEEE EIConRus 2017, pp. 1423–1427"
+          "venue": "IEEE EIConRus 2017, pp. 1423–1427",
+          "abstract": "One-dimensional multilayer structures of periodically alternating low refractive index (silica) and high refractive index (titania) materials have been deposited by a solgel spin coating technique. These structures have been characterized by visible-near-IR spectroscopy with different angles of incident light falling. As an example, theoretical and experimental spectra with a stop band corresponding 600 nm-reflection are investigated in details. The possibility of creating an optical filter by introducing a structural defect in the form of a layer of double thickness is shown theoretically and experimentally. All experimental spectra are in agreement with theoretical spectra calculated by transfer matrix method. The appropriate program for multilayer spectra calculation in NI LabVIEW environment is also described."
         }
       },
       "lang_of_work": "en",
@@ -1051,7 +1507,16 @@
       },
       "aliases": [
         "eiconrus-photonic-crystals-2017"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Romanova, Victoria A.",
+          "Matyushkin, L. B."
+        ],
+        "container": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)",
+        "pages": "1423-1427",
+        "kind": "proceedings-article"
+      }
     },
     {
       "id": "jpcs-cspbx3-anion-2017",
@@ -1065,7 +1530,8 @@
         },
         "en": {
           "title": "Synthesis and postsynthetic anion exchange of CsPbX₃ (X = Cl, Br, I) quantum dots",
-          "venue": "Journal of Physics: Conference Series, 917(6), 062041"
+          "venue": "Journal of Physics: Conference Series, 917(6), 062041",
+          "abstract": "CsPbX₃ (X = Cl, Br, I) quantum dots were synthesized using hot-injection method at various temperatures (50–200°C), resulting in quantum dots size change and corresponding photoluminescence shift. During anion exchange, continuous formation of intermediate solid solutions was observed resulting in fine adjustment of photoluminescence peak position. Dynamics of photoluminescence spectra under continuous laser irradiation for anion exchange was studied. It is necessary for anion exchange that halide should be in ionic, not molecular, form."
         }
       },
       "lang_of_work": "en",
@@ -1076,7 +1542,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=30644889",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4356308680406155118&as_sdt=5"
       },
-      "pdf": "papers/jpcs-cspbx3-anion-2017.pdf"
+      "pdf": "papers/jpcs-cspbx3-anion-2017.pdf",
+      "biblio": {
+        "authors": [
+          "Percova, A",
+          "Matyushkin, L. B."
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "917",
+        "pages": "062041",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-plasmonic-pl-2017",
@@ -1090,7 +1566,8 @@
         },
         "en": {
           "title": "Plasmonic enhancement of photoluminescence from cadmium sulfide and lead sulfide quantum dots",
-          "venue": "Journal of Physics: Conference Series, 929(1), 012091"
+          "venue": "Journal of Physics: Conference Series, 929(1), 012091",
+          "abstract": "Plasmonic core/shell nanoparticles Ag/SiO₂ with different shell thicknesses were synthesized. Localized plasmon resonance was investigated by UV-vis spectroscopy. Arranged layers of plasmonic nanoparticles and quantum dots were obtained on a quartz substrate using a spin-coating technique. Plasmon-enhanced photoluminescence excited by 405 nm laser corresponding to the plasmon resonance was studied on CdS and PbS quantum dots structures. The possibilities of twofold and fourfold intensity increase are demonstrated for CdS and PbS quantum dots respectively."
         }
       },
       "lang_of_work": "en",
@@ -1101,7 +1578,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=30618175",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8952570653810545966&as_sdt=5"
       },
-      "pdf": "papers/jpcs-plasmonic-pl-2017.pdf"
+      "pdf": "papers/jpcs-plasmonic-pl-2017.pdf",
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Percova, A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "929",
+        "pages": "012091",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-photonic-defect-2017",
@@ -1115,7 +1602,8 @@
         },
         "en": {
           "title": "Experimental sol-gel fabrication and theoretical simulation of one-dimensional photonic crystals with a defect state",
-          "venue": "Journal of Physics: Conference Series, 917(6), 062049"
+          "venue": "Journal of Physics: Conference Series, 917(6), 062049",
+          "abstract": "One-dimensional multilayer structures of the periodically alternating low refractive index (silica) and high refractive index (titania) materials have been deposited by sol–gel spincoating. The possibility of creating an optical filter by introducing a structural defect in the form of a layer of double thickness is shown theoretically and experimentally. All experimental spectra are in agreement with theoretical spectra calculated by transfer matrix method."
         }
       },
       "lang_of_work": "en",
@@ -1126,7 +1614,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=30644899",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17552981486628181331&as_sdt=5"
       },
-      "pdf": "papers/jpcs-photonic-defect-2017.pdf"
+      "pdf": "papers/jpcs-photonic-defect-2017.pdf",
+      "biblio": {
+        "authors": [
+          "Romanova, V A",
+          "Somov, P A",
+          "Matyushkin, L. B."
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "917",
+        "pages": "062049",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-cspbbr3-layerbylayer-2017",
@@ -1140,7 +1639,8 @@
         },
         "en": {
           "title": "Layer-by-layer deposition of nanostructured CsPbBr₃ perovskite thin films",
-          "venue": "Journal of Physics: Conference Series, 917(5), 052023"
+          "venue": "Journal of Physics: Conference Series, 917(5), 052023",
+          "abstract": "Layer-by-layer deposition of nanostructured perovskites cesium lead halide thin films is described. The method of deposition is based on alternate immersion of the substrate in the precursor solutions or colloidal solution of nanocrystals and methyl acetate/lead nitrate solution using the device for deposition of films by SILAR and dip-coating techniques. An example of obtaining a photosensitive structure based on nanostructures of ZnO nanowires and layers of CsPbBr₃ nanocrystals is also shown."
         }
       },
       "lang_of_work": "en",
@@ -1151,7 +1651,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=30607178",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6852998985145593749&as_sdt=5"
       },
-      "pdf": "papers/jpcs-cspbbr3-layerbylayer-2017.pdf"
+      "pdf": "papers/jpcs-cspbbr3-layerbylayer-2017.pdf",
+      "biblio": {
+        "authors": [
+          "Reshetnikova, A A",
+          "Matyushkin, L. B.",
+          "Andronov, A A",
+          "Sokolov, V S",
+          "Aleksandrova, O A",
+          "Moshnikov, V A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "917",
+        "pages": "052023",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "eiconrus-zno-spray-2017",
@@ -1165,7 +1679,8 @@
         },
         "en": {
           "title": "ZnO and aluminium doped ZnO thin films synthesis by ultrasonic spray pyrolysis technique",
-          "venue": "IEEE EIConRus 2017, pp. 1391–1393"
+          "venue": "IEEE EIConRus 2017, pp. 1391–1393",
+          "abstract": "Zinc oxide films and aluminum doped zinc oxide films were prepared by specially designed apparatus for ultrasonic spray pyrolysis. Atomization of precursor solution was produced using an ultrasonic transducer at resonant frequency 1.7 ± 0.085 MHz. The resulting films thickness is less than 400 nm, average roughness is about 40 nm, and transmittance is more than 85 % in the visible range. Undoped zinc oxide films also showed piezoelectric properties, which proved with piezoresponse force microscopy. The average sheet resistance of aluminum doped zinc oxide films is 200 kOhm. The surface of thin films is smooth, zinc oxide grains have a small size dispersion."
         }
       },
       "lang_of_work": "en",
@@ -1178,7 +1693,17 @@
       },
       "aliases": [
         "eiconrus-zno-azo-2017"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Fedoseev, Alexander G.",
+          "Lashkova, Natalia A.",
+          "Matyushkin, L. B."
+        ],
+        "container": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)",
+        "pages": "1391-1393",
+        "kind": "proceedings-article"
+      }
     },
     {
       "id": "eiconrus-metal-oxide-2017",
@@ -1192,7 +1717,8 @@
         },
         "en": {
           "title": "Metal oxide film formation from coordination complex solutions by surface layer-by-layer chemical deposition technique",
-          "venue": "IEEE EIConRus 2017, pp. 1416–1418"
+          "venue": "IEEE EIConRus 2017, pp. 1416–1418",
+          "abstract": "The layer-by-layer deposition technique for metal oxide thin films from solutions of complex compounds is proposed and considered by examples of copper and titanium oxides from ammonia copper and titanium citrate-peroxide complexes as sources respectively. The films were deposited on glass substrates and flexible substrates made of polyester. The resulting films were investigated by atomic force microscopy and transmission spectroscopy. For both materials the grain structure is obtained, measured energy gap values (3.2 eV for titania and 2.1 eV for copper(I) oxide) are in agreement with literature data."
         }
       },
       "lang_of_work": "en",
@@ -1202,6 +1728,16 @@
         "researchgate": "https://www.researchgate.net/publication/316905088",
         "elibrary": "https://www.elibrary.ru/item.asp?id=31022091",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6914734476885426223&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Reshetnikova, Alena A.",
+          "Matyushkin, L. B.",
+          "Andronov, Andrey O."
+        ],
+        "container": "2017 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus)",
+        "pages": "1416-1418",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -1234,7 +1770,8 @@
         },
         "en": {
           "title": "Fabrication of one-dimensional photonic crystals by sol-gel method",
-          "venue": "IEEE EIConRusNW 2016, pp. 47–50"
+          "venue": "IEEE EIConRusNW 2016, pp. 47–50",
+          "abstract": "One-dimensional multilayer structures of periodically alternating low refractive index (silicon oxide) and high refractive index (titanium oxide) materials have been deposited by sol-gel spin-coating. These structures have been characterized by atomic force microscopy, ellipsometry and visible-near IR spectroscopy with different angles of incident light falling."
         }
       },
       "lang_of_work": "en",
@@ -1248,7 +1785,16 @@
       },
       "aliases": [
         "elconrusnw-photonic-crystals-2016"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Ilinykh, V. A.",
+          "Matyushkin, L. B."
+        ],
+        "container": "2016 IEEE NW Russia Young Researchers in Electrical and Electronic Engineering Conference (EIConRusNW)",
+        "pages": "47-50",
+        "kind": "proceedings-article"
+      }
     },
     {
       "id": "jpcs-photonic-predicted-2016",
@@ -1262,7 +1808,8 @@
         },
         "en": {
           "title": "Sol-gel fabrication of one-dimensional photonic crystals with predicted transmission spectra",
-          "venue": "Journal of Physics: Conference Series, 741(1), 012008"
+          "venue": "Journal of Physics: Conference Series, 741(1), 012008",
+          "abstract": "One-dimensional multilayer structures of periodically alternating low refractive index (silica) and high refractive index (titania) materials have been deposited by sol-gel spincoating. Experimental spectra of the structures are in agreement with spectra calculated by transfer matrix technique. As an example, theoretical and experimental spectra with a stop band corresponding 600 nm-reflection are shown."
         }
       },
       "lang_of_work": "en",
@@ -1273,7 +1820,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652566",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9198253730507523342&as_sdt=5"
       },
-      "pdf": "papers/jpcs-photonic-predicted-2016.pdf"
+      "pdf": "papers/jpcs-photonic-predicted-2016.pdf",
+      "biblio": {
+        "authors": [
+          "Ilinykh, V A",
+          "Matyushkin, L. B."
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "741",
+        "pages": "012008",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-segmented-flow-2016",
@@ -1288,7 +1845,8 @@
         "en": {
           "title": "Segmented flow reactor for synthesis of quantum dot nanocrystals and plasmonic nanoparticles",
           "venue": "Journal of Physics: Conference Series, 741(1), 012026",
-          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov"
+          "description": "RC Mbwahnche, LB Matyushkin, OA Ryzhov, OA Aleksandrova, VA Moshnikov",
+          "abstract": "This research presents an automated method of synthesizing semiconductor and metal nanoparticles using flow rector synthesis as a new alternative to the batch method of synthesizing nanoparticles. Experiments were carried out to determine the optimal flow rates of reagents droplets. The reactor was successfully applied to the synthesis of colloidal solutions of semiconductor (CdSe) and metal (Ag) nanoparticles. This instrument is applicable both in material science laboratories and in industry."
         }
       },
       "lang_of_work": "en",
@@ -1302,7 +1860,20 @@
       "aliases": [
         "jpcs-spbopen-flow-reactor-2016"
       ],
-      "pdf": "papers/jpcs-segmented-flow-2016.pdf"
+      "pdf": "papers/jpcs-segmented-flow-2016.pdf",
+      "biblio": {
+        "authors": [
+          "Mbwahnche, R C",
+          "Matyushkin, L. B.",
+          "Ryzhov, O A",
+          "Aleksandrova, O A",
+          "Moshnikov, V A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "741",
+        "pages": "012026",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-capillary-flow-2016",
@@ -1316,7 +1887,8 @@
         },
         "en": {
           "title": "Controlling of immiscible liquids fluid in a capillary reactor — from continuous to segmented flow",
-          "venue": "Journal of Physics: Conference Series, 769(1), 012035"
+          "venue": "Journal of Physics: Conference Series, 769(1), 012035",
+          "abstract": "Experimental variation of the droplets form in the flow of immiscible fluids in a capillary with the inner diameter of 0,9 mm is presented. The possibility of the transition from continuous to segmented flow by varying the velocity of precursors and carrier liquids is demonstrated. It is shown that the rate of variation of one precursor in respect to other makes it possible to vary the ratio of mixing components. Simulation results for Ψ-shaped mixer in COMSOL Multiphysics software are also presented."
         }
       },
       "lang_of_work": "en",
@@ -1327,7 +1899,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=29470091",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4158443697612106300&as_sdt=5"
       },
-      "pdf": "papers/jpcs-capillary-flow-2016.pdf"
+      "pdf": "papers/jpcs-capillary-flow-2016.pdf",
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Mbwahnche, R C",
+          "Ryzhov, O A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "769",
+        "pages": "012035",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "butlerov-zno-2015",
@@ -1364,7 +1947,8 @@
         },
         "en": {
           "title": "Preparation of cadmium selenide colloidal quantum dots in non-coordinating solvent octadecene",
-          "venue": "Journal of Physics: Conference Series, 661(1), 012033"
+          "venue": "Journal of Physics: Conference Series, 661(1), 012033",
+          "abstract": "Nearly monodisperse cadmium selenide quantum dots (QDs) were synthesized in non-coordinating solvent octadecene through phosphine-free method using oleic acid as surfactant. Selenium powder suspension in octadecene obtained by ultrasound processing was used as one of precursor solutions. Influence of multiple selenium precursor injections on nanocrystal growth process was investigated. Nanoparticles were characterized by means of absorption and photoluminescence spectroscopies."
         }
       },
       "lang_of_work": "en",
@@ -1375,7 +1959,20 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652586",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17984523210686664007&as_sdt=5"
       },
-      "pdf": "papers/jpcs-cdse-octadecene-2015.pdf"
+      "pdf": "papers/jpcs-cdse-octadecene-2015.pdf",
+      "biblio": {
+        "authors": [
+          "Mazing, D S",
+          "Brovko, A M",
+          "Matyushkin, L. B.",
+          "Aleksandrova, O A",
+          "Moshnikov, V A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "661",
+        "pages": "012033",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "eiconrusnw-flow-reactor-2015",
@@ -1389,7 +1986,8 @@
         },
         "en": {
           "title": "A flow reactor for synthesis of nanoparticles with a system of optical diagnostics",
-          "venue": "IEEE EIConRusNW 2015, pp. 12–12"
+          "venue": "IEEE EIConRusNW 2015, pp. 12–12",
+          "abstract": "We propose a method of high-temperature synthesis of nanoparticles in a flow reactor as replacement for popular \"hot injection\" synthesis of semiconductor nanocrystals in a glass flask. The main advantages are possibility of continuous nanoparticles production, great technique flexibility for different materials and lower cost of the final products in comparison with currently applied methods."
         }
       },
       "lang_of_work": "en",
@@ -1399,6 +1997,17 @@
         "researchgate": "https://www.researchgate.net/publication/283829683",
         "elibrary": "https://www.elibrary.ru/item.asp?id=23973209",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17089863352094157896&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Aleksandrova, O.A.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V.A.",
+          "Ryzhov, O.A."
+        ],
+        "container": "2015 IEEE NW Russia Young Researchers in Electrical and Electronic Engineering Conference (EIConRusNW)",
+        "pages": "12-12",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -1413,7 +2022,8 @@
         },
         "en": {
           "title": "The flow reactor system for in-line synthesis of semiconductor nanoparticle",
-          "venue": "Journal of Physics: Conference Series, 643(1), 012016"
+          "venue": "Journal of Physics: Conference Series, 643(1), 012016",
+          "abstract": "A flow reactor nanoparticle synthesis technique is proposed as replacement for «hot injection» synthesis of semiconductor nanocrystals in a glass flask. The main advantages are possibility of continuous nanoparticles production, technology flexibility and lower cost of the final products in comparison with currently applied methods."
         }
       },
       "lang_of_work": "en",
@@ -1425,7 +2035,17 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652576",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5645210986178568288&as_sdt=5"
       },
-      "pdf": "papers/jpcs-flow-reactor-inline-2015.pdf"
+      "pdf": "papers/jpcs-flow-reactor-inline-2015.pdf",
+      "biblio": {
+        "authors": [
+          "Ryzhov, O A",
+          "Matyushkin, L. B."
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "643",
+        "pages": "012016",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "univ-sci-journal-flow-reactor-2015",
@@ -1465,7 +2085,8 @@
         },
         "en": {
           "title": "Synthesis of transition metal doped zinc selenide nanoparticles for bioimaging",
-          "venue": "IEEE Photonics North 2015"
+          "venue": "IEEE Photonics North 2015",
+          "abstract": "Due to tunable luminescence and absorption spectra, high quantum yield, compatibility with various technologies and materials colloidal quantum dots (QDs) are attracting much interest in various fields of science and engineering, such as light emitting devices, photovoltaics and catalysis. Because of superior photostability compared to organic fluorophores and wide possibilities for chemical modification and bioconjugation colloidal nanocrystals are well suited for bioimaging. In this respect another advantageous feature of QDs is the extensive absorption spectrum that allows performing multicolor detection using one excitation source. The most common material for preparation of visible light emitting QDs is CdSe. Being an important issue for safety of QDs application (especially for biomedical studies) cytotoxicity of cadmium leads to development of colloidal QDs emitting in visible range, which do not have highly toxic elements in their composition. One of such material groups is zinc chalcogenides (ZnS, ZnSe) doped with 3d transition metal atoms. Doping shifts UV-blue photoluminescence maximum of the host material to longer wavelengths leading to green emission in the case of copper dopant and yellow to orange luminescence for manganese-doped nanocrystals. Despite certain difficulties with emission band tunability and larger full width at half maximum parameter such quantum dots retain many advantageous features of cadmium chalcogenide QDs such as high quantum yield and small hydrodynamic size. Other characteristic features are: a large Stokes shift and a higher thermal stability of photoluminescence. Colloidal QDs of ZnSe doped with Mn²⁺ were synthesized in aqueous solution employing co-nucleation doping strategy. Nanocrystals exhibit strong photoluminescence under UV excitation with maximum near wavelength of 600 nm which is ascribed to radiative relaxation via Mn²⁺ d-orbital states inside host bandgap. Samples were characterized by means of X-ray diffraction analysis, photoluminescence and absorption spectroscopy (Fig. 1). In order to secure dopant ions inside the nanocrystal and increase quantum yield ZnS shell was deposited using thiourea as a source of sulfur species."
         }
       },
       "lang_of_work": "en",
@@ -1476,6 +2097,20 @@
         "researchgate2": "https://www.researchgate.net/publication/316882909",
         "elibrary": "https://www.elibrary.ru/item.asp?id=42765181",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15308142125896201840&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Aleksandrova, O. A.",
+          "Mazing, D. S.",
+          "Matyushkin, L. B.",
+          "Musikhin, S. F.",
+          "Nikiforova, A. V.",
+          "Moshnikov, V. A.",
+          "Barzda, V."
+        ],
+        "container": "2015 Photonics North",
+        "pages": "1-1",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -1490,7 +2125,8 @@
         },
         "en": {
           "title": "Synthesis of colloidal quantum dots for medical and biological scientific research",
-          "venue": "IEEE Forum 2015, pp. 107–108"
+          "venue": "IEEE Forum 2015, pp. 107–108",
+          "abstract": "A review of the up-to-date methods of semiconductor colloidal quantum dots synthesis for application in biology and medicine as well as summary of sensors based on colloidal quantum dots and metal nanoparticles are presented. The principles of sensors interaction with biological objects are examined."
         }
       },
       "lang_of_work": "en",
@@ -1500,6 +2136,23 @@
         "researchgate": "https://www.researchgate.net/publication/304413199",
         "elibrary": "https://www.elibrary.ru/item.asp?id=27009397",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17336030430597118183&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Drobintseva, A. O.",
+          "Kvetnoy, I. M.",
+          "Krylova, Y. S.",
+          "Polyakova, V. O.",
+          "Moshnikov, V. A.",
+          "Musikhin, S. F.",
+          "Aleksandrova, O. A.",
+          "Mazing, D. S.",
+          "Matyushkin, L. B.",
+          "Ryzhov, O. A."
+        ],
+        "container": "2015 IV Forum Strategic Partnership of Universities and Enterprises of Hi-Tech Branches (Science. Education. Innovations)",
+        "pages": "107-108",
+        "kind": "proceedings-article"
       }
     },
     {
@@ -1517,7 +2170,8 @@
         "en": {
           "title": "The investigation of the luminescence properties of colloidal quantum dots based on cadmium chalcogenides",
           "venue": "Functional Materials, 21(2), 186–189",
-          "description": "II Mikhailov, SA Tarasov, AV Solomonov, LB Matyushkin, DS Mazing"
+          "description": "II Mikhailov, SA Tarasov, AV Solomonov, LB Matyushkin, DS Mazing",
+          "abstract": "Samples of cadmium selenide colloidal quantum dots (CQDs) prepared in water and organic media were studied. The possibility to control luminescence peak position through technological parameters variation during synthesis process was shown and different luminescence mechanisms in CQDs were demonstrated. Cadmium selenide CQDs with inorganic shell of cadmium sulfide were synthesized and it allowed raising emission intensity several times."
         }
       },
       "lang_of_work": "en",
@@ -1527,6 +2181,20 @@
         "researchgate": "https://www.researchgate.net/publication/263965630",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24062157",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12041279787626102384&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Mikhailov, I. I.",
+          "Tarasov, S. A.",
+          "Solomonov, A. V.",
+          "Matyushkin, L. B.",
+          "Mazing, D. S."
+        ],
+        "container": "Functional Materials",
+        "volume": "21",
+        "issue": "2",
+        "pages": "186-189",
+        "kind": "journal-article"
       }
     },
     {
@@ -1570,7 +2238,8 @@
         },
         "en": {
           "title": "Synthesis of core-shell Ag/SiO₂ nanoparticles for SPASER structures",
-          "venue": "Journal of Physics: Conference Series, 541(1), 012015"
+          "venue": "Journal of Physics: Conference Series, 541(1), 012015",
+          "abstract": "Aqueous solution of colloidal silver was prepared using a method based on a chemical reaction of silver nitrate water-soluble salts and sodium borohydride. Synthesized silver nanoparticles were analyzed by transmission optical spectroscopy. Silica shells were formed by the modified Stöber process. During shell formation nanoparticles were also doped by organic dye (Rhodamine 6G). The resulting structures were deposited on silicon substrates. Half of the samples were annealed at 300°C, and the other half was just dried. Processed samples were investigated by atomic force microscopy."
         }
       },
       "lang_of_work": "en",
@@ -1581,7 +2250,18 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=23997544",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15143046332183427803&as_sdt=5"
       },
-      "pdf": "papers/jpcs-ag-spaser-2014.pdf"
+      "pdf": "papers/jpcs-ag-spaser-2014.pdf",
+      "biblio": {
+        "authors": [
+          "Viazmitinov, D V",
+          "Matyushkin, L. B.",
+          "Maximov, A I"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "541",
+        "pages": "012015",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-alumina-optical-2014",
@@ -1595,7 +2275,8 @@
         },
         "en": {
           "title": "Optical transmission spectra of porous alumina membranes with different pore size",
-          "venue": "Journal of Physics: Conference Series, 572(1), 012031"
+          "venue": "Journal of Physics: Conference Series, 572(1), 012031",
+          "abstract": "Membranes of nanoporous aluminum oxide (alumina) have been obtained using the electrochemical etching technique by varying technological regimes. The surface morphology and cleavages of obtained experimental samples are studied using scanning electron microscopy (SEM). The optical transmission measurements were performed on a spectrophotometer in the wavelength range of 190-1000 nm. It is possible to determine the average size and the dispersion of the pore diameter by UV- visible transmittance spectrum measuring."
         }
       },
       "lang_of_work": "en",
@@ -1606,7 +2287,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020501",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10168283813925812199&as_sdt=5"
       },
-      "pdf": "papers/jpcs-alumina-optical-2014.pdf"
+      "pdf": "papers/jpcs-alumina-optical-2014.pdf",
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Muratova, E N",
+          "Spivak, J M",
+          "Shimanova, V V",
+          "Korlyakova, S A",
+          "Moshnikov, V A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "572",
+        "pages": "012031",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-cdse-media-2014",
@@ -1620,7 +2315,8 @@
         },
         "en": {
           "title": "The study of CdSe colloidal quantum dots synthesized in aqueous and organic media",
-          "venue": "Journal of Physics: Conference Series, 572(1), 012029"
+          "venue": "Journal of Physics: Conference Series, 572(1), 012029",
+          "abstract": "The samples of CdSe colloidal quantum dots (CQDs) synthesized in aqueous and organic media are studied. The possibility of luminescence peak position control depending on nanoparticle growth process is demonstrated. The samples synthesized in organic medium revealed the luminescence color variation effect with nanoparticle growth. The relation of this effect with processes of nucleation and defect formation in nanoparticles is considered. The CQDs of CdSe coated with CdS shell are fabricated. The use of inorganic shell can provide a double increase of the luminescence quantum yield."
         }
       },
       "lang_of_work": "en",
@@ -1631,7 +2327,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020554",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9976243074486254143&as_sdt=5"
       },
-      "pdf": "papers/jpcs-cdse-media-2014.pdf"
+      "pdf": "papers/jpcs-cdse-media-2014.pdf",
+      "biblio": {
+        "authors": [
+          "Mikhailov, I I",
+          "Tarasov, S A",
+          "Solomonov, A V",
+          "Aleksandrova, O A",
+          "Matyushkin, L. B.",
+          "Mazing, D S"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "572",
+        "pages": "012029",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "jpcs-cdse-aquatic-2014",
@@ -1645,7 +2355,8 @@
         },
         "en": {
           "title": "Synthesis of cadmium selenide colloidal quantum dots in aquatic medium",
-          "venue": "Journal of Physics: Conference Series, 572(1), 012028"
+          "venue": "Journal of Physics: Conference Series, 572(1), 012028",
+          "abstract": "Cadmium selenide nanocrystals were prepared in water phase through facile wet chemistry technique with thioglycolic acid (TGA) acting as capping agent. Structures were characterized using X-ray diffraction (XRD), UV-vis absorption and photoluminescence spectroscopies. Depending on synthesis conditions nanoparticles exhibit photoluminescence with maximum in the region of 580 – 680 nm. Influence of technological parameters and component concentrations on nanocrystals average size and properties was studied."
         }
       },
       "lang_of_work": "en",
@@ -1657,7 +2368,21 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020559",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17417867607956694071&as_sdt=5"
       },
-      "pdf": "papers/jpcs-cdse-aquatic-2014.pdf"
+      "pdf": "papers/jpcs-cdse-aquatic-2014.pdf",
+      "biblio": {
+        "authors": [
+          "Mazing, D S",
+          "Matyushkin, L. B.",
+          "Aleksandrova, O A",
+          "Mikhailov, I I",
+          "Moshnikov, V A",
+          "Tarasov, S A"
+        ],
+        "container": "Journal of Physics: Conference Series",
+        "volume": "572",
+        "pages": "012028",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "biotehnosfera-sensors-2013",
@@ -1748,12 +2473,14 @@
         "ru": {
           "title": "Морфология, оптические и адсорбционные свойства слоев оксидов меди, осажденных из растворов комплексных соединений",
           "venue": "Физика и техника полупроводников, 51 (5), 615",
-          "description": "Л.Б. Матюшкин, А. Решетникова, А.О. Андронов и др., В.А. Мошников"
+          "description": "Л.Б. Матюшкин, А. Решетникова, А.О. Андронов и др., В.А. Мошников",
+          "abstract": "Рассмотрена методика синтеза газочувствительных слоев оксидов меди, полученных путем послойного осаждения на стеклянные и полимерные подложки по реакции окисления молекул аммиачного комплекса меди перекисью водорода. Слои, синтезированные при различном количестве циклов наслаивания, исследованы методами атомно-силовой микроскопии и спектроскопии пропускания (300-1000 нм). Форма спектров указывает на смешанный характер оксида с преобладанием оксида меди (I) Cu₂O с соответствующей шириной запрещенной зоны 2.1 эВ. Слои обладают сплошной зернистой структурой. Определенная химическим индикаторным методом поверхностная концентрация бренстедовских кислотных центров адсорбции с pKa~ 2.5 (ОН-групп кислотного характера) составляет для исходных пленок 560 мкмоль/м2 и возрастает в три раза при термическом воздействии 80oC в течение 30 мин. Полученные результаты представляют интерес в использовании описанной технологии для создания активных слоев оксида меди в газочувствительных сенсорах, работающих при комнатной температуре."
         },
         "en": {
           "title": "Morphology, Optical, and Adsorption Properties of Copper-Oxide Layers Deposited from Complex Compound Solutions",
           "venue": "Semiconductors, 51(5), 586–590",
-          "description": "LB Matyushkin, A Reshetnikova, AO Andronov et al., VA Moshnikov"
+          "description": "LB Matyushkin, A Reshetnikova, AO Andronov et al., VA Moshnikov",
+          "abstract": "A technique for synthesizing gas-sensing copper-oxide layers by layer-by-layer deposition onto glass and plastic substrates is considered. Deposition is based on the oxidation of a copper–ammonia complex by hydrogen peroxide. Layers synthesized at various numbers of deposition cycles are studied by atomicforce microscopy and transmission spectroscopy methods (300–1000 nm). The spectral shape indicates the mixed nature of the oxide with predominant copper oxide (I) Cu₂O with a corresponding band gap of 2.1 eV. The layers have a continuous granular structure. The surface concentration of Brönsted acid adsorption sites with pK a ≈ 2.5 (OH acid groups), determined by the indicator method, is 560 μmol/m2 for the initial films, and threefold increases after heat treatment at 80°C for 30 min. The results obtained are interesting for the use of the described technology for fabricating copper-oxide active layers in gas-sensing sensors operating at room temperature."
         }
       },
       "lang_of_work": "en",
@@ -1766,6 +2493,22 @@
         "elibrary": "https://www.elibrary.ru/item.asp?id=31043094",
         "elibrary_ru": "https://www.elibrary.ru/item.asp?id=29404912",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2804605330249759206&as_sdt=5"
+      },
+      "biblio": {
+        "authors": [
+          "Matyushkin, L. B.",
+          "Reshetnikova, A. A.",
+          "Andronov, A. O.",
+          "Afonicheva, P. K.",
+          "Myakin, S. V.",
+          "Permiakov, N. V.",
+          "Moshnikov, V. A."
+        ],
+        "container": "Semiconductors",
+        "volume": "51",
+        "issue": "5",
+        "pages": "586-590",
+        "kind": "journal-article"
       }
     },
     {
@@ -2118,7 +2861,20 @@
         "researchgate": "https://www.researchgate.net/publication/285153005",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24499548"
       },
-      "pdf": "papers/altenergo-pbsox-2015.pdf"
+      "pdf": "papers/altenergo-pbsox-2015.pdf",
+      "biblio": {
+        "authors": [
+          "Maraeva, E. V.",
+          "Maximov, A. I.",
+          "Matyushkin, L. B.",
+          "Moshnikov, V. A.",
+          "Shupta, A. A."
+        ],
+        "container": "Alternative Energy and Ecology (ISJAEE)",
+        "issue": "19",
+        "pages": "128-135",
+        "kind": "journal-article"
+      }
     },
     {
       "id": "biotekh-qd-biomedicine-2015",
@@ -2858,7 +3614,8 @@
         },
         "en": {
           "title": "Growth characteristics of nanostructured lead sulfide films prepared by chemical bath deposition",
-          "venue": "IEEE EIConRusNW 2016, pp. 9–11"
+          "venue": "IEEE EIConRusNW 2016, pp. 9–11",
+          "abstract": "Processes of lead sulfide film forming from aqueous solutions are considered. Two main stages of such film growth are highlighted. It is shown that the first stage can be used to produce arrays of lead sulfide quantum dots."
         }
       },
       "lang_of_work": "en",
@@ -2871,7 +3628,16 @@
       },
       "aliases": [
         "elconrusnw-pbs-cbd-2016"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Afonicheva, P. K.",
+          "Matyushkin, L. B."
+        ],
+        "container": "2016 IEEE NW Russia Young Researchers in Electrical and Electronic Engineering Conference (EIConRusNW)",
+        "pages": "9-11",
+        "kind": "proceedings-article"
+      }
     },
     {
       "id": "eiconrusnw-cds-silar-2016",
@@ -2885,7 +3651,8 @@
         },
         "en": {
           "title": "Cadmium sulfide thin films produced by successive ionic layer adsorption and reaction method",
-          "venue": "IEEE EIConRusNW 2016, pp. 19–22"
+          "venue": "IEEE EIConRusNW 2016, pp. 19–22",
+          "abstract": "Cadmium sulfide thin films have been deposited by successive ionic layer adsorption and reaction method from ethanol-aqueous solutions. The films were deposited on glass substrates. The cadmium sulfide films have been characterized by transmission spectra. Thicknesses of layers were found by AFM microscopy of partially etched film."
         }
       },
       "lang_of_work": "en",
@@ -2898,7 +3665,17 @@
       },
       "aliases": [
         "elconrusnw-cds-silar-2016"
-      ]
+      ],
+      "biblio": {
+        "authors": [
+          "Andronov, A. O.",
+          "Matyushkin, L. B.",
+          "Hondryukov, D. V."
+        ],
+        "container": "2016 IEEE NW Russia Young Researchers in Electrical and Electronic Engineering Conference (EIConRusNW)",
+        "pages": "19-22",
+        "kind": "proceedings-article"
+      }
     }
   ],
   "press": [
