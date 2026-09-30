@@ -2945,6 +2945,12 @@
       "lang": "ru",
       "url": "https://etu.ru/ru/gazeta-elektrik/arhiv/vypuski-gazety-elektrik-za-2018-god/vypusk-n-15-oktyabr-2018",
       "i18n": {
+        "en": {
+          "outlet": "Elektrik, the newspaper of ETU “LETI”, No. 15 (3222), pp. 1–2",
+          "title": "A Look Beyond the Horizon",
+          "description": "In Russian. On the defense of my PhD thesis: the setups for nanoparticle synthesis, the patents, reviews from the Netherlands and Belarus, and my poetry book “A/Ya”.",
+          "outlet_short": "the LETI newspaper Elektrik"
+        },
         "ru": {
           "outlet": "Газета «Электрик» (СПбГЭТУ «ЛЭТИ»), № 15 (3222), с. 1–2",
           "title": "Заглянуть за горизонт",
@@ -2961,6 +2967,11 @@
       "lang": "ru",
       "url": "https://etu.ru/ru/gazeta-elektrik/arhiv/vypuski-gazety-elektrik-za-2014-god/vypusk-n-1-yanvar-2014",
       "i18n": {
+        "en": {
+          "outlet": "Elektrik, the newspaper of ETU “LETI”, No. 1 (3135), p. 2",
+          "title": "The Fifth Element, in the Fifth Building",
+          "description": "In Russian. A report from the youth school “Physics and Technology of Micro- and Nanosystems” on the synthesis of colloidal quantum dots, with the photo “PhD student Lev Matyushkin at work”."
+        },
         "ru": {
           "outlet": "Газета «Электрик» (СПбГЭТУ «ЛЭТИ»), № 1 (3135), с. 2",
           "title": "Пятый элемент — в пятом корпусе",
