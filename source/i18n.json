@@ -494,7 +494,9 @@
         "citeTitle": "כיצד לצטט",
         "reprintedIn": "הודפס מחדש ב",
         "pressTitle": "בעיתונות",
-        "archiveCopy": "עותק בארכיון"
+        "archiveCopy": "עותק בארכיון",
+        "pressOriginal": "המקור",
+        "defenseCoverage": "על ההגנה כתב"
       },
       "technology": {
         "pageTitle": "טכנולוגיה",
@@ -623,7 +625,9 @@
         "citeTitle": "Comment citer",
         "reprintedIn": "Réimprimé dans",
         "pressTitle": "Dans la presse",
-        "archiveCopy": "copie archivée"
+        "archiveCopy": "copie archivée",
+        "pressOriginal": "original",
+        "defenseCoverage": "La soutenance a été relatée par"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -752,7 +756,9 @@
         "citeTitle": "引用格式",
         "reprintedIn": "转载于",
         "pressTitle": "媒体报道",
-        "archiveCopy": "存档副本"
+        "archiveCopy": "存档副本",
+        "pressOriginal": "原文",
+        "defenseCoverage": "报道答辩的媒体："
       },
       "technology": {
         "pageTitle": "技术",
@@ -882,7 +888,9 @@
         "citeTitle": "引用方法",
         "reprintedIn": "再録",
         "pressTitle": "メディア掲載",
-        "archiveCopy": "アーカイブ"
+        "archiveCopy": "アーカイブ",
+        "pressOriginal": "原文",
+        "defenseCoverage": "学位審査を報じたメディア："
       },
       "technology": {
         "pageTitle": "テクノロジー",
@@ -1012,7 +1020,9 @@
         "citeTitle": "Cómo citar",
         "reprintedIn": "Reimpreso en",
         "pressTitle": "En la prensa",
-        "archiveCopy": "copia archivada"
+        "archiveCopy": "copia archivada",
+        "pressOriginal": "original",
+        "defenseCoverage": "Sobre la defensa escribió"
       },
       "technology": {
         "pageTitle": "Tecnología",
@@ -1142,7 +1152,9 @@
         "citeTitle": "Como citar",
         "reprintedIn": "Reimpresso em",
         "pressTitle": "Na imprensa",
-        "archiveCopy": "cópia arquivada"
+        "archiveCopy": "cópia arquivada",
+        "pressOriginal": "original",
+        "defenseCoverage": "Sobre a defesa escreveu"
       },
       "technology": {
         "pageTitle": "Tecnologia",
@@ -1272,7 +1284,9 @@
         "citeTitle": "Zitieren",
         "reprintedIn": "Nachgedruckt in",
         "pressTitle": "In der Presse",
-        "archiveCopy": "archivierte Kopie"
+        "archiveCopy": "archivierte Kopie",
+        "pressOriginal": "Original",
+        "defenseCoverage": "Über die Verteidigung berichtete"
       },
       "technology": {
         "pageTitle": "Technologie",
@@ -1402,7 +1416,9 @@
         "citeTitle": "인용 방법",
         "reprintedIn": "재수록",
         "pressTitle": "언론 보도",
-        "archiveCopy": "보관 사본"
+        "archiveCopy": "보관 사본",
+        "pressOriginal": "원문",
+        "defenseCoverage": "학위 심사를 보도한 매체:"
       },
       "technology": {
         "pageTitle": "기술",
@@ -1532,7 +1548,9 @@
         "citeTitle": "كيفية الاستشهاد",
         "reprintedIn": "أعيد نشره في",
         "pressTitle": "في الصحافة",
-        "archiveCopy": "نسخة مؤرشفة"
+        "archiveCopy": "نسخة مؤرشفة",
+        "pressOriginal": "الأصل",
+        "defenseCoverage": "كتبت عن المناقشة"
       },
       "technology": {
         "pageTitle": "التقنية",
@@ -1662,7 +1680,9 @@
         "citeTitle": "Come citare",
         "reprintedIn": "Ristampato in",
         "pressTitle": "Sulla stampa",
-        "archiveCopy": "copia archiviata"
+        "archiveCopy": "copia archiviata",
+        "pressOriginal": "originale",
+        "defenseCoverage": "Della discussione ha scritto"
       },
       "technology": {
         "pageTitle": "Tecnologia",
