@@ -1123,7 +1123,8 @@
         "researchgate": "https://www.researchgate.net/publication/321257046",
         "elibrary": "https://www.elibrary.ru/item.asp?id=30644899",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17552981486628181331&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-photonic-defect-2017.pdf"
     },
     {
       "id": "jpcs-cspbbr3-layerbylayer-2017",
@@ -1269,7 +1270,8 @@
         "researchgate": "https://www.researchgate.net/publication/308182881",
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652566",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9198253730507523342&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-photonic-predicted-2016.pdf"
     },
     {
       "id": "jpcs-segmented-flow-2016",
@@ -1297,7 +1299,8 @@
       },
       "aliases": [
         "jpcs-spbopen-flow-reactor-2016"
-      ]
+      ],
+      "pdf": "papers/jpcs-segmented-flow-2016.pdf"
     },
     {
       "id": "jpcs-capillary-flow-2016",
@@ -1321,7 +1324,8 @@
         "researchgate": "https://www.researchgate.net/publication/310788894",
         "elibrary": "https://www.elibrary.ru/item.asp?id=29470091",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4158443697612106300&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-capillary-flow-2016.pdf"
     },
     {
       "id": "butlerov-zno-2015",
@@ -1418,7 +1422,8 @@
         "researchgate2": "https://www.researchgate.net/publication/283483325",
         "elibrary": "https://www.elibrary.ru/item.asp?id=26652576",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5645210986178568288&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-flow-reactor-inline-2015.pdf"
     },
     {
       "id": "univ-sci-journal-flow-reactor-2015",
@@ -1573,7 +1578,8 @@
         "researchgate": "https://www.researchgate.net/publication/267396689",
         "elibrary": "https://www.elibrary.ru/item.asp?id=23997544",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15143046332183427803&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-ag-spaser-2014.pdf"
     },
     {
       "id": "jpcs-alumina-optical-2014",
@@ -1648,7 +1654,8 @@
         "researchgate_ru": "https://www.researchgate.net/publication/280490387",
         "elibrary": "https://www.elibrary.ru/item.asp?id=24020559",
         "cited_by": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17417867607956694071&as_sdt=5"
-      }
+      },
+      "pdf": "papers/jpcs-cdse-aquatic-2014.pdf"
     },
     {
       "id": "biotehnosfera-sensors-2013",
