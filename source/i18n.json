@@ -131,7 +131,8 @@
         "colon": ":",
         "offer": "Читать эту страницу по-русски",
         "close": "Закрыть",
-        "qr": "QR-код"
+        "qr": "QR-код",
+        "author": "Лев Матюшкин"
       },
       "home": {
         "bio": "Привет! Меня зовут Лёва Матюшкин. Я исследователь, инженер и поэт.",
@@ -294,7 +295,8 @@
         "colon": ":",
         "offer": "Read this page in English",
         "close": "Close",
-        "qr": "QR code"
+        "qr": "QR code",
+        "author": "Leo Matyushkin"
       },
       "home": {
         "bio": "Hi! My name is Leo Matyushkin. I am a researcher, engineer, and poet.",
