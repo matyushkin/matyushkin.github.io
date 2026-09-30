@@ -95,6 +95,7 @@
     "dribbble": "Dribbble",
     "deviantart": "DeviantArt",
     "coub": "Coub",
+    "flickr": "Flickr",
     "google-scholar": "Google Scholar",
     "researchgate": "ResearchGate",
     "stepik": "Stepik: Online course \"Nanomaterials\"",
@@ -196,7 +197,8 @@
           "youtube-music": "Ютуб Мьюзик",
           "tiktok": "Тикток",
           "livejournal": "Живой Журнал",
-          "coub": "Коуб"
+          "coub": "Коуб",
+          "flickr": "Фликр"
         },
         "issue": "Номер журнала"
       },

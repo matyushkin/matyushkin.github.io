@@ -69,6 +69,11 @@
       "id": "coub",
       "url": "https://coub.com/leva.matyushkin",
       "group": "visual"
+    },
+    {
+      "id": "flickr",
+      "url": "https://www.flickr.com/photos/matyushkin/",
+      "group": "visual"
     }
   ],
   "achievements": [
