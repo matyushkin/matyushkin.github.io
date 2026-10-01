@@ -5,8 +5,16 @@
   <link rel="alternate" type="text/html" href="https://matyushkin.github.io/"/>
   <link rel="self" type="application/atom+xml" href="https://matyushkin.github.io/feed.xml"/>
   <id>https://matyushkin.github.io/</id>
-  <updated>2026-09-30T00:00:00Z</updated>
+  <updated>2026-10-01T00:00:00Z</updated>
   <author><name>Leo Matyushkin</name><email>leva.matyushkin@gmail.com</email></author>
+  <entry>
+    <title xml:lang="en">What the Clip Remembers ? Music Channel Cover System</title>
+    <link rel="alternate" type="text/html" href="https://www.behance.net/gallery/256475761/What-the-Clip-Remembers-Music-Channel-Cover-System"/>
+    <id>https://matyushkin.github.io/art/index.html#behance-256475761</id>
+    <published>2026-09-30T00:00:00Z</published>
+    <updated>2026-09-30T00:00:00Z</updated>
+    <category term="Visual art" label="Изобразительное"/>
+  </entry>
   <entry>
     <title xml:lang="en">Dead Man in the Bookshop</title>
     <link rel="alternate" type="text/html" href="https://matyushkin.github.io/art/music/dead-man-in-the-bookshop/"/>
@@ -260,14 +268,5 @@
     <updated>2018-01-01T00:00:00Z</updated>
     <category term="Literature" label="Литература"/>
     <summary type="text">самиздат</summary>
-  </entry>
-  <entry>
-    <title xml:lang="en">Terahertz Optical Characteristics of Organometallic Lead-Iodide (Bromide) Perovskites and Cesium Lead Halide Nanocrystals</title>
-    <link rel="alternate" type="text/html" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=x0O884MAAAAJ&amp;citation_for_view=x0O884MAAAAJ:vV6vV6tmYwMC"/>
-    <id>https://matyushkin.github.io/science/index.html#irmmw-thz-perovskite-2018</id>
-    <published>2018-01-01T00:00:00Z</published>
-    <updated>2018-01-01T00:00:00Z</updated>
-    <category term="Science" label="Наука"/>
-    <summary type="text">IEEE IRMMW-THz 2018, pp. 1–2</summary>
   </entry>
 </feed>
