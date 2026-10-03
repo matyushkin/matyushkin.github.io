@@ -27,8 +27,8 @@
         "github": "https://github.com/matyushkin/djvu-rs",
         "docs": "https://docs.rs/djvu-rs"
       },
-      "downloads": 8213,
-      "downloads_updated": "2026-10-02",
+      "downloads": 8383,
+      "downloads_updated": "2026-10-03",
       "i18n": {
         "ru": {
           "description": "Чтение, отрисовка и создание файлов DjVu на чистом Rust. Конвертирует в PDF, EPUB, TIFF, PNG и текст. Есть командная строка, сборка под WebAssembly и привязки для Python."
@@ -67,7 +67,7 @@
           "description": "قراءة ملفات DjVu وعرضها وتحويلها وإنشاؤها بلغة Rust خالصة. يحوّل إلى PDF وEPUB وTIFF وPNG والنص. يتضمن أداة سطر أوامر وإصدارًا لـ WebAssembly وروابط لـ Python."
         }
       },
-      "version": "0.40.0"
+      "version": "0.40.1"
     }
   ],
   "categories": [
