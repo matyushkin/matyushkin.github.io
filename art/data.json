@@ -524,6 +524,144 @@
           "description": "Raccolta di poesie."
         }
       }
+    },
+    {
+      "id": "pervye-vospominaniya-lyudey-2012",
+      "year": 2012,
+      "pdf": "books/pervye-vospominaniya-lyudey-2012.pdf",
+      "cover": "books/covers/pervye-vospominaniya-lyudey-2012.jpg",
+      "pages": 42,
+      "i18n": {
+        "ru": {
+          "title": "«Первые воспоминания людей»",
+          "venue": "самиздат",
+          "description": "Исследование: первые воспоминания людей о мире."
+        },
+        "en": {
+          "title": "«Первые воспоминания людей» [People's First Memories]",
+          "venue": "Self-published",
+          "description": "A study of people's first memories of the world."
+        },
+        "he": {
+          "title": "«Первые воспоминания людей» [הזיכרונות הראשונים של אנשים]",
+          "venue": "הוצאה עצמית",
+          "description": "מחקר על הזיכרונות הראשונים של אנשים מן העולם."
+        },
+        "fr": {
+          "title": "«Первые воспоминания людей» [Les premiers souvenirs des gens]",
+          "venue": "Autoédition",
+          "description": "Une étude des premiers souvenirs que les gens gardent du monde."
+        },
+        "zh": {
+          "title": "«Первые воспоминания людей» [人们的最初记忆]",
+          "venue": "自费出版",
+          "description": "一项关于人们对世界最初记忆的研究。"
+        },
+        "ja": {
+          "title": "«Первые воспоминания людей» [人々の最初の記憶]",
+          "venue": "自費出版",
+          "description": "人々が世界について持つ最初の記憶の研究。"
+        },
+        "es": {
+          "title": "«Первые воспоминания людей» [Los primeros recuerdos de la gente]",
+          "venue": "Autoedición",
+          "description": "Un estudio de los primeros recuerdos que la gente tiene del mundo."
+        },
+        "pt": {
+          "title": "«Первые воспоминания людей» [As primeiras memórias das pessoas]",
+          "venue": "Edição do autor",
+          "description": "Um estudo das primeiras memórias que as pessoas têm do mundo."
+        },
+        "de": {
+          "title": "«Первые воспоминания людей» [Die ersten Erinnerungen der Menschen]",
+          "venue": "Selbstverlag",
+          "description": "Eine Studie über die ersten Erinnerungen der Menschen an die Welt."
+        },
+        "ko": {
+          "title": "«Первые воспоминания людей» [사람들의 첫 기억]",
+          "venue": "자비 출판",
+          "description": "사람들이 세상에 대해 가진 첫 기억에 관한 연구."
+        },
+        "ar": {
+          "title": "«Первые воспоминания людей» [الذكريات الأولى للناس]",
+          "venue": "نشر ذاتي",
+          "description": "دراسة عن أولى ذكريات الناس عن العالم."
+        },
+        "it": {
+          "title": "«Первые воспоминания людей» [I primi ricordi delle persone]",
+          "venue": "Autopubblicazione",
+          "description": "Uno studio sui primi ricordi che le persone hanno del mondo."
+        }
+      }
+    },
+    {
+      "id": "rasskaz-o-vystavke-2010",
+      "year": 2010,
+      "pdf": "books/rasskaz-o-vystavke-2010.pdf",
+      "cover": "books/covers/rasskaz-o-vystavke-2010.jpg",
+      "pages": 73,
+      "i18n": {
+        "ru": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве»",
+          "venue": "самиздат",
+          "description": "Рассказ о выставке и стихи из неё."
+        },
+        "en": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Leva Matyushkin's Story of His Exhibition at Zhivoe Prostranstvo]",
+          "venue": "Self-published",
+          "description": "A story of an exhibition, with its poems."
+        },
+        "he": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [סיפורו של ליובה מטיושקין על התערוכה שלו בז׳יבויה פרוסטרנסטבו]",
+          "venue": "הוצאה עצמית",
+          "description": "סיפור על תערוכה, עם השירים שבה."
+        },
+        "fr": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Récit de Leva Matiouchkine sur son exposition à Jivoïe Prostranstvo]",
+          "venue": "Autoédition",
+          "description": "Le récit d’une exposition, avec ses poèmes."
+        },
+        "zh": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [廖瓦·马秋什金讲述他在“活空间”的展览]",
+          "venue": "自费出版",
+          "description": "一次展览的故事，附展中的诗。"
+        },
+        "ja": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [リョーヴァ・マチューシキンが語る「生きた空間」での個展]",
+          "venue": "自費出版",
+          "description": "展覧会の物語と、その詩。"
+        },
+        "es": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Relato de Leva Matiushkin sobre su exposición en Zhivoe Prostranstvo]",
+          "venue": "Autoedición",
+          "description": "El relato de una exposición, con sus poemas."
+        },
+        "pt": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Relato de Leva Matiushkin sobre sua exposição no Zhivoe Prostranstvo]",
+          "venue": "Edição do autor",
+          "description": "O relato de uma exposição, com seus poemas."
+        },
+        "de": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Lewa Matjuschkins Bericht über seine Ausstellung im Schiwoje Prostranstwo]",
+          "venue": "Selbstverlag",
+          "description": "Die Geschichte einer Ausstellung, mit ihren Gedichten."
+        },
+        "ko": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [료바 마튜시킨이 들려주는 ‘살아 있는 공간’ 전시 이야기]",
+          "venue": "자비 출판",
+          "description": "한 전시의 이야기와 그 시들."
+        },
+        "ar": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [حكاية ليوفا ماتيوشكين عن معرضه في «جيفويه بروسترانستفو»]",
+          "venue": "نشر ذاتي",
+          "description": "حكاية معرض مع قصائده."
+        },
+        "it": {
+          "title": "«Рассказ Лёвы Матюшкина о своей выставке в Живом пространстве» [Racconto di Leva Matjuškin sulla sua mostra allo Živoe Prostranstvo]",
+          "venue": "Autopubblicazione",
+          "description": "Il racconto di una mostra, con le sue poesie."
+        }
+      }
     }
   ],
   "behance": {
