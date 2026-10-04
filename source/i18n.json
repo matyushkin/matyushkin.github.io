@@ -278,6 +278,15 @@
           "декабря"
         ],
         "behance": "На Бехансе"
+      },
+      "texts": {
+        "profiles": {
+          "telegram": "Телеграм",
+          "vk": "ВК",
+          "livejournal": "Живой журнал",
+          "facebook": "Фейсбук",
+          "twitter": "Твиттер"
+        }
       }
     },
     "en": {
