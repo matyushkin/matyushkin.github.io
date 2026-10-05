@@ -277,7 +277,9 @@
           "ноября",
           "декабря"
         ],
-        "behance": "На Бехансе"
+        "behance": "На Бехансе",
+        "reviewModel": "Рецензия модели {author}",
+        "readInFull": "читать полностью"
       },
       "texts": {
         "profiles": {
@@ -413,7 +415,9 @@
           "November",
           "December"
         ],
-        "behance": "On Behance"
+        "behance": "On Behance",
+        "reviewModel": "Review by the language model {author}",
+        "readInFull": "read in full"
       }
     },
     "he": {
@@ -545,7 +549,9 @@
           "בנובמבר",
           "בדצמבר"
         ],
-        "behance": "ב־Behance"
+        "behance": "ב־Behance",
+        "reviewModel": "ביקורת של מודל השפה {author}",
+        "readInFull": "לקריאה המלאה"
       }
     },
     "fr": {
@@ -677,7 +683,9 @@
           "novembre",
           "décembre"
         ],
-        "behance": "Sur Behance"
+        "behance": "Sur Behance",
+        "reviewModel": "Critique du modèle de langage {author}",
+        "readInFull": "lire en entier"
       }
     },
     "zh": {
@@ -810,7 +818,9 @@
           "12月"
         ],
         "dateFormat": "{y}年{n}月{d}日",
-        "behance": "在 Behance 上查看"
+        "behance": "在 Behance 上查看",
+        "reviewModel": "语言模型 {author} 的书评",
+        "readInFull": "阅读全文"
       }
     },
     "ja": {
@@ -943,7 +953,9 @@
           "12月"
         ],
         "dateFormat": "{y}年{n}月{d}日",
-        "behance": "Behance で見る"
+        "behance": "Behance で見る",
+        "reviewModel": "言語モデル {author} による書評",
+        "readInFull": "全文を読む"
       }
     },
     "es": {
@@ -1076,7 +1088,9 @@
           "diciembre"
         ],
         "dateFormat": "{d} de {m} de {y}",
-        "behance": "En Behance"
+        "behance": "En Behance",
+        "reviewModel": "Reseña del modelo de lenguaje {author}",
+        "readInFull": "leer completo"
       }
     },
     "pt": {
@@ -1209,7 +1223,9 @@
           "dezembro"
         ],
         "dateFormat": "{d} de {m} de {y}",
-        "behance": "No Behance"
+        "behance": "No Behance",
+        "reviewModel": "Resenha do modelo de linguagem {author}",
+        "readInFull": "ler na íntegra"
       }
     },
     "de": {
@@ -1342,7 +1358,9 @@
           "Dezember"
         ],
         "dateFormat": "{d}. {m} {y}",
-        "behance": "Auf Behance"
+        "behance": "Auf Behance",
+        "reviewModel": "Rezension des Sprachmodells {author}",
+        "readInFull": "ganz lesen"
       }
     },
     "ko": {
@@ -1475,7 +1493,9 @@
           "12월"
         ],
         "dateFormat": "{y}년 {n}월 {d}일",
-        "behance": "Behance에서 보기"
+        "behance": "Behance에서 보기",
+        "reviewModel": "언어 모델 {author}의 서평",
+        "readInFull": "전체 읽기"
       }
     },
     "ar": {
@@ -1608,7 +1628,9 @@
           "ديسمبر"
         ],
         "dateFormat": "{d} {m} {y}",
-        "behance": "على Behance"
+        "behance": "على Behance",
+        "reviewModel": "مراجعة نموذج اللغة {author}",
+        "readInFull": "اقرأ كاملاً"
       }
     },
     "it": {
@@ -1741,7 +1763,9 @@
           "dicembre"
         ],
         "dateFormat": "{d} {m} {y}",
-        "behance": "Su Behance"
+        "behance": "Su Behance",
+        "reviewModel": "Recensione del modello linguistico {author}",
+        "readInFull": "leggi tutto"
       }
     }
   }

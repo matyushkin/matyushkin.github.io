@@ -625,6 +625,49 @@ main h3 {
     max-width: 480px;
 }
 
+/* A review of the whole book: who wrote it, then its first paragraph with
+   «read in full»; opened, the whole text. No JavaScript. */
+.item-review {
+    margin-top: 2em;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.item-review h2 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #767676;
+    margin: 0 0 0.4em;
+}
+
+.item-review summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.item-review summary::-webkit-details-marker {
+    display: none;
+}
+
+.item-review .more {
+    color: #767676;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+}
+
+.item-review details[open] .more {
+    display: none;
+}
+
+.item-review p {
+    margin: 0.6em 0 0;
+}
+
+.dark-theme .item-review h2,
+.dark-theme .item-review .more {
+    color: #999;
+}
+
 .item-back {
     margin-top: 2.2em;
     font-size: 0.9em;
