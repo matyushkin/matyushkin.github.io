@@ -3682,6 +3682,590 @@
       }
     }
   ],
+  "awards": [
+    {
+      "id": "textbook-award-2016",
+      "year": 2016,
+      "i18n": {
+        "ru": {
+          "title": "2-е место в номинации «Лучшее учебное пособие»",
+          "description": "За пособие <a href=\"#nanomaterials-synthesis-book-2015\">«Новые наноматериалы. Синтез. Диагностика. Моделирование»</a>, в соавторстве."
+        },
+        "en": {
+          "title": "Second place in the “Best textbook” category",
+          "description": "For the co-authored textbook “New nanomaterials. Synthesis. Diagnostics. Modelling” (in Russian)."
+        },
+        "he": {
+          "title": "מקום שני בקטגוריה „ספר הלימוד הטוב ביותר“",
+          "description": "על ספר הלימוד „ננו־חומרים חדשים. סינתזה. אבחון. מידול“ (ברוסית), בכתיבה משותפת."
+        },
+        "fr": {
+          "title": "2ᵉ place dans la catégorie « Meilleur manuel »",
+          "description": "Pour le manuel coécrit « Nouveaux nanomatériaux. Synthèse. Diagnostic. Modélisation » (en russe)."
+        },
+        "zh": {
+          "title": "“最佳教材”类别第二名",
+          "description": "合著教材《新型纳米材料：合成、诊断、建模》（俄文）。"
+        },
+        "ja": {
+          "title": "「最優秀教科書」部門 第2位",
+          "description": "共著の教科書『新しいナノ材料：合成・診断・モデリング』（ロシア語）に対して。"
+        },
+        "es": {
+          "title": "Segundo puesto en la categoría «Mejor libro de texto»",
+          "description": "Por el libro de texto en coautoría «Nuevos nanomateriales. Síntesis. Diagnóstico. Modelado» (en ruso)."
+        },
+        "pt": {
+          "title": "2.º lugar na categoria «Melhor manual»",
+          "description": "Pelo manual em coautoria «Novos nanomateriais. Síntese. Diagnóstico. Modelação» (em russo)."
+        },
+        "de": {
+          "title": "2. Platz in der Kategorie „Bestes Lehrbuch“",
+          "description": "Für das gemeinsam verfasste Lehrbuch „Neue Nanomaterialien. Synthese. Diagnostik. Modellierung“ (auf Russisch)."
+        },
+        "ko": {
+          "title": "‘최우수 교재’ 부문 2위",
+          "description": "공저 교재 «새로운 나노소재: 합성, 진단, 모델링»(러시아어)으로 수상."
+        },
+        "ar": {
+          "title": "المركز الثاني في فئة «أفضل كتاب تعليمي»",
+          "description": "عن الكتاب التعليمي المشترك «مواد نانوية جديدة: التخليق والتشخيص والنمذجة» (بالروسية)."
+        },
+        "it": {
+          "title": "2º posto nella categoria «Miglior manuale»",
+          "description": "Per il manuale scritto in collaborazione «Nuovi nanomateriali. Sintesi. Diagnostica. Modellazione» (in russo)."
+        }
+      }
+    },
+    {
+      "id": "leti-young-projects-2015",
+      "year": 2015,
+      "i18n": {
+        "ru": {
+          "title": "Грант конкурса научных и инновационных проектов аспирантов и молодых преподавателей ЛЭТИ",
+          "description": "Номинация «Научно-исследовательский проект»."
+        },
+        "en": {
+          "title": "Grant of the LETI competition for research and innovation projects of graduate students and young lecturers",
+          "description": "Category “Research project”."
+        },
+        "he": {
+          "title": "מענק בתחרות LETI לפרויקטי מחקר וחדשנות של דוקטורנטים ומרצים צעירים",
+          "description": "קטגוריה „פרויקט מחקר“."
+        },
+        "fr": {
+          "title": "Subvention du concours de la LETI pour les projets de recherche et d’innovation des doctorants et jeunes enseignants",
+          "description": "Catégorie « Projet de recherche »."
+        },
+        "zh": {
+          "title": "LETI研究生与青年教师科研创新项目竞赛资助",
+          "description": "“科研项目”类别。"
+        },
+        "ja": {
+          "title": "LETI大学院生・若手教員研究イノベーションプロジェクトコンクール 助成金",
+          "description": "「研究プロジェクト」部門。"
+        },
+        "es": {
+          "title": "Beca del concurso de la LETI de proyectos de investigación e innovación de doctorandos y profesores jóvenes",
+          "description": "Categoría «Proyecto de investigación»."
+        },
+        "pt": {
+          "title": "Bolsa do concurso da LETI de projetos de investigação e inovação de doutorandos e jovens docentes",
+          "description": "Categoria «Projeto de investigação»."
+        },
+        "de": {
+          "title": "Förderung im LETI-Wettbewerb für Forschungs- und Innovationsprojekte von Promovierenden und jungen Lehrenden",
+          "description": "Kategorie „Forschungsprojekt“."
+        },
+        "ko": {
+          "title": "LETI 대학원생·젊은 교원 연구 및 혁신 프로젝트 공모 연구비",
+          "description": "‘연구 프로젝트’ 부문."
+        },
+        "ar": {
+          "title": "منحة مسابقة جامعة LETI لمشاريع البحث والابتكار لطلاب الدراسات العليا والمدرسين الشباب",
+          "description": "فئة «مشروع بحثي»."
+        },
+        "it": {
+          "title": "Finanziamento del concorso LETI per progetti di ricerca e innovazione di dottorandi e giovani docenti",
+          "description": "Categoria «Progetto di ricerca»."
+        }
+      }
+    },
+    {
+      "id": "nanodiagnostics-2013",
+      "year": 2013,
+      "i18n": {
+        "ru": {
+          "title": "Диплом за лучший доклад",
+          "description": "VI Всероссийская научно-техническая конференция студентов, аспирантов и молодых учёных «Нанодиагностика-2013»."
+        },
+        "en": {
+          "title": "Best talk diploma",
+          "description": "6th All-Russian conference of students, graduate students and young scientists “Nanodiagnostics-2013”."
+        },
+        "he": {
+          "title": "תעודה על ההרצאה הטובה ביותר",
+          "description": "הכנס הכלל־רוסי השישי של סטודנטים, דוקטורנטים ומדענים צעירים „ננו־אבחון 2013“."
+        },
+        "fr": {
+          "title": "Diplôme de la meilleure communication",
+          "description": "6ᵉ conférence nationale russe des étudiants, doctorants et jeunes chercheurs « Nanodiagnostic-2013 »."
+        },
+        "zh": {
+          "title": "最佳报告证书",
+          "description": "第六届全俄大学生、研究生与青年科学家科技会议“纳米诊断-2013”。"
+        },
+        "ja": {
+          "title": "最優秀発表賞",
+          "description": "第6回全ロシア学生・大学院生・若手研究者科学技術会議「ナノ診断2013」。"
+        },
+        "es": {
+          "title": "Diploma a la mejor ponencia",
+          "description": "VI Conferencia panrusa de estudiantes, doctorandos y jóvenes científicos «Nanodiagnóstico-2013»."
+        },
+        "pt": {
+          "title": "Diploma de melhor comunicação",
+          "description": "VI Conferência pan-russa de estudantes, doutorandos e jovens cientistas «Nanodiagnóstico-2013»."
+        },
+        "de": {
+          "title": "Urkunde für den besten Vortrag",
+          "description": "6. gesamtrussische Konferenz der Studierenden, Promovierenden und jungen Forschenden „Nanodiagnostik-2013“."
+        },
+        "ko": {
+          "title": "최우수 발표상",
+          "description": "제6회 전러시아 대학생·대학원생·젊은 과학자 학술대회 «나노진단-2013»."
+        },
+        "ar": {
+          "title": "شهادة أفضل عرض",
+          "description": "المؤتمر الروسي العام السادس للطلاب وطلاب الدراسات العليا والعلماء الشباب «التشخيص النانوي 2013»."
+        },
+        "it": {
+          "title": "Diploma per la migliore relazione",
+          "description": "VI Conferenza panrussa di studenti, dottorandi e giovani scienziati «Nanodiagnostica-2013»."
+        }
+      }
+    },
+    {
+      "id": "science-intensive-projects-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Диплом III степени Всероссийского конкурса «Наукоёмкие инновационные проекты молодых учёных»",
+          "description": "Работа вошла в сборник работ победителей и лауреатов (СПб.: Изд-во Политехнического университета, 2012)."
+        },
+        "en": {
+          "title": "Third-degree diploma of the All-Russian competition “Science-intensive innovation projects of young scientists”",
+          "description": "The work was printed in the volume of winners’ and laureates’ works (Saint Petersburg: Polytechnic University Press, 2012)."
+        },
+        "he": {
+          "title": "תעודה מדרגה שלישית בתחרות הכלל־רוסית „פרויקטים חדשניים עתירי מדע של מדענים צעירים“",
+          "description": "העבודה נדפסה בקובץ עבודות הזוכים (סנקט פטרבורג: הוצאת האוניברסיטה הפוליטכנית, 2012)."
+        },
+        "fr": {
+          "title": "Diplôme de 3ᵉ degré du concours national russe « Projets innovants à forte intensité scientifique des jeunes chercheurs »",
+          "description": "Le travail figure dans le recueil des lauréats (Saint-Pétersbourg : Presses de l’Université polytechnique, 2012)."
+        },
+        "zh": {
+          "title": "全俄“青年科学家知识密集型创新项目”竞赛三等奖",
+          "description": "作品收入获奖者作品集（圣彼得堡：理工大学出版社，2012）。"
+        },
+        "ja": {
+          "title": "全ロシアコンクール「若手研究者の知識集約型イノベーションプロジェクト」3等賞",
+          "description": "作品は受賞者作品集に収録（サンクトペテルブルク：工科大学出版、2012年）。"
+        },
+        "es": {
+          "title": "Diploma de tercer grado del concurso panruso «Proyectos innovadores de alto contenido científico de jóvenes científicos»",
+          "description": "El trabajo se publicó en el volumen de ganadores y laureados (San Petersburgo: Editorial de la Universidad Politécnica, 2012)."
+        },
+        "pt": {
+          "title": "Diploma de terceiro grau do concurso pan-russo «Projetos inovadores de alta intensidade científica de jovens cientistas»",
+          "description": "O trabalho foi publicado na coletânea de vencedores e laureados (São Petersburgo: Editora da Universidade Politécnica, 2012)."
+        },
+        "de": {
+          "title": "Urkunde dritten Grades im gesamtrussischen Wettbewerb „Wissensintensive Innovationsprojekte junger Forschender“",
+          "description": "Die Arbeit erschien im Band der Preisträger (Sankt Petersburg: Verlag der Polytechnischen Universität, 2012)."
+        },
+        "ko": {
+          "title": "전러시아 ‘젊은 과학자의 지식집약형 혁신 프로젝트’ 경진대회 3등상",
+          "description": "작품은 수상작 모음집에 수록(상트페테르부르크: 공과대학교 출판부, 2012)."
+        },
+        "ar": {
+          "title": "شهادة من الدرجة الثالثة في المسابقة الروسية العامة «مشاريع ابتكارية كثيفة المعرفة للعلماء الشباب»",
+          "description": "نُشر العمل في مجموعة أعمال الفائزين (سانت بطرسبرغ: دار نشر الجامعة التقنية، 2012)."
+        },
+        "it": {
+          "title": "Diploma di terzo grado del concorso panrusso «Progetti innovativi ad alta intensità scientifica dei giovani scienziati»",
+          "description": "Il lavoro è stato pubblicato nella raccolta dei vincitori (San Pietroburgo: Edizioni dell’Università Politecnica, 2012)."
+        }
+      }
+    },
+    {
+      "id": "umnik-grant-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Победитель программы «УМНИК»",
+          "description": "Грант для молодых учёных: 400 тыс. руб. на два года на мой проект «Получение, исследование и моделирование образования коллоидных квантовых точек сульфида свинца» (проект 1726618, 2013–2015). <a href=\"#umnik-2012\">Итоги программы</a> — в разделе «В прессе»."
+        },
+        "en": {
+          "title": "Winner of the UMNIK programme",
+          "description": "A state grant for young researchers: 400,000 roubles over two years for my project “Obtaining, studying and modelling the formation of lead sulfide colloidal quantum dots” (project 1726618, 2013–2015). <a href=\"#umnik-2012\">The results</a> are under “In the Press”."
+        },
+        "he": {
+          "title": "זוכה בתוכנית UMNIK",
+          "description": "מענק ממשלתי לחוקרים צעירים: 400 אלף רובל לשנתיים לפרויקט שלי „הפקה, חקר ומידול של היווצרות נקודות קוונטיות קולואידיות של עופרת גופרתית“ (פרויקט 1726618, 2013–2015). <a href=\"#umnik-2012\">התוצאות</a> מופיעות בפרק „בעיתונות“."
+        },
+        "fr": {
+          "title": "Lauréat du programme UMNIK",
+          "description": "Bourse publique pour jeunes chercheurs : 400 000 roubles sur deux ans pour mon projet « Obtention, étude et modélisation de la formation de boîtes quantiques colloïdales de sulfure de plomb » (projet 1726618, 2013–2015). <a href=\"#umnik-2012\">Les résultats</a> figurent dans « Dans la presse »."
+        },
+        "zh": {
+          "title": "UMNIK计划获奖者",
+          "description": "面向青年科研人员的国家资助：我的项目《硫化铅胶体量子点的制备、研究及其形成的建模》获得两年共40万卢布（项目1726618，2013–2015）。<a href=\"#umnik-2012\">结果</a>见“媒体报道”。"
+        },
+        "ja": {
+          "title": "UMNIKプログラム受賞",
+          "description": "若手研究者向け国家助成金：私のプロジェクト「硫化鉛コロイド量子ドットの作製・研究と形成のモデリング」に2年間で40万ルーブル（プロジェクト1726618、2013–2015年）。<a href=\"#umnik-2012\">結果</a>は「メディア掲載」に。"
+        },
+        "es": {
+          "title": "Ganador del programa UMNIK",
+          "description": "Beca estatal para jóvenes investigadores: 400 000 rublos durante dos años para mi proyecto «Obtención, estudio y modelado de la formación de puntos cuánticos coloidales de sulfuro de plomo» (proyecto 1726618, 2013–2015). <a href=\"#umnik-2012\">Los resultados</a> están en «En la prensa»."
+        },
+        "pt": {
+          "title": "Vencedor do programa UMNIK",
+          "description": "Bolsa estatal para jovens investigadores: 400 000 rublos durante dois anos para o meu projeto «Obtenção, estudo e modelação da formação de pontos quânticos coloidais de sulfureto de chumbo» (projeto 1726618, 2013–2015). <a href=\"#umnik-2012\">Os resultados</a> estão em «Na imprensa»."
+        },
+        "de": {
+          "title": "Gewinner des UMNIK-Programms",
+          "description": "Staatliche Förderung für junge Forschende: 400.000 Rubel über zwei Jahre für mein Projekt „Herstellung, Untersuchung und Modellierung der Bildung kolloidaler Bleisulfid-Quantenpunkte“ (Projekt 1726618, 2013–2015). <a href=\"#umnik-2012\">Die Ergebnisse</a> stehen unter „In der Presse“."
+        },
+        "ko": {
+          "title": "UMNIK 프로그램 선정",
+          "description": "젊은 연구자를 위한 국가 연구비: 제 프로젝트 «황화납 콜로이드 양자점의 제조, 연구 및 형성 모델링»에 2년간 40만 루블(프로젝트 1726618, 2013–2015). <a href=\"#umnik-2012\">결과</a>는 ‘언론 보도’에 있습니다."
+        },
+        "ar": {
+          "title": "فائز في برنامج «UMNIK»",
+          "description": "منحة حكومية للباحثين الشباب: 400 ألف روبل على مدى عامين لمشروعي «الحصول على النقاط الكمومية الغروية من كبريتيد الرصاص ودراسة تكوّنها ونمذجته» (المشروع 1726618، 2013–2015). <a href=\"#umnik-2012\">النتائج</a> في قسم «في الصحافة»."
+        },
+        "it": {
+          "title": "Vincitore del programma UMNIK",
+          "description": "Borsa statale per giovani ricercatori: 400 000 rubli in due anni per il mio progetto «Sintesi, studio e modellazione della formazione di punti quantici colloidali di solfuro di piombo» (progetto 1726618, 2013–2015). <a href=\"#umnik-2012\">I risultati</a> sono in «Sulla stampa»."
+        }
+      }
+    },
+    {
+      "id": "fcp-grant-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Грант федеральной целевой программы «Научные и научно-педагогические кадры инновационной России»",
+          "description": "Руководитель проекта «Компьютерное моделирование материалов на основе углеродных нанотрубок и квантовых точек сульфида свинца», соглашение 14.132.21.1703, 2012–2013."
+        },
+        "en": {
+          "title": "Grant of the federal programme “Scientific and academic personnel of innovative Russia”",
+          "description": "Project leader: “Computer modelling of materials based on carbon nanotubes and lead sulfide quantum dots”, agreement 14.132.21.1703, 2012–2013."
+        },
+        "he": {
+          "title": "מענק התוכנית הפדרלית „כוח אדם מדעי ואקדמי לרוסיה החדשנית“",
+          "description": "ראש הפרויקט „מידול ממוחשב של חומרים המבוססים על ננו־צינוריות פחמן ונקודות קוונטיות של עופרת גופרתית“, הסכם 14.132.21.1703, 2012–2013."
+        },
+        "fr": {
+          "title": "Subvention du programme fédéral « Personnel scientifique et pédagogique de la Russie innovante »",
+          "description": "Responsable du projet « Modélisation numérique de matériaux à base de nanotubes de carbone et de boîtes quantiques de sulfure de plomb », accord 14.132.21.1703, 2012–2013."
+        },
+        "zh": {
+          "title": "联邦专项计划“创新型俄罗斯科研与科教人才”资助",
+          "description": "项目负责人：《基于碳纳米管和硫化铅量子点的材料的计算机模拟》，协议14.132.21.1703，2012–2013。"
+        },
+        "ja": {
+          "title": "連邦目標プログラム「革新的ロシアの科学・教育人材」助成金",
+          "description": "プロジェクト責任者：「カーボンナノチューブと硫化鉛量子ドットを基礎とする材料の計算機モデリング」、協定14.132.21.1703、2012–2013年。"
+        },
+        "es": {
+          "title": "Beca del programa federal «Personal científico y docente de la Rusia innovadora»",
+          "description": "Director del proyecto «Modelado computacional de materiales basados en nanotubos de carbono y puntos cuánticos de sulfuro de plomo», acuerdo 14.132.21.1703, 2012–2013."
+        },
+        "pt": {
+          "title": "Bolsa do programa federal «Quadros científicos e pedagógicos da Rússia inovadora»",
+          "description": "Coordenador do projeto «Modelação computacional de materiais à base de nanotubos de carbono e pontos quânticos de sulfureto de chumbo», acordo 14.132.21.1703, 2012–2013."
+        },
+        "de": {
+          "title": "Förderung im föderalen Programm „Wissenschaftliches und pädagogisches Personal des innovativen Russlands“",
+          "description": "Projektleiter: „Computermodellierung von Materialien auf Basis von Kohlenstoffnanoröhren und Bleisulfid-Quantenpunkten“, Vereinbarung 14.132.21.1703, 2012–2013."
+        },
+        "ko": {
+          "title": "연방 목표 프로그램 ‘혁신 러시아의 과학·교육 인력’ 연구비",
+          "description": "프로젝트 책임자: «탄소 나노튜브와 황화납 양자점 기반 소재의 컴퓨터 모델링», 협약 14.132.21.1703, 2012–2013."
+        },
+        "ar": {
+          "title": "منحة البرنامج الفدرالي «الكوادر العلمية والتربوية لروسيا المبتكرة»",
+          "description": "رئيس مشروع «النمذجة الحاسوبية لمواد قائمة على أنابيب الكربون النانوية والنقاط الكمومية من كبريتيد الرصاص»، الاتفاقية 14.132.21.1703، 2012–2013."
+        },
+        "it": {
+          "title": "Finanziamento del programma federale «Personale scientifico e didattico della Russia innovativa»",
+          "description": "Responsabile del progetto «Modellizzazione al computer di materiali a base di nanotubi di carbonio e punti quantici di solfuro di piombo», accordo 14.132.21.1703, 2012–2013."
+        }
+      }
+    },
+    {
+      "id": "fizika-spb-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Диплом конференции «ФизикА.СПб»",
+          "description": "В номинации «За научные результаты, обладающие существенной новизной и среднесрочной перспективой их коммерциализации», за работу «Получение, исследование и моделирование образования коллоидных квантовых точек сульфида свинца»."
+        },
+        "en": {
+          "title": "Diploma of the PhysicA.SPb conference",
+          "description": "In the category “For new scientific results with medium-term commercial prospects”, for the work “Obtaining, studying and modelling the formation of lead sulfide colloidal quantum dots”."
+        },
+        "he": {
+          "title": "תעודה בכנס PhysicA.SPb",
+          "description": "בקטגוריה „על תוצאות מדעיות חדשניות בעלות סיכוי למסחור בטווח הבינוני“, על העבודה „הפקה, חקר ומידול של היווצרות נקודות קוונטיות קולואידיות של עופרת גופרתית“."
+        },
+        "fr": {
+          "title": "Diplôme de la conférence PhysicA.SPb",
+          "description": "Dans la catégorie « Pour des résultats scientifiques nouveaux à perspective commerciale à moyen terme », pour le travail « Obtention, étude et modélisation de la formation de boîtes quantiques colloïdales de sulfure de plomb »."
+        },
+        "zh": {
+          "title": "PhysicA.SPb会议证书",
+          "description": "获“具有显著新颖性和中期商业化前景的科研成果”类别证书，作品《硫化铅胶体量子点的制备、研究及其形成的建模》。"
+        },
+        "ja": {
+          "title": "PhysicA.SPb会議 表彰状",
+          "description": "「顕著な新規性と中期的な商業化の見込みをもつ研究成果」部門、研究「硫化鉛コロイド量子ドットの作製・研究と形成のモデリング」に対して。"
+        },
+        "es": {
+          "title": "Diploma de la conferencia PhysicA.SPb",
+          "description": "En la categoría «Por resultados científicos novedosos con perspectivas comerciales a medio plazo», por el trabajo «Obtención, estudio y modelado de la formación de puntos cuánticos coloidales de sulfuro de plomo»."
+        },
+        "pt": {
+          "title": "Diploma da conferência PhysicA.SPb",
+          "description": "Na categoria «Por resultados científicos inovadores com perspetivas comerciais a médio prazo», pelo trabalho «Obtenção, estudo e modelação da formação de pontos quânticos coloidais de sulfureto de chumbo»."
+        },
+        "de": {
+          "title": "Urkunde der Konferenz PhysicA.SPb",
+          "description": "In der Kategorie „Für neuartige wissenschaftliche Ergebnisse mit mittelfristiger Vermarktungsperspektive“, für die Arbeit „Herstellung, Untersuchung und Modellierung der Bildung kolloidaler Bleisulfid-Quantenpunkte“."
+        },
+        "ko": {
+          "title": "PhysicA.SPb 학회 상장",
+          "description": "‘중기 상용화 전망이 있는 새로운 연구 성과’ 부문, 연구 «황화납 콜로이드 양자점의 제조, 연구 및 형성 모델링»으로 수상."
+        },
+        "ar": {
+          "title": "شهادة مؤتمر PhysicA.SPb",
+          "description": "في فئة «نتائج علمية جديدة ذات آفاق تجارية على المدى المتوسط»، عن العمل «الحصول على النقاط الكمومية الغروية من كبريتيد الرصاص ودراسة تكوّنها ونمذجته»."
+        },
+        "it": {
+          "title": "Diploma della conferenza PhysicA.SPb",
+          "description": "Nella categoria «Per risultati scientifici innovativi con prospettive commerciali a medio termine», per il lavoro «Sintesi, studio e modellazione della formazione di punti quantici colloidali di solfuro di piombo»."
+        }
+      }
+    },
+    {
+      "id": "best-master-graduate-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Лучший выпускник магистратуры факультета электроники ЛЭТИ",
+          "description": "Имя занесено в Почётную книгу."
+        },
+        "en": {
+          "title": "Best master’s graduate of the LETI Faculty of Electronics",
+          "description": "My name was entered in the Book of Honour."
+        },
+        "he": {
+          "title": "בוגר התואר השני המצטיין של הפקולטה לאלקטרוניקה ב־LETI",
+          "description": "שמי נרשם בספר הכבוד."
+        },
+        "fr": {
+          "title": "Meilleur diplômé de master de la faculté d’électronique de la LETI",
+          "description": "Mon nom a été inscrit au Livre d’honneur."
+        },
+        "zh": {
+          "title": "LETI电子学院最佳硕士毕业生",
+          "description": "名字载入荣誉册。"
+        },
+        "ja": {
+          "title": "LETI電子工学部 最優秀修士修了生",
+          "description": "名誉録に名前が記載された。"
+        },
+        "es": {
+          "title": "Mejor graduado de máster de la Facultad de Electrónica de la LETI",
+          "description": "Mi nombre se inscribió en el Libro de Honor."
+        },
+        "pt": {
+          "title": "Melhor diplomado de mestrado da Faculdade de Eletrónica da LETI",
+          "description": "O meu nome foi inscrito no Livro de Honra."
+        },
+        "de": {
+          "title": "Bester Masterabsolvent der Fakultät für Elektronik der LETI",
+          "description": "Mein Name wurde ins Ehrenbuch eingetragen."
+        },
+        "ko": {
+          "title": "LETI 전자공학부 최우수 석사 졸업생",
+          "description": "명예록에 이름이 올랐습니다."
+        },
+        "ar": {
+          "title": "أفضل خريج ماجستير في كلية الإلكترونيات بجامعة LETI",
+          "description": "أُدرج اسمي في كتاب الشرف."
+        },
+        "it": {
+          "title": "Miglior laureato magistrale della Facoltà di Elettronica della LETI",
+          "description": "Il mio nome è stato iscritto nel Libro d’onore."
+        }
+      }
+    },
+    {
+      "id": "master-thesis-2012",
+      "year": 2012,
+      "i18n": {
+        "ru": {
+          "title": "Диплом I степени конкурса ЛЭТИ на лучшую магистерскую диссертацию",
+          "description": "За диссертацию «Получение, исследование и моделирование образования коллоидных квантовых точек сульфида свинца», 2011/2012 учебный год."
+        },
+        "en": {
+          "title": "First-degree diploma, LETI competition for the best master’s thesis",
+          "description": "For the thesis “Obtaining, studying and modelling the formation of lead sulfide colloidal quantum dots”, academic year 2011/2012."
+        },
+        "he": {
+          "title": "תעודה מדרגה ראשונה בתחרות LETI על עבודת התזה הטובה ביותר לתואר שני",
+          "description": "על התזה „הפקה, חקר ומידול של היווצרות נקודות קוונטיות קולואידיות של עופרת גופרתית“, שנת הלימודים 2011/2012."
+        },
+        "fr": {
+          "title": "Diplôme de 1ᵉʳ degré, concours de la LETI du meilleur mémoire de master",
+          "description": "Pour le mémoire « Obtention, étude et modélisation de la formation de boîtes quantiques colloïdales de sulfure de plomb », année universitaire 2011/2012."
+        },
+        "zh": {
+          "title": "LETI最佳硕士学位论文竞赛一等奖",
+          "description": "论文《硫化铅胶体量子点的制备、研究及其形成的建模》，2011/2012学年。"
+        },
+        "ja": {
+          "title": "LETI最優秀修士論文コンクール 1等賞",
+          "description": "修士論文「硫化鉛コロイド量子ドットの作製・研究と形成のモデリング」に対して、2011/2012年度。"
+        },
+        "es": {
+          "title": "Diploma de primer grado, concurso de la LETI a la mejor tesis de máster",
+          "description": "Por la tesis «Obtención, estudio y modelado de la formación de puntos cuánticos coloidales de sulfuro de plomo», curso 2011/2012."
+        },
+        "pt": {
+          "title": "Diploma de primeiro grau, concurso da LETI de melhor dissertação de mestrado",
+          "description": "Pela dissertação «Obtenção, estudo e modelação da formação de pontos quânticos coloidais de sulfureto de chumbo», ano letivo 2011/2012."
+        },
+        "de": {
+          "title": "Urkunde ersten Grades im LETI-Wettbewerb um die beste Masterarbeit",
+          "description": "Für die Arbeit „Herstellung, Untersuchung und Modellierung der Bildung kolloidaler Bleisulfid-Quantenpunkte“, Studienjahr 2011/2012."
+        },
+        "ko": {
+          "title": "LETI 최우수 석사 학위논문 경진대회 1등상",
+          "description": "논문 «황화납 콜로이드 양자점의 제조, 연구 및 형성 모델링»으로 수상, 2011/2012 학년도."
+        },
+        "ar": {
+          "title": "شهادة من الدرجة الأولى في مسابقة جامعة LETI لأفضل رسالة ماجستير",
+          "description": "عن الرسالة «الحصول على النقاط الكمومية الغروية من كبريتيد الرصاص ودراسة تكوّنها ونمذجته»، العام الدراسي 2011/2012."
+        },
+        "it": {
+          "title": "Diploma di primo grado al concorso LETI per la migliore tesi magistrale",
+          "description": "Per la tesi «Sintesi, studio e modellazione della formazione di punti quantici colloidali di solfuro di piombo», anno accademico 2011/2012."
+        }
+      }
+    },
+    {
+      "id": "bachelor-thesis-2010",
+      "year": 2010,
+      "i18n": {
+        "ru": {
+          "title": "Диплом III степени конкурса ЛЭТИ на лучшую выпускную работу бакалавра",
+          "description": "За работу «Компьютерное моделирование электронного спектра углеродных нанотрубок»."
+        },
+        "en": {
+          "title": "Third-degree diploma, LETI competition for the best bachelor’s thesis",
+          "description": "For the thesis “Computer modelling of the electronic spectrum of carbon nanotubes”."
+        },
+        "he": {
+          "title": "תעודה מדרגה שלישית בתחרות LETI על עבודת הגמר הטובה ביותר לתואר ראשון",
+          "description": "על העבודה „מידול ממוחשב של הספקטרום האלקטרוני של ננו־צינוריות פחמן“."
+        },
+        "fr": {
+          "title": "Diplôme de 3ᵉ degré, concours de la LETI du meilleur mémoire de licence",
+          "description": "Pour le mémoire « Modélisation numérique du spectre électronique des nanotubes de carbone »."
+        },
+        "zh": {
+          "title": "LETI最佳学士毕业论文竞赛三等奖",
+          "description": "论文《碳纳米管电子能谱的计算机模拟》。"
+        },
+        "ja": {
+          "title": "LETI最優秀学士論文コンクール 3等賞",
+          "description": "論文「カーボンナノチューブの電子スペクトルの計算機モデリング」に対して。"
+        },
+        "es": {
+          "title": "Diploma de tercer grado, concurso de la LETI a la mejor tesis de grado",
+          "description": "Por la tesis «Modelado computacional del espectro electrónico de los nanotubos de carbono»."
+        },
+        "pt": {
+          "title": "Diploma de terceiro grau, concurso da LETI de melhor trabalho de licenciatura",
+          "description": "Pelo trabalho «Modelação computacional do espectro eletrónico de nanotubos de carbono»."
+        },
+        "de": {
+          "title": "Urkunde dritten Grades im LETI-Wettbewerb um die beste Bachelorarbeit",
+          "description": "Für die Arbeit „Computermodellierung des Elektronenspektrums von Kohlenstoffnanoröhren“."
+        },
+        "ko": {
+          "title": "LETI 최우수 학사 졸업논문 경진대회 3등상",
+          "description": "논문 «탄소 나노튜브 전자 스펙트럼의 컴퓨터 모델링»으로 수상."
+        },
+        "ar": {
+          "title": "شهادة من الدرجة الثالثة في مسابقة جامعة LETI لأفضل أطروحة بكالوريوس",
+          "description": "عن أطروحة «النمذجة الحاسوبية للطيف الإلكتروني لأنابيب الكربون النانوية»."
+        },
+        "it": {
+          "title": "Diploma di terzo grado al concorso LETI per la migliore tesi triennale",
+          "description": "Per la tesi «Modellizzazione al computer dello spettro elettronico dei nanotubi di carbonio»."
+        }
+      }
+    },
+    {
+      "id": "student-nanotech-2010",
+      "year": 2010,
+      "i18n": {
+        "ru": {
+          "title": "Диплом Всероссийского конкурса научно-исследовательских работ студентов вузов в области нанотехнологий и наноматериалов"
+        },
+        "en": {
+          "title": "Diploma of the All-Russian competition of student research in nanotechnology and nanomaterials"
+        },
+        "he": {
+          "title": "תעודה בתחרות הכלל־רוסית לעבודות מחקר של סטודנטים בננוטכנולוגיה ובננו־חומרים"
+        },
+        "fr": {
+          "title": "Diplôme du concours national russe des travaux de recherche étudiants en nanotechnologies et nanomatériaux"
+        },
+        "zh": {
+          "title": "全俄高校学生纳米技术与纳米材料科研作品竞赛证书"
+        },
+        "ja": {
+          "title": "全ロシア大学生ナノテクノロジー・ナノ材料研究コンクール 表彰状"
+        },
+        "es": {
+          "title": "Diploma del concurso panruso de trabajos de investigación estudiantil en nanotecnología y nanomateriales"
+        },
+        "pt": {
+          "title": "Diploma do concurso pan-russo de trabalhos de investigação estudantil em nanotecnologia e nanomateriais"
+        },
+        "de": {
+          "title": "Urkunde des gesamtrussischen Wettbewerbs studentischer Forschungsarbeiten zu Nanotechnologie und Nanomaterialien"
+        },
+        "ko": {
+          "title": "전러시아 대학생 나노기술·나노소재 연구 경진대회 상장"
+        },
+        "ar": {
+          "title": "شهادة المسابقة الروسية العامة لأبحاث الطلاب في تقنية النانو والمواد النانوية"
+        },
+        "it": {
+          "title": "Diploma del concorso panrusso di ricerche studentesche su nanotecnologie e nanomateriali"
+        }
+      }
+    }
+  ],
   "press": [
     {
       "id": "conversation-2023-10",
