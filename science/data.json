@@ -3972,6 +3972,74 @@
       },
       "copy": "press/elektrik-2014-01.pdf",
       "cover": "press/elektrik-2014-01.jpg"
+    },
+    {
+      "id": "umnik-2012",
+      "date": "2012",
+      "lang": "ru",
+      "url": "https://etu.ru/ru/nauchnaya-i-innovacionnaya-deyatelnost/innovacionnaya-deyatelnost/programma-umnik/itogi-programmy-umnik-2012-goda",
+      "i18n": {
+        "en": {
+          "outlet": "The website of ETU “LETI”",
+          "title": "2012 Results of the UMNIK Programme",
+          "description": "In Russian. The 2012 winners of UMNIK, a state grant programme for young researchers: 400,000 roubles over two years for my project “Obtaining, studying and modelling the formation of lead sulfide colloidal quantum dots”."
+        },
+        "ru": {
+          "outlet": "Сайт СПбГЭТУ «ЛЭТИ»",
+          "title": "Итоги программы «УМНИК» 2012 года",
+          "description": "Победители 2012 года государственной грантовой программы для молодых учёных «УМНИК»: 400 тыс. руб. на два года на мой проект «Получение, исследование и моделирование образования коллоидных квантовых точек сульфида свинца»."
+        },
+        "de": {
+          "outlet": "Website der ETU „LETI“",
+          "title": "Ergebnisse des UMNIK-Programms 2012",
+          "description": "Auf Russisch. Die Gewinner 2012 von UMNIK, einem staatlichen Förderprogramm für junge Forschende: 400.000 Rubel über zwei Jahre für mein Projekt „Herstellung, Untersuchung und Modellierung der Bildung kolloidaler Bleisulfid-Quantenpunkte“."
+        },
+        "fr": {
+          "outlet": "Site de l’ETU « LETI »",
+          "title": "Résultats du programme UMNIK 2012",
+          "description": "En russe. Les lauréats 2012 d’UMNIK, programme public de bourses pour jeunes chercheurs : 400 000 roubles sur deux ans pour mon projet « Obtention, étude et modélisation de la formation de boîtes quantiques colloïdales de sulfure de plomb »."
+        },
+        "es": {
+          "outlet": "Sitio web de la ETU «LETI»",
+          "title": "Resultados del programa UMNIK 2012",
+          "description": "En ruso. Los ganadores de 2012 de UMNIK, un programa estatal de becas para jóvenes investigadores: 400 000 rublos durante dos años para mi proyecto «Obtención, estudio y modelado de la formación de puntos cuánticos coloidales de sulfuro de plomo»."
+        },
+        "it": {
+          "outlet": "Sito dell’ETU «LETI»",
+          "title": "Risultati del programma UMNIK 2012",
+          "description": "In russo. I vincitori 2012 di UMNIK, programma statale di borse per giovani ricercatori: 400 000 rubli in due anni per il mio progetto «Sintesi, studio e modellazione della formazione di punti quantici colloidali di solfuro di piombo»."
+        },
+        "pt": {
+          "outlet": "Site da ETU «LETI»",
+          "title": "Resultados do programa UMNIK 2012",
+          "description": "Em russo. Os vencedores de 2012 do UMNIK, programa estatal de bolsas para jovens investigadores: 400 000 rublos durante dois anos para o meu projeto «Obtenção, estudo e modelação da formação de pontos quânticos coloidais de sulfureto de chumbo»."
+        },
+        "ar": {
+          "outlet": "موقع جامعة LETI",
+          "title": "نتائج برنامج «UMNIK» لعام 2012",
+          "description": "باللغة الروسية. الفائزون لعام 2012 في «UMNIK»، وهو برنامج منح حكومي للباحثين الشباب: 400 ألف روبل على مدى عامين لمشروعي «الحصول على النقاط الكمومية الغروية من كبريتيد الرصاص ودراسة تكوّنها ونمذجته»."
+        },
+        "he": {
+          "outlet": "אתר אוניברסיטת LETI",
+          "title": "תוצאות תוכנית UMNIK לשנת 2012",
+          "description": "ברוסית. זוכי 2012 בתוכנית UMNIK, תוכנית מענקים ממשלתית לחוקרים צעירים: 400 אלף רובל לשנתיים לפרויקט שלי „הפקה, חקר ומידול של היווצרות נקודות קוונטיות קולואידיות של עופרת גופרתית“."
+        },
+        "ja": {
+          "outlet": "サンクトペテルブルク電気工科大学（LETI）ウェブサイト",
+          "title": "UMNIKプログラム2012年度結果",
+          "description": "ロシア語。若手研究者向け国家助成プログラム「UMNIK」の2012年度受賞者。私のプロジェクト「硫化鉛コロイド量子ドットの作製・研究と形成のモデリング」に2年間で40万ルーブル。"
+        },
+        "ko": {
+          "outlet": "상트페테르부르크 전기기술대학교(LETI) 웹사이트",
+          "title": "UMNIK 프로그램 2012년 결과",
+          "description": "러시아어. 젊은 연구자를 위한 국가 연구비 프로그램 UMNIK의 2012년 선정자: 제 프로젝트 «황화납 콜로이드 양자점의 제조, 연구 및 형성 모델링»에 2년간 40만 루블."
+        },
+        "zh": {
+          "outlet": "圣彼得堡电工大学（LETI）网站",
+          "title": "2012年度UMNIK计划结果",
+          "description": "俄文。面向青年科研人员的国家资助计划UMNIK的2012年度获奖者：我的项目《硫化铅胶体量子点的制备、研究及其形成的建模》获得两年共40万卢布资助。"
+        }
+      }
     }
   ]
 }
