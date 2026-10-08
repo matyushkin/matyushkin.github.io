@@ -85,13 +85,13 @@
     "youtube": "YouTube",
     "youtube-music": "YouTube Music",
     "soundcloud": "SoundCloud",
-    "telegram-lmwav": "Telegram channel (LMWAV)",
+    "telegram-lmwav": "Telegram (LMWAV)",
     "tiktok": "TikTok",
     "patreon": "Patreon",
-    "telegram-lmtxt": "Telegram channel (LMTXT)",
+    "telegram-lmtxt": "Telegram (LMTXT)",
     "vk": "VK",
     "livejournal": "LiveJournal",
-    "telegram-lmpix": "Telegram channel (LMPIX)",
+    "telegram-lmpix": "Telegram (LMPIX)",
     "dribbble": "Dribbble",
     "deviantart": "DeviantArt",
     "coub": "Coub",
@@ -191,11 +191,11 @@
         },
         "profiles": {
           "soundcloud": "Саундклауд",
-          "telegram-lmwav": "Канал в Телеграме (LMWAV)",
+          "telegram-lmwav": "Телеграм (LMWAV)",
           "patreon": "Патреон",
-          "telegram-lmtxt": "Канал в Телеграме (LMTXT)",
+          "telegram-lmtxt": "Телеграм (LMTXT)",
           "vk": "ВКонтакте",
-          "telegram-lmpix": "Канал в Телеграме (LMPIX)",
+          "telegram-lmpix": "Телеграм (LMPIX)",
           "dribbble": "Дриббл",
           "deviantart": "Девиантарт",
           "spotify": "Спотифай",
@@ -482,9 +482,9 @@
           "grant": "מענק"
         },
         "profiles": {
-          "telegram-lmwav": "ערוץ טלגרם (LMWAV)",
-          "telegram-lmtxt": "ערוץ טלגרם (LMTXT)",
-          "telegram-lmpix": "ערוץ טלגרם (LMPIX)"
+          "telegram-lmwav": "טלגרם (LMWAV)",
+          "telegram-lmtxt": "טלגרם (LMTXT)",
+          "telegram-lmpix": "טלגרם (LMPIX)"
         },
         "issue": "גיליון כתב העת"
       },
@@ -616,9 +616,9 @@
           "grant": "bourse"
         },
         "profiles": {
-          "telegram-lmwav": "Chaîne Telegram (LMWAV)",
-          "telegram-lmtxt": "Chaîne Telegram (LMTXT)",
-          "telegram-lmpix": "Chaîne Telegram (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "Numéro de la revue"
       },
@@ -750,9 +750,9 @@
           "grant": "资助"
         },
         "profiles": {
-          "telegram-lmwav": "Telegram 频道（LMWAV）",
-          "telegram-lmtxt": "Telegram 频道（LMTXT）",
-          "telegram-lmpix": "Telegram 频道（LMPIX）"
+          "telegram-lmwav": "Telegram（LMWAV）",
+          "telegram-lmtxt": "Telegram（LMTXT）",
+          "telegram-lmpix": "Telegram（LMPIX）"
         },
         "issue": "刊载期号"
       },
@@ -885,9 +885,9 @@
           "grant": "助成"
         },
         "profiles": {
-          "telegram-lmwav": "Telegram チャンネル（LMWAV）",
-          "telegram-lmtxt": "Telegram チャンネル（LMTXT）",
-          "telegram-lmpix": "Telegram チャンネル（LMPIX）"
+          "telegram-lmwav": "Telegram（LMWAV）",
+          "telegram-lmtxt": "Telegram（LMTXT）",
+          "telegram-lmpix": "Telegram（LMPIX）"
         },
         "issue": "掲載号"
       },
@@ -1020,9 +1020,9 @@
           "grant": "beca"
         },
         "profiles": {
-          "telegram-lmwav": "Canal de Telegram (LMWAV)",
-          "telegram-lmtxt": "Canal de Telegram (LMTXT)",
-          "telegram-lmpix": "Canal de Telegram (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "Número de la revista"
       },
@@ -1155,9 +1155,9 @@
           "grant": "bolsa"
         },
         "profiles": {
-          "telegram-lmwav": "Canal no Telegram (LMWAV)",
-          "telegram-lmtxt": "Canal no Telegram (LMTXT)",
-          "telegram-lmpix": "Canal no Telegram (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "Número da revista"
       },
@@ -1290,9 +1290,9 @@
           "grant": "Stipendium"
         },
         "profiles": {
-          "telegram-lmwav": "Telegram-Kanal (LMWAV)",
-          "telegram-lmtxt": "Telegram-Kanal (LMTXT)",
-          "telegram-lmpix": "Telegram-Kanal (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "Heft der Zeitschrift"
       },
@@ -1425,9 +1425,9 @@
           "grant": "지원금"
         },
         "profiles": {
-          "telegram-lmwav": "Telegram 채널 (LMWAV)",
-          "telegram-lmtxt": "Telegram 채널 (LMTXT)",
-          "telegram-lmpix": "Telegram 채널 (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "게재 호"
       },
@@ -1560,9 +1560,9 @@
           "grant": "منحة"
         },
         "profiles": {
-          "telegram-lmwav": "قناة تيليغرام (LMWAV)",
-          "telegram-lmtxt": "قناة تيليغرام (LMTXT)",
-          "telegram-lmpix": "قناة تيليغرام (LMPIX)"
+          "telegram-lmwav": "تيليغرام (LMWAV)",
+          "telegram-lmtxt": "تيليغرام (LMTXT)",
+          "telegram-lmpix": "تيليغرام (LMPIX)"
         },
         "issue": "عدد المجلة"
       },
@@ -1695,9 +1695,9 @@
           "grant": "borsa"
         },
         "profiles": {
-          "telegram-lmwav": "Canale Telegram (LMWAV)",
-          "telegram-lmtxt": "Canale Telegram (LMTXT)",
-          "telegram-lmpix": "Canale Telegram (LMPIX)"
+          "telegram-lmwav": "Telegram (LMWAV)",
+          "telegram-lmtxt": "Telegram (LMTXT)",
+          "telegram-lmpix": "Telegram (LMPIX)"
         },
         "issue": "Numero della rivista"
       },
