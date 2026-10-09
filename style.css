@@ -20,8 +20,26 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Noto Sans Armenian';
+    src: url('fonts/noto-sans-armenian.woff2') format('woff2');
+    unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Georgian';
+    src: url('fonts/noto-sans-georgian.woff2') format('woff2');
+    unicode-range: U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', 'Noto Sans Armenian', 'Noto Sans Georgian', sans-serif;
     font-size: 21px;
     line-height: 1.5;
     max-width: 800px;
@@ -170,7 +188,7 @@ nav section {
 }
 
 h1 {
-    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', 'Noto Sans Armenian', 'Noto Sans Georgian', sans-serif;
     font-size: 1.5em;
     font-weight: normal;
     margin-bottom: 5px;
@@ -178,7 +196,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', 'Noto Sans Armenian', 'Noto Sans Georgian', sans-serif;
     font-size: 1.25em;
     font-weight: normal;
     margin-bottom: 2px;
@@ -357,7 +375,7 @@ article li { margin-bottom: 0.25em; font-size: 0.95em; }
 .release-clip:hover img { opacity: 1; }
 
 main h3 {
-    font-family: 'Computer Modern Sans', 'Heebo Hebrew', sans-serif;
+    font-family: 'Computer Modern Sans', 'Heebo Hebrew', 'Noto Sans Armenian', 'Noto Sans Georgian', sans-serif;
     font-size: 1.05em;
     font-weight: normal;
     margin-top: 1.4em;

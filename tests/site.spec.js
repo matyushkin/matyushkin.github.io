@@ -272,6 +272,36 @@ test.describe('languages', () => {
   });
 });
 
+// ─── Greek, Armenian and Georgian ────────────────────────────────────────────
+
+test.describe('Greek, Armenian and Georgian', () => {
+  for (const [code, music, date] of [
+    ['el', 'Μουσική', '31 Ιουλίου 2026'],
+    ['hy', 'Երաժշտություն', '31 հուլիսի 2026 թ.'],
+    ['ka', 'მუსიკა', '31 ივლისი, 2026'],
+  ]) {
+    test(`${code} reads in its own language with its own dates`, async ({ page }) => {
+      await page.goto(`/${code}/art/`);
+      await expect(page.locator('html')).toHaveAttribute('lang', code);
+      await expect(page.locator('main h2').first()).toHaveText(music);
+      await page.goto(`/${code}/art/music/the-jungle-route/`);
+      await expect(page.locator('main .achievement-meta')).toContainText(date);
+    });
+  }
+
+  test('Armenian and Georgian letters come from their own fonts', async ({ page }) => {
+    for (const [code, family] of [['hy', 'Noto Sans Armenian'], ['ka', 'Noto Sans Georgian']]) {
+      await page.goto(`/${code}/`);
+      await page.evaluate(() => document.fonts.ready);
+      const loaded = await page.evaluate(
+        (f) => [...document.fonts].some((face) => face.family.replace(/"/g, '') === f && face.status === 'loaded'),
+        family,
+      );
+      expect(loaded, family).toBe(true);
+    }
+  });
+});
+
 // ─── Search engines: one address per language, all linked ───────────────────
 
 test.describe('indexing', () => {

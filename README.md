@@ -41,6 +41,8 @@ A weekly job rebuilds everything.
    The language checks read the language list from `i18n.json`, so they cover
    the new language without edits.
 
-A script that isn't in the font (Computer Modern carries Latin and Cyrillic)
-also needs a subset font next to `fonts/heebo-hebrew.woff2` and one line in the
-`font-family` stack.
+A script that isn't in the font (Computer Modern carries Latin, Greek and
+Cyrillic) also needs a subset font next to `fonts/heebo-hebrew.woff2`,
+`fonts/noto-sans-armenian.woff2` and `fonts/noto-sans-georgian.woff2` (the
+Fontsource cuts of these OFL fonts, scoped by `unicode-range`) and one line in
+the `font-family` stack.
