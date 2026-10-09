@@ -2208,7 +2208,7 @@
           "ნოემბერი",
           "დეკემბერი"
         ],
-        "dateFormat": "{d} {m}, {y}",
+        "dateFormat": "{y} წლის {d} {m}",
         "behance": "Behance-ზე",
         "reviewModel": "ენობრივი მოდელის {author} რეცენზია",
         "readInFull": "სრულად წაკითხვა"

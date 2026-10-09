@@ -112,7 +112,7 @@ test.describe('art', () => {
     await page.goto('/ru/art/');
     await expect(page.locator('#profiles-music')).toContainText('Саундклауд');
     const visual = page.locator('#profiles-visual');
-    await expect(visual).toContainText('Канал в Телеграме (LMPIX)');
+    await expect(visual).toContainText('Телеграм (LMPIX)');
     await expect(visual).toContainText('Дриббл');
     await expect(visual).toContainText('Девиантарт');
   });
@@ -120,7 +120,7 @@ test.describe('art', () => {
   test('EN: profiles in English', async ({ page }) => {
     await page.goto('/art/');
     await expect(page.locator('#profiles-music')).toContainText('SoundCloud');
-    await expect(page.locator('#profiles-visual')).toContainText('Telegram channel (LMPIX)');
+    await expect(page.locator('#profiles-visual')).toContainText('Telegram (LMPIX)');
   });
 
   test('books show самиздат in RU', async ({ page }) => {
@@ -278,7 +278,7 @@ test.describe('Greek, Armenian and Georgian', () => {
   for (const [code, music, date] of [
     ['el', 'Μουσική', '31 Ιουλίου 2026'],
     ['hy', 'Երաժշտություն', '31 հուլիսի 2026 թ.'],
-    ['ka', 'მუსიკა', '31 ივლისი, 2026'],
+    ['ka', 'მუსიკა', '2026 წლის 31 ივლისი'],
   ]) {
     test(`${code} reads in its own language with its own dates`, async ({ page }) => {
       await page.goto(`/${code}/art/`);
