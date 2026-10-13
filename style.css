@@ -388,7 +388,7 @@ main h3 {
    at the end keeps the block from looking like a stamped sheet. */
 .tiles {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0.6em;
     margin-top: 0.5em;
 }
@@ -409,7 +409,7 @@ main h3 {
     display: block;
 }
 
-.tile-caption { display: block; font-size: 0.8em; margin-top: 0.3em; }
+.tile-caption { display: block; font-size: 0.8em; margin-top: 0.3em; overflow-wrap: anywhere; }
 .tile-badge {
     position: absolute;
     top: 0.4em;
@@ -536,7 +536,7 @@ main h3 {
     }
 
     .tiles {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 0.4em;
     }
 }
@@ -643,8 +643,8 @@ main h3 {
     max-width: 480px;
 }
 
-/* A review of the whole book: who wrote it, then its first paragraph with
-   «read in full»; opened, the whole text. No JavaScript. */
+/* A review of the whole book: who wrote it, its first paragraph, then
+   «read in full»; opened, the rest. No JavaScript. */
 .item-review {
     margin-top: 2em;
     font-size: 0.9em;
@@ -673,7 +673,7 @@ main h3 {
     text-underline-offset: 0.2em;
 }
 
-.item-review details[open] .more {
+.item-review details[open] > .more {
     display: none;
 }
 

@@ -26,12 +26,18 @@
   }
 
   var button = document.querySelector('.theme-button');
+  // the button is named «dark theme»: pressed while it is on
+  function pressed() {
+    if (button) button.setAttribute('aria-pressed', String(body.classList.contains('dark-theme')));
+  }
+  pressed();
   if (button) button.onclick = function () {
     var dark = body.classList.contains('dark-theme');
     body.classList.toggle('light-theme', dark);
     body.classList.toggle('dark-theme', !dark);
     store('theme', dark ? 'light-theme' : 'dark-theme');
     themeColor(!dark);
+    pressed();
   };
   if (window.matchMedia) {
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
@@ -40,6 +46,7 @@
       body.classList.toggle('dark-theme', e.matches);
       body.classList.toggle('light-theme', !e.matches);
       themeColor(e.matches);
+      pressed();
     });
   }
 
@@ -121,8 +128,11 @@
   // A landmark of its own, so a screen reader's list of regions shows it.
   var bar = document.createElement('aside');
   bar.className = 'lang-offer';
-  bar.setAttribute('aria-label', other.offer);
+  // named by its link, which carries its own language (lang), so a screen
+  // reader says the name in the right voice
+  bar.setAttribute('aria-labelledby', 'lang-offer-link');
   var link = document.createElement('a');
+  link.id = 'lang-offer-link';
   link.href = other.url + location.hash;
   link.lang = other.tag;
   link.dir = other.dir;
