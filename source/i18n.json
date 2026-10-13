@@ -338,7 +338,11 @@
         "setup": "Как добавить раскладку «{Language}»",
         "macos": "Системные настройки → Клавиатура → Ввод текста → Изменить… → «+» → {Language} → «{Language} – PC» → Добавить. Переключать раскладки — Control + пробел или клавиша 🌐.",
         "windows": "Параметры → Время и язык → Язык и регион → Добавить язык → {Language}. Подойдёт раскладка, которую предложит Windows: буквы в ней стоят на тех же местах. Переключать раскладки — Windows + пробел.",
-        "linux": "GNOME: Настройки → Клавиатура → Источники ввода → «+» → {Language}. Переключать раскладки — Super + пробел."
+        "linux": "GNOME: Настройки → Клавиатура → Источники ввода → «+» → {Language}. Переключать раскладки — Super + пробел.",
+        "expected": "Ошибка: нужна {letter}",
+        "lineDone": "Строка набрана",
+        "locked": "закрыта",
+        "ready": "готова"
       }
     },
     "en": {
@@ -499,7 +503,11 @@
         "setup": "How to add the {Language} keyboard",
         "macos": "System Settings → Keyboard → Text Input → Edit… → “+” → {Language} → “{Language} – PC” → Add. Switch keyboards with Control + Space or the 🌐 key.",
         "windows": "Settings → Time & language → Language & region → Add a language → {Language}. The keyboard Windows offers fits: its letters are in the same places. Switch keyboards with Windows + Space.",
-        "linux": "GNOME: Settings → Keyboard → Input Sources → “+” → {Language}. Switch keyboards with Super + Space."
+        "linux": "GNOME: Settings → Keyboard → Input Sources → “+” → {Language}. Switch keyboards with Super + Space.",
+        "expected": "Wrong key: {letter} expected",
+        "lineDone": "Line done",
+        "locked": "locked",
+        "ready": "ready"
       }
     },
     "he": {
@@ -664,7 +672,11 @@
         "setup": "איך מוסיפים מקלדת {language}",
         "macos": "הגדרות המערכת ← מקלדת ← קלט טקסט ← עריכה… ← „+” ← {Language} ← „{Language} – PC” ← הוספה. מחליפים מקלדת ב-Control + רווח או במקש 🌐.",
         "windows": "הגדרות ← זמן ושפה ← שפה ואזור ← הוספת שפה ← {Language}. המקלדת ש-Windows מציעה מתאימה: האותיות בה באותם מקומות. מחליפים מקלדת ב-Windows + רווח.",
-        "linux": "GNOME: הגדרות ← מקלדת ← מקורות קלט ← „+” ← {Language}. מחליפים מקלדת ב-Super + רווח."
+        "linux": "GNOME: הגדרות ← מקלדת ← מקורות קלט ← „+” ← {Language}. מחליפים מקלדת ב-Super + רווח.",
+        "expected": "טעות: צריך {letter}",
+        "lineDone": "השורה הוקלדה",
+        "locked": "נעולה",
+        "ready": "מוכנה"
       }
     },
     "fr": {
@@ -829,7 +841,11 @@
         "setup": "Comment ajouter le clavier {language}",
         "macos": "Réglages Système → Clavier → Saisie de texte → Modifier… → « + » → {Language} → « {Language} – PC » → Ajouter. Changez de clavier avec Contrôle + Espace ou la touche 🌐.",
         "windows": "Paramètres → Heure et langue → Langue et région → Ajouter une langue → {Language}. Le clavier proposé par Windows convient : les lettres y sont aux mêmes places. Changez de clavier avec Windows + Espace.",
-        "linux": "GNOME : Paramètres → Clavier → Sources de saisie → « + » → {Language}. Changez de clavier avec Super + Espace."
+        "linux": "GNOME : Paramètres → Clavier → Sources de saisie → « + » → {Language}. Changez de clavier avec Super + Espace.",
+        "expected": "Erreur : il fallait {letter}",
+        "lineDone": "Ligne terminée",
+        "locked": "verrouillée",
+        "ready": "prête"
       }
     },
     "zh": {
@@ -995,7 +1011,11 @@
         "setup": "如何添加{language}键盘",
         "macos": "系统设置 → 键盘 → 文字输入 → 编辑… → “+” → {Language} → “{Language} – PC” → 添加。用 Control + 空格键或 🌐 键切换。",
         "windows": "设置 → 时间和语言 → 语言和区域 → 添加语言 → {Language}。Windows 推荐的键盘即可：字母位置相同。用 Windows + 空格键切换。",
-        "linux": "GNOME：设置 → 键盘 → 输入源 → “+” → {Language}。用 Super + 空格键切换。"
+        "linux": "GNOME：设置 → 键盘 → 输入源 → “+” → {Language}。用 Super + 空格键切换。",
+        "expected": "按错了：应为 {letter}",
+        "lineDone": "本行完成",
+        "locked": "未解锁",
+        "ready": "已掌握"
       }
     },
     "ja": {
@@ -1161,7 +1181,11 @@
         "setup": "{language}キーボードの追加方法",
         "macos": "システム設定 → キーボード → テキスト入力 → 編集… → 「+」 → {Language} → 「{Language} – PC」 → 追加。切り替えは Control + Space または 🌐 キー。",
         "windows": "設定 → 時刻と言語 → 言語と地域 → 言語の追加 → {Language}。Windows が提案するキーボードで大丈夫です：文字の位置は同じです。切り替えは Windows + Space。",
-        "linux": "GNOME：設定 → キーボード → 入力ソース → 「+」 → {Language}。切り替えは Super + Space。"
+        "linux": "GNOME：設定 → キーボード → 入力ソース → 「+」 → {Language}。切り替えは Super + Space。",
+        "expected": "ミス：正しくは {letter}",
+        "lineDone": "行を入力しました",
+        "locked": "未開放",
+        "ready": "習得済み"
       }
     },
     "es": {
@@ -1327,7 +1351,11 @@
         "setup": "Cómo añadir el teclado {language}",
         "macos": "Ajustes del Sistema → Teclado → Entrada de texto → Editar… → «+» → {Language} → «{Language} – PC» → Añadir. Cambia de teclado con Control + Espacio o la tecla 🌐.",
         "windows": "Configuración → Hora e idioma → Idioma y región → Agregar un idioma → {Language}. Sirve el teclado que propone Windows: las letras están en los mismos sitios. Cambia de teclado con Windows + Espacio.",
-        "linux": "GNOME: Configuración → Teclado → Fuentes de entrada → «+» → {Language}. Cambia de teclado con Super + Espacio."
+        "linux": "GNOME: Configuración → Teclado → Fuentes de entrada → «+» → {Language}. Cambia de teclado con Super + Espacio.",
+        "expected": "Error: tocaba {letter}",
+        "lineDone": "Línea completa",
+        "locked": "bloqueada",
+        "ready": "lista"
       }
     },
     "pt": {
@@ -1493,7 +1521,11 @@
         "setup": "Como adicionar o teclado ({language})",
         "macos": "Ajustes do Sistema → Teclado → Entrada de Texto → Editar… → “+” → {Language} → “{Language} – PC” → Adicionar. Troque de teclado com Control + Espaço ou a tecla 🌐.",
         "windows": "Configurações → Hora e idioma → Idioma e região → Adicionar um idioma → {Language}. O teclado que o Windows sugere serve: as letras ficam nos mesmos lugares. Troque de teclado com Windows + Espaço.",
-        "linux": "GNOME: Configurações → Teclado → Fontes de entrada → “+” → {Language}. Troque de teclado com Super + Espaço."
+        "linux": "GNOME: Configurações → Teclado → Fontes de entrada → “+” → {Language}. Troque de teclado com Super + Espaço.",
+        "expected": "Erro: era {letter}",
+        "lineDone": "Linha concluída",
+        "locked": "bloqueada",
+        "ready": "pronta"
       }
     },
     "de": {
@@ -1659,7 +1691,11 @@
         "setup": "So fügen Sie die Tastatur „{Language}“ hinzu",
         "macos": "Systemeinstellungen → Tastatur → Texteingabe → Bearbeiten … → „+“ → {Language} → „{Language} – PC“ → Hinzufügen. Umschalten mit Control + Leertaste oder der 🌐-Taste.",
         "windows": "Einstellungen → Zeit und Sprache → Sprache und Region → Sprache hinzufügen → {Language}. Die Tastatur, die Windows vorschlägt, passt: Die Buchstaben liegen an denselben Stellen. Umschalten mit Windows + Leertaste.",
-        "linux": "GNOME: Einstellungen → Tastatur → Eingabequellen → „+“ → {Language}. Umschalten mit Super + Leertaste."
+        "linux": "GNOME: Einstellungen → Tastatur → Eingabequellen → „+“ → {Language}. Umschalten mit Super + Leertaste.",
+        "expected": "Fehler: erwartet {letter}",
+        "lineDone": "Zeile fertig",
+        "locked": "gesperrt",
+        "ready": "sicher"
       }
     },
     "ko": {
@@ -1825,7 +1861,11 @@
         "setup": "{language} 키보드 추가 방법",
         "macos": "시스템 설정 → 키보드 → 텍스트 입력 → 편집… → ‘+’ → {Language} → ‘{Language} – PC’ → 추가. 전환: Control + Space 또는 🌐 키.",
         "windows": "설정 → 시간 및 언어 → 언어 및 지역 → 언어 추가 → {Language}. Windows가 제안하는 키보드면 됩니다: 글자 위치가 같습니다. 전환: Windows + Space.",
-        "linux": "GNOME: 설정 → 키보드 → 입력 소스 → ‘+’ → {Language}. 전환: Super + Space."
+        "linux": "GNOME: 설정 → 키보드 → 입력 소스 → ‘+’ → {Language}. 전환: Super + Space.",
+        "expected": "오타: {letter} 입력",
+        "lineDone": "줄 완료",
+        "locked": "잠김",
+        "ready": "완료"
       }
     },
     "ar": {
@@ -1991,7 +2031,11 @@
         "setup": "كيف تضيف لوحة المفاتيح ({language})",
         "macos": "إعدادات النظام ← لوحة المفاتيح ← إدخال النص ← تعديل… ← «+» ← {Language} ← «{Language} – PC» ← إضافة. بدّل بين اللوحات بـ Control + Space أو مفتاح 🌐.",
         "windows": "الإعدادات ← الوقت واللغة ← اللغة والمنطقة ← إضافة لغة ← {Language}. تصلح لوحة المفاتيح التي يقترحها Windows: الحروف في الأماكن نفسها. بدّل بين اللوحات بـ Windows + Space.",
-        "linux": "GNOME: الإعدادات ← لوحة المفاتيح ← مصادر الإدخال ← «+» ← {Language}. بدّل بين اللوحات بـ Super + Space."
+        "linux": "GNOME: الإعدادات ← لوحة المفاتيح ← مصادر الإدخال ← «+» ← {Language}. بدّل بين اللوحات بـ Super + Space.",
+        "expected": "خطأ: المطلوب {letter}",
+        "lineDone": "اكتمل السطر",
+        "locked": "مقفلة",
+        "ready": "جاهزة"
       }
     },
     "it": {
@@ -2157,7 +2201,11 @@
         "setup": "Come aggiungere la tastiera ({language})",
         "macos": "Impostazioni di Sistema → Tastiera → Inserimento testo → Modifica… → «+» → {Language} → «{Language} – PC» → Aggiungi. Cambia tastiera con Control + Spazio o il tasto 🌐.",
         "windows": "Impostazioni → Data/ora e lingua → Lingua e area geografica → Aggiungi una lingua → {Language}. Va bene la tastiera proposta da Windows: le lettere sono negli stessi posti. Cambia tastiera con Windows + Spazio.",
-        "linux": "GNOME: Impostazioni → Tastiera → Sorgenti di input → «+» → {Language}. Cambia tastiera con Super + Spazio."
+        "linux": "GNOME: Impostazioni → Tastiera → Sorgenti di input → «+» → {Language}. Cambia tastiera con Super + Spazio.",
+        "expected": "Errore: serviva {letter}",
+        "lineDone": "Riga completata",
+        "locked": "bloccata",
+        "ready": "pronta"
       }
     },
     "el": {
@@ -2325,7 +2373,11 @@
         "setup": "Πώς να προσθέσετε το πληκτρολόγιο ({language})",
         "macos": "Ρυθμίσεις συστήματος → Πληκτρολόγιο → Εισαγωγή κειμένου → Επεξεργασία… → «+» → {Language} → «{Language} – PC» → Προσθήκη. Εναλλαγή με Control + Space ή το πλήκτρο 🌐.",
         "windows": "Ρυθμίσεις → Ώρα και γλώσσα → Γλώσσα και περιοχή → Προσθήκη γλώσσας → {Language}. Το πληκτρολόγιο που προτείνουν τα Windows ταιριάζει: τα γράμματα είναι στις ίδιες θέσεις. Εναλλαγή με Windows + Space.",
-        "linux": "GNOME: Ρυθμίσεις → Πληκτρολόγιο → Πηγές εισόδου → «+» → {Language}. Εναλλαγή με Super + Space."
+        "linux": "GNOME: Ρυθμίσεις → Πληκτρολόγιο → Πηγές εισόδου → «+» → {Language}. Εναλλαγή με Super + Space.",
+        "expected": "Λάθος: έπρεπε {letter}",
+        "lineDone": "Η γραμμή ολοκληρώθηκε",
+        "locked": "κλειδωμένο",
+        "ready": "έτοιμο"
       }
     },
     "hy": {
@@ -2493,7 +2545,11 @@
         "setup": "Ինչպես ավելացնել ստեղնաշարը ({language})",
         "macos": "Համակարգի կարգավորումներ → Ստեղնաշար → Տեքստի մուտքագրում → Խմբագրել… → «+» → {Language} → «{Language} – PC» → Ավելացնել։ Փոխել՝ Control + Space կամ 🌐 ստեղնով։",
         "windows": "Կարգավորումներ → Ժամանակ և լեզու → Լեզու և տարածաշրջան → Ավելացնել լեզու → {Language}։ Windows-ի առաջարկած ստեղնաշարը հարմար է․ տառերը նույն տեղերում են։ Փոխել՝ Windows + Space։",
-        "linux": "GNOME․ Կարգավորումներ → Ստեղնաշար → Մուտքի աղբյուրներ → «+» → {Language}։ Փոխել՝ Super + Space։"
+        "linux": "GNOME․ Կարգավորումներ → Ստեղնաշար → Մուտքի աղբյուրներ → «+» → {Language}։ Փոխել՝ Super + Space։",
+        "expected": "Սխալ է․ պետք էր {letter}",
+        "lineDone": "Տողը հավաքված է",
+        "locked": "փակ",
+        "ready": "պատրաստ"
       }
     },
     "ka": {
@@ -2661,7 +2717,11 @@
         "setup": "როგორ დავამატოთ კლავიატურა ({language})",
         "macos": "სისტემის პარამეტრები → კლავიატურა → ტექსტის შეყვანა → რედაქტირება… → „+“ → {Language} → „{Language} – PC“ → დამატება. გადართვა: Control + Space ან 🌐 კლავიში.",
         "windows": "პარამეტრები → დრო და ენა → ენა და რეგიონი → ენის დამატება → {Language}. Windows-ის შემოთავაზებული კლავიატურა გამოდგება: ასოები იმავე ადგილებზეა. გადართვა: Windows + Space.",
-        "linux": "GNOME: პარამეტრები → კლავიატურა → შეყვანის წყაროები → „+“ → {Language}. გადართვა: Super + Space."
+        "linux": "GNOME: პარამეტრები → კლავიატურა → შეყვანის წყაროები → „+“ → {Language}. გადართვა: Super + Space.",
+        "expected": "შეცდომა: საჭიროა {letter}",
+        "lineDone": "სტრიქონი აკრეფილია",
+        "locked": "დაკეტილი",
+        "ready": "მზადაა"
       }
     }
   }

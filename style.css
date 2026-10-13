@@ -822,7 +822,7 @@ html[lang="ar"] .achievement-meta {
     bottom: 0;
     height: 3px;
     width: calc(var(--score, 0) * 100%);
-    background: #d08a2c;
+    background: #a86a12;
 }
 .typing-letters li.ready::after { background: #2a8a5a; }
 .typing-letters li.fresh, .typing-letters li.focus { font-weight: bold; outline: 1px solid currentColor; outline-offset: 1px; }

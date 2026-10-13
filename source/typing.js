@@ -175,12 +175,25 @@
   }
 
   // ── Letters strip and figures ────────────────────────────────────────────
+  // Words for the live status: the line's slips and its end. The status of
+  // the letters (drawLetters) speaks again only when it changes.
+  function say(words) { el.status.textContent = words; }
+
   function drawLetters() {
     var f = focus();
     el.letters.textContent = '';
     course.letters.forEach(function (l, i) {
       var item = document.createElement('li');
       item.textContent = l;
+      // a letter's state for a screen reader: colour and the bar say it to the eye
+      var note = i >= state.open ? T.locked : measure(l).ready ? T.ready : '';
+      if (note) {
+        var hidden = document.createElement('span');
+        hidden.className = 'visually-hidden';
+        hidden.lang = document.documentElement.lang;
+        hidden.textContent = ' (' + note + ')';
+        item.appendChild(hidden);
+      }
       if (i < state.open) {
         var m = measure(l);
         item.style.setProperty('--score', m.score.toFixed(2));
@@ -253,6 +266,8 @@
       if (letter && wrongAt !== pos) record(letter, null, true);
       wrongAt = pos;
       el.line.children[pos].classList.add('wrong');
+      // a screen reader hears the slip, not only a red letter
+      say(T.expected.replace('{letter}', expected === ' ' ? '␣' : expected));
       showKeyboard(true);
       armHint();
       return;
@@ -276,6 +291,8 @@
     advance();
     save();
     drawLetters();
+    var done = T.lineDone + T.colon + ' ' + el.speed.textContent + ', ' + el.accuracy.textContent;
+    say(done + (el.status.textContent ? ' · ' + el.status.textContent : ''));
     drawTime();
     writeLine();
   }
@@ -337,6 +354,9 @@
       writeLine();
       root.classList.add('ready');
       document.addEventListener('keydown', onKey);
+      // the line takes the focus: a screen reader then passes the keys on
+      // (role=application) instead of reading them as its own commands
+      el.line.focus();
       // A line left half typed still counts its time.
       window.addEventListener('pagehide', save);
     })
