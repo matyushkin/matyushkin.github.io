@@ -791,3 +791,126 @@ html[lang="ar"] .achievement-meta {
     border-radius: 4px;
 }
 .dark-theme .bibtex { background: #262626; }
+
+/* ── Typing trainer (/typing/) ─────────────────────────────────────────── */
+#typing [hidden] { display: none; }
+.typing-phone { display: none; color: #b00020; }
+@media (hover: none) and (pointer: coarse) { .typing-phone { display: block; } }
+.typing-course { color: #555; margin-bottom: 0.3em; }
+.typing-letters {
+    list-style: none;
+    padding: 0;
+    margin: 0.3em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+    font-size: 1.1em;
+}
+.typing-letters li {
+    min-width: 1.6em;
+    text-align: center;
+    color: #767676;
+    position: relative;
+    padding-bottom: 4px;
+}
+.typing-letters li.open { color: inherit; }
+/* How close a letter is to ready: a bar under it, full and green when ready. */
+.typing-letters li.open::after {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    bottom: 0;
+    height: 3px;
+    width: calc(var(--score, 0) * 100%);
+    background: #d08a2c;
+}
+.typing-letters li.ready::after { background: #2a8a5a; }
+.typing-letters li.fresh, .typing-letters li.focus { font-weight: bold; outline: 1px solid currentColor; outline-offset: 1px; }
+.typing-status { min-height: 1.5em; margin: 0.3em 0; color: #555; }
+.typing-line {
+    font-size: 1.6em;
+    line-height: 1.6;
+    margin: 0.5em 0;
+    padding: 0.4em 0.6em;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-height: 1.6em;
+}
+.typing-line .done { color: #767676; }
+.typing-line .next { background: #fde68a; border-bottom: 2px solid #1a1a1a; }
+.typing-line .wrong { background: #b00020; color: #fff; }
+.typing-layout { color: #b00020; }
+.typing-keyboard { margin: 0.5em 0; font-size: 0.9em; }
+.typing-row { display: flex; gap: 4px; margin-bottom: 4px; }
+.typing-row:nth-child(2) { padding-inline-start: 0.6em; }
+.typing-row:nth-child(3) { padding-inline-start: 1.4em; }
+.typing-key {
+    width: 2em;
+    height: 2em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #1a1a1a;
+}
+/* One colour per finger, the same on both hands. */
+.finger-0, .finger-7 { background: #f8d7da; }
+.finger-1, .finger-6 { background: #fde2c4; }
+.finger-2, .finger-5 { background: #d4edda; }
+.finger-3, .finger-4 { background: #d6e4f5; }
+.typing-key.next { outline: 3px solid #1a1a1a; font-weight: bold; }
+.typing-key { position: relative; }
+.typing-key small {
+    position: absolute;
+    top: 1px;
+    inset-inline-start: 3px;
+    font-size: 0.5em;
+    line-height: 1;
+    font-weight: normal;
+    color: #6a6a6a;
+}
+.typing-figures { display: flex; flex-wrap: wrap; gap: 0.5em 2em; margin: 0.5em 0; }
+.typing-figures dt { font-size: 0.8em; color: #555; }
+.typing-figures dd { margin: 0; font-size: 1.3em; }
+.typing-settings { font-size: 0.9em; display: flex; flex-wrap: wrap; gap: 1em; align-items: center; }
+.typing-target { width: 4em; font: inherit; }
+.typing-reset { font: inherit; }
+.typing-source { font-size: 0.85em; color: #555; }
+.dark-theme .typing-course, .dark-theme .typing-status,
+.dark-theme .typing-figures dt, .dark-theme .typing-source { color: #bbb; }
+.dark-theme .typing-letters li, .dark-theme .typing-line .done { color: #999; }
+.dark-theme .typing-letters li.open { color: inherit; }
+.dark-theme .typing-line { border-color: #3a3a3a; }
+.dark-theme .typing-line .next { background: #6b5a1e; border-bottom-color: #e8e4d8; }
+.dark-theme .typing-line .wrong { background: #ff6b81; color: #1a1a1a; }
+.dark-theme .typing-layout, .dark-theme .typing-phone { color: #ff8a9a; }
+.dark-theme .typing-key.next { outline-color: #e8e4d8; }
+.typing-setup dt { font-weight: bold; margin-top: 0.8em; }
+.typing-setup dd { margin: 0.2em 0 0; }
+/* What a learner reads once folds under one ⓘ, a word under a dotted line as
+   in a poem's note, so the trainer alone stays on the screen. */
+.typing-about { position: relative; margin: 0 0 0.6em; }
+.typing-about summary { list-style: none; cursor: help; display: inline-block; }
+.typing-about summary::-webkit-details-marker { display: none; }
+.typing-about h1 { display: inline; }
+.typing-about-label { text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.typing-info { font-size: 0.7em; color: #555; vertical-align: 0.15em; }
+.typing-note {
+    position: absolute;
+    top: calc(100% + 0.35em);
+    inset-inline-start: 0;
+    z-index: 20;
+    width: min(30rem, calc(100vw - 32px));
+    box-sizing: border-box;
+    padding: 0.5em 0.9em 0.6em;
+    font-size: 0.8em;
+    line-height: 1.45;
+    color: #222;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+.typing-note p { margin: 0.4em 0; }
+.dark-theme .typing-info { color: #bbb; }
+.dark-theme .typing-note { color: #e8e4d8; background: #222; border-color: #3a3a3a; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5); }

@@ -486,6 +486,105 @@ test.describe('accessibility (WCAG 2.2 AA)', () => {
   }
 });
 
+// ─── Typing trainer ──────────────────────────────────────────────────────────
+
+test.describe('typing trainer', () => {
+  // Playwright presses only the keys of a US keyboard, so a Hebrew key is the
+  // event the browser would send for it.
+  async function press(page, ch) {
+    await page.evaluate(key => document.dispatchEvent(new KeyboardEvent('keydown', { key, bubbles: true })), ch);
+  }
+
+  // The course arrives after the page: wait for its first line.
+  async function openTrainer(page, url = '/typing/') {
+    await page.goto(url);
+    await expect(page.locator('#typing')).toHaveClass(/ready/);
+  }
+
+  // Types the line as it stands, one key at a time.
+  async function typeLine(page, text) {
+    for (const ch of text) await press(page, ch);
+  }
+
+  test('starts with six open letters and a line of words made of them', async ({ page }) => {
+    await openTrainer(page);
+    await expect(page.locator('.typing-letters li')).toHaveCount(27);
+    await expect(page.locator('.typing-letters li.open')).toHaveCount(6);
+    const open = (await page.locator('.typing-letters li.open').allTextContents()).join('');
+    const text = await page.locator('.typing-line').textContent();
+    expect(text.split(' ')).toHaveLength(10);
+    for (const ch of text.replaceAll(' ', '')) expect(open, text).toContain(ch);
+  });
+
+  test('a right key moves on, a wrong one waits, a Latin one asks for the layout', async ({ page }) => {
+    await openTrainer(page);
+    const first = await page.locator('.typing-line .next').textContent();
+    await press(page, 'ט');  // never open at the start
+    await expect(page.locator('.typing-line span').first()).toHaveClass(/wrong/);
+    await expect(page.locator('.typing-keyboard')).toBeVisible();
+    await press(page, 'a');
+    await expect(page.locator('.typing-layout')).toContainText('Hebrew');
+    await expect(page.locator('.typing-layout a')).toHaveAttribute('href', '/typing/setup/');
+    await press(page, first);
+    await expect(page.locator('.typing-layout')).toBeHidden();
+    await expect(page.locator('.typing-line span').first()).toHaveClass('done');
+  });
+
+  test('a finished line shows speed and accuracy and keeps the progress', async ({ page }) => {
+    await openTrainer(page);
+    await typeLine(page, await page.locator('.typing-line').textContent());
+    await expect(page.locator('.typing-accuracy')).toHaveText('100%');
+    await expect(page.locator('.typing-speed')).toContainText('wpm');
+    await expect(page.locator('.typing-today')).toContainText('min');
+    await expect(page.locator('.typing-total')).toContainText('min');
+    expect(await page.evaluate(() => JSON.parse(localStorage.getItem('typing:he')).time.total)).toBeGreaterThan(0);
+    const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('typing:he')));
+    const typed = Object.values(saved.stats).reduce((n, s) => n + s.err.length, 0);
+    expect(typed).toBeGreaterThan(0);
+  });
+
+  test('a new letter opens when every open letter is ready', async ({ page }) => {
+    // Every open letter already fast and clean: the next line opens the seventh.
+    await page.addInitScript(() => {
+      const stats = {};
+      for (const l of ['י', 'א', 'ה', 'ו', 'ל', 'ת']) stats[l] = { ms: Array(20).fill(100), err: Array(20).fill(0) };
+      localStorage.setItem('typing:he', JSON.stringify({ open: 6, target: 35, stats, fresh: null, shown: null }));
+    });
+    await openTrainer(page);
+    await typeLine(page, await page.locator('.typing-line').textContent());
+    await expect(page.locator('.typing-letters li.open')).toHaveCount(7);
+    await expect(page.locator('.typing-letters li.fresh')).toHaveText('ש');
+    await expect(page.locator('.typing-status')).toContainText('ש');
+    await expect(page.locator('.typing-keyboard')).toBeVisible();
+  });
+
+  test('the ⓘ folds how it works, the setup page and the word source', async ({ page }) => {
+    await openTrainer(page, '/ru/typing/');
+    await expect(page.locator('.typing-about summary h1')).toHaveText('Тренажёр слепой печати на иврите ⓘ');
+    const note = page.locator('.typing-note');
+    await expect(note).toBeHidden();
+    await page.locator('.typing-about summary').click();
+    await expect(note).toBeVisible();
+    await expect(note.locator('a[href="/ru/typing/setup/"]')).toHaveText('Как добавить раскладку «Иврит»');
+    await expect(note).toContainText('FrequencyWords');
+    await page.keyboard.press('Escape');
+    await expect(note).toBeHidden();
+  });
+
+  test('the setup page names the macOS layout in the page language', async ({ page }) => {
+    await page.goto('/ru/typing/setup/');
+    await expect(page.locator('h1')).toHaveText('Как добавить раскладку «Иврит»');
+    await expect(page.locator('.typing-setup')).toContainText('«Иврит – PC»');
+    await expect(page.locator('.item-back a')).toHaveAttribute('href', '/ru/typing/');
+  });
+
+  test('the technology page links the trainer in its own language', async ({ page }) => {
+    await page.goto('/ru/technology/');
+    await expect(page.locator('#typing h3 a')).toHaveAttribute('href', '/ru/typing/');
+    await expect(page.locator('#typing h3 a')).toHaveText('Тренажёр слепой печати на иврите');
+  });
+});
+
 // ─── Mobile layout ────────────────────────────────────────────────────────────
 
 test.describe('mobile layout (375px)', () => {
