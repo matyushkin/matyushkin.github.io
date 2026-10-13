@@ -12,6 +12,7 @@
 - [Articles](https://matyushkin.github.io/technology/): Engineering articles on Rust, Python, ML/DS, NoCode paradigm and tools, AI/LLM, history of human-machine interfaces.
 - Apifornia Blog: an AI assistant that builds workflows from natural-language requests, NoCode workflow platforms.
 - Earlier, at a research institute: microcontroller-based devices.
+- [Hebrew touch typing trainer](https://matyushkin.github.io/typing/): learn to type without looking at the keys, starting with Hebrew (Hebrew – PC layout). Real frequent words; a new letter opens when every open letter is fast and accurate; weak letters come up more often. Progress stays in the browser.
 
 ## Art
 - [Art & Music](https://matyushkin.github.io/art/): Poetry in Russian, published in Polutona, Vozdukh, Flagi and zhurnal (formerly Zhurnal na kolenke). Acrylic, watercolor, colored pencils. Instrumental music releases (Spotify, Apple Music, YouTube Music), each with its own page.

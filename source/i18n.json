@@ -309,6 +309,35 @@
           "facebook": "Фейсбук",
           "twitter": "Твиттер"
         }
+      },
+      "typing": {
+        "pageTitle": "Тренажёр слепой печати",
+        "titles": {
+          "he": "Тренажёр слепой печати на иврите"
+        },
+        "description": "Учитесь печатать, не глядя на клавиши, начиная с иврита: настоящие слова, сначала частые буквы, больше практики на буквах с ошибками.",
+        "intro": "Учитесь печатать, не глядя на клавиши. Сначала открыты шесть самых частых букв. Новая буква открывается, когда вы набираете каждую открытую букву с целевой скоростью и не больше чем с 5% ошибок. Буквы, на которых вы ошибаетесь, попадаются чаще. Прогресс хранится в этом браузере.",
+        "phone": "Для тренажёра нужна настоящая клавиатура.",
+        "noscript": "Для тренажёра нужен JavaScript.",
+        "letters": "Буквы",
+        "line": "Текст для набора",
+        "speed": "Скорость",
+        "accuracy": "Точность",
+        "today": "Сегодня",
+        "total": "Всего",
+        "wpm": "сл/мин",
+        "target": "Целевая скорость",
+        "reset": "Сбросить прогресс",
+        "resetAgain": "Нажмите ещё раз, чтобы сбросить",
+        "fresh": "Новая буква",
+        "weakest": "Самая слабая буква",
+        "layout": "Переключите клавиатуру на {language}.",
+        "source": "Слова: {source} ({license}).",
+        "failed": "Курс не загрузился. Обновите страницу.",
+        "setup": "Как добавить раскладку «{Language}»",
+        "macos": "Системные настройки → Клавиатура → Ввод текста → Изменить… → «+» → {Language} → «{Language} – PC» → Добавить. Переключать раскладки — Control + пробел или клавиша 🌐.",
+        "windows": "Параметры → Время и язык → Язык и регион → Добавить язык → {Language}. Подойдёт раскладка, которую предложит Windows: буквы в ней стоят на тех же местах. Переключать раскладки — Windows + пробел.",
+        "linux": "GNOME: Настройки → Клавиатура → Источники ввода → «+» → {Language}. Переключать раскладки — Super + пробел."
       }
     },
     "en": {
@@ -440,6 +469,35 @@
         "behance": "On Behance",
         "reviewModel": "Review by the language model {author}",
         "readInFull": "read in full"
+      },
+      "typing": {
+        "pageTitle": "Touch typing trainer",
+        "titles": {
+          "he": "Hebrew touch typing trainer"
+        },
+        "description": "Learn to type without looking at the keys, starting with Hebrew: real words, the frequent letters first, more practice for the letters you miss.",
+        "intro": "Learn to type without looking at the keys. You start with the six most frequent letters. A new letter opens when you type every open letter at the target speed with at most 5% errors. The letters you miss come up more often. Your progress stays in this browser.",
+        "phone": "The trainer needs a physical keyboard.",
+        "noscript": "The trainer needs JavaScript.",
+        "letters": "Letters",
+        "line": "Text to type",
+        "speed": "Speed",
+        "accuracy": "Accuracy",
+        "today": "Today",
+        "total": "All time",
+        "wpm": "wpm",
+        "target": "Target speed",
+        "reset": "Reset progress",
+        "resetAgain": "Click again to reset",
+        "fresh": "New letter",
+        "weakest": "Weakest letter",
+        "layout": "Switch the keyboard to {Language}.",
+        "source": "Words: {source} ({license}).",
+        "failed": "The course did not load. Reload the page.",
+        "setup": "How to add the {Language} keyboard",
+        "macos": "System Settings → Keyboard → Text Input → Edit… → “+” → {Language} → “{Language} – PC” → Add. Switch keyboards with Control + Space or the 🌐 key.",
+        "windows": "Settings → Time & language → Language & region → Add a language → {Language}. The keyboard Windows offers fits: its letters are in the same places. Switch keyboards with Windows + Space.",
+        "linux": "GNOME: Settings → Keyboard → Input Sources → “+” → {Language}. Switch keyboards with Super + Space."
       }
     },
     "he": {
@@ -575,6 +633,35 @@
         "behance": "ב־Behance",
         "reviewModel": "ביקורת של מודל השפה {author}",
         "readInFull": "לקריאה המלאה"
+      },
+      "typing": {
+        "pageTitle": "מאמן הקלדה עיוורת",
+        "titles": {
+          "he": "מאמן הקלדה עיוורת בעברית"
+        },
+        "description": "ללמוד להקליד בלי להסתכל על המקלדת, החל מעברית: מילים אמיתיות, קודם האותיות הנפוצות, יותר תרגול לאותיות שבהן טועים.",
+        "intro": "ללמוד להקליד בלי להסתכל על המקשים. מתחילים עם שש האותיות הנפוצות ביותר. אות חדשה נפתחת כשכל אות פתוחה מוקלדת במהירות היעד עם 5% שגיאות לכל היותר. אותיות שבהן טועים מופיעות לעיתים קרובות יותר. ההתקדמות נשמרת בדפדפן הזה.",
+        "phone": "המאמן דורש מקלדת פיזית.",
+        "noscript": "המאמן דורש JavaScript.",
+        "letters": "אותיות",
+        "line": "טקסט להקלדה",
+        "speed": "מהירות",
+        "accuracy": "דיוק",
+        "today": "היום",
+        "total": "סך הכול",
+        "wpm": "מ\"ד",
+        "target": "מהירות יעד",
+        "reset": "איפוס ההתקדמות",
+        "resetAgain": "לחצו שוב כדי לאפס",
+        "fresh": "אות חדשה",
+        "weakest": "האות החלשה ביותר",
+        "layout": "החליפו את המקלדת ל{language}.",
+        "source": "מילים: {source} ({license}).",
+        "failed": "הקורס לא נטען. רעננו את הדף.",
+        "setup": "איך מוסיפים מקלדת {language}",
+        "macos": "הגדרות המערכת ← מקלדת ← קלט טקסט ← עריכה… ← „+” ← {Language} ← „{Language} – PC” ← הוספה. מחליפים מקלדת ב-Control + רווח או במקש 🌐.",
+        "windows": "הגדרות ← זמן ושפה ← שפה ואזור ← הוספת שפה ← {Language}. המקלדת ש-Windows מציעה מתאימה: האותיות בה באותם מקומות. מחליפים מקלדת ב-Windows + רווח.",
+        "linux": "GNOME: הגדרות ← מקלדת ← מקורות קלט ← „+” ← {Language}. מחליפים מקלדת ב-Super + רווח."
       }
     },
     "fr": {
@@ -710,6 +797,35 @@
         "behance": "Sur Behance",
         "reviewModel": "Critique du modèle de langage {author}",
         "readInFull": "lire en entier"
+      },
+      "typing": {
+        "pageTitle": "Entraîneur de dactylographie",
+        "titles": {
+          "he": "Entraîneur de dactylographie en hébreu"
+        },
+        "description": "Apprendre à taper sans regarder les touches, en commençant par l’hébreu : de vrais mots, les lettres fréquentes d’abord, plus d’exercice pour les lettres où l’on se trompe.",
+        "intro": "Apprenez à taper sans regarder les touches. Au début, les six lettres les plus fréquentes sont ouvertes. Une nouvelle lettre s’ouvre quand vous tapez chaque lettre ouverte à la vitesse cible avec au plus 5 % d’erreurs. Les lettres où vous vous trompez reviennent plus souvent. Votre progression reste dans ce navigateur.",
+        "phone": "L’entraîneur demande un vrai clavier.",
+        "noscript": "L’entraîneur demande JavaScript.",
+        "letters": "Lettres",
+        "line": "Texte à taper",
+        "speed": "Vitesse",
+        "accuracy": "Précision",
+        "today": "Aujourd’hui",
+        "total": "Au total",
+        "wpm": "mots/min",
+        "target": "Vitesse cible",
+        "reset": "Réinitialiser la progression",
+        "resetAgain": "Cliquez encore pour réinitialiser",
+        "fresh": "Nouvelle lettre",
+        "weakest": "Lettre la plus faible",
+        "layout": "Passez le clavier en {language}.",
+        "source": "Mots : {source} ({license}).",
+        "failed": "Le cours ne s’est pas chargé. Rechargez la page.",
+        "setup": "Comment ajouter le clavier {language}",
+        "macos": "Réglages Système → Clavier → Saisie de texte → Modifier… → « + » → {Language} → « {Language} – PC » → Ajouter. Changez de clavier avec Contrôle + Espace ou la touche 🌐.",
+        "windows": "Paramètres → Heure et langue → Langue et région → Ajouter une langue → {Language}. Le clavier proposé par Windows convient : les lettres y sont aux mêmes places. Changez de clavier avec Windows + Espace.",
+        "linux": "GNOME : Paramètres → Clavier → Sources de saisie → « + » → {Language}. Changez de clavier avec Super + Espace."
       }
     },
     "zh": {
@@ -846,6 +962,35 @@
         "behance": "在 Behance 上查看",
         "reviewModel": "语言模型 {author} 的书评",
         "readInFull": "阅读全文"
+      },
+      "typing": {
+        "pageTitle": "盲打练习",
+        "titles": {
+          "he": "希伯来语盲打练习"
+        },
+        "description": "学习不看键盘打字，先从希伯来语开始：真实的单词，先练常用字母，打错的字母多练。",
+        "intro": "学习不看键盘打字。一开始只开放六个最常用的字母。当每个已开放的字母都能以目标速度打出且错误不超过 5% 时，就会开放一个新字母。打错的字母会出现得更频繁。进度保存在此浏览器中。",
+        "phone": "此练习需要实体键盘。",
+        "noscript": "此练习需要 JavaScript。",
+        "letters": "字母",
+        "line": "要输入的文字",
+        "speed": "速度",
+        "accuracy": "准确率",
+        "today": "今天",
+        "total": "总计",
+        "wpm": "词/分",
+        "target": "目标速度",
+        "reset": "重置进度",
+        "resetAgain": "再点一次以重置",
+        "fresh": "新字母",
+        "weakest": "最弱的字母",
+        "layout": "请把键盘切换为{language}。",
+        "source": "单词：{source}（{license}）。",
+        "failed": "课程未能加载。请刷新页面。",
+        "setup": "如何添加{language}键盘",
+        "macos": "系统设置 → 键盘 → 文字输入 → 编辑… → “+” → {Language} → “{Language} – PC” → 添加。用 Control + 空格键或 🌐 键切换。",
+        "windows": "设置 → 时间和语言 → 语言和区域 → 添加语言 → {Language}。Windows 推荐的键盘即可：字母位置相同。用 Windows + 空格键切换。",
+        "linux": "GNOME：设置 → 键盘 → 输入源 → “+” → {Language}。用 Super + 空格键切换。"
       }
     },
     "ja": {
@@ -982,6 +1127,35 @@
         "behance": "Behance で見る",
         "reviewModel": "言語モデル {author} による書評",
         "readInFull": "全文を読む"
+      },
+      "typing": {
+        "pageTitle": "タッチタイピング練習",
+        "titles": {
+          "he": "ヘブライ語タッチタイピング練習"
+        },
+        "description": "キーを見ずに打つ練習。まずはヘブライ語から：実際の単語、よく使う文字から順に、間違えた文字を多めに練習します。",
+        "intro": "キーを見ずに打つ練習です。最初はもっともよく使う6文字から始めます。開いている文字をすべて目標速度で、誤りを5%以下で打てるようになると、新しい文字が開きます。間違えた文字はより多く出てきます。進み具合はこのブラウザーに保存されます。",
+        "phone": "この練習には物理キーボードが必要です。",
+        "noscript": "この練習には JavaScript が必要です。",
+        "letters": "文字",
+        "line": "入力するテキスト",
+        "speed": "速度",
+        "accuracy": "正確さ",
+        "today": "今日",
+        "total": "合計",
+        "wpm": "WPM",
+        "target": "目標速度",
+        "reset": "進み具合をリセット",
+        "resetAgain": "もう一度クリックでリセット",
+        "fresh": "新しい文字",
+        "weakest": "いちばん苦手な文字",
+        "layout": "キーボードを{language}に切り替えてください。",
+        "source": "単語：{source}（{license}）。",
+        "failed": "コースを読み込めませんでした。ページを再読み込みしてください。",
+        "setup": "{language}キーボードの追加方法",
+        "macos": "システム設定 → キーボード → テキスト入力 → 編集… → 「+」 → {Language} → 「{Language} – PC」 → 追加。切り替えは Control + Space または 🌐 キー。",
+        "windows": "設定 → 時刻と言語 → 言語と地域 → 言語の追加 → {Language}。Windows が提案するキーボードで大丈夫です：文字の位置は同じです。切り替えは Windows + Space。",
+        "linux": "GNOME：設定 → キーボード → 入力ソース → 「+」 → {Language}。切り替えは Super + Space。"
       }
     },
     "es": {
@@ -1118,6 +1292,35 @@
         "behance": "En Behance",
         "reviewModel": "Reseña del modelo de lenguaje {author}",
         "readInFull": "leer completo"
+      },
+      "typing": {
+        "pageTitle": "Entrenador de mecanografía",
+        "titles": {
+          "he": "Entrenador de mecanografía en hebreo"
+        },
+        "description": "Aprende a escribir sin mirar las teclas, empezando por el hebreo: palabras reales, primero las letras frecuentes, más práctica para las letras en que te equivocas.",
+        "intro": "Aprende a escribir sin mirar las teclas. Al principio están abiertas las seis letras más frecuentes. Una letra nueva se abre cuando escribes cada letra abierta a la velocidad objetivo con un 5 % de errores como máximo. Las letras en que te equivocas salen más a menudo. Tu progreso se queda en este navegador.",
+        "phone": "El entrenador necesita un teclado físico.",
+        "noscript": "El entrenador necesita JavaScript.",
+        "letters": "Letras",
+        "line": "Texto para escribir",
+        "speed": "Velocidad",
+        "accuracy": "Precisión",
+        "today": "Hoy",
+        "total": "En total",
+        "wpm": "ppm",
+        "target": "Velocidad objetivo",
+        "reset": "Borrar el progreso",
+        "resetAgain": "Haz clic otra vez para borrar",
+        "fresh": "Letra nueva",
+        "weakest": "Letra más débil",
+        "layout": "Cambia el teclado a {language}.",
+        "source": "Palabras: {source} ({license}).",
+        "failed": "El curso no se cargó. Recarga la página.",
+        "setup": "Cómo añadir el teclado {language}",
+        "macos": "Ajustes del Sistema → Teclado → Entrada de texto → Editar… → «+» → {Language} → «{Language} – PC» → Añadir. Cambia de teclado con Control + Espacio o la tecla 🌐.",
+        "windows": "Configuración → Hora e idioma → Idioma y región → Agregar un idioma → {Language}. Sirve el teclado que propone Windows: las letras están en los mismos sitios. Cambia de teclado con Windows + Espacio.",
+        "linux": "GNOME: Configuración → Teclado → Fuentes de entrada → «+» → {Language}. Cambia de teclado con Super + Espacio."
       }
     },
     "pt": {
@@ -1254,6 +1457,35 @@
         "behance": "No Behance",
         "reviewModel": "Resenha do modelo de linguagem {author}",
         "readInFull": "ler na íntegra"
+      },
+      "typing": {
+        "pageTitle": "Treinador de digitação",
+        "titles": {
+          "he": "Treinador de digitação em hebraico"
+        },
+        "description": "Aprenda a digitar sem olhar para as teclas, começando pelo hebraico: palavras reais, primeiro as letras frequentes, mais prática para as letras em que você erra.",
+        "intro": "Aprenda a digitar sem olhar para as teclas. No começo, as seis letras mais frequentes estão abertas. Uma letra nova se abre quando você digita cada letra aberta na velocidade-alvo com no máximo 5% de erros. As letras em que você erra aparecem mais vezes. Seu progresso fica neste navegador.",
+        "phone": "O treinador precisa de um teclado físico.",
+        "noscript": "O treinador precisa de JavaScript.",
+        "letters": "Letras",
+        "line": "Texto para digitar",
+        "speed": "Velocidade",
+        "accuracy": "Precisão",
+        "today": "Hoje",
+        "total": "No total",
+        "wpm": "ppm",
+        "target": "Velocidade-alvo",
+        "reset": "Zerar o progresso",
+        "resetAgain": "Clique de novo para zerar",
+        "fresh": "Letra nova",
+        "weakest": "Letra mais fraca",
+        "layout": "Mude o teclado para {language}.",
+        "source": "Palavras: {source} ({license}).",
+        "failed": "O curso não carregou. Recarregue a página.",
+        "setup": "Como adicionar o teclado ({language})",
+        "macos": "Ajustes do Sistema → Teclado → Entrada de Texto → Editar… → “+” → {Language} → “{Language} – PC” → Adicionar. Troque de teclado com Control + Espaço ou a tecla 🌐.",
+        "windows": "Configurações → Hora e idioma → Idioma e região → Adicionar um idioma → {Language}. O teclado que o Windows sugere serve: as letras ficam nos mesmos lugares. Troque de teclado com Windows + Espaço.",
+        "linux": "GNOME: Configurações → Teclado → Fontes de entrada → “+” → {Language}. Troque de teclado com Super + Espaço."
       }
     },
     "de": {
@@ -1390,6 +1622,35 @@
         "behance": "Auf Behance",
         "reviewModel": "Rezension des Sprachmodells {author}",
         "readInFull": "ganz lesen"
+      },
+      "typing": {
+        "pageTitle": "Zehnfingersystem-Trainer",
+        "titles": {
+          "he": "Hebräisch-Tipptrainer"
+        },
+        "description": "Tippen lernen, ohne auf die Tasten zu schauen, zuerst auf Hebräisch: echte Wörter, die häufigen Buchstaben zuerst, mehr Übung für die Buchstaben mit Fehlern.",
+        "intro": "Lernen Sie, ohne Blick auf die Tasten zu tippen. Am Anfang sind die sechs häufigsten Buchstaben offen. Ein neuer Buchstabe öffnet sich, wenn Sie jeden offenen Buchstaben im Zieltempo mit höchstens 5 % Fehlern tippen. Buchstaben mit Fehlern kommen öfter vor. Ihr Fortschritt bleibt in diesem Browser.",
+        "phone": "Der Trainer braucht eine echte Tastatur.",
+        "noscript": "Der Trainer braucht JavaScript.",
+        "letters": "Buchstaben",
+        "line": "Text zum Tippen",
+        "speed": "Tempo",
+        "accuracy": "Genauigkeit",
+        "today": "Heute",
+        "total": "Insgesamt",
+        "wpm": "WpM",
+        "target": "Zieltempo",
+        "reset": "Fortschritt zurücksetzen",
+        "resetAgain": "Zum Zurücksetzen erneut klicken",
+        "fresh": "Neuer Buchstabe",
+        "weakest": "Schwächster Buchstabe",
+        "layout": "Stellen Sie die Tastatur auf {Language} um.",
+        "source": "Wörter: {source} ({license}).",
+        "failed": "Der Kurs wurde nicht geladen. Laden Sie die Seite neu.",
+        "setup": "So fügen Sie die Tastatur „{Language}“ hinzu",
+        "macos": "Systemeinstellungen → Tastatur → Texteingabe → Bearbeiten … → „+“ → {Language} → „{Language} – PC“ → Hinzufügen. Umschalten mit Control + Leertaste oder der 🌐-Taste.",
+        "windows": "Einstellungen → Zeit und Sprache → Sprache und Region → Sprache hinzufügen → {Language}. Die Tastatur, die Windows vorschlägt, passt: Die Buchstaben liegen an denselben Stellen. Umschalten mit Windows + Leertaste.",
+        "linux": "GNOME: Einstellungen → Tastatur → Eingabequellen → „+“ → {Language}. Umschalten mit Super + Leertaste."
       }
     },
     "ko": {
@@ -1526,6 +1787,35 @@
         "behance": "Behance에서 보기",
         "reviewModel": "언어 모델 {author}의 서평",
         "readInFull": "전체 읽기"
+      },
+      "typing": {
+        "pageTitle": "타자 연습기",
+        "titles": {
+          "he": "히브리어 타자 연습기"
+        },
+        "description": "자판을 보지 않고 치는 법을 히브리어부터 배웁니다: 실제 단어, 자주 쓰는 글자부터, 틀리는 글자는 더 많이 연습합니다.",
+        "intro": "자판을 보지 않고 치는 법을 배웁니다. 처음에는 가장 자주 쓰는 여섯 글자가 열려 있습니다. 열린 글자를 모두 목표 속도로, 오류 5% 이하로 치면 새 글자가 열립니다. 틀리는 글자는 더 자주 나옵니다. 진행 상황은 이 브라우저에 남습니다.",
+        "phone": "이 연습기에는 실제 키보드가 필요합니다.",
+        "noscript": "이 연습기에는 JavaScript가 필요합니다.",
+        "letters": "글자",
+        "line": "입력할 텍스트",
+        "speed": "속도",
+        "accuracy": "정확도",
+        "today": "오늘",
+        "total": "전체",
+        "wpm": "WPM",
+        "target": "목표 속도",
+        "reset": "진행 상황 초기화",
+        "resetAgain": "한 번 더 누르면 초기화됩니다",
+        "fresh": "새 글자",
+        "weakest": "가장 약한 글자",
+        "layout": "키보드를 {language}(으)로 바꾸세요.",
+        "source": "단어: {source} ({license}).",
+        "failed": "코스를 불러오지 못했습니다. 페이지를 새로 고치세요.",
+        "setup": "{language} 키보드 추가 방법",
+        "macos": "시스템 설정 → 키보드 → 텍스트 입력 → 편집… → ‘+’ → {Language} → ‘{Language} – PC’ → 추가. 전환: Control + Space 또는 🌐 키.",
+        "windows": "설정 → 시간 및 언어 → 언어 및 지역 → 언어 추가 → {Language}. Windows가 제안하는 키보드면 됩니다: 글자 위치가 같습니다. 전환: Windows + Space.",
+        "linux": "GNOME: 설정 → 키보드 → 입력 소스 → ‘+’ → {Language}. 전환: Super + Space."
       }
     },
     "ar": {
@@ -1662,6 +1952,35 @@
         "behance": "على Behance",
         "reviewModel": "مراجعة نموذج اللغة {author}",
         "readInFull": "اقرأ كاملاً"
+      },
+      "typing": {
+        "pageTitle": "مدرّب الكتابة باللمس",
+        "titles": {
+          "he": "مدرّب الكتابة باللمس بالعبرية"
+        },
+        "description": "تعلّم الكتابة دون النظر إلى المفاتيح، بدءًا بالعبرية: كلمات حقيقية، والحروف الشائعة أولًا، وتمرين أكثر على الحروف التي تخطئ فيها.",
+        "intro": "تعلّم الكتابة دون النظر إلى المفاتيح. تبدأ بستة حروف هي الأكثر شيوعًا. يُفتح حرف جديد عندما تكتب كل حرف مفتوح بالسرعة المستهدفة وبأخطاء لا تزيد على 5%. الحروف التي تخطئ فيها تظهر أكثر. يبقى تقدّمك في هذا المتصفح.",
+        "phone": "يحتاج المدرّب إلى لوحة مفاتيح حقيقية.",
+        "noscript": "يحتاج المدرّب إلى JavaScript.",
+        "letters": "الحروف",
+        "line": "النص المطلوب كتابته",
+        "speed": "السرعة",
+        "accuracy": "الدقة",
+        "today": "اليوم",
+        "total": "الإجمالي",
+        "wpm": "كلمة/دقيقة",
+        "target": "السرعة المستهدفة",
+        "reset": "إعادة ضبط التقدّم",
+        "resetAgain": "انقر مرة أخرى لإعادة الضبط",
+        "fresh": "حرف جديد",
+        "weakest": "أضعف حرف",
+        "layout": "بدّل لوحة المفاتيح إلى {language}.",
+        "source": "الكلمات: {source} ({license}).",
+        "failed": "لم تُحمَّل الدورة. أعد تحميل الصفحة.",
+        "setup": "كيف تضيف لوحة المفاتيح ({language})",
+        "macos": "إعدادات النظام ← لوحة المفاتيح ← إدخال النص ← تعديل… ← «+» ← {Language} ← «{Language} – PC» ← إضافة. بدّل بين اللوحات بـ Control + Space أو مفتاح 🌐.",
+        "windows": "الإعدادات ← الوقت واللغة ← اللغة والمنطقة ← إضافة لغة ← {Language}. تصلح لوحة المفاتيح التي يقترحها Windows: الحروف في الأماكن نفسها. بدّل بين اللوحات بـ Windows + Space.",
+        "linux": "GNOME: الإعدادات ← لوحة المفاتيح ← مصادر الإدخال ← «+» ← {Language}. بدّل بين اللوحات بـ Super + Space."
       }
     },
     "it": {
@@ -1798,6 +2117,35 @@
         "behance": "Su Behance",
         "reviewModel": "Recensione del modello linguistico {author}",
         "readInFull": "leggi tutto"
+      },
+      "typing": {
+        "pageTitle": "Allenatore di dattilografia",
+        "titles": {
+          "he": "Allenatore di dattilografia in ebraico"
+        },
+        "description": "Imparare a scrivere senza guardare i tasti, a partire dall’ebraico: parole vere, prima le lettere frequenti, più esercizio per le lettere sbagliate.",
+        "intro": "Impara a scrivere senza guardare i tasti. All’inizio sono aperte le sei lettere più frequenti. Una nuova lettera si apre quando scrivi ogni lettera aperta alla velocità obiettivo con al massimo il 5% di errori. Le lettere che sbagli tornano più spesso. I tuoi progressi restano in questo browser.",
+        "phone": "L’allenatore richiede una tastiera fisica.",
+        "noscript": "L’allenatore richiede JavaScript.",
+        "letters": "Lettere",
+        "line": "Testo da scrivere",
+        "speed": "Velocità",
+        "accuracy": "Precisione",
+        "today": "Oggi",
+        "total": "In totale",
+        "wpm": "ppm",
+        "target": "Velocità obiettivo",
+        "reset": "Azzera i progressi",
+        "resetAgain": "Clicca di nuovo per azzerare",
+        "fresh": "Lettera nuova",
+        "weakest": "Lettera più debole",
+        "layout": "Cambia tastiera: {language}.",
+        "source": "Parole: {source} ({license}).",
+        "failed": "Il corso non si è caricato. Ricarica la pagina.",
+        "setup": "Come aggiungere la tastiera ({language})",
+        "macos": "Impostazioni di Sistema → Tastiera → Inserimento testo → Modifica… → «+» → {Language} → «{Language} – PC» → Aggiungi. Cambia tastiera con Control + Spazio o il tasto 🌐.",
+        "windows": "Impostazioni → Data/ora e lingua → Lingua e area geografica → Aggiungi una lingua → {Language}. Va bene la tastiera proposta da Windows: le lettere sono negli stessi posti. Cambia tastiera con Windows + Spazio.",
+        "linux": "GNOME: Impostazioni → Tastiera → Sorgenti di input → «+» → {Language}. Cambia tastiera con Super + Spazio."
       }
     },
     "el": {
@@ -1936,6 +2284,35 @@
         "behance": "Στο Behance",
         "reviewModel": "Κριτική του γλωσσικού μοντέλου {author}",
         "readInFull": "διαβάστε ολόκληρο"
+      },
+      "typing": {
+        "pageTitle": "Εκπαιδευτής τυφλού συστήματος",
+        "titles": {
+          "he": "Εκπαιδευτής τυφλού συστήματος στα εβραϊκά"
+        },
+        "description": "Μάθετε να πληκτρολογείτε χωρίς να κοιτάτε τα πλήκτρα, ξεκινώντας από τα εβραϊκά: πραγματικές λέξεις, πρώτα τα συχνά γράμματα, περισσότερη εξάσκηση στα γράμματα με λάθη.",
+        "intro": "Μάθετε να πληκτρολογείτε χωρίς να κοιτάτε τα πλήκτρα. Στην αρχή είναι ανοιχτά τα έξι συχνότερα γράμματα. Ένα νέο γράμμα ανοίγει όταν πληκτρολογείτε κάθε ανοιχτό γράμμα με την ταχύτητα-στόχο και με έως 5% λάθη. Τα γράμματα στα οποία κάνετε λάθη εμφανίζονται πιο συχνά. Η πρόοδός σας μένει σε αυτόν τον περιηγητή.",
+        "phone": "Ο εκπαιδευτής χρειάζεται φυσικό πληκτρολόγιο.",
+        "noscript": "Ο εκπαιδευτής χρειάζεται JavaScript.",
+        "letters": "Γράμματα",
+        "line": "Κείμενο για πληκτρολόγηση",
+        "speed": "Ταχύτητα",
+        "accuracy": "Ακρίβεια",
+        "today": "Σήμερα",
+        "total": "Συνολικά",
+        "wpm": "λ/λεπτό",
+        "target": "Ταχύτητα-στόχος",
+        "reset": "Μηδενισμός προόδου",
+        "resetAgain": "Πατήστε ξανά για μηδενισμό",
+        "fresh": "Νέο γράμμα",
+        "weakest": "Πιο αδύναμο γράμμα",
+        "layout": "Αλλάξτε το πληκτρολόγιο σε: {language}.",
+        "source": "Λέξεις: {source} ({license}).",
+        "failed": "Το μάθημα δεν φορτώθηκε. Ανανεώστε τη σελίδα.",
+        "setup": "Πώς να προσθέσετε το πληκτρολόγιο ({language})",
+        "macos": "Ρυθμίσεις συστήματος → Πληκτρολόγιο → Εισαγωγή κειμένου → Επεξεργασία… → «+» → {Language} → «{Language} – PC» → Προσθήκη. Εναλλαγή με Control + Space ή το πλήκτρο 🌐.",
+        "windows": "Ρυθμίσεις → Ώρα και γλώσσα → Γλώσσα και περιοχή → Προσθήκη γλώσσας → {Language}. Το πληκτρολόγιο που προτείνουν τα Windows ταιριάζει: τα γράμματα είναι στις ίδιες θέσεις. Εναλλαγή με Windows + Space.",
+        "linux": "GNOME: Ρυθμίσεις → Πληκτρολόγιο → Πηγές εισόδου → «+» → {Language}. Εναλλαγή με Super + Space."
       }
     },
     "hy": {
@@ -2074,6 +2451,35 @@
         "behance": "Behance-ում",
         "reviewModel": "Լեզվական մոդելի ակնարկ՝ {author}",
         "readInFull": "կարդալ ամբողջությամբ"
+      },
+      "typing": {
+        "pageTitle": "Կույր տպագրության մարզիչ",
+        "titles": {
+          "he": "Եբրայերենով կույր տպագրության մարզիչ"
+        },
+        "description": "Սովորեք տպել՝ առանց ստեղներին նայելու, սկսած եբրայերենից․ իրական բառեր, սկզբում հաճախակի տառերը, ավելի շատ վարժություն սխալվող տառերի համար։",
+        "intro": "Սովորեք տպել՝ առանց ստեղներին նայելու։ Սկզբում բաց են վեց ամենահաճախակի տառերը։ Նոր տառը բացվում է, երբ յուրաքանչյուր բաց տառ տպում եք նպատակային արագությամբ և առավելագույնը 5% սխալով։ Այն տառերը, որոնցում սխալվում եք, ավելի հաճախ են հանդիպում։ Ձեր առաջընթացը մնում է այս դիտարկիչում։",
+        "phone": "Մարզիչի համար անհրաժեշտ է իրական ստեղնաշար։",
+        "noscript": "Մարզիչի համար անհրաժեշտ է JavaScript։",
+        "letters": "Տառեր",
+        "line": "Տպելու տեքստ",
+        "speed": "Արագություն",
+        "accuracy": "Ճշգրտություն",
+        "today": "Այսօր",
+        "total": "Ընդամենը",
+        "wpm": "բառ/րոպե",
+        "target": "Նպատակային արագություն",
+        "reset": "Զրոյացնել առաջընթացը",
+        "resetAgain": "Սեղմեք ևս մեկ անգամ՝ զրոյացնելու համար",
+        "fresh": "Նոր տառ",
+        "weakest": "Ամենաթույլ տառը",
+        "layout": "Փոխեք ստեղնաշարը՝ {language}։",
+        "source": "Բառեր՝ {source} ({license})։",
+        "failed": "Դասընթացը չբեռնվեց։ Թարմացրեք էջը։",
+        "setup": "Ինչպես ավելացնել ստեղնաշարը ({language})",
+        "macos": "Համակարգի կարգավորումներ → Ստեղնաշար → Տեքստի մուտքագրում → Խմբագրել… → «+» → {Language} → «{Language} – PC» → Ավելացնել։ Փոխել՝ Control + Space կամ 🌐 ստեղնով։",
+        "windows": "Կարգավորումներ → Ժամանակ և լեզու → Լեզու և տարածաշրջան → Ավելացնել լեզու → {Language}։ Windows-ի առաջարկած ստեղնաշարը հարմար է․ տառերը նույն տեղերում են։ Փոխել՝ Windows + Space։",
+        "linux": "GNOME․ Կարգավորումներ → Ստեղնաշար → Մուտքի աղբյուրներ → «+» → {Language}։ Փոխել՝ Super + Space։"
       }
     },
     "ka": {
@@ -2212,6 +2618,35 @@
         "behance": "Behance-ზე",
         "reviewModel": "ენობრივი მოდელის {author} რეცენზია",
         "readInFull": "სრულად წაკითხვა"
+      },
+      "typing": {
+        "pageTitle": "ბრმა ბეჭდვის ტრენაჟორი",
+        "titles": {
+          "he": "ბრმა ბეჭდვის ტრენაჟორი ებრაულად"
+        },
+        "description": "ისწავლეთ ბეჭდვა კლავიშებზე დაუხედავად, ებრაულით დაწყებული: ნამდვილი სიტყვები, ჯერ ხშირი ასოები, მეტი ვარჯიში იმ ასოებზე, რომლებშიც ცდებით.",
+        "intro": "ისწავლეთ ბეჭდვა კლავიშებზე დაუხედავად. დასაწყისში ღიაა ექვსი ყველაზე ხშირი ასო. ახალი ასო იხსნება, როცა ყოველ ღია ასოს ბეჭდავთ მიზნობრივი სიჩქარით და არაუმეტეს 5% შეცდომით. ასოები, რომლებშიც ცდებით, უფრო ხშირად გხვდებათ. თქვენი პროგრესი ამ ბრაუზერში რჩება.",
+        "phone": "ტრენაჟორს ნამდვილი კლავიატურა სჭირდება.",
+        "noscript": "ტრენაჟორს JavaScript სჭირდება.",
+        "letters": "ასოები",
+        "line": "ასაკრეფი ტექსტი",
+        "speed": "სიჩქარე",
+        "accuracy": "სიზუსტე",
+        "today": "დღეს",
+        "total": "სულ",
+        "wpm": "სიტყ/წთ",
+        "target": "მიზნობრივი სიჩქარე",
+        "reset": "პროგრესის განულება",
+        "resetAgain": "დააჭირეთ კიდევ ერთხელ განსანულებლად",
+        "fresh": "ახალი ასო",
+        "weakest": "ყველაზე სუსტი ასო",
+        "layout": "გადართეთ კლავიატურა: {language}.",
+        "source": "სიტყვები: {source} ({license}).",
+        "failed": "კურსი ვერ ჩაიტვირთა. განაახლეთ გვერდი.",
+        "setup": "როგორ დავამატოთ კლავიატურა ({language})",
+        "macos": "სისტემის პარამეტრები → კლავიატურა → ტექსტის შეყვანა → რედაქტირება… → „+“ → {Language} → „{Language} – PC“ → დამატება. გადართვა: Control + Space ან 🌐 კლავიში.",
+        "windows": "პარამეტრები → დრო და ენა → ენა და რეგიონი → ენის დამატება → {Language}. Windows-ის შემოთავაზებული კლავიატურა გამოდგება: ასოები იმავე ადგილებზეა. გადართვა: Windows + Space.",
+        "linux": "GNOME: პარამეტრები → კლავიატურა → შეყვანის წყაროები → „+“ → {Language}. გადართვა: Super + Space."
       }
     }
   }

@@ -77,6 +77,75 @@
         }
       },
       "version": "0.42.0"
+    },
+    {
+      "id": "typing",
+      "name": "Hebrew touch typing trainer",
+      "year": 2026,
+      "language": "JavaScript",
+      "page": "typing/",
+      "i18n": {
+        "ru": {
+          "name": "Тренажёр слепой печати на иврите",
+          "description": "Учитесь печатать, не глядя на клавиши, начиная с иврита: настоящие слова, сначала частые буквы, больше практики на буквах с ошибками."
+        },
+        "en": {
+          "name": "Hebrew touch typing trainer",
+          "description": "Learn to type without looking at the keys, starting with Hebrew: real words, the frequent letters first, more practice for the letters you miss."
+        },
+        "he": {
+          "name": "מאמן הקלדה עיוורת בעברית",
+          "description": "ללמוד להקליד בלי להסתכל על המקלדת, החל מעברית: מילים אמיתיות, קודם האותיות הנפוצות, יותר תרגול לאותיות שבהן טועים."
+        },
+        "fr": {
+          "name": "Entraîneur de dactylographie en hébreu",
+          "description": "Apprendre à taper sans regarder les touches, en commençant par l’hébreu : de vrais mots, les lettres fréquentes d’abord, plus d’exercice pour les lettres où l’on se trompe."
+        },
+        "zh": {
+          "name": "希伯来语盲打练习",
+          "description": "学习不看键盘打字，先从希伯来语开始：真实的单词，先练常用字母，打错的字母多练。"
+        },
+        "ja": {
+          "name": "ヘブライ語タッチタイピング練習",
+          "description": "キーを見ずに打つ練習。まずはヘブライ語から：実際の単語、よく使う文字から順に、間違えた文字を多めに練習します。"
+        },
+        "es": {
+          "name": "Entrenador de mecanografía en hebreo",
+          "description": "Aprende a escribir sin mirar las teclas, empezando por el hebreo: palabras reales, primero las letras frecuentes, más práctica para las letras en que te equivocas."
+        },
+        "pt": {
+          "name": "Treinador de digitação em hebraico",
+          "description": "Aprenda a digitar sem olhar para as teclas, começando pelo hebraico: palavras reais, primeiro as letras frequentes, mais prática para as letras em que você erra."
+        },
+        "de": {
+          "name": "Hebräisch-Tipptrainer",
+          "description": "Tippen lernen, ohne auf die Tasten zu schauen, zuerst auf Hebräisch: echte Wörter, die häufigen Buchstaben zuerst, mehr Übung für die Buchstaben mit Fehlern."
+        },
+        "ko": {
+          "name": "히브리어 타자 연습기",
+          "description": "자판을 보지 않고 치는 법을 히브리어부터 배웁니다: 실제 단어, 자주 쓰는 글자부터, 틀리는 글자는 더 많이 연습합니다."
+        },
+        "ar": {
+          "name": "مدرّب الكتابة باللمس بالعبرية",
+          "description": "تعلّم الكتابة دون النظر إلى المفاتيح، بدءًا بالعبرية: كلمات حقيقية، والحروف الشائعة أولًا، وتمرين أكثر على الحروف التي تخطئ فيها."
+        },
+        "it": {
+          "name": "Allenatore di dattilografia in ebraico",
+          "description": "Imparare a scrivere senza guardare i tasti, a partire dall’ebraico: parole vere, prima le lettere frequenti, più esercizio per le lettere sbagliate."
+        },
+        "el": {
+          "name": "Εκπαιδευτής τυφλού συστήματος στα εβραϊκά",
+          "description": "Μάθετε να πληκτρολογείτε χωρίς να κοιτάτε τα πλήκτρα, ξεκινώντας από τα εβραϊκά: πραγματικές λέξεις, πρώτα τα συχνά γράμματα, περισσότερη εξάσκηση στα γράμματα με λάθη."
+        },
+        "hy": {
+          "name": "Եբրայերենով կույր տպագրության մարզիչ",
+          "description": "Սովորեք տպել՝ առանց ստեղներին նայելու, սկսած եբրայերենից․ իրական բառեր, սկզբում հաճախակի տառերը, ավելի շատ վարժություն սխալվող տառերի համար։"
+        },
+        "ka": {
+          "name": "ბრმა ბეჭდვის ტრენაჟორი ებრაულად",
+          "description": "ისწავლეთ ბეჭდვა კლავიშებზე დაუხედავად, ებრაულით დაწყებული: ნამდვილი სიტყვები, ჯერ ხშირი ასოები, მეტი ვარჯიში იმ ასოებზე, რომლებშიც ცდებით."
+        }
+      }
     }
   ],
   "categories": [
