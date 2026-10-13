@@ -47,7 +47,7 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
   <meta name="twitter:creator" content="@matyushkin">
   <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="/feed.xml">
   <link rel="preload" href="/fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/style.css?v=fb93eef47f">
+  <link rel="stylesheet" href="/style.css?v=49d251ed00">
   <link rel="icon" href="/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/icon-192.png">
   <link rel="manifest" href="/manifest.json">
@@ -59,7 +59,7 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
    ym(64328872, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/64328872" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-  <script src="/source/typing.js?v=0c0536ef4c" defer></script>
+  <script src="/source/typing.js?v=9704810e22" defer></script>
 </head>
 <body class="light-theme">
 <script>/* Pick the theme before anything paints: the visitor's own choice wins, otherwise the device setting. */
@@ -94,7 +94,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
           <li><a href="/zh/typing/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh">简体中文</a></li>
         </ul>
       </details>
-      <button type="button" class="theme-button" aria-label="테마 전환" title="테마 전환">◑</button>
+      <button type="button" class="theme-button" aria-label="다크 테마" aria-pressed="false" title="테마 전환">◑</button>
     </nav>
   </header>
   <main id="main-content">
@@ -110,8 +110,8 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     <noscript><p>이 연습기에는 JavaScript가 필요합니다.</p></noscript>
     <section id="typing" data-course="he" aria-label="히브리어 타자 연습기">
       <ol class="typing-letters" aria-label="글자"></ol>
-      <p class="typing-status" aria-live="polite"></p>
-      <p class="typing-line" aria-label="입력할 텍스트"></p>
+      <p class="typing-status" id="typing-status" aria-live="polite"></p>
+      <p class="typing-line" tabindex="0" role="application" aria-label="입력할 텍스트" aria-describedby="typing-status"></p>
       <p class="typing-layout" role="alert" hidden>키보드를 히브리어(으)로 바꾸세요. <a href="/ko/typing/setup/">히브리어 키보드 추가 방법</a></p>
       <div class="typing-keyboard" dir="ltr" aria-hidden="true" hidden></div>
       <dl class="typing-figures">
@@ -123,11 +123,11 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       <p class="typing-settings"><label>목표 속도 <input type="number" class="typing-target" min="10" max="150" step="1" inputmode="numeric"> WPM</label>
         <button type="button" class="typing-reset">진행 상황 초기화</button></p>
     </section>
-    <script type="application/json" id="typing-words">{"wpm": "WPM", "fresh": "새 글자", "weakest": "가장 약한 글자", "reset": "진행 상황 초기화", "resetAgain": "한 번 더 누르면 초기화됩니다", "failed": "코스를 불러오지 못했습니다. 페이지를 새로 고치세요.", "colon": ":"}</script>
+    <script type="application/json" id="typing-words">{"wpm": "WPM", "fresh": "새 글자", "weakest": "가장 약한 글자", "reset": "진행 상황 초기화", "resetAgain": "한 번 더 누르면 초기화됩니다", "failed": "코스를 불러오지 못했습니다. 페이지를 새로 고치세요.", "expected": "오타: {letter} 입력", "lineDone": "줄 완료", "locked": "잠김", "ready": "완료", "colon": ":"}</script>
   </main>
   <footer>
     <p>이메일 — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">새 소식 피드</a></p>
   </footer>
-  <script src="/source/site.js?v=a3099aae00" data-close="닫기"></script>
+  <script src="/source/site.js?v=c02d7406bd" data-close="닫기"></script>
 </body>
 </html>

@@ -47,7 +47,7 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
   <meta name="twitter:creator" content="@matyushkin">
   <link rel="alternate" type="application/atom+xml" title="Leo Matyushkin" href="/feed.xml">
   <link rel="preload" href="/fonts/cmunss.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/style.css?v=fb93eef47f">
+  <link rel="stylesheet" href="/style.css?v=49d251ed00">
   <link rel="icon" href="/img/logo.png" type="image/png">
   <link rel="apple-touch-icon" href="/img/icon-192.png">
   <link rel="manifest" href="/manifest.json">
@@ -59,7 +59,7 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
    ym(64328872, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/64328872" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-  <script src="/source/typing.js?v=0c0536ef4c" defer></script>
+  <script src="/source/typing.js?v=9704810e22" defer></script>
 </head>
 <body class="light-theme">
 <script>/* Pick the theme before anything paints: the visitor's own choice wins, otherwise the device setting. */
@@ -94,7 +94,7 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
           <li><a href="/zh/typing/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" aria-current="true">简体中文</a></li>
         </ul>
       </details>
-      <button type="button" class="theme-button" aria-label="切换主题" title="切换主题">◑</button>
+      <button type="button" class="theme-button" aria-label="深色主题" aria-pressed="false" title="切换主题">◑</button>
     </nav>
   </header>
   <main id="main-content">
@@ -110,8 +110,8 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     <noscript><p>此练习需要 JavaScript。</p></noscript>
     <section id="typing" data-course="he" aria-label="希伯来语盲打练习">
       <ol class="typing-letters" aria-label="字母"></ol>
-      <p class="typing-status" aria-live="polite"></p>
-      <p class="typing-line" aria-label="要输入的文字"></p>
+      <p class="typing-status" id="typing-status" aria-live="polite"></p>
+      <p class="typing-line" tabindex="0" role="application" aria-label="要输入的文字" aria-describedby="typing-status"></p>
       <p class="typing-layout" role="alert" hidden>请把键盘切换为希伯来语。 <a href="/zh/typing/setup/">如何添加希伯来语键盘</a></p>
       <div class="typing-keyboard" dir="ltr" aria-hidden="true" hidden></div>
       <dl class="typing-figures">
@@ -123,11 +123,11 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
       <p class="typing-settings"><label>目标速度 <input type="number" class="typing-target" min="10" max="150" step="1" inputmode="numeric"> 词/分</label>
         <button type="button" class="typing-reset">重置进度</button></p>
     </section>
-    <script type="application/json" id="typing-words">{"wpm": "词/分", "fresh": "新字母", "weakest": "最弱的字母", "reset": "重置进度", "resetAgain": "再点一次以重置", "failed": "课程未能加载。请刷新页面。", "colon": "："}</script>
+    <script type="application/json" id="typing-words">{"wpm": "词/分", "fresh": "新字母", "weakest": "最弱的字母", "reset": "重置进度", "resetAgain": "再点一次以重置", "failed": "课程未能加载。请刷新页面。", "expected": "按错了：应为 {letter}", "lineDone": "本行完成", "locked": "未解锁", "ready": "已掌握", "colon": "："}</script>
   </main>
   <footer>
     <p>邮箱 — <a href="mailto:leva.matyushkin@gmail.com">leva.matyushkin@gmail.com</a> · <a href="/feed.xml">订阅更新</a></p>
   </footer>
-  <script src="/source/site.js?v=a3099aae00" data-close="关闭"></script>
+  <script src="/source/site.js?v=c02d7406bd" data-close="关闭"></script>
 </body>
 </html>
