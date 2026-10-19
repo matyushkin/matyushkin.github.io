@@ -14,6 +14,8 @@ the owner's private repository and reads only this repository:
   `project.json` and every picture), so a project has its own page here that
   does not depend on Behance. `mirror_behance.py` refreshes the copies; a
   project that cannot be read keeps its last copy.
+- `art/behance/alt.json` — the alt text of each picture on those pages, keyed
+  `<id>/<file>`; it outranks the alt text Behance gives.
 
 It writes one static page per language: English at the root (`/science/`),
 every other language under its code (`/ru/science/`, `/de/science/`, …). Each
