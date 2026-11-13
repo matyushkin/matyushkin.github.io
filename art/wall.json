@@ -1,0 +1,271 @@
+{
+ "title": {
+  "ru": "Полотно",
+  "en": "The wall"
+ },
+ "intro": {
+  "ru": "Мои работы в одном месте, зал за залом, каждая в своей раме. Нажмите на работу, чтобы рассмотреть её крупно.",
+  "en": "My artworks in one place, hall by hall, each in its own frame. Click a work to see it large."
+ },
+ "halls": [
+  {
+   "slug": "petushki",
+   "title": {
+    "ru": "Петушки",
+    "en": "Roosters and St Peter"
+   },
+   "works": [
+    {
+     "id": "f471ea8b74",
+     "file": "work/art/drawings/petushki/apostle-peter-and-rooster-marker.jpg",
+     "width": 1010,
+     "height": 1525,
+     "title": {
+      "en": "Apostle peter and rooster",
+      "ru": "Апостол Пётр и петушок"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.8334,
+      "mat": "#f0ede9",
+      "wood": "#7a5a3c",
+      "paper": "#ece3d8"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "ee979832fb",
+     "file": "work/art/drawings/petushki/apostle-peter-with-keys-and-rooster-marker.jpg",
+     "width": 1180,
+     "height": 1677,
+     "title": {
+      "en": "Apostle peter with keys and rooster",
+      "ru": "Апостол Пётр с ключами и петушком"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.8419,
+      "mat": "#f3f1ee",
+      "wood": "#7a5a3c",
+      "paper": "#ebe7e1"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "3cb35f5ff4",
+     "file": "work/art/drawings/petushki/rooster-and-saint-marker.jpg",
+     "width": 1180,
+     "height": 1677,
+     "title": {
+      "en": "Rooster and saint",
+      "ru": "Петушок и святой"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.7159,
+      "mat": "#eeeae6",
+      "wood": "#7a5a3c",
+      "paper": "#e9e0d6"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "a891df52b9",
+     "file": "work/art/drawings/petushki/rooster-head-and-saint-marker.jpg",
+     "width": 996,
+     "height": 1540,
+     "title": {
+      "en": "Rooster head and saint",
+      "ru": "Голова петушка и святой"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.4099,
+      "mat": "#f1eeeb",
+      "wood": "#7a5a3c",
+      "paper": "#ede4da"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "72628e1161",
+     "file": "work/art/drawings/petushki/apostle-peter-and-rooster-portrait-marker.jpg",
+     "width": 1027,
+     "height": 1533,
+     "title": {
+      "en": "Apostle peter and rooster portrait",
+      "ru": "Апостол Пётр и петушок, портрет"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.164,
+      "mat": "#f0edea",
+      "wood": "#7a5a3c",
+      "paper": "#ede3d9"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "a18ecd2883",
+     "file": "work/art/drawings/petushki/apostle-peter-with-book-and-keys-marker.jpg",
+     "width": 996,
+     "height": 1540,
+     "title": {
+      "en": "Apostle peter with book and keys",
+      "ru": "Апостол Пётр с книгой и ключами"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.6389,
+      "mat": "#f0ede9",
+      "wood": "#7a5a3c",
+      "paper": "#ece3d9"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "6e92492c99",
+     "file": "work/art/drawings/petushki/rooster-close-up-marker.jpg",
+     "width": 994,
+     "height": 1517,
+     "title": {
+      "en": "Rooster close up",
+      "ru": "Петушок (крупно)"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.5268,
+      "mat": "#f0ede9",
+      "wood": "#7a5a3c",
+      "paper": "#ece3d9"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "13b932893c",
+     "file": "work/art/drawings/petushki/rooster-face-and-saint-marker.jpg",
+     "width": 1175,
+     "height": 1689,
+     "title": {
+      "en": "Rooster face and saint",
+      "ru": "Петушок анфас и святой"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.8755,
+      "mat": "#f3f1ee",
+      "wood": "#262422",
+      "paper": "#ebe7e1"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "80ec205238",
+     "file": "work/art/drawings/petushki/rooster-head-marker.jpg",
+     "width": 1027,
+     "height": 1533,
+     "title": {
+      "en": "Rooster head",
+      "ru": "Голова петушка"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.4515,
+      "mat": "#f0ede9",
+      "wood": "#7a5a3c",
+      "paper": "#ece4d9"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    },
+    {
+     "id": "80e3169333",
+     "file": "work/art/drawings/petushki/rooster-side-view-marker.jpg",
+     "width": 1533,
+     "height": 1009,
+     "title": {
+      "en": "Rooster side view",
+      "ru": "Петушок сбоку"
+     },
+     "frame": {
+      "kind": "icon",
+      "seed": 0.7897,
+      "mat": "#f0ede9",
+      "wood": "#7a5a3c",
+      "paper": "#ece3d9"
+     },
+     "publications": {
+      "behance": "2021-09-07",
+      "telegram": "2025-03-16"
+     },
+     "medium": {
+      "ru": "маркер",
+      "en": "marker"
+     }
+    }
+   ]
+  }
+ ]
+}
