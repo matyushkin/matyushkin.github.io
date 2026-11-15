@@ -1,19 +1,28 @@
 {
  "title": {
-  "ru": "Полотно",
-  "en": "The wall"
+  "ru": "Работы",
+  "en": "Works"
  },
  "intro": {
-  "ru": "Мои работы в одном месте, зал за залом, каждая в своей раме. Нажмите на работу, чтобы рассмотреть её крупно.",
-  "en": "My artworks in one place, hall by hall, each in its own frame. Click a work to see it large."
+  "ru": "Рисунки, живопись и цифровые работы — зал за залом.",
+  "en": "Drawings, paintings and digital works, hall by hall."
+ },
+ "story": {
+  "ru": "История серии целиком",
+  "en": "The whole story of the series"
  },
  "halls": [
   {
    "slug": "petushki",
    "title": {
-    "ru": "Петушки",
-    "en": "Roosters and St Peter"
+    "ru": "Апостол Пётр и петушок",
+    "en": "Saint Peter and the Rooster"
    },
+   "note": {
+    "ru": "Десять открыток маркером, сентябрь 2021 года.",
+    "en": "Ten postcards in marker, September 2021."
+   },
+   "story": "126903249",
    "works": [
     {
      "id": "f471ea8b74",
@@ -25,7 +34,7 @@
       "ru": "Апостол Пётр и петушок"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.8334,
       "mat": "#f0ede9",
       "wood": "#7a5a3c",
@@ -50,7 +59,7 @@
       "ru": "Апостол Пётр с ключами и петушком"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.8419,
       "mat": "#f3f1ee",
       "wood": "#7a5a3c",
@@ -75,7 +84,7 @@
       "ru": "Петушок и святой"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.7159,
       "mat": "#eeeae6",
       "wood": "#7a5a3c",
@@ -100,7 +109,7 @@
       "ru": "Голова петушка и святой"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.4099,
       "mat": "#f1eeeb",
       "wood": "#7a5a3c",
@@ -125,7 +134,7 @@
       "ru": "Апостол Пётр и петушок, портрет"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.164,
       "mat": "#f0edea",
       "wood": "#7a5a3c",
@@ -150,7 +159,7 @@
       "ru": "Апостол Пётр с книгой и ключами"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.6389,
       "mat": "#f0ede9",
       "wood": "#7a5a3c",
@@ -175,7 +184,7 @@
       "ru": "Петушок (крупно)"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.5268,
       "mat": "#f0ede9",
       "wood": "#7a5a3c",
@@ -200,7 +209,7 @@
       "ru": "Петушок анфас и святой"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.8755,
       "mat": "#f3f1ee",
       "wood": "#262422",
@@ -225,7 +234,7 @@
       "ru": "Голова петушка"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.4515,
       "mat": "#f0ede9",
       "wood": "#7a5a3c",
@@ -250,7 +259,7 @@
       "ru": "Петушок сбоку"
      },
      "frame": {
-      "kind": "icon",
+      "kind": "pinned",
       "seed": 0.7897,
       "mat": "#f0ede9",
       "wood": "#7a5a3c",

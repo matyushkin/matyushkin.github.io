@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The wall — Leo Matyushkin</title>
-  <meta name="description" content="My artworks in one place, hall by hall, each in its own frame. Click a work to see it large.">
+  <title>Works — Leo Matyushkin</title>
+  <meta name="description" content="Drawings, paintings and digital works, hall by hall.">
   <meta name="robots" content="max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="https://matyushkin.github.io/art/wall/">
   <link rel="alternate" hreflang="ar" href="https://matyushkin.github.io/ar/art/wall/">
@@ -36,8 +36,8 @@ else{try{s=localStorage.getItem('lang')}catch(e){}}
 if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Leo Matyushkin">
-  <meta property="og:title" content="The wall — Leo Matyushkin">
-  <meta property="og:description" content="My artworks in one place, hall by hall, each in its own frame. Click a work to see it large.">
+  <meta property="og:title" content="Works — Leo Matyushkin">
+  <meta property="og:description" content="Drawings, paintings and digital works, hall by hall.">
   <meta property="og:url" content="https://matyushkin.github.io/art/wall/">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://matyushkin.github.io/img/og-preview.png">
@@ -61,11 +61,12 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
   <noscript><div><img src="https://mc.yandex.ru/watch/64328872" style="position:absolute; left:-9999px;" alt=""></div></noscript>
   <style>
 .wall-page{max-width:72rem}
-.wall-halls{position:sticky;top:0;z-index:2;padding:.5rem 0;background:inherit}
+.wall-halls{position:sticky;top:0;z-index:2;padding:.5rem 0;background:#fff}
+.dark-theme .wall-halls{background:#1a1a1a}
 .wall-hall{margin:3rem 0}
 .wall-row{display:flex;flex-wrap:wrap;gap:3rem 3.5rem;align-items:center;justify-content:center}
-.wall-row .work{width:min(88vw,var(--w))}
-.work a.frame,.work .sheet{display:block}
+.wall-row .hung{width:min(88vw,var(--w))}
+.hung a.frame,.hung .sheet{display:block}
 .wall-viewer{display:none}
 .wall-viewer:target{display:flex;flex-direction:column;align-items:center;justify-content:center;
   position:fixed;inset:0;z-index:10;background:#000e;color:#ddd;padding:1rem}
@@ -73,11 +74,11 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
 .wall-viewer p{position:relative;pointer-events:none;margin:.6rem 0 0}
 .wall-close{position:absolute;inset:0;color:#ddd;text-align:right;padding:.5rem 1rem;
   font-size:2rem;text-decoration:none}
-@media (max-width:600px){.work{rotate:calc(var(--tilt)/2)}.wall-row{gap:2rem}}
+@media (max-width:600px){.hung{rotate:calc(var(--tilt)/2)}.wall-row{gap:2rem}}
 
-.work{margin:0;rotate:var(--tilt)}
-.work img{display:block;width:100%;height:auto}
-.work figcaption{font-size:.8rem;opacity:.7;margin-top:.8rem;text-align:center;rotate:calc(-1*var(--tilt))}
+.hung{margin:0;rotate:var(--tilt)}
+.hung img{display:block;width:100%;height:auto}
+.hung figcaption{font-size:.8rem;opacity:.7;margin-top:.8rem;text-align:center;rotate:calc(-1*var(--tilt))}
 .gallery .frame{padding:9%;background:var(--mat);border:6px solid var(--wood);
   box-shadow:inset 2px 2px 6px #0003,6px 8px 18px #0003}
 .gallery .sheet{box-shadow:0 0 0 1px #0001}
@@ -100,7 +101,7 @@ if(A[s]&&s!==L)location.replace(A[s].url+location.hash);})();</script>
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "ImageGallery",
-  "name": "The wall",
+  "name": "Works",
   "author": {
     "@type": "Person",
     "@id": "https://matyushkin.github.io/#person",
@@ -219,22 +220,23 @@ var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dar
     </nav>
   </header>
   <main id="main-content" class="wall-page">
-    <h1>The wall</h1>
-    <p>My artworks in one place, hall by hall, each in its own frame. Click a work to see it large.</p>
-    <nav class="wall-halls" aria-label="The wall"><a href="#hall-petushki">Roosters and St Peter</a></nav>
+    <h1>Works</h1>
+    <p>Drawings, paintings and digital works, hall by hall.</p>
+    <nav class="wall-halls" aria-label="Works"><a href="#hall-petushki">Saint Peter and the Rooster</a></nav>
     <section class="wall-hall" id="hall-petushki">
-      <h2>Roosters and St Peter</h2>
+      <h2>Saint Peter and the Rooster</h2>
+      <p>Ten postcards in marker, September 2021. <a href="/art/behance/126903249/">The whole story of the series</a></p>
       <div class="wall-row">
-        <figure class="work icon" id="work-f471ea8b74" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:62deg;--tilt:0.00deg;--tape:58%;--hue:5deg;--w:13.8rem"><a class="frame" href="#w-f471ea8b74"><span class="sheet"><img src="/art/wall/f471ea8b74-640.webp" alt="Apostle peter and rooster, marker" width="1010" height="1525" loading="lazy"></span></a><figcaption>Apostle peter and rooster, marker</figcaption></figure>
-        <figure class="work icon" id="work-ee979832fb" style="--mat:#f3f1ee;--wood:#7a5a3c;--grain:62deg;--tilt:0.00deg;--tape:59%;--hue:5deg;--w:14.3rem"><a class="frame" href="#w-ee979832fb"><span class="sheet"><img src="/art/wall/ee979832fb-640.webp" alt="Apostle peter with keys and rooster, marker" width="1180" height="1677" loading="lazy"></span></a><figcaption>Apostle peter with keys and rooster, marker</figcaption></figure>
-        <figure class="work icon" id="work-3cb35f5ff4" style="--mat:#eeeae6;--wood:#7a5a3c;--grain:56deg;--tilt:0.00deg;--tape:54%;--hue:3deg;--w:14.3rem"><a class="frame" href="#w-3cb35f5ff4"><span class="sheet"><img src="/art/wall/3cb35f5ff4-640.webp" alt="Rooster and saint, marker" width="1180" height="1677" loading="lazy"></span></a><figcaption>Rooster and saint, marker</figcaption></figure>
-        <figure class="work icon" id="work-a891df52b9" style="--mat:#f1eeeb;--wood:#7a5a3c;--grain:40deg;--tilt:0.00deg;--tape:41%;--hue:-1deg;--w:13.7rem"><a class="frame" href="#w-a891df52b9"><span class="sheet"><img src="/art/wall/a891df52b9-640.webp" alt="Rooster head and saint, marker" width="996" height="1540" loading="lazy"></span></a><figcaption>Rooster head and saint, marker</figcaption></figure>
-        <figure class="work icon" id="work-72628e1161" style="--mat:#f0edea;--wood:#7a5a3c;--grain:28deg;--tilt:0.00deg;--tape:32%;--hue:-5deg;--w:13.9rem"><a class="frame" href="#w-72628e1161"><span class="sheet"><img src="/art/wall/72628e1161-640.webp" alt="Apostle peter and rooster portrait, marker" width="1027" height="1533" loading="lazy"></span></a><figcaption>Apostle peter and rooster portrait, marker</figcaption></figure>
-        <figure class="work icon" id="work-a18ecd2883" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:52deg;--tilt:0.00deg;--tape:51%;--hue:2deg;--w:13.7rem"><a class="frame" href="#w-a18ecd2883"><span class="sheet"><img src="/art/wall/a18ecd2883-640.webp" alt="Apostle peter with book and keys, marker" width="996" height="1540" loading="lazy"></span></a><figcaption>Apostle peter with book and keys, marker</figcaption></figure>
-        <figure class="work icon" id="work-6e92492c99" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:46deg;--tilt:0.00deg;--tape:46%;--hue:0deg;--w:13.8rem"><a class="frame" href="#w-6e92492c99"><span class="sheet"><img src="/art/wall/6e92492c99-640.webp" alt="Rooster close up, marker" width="994" height="1517" loading="lazy"></span></a><figcaption>Rooster close up, marker</figcaption></figure>
-        <figure class="work icon" id="work-13b932893c" style="--mat:#f3f1ee;--wood:#262422;--grain:64deg;--tilt:0.00deg;--tape:60%;--hue:6deg;--w:14.2rem"><a class="frame" href="#w-13b932893c"><span class="sheet"><img src="/art/wall/13b932893c-640.webp" alt="Rooster face and saint, marker" width="1175" height="1689" loading="lazy"></span></a><figcaption>Rooster face and saint, marker</figcaption></figure>
-        <figure class="work icon" id="work-80ec205238" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:43deg;--tilt:0.00deg;--tape:43%;--hue:-1deg;--w:13.9rem"><a class="frame" href="#w-80ec205238"><span class="sheet"><img src="/art/wall/80ec205238-640.webp" alt="Rooster head, marker" width="1027" height="1533" loading="lazy"></span></a><figcaption>Rooster head, marker</figcaption></figure>
-        <figure class="work icon" id="work-80e3169333" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:59deg;--tilt:0.00deg;--tape:57%;--hue:5deg;--w:21.0rem"><a class="frame" href="#w-80e3169333"><span class="sheet"><img src="/art/wall/80e3169333-640.webp" alt="Rooster side view, marker" width="1533" height="1009" loading="lazy"></span></a><figcaption>Rooster side view, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-f471ea8b74" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:62deg;--tilt:0.47deg;--tape:58%;--hue:5deg;--w:13.8rem"><a class="frame" href="#w-f471ea8b74"><span class="sheet"><img src="/art/wall/f471ea8b74-640.webp" alt="Apostle peter and rooster, marker" width="1010" height="1525" loading="lazy"></span></a><figcaption>Apostle peter and rooster, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-ee979832fb" style="--mat:#f3f1ee;--wood:#7a5a3c;--grain:62deg;--tilt:0.48deg;--tape:59%;--hue:5deg;--w:14.3rem"><a class="frame" href="#w-ee979832fb"><span class="sheet"><img src="/art/wall/ee979832fb-640.webp" alt="Apostle peter with keys and rooster, marker" width="1180" height="1677" loading="lazy"></span></a><figcaption>Apostle peter with keys and rooster, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-3cb35f5ff4" style="--mat:#eeeae6;--wood:#7a5a3c;--grain:56deg;--tilt:0.30deg;--tape:54%;--hue:3deg;--w:14.3rem"><a class="frame" href="#w-3cb35f5ff4"><span class="sheet"><img src="/art/wall/3cb35f5ff4-640.webp" alt="Rooster and saint, marker" width="1180" height="1677" loading="lazy"></span></a><figcaption>Rooster and saint, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-a891df52b9" style="--mat:#f1eeeb;--wood:#7a5a3c;--grain:40deg;--tilt:-0.13deg;--tape:41%;--hue:-1deg;--w:13.7rem"><a class="frame" href="#w-a891df52b9"><span class="sheet"><img src="/art/wall/a891df52b9-640.webp" alt="Rooster head and saint, marker" width="996" height="1540" loading="lazy"></span></a><figcaption>Rooster head and saint, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-72628e1161" style="--mat:#f0edea;--wood:#7a5a3c;--grain:28deg;--tilt:-0.47deg;--tape:32%;--hue:-5deg;--w:13.9rem"><a class="frame" href="#w-72628e1161"><span class="sheet"><img src="/art/wall/72628e1161-640.webp" alt="Apostle peter and rooster portrait, marker" width="1027" height="1533" loading="lazy"></span></a><figcaption>Apostle peter and rooster portrait, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-a18ecd2883" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:52deg;--tilt:0.19deg;--tape:51%;--hue:2deg;--w:13.7rem"><a class="frame" href="#w-a18ecd2883"><span class="sheet"><img src="/art/wall/a18ecd2883-640.webp" alt="Apostle peter with book and keys, marker" width="996" height="1540" loading="lazy"></span></a><figcaption>Apostle peter with book and keys, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-6e92492c99" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:46deg;--tilt:0.04deg;--tape:46%;--hue:0deg;--w:13.8rem"><a class="frame" href="#w-6e92492c99"><span class="sheet"><img src="/art/wall/6e92492c99-640.webp" alt="Rooster close up, marker" width="994" height="1517" loading="lazy"></span></a><figcaption>Rooster close up, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-13b932893c" style="--mat:#f3f1ee;--wood:#262422;--grain:64deg;--tilt:0.53deg;--tape:60%;--hue:6deg;--w:14.2rem"><a class="frame" href="#w-13b932893c"><span class="sheet"><img src="/art/wall/13b932893c-640.webp" alt="Rooster face and saint, marker" width="1175" height="1689" loading="lazy"></span></a><figcaption>Rooster face and saint, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-80ec205238" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:43deg;--tilt:-0.07deg;--tape:43%;--hue:-1deg;--w:13.9rem"><a class="frame" href="#w-80ec205238"><span class="sheet"><img src="/art/wall/80ec205238-640.webp" alt="Rooster head, marker" width="1027" height="1533" loading="lazy"></span></a><figcaption>Rooster head, marker</figcaption></figure>
+        <figure class="hung pinned" id="work-80e3169333" style="--mat:#f0ede9;--wood:#7a5a3c;--grain:59deg;--tilt:0.41deg;--tape:57%;--hue:5deg;--w:21.0rem"><a class="frame" href="#w-80e3169333"><span class="sheet"><img src="/art/wall/80e3169333-640.webp" alt="Rooster side view, marker" width="1533" height="1009" loading="lazy"></span></a><figcaption>Rooster side view, marker</figcaption></figure>
       </div>
     </section>
 
