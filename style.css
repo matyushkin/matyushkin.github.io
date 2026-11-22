@@ -703,6 +703,23 @@ main h3 {
     margin: 1.4em 0;
 }
 
+/* a poem inside a story: set apart from the prose around it */
+.project-poem {
+    margin: 2rem 0 2rem 1.5rem;
+    padding-left: 1.25rem;
+    border-left: 2px solid currentColor;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.project-poem p {
+    margin: 0 0 0.6rem;
+}
+
+.project-poem strong {
+    font-style: normal;
+}
+
 .project-image img {
     width: 100%;
     height: auto;
